@@ -5,8 +5,8 @@ layout: default
   <div class="row">
     <div class="col-md-9" role="main">
 
-      {% for repository in site.github.repositories %}
-        {{ repository.title }}
+      {% for repository in site.github.public_repositories %}
+        * [{{ repository.name }}]({{ repository.html_url }})
       {% endfor %}
 
       <!-- Plasma -->
