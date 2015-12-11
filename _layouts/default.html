@@ -7,17 +7,17 @@
   <meta name="description" content="Evil Genius Labs : Custom LED Lighting Creations">
   <meta name="author" content="">
 
-  <title>Evil Genius Labs</title>
+  <title>Evil Genius Labs | {{page.title}}</title>
 
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <!-- Bootstrap theme -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
   <!-- Bootstrap custom styles -->
-  <link rel="stylesheet" href="css/docs.min.css">
+  <link rel="stylesheet" href="/css/docs.min.css">
 
   <!-- Custom styles -->
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="/css/styles.css">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
@@ -28,7 +28,7 @@
   <!-- For IE 9 and below. ICO should be 32x32 pixels in size -->
   <!--[if IE]><link rel="shortcut icon" href="images/atom32.ico"><![endif]-->
   <!-- Firefox, Chrome, Safari, IE 11+ and Opera. 196x196 pixels in size. -->
-  <link rel="icon" href="images/atom196.png">
+  <link rel="icon" href="/images/atom196.png">
 
   <script>
     (function (i, s, o, g, r, a, m) {
@@ -65,13 +65,19 @@
       </div>
       <nav class="collapse navbar-collapse bs-navbar-collapse">
         <ul class="nav navbar-nav">
-          <li><a href="/index.html#plasma">Plasma</a></li>
-          <li><a href="/index.html#react">React</a></li>
-          <li><a href="/index.html#eclipse">Eclipse</a></li>
-          <li><a href="/index.html#bloom">Bloom</a></li>
-          <li><a href="/index.html#fibonacci">Fibonacci</a></li>
-          <li><a href="/index.html#torch">Torch</a></li>
-          <li><a href="about.html">About Us</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/#plasma">Plasma</a></li>
+              <li><a href="/#react">React</a></li>
+              <li><a href="/#eclipse">Eclipse</a></li>
+              <li><a href="/#bloom">Bloom</a></li>
+              <li><a href="/#fibonacci">Fibonacci</a></li>
+              <li><a href="/#torch">Torch</a></li>
+            </ul>
+          </li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/about">About Us</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li>
@@ -88,7 +94,7 @@
   <!-- page layout -->
   <div class="bs-docs-header" id="content">
     <div class="container">
-      <img alt="Evil Genius Labs" src="images/atomWhite128.png">
+      <img alt="Evil Genius Labs" src="/images/atomWhite128.png">
       <h1>Evil Genius Labs</h1>
       <p>Custom Electronic Art</p>
     </div>
