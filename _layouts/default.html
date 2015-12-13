@@ -68,15 +68,11 @@
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="/#plasma">Plasma</a></li>
-              <li><a href="/#react">React</a></li>
-              <li><a href="/#eclipse">Eclipse</a></li>
-              <li><a href="/#bloom">Bloom</a></li>
-              <li><a href="/#fibonacci">Fibonacci</a></li>
-              <li><a href="/#torch">Torch</a></li>
+              {% for post in site.posts %}
+              <li><a href="/#{{ post.id }}">{{ post.title }}</a></li>
+              {% endfor %}
             </ul>
           </li>
-          <li><a href="/blog">Blog</a></li>
           <li><a href="/contact">Contact</a></li>
           <li><a href="/about">About</a></li>
         </ul>
