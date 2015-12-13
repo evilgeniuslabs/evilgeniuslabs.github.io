@@ -1,7 +1,44 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
-<p>Posted {{ page.date | date: "%B %e, %Y" }}</p>
 
-{{ content }}
+<div class="row">
+  <div class="col-md-10" role="main">
+
+    <div class="page-header">
+      <h1>{{ page.title }}</h1>
+    </div>
+
+    <!-- <small>Posted {{ page.date | date: "%B %e, %Y" }}</small> -->
+
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" width="560" height="315" src="{{ page.videoUrl }}" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <br />
+
+    {{ content }}
+
+    <p>
+      <a href="{{ page.sourceUrl }}">More information and source code</a>
+    </p>
+    
+  </div>
+
+  <div class="col-md-2" role="complementary">
+    <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix-top">
+      <ul class="nav bs-docs-sidenav">
+        <li class="active">
+          <a href="#top">Projects</a>
+          <ul class="nav">
+            {% for post in site.posts %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+        <li><a href="/contact">Contact</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+    </nav>
+  </div>
+
+</div>

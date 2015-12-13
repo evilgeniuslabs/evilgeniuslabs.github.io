@@ -69,7 +69,7 @@
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
             <ul class="dropdown-menu">
               {% for post in site.posts %}
-              <li><a href="/#{{ post.id }}">{{ post.title }}</a></li>
+              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
               {% endfor %}
             </ul>
           </li>
