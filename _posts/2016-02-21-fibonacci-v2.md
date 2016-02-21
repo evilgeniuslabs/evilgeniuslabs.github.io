@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fibonacci v2
-videoUrl: https://www.youtube.com/embed/hsEWp_qMHcY?list=PLUYGVM-2vDxLanVedYG1cMMBDzuQ_ecQd
+videoUrl: https://www.youtube.com/embed/G6cYgBjpHAA?list=PLUYGVM-2vDxLanVedYG1cMMBDzuQ_ecQd
 sourceUrl: https://github.com/evilgeniuslabs/fibonacci-v3d
 id: fibonacci-v2
 ---
