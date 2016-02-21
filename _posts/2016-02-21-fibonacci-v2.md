@@ -6,6 +6,6 @@ sourceUrl: https://github.com/evilgeniuslabs/fibonacci-v3d
 id: fibonacci-v2
 ---
 
-![Fibonacci v2](https://lh3.googleusercontent.com/HyEmTZt6hKbQv6zHgoBOCtKSSSPXfdy9Cp_83sPsjIlIu8lEfVJA806rVj0Oq4RhfVGaPTkDzotXnJiv1s3LhZf1R64Klt0V49hxuyq1No10E9wlKoX98Y31jo8g9Z62r8vnZ1Vwtq347giPxseMdTo-eEr3KxGbPPvypBpNG4k112drgUxzRNkGEgfhvUQkyw0vwC3sEq9XtxJhfqFEe-Kb8QGUmiSO91FAodi1bvLRxNW5BJ6cwoIoZUBhN2VNwYJZP1djqxrWRndpKi9LIf8LYcD6CgStmmR5DiJU3iWsOVUIXYHVvXpYJkB53tOeRKW6T_xx2wU1Ej5mPOOl9NF66g22na7q4WMlQ18TX-60-wbK2YGP7tna7O6FKWhGr4SreCoVR9IuYAQidXEkfWOgqG1cmUu6DWNIEtEOxYvecYWXMnxYM4SwGDmO45Mu0k2LAdnFqHwbK-HYPAKobI7k8Pcg_Gtxq3C-jVBf5bObR00M3P9Jd1AxLLjs4TnUKz31NTZeoDigpBGVNre1BqhRlbMt2uYkJ0lgJj4Yu1CrDr1YVFR6dRiIJx8EI86yabPHsA=w1266-h949-no)
+<img src="/images/Fibonacci-V2.jpg" class="img-responsive" alt="Fibonacci v2" />
 
-More pictures and details: https://goo.gl/photos/TA2RXFS82G9uapnJA
+[More pictures and details](https://goo.gl/photos/TA2RXFS82G9uapnJA)
