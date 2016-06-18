@@ -11,14 +11,25 @@ layout: default
 
     <!-- <small>Posted {{ page.date | date: "%B %e, %Y" }}</small> -->
 
+    {% if page.videoUrl != null %}
     <div class="embed-responsive embed-responsive-16by9">
       <iframe class="embed-responsive-item" width="560" height="315" src="{{ page.videoUrl }}" frameborder="0" allowfullscreen></iframe>
     </div>
     <br />
+    <br />
+    {% endif %}
+
+    {% if page.vineUrl != null %}
+    <iframe src="{{ page.vineUrl }}" width="300" height="300" frameborder="0"></iframe><script src="https://platform.vine.co/static/scripts/embed.js"></script>
+    <br />
+    <br />
+    {% endif %}
+
     {% if page.sourceUrl != null %}
     <p>
       <a href="{{ page.sourceUrl }}">More information and source code</a>
     </p>
+    <br />
     <br />
     {% endif %}
 
