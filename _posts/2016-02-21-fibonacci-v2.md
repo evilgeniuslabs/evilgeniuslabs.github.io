@@ -1,13 +1,12 @@
 ---
 layout: post
 title: Fibonacci v2
+vineUrl: https://vine.co/v/irgTI9PKWKp/embed/simple
 videoUrl: https://www.youtube.com/embed/G6cYgBjpHAA?list=PLUYGVM-2vDxLanVedYG1cMMBDzuQ_ecQd
 sourceUrl: https://github.com/evilgeniuslabs/fibonacci-v3d
 id: fibonacci-v2
 excerpt: Fibonacci v2 is a beautiful light art display.  Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.  It exists at the intersection of art, math, science, and geometry.
 ---
-
-<iframe src="https://vine.co/v/irgTI9PKWKp/embed/simple" width="600" height="600" frameborder="0"></iframe><script src="https://platform.vine.co/static/scripts/embed.js"></script>
 
 <br />
 
