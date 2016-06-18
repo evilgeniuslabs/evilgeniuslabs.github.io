@@ -34,9 +34,11 @@ title: Home
         </div>
         <div class="caption">
           <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+          {% if post.sourceUrl != null %}
           <p>
             <a href="{{ post.sourceUrl }}">More information and source code</a>
           </p>
+          {% endif %}
         </div>
       </div>
     </div>
