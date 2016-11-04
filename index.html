@@ -33,8 +33,16 @@ title: Home
           <div class="embed-responsive embed-responsive-4by3">
             <iframe src="{{ post.vineUrl }}" width="300" height="300" frameborder="0"></iframe><script src="https://platform.vine.co/static/scripts/embed.js"></script>
           </div>
+          {% elsif post.imgurId != null %}
+          <div class="embed-responsive embed-responsive-4by3">
+            <a href="{{ post.url }}">
+              <video class="post" poster="//i.imgur.com/{{ post.imgurId }}.jpg" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
+                <source src="//i.imgur.com/{{ post.imgurId }}.mp4" type="video/mp4">
+              </video>
+            </a>  
+          </div>
           {% elsif post.videoUrl != null %}
-          <div class="embed-responsive embed-responsive-16by9">
+          <div class="embed-responsive embed-responsive-4by3">
             <iframe class="embed-responsive-item" width="560" height="315" src="{{ post.videoUrl }}" frameborder="0" allowfullscreen></iframe>
           </div>
           {% endif %}
