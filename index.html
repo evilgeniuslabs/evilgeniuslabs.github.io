@@ -24,7 +24,7 @@ title: Home
       Our example creations are open source and hackable.
     </p>
 
-    <div class="page-header" id="projects"><h1>Projects</h1></div>
+    <div class="page-header" id="portfolio"><h1>Portfolio</h1></div>
 
     {% for post in site.posts %}
     <div class="col-md-6">
@@ -39,7 +39,7 @@ title: Home
               <video class="post" poster="//i.imgur.com/{{ post.imgurId }}.jpg" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
                 <source src="//i.imgur.com/{{ post.imgurId }}.mp4" type="video/mp4">
               </video>
-            </a>  
+            </a>
           </div>
           {% elsif post.videoUrl != null %}
           <div class="embed-responsive embed-responsive-4by3">
@@ -64,7 +64,7 @@ title: Home
     <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix-top">
       <ul class="nav bs-docs-sidenav">
         <li class="active">
-          <a href="#top">Projects</a>
+          <a href="#top">Portfolio</a>
           <ul class="nav">
             {% for post in site.posts %}
             <li class><a href="#{{ post.id }}">{{ post.title }}</a></li>
