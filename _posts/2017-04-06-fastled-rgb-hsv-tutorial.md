@@ -32,21 +32,49 @@ So, I set out to design a PCB that I can assemble ahead of time, and will hopefu
 * **Quality:**  May conflict with inexpensive, but there's no point building these cheaply if they don't last.
 * **Accessible:**  Easy to assemble, but so easy that nothing is learned by bulding one.  All components need to be through-hole.  No surface mount soldering, reflow oven, etc should be required.
 
-With these goals in mind, I created this PCB:
+With these goals in mind, I created this PCB.
+
+### Printed Circuit Board
 
 <img src="/images/fastled-rgb-hsv-tutorial/pcb-top.png" style="width:400px" class="img-responsive" />
 
 <img src="/images/fastled-rgb-hsv-tutorial/pcb-bottom.png" style="width:400px" class="img-responsive" />
 
-It's shared, but currently **completely untested**, on [OSH Park](https://oshpark.com/shared_projects/8wiyFFUf).
+It's shared, but currently **completely untested**, on [OSH Park](https://oshpark.com/shared_projects/0S10dNB4).
+
+I'll update once it is tested working.
 
 Here are the Eagle files ([schematic](/images/fastled-rgb-hsv-tutorial/FastLED RGB & HSV Tutorial.sch) & [board](/images/fastled-rgb-hsv-tutorial/FastLED RGB & HSV Tutorial.brd))
 
-The switch will change the potentiometers from controlling RGB to HSV.  The PCB includes the NeoPixel "best practices" capacitor and resistor, and pins to connect more LEDs (a strip, ring, etc).
+The switch will change the potentiometers from controlling RGB to HSV.  The PCB includes the NeoPixel "best practices" capacitor and resistor, and pins to connect more LEDs (a strip, ring, etc).  The tactile momentary push button could be used to change modes, from the tutorial to patterns, animations, etc.
 
 I used 5mm NeoPixels.  They are a bit cheaper and should be easier to solder than the breadboard-friendly NeoPixels, which would require headers to be soldered.
 
 The mounting holes from the Pro Trinket outline will allow the PCBs to be mounted on a board, so they don't fall off the table or "walk away".
+
+### Revisions
+
+**v1.1**
+* Added tactile momentary push button with pull down resistor.
+* Added some part and pin details to the bottom of the board.
+* Fixed inconsistent LED spacing.
+* Various other slight layout changes.
+* Thanks to Marc Miller for the suggestions!
+
+### Parts List
+
+| Name | Qty | Price | Total | Supplier |
+| --- | --- |  --- |  --- |  --- |
+| [PCB (3 included)](https://oshpark.com/shared_projects/0S10dNB4) | 1 | $19.50 | $19.50 | OSH Park
+| [Pro Trinket 5V](https://www.adafruit.com/product/2000) | 1 | $9.95 | $9.95 | Adafruit
+| [5mm NeoPixel 5 Pack](https://www.adafruit.com/products/1938) | 1 | $4.95 | $4.95 | Adafruit
+| [SPDT Slide Switch](https://www.adafruit.com/products/805) | 1 | $0.95 | $0.95 | Adafruit
+| [Tactile Button switch (6mm)](https://www.adafruit.com/products/367) | 1 | $0.25 | $0.25	| Adafruit
+| [10k Linear Pot](https://www.digikey.com/product-detail/en/bourns-inc/PTV09A-4020U-B103/PTV09A-4020U-B103-ND/3781130) | 3 | $0.83 | $2.49 | Digi-Key
+| [1F Capacitor](https://www.digikey.com/product-detail/en/panasonic-electronic-components/ECA-1EM102/P5156-ND/245015) | 1 | $0.59 | $0.59 | Digi-Key
+| [330 Ohm Resistor](https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF18JT330R/CF18JT330RCT-ND/2022730) | 1 | $0.10 | $0.10 | Digi-Key
+| [10K Ohm Resistor](https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT10K0/CF14JT10K0CT-ND) | 1 | $0.10 | $0.10 | Digi-Key
+| **Total** | **9** |  | **$38.53** |  |  |
 
 More details and progress coming soon...
 
