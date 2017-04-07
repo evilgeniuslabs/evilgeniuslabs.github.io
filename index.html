@@ -26,38 +26,47 @@ title: Home
 
     <p>See our shop on <a href="https://www.tindie.com/stores/jasoncoon/">Tindie</a></p>
 
-    <div class="page-header" id="projects"><h1>Projects</h1></div>
+    <div class="page-header" id="portfolio"><h1>Portfolio</h1></div>
 
     {% for post in site.posts %}
+    {% if post.vineUrl != null %}
     <div class="col-md-6">
       <div class="thumbnail" id="{{ post.id }}">
-          {% if post.vineUrl != null %}
-          <div class="embed-responsive embed-responsive-4by3">
-            <iframe src="{{ post.vineUrl }}" width="300" height="300" frameborder="0"></iframe><script src="https://platform.vine.co/static/scripts/embed.js"></script>
-          </div>
-          {% elsif post.imgurId != null %}
-          <div class="embed-responsive embed-responsive-4by3">
-            <a href="{{ post.url }}">
-              <video class="post" poster="//i.imgur.com/{{ post.imgurId }}.jpg" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
-                <source src="//i.imgur.com/{{ post.imgurId }}.mp4" type="video/mp4">
-              </video>
-            </a>  
-          </div>
-          {% elsif post.videoUrl != null %}
-          <div class="embed-responsive embed-responsive-4by3">
-            <iframe class="embed-responsive-item" width="560" height="315" src="{{ post.videoUrl }}" frameborder="0" allowfullscreen></iframe>
-          </div>
-          {% endif %}
+        <div class="embed-responsive embed-responsive-4by3">
+          <iframe src="{{ post.vineUrl }}" width="300" height="300" frameborder="0"></iframe><script src="https://platform.vine.co/static/scripts/embed.js"></script>
+        </div>
         <div class="caption">
           <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-          <!-- {% if post.sourceUrl != null %}
-          <p>
-            <a href="{{ post.sourceUrl }}">More information and source code</a>
-          </p>
-          {% endif %} -->
         </div>
       </div>
     </div>
+    {% elsif post.imgurId != null %}
+    <div class="col-md-6">
+      <div class="thumbnail" id="{{ post.id }}">
+        <div class="embed-responsive embed-responsive-4by3">
+          <a href="{{ post.url }}">
+            <video class="post" poster="//i.imgur.com/{{ post.imgurId }}.jpg" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
+              <source src="//i.imgur.com/{{ post.imgurId }}.mp4" type="video/mp4">
+            </video>
+          </a>
+        </div>
+        <div class="caption">
+          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        </div>
+      </div>
+    </div>
+    {% elsif post.videoUrl != null %}
+    <div class="col-md-6">
+      <div class="thumbnail" id="{{ post.id }}">
+        <div class="embed-responsive embed-responsive-4by3">
+          <iframe class="embed-responsive-item" width="560" height="315" src="{{ post.videoUrl }}" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="caption">
+          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        </div>
+      </div>
+    </div>
+    {% endif %}
     {% endfor %}
 
   </div>
@@ -66,10 +75,12 @@ title: Home
     <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix-top">
       <ul class="nav bs-docs-sidenav">
         <li class="active">
-          <a href="#top">Projects</a>
+          <a href="#top">Portfolio</a>
           <ul class="nav">
             {% for post in site.posts %}
+            {% if post.vineUrl != null or post.imgurId != null or post.videoUrl != null %}
             <li class><a href="#{{ post.id }}">{{ post.title }}</a></li>
+            {% endif %}
             {% endfor %}
           </ul>
         </li>
