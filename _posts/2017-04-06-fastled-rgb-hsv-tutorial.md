@@ -33,13 +33,13 @@ With these goals in mind, I created this PCB.
 
 ### Printed Circuit Board
 
-<!-- <a href="https://oshpark.com/shared_projects/ZO8HevN7"><img src="https://oshpark.com/assets/badge-5b7ec47045b78aef6eb9d83b3bac6b1920de805e9a0c227658eac6e19a045b9c.png" alt="Order from OSH Park"></img></a> -->
+<!-- <a href="https://oshpark.com/shared_projects/XugOZWQh"><img src="https://oshpark.com/assets/badge-5b7ec47045b78aef6eb9d83b3bac6b1920de805e9a0c227658eac6e19a045b9c.png" alt="Order from OSH Park"></img></a> -->
 
 <img src="/images/fastled-rgb-hsv-tutorial/pcb-top.png" style="width:400px" class="img-responsive" />
 
 <img src="/images/fastled-rgb-hsv-tutorial/pcb-bottom.png" style="width:400px" class="img-responsive" />
 
-It's shared, but currently **completely untested**, on [OSH Park](https://oshpark.com/shared_projects/ZO8HevN7).
+It's shared, but currently **completely untested**, on [OSH Park](https://oshpark.com/shared_projects/XugOZWQh).
 
 I'll update once it is tested working.
 
@@ -55,15 +55,16 @@ The mounting holes below the Teensy LC will allow the PCBs to be mounted on a bo
 
 | Name | Qty | Price | Total | Supplier |
 | --- | --- |  --- |  --- |  --- |
-| [PCB](https://oshpark.com/shared_projects/ZO8HevN7) | 1 | $4.52 | $4.52 | OSH Park
+| [PCB](https://oshpark.com/shared_projects/XugOZWQh) | 1 | $4.52 | $4.52 | OSH Park
 | [Teensy LC](https://www.pjrc.com/store/teensylc_pins.html) | 1 | $11.65 | $11.65 | PJRC
 | [NeoPixel Stick 8x](https://www.adafruit.com/products/1426) | 1 | $5.95 | $5.95 | Adafruit
 | [SPDT Slide Switch](https://www.adafruit.com/products/805) | 1 | $0.95 | $0.95 | Adafruit
 | [Tactile Button switch (6mm)](https://www.adafruit.com/products/367) | 1 | $0.25 | $0.25	| Adafruit
 | [10k Linear Pot](https://www.digikey.com/product-detail/en/bourns-inc/PTV09A-4020U-B103/PTV09A-4020U-B103-ND/3781130) | 3 | $0.83 | $2.49 | Digi-Key
+| [10µF Capacitor](https://www.digikey.com/product-detail/en/panasonic-electronic-components/ECA-1HM100/P5178-ND/245037) | 1 | $0.17 | $0.17 | Digi-Key
 | [330 Ohm Resistor](https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF18JT330R/CF18JT330RCT-ND/2022730) | 1 | $0.10 | $0.10 | Digi-Key
 | [10K Ohm Resistor](https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT10K0/CF14JT10K0CT-ND) | 1 | $0.10 | $0.10 | Digi-Key
-| **Total** | **10** |  | **$26.01**
+| **Total** | **11** |  | **$26.18**
 
 ### Components
 
