@@ -9,14 +9,11 @@ excerpt: Tutorial project to build an interactive and educational circuit board 
 
 I'm preparing to exhibit at Maker Faire Kansas City 2017, and trying to come up with an interactive and educational project for people to play with.
 
+I created a [simple Arduino sketch](https://gist.github.com/jasoncoon/fa1e7efd8726223c2b5c5eb5f7256d65) to show how RGB & HSV work to combine to create different colors.
+
 With what I have on hand, I quickly threw together a couple of breadboards, each with a Teensy, some RGB LEDs, and three potentiometers (using Paul Stoffregen's excellent [Sturdy Potentiometer Adapter for Breadboards](https://oshpark.com/shared_projects/P38N77nS)).
 
 <img src="/images/fastled-rgb-hsv-tutorial/breadboard.jpg" style="width:400px" class="img-responsive" />
-
-I created two simple Arduino sketches, one to show how Red, Green, and Blue combine to create different colors:
-
-* [FastLED RGB Dials](https://gist.github.com/jasoncoon/a8aa39cb9af44d64b84b801c26073d34)
-* [FastLED HSV Dials](https://gist.github.com/jasoncoon/1485c25fdd0b36ca7fcb3586af305f87)
 
 While this would work, it's not very durable.  I need something that lots of people can tinker and play with all weekend, without worrying about replacing disconnected wires.
 
@@ -36,11 +33,13 @@ With these goals in mind, I created this PCB.
 
 ### Printed Circuit Board
 
+<!-- <a href="https://oshpark.com/shared_projects/ZO8HevN7"><img src="https://oshpark.com/assets/badge-5b7ec47045b78aef6eb9d83b3bac6b1920de805e9a0c227658eac6e19a045b9c.png" alt="Order from OSH Park"></img></a> -->
+
 <img src="/images/fastled-rgb-hsv-tutorial/pcb-top.png" style="width:400px" class="img-responsive" />
 
 <img src="/images/fastled-rgb-hsv-tutorial/pcb-bottom.png" style="width:400px" class="img-responsive" />
 
-It's shared, but currently **completely untested**, on [OSH Park](https://oshpark.com/shared_projects/JUP1ZlcV).
+It's shared, but currently **completely untested**, on [OSH Park](https://oshpark.com/shared_projects/ZO8HevN7).
 
 I'll update once it is tested working.
 
@@ -56,16 +55,15 @@ The mounting holes below the Teensy LC will allow the PCBs to be mounted on a bo
 
 | Name | Qty | Price | Total | Supplier |
 | --- | --- |  --- |  --- |  --- |
-| [PCB (3 included)](https://oshpark.com/shared_projects/JUP1ZlcV) | 1 | $19.25 | $19.25 | OSH Park
+| [PCB](https://oshpark.com/shared_projects/ZO8HevN7) | 1 | $4.52 | $4.52 | OSH Park
 | [Teensy LC](https://www.pjrc.com/store/teensylc_pins.html) | 1 | $11.65 | $11.65 | PJRC
-| [5mm NeoPixel 5 Pack](https://www.adafruit.com/products/1938) | 1 | $4.95 | $4.95 | Adafruit
+| [NeoPixel Stick 8x](https://www.adafruit.com/products/1426) | 1 | $5.95 | $5.95 | Adafruit
 | [SPDT Slide Switch](https://www.adafruit.com/products/805) | 1 | $0.95 | $0.95 | Adafruit
 | [Tactile Button switch (6mm)](https://www.adafruit.com/products/367) | 1 | $0.25 | $0.25	| Adafruit
 | [10k Linear Pot](https://www.digikey.com/product-detail/en/bourns-inc/PTV09A-4020U-B103/PTV09A-4020U-B103-ND/3781130) | 3 | $0.83 | $2.49 | Digi-Key
-| [1F Capacitor](https://www.digikey.com/product-detail/en/panasonic-electronic-components/ECA-1EM102/P5156-ND/245015) | 1 | $0.59 | $0.59 | Digi-Key
 | [330 Ohm Resistor](https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF18JT330R/CF18JT330RCT-ND/2022730) | 1 | $0.10 | $0.10 | Digi-Key
 | [10K Ohm Resistor](https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT10K0/CF14JT10K0CT-ND) | 1 | $0.10 | $0.10 | Digi-Key
-| **Total** | **11** |  | **$40.33** |  |
+| **Total** | **10** |  | **$26.01**
 
 ### Components
 
