@@ -5,9 +5,15 @@ id: wifi-led-controller
 excerpt: Wi-Fi controlled, Arduino-compatible addressable RGB LED controller based on the ESP8266, with level shifter.
 ---
 
-<a class="btn btn-default" href="https://www.tindie.com/products/jasoncoon/wemos-d1-mini-esp8266-led-and-level-shifter-shield">Buy on Tindie</a>
+<img src="/images/wifi-led-controller/pcb-render-top.png" style="width:400px" class="img-responsive" />
 
-All of my projects lately have been driven by ESP8266 microcontrollers with Wi-Fi support.  Following the best practice recommendations of using a fast level shifter, large capacitor, and resistors on the clock and data lines was resulting in a large mess of jumper wires on a perma-proto board.  I decided to design a PCB to make it cleaner and more compact.
+For fast shipping to the US, you can [buy on Tindie](https://www.tindie.com/products/jasoncoon/wemos-d1-mini-esp8266-led-and-level-shifter-shield).
+
+If they're out of stock on Tindie, you can [contact us](/contact) to order and have them shipped to you directly from the PCB manufacturer.  It takes longer, but they provide free shipping worldwide.
+
+### Background
+
+All of my projects lately have been driven by ESP8266 microcontrollers with Wi-Fi support.  Following the best practice recommendations of using a fast level shifter, large capacitor, and resistors on the clock and data lines was resulting in a lot of wires on a large perma-proto board.  I decided to design a PCB to make it cleaner and more compact.
 
 <img src="http://i.imgur.com/x41cioC.jpg" style="width:400px" class="img-responsive" />
 
