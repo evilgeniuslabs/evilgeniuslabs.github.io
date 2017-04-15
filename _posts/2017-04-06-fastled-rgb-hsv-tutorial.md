@@ -70,7 +70,7 @@ The mounting holes below the Teensy LC will allow the PCBs to be mounted on a bo
 
 ** LEDS **
 
-I decided to try [5mm Diffused NeoPixels](https://www.adafruit.com/products/1938).  They are a bit cheaper and should be easier to solder than the [Breadboard-friendly NeoPixels](https://www.adafruit.com/product/1312), which would require headers to be soldered.
+I decided to go with [NeoPixel Stick 8x](https://www.adafruit.com/products/1426).  They are a bit cheaper and include more LEDs than the [Breadboard-friendly NeoPixels](https://www.adafruit.com/product/1312).
 
 ** Microprocessor **
 
