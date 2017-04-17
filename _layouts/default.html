@@ -81,10 +81,23 @@
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Portfolio <span class="caret"></span></a>
             <ul class="dropdown-menu">
               {% for post in site.posts %}
+              {% unless post.categories contains 'product' %}
               <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+              {% endunless %}
               {% endfor %}
             </ul>
           </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                {% for post in site.posts %}
+                {% if post.categories contains 'product' %}
+                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                {% endif %}
+                {% endfor %}
+              </ul>
+            </li>
+          <li><a href="/store">Store</a></li>
           <li><a href="/contact">Contact</a></li>
           <li><a href="/about">About</a></li>
         </ul>
@@ -117,9 +130,26 @@
   </div>
 
   <div class="container bs-docs-container">
+    
+    <div class="row">
+      <div class="col-md-10" role="main">
+        {{ content }}
+      </div>
 
-    {{ content }}
-
+      <div class="col-md-2" role="complementary">
+        <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix-top">
+          <ul class="nav bs-docs-sidenav">
+            <li><a href="/">Portfolio</a></li>
+            <li><a href="/products">Products</a></li>
+            <li><a href="/store">Store</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/about">About</a></li>
+          </ul>
+        </nav>
+      </div>
+      
+    </div>
+    
   </div>
 
   <hr />

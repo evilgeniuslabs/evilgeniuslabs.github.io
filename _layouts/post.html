@@ -2,60 +2,32 @@
 layout: default
 ---
 
-<div class="row">
-  <div class="col-md-10" role="main">
-
-    <div class="page-header">
-      <h1>{{ page.title }}</h1>
-    </div>
-
-    <!-- <small>Posted {{ page.date | date: "%B %e, %Y" }}</small> -->
-
-    {% if page.videoUrl != null %}
-    <div class="embed-responsive embed-responsive-16by9">
-      <iframe class="embed-responsive-item" width="560" height="315" src="{{ page.videoUrl }}" frameborder="0" allowfullscreen></iframe>
-    </div>
-    <br />
-    <br />
-    {% endif %}
-
-    {% if page.vineUrl != null %}
-    <iframe src="{{ page.vineUrl }}" width="300" height="300" frameborder="0"></iframe><script src="https://platform.vine.co/static/scripts/embed.js"></script>
-    <br />
-    <br />
-    {% endif %}
-
-    {% if page.sourceUrl != null %}
-    <p>
-      <a href="{{ page.sourceUrl }}">More information and source code</a>
-    </p>
-    <br />
-    <br />
-    {% endif %}
-
-    {{ content }}
-
-  </div>
-
-  <div class="col-md-2" role="complementary">
-    <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix-top">
-      <ul class="nav bs-docs-sidenav">
-        <li class="active">
-          <a href="#top">Portfolio</a>
-          <ul class="nav">
-            {% for post in site.posts %}
-            {% if page.title == post.title %}
-            <li class="active"><a href="{{ post.url }}">{{ post.title }}</a></li>
-            {% else %}
-            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-            {% endif %}
-            {% endfor %}
-          </ul>
-        </li>
-        <li><a href="/contact">Contact</a></li>
-        <li><a href="/about">About</a></li>
-      </ul>
-    </nav>
-  </div>
-
+<div class="page-header">
+  <h1>{{ page.title }}</h1>
 </div>
+
+<!-- <small>Posted {{ page.date | date: "%B %e, %Y" }}</small> -->
+
+{% if page.videoUrl != null %}
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" width="560" height="315" src="{{ page.videoUrl }}" frameborder="0" allowfullscreen></iframe>
+</div>
+<br />
+<br />
+{% endif %}
+
+{% if page.vineUrl != null %}
+<iframe src="{{ page.vineUrl }}" width="300" height="300" frameborder="0"></iframe><script src="https://platform.vine.co/static/scripts/embed.js"></script>
+<br />
+<br />
+{% endif %}
+
+{% if page.sourceUrl != null %}
+<p>
+  <a href="{{ page.sourceUrl }}">More information and source code</a>
+</p>
+<br />
+<br />
+{% endif %}
+
+{{ content }}

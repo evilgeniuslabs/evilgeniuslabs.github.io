@@ -3,30 +3,10 @@ layout: default
 title: Home
 ---
 
-<!-- <ul>
-  <li>Available by request, and custom-made to order.</li>
-  <li>Controlled over Wi-Fi with an app or webpage, or a wireless infrared remote control.</li>
-  <li>Included with dozens of animations.</li>
-  <li>Programmable over Wi-Fi or micro USB cable.</li>
-  <li>Fully open-source (firmware and animations).</li>
-</ul> -->
-
-<!-- <p class="lead">
-  We'd love to build something for you, please <a href="/contact">contact us</a> to get an estimate and get started.
-
-</p>
-<p>
-  All of our works can be controlled with an app or webpage over Wi-Fi, or with a wireless infrared remote control.
-  They include dozens of animations, and we specialize in creating custom animations to perfectly suit your need.
-  Our example creations are open source and hackable.
-</p> -->
-
-<!-- <p>See our store on <a href="https://www.tindie.com/stores/jasoncoon/">Tindie</a></p> -->
-
-<div class="page-header" id="portfolio"><h1>Portfolio</h1></div>
+<div class="page-header" id="portfolio"><h1>Products</h1></div>
 
 {% for post in site.posts %}
-{% unless post.categories contains "products" %}
+{% if post.categories contains "products" %}
 {% if post.vineUrl != null %}
 <div class="col-md-6">
   <div class="thumbnail" id="{{ post.id }}">
@@ -65,5 +45,5 @@ title: Home
   </div>
 </div>
 {% endif %}
-{% endunless %}
+{% endif %}
 {% endfor %}
