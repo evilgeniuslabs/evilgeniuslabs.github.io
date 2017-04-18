@@ -39,10 +39,6 @@ With these goals in mind, I created this PCB.
 
 <img src="/images/fastled-rgb-hsv-tutorial/pcb-bottom.png" style="width:400px" class="img-responsive" />
 
-It's shared, but currently **completely untested**, on [OSH Park](https://oshpark.com/shared_projects/O7lkxF3n).
-
-I'll update once it is tested working.
-
 Here are the Eagle files ([schematic](/images/fastled-rgb-hsv-tutorial/FastLED RGB & HSV Tutorial.sch) & [board](/images/fastled-rgb-hsv-tutorial/FastLED RGB & HSV Tutorial.brd))
 
 ### Features
