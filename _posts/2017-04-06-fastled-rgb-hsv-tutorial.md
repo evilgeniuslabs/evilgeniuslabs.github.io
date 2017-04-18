@@ -33,7 +33,7 @@ With these goals in mind, I created this PCB.
 
 ### Printed Circuit Board
 
-<a href="https://oshpark.com/shared_projects/O7lkxF3n"><img src="https://oshpark.com/assets/badge-5b7ec47045b78aef6eb9d83b3bac6b1920de805e9a0c227658eac6e19a045b9c.png" alt="Order from OSH Park"></img></a>
+<a href="https://oshpark.com/shared_projects/O7lkxF3n"><img src="https://oshpark.com/assets/badge-5b7ec47045b78aef6eb9d83b3bac6b1920de805e9a0c227658eac6e19a045b9c.png" alt="Order from OSH Park" /></a>
 
 <img src="/images/fastled-rgb-hsv-tutorial/pcb-top.png" style="width:400px" class="img-responsive" />
 
