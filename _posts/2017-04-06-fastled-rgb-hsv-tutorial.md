@@ -33,7 +33,7 @@ With these goals in mind, I created this PCB.
 
 ### Printed Circuit Board
 
-<a href="https://oshpark.com/shared_projects/O7lkxF3n"><img src="https://oshpark.com/assets/badge-5b7ec47045b78aef6eb9d83b3bac6b1920de805e9a0c227658eac6e19a045b9c.png" alt="Order from OSH Park" /></a>
+<a href="https://oshpark.com/shared_projects/O7lkxF3n" target="_blank"><img src="https://oshpark.com/assets/badge-5b7ec47045b78aef6eb9d83b3bac6b1920de805e9a0c227658eac6e19a045b9c.png" alt="Order from OSH Park" /></a>
 
 <img src="/images/fastled-rgb-hsv-tutorial/pcb-top.png" style="width:400px" class="img-responsive" />
 
@@ -68,11 +68,11 @@ The mounting holes below the Teensy LC will allow the PCBs to be mounted on a bo
 
 ### Components
 
-** LEDS **
+**LEDS**
 
 I decided to go with [NeoPixel Stick 8x](https://www.adafruit.com/products/1426).  They are a bit cheaper and include more LEDs than the [Breadboard-friendly NeoPixels](https://www.adafruit.com/product/1312).
 
-** Microprocessor **
+**Microprocessor**
 
 In an effort to minimize the parts cost, while maintaining the ease of assembly and use, I initially thought about using a [5V Trinket](https://www.adafruit.com/products/1501).  They're inexpensive, but still high quality, and won't require a level shifter.  They just don't have enough inputs, so I switched to the [5V Pro Trinket](https://www.adafruit.com/products/2000).  Then I remembered the [Teensy LC](http://www.pjrc.com/teensy/teensyLC.html), which is less than $2 more, has a 5V digital output pin, faster processor, more RAM, FLASH, etc.  It can also be ordered from OSH Park with the PCB.  I was also warned by several people that the upload process for the Trinket can be frustrating.
 
