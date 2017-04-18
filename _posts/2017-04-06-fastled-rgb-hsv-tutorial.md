@@ -75,3 +75,8 @@ In an effort to minimize the parts cost, while maintaining the ease of assembly 
 ### Code
 
 I created a [simple Arduino sketch](https://gist.github.com/jasoncoon/fa1e7efd8726223c2b5c5eb5f7256d65) to show how RGB & HSV work to combine to create different colors.  I also included a rainbow pattern that is displayed when the momentary tactile button is held pressed.
+
+### Instructions
+
+***More details coming son...***
+
