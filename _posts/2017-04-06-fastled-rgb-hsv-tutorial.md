@@ -78,5 +78,5 @@ I created a [simple Arduino sketch](https://gist.github.com/jasoncoon/fa1e7efd87
 
 ### Instructions
 
-***More details coming son...***
+***More details coming soon...***
 
