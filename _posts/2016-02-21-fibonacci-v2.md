@@ -6,6 +6,8 @@ videoUrl: https://www.youtube.com/embed/G6cYgBjpHAA?list=PLUYGVM-2vDxLanVedYG1cM
 sourceUrl: https://github.com/evilgeniuslabs/fibonacci-v3d
 id: fibonacci-v2
 excerpt: Fibonacci v2 is a beautiful light art display.  Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.  It exists at the intersection of art, math, science, and geometry.
+redirect_from:
+  - /8
 ---
 
 <br />
