@@ -2,4 +2,6 @@ name: Evil Genius Labs
 description: Custom Electronic Art
 url: http://evilgeniuslabs.org
 author: Jason Coon
-permalink: /:title.html
+permalink: /:title
+gems:
+  - jekyll-redirect-from

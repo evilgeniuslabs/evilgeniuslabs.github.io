@@ -5,6 +5,8 @@ id: wifi-led-controller
 imgurId: TTtKvaG
 excerpt: Wi-Fi controlled, Arduino-compatible addressable RGB LED controller based on the ESP8266, with level shifter.
 categories: products
+redirect_from:
+  - /15
 ---
 
 <img src="/images/wifi-led-controller/pcb-render-top.png" style="width:400px" class="img-responsive" />
