@@ -89,8 +89,6 @@ In an effort to minimize the parts cost, while maintaining the ease of assembly 
 
 **Note**: Double-check the position, alignment, and orientation of each component very carefully before soldering!
 
-**Soldering**
-
 If you're new to soldering, I highly recommend buying the [Teensy LC with header pins](https://www.pjrc.com/store/teensylc_pins.html) already soldered.  It'll save you some time and effort.
 
 I also recommend reading through a good soldering tutorial, such as the ones by [Adafruit](https://learn.adafruit.com/adafruit-guide-excellent-soldering) and [SparkFun](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering).
@@ -205,4 +203,3 @@ Copy and paste the code into a new Arduino sketch: <script src="https://gist.git
 5. Now click the *Upload* button (right arrow) in the toolbar.
 
 ***More details coming soon...***
-
