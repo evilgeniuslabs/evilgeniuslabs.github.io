@@ -159,7 +159,7 @@ If you have a multimeter that can measure resistance, it's a good idea to make s
 
 After double-checking that all components are correctly aligned, you can connect the Teensy LC to a computer via a Micro USB cable.
 
-**Software Setup**
+### Software Setup
 
 **Arduino IDE**
 
@@ -186,7 +186,7 @@ git clone https://github.com/FastLED/FastLED.git
 
 Either way, you'll likely need to restart Arduino for the library to get loaded and show up.
 
-### Code
+## Code
 
 I created a [simple Arduino sketch](https://gist.github.com/jasoncoon/fa1e7efd8726223c2b5c5eb5f7256d65) to show how RGB & HSV work to combine to create different colors.  I also included a rainbow pattern that is displayed when the momentary tactile button is held pressed.
 
