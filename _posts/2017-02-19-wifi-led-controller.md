@@ -11,6 +11,11 @@ redirect_from:
 
 <img src="/images/wifi-led-controller/pcb-render-top.png" style="width:400px" class="img-responsive" />
 
+<h3>Table of Contents</h3>
+
+* TOC
+{:toc}
+
 ### Buy
 
 For fast shipping to the US, you can by from our [Tindie](https://www.tindie.com/products/jasoncoon/wemos-d1-mini-esp8266-led-and-level-shifter-shield) store.
@@ -89,3 +94,30 @@ Features:
 * Choose color palette
 * Set to any solid color
 * Autoplay patterns with adjustable duration
+
+### Assembly Instructions
+
+**Note**: Double-check the position, alignment, and orientation of each component very carefully before soldering!
+
+If you're new to soldering, I highly recommend reading through a good soldering tutorial, such as the ones by [Adafruit](https://learn.adafruit.com/adafruit-guide-excellent-soldering) and [SparkFun](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering).
+
+1. Insert the SN74HCT245N Level Shifter chip into the holes in the top side of the board, where indicated, with the indentation towards the bottom edge of the board. <img src="http://imgur.com/4NfZJu8.jpg" class="img-responsive" />
+2. Flip the board over and solder one pin on the chip, pressing down on the PCB to ensure the chip is seated firmly. <img src="http://imgur.com/RKSk0Ww.jpg" class="img-responsive" />
+3. Make sure the chip is still seated properly before proceeding to solder the rest of the pins. <img src="http://imgur.com/xiaarAj.jpg" class="img-responsive" />
+4. If you have a v1.0 or older PCB, if your PCB does not have a version number, or if this spot is labeled 'jumper or 0.1uF', you **must** use a jumper wire instead of a capacitor.
+
+   If you have a v1.1 or newer PCB, or if this spot is labeled '0.1uF', you can either leave it empty or use a 0.1uF capacitor.<img src="http://imgur.com/ft608YT.jpg" class="img-responsive" />
+5. Insert a 300 Ohm to 500 Ohm resistor in each set of holes for each output you plan to use.  Bend one leg 180 degrees around, flat against the resistor body, and insert it vertically.<img src="http://imgur.com/VHDGTzv.jpg" class="img-responsive" />
+6. Flip the board over and solder each leg of each resistor.<img src="http://imgur.com/x5Wd6Wk.jpg" class="img-responsive" />
+7. Decide whether you're going to use female headers, stacking female headers, or if you're going to solder the Wemos directly to the level shifter shield PCB.  I used single female headers so the Wemos would be removable, but still fairly low profile.<img src="http://imgur.com/LIUZL8t.jpg" class="img-responsive" />
+8. I used double-sided male headers in a small breadboard to hold the female headers correctly aligned while I soldered.<img src="http://imgur.com/U1zIbwT.jpg.jpg" class="img-responsive" /><img src="http://imgur.com/uzUaqaK.jpg" class="img-responsive" /><img src="http://imgur.com/oqrcZzy.jpg" class="img-responsive" /><img src="http://imgur.com/1DoksKR.jpg" class="img-responsive" />
+9. Insert the large 1000uF capacitor, make sure the negative leg of the capacitor is in the negative labeled hole in the PCB.<img src="http://imgur.com/WPEPwba.jpg" class="img-responsive" /><img src="http://imgur.com/Ijmnx6N.jpg" class="img-responsive" />
+10. Flip the board over and solder one leg, making sure the capacitor is properly aligned before soldering the other leg.<img src="http://imgur.com/5aQLHi7.jpg" class="img-responsive" />
+11. Trim all the leads with a pair of wire cutters.  Flush diagonal cutters work best.
+12. To attach male headers to the Wemos board, you can either use the shield PCB or a breadboard to keep them correctly aligned.<img src="http://imgur.com/uLzEBg1.jpg" class="img-responsive" /><img src="http://imgur.com/3XDmGXI.jpg" class="img-responsive" />
+13. Solder all of the pins, taking care to keep the soldering iron away from the components on the Wemos board.<img src="http://imgur.com/7qBrq0U.jpg" class="img-responsive" />
+14. Strip the ends of the wires you'll use to connect the LEDs.<img src="http://imgur.com/QSpwkNV.jpg" class="img-responsive" />  I left the wires on the spools, which makes it easier to handle.  I used a third hand tool to hold the PCB, since this part requires both hands free.<img src="http://imgur.com/qe6YJo2.jpg" class="img-responsive" />
+15. With a small amount of solder on the tip of the iron, heat the wire right on the bottom of the pad.<img src="http://imgur.com/fbp3dCC.jpg" class="img-responsive" />
+16. Melt a fair amount of solder on the wire and pad.  The insulation on the wire may start to melt as the wire heats up.  If so, push the wire through the hole, from the top towards the bottom, to ensure no wire is left exposed on top.<img src="http://imgur.com/OKdiUUU.jpg" class="img-responsive" /><img src="http://imgur.com/kK5PD17.jpg" class="img-responsive" />
+17. Repeat this process for the other wires.<img src="http://imgur.com/tWxcq4m.jpg" class="img-responsive" />
+18. Cut the wires to the desired length and add [JST-SM connectors](https://www.amazon.com/gp/product/B00VG14BSE) using a [SN-48B Crimping Tool](https://www.amazon.com/Crimping-26-16AWG-0-14-1-5mm%C2%B2-Connectors-Terminals/dp/B00OMMZ502).

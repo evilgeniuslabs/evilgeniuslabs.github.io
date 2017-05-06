@@ -4,3 +4,7 @@
 	float: left;
 	margin-right: 10px;
 }
+
+.img-responsive {
+	width: 600px;
+}
