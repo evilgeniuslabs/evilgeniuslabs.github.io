@@ -6,7 +6,7 @@ imgurId: SR0Gx51
 excerpt: Wi-Fi controlled, Arduino-compatible addressable RGB LED controller based on the ESP8266, with level shifter.
 categories: products
 redirect_from:
-  - /16
+  - /17
   - /wls2
 ---
 
