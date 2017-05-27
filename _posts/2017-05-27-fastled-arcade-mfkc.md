@@ -74,3 +74,7 @@ The games took a bit longer to implement, but I was able to reuse some code from
 * Color Invaders: this is loosely based on [Colour Invaders](http://hamsterworks.co.nz/mediawiki/index.php/Colour_Invaders) by Hamsterworks.  It's a 1D version of Space Invaders, where you have to shoot the incoming color invaders with missiles of the same color.
 * Simon: classic [Simon](https://en.wikipedia.org/wiki/Simon_(game)) electronic memory game.
 * Juggle: a single colored ball is thrown into the air.  You have to press the same colored button right as the ball hits the bottom to relaunch it and keep it in the air.  If successful, another ball of a different color is launched.  Repeats until you fail.  :)
+
+### Source Code
+
+[https://github.com/jasoncoon/fastled-arcade](https://github.com/jasoncoon/fastled-arcade)
