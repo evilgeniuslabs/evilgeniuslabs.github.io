@@ -41,18 +41,25 @@ Inner frame:
 
 <div class="row">
   <div class="col-xs-12 col-md-6">
-    <a href="http://i.imgur.com/ohDvIaW.png" target="_blank" class="thumbnail"><img src="http://i.imgur.com/ohDvIaW.png" class="img-responsive" /></a>
-  </div>
-
-  <div class="col-xs-12 col-md-6">
-    <a href="http://i.imgur.com/IjN1dT6.png" target="_blank" class="thumbnail"><img src="http://i.imgur.com/IjN1dT6.png" class="img-responsive" /></a>
-  </div>
-
-  <div class="col-xs-12 col-md-6">
     <a href="http://i.imgur.com/AHeDDQl.png" target="_blank" class="thumbnail"><img src="http://i.imgur.com/AHeDDQl.png" class="img-responsive" /></a>
   </div>
 
   <div class="col-xs-12 col-md-6">
     <a href="http://i.imgur.com/FRNvEr0.png" target="_blank" class="thumbnail"><img src="http://i.imgur.com/FRNvEr0.png" class="img-responsive" /></a>
   </div>
+  
+  <div class="col-xs-12 col-md-6">
+    <a href="http://i.imgur.com/ohDvIaW.png" target="_blank" class="thumbnail"><img src="http://i.imgur.com/ohDvIaW.png" class="img-responsive" /></a>
+  </div>
+
+  <div class="col-xs-12 col-md-6">
+    <a href="http://i.imgur.com/IjN1dT6.png" target="_blank" class="thumbnail"><img src="http://i.imgur.com/IjN1dT6.png" class="img-responsive" /></a>
+  </div>
+  
+  <div class="col-xs-12 col-md-6">
+    <a href="http://i.imgur.com/a5fB884" target="_blank" class="thumbnail"><img src="http://i.imgur.com/a5fB884.gif" class="img-responsive" /></a>
+  </div>
+
+  
+  
 </div>
