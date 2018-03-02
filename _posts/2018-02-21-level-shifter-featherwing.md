@@ -36,7 +36,7 @@ The shield includes a 74HCT245 level shifter, which is the most well-regarded hi
 
 Eight digital output pins (12, 13, 14, 15, 27, 32, 33, SCL) are run through the level shifter.
 
-The shield also includes places for data line resistors as recommended when driving LEDs. A large capacitor should be connected across the power and ground connections near the LEDs.
+The shield also includes places for data line resistors as recommended when driving LEDs. A large capacitor should be connected across the power and ground connections near the LEDs.  A barrel connector can be added to connect a power supply, but the connector and PCB are only rated for 2.5A.  That's enough for about 50 LEDs at solid white, full brightness.  For larger quantities, power should be connected directly to the LEDs, and/or brightness should be limited in software.
 
 ### Specifications
 
@@ -47,6 +47,7 @@ The shield also includes places for data line resistors as recommended when driv
 - Purple SMOBC (solder mask over bare copper)
 - ENIG (Electroless Nickel Immersion Gold) finish
 - Manufactured in the USA
+- Current Rating: 2.5A
 
 Parts that are **not included**, but are required to assemble:
 
@@ -55,6 +56,7 @@ Parts that are **not included**, but are required to assemble:
 - [SN74HCT245N Level Shifter](http://www.digikey.com/product-detail/en/texas-instruments/SN74HCT245N/296-1612-5-ND/277258)
 - [0.10µF Capacitor](https://www.digikey.com/product-detail/en/kemet/C320C104M5U5TA/399-4266-ND/818042)
 - [470 ohm resistors](https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT470R/CF14JT470RCT-ND/1830342)
+- [Power Barrel Connector Jack](https://www.digikey.com/product-detail/en/cui-inc/PJ-102A/CP-102A-ND/275425)
 
 ### Code
 
