@@ -74,6 +74,30 @@ Features:
 * Set to any solid color
 * Autoplay patterns with adjustable duration
 
-### More Information
+### Assembly Instructions
 
-For assembly instructions, example code, and more information, please see [Wemos D1 Mini ESP8266 LED & Level Shifter Shield](/wifi-led-controller).
+**Note**: Double-check the position, alignment, and orientation of each component very carefully before soldering!
+
+If you're new to soldering, I highly recommend reading through a good soldering tutorial, such as the ones by [Adafruit](https://learn.adafruit.com/adafruit-guide-excellent-soldering) and [SparkFun](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering).
+
+I used this [3D printed vise](https://www.thingiverse.com/thing:2801942) to hold the PCB while soldering.
+
+I also built one of these [DIY flexible soldering helping hands](http://www.instructables.com/id/DIY-Flexible-Soldering-Helping-Hand/).
+
+1. Insert the SN74HCT245N Level Shifter chip into the holes in the top side of the board, where indicated. <img src="http://imgur.com/mzgFBwC.jpg" class="img-responsive" />
+2. Flip the board over and solder one pin on the chip, pressing down on the PCB to ensure the chip is seated firmly.
+3. Make sure the chip is still seated properly before proceeding to solder the rest of the pins.
+4. Insert the 0.1uF capacitor.
+5. Insert 300 Ohm to 500 Ohm resistors in each set of holes for each output you plan to use.  Bend one leg 180 degrees around, flat against the resistor body, and insert it vertically.
+6. Trim all the leads with a pair of wire cutters.  Flush diagonal cutters work best.
+7. Flip the board over and solder each leg of each resistor.<img src="http://imgur.com/C09pFod.jpg" class="img-responsive" />
+8. Insert the power barrel jack.<img src="http://imgur.com/NEs4nTV.jpg" class="img-responsive" />
+9. I used a twist tie through the corner mounting holes to hold it in while I flipped the PCB over and soldered it in.<img src="http://imgur.com/3XlQiGy.jpg" class="img-responsive" />
+10. The pads are very large, and connected to large ground and power planes on the board, so they might take a while to heat up before the solder starts to flow around the leads.<img src="http://imgur.com/8NVusfc.jpg" class="img-responsive" />
+11. If possible, use a vise to hold the PCB vertically, and a helping hands tool to hold the wires as they're soldered.<img src="http://imgur.com/wwEqib0.jpg" class="img-responsive" />
+12. Strip the ends of the wires you'll use to connect the LEDs.<img src="http://imgur.com/QSpwkNV.jpg" class="img-responsive" />  I left the wires on the spools, which makes it easier to handle.
+13. With a small amount of solder on the tip of the iron, heat the wire right on the bottom of the pad.
+16. Melt a fair amount of solder on the wire and pad.  The insulation on the wire may start to melt as the wire heats up.  If so, push the wire through the hole, from the top towards the bottom, to ensure no wire is left exposed on top.
+17. Repeat this process for the other wires.<img src="http://imgur.com/Y2lxdRA.jpg" class="img-responsive" />
+18. Cut the wires to the desired length and add [JST-SM connectors](https://www.amazon.com/gp/product/B00VG14BSE) using a [SN-48B Crimping Tool](https://www.amazon.com/Crimping-26-16AWG-0-14-1-5mm%C2%B2-Connectors-Terminals/dp/B00OMMZ502).
+13. I used double-sided male headers in a small breadboard to hold the female headers correctly aligned while I soldered.<img src="http://imgur.com/UhEGkzn.jpg" class="img-responsive" />
