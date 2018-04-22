@@ -35,7 +35,7 @@ I plan to mount the control box to a table, and mount the LED strip a few feet a
 | [Wooden Box](http://www.michaels.com/wooden-box-by-artminds/10357776.html) | 1 | $5.99 | $5.99 | Michaels
 | [SN74HCT245N Level Shifter](http://www.digikey.com/product-detail/en/texas-instruments/SN74HCT245N/296-1612-5-ND/277258) | 1 | $0.58 | $0.58 | Digi-Key
 | [1000µF Capacitor](http://www.digikey.com/product-detail/en/panasonic-electronic-components/ECA-1EM102/P5156-ND/245015) | 1 | $0.62 | $0.62 | Digi-Key
-| [0.10µF Capacitor](https://www.digikey.com/product-detail/en/kemet/C320C104M5U5TA/399-4266-ND/818042) | 1 | $0.30 | $0.30 | Digi-Key
+| [0.10µF Capacitor](https://www.digikey.com/product-detail/en/kemet/C320C104M5R5TA/399-9776-ND/3726028) | 1 | $0.30 | $0.30 | Digi-Key
 | [470 ohm resistor](https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT470R/CF14JT470RCT-ND/1830342) | 1 | $0.10 | $0.10 | Digi-Key
 
 Also needed:
