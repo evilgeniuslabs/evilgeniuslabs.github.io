@@ -151,7 +151,7 @@ Insert the Teensy LC into the sockets on the PCB.  Make sure it's oriented corre
 
 Insert the NeoPixel strip into the sockets.  Double-check the alignment, comparing the labels on the strip to those on the PCB.
 
-Knobs for the potentiometers are nice, but not required.  I bought some [cheap knobs on Amazon](https://www.amazon.com/gp/product/B00X7BTTEM), but had to trim them down with some wire cutters, and drill out the center hole a bit to make them fit.
+Knobs for the potentiometers are nice, but not required.  I bought some [cheap knobs on Amazon](https://amzn.to/2vGtI3B), but had to trim them down with some wire cutters, and drill out the center hole a bit to make them fit.
 
 You could, alternatively, put a little red, green, and blue paint or nail polish on the top of the potentiometer posts.
 

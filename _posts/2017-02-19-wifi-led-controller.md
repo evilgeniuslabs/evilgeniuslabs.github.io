@@ -70,6 +70,16 @@ Parts that are **not included**, but are required to assemble:
 - [0.10µF Capacitor](https://www.digikey.com/product-detail/en/kemet/C320C104M5R5TA/399-9776-ND/3726028)
 - [470 ohm resistors](https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT470R/CF14JT470RCT-ND/1830342)
 
+Wire/Connectors
+
+- [Pre-Wired JST SM Connectors](https://amzn.to/2P6qYEN)
+
+OR
+
+- [JST-SM connectors](https://amzn.to/2P7cvJ1)
+- [SN-48B Crimping Tool](https://amzn.to/2P6YpHh)
+- 22 AWG Wire
+
 ### Background
 
 All of my projects lately have been driven by ESP8266 microcontrollers with Wi-Fi support.  Following the best practice recommendations of using a fast level shifter, large capacitor, and resistors on the clock and data lines was resulting in a lot of wires on a large perma-proto board.  I decided to design a PCB to make it cleaner and more compact.
@@ -122,4 +132,4 @@ If you're new to soldering, I highly recommend reading through a good soldering 
 15. With a small amount of solder on the tip of the iron, heat the wire right on the bottom of the pad.<img src="http://imgur.com/fbp3dCC.jpg" class="img-responsive" />
 16. Melt a fair amount of solder on the wire and pad.  The insulation on the wire may start to melt as the wire heats up.  If so, push the wire through the hole, from the top towards the bottom, to ensure no wire is left exposed on top.<img src="http://imgur.com/OKdiUUU.jpg" class="img-responsive" /><img src="http://imgur.com/kK5PD17.jpg" class="img-responsive" />
 17. Repeat this process for the other wires.<img src="http://imgur.com/tWxcq4m.jpg" class="img-responsive" />
-18. Cut the wires to the desired length and add [JST-SM connectors](https://www.amazon.com/gp/product/B00VG14BSE) using a [SN-48B Crimping Tool](https://www.amazon.com/Crimping-26-16AWG-0-14-1-5mm%C2%B2-Connectors-Terminals/dp/B00OMMZ502).
+18. Cut the wires to the desired length and add [JST-SM connectors](https://amzn.to/2P7cvJ1) using a [SN-48B Crimping Tool](https://amzn.to/2P6YpHh).
