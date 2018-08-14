@@ -54,6 +54,16 @@ Parts that are **not included**, but are required to assemble:
 - [0.10µF Capacitor](https://www.digikey.com/product-detail/en/kemet/C320C104M5R5TA/399-9776-ND/3726028)
 - [470 ohm resistors](https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT470R/CF14JT470RCT-ND/1830342)
 
+Wire/Connectors
+
+- [Pre-Wired JST SM Connectors](https://amzn.to/2P6qYEN)
+
+OR
+
+- [JST-SM connectors](https://amzn.to/2P7cvJ1)
+- [SN-48B Crimping Tool](https://amzn.to/2P6YpHh)
+- 22 AWG Wire
+
 ### More Information
 
 For assembly instructions, example code, and more information, please see [Wemos D1 Mini ESP8266 LED & Level Shifter Shield](/wifi-led-controller).

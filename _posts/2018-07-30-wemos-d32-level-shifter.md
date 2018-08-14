@@ -6,7 +6,7 @@ imgurId: i70kJE7
 excerpt: Wi-Fi and BLE controlled, Arduino-compatible addressable RGB LED controller based on the ESP32, with level shifter.
 categories: products
 redirect_from:
-  - /21
+  - /22
 ---
 
 <img src="https://i.imgur.com/5tyrYe3.jpg" style="width:400px" class="img-responsive" />
@@ -59,6 +59,16 @@ Parts that are **not included**, but are required to assemble:
 - [(8) 470 ohm resistors](https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT470R/CF14JT470RCT-ND/1830342)
 - [Power Barrel Connector Jack](https://www.digikey.com/product-detail/en/cui-inc/PJ-102A/CP-102A-ND/275425)
 
+Wire/Connectors
+
+- [Pre-Wired JST SM Connectors](https://amzn.to/2P6qYEN)
+
+OR
+
+- [JST-SM connectors](https://amzn.to/2P7cvJ1)
+- [SN-48B Crimping Tool](https://amzn.to/2P6YpHh)
+- 22 AWG Wire
+
 ### Code
 
 Open source example firmware and web application: [https://github.com/jasoncoon/esp32-fastled-webserver](https://github.com/jasoncoon/esp32-fastled-webserver)
@@ -100,5 +110,5 @@ I also built one of these [DIY flexible soldering helping hands](http://www.inst
 13. With a small amount of solder on the tip of the iron, heat the wire right on the bottom of the pad.
 16. Melt a fair amount of solder on the wire and pad.  The insulation on the wire may start to melt as the wire heats up.  If so, push the wire through the hole, from the top towards the bottom, to ensure no wire is left exposed on top.
 17. Repeat this process for the other wires.<img src="https://i.imgur.com/Y2lxdRA.jpg" class="img-responsive" />
-18. Cut the wires to the desired length and add [JST-SM connectors](https://www.amazon.com/gp/product/B00VG14BSE) using a [SN-48B Crimping Tool](https://www.amazon.com/Crimping-26-16AWG-0-14-1-5mm%C2%B2-Connectors-Terminals/dp/B00OMMZ502).
+18. Cut the wires to the desired length and add [JST-SM connectors](https://amzn.to/2P7cvJ1) using a [SN-48B Crimping Tool](https://amzn.to/2P6YpHh).
 13. I used double-sided male headers in a small breadboard to hold the female headers correctly aligned while I soldered.<img src="https://i.imgur.com/UhEGkzn.jpg" class="img-responsive" />

@@ -13,7 +13,7 @@ redirect_from:
 
 ### Background
 
-Having already built an [educational project](https://evilgeniuslabs.org/fastled-rgb-hsv-tutorial) for [Maker Faire Kansas City 2017](http://kansascity.makerfaire.com), I wanted something a little more fun and interactive.  So I picked up some [LED Arcade buttons](https://www.amazon.com/Illuminated-button-Buttons-Joystick-Raspberry-Pc/dp/B01LXZSV2N?SubscriptionId=AKIAJN63M3R66BW5WD2A&tag=mediarack05-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01LXZSV2N) and built a little LED strip control box with them, using a [Teensy 3.2](https://www.pjrc.com/store/teensy32.html).
+Having already built an [educational project](https://evilgeniuslabs.org/fastled-rgb-hsv-tutorial) for [Maker Faire Kansas City 2017](http://kansascity.makerfaire.com), I wanted something a little more fun and interactive.  So I picked up some [LED Arcade buttons](https://amzn.to/2Mcv7cC) and built a little LED strip control box with them, using a [Teensy 3.2](https://www.pjrc.com/store/teensy32.html).
 
 I plan to mount the control box to a table, and mount the LED strip a few feet away.  The wooden box is pretty solid, and I'm hoping it can survive a weekend of constant abuse.
 
@@ -31,7 +31,7 @@ I plan to mount the control box to a table, and mount the LED strip a few feet a
 | [Teensy 3.2](https://www.pjrc.com/store/teensy32.html) | 1 | $19.80 | $19.80 | PJRC
 | [Perma-Proto Half-sized Breadboard PCB](https://www.adafruit.com/product/571) | 1 | $12.50 | $12.50 | Adafruit
 | [NeoPixel 144 RGB LED Strip - 1m](https://www.adafruit.com/product/1506) | 1 | $59.95 | $59.95 | Adafruit
-| [LED Arcade Buttons](https://www.amazon.com/Illuminated-button-Buttons-Joystick-Raspberry-Pc/dp/B01LXZSV2N?SubscriptionId=AKIAJN63M3R66BW5WD2A&tag=mediarack05-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01LXZSV2N) | 1 | $12.88 | $12.88 | Amazon
+| [LED Arcade Buttons](https://amzn.to/2Mcv7cC) | 1 | $12.88 | $12.88 | Amazon
 | [Wooden Box](http://www.michaels.com/wooden-box-by-artminds/10357776.html) | 1 | $5.99 | $5.99 | Michaels
 | [SN74HCT245N Level Shifter](http://www.digikey.com/product-detail/en/texas-instruments/SN74HCT245N/296-1612-5-ND/277258) | 1 | $0.58 | $0.58 | Digi-Key
 | [1000µF Capacitor](http://www.digikey.com/product-detail/en/panasonic-electronic-components/ECA-1EM102/P5156-ND/245015) | 1 | $0.62 | $0.62 | Digi-Key
@@ -42,8 +42,8 @@ Also needed:
 
 * Stranded wire for the buttons, LEDs, power, etc.
 * Solid wire for perma-proto breadboard connections.
-* [3 Pin JST SM Connectors](https://www.amazon.com/Black-Plastic-Housing-Female-Connector/dp/B00VG14BSE?SubscriptionId=AKIAJN63M3R66BW5WD2A&tag=mediarack05-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00VG14BSE)
-* [SN-48B Crimping Tool](https://www.amazon.com/Iwiss-Crimping-0-14-1-5mm%C2%B2-Connectors-Terminals/dp/B00OMMZ502?SubscriptionId=AKIAJN63M3R66BW5WD2A&tag=mediarack05-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00OMMZ502)
+* [3 Pin JST SM Connectors](https://amzn.to/2P4B3lR)
+* [SN-48B Crimping Tool](https://amzn.to/2P638Jy)
 
 Some of these parts can, of course, be obtained for less at other suppliers.
 
