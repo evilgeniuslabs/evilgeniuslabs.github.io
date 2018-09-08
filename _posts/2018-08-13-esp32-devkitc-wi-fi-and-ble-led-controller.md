@@ -29,19 +29,19 @@ For free shipping worldwide, you can [contact us](/contact) to order and have th
 
 ### Details
 
-This is a shield/breakout for [ESP32-DevKitC Board](https://www.espressif.com/en/products/hardware/esp32-devkitc/overview) that makes it easy to control addressable RGB LEDs, such as WS2811, WS2812 (Adafruit NeoPixels), and APA102 (Adafruit DotStars).
+This is a shield/breakout for the [ESP32 DevKitC](https://www.espressif.com/en/products/hardware/esp32-devkitc/overview) board that makes it easy to control addressable RGB LEDs such as WS2811, WS2812 (Adafruit NeoPixels), SK6812, APA102 (Adafruit DotStars), and SK9822. The ESP32 DevKitC is an excellent Wi-Fi and Bluetooth development board based on the ES32. This shield supports 8x parallel output.
 
 I made this shield because I was hand-wiring this same layout on perma-proto boards, which was time-consuming and unprofessional looking.
 
 The shield includes a 74HCT245 level shifter, which is the most well-regarded high speed level shifter I've found.  This shifts the 3.3V logic level of the ESP32 to the 5V expected by addressable RGB LEDs.  These projects often work fine without a level shifter, until they don't.
 
-Eight digital output pins (0, 2, 4, 12, 13, 15, 16, 17) are run through the level shifter.
+Eight digital output pins (0, 2, 4, 12, 13, 15, 16, 17) are run through the level shifter. It supports parallel output, thanks to Sam Guyer's excellent work on [FastLED ESP32 support](https://github.com/samguyer/FastLED).
 
 The shield also includes places for data line resistors as recommended when driving LEDs. A large capacitor should be connected across the power and ground connections near the LEDs.  A barrel connector can be added to connect a power supply, but the connector and PCB are only rated for 2.5A.  That's enough for about 50 LEDs at solid white, full brightness.  For larger quantities, power should be connected directly to the LEDs, and/or brightness should be limited in software.
 
 ### Specifications
 
-- Size: 2.01 x 1.01 x .063 inch (51.0 x 25.6 x 1.6 mm)
+- Size: 1.91 x 1.01 x .063 inches (48.5 x 25.6 x 1.6 mm)
 - 2 layer printed circuit board
 - FR4 substrate
 - Lead free
