@@ -24,12 +24,11 @@ redirect_from:
 
 For fast shipping to the US, you can buy from our [Tindie](https://www.tindie.com/products/jasoncoon/wemos-d32-esp32-led-and-level-shifter-shield/) store.
 
-
 For free shipping worldwide, you can [contact us](/contact) to order and have them shipped to you directly from the PCB manufacturer.  It takes a few weeks, and they require PCBs be ordered in multiples of three.
 
 ### Details
 
-This is a shield/breakout for [Wemos D32 ESP32 Board](https://wiki.wemos.cc/products:d32:d32) that makes it easy to control addressable RGB LEDs, such as WS2811, WS2812 (Adafruit NeoPixels), and APA102 (Adafruit DotStars).
+This is a shield/breakout for [Wemos D32 ESP32 Board](https://wiki.wemos.cc/products:d32:d32) that makes it easy to control addressable RGB LEDs, such as WS2811, WS2812 (Adafruit NeoPixels), SK6812, APA102 (Adafruit DotStars), and SK9822. The Wemos D32 is an excellent Wi-Fi and Bluetooth development board based on the ES32. This shield supports 8x parallel output.
 
 I made this shield because I was hand-wiring this same layout on perma-proto boards, which was time-consuming and unprofessional looking.
 
