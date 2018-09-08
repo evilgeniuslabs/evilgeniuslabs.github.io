@@ -2,7 +2,7 @@
 layout: post
 title: ESP32 DevKitC Wi-Fi and BLE LED Controller
 id: d32-shield
-imgurId: i70kJE7
+imgurId: CaElmEG
 excerpt: Wi-Fi and BLE controlled, Arduino-compatible addressable RGB LED controller based on the ESP32-DevKitC, with level shifter.
 categories: products
 redirect_from:
