@@ -1,19 +1,19 @@
 ---
 layout: post
-title: ESP32 DevKitC Wi-Fi and BLE LED Controller
-id: d32-shield
-imgurId: CaElmEG
-excerpt: Wi-Fi and BLE controlled, Arduino-compatible addressable RGB LED controller based on the ESP32-DevKitC, with level shifter.
+title: NodeMCU-32S Wi-Fi and BLE LED Controller
+id: nodemcu-32s-shield
+imgurId: 2mjwnIJ
+excerpt: Wi-Fi and BLE controlled, Arduino-compatible addressable RGB LED controller based on the NodeMCU-32S, with level shifter.
 categories: products
 redirect_from:
-  - /23
+  - /24
 ---
 
 <img src="https://i.imgur.com/jT7bq4S.jpg" style="width:400px" class="img-responsive" />
 
-<img src="https://i.imgur.com/SqDk1tO.jpg" style="width:400px" class="img-responsive" />
+<img src="https://i.imgur.com/2mjwnIJ.jpg" style="width:400px" class="img-responsive" />
 
-<img src="https://i.imgur.com/UHvLlvr.jpg" style="width:400px" class="img-responsive" />
+<img src="https://i.imgur.com/xSwN6sy.jpg" style="width:400px" class="img-responsive" />
 
 <h3>Table of Contents</h3>
 
@@ -22,14 +22,14 @@ redirect_from:
 
 ### Buy
 
-For fast shipping to the US, you can buy from our [Tindie](https://www.tindie.com/products/jasoncoon/esp32-devkitc-wi-fi-and-ble-led-controller/) store.
+Coming soon to our [Tindie](https://www.tindie.com/products/jasoncoon/nodemcu-32s-wi-fi-and-ble-led-controller/) store!
 
 
 For free shipping worldwide, you can [contact us](/contact) to order and have them shipped to you directly from the PCB manufacturer.  It takes a few weeks, and they require PCBs be ordered in multiples of three.
 
 ### Details
 
-This is a shield/breakout for the [ESP32 DevKitC](https://www.espressif.com/en/products/hardware/esp32-devkitc/overview) board that makes it easy to control addressable RGB LEDs such as WS2811, WS2812 (Adafruit NeoPixels), SK6812, APA102 (Adafruit DotStars), and SK9822. The ESP32 DevKitC is an excellent Wi-Fi and Bluetooth development board based on the ES32. This shield supports 8x parallel output.
+This is a shield/breakout for [NodeMCU-32S Board](https://amzn.to/2MWrCrk) that makes it easy to control addressable RGB LEDs, such as WS2811, WS2812 (Adafruit NeoPixels), SK6812, APA102 (Adafruit DotStars), and SK9822. The NodeMCU-32S is an excellent Wi-Fi and Bluetooth development board based on the ES32. This shield supports 8x parallel output.
 
 I made this shield because I was hand-wiring this same layout on perma-proto boards, which was time-consuming and unprofessional looking.
 
@@ -41,7 +41,7 @@ The shield also includes places for data line resistors as recommended when driv
 
 ### Specifications
 
-- Size: 1.91 x 1.01 x .063 inches (48.5 x 25.6 x 1.6 mm)
+- Size: 2.01 x 1.01 x .063 inch (51.0 x 25.6 x 1.6 mm)
 - 2 layer printed circuit board
 - FR4 substrate
 - Lead free
@@ -52,7 +52,7 @@ The shield also includes places for data line resistors as recommended when driv
 
 Parts that are **not included**, but are required to assemble:
 
-- [ESP32-DevKitC Board](https://www.digikey.com/product-detail/en/espressif-systems/ESP32-DEVKITC-32D/1965-1000-ND/9356990)
+- [NodeMCU-32S Board](https://amzn.to/2MWrCrk)
 - [(2) 19-pin Female Headers](https://www.digikey.com/product-detail/en/PPTC191LFBN-RC/S7017-ND/810157/?itemSeq=269091451)
 - [SN74HCT245N Level Shifter](http://www.digikey.com/product-detail/en/texas-instruments/SN74HCT245N/296-1612-5-ND/277258)
 - [0.10µF Capacitor](https://www.digikey.com/product-detail/en/kemet/C320C104M5U5TA/399-4266-ND/818042)
