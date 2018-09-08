@@ -22,20 +22,19 @@ redirect_from:
 
 ### Buy
 
-Coming soon to our [Tindie](https://www.tindie.com/products/jasoncoon/nodemcu-32s-wi-fi-and-ble-led-controller/) store!
-
+Coming soon to our [Tindie](https://www.tindie.com/stores/jasoncoon/) store!
 
 For free shipping worldwide, you can [contact us](/contact) to order and have them shipped to you directly from the PCB manufacturer.  It takes a few weeks, and they require PCBs be ordered in multiples of three.
 
 ### Details
 
-This is a shield/breakout for [NodeMCU-32S Board](https://amzn.to/2MWrCrk) that makes it easy to control addressable RGB LEDs, such as WS2811, WS2812 (Adafruit NeoPixels), SK6812, APA102 (Adafruit DotStars), and SK9822. The NodeMCU-32S is an excellent Wi-Fi and Bluetooth development board based on the ES32. This shield supports 8x parallel output.
+This is a shield/breakout for [NodeMCU-32S Board](https://amzn.to/2MWrCrk) that makes it easy to control addressable RGB LEDs, such as WS2811, WS2812 (Adafruit NeoPixels), SK6812, APA102 (Adafruit DotStars), and SK9822. The NodeMCU-32S Board is an excellent Wi-Fi and Bluetooth development board based on the ES32. This shield supports 8x parallel output.
 
 I made this shield because I was hand-wiring this same layout on perma-proto boards, which was time-consuming and unprofessional looking.
 
 The shield includes a 74HCT245 level shifter, which is the most well-regarded high speed level shifter I've found.  This shifts the 3.3V logic level of the ESP32 to the 5V expected by addressable RGB LEDs.  These projects often work fine without a level shifter, until they don't.
 
-Eight digital output pins (0, 2, 4, 12, 13, 15, 16, 17) are run through the level shifter. It supports parallel output, thanks to Sam Guyer's excellent work on [FastLED ESP32 support](https://github.com/samguyer/FastLED).
+Eight digital output pins (0, 2, 4, 12, 13, 15, 16, 17) are run through the level shifter.
 
 The shield also includes places for data line resistors as recommended when driving LEDs. A large capacitor should be connected across the power and ground connections near the LEDs.  A barrel connector can be added to connect a power supply, but the connector and PCB are only rated for 2.5A.  That's enough for about 50 LEDs at solid white, full brightness.  For larger quantities, power should be connected directly to the LEDs, and/or brightness should be limited in software.
 
