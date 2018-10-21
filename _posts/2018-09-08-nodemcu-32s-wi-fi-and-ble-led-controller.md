@@ -96,7 +96,7 @@ I also built one of these [DIY flexible soldering helping hands](http://www.inst
 
 1. Insert the SN74HCT245N Level Shifter chip into the holes in the top side of the board, where indicated. Be sure the notch is correctly aligned toward the 0.1uF capacitor, as indicated with the markings on the PCB.
 
-<img src="https://i.imgur.com/Ldq6QRR.jpg" class="img-responsive" />
+<img src="https://i.imgur.com/eWWlZjD.jpg" class="img-responsive" />
 
 2. Flip the board over and solder one pin on the chip, pressing down on the PCB to ensure the chip is seated firmly.
 
@@ -104,7 +104,7 @@ I also built one of these [DIY flexible soldering helping hands](http://www.inst
 
 4. Insert the 0.1uF capacitor, flip over and solder.
 
-<img src="https://i.imgur.com/a0K7GCy.jpg" class="img-responsive" />
+<img src="https://i.imgur.com/6CL4RwZ.jpg" class="img-responsive" />
 
 5. Insert 300 Ohm to 500 Ohm resistors in each set of holes for each output you plan to use.  Bend one leg 180 degrees around, flat against the resistor body, and insert it vertically.
 
@@ -112,31 +112,33 @@ I also built one of these [DIY flexible soldering helping hands](http://www.inst
 
 6. Flip the board over and solder each leg of each resistor.
 
-<img src="https://i.imgur.com/mQdOrFt.jpg" class="img-responsive" />
+<img src="https://i.imgur.com/oRzHNX6.jpg" class="img-responsive" />
+
+<img src="https://i.imgur.com/3CnX3MX.jpg" class="img-responsive" />
 
 7. Trim all the leads with a pair of wire cutters.  Flush diagonal cutters work best.
 
 8. Insert the power barrel jack.
 
-<img src="https://i.imgur.com/DIpFafb.jpg" class="img-responsive" />
+<img src="https://i.imgur.com/DhTB9Jt.jpg" class="img-responsive" />
 
 9. I used a twist tie through the corner mounting holes to hold it in while I flipped the PCB over and soldered it in.
 
-<img src="https://i.imgur.com/XdFK3uA.jpg" class="img-responsive" />
+<img src="https://i.imgur.com/xMlnCuQ.jpg" class="img-responsive" />
 
 10. The pads are very large, and connected to large ground and power planes on the board, so they might take a while to heat up before the solder starts to flow around the leads.
 
-<img src="https://i.imgur.com/5dyZ3o3.jpg" class="img-responsive" />
+<img src="https://i.imgur.com/PlBhEe5.jpg" class="img-responsive" />
 
-11. Strip and tin the ends of the wires you'll use to connect the LEDs.
+11. I use pre-assembled [3 pin JST-SM connectors](https://amzn.to/2CWBL1G) to connect the LEDs.
 
-<img src="https://i.imgur.com/QSpwkNV.jpg" class="img-responsive" />
-
-I left the wires on the spools, which makes it easier to handle.
+<img src="https://i.imgur.com/Qg0ikxA.jpg" class="img-responsive" />
 
 12. If possible, use a vise to hold the PCB vertically, and a helping hands tool to hold the wires as they're soldered.
 
-<img src="https://i.imgur.com/QEVkk3s.jpg" class="img-responsive" />
+<img src="https://i.imgur.com/QmyMrN8.jpg" class="img-responsive" />
+
+<img src="https://i.imgur.com/YnxsDwQ.jpg" class="img-responsive" />
 
 13. With a small amount of solder on the tip of the iron, heat the wire right on the bottom of the pad.
 
@@ -144,14 +146,8 @@ I left the wires on the spools, which makes it easier to handle.
 
 15. Repeat this process for the other wires.
 
-<img src="https://i.imgur.com/qkRO8b6.jpg" class="img-responsive" />
+<img src="https://i.imgur.com/80KyNTS.jpg" class="img-responsive" />
 
-16. Cut the wires to the desired length and add [JST-SM connectors](https://amzn.to/2P7cvJ1) using a [SN-48B Crimping Tool](https://amzn.to/2P6YpHh).
-
-<img src="https://i.imgur.com/gxQ3QA1.jpg" class="img-responsive" />
-
-17. I used the ESP32 DevKitC to hold the female headers correctly aligned while I soldered.
-
-<img src="https://i.imgur.com/YRDLKbV.jpg" class="img-responsive" />
+17. I used the NodeMCU-32S to hold the female headers correctly aligned while I soldered.
 
 <img src="https://i.imgur.com/lQHpR5x.jpg" class="img-responsive" />
