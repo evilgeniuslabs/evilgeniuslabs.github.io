@@ -20,8 +20,6 @@ redirect_from:
 
 For fast shipping to the US, you can buy from our [Tindie](https://www.tindie.com/products/jasoncoon/wemos-d1-mini-esp8266-led-and-level-shifter-shield) store.
 
-For fast shipping from the UK, you can buy from [PureTek](http://www.ebay.co.uk/itm/Evil-Genius-Labs-Wemos-D1-Mini-ESP8266-LED-Level-Shifter-Shield-/272670862672).
-
 If we're out of stock on Tindie, or for free shipping worldwide, you can [contact us](/contact) to order and have them shipped to you directly from the PCB manufacturer.  It takes a bit longer, and they require PCBs be ordered in multiples of three.
 
 ### Details
