@@ -20,6 +20,20 @@ redirect_from:
 
 <img src="https://i.imgur.com/85bvJJx.jpg" style="width:200px" class="img-responsive" />
 
+<img src="https://i.imgur.com/A0Yvsf7.jpg" style="width:200px" class="img-responsive" />
+
+<img src="https://cdn.thingiverse.com/renders/f8/ed/ee/9c/ba/3ec0ad61792f36cfe7c1c4d2cdf18e0a_preview_featured.jpg" style="width:200px" class="img-responsive" />
+
+<img src="https://cdn.thingiverse.com/renders/27/d8/c4/da/4a/4b48c1b7f89554a6538940d1ae34f603_preview_featured.jpg" style="width:200px" class="img-responsive" />
+
+<img src="https://cdn.thingiverse.com/renders/78/40/ee/0b/7b/be7ae6fe4cd93af43c0285847f9d8735_preview_featured.jpg" style="width:200px" class="img-responsive" />
+
+<img src="https://cdn.thingiverse.com/renders/c6/d3/27/b2/a4/f4a592a25b276b405fb03bf4e3512f37_preview_featured.jpg" style="width:200px" class="img-responsive" />
+
+<img src="https://cdn.thingiverse.com/renders/db/24/a0/3d/ef/bd1338bca251a8ac002df68c9e0f0078_preview_featured.jpg" style="width:200px" class="img-responsive" />
+
+<img src="https://cdn.thingiverse.com/renders/31/d9/49/e0/0b/b232e12274ce879c8db3f51317ed32a7_preview_featured.jpg" style="width:200px" class="img-responsive" />
+
 <h3>Table of Contents</h3>
 
 * TOC
@@ -57,9 +71,12 @@ The large 5V trace and GND pour should be rated for up to 2 amps.  That's enough
 Parts that are **not included**, but are required to assemble:
 
 - [Adafruit Pro Trinket - 5V 16MHz](https://www.adafruit.com/product/2000)
+- [Adafruit 60 NeoPixel RGB LED Strip](https://www.adafruit.com/product/1138)
 - [470 ohm resistors](https://www.adafruit.com/product/2781)
 - [Tactile Button switches (6mm)](https://www.adafruit.com/product/367)
+- [3D printed case](https://www.thingiverse.com/thing:3200653)
 - [3/4 in. x 10 ft. White PEX Pipe](https://www.homedepot.com/p/Apollo-3-4-in-x-10-ft-White-PEX-Pipe-APPW1034/301541221)
+- [White floral foam](https://www.michaels.com/floracraft-styrofoam-block-white/M10102529.html)
 
 Pipe fittings
 
