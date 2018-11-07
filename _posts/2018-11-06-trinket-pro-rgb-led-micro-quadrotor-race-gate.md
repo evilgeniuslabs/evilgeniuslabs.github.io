@@ -16,9 +16,9 @@ redirect_from:
 
 <img src="https://i.imgur.com/HSkjbnz.jpg" style="width:400px" class="img-responsive" />
 
-<img src="https://i.imgur.com/zmIqoIu.jpg" style="height:400px" class="img-responsive" />
+<img src="https://i.imgur.com/zmIqoIu.jpg" style="width:200px" class="img-responsive" />
 
-<img src="https://i.imgur.com/85bvJJx.jpg" style="height:400px" class="img-responsive" />
+<img src="https://i.imgur.com/85bvJJx.jpg" style="width:200px" class="img-responsive" />
 
 <h3>Table of Contents</h3>
 
