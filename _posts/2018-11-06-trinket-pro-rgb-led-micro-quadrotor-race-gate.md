@@ -112,7 +112,6 @@ I also built one of these [DIY flexible soldering helping hands](http://www.inst
 5. I used a pre-assembled [3 pin JST-SM connector](https://amzn.to/2CWBL1G) to connect the LEDs.
 
 6. If possible, use a vise to hold the PCB vertically, and a helping hands tool to hold the wires as they're soldered.
-
 <img src="https://i.imgur.com/26X166P.jpg" class="img-responsive" />
 
 7. With a small amount of solder on the tip of the iron, heat the wire right on the bottom of the pad.
@@ -122,5 +121,4 @@ I also built one of these [DIY flexible soldering helping hands](http://www.inst
 9. Repeat this process for the other wires.
 
 10. I used the Trinket to hold the female headers correctly aligned while I soldered.
-
 <img src="https://i.imgur.com/A0Yvsf7.jpg" class="img-responsive" />
