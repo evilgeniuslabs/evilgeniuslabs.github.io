@@ -54,7 +54,7 @@ The large 5V trace and GND pour should be rated for up to 2 amps.  That's enough
 Parts that are **not included**, but are required to assemble:
 
 - [Adafruit Pro Trinket - 5V 16MHz](https://www.adafruit.com/product/2000)
-- [470 ohm resistors](https://www.adafruit.com/product/2781)
+- [330 Ohm resistors](https://www.adafruit.com/product/2781)
 - [Tactile Button switches (6mm)](https://www.adafruit.com/product/367)
 
 Wire/Connectors
