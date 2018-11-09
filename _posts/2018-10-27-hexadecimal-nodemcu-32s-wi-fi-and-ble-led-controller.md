@@ -55,8 +55,8 @@ Parts that are **not included**, but are required to assemble:
 - [NodeMCU-32S Board](https://amzn.to/2MWrCrk)
 - [(2) 19-pin Female Headers](https://www.digikey.com/product-detail/en/PPTC191LFBN-RC/S7017-ND/810157/?itemSeq=269091451)
 - [(2) SN74HCT245N Level Shifters](http://www.digikey.com/product-detail/en/texas-instruments/SN74HCT245N/296-1612-5-ND/277258)
-- [0.10µF Capacitor](https://www.digikey.com/product-detail/en/kemet/C320C104M5U5TA/399-4266-ND/818042)
-- [(8) 470 ohm resistors](https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT470R/CF14JT470RCT-ND/1830342)
+- [(2) 0.10µF Capacitor](https://www.digikey.com/product-detail/en/kemet/C320C104M5U5TA/399-4266-ND/818042)
+- [(16) 470 ohm resistors](https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT470R/CF14JT470RCT-ND/1830342)
 - [Power Barrel Connector Jack](https://www.digikey.com/product-detail/en/cui-inc/PJ-102A/CP-102A-ND/275425)
 
 Wire/Connectors
