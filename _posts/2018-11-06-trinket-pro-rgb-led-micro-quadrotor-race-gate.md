@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Trinket Pro RGB LED Micro Quadrotor Race Gate
+title: Trinket Pro RGB LED Race Gate Controller
 id: trinket-pro-rgb-led-micro-quadrotor-race-gate
-imgurId: MQRllpA
+imgurId: NHmCcdx
 videoUrl: https://www.youtube.com/embed/oqDBVKWO1fo
 excerpt: RGB LED race gate for micro quadrotors, built with a Trinket Pro, 60 NeoPixel strip, PEX pipe, and FastLED.
 categories: products
