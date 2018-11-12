@@ -206,7 +206,7 @@ The large gate has some space between the LED strips and the end fittings, but I
 
 - Four 19" pipe sections
 
-This gate required 2 meters of LEDs, which fit nearly perfectly.
+The [MultiGP Tiny Whoop Class](https://www.multigp.com/class-specifications/) 19"x19" gate required 2 meters of LEDs, which fit nearly perfectly.
 
 ### Gate and Controller assembly
 
