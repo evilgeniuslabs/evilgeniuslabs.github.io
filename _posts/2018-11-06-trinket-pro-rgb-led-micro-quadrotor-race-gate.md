@@ -10,12 +10,20 @@ redirect_from:
   - /26
 ---
 
-|     |     |     |
-| --- | --- | --- |
-| <img src="https://i.imgur.com/dEyjV1Y.gif" style="width:400px" class="img-responsive" /> | <img src="https://i.imgur.com/M060Hxu.jpg" style="width:400px" class="img-responsive" /> | <img src="https://i.imgur.com/HSkjbnz.jpg" style="width:400px" class="img-responsive" /> |
-| <img src="https://i.imgur.com/NHmCcdx.jpg" style="width:200px" class="img-responsive" /> | <img src="https://i.imgur.com/aKOmQde.jpg" style="width:200px" class="img-responsive" /> | <img src="https://i.imgur.com/A0Yvsf7.jpg" style="width:200px" class="img-responsive" /> |
-| <img src="https://i.imgur.com/sMUO99b.jpg" style="width:200px" class="img-responsive" /> | <img src="https://i.imgur.com/JWSIr2c.jpg" style="width:200px" class="img-responsive" /> | <img src="https://i.imgur.com/9aP8yPQ.jpg" style="width:200px" class="img-responsive" /> |
-| <img src="https://i.imgur.com/HToMlpe.jpg" style="width:200px" class="img-responsive" /> | <img src="https://i.imgur.com/Fvj1nbg.jpg" style="width:200px" class="img-responsive" /> | <img src="https://i.imgur.com/VUIQWmk.jpg" style="width:200px" class="img-responsive" /> |
+<div class="row">
+  <a href="https://i.imgur.com/WNybN7b.mp4" target="_blank"><img src="https://i.imgur.com/V9kHfCS.gif" class="col-sm-4 col-xs-12" /></a>
+  <a href="https://i.imgur.com/M060Hxu.jpg" target="_blank"><img src="https://i.imgur.com/M060Hxu.jpg" class="col-sm-4 col-xs-12" /></a>
+  <a href="https://i.imgur.com/HSkjbnz.jpg" target="_blank"><img src="https://i.imgur.com/HSkjbnz.jpg" class="col-sm-4 col-xs-12" /></a>
+  <a href="https://i.imgur.com/sMUO99b.jpg" target="_blank"><img src="https://i.imgur.com/sMUO99b.jpg" class="col-sm-4 col-xs-12" /></a>
+  <a href="https://i.imgur.com/JWSIr2c.jpg" target="_blank"><img src="https://i.imgur.com/JWSIr2c.jpg" class="col-sm-4 col-xs-12" /></a>
+  <a href="https://i.imgur.com/9aP8yPQ.jpg" target="_blank"><img src="https://i.imgur.com/9aP8yPQ.jpg" class="col-sm-4 col-xs-12" /></a>
+  <a href="https://i.imgur.com/HToMlpe.jpg" target="_blank"><img src="https://i.imgur.com/HToMlpe.jpg" class="col-sm-4 col-xs-12" /></a>
+  <a href="https://i.imgur.com/Fvj1nbg.jpg" target="_blank"><img src="https://i.imgur.com/Fvj1nbg.jpg" class="col-sm-4 col-xs-12" /></a>
+  <a href="https://i.imgur.com/VUIQWmk.jpg" target="_blank"><img src="https://i.imgur.com/VUIQWmk.jpg" class="col-sm-4 col-xs-12" /></a>
+  <a href="https://i.imgur.com/NHmCcdx.jpg" target="_blank"><img src="https://i.imgur.com/NHmCcdx.jpg" class="col-sm-4 col-xs-12" /></a>
+  <a href="https://i.imgur.com/aKOmQde.jpg" target="_blank"><img src="https://i.imgur.com/aKOmQde.jpg" class="col-sm-4 col-xs-12" /></a>
+  <a href="https://i.imgur.com/A0Yvsf7.jpg" target="_blank"><img src="https://i.imgur.com/A0Yvsf7.jpg" class="col-sm-4 col-xs-12" /></a>
+</div>
 
 <h3>Table of Contents</h3>
 
@@ -73,7 +81,7 @@ Optional parts:
 
 Parts to build race gates:
 
-- [Adafruit 60 NeoPixel RGB LED Strip](https://www.adafruit.com/product/1138)
+- [WS2812B RGB LEDs - 4m 60/m IP30](https://www.aliexpress.com/item/1m-4m-5m-WS2812B-Smart-led-pixel-strip-Black-White-PCB-30-60-144-leds-m/2036819167.html)
 - [3/4 in. x 10 ft. White PEX Pipe](https://www.homedepot.com/p/Apollo-3-4-in-x-10-ft-White-PEX-Pipe-APPW1034/301541221)
 - [White floral foam](https://www.michaels.com/floracraft-styrofoam-block-white/M10102529.html)
 
@@ -193,6 +201,12 @@ I measured and cut the medium gate size so each LED strip would end right where 
 - Two 10.5" vertical pipe sections
 
 The large gate has some space between the LED strips and the end fittings, but I don't feel it made much of a difference visually.
+
+**MultiGP Tiny Whoop Class 19"x19" gate**
+
+- Four 19" pipe sections
+
+This gate required 2 meters of LEDs, which fit nearly perfectly.
 
 ### Gate and Controller assembly
 
