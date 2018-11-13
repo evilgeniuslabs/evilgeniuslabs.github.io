@@ -2,7 +2,7 @@
 layout: post
 title: Trinket Pro RGB LED Race Gate Controller
 id: trinket-pro-rgb-led-micro-quadrotor-race-gate
-imgurId: NHmCcdx
+imgurId: mOL28YC
 videoUrl: https://www.youtube.com/embed/oqDBVKWO1fo
 excerpt: RGB LED race gate for micro quadrotors, built with a Trinket Pro, 60 NeoPixel strip, PEX pipe, and FastLED.
 categories: products
@@ -11,6 +11,8 @@ redirect_from:
 ---
 
 <div class="row">
+  <a href="https://i.imgur.com/mOL28YC" target="_blank"><img src="https://i.imgur.com/mOL28YC.gif" class="col-sm-4 col-xs-12" /></a>
+  <a href="https://i.imgur.com/VLQ5fCV" target="_blank"><img src="https://i.imgur.com/VLQ5fCV.gif" class="col-sm-4 col-xs-12" /></a>
   <a href="https://i.imgur.com/WNybN7b.mp4" target="_blank"><img src="https://i.imgur.com/V9kHfCS.gif" class="col-sm-4 col-xs-12" /></a>
   <a href="https://i.imgur.com/M060Hxu.jpg" target="_blank"><img src="https://i.imgur.com/M060Hxu.jpg" class="col-sm-4 col-xs-12" /></a>
   <a href="https://i.imgur.com/HSkjbnz.jpg" target="_blank"><img src="https://i.imgur.com/HSkjbnz.jpg" class="col-sm-4 col-xs-12" /></a>
@@ -127,7 +129,7 @@ I also built one of these [DIY flexible soldering helping hands](http://www.inst
 
 6. If possible, use a vise to hold the PCB vertically, and a helping hands tool to hold the wires as they're soldered.
 <img src="https://i.imgur.com/26X166P.jpg" class="img-responsive" />
-
+Â
 7. With a small amount of solder on the tip of the iron, heat the wire right on the bottom of the pad.
 
 8. Melt a fair amount of solder on the wire and pad.  The insulation on the wire may start to melt as the wire heats up.  If so, push the wire through the hole, from the top towards the bottom, to ensure no wire is left exposed on top.
@@ -207,6 +209,12 @@ The large gate has some space between the LED strips and the end fittings, but I
 - Four 19" pipe sections
 
 The [MultiGP Tiny Whoop Class](https://www.multigp.com/class-specifications/) 19"x19" gate required 2 meters of LEDs, which fit nearly perfectly.
+
+**MultiGP Tiny Whoop Class 19" round gate**
+
+- One 5' pipe section
+
+The [MultiGP Tiny Whoop Class](https://www.multigp.com/class-specifications/) 19" round gate required a little less than 2 meters of LEDs.  I had to trim 18 LEDs off the end.
 
 ### Gate and Controller assembly
 
