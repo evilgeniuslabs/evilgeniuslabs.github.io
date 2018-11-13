@@ -2,7 +2,7 @@
 layout: post
 title: RGB LED Micro Quadrotor Race Gate
 id: rgb-led-micro-quadrotor-race-gate
-imgurId: dEyjV1Y
+imgurId: mOL28YC
 videoUrl: https://www.youtube.com/embed/oqDBVKWO1fo
 excerpt: RGB LED race gate for micro quadrotors, built with a Trinket Pro, 60 NeoPixel strip, PEX pipe, and FastLED.
 redirect_from:
@@ -10,6 +10,8 @@ redirect_from:
 ---
 
 <div class="row">
+  <a href="https://i.imgur.com/mOL28YC" target="_blank"><img src="https://i.imgur.com/mOL28YC.gif" class="col-sm-4 col-xs-12" /></a>
+  <a href="https://i.imgur.com/VLQ5fCV" target="_blank"><img src="https://i.imgur.com/VLQ5fCV.gif" class="col-sm-4 col-xs-12" /></a>
   <a href="https://i.imgur.com/WNybN7b.mp4" target="_blank"><img src="https://i.imgur.com/V9kHfCS.gif" class="col-sm-4 col-xs-12" /></a>
   <a href="https://i.imgur.com/M060Hxu.jpg" target="_blank"><img src="https://i.imgur.com/M060Hxu.jpg" class="col-sm-4 col-xs-12" /></a>
   <a href="https://i.imgur.com/HSkjbnz.jpg" target="_blank"><img src="https://i.imgur.com/HSkjbnz.jpg" class="col-sm-4 col-xs-12" /></a>
