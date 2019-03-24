@@ -50,6 +50,8 @@ I also designed a 3D printed enclosure for it.  It provides access to the wiring
 
 The shields and enclosures are available in our store on [Tindie](https://www.tindie.com/products/jasoncoon/wemos-d1-mini-esp8266-led-and-level-shifter-shield).
 
+The enclosure STL files are also available for 3D printing on [Thingiverse](https://www.thingiverse.com/thing:2502212).
+
 ### Specifications
 
 - Size: 1.64 x 1.56 x .063 inch (41.61 x 39.52 x 1.6 mm)

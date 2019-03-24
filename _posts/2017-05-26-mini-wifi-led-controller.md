@@ -10,7 +10,7 @@ redirect_from:
   - /wls2
 ---
 
-<img src="http://i.imgur.com/SR0Gx51.png" style="width:400px" class="img-responsive" />
+<img src="https://i.imgur.com/SR0Gx51.png" style="width:400px" class="img-responsive" />
 
 <h3>Table of Contents</h3>
 

@@ -104,21 +104,21 @@ Features:
 
 If you're new to soldering, I highly recommend reading through a good soldering tutorial, such as the ones by [Adafruit](https://learn.adafruit.com/adafruit-guide-excellent-soldering) and [SparkFun](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering).
 
-1. Insert the SN74HCT245N Level Shifter chip into the holes in the top side of the board, where indicated, with the indentation towards the bottom edge of the board. <img src="http://imgur.com/GWo61Xp.jpg" class="img-responsive" />
+1. Insert the SN74HCT245N Level Shifter chip into the holes in the top side of the board, where indicated, with the indentation towards the bottom edge of the board. <img src="https://imgur.com/GWo61Xp.jpg" class="img-responsive" />
 
 2. Flip the board over and solder one pin on the chip, pressing down on the PCB to ensure the chip is seated firmly.
 
 3. Make sure the chip is still seated properly before proceeding to solder the rest of the pins.
 
-4. Insert the 0.1uF capacitor, flip over and solder. <img src="http://imgur.com/DOSd90N.jpg" class="img-responsive" />
+4. Insert the 0.1uF capacitor, flip over and solder. <img src="https://imgur.com/DOSd90N.jpg" class="img-responsive" />
 
-5. Insert a 300 Ohm to 500 Ohm resistor in each set of holes for each output you plan to use.  Bend one leg 180 degrees around, flat against the resistor body, and insert it vertically.<img src="http://imgur.com/vIn4uU6.jpg" class="img-responsive" />
+5. Insert a 300 Ohm to 500 Ohm resistor in each set of holes for each output you plan to use.  Bend one leg 180 degrees around, flat against the resistor body, and insert it vertically.<img src="https://imgur.com/vIn4uU6.jpg" class="img-responsive" />
 
-6. Flip the board over and solder each leg of each resistor.<img src="http://imgur.com/hZYCPz1.jpg" class="img-responsive" />
+6. Flip the board over and solder each leg of each resistor.<img src="https://imgur.com/hZYCPz1.jpg" class="img-responsive" />
 
-7. Decide whether you're going to use female headers, stacking female headers, or if you're going to solder the Wemos directly to the level shifter shield PCB.  I used single female headers so the Wemos would be removable, but still fairly low profile.<img src="http://imgur.com/6JNdDAL.jpg" class="img-responsive" />
+7. Decide whether you're going to use female headers, stacking female headers, or if you're going to solder the Wemos directly to the level shifter shield PCB.  I used single female headers so the Wemos would be removable, but still fairly low profile.<img src="https://imgur.com/6JNdDAL.jpg" class="img-responsive" />
 
-8. I used double-sided male headers in a small breadboard to hold the female headers correctly aligned while I soldered.<img src="http://imgur.com/U1zIbwT.jpg.jpg" class="img-responsive" /><img src="http://imgur.com/uzUaqaK.jpg" class="img-responsive" /><img src="http://imgur.com/hjQToRx.jpg" class="img-responsive" />
+8. I used double-sided male headers in a small breadboard to hold the female headers correctly aligned while I soldered.<img src="https://imgur.com/U1zIbwT.jpg.jpg" class="img-responsive" /><img src="https://imgur.com/uzUaqaK.jpg" class="img-responsive" /><img src="https://imgur.com/hjQToRx.jpg" class="img-responsive" />
 
 9. Insert the power barrel jack.
 

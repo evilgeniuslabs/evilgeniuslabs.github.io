@@ -103,7 +103,7 @@ You will need to solder the 5 header pins on the end of the Teensy as well.  At 
 
 **PCB**
 
-<img src="http://i.imgur.com/nExINgG.jpg" style="width:400px" class="img-responsive" />
+<img src="https://i.imgur.com/nExINgG.jpg" style="width:400px" class="img-responsive" />
 
 I prefer to add components to the PCB from the shortest to the tallest.  I find this way is easiest to hold the PCB steady when soldering.  If you have a [third hand](https://www.adafruit.com/categories?q=third%20hand), it can help as well.
 
@@ -141,7 +141,7 @@ Insert and solder the potentiometers.
 
 **NeoPixels**
 
-<img src="http://i.imgur.com/8nYOC2B.jpg" style="width:400px" class="img-responsive" />
+<img src="https://i.imgur.com/8nYOC2B.jpg" style="width:400px" class="img-responsive" />
 
 Use a third hand, clothes pin, paper clip, etc to hold the short side of the right-angle header pins on the "DIN" side of the NeoPixel strip while you solder.  The longer legs of the pins, with the black plastic insulator, should be sticking up at a right angle from the NeoPixel stick.
 

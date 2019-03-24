@@ -13,15 +13,15 @@ Dome-shaped, wall-hung frosted glass and metal, with an inner 3D printed frame f
 
 <div class="row">
   <div class="col-xs-12 col-md-6">
-    <a href="http://i.imgur.com/Tk4GIeV.png" target="_blank" class="thumbnail"><img src="http://i.imgur.com/Tk4GIeV.png" class="img-responsive" /></a>
+    <a href="https://i.imgur.com/Tk4GIeV.png" target="_blank" class="thumbnail"><img src="https://i.imgur.com/Tk4GIeV.png" class="img-responsive" /></a>
   </div>
 
   <div class="col-xs-12 col-md-6">
-    <a href="http://i.imgur.com/litybtv.png" target="_blank" class="thumbnail"><img src="http://i.imgur.com/litybtv.png" class="img-responsive" /></a>
+    <a href="https://i.imgur.com/litybtv.png" target="_blank" class="thumbnail"><img src="https://i.imgur.com/litybtv.png" class="img-responsive" /></a>
   </div>
 
   <div class="col-xs-12 col-md-6">
-    <a href="http://i.imgur.com/We9Vi6a.png" target="_blank" class="thumbnail"><img src="http://i.imgur.com/We9Vi6a.png" class="img-responsive" /></a>
+    <a href="https://i.imgur.com/We9Vi6a.png" target="_blank" class="thumbnail"><img src="https://i.imgur.com/We9Vi6a.png" class="img-responsive" /></a>
   </div>
 </div>
 
@@ -41,23 +41,23 @@ Inner frame:
 
 <div class="row">
   <div class="col-xs-12 col-md-6">
-    <a href="http://i.imgur.com/AHeDDQl.png" target="_blank" class="thumbnail"><img src="http://i.imgur.com/AHeDDQl.png" class="img-responsive" /></a>
+    <a href="https://i.imgur.com/AHeDDQl.png" target="_blank" class="thumbnail"><img src="https://i.imgur.com/AHeDDQl.png" class="img-responsive" /></a>
   </div>
 
   <div class="col-xs-12 col-md-6">
-    <a href="http://i.imgur.com/FRNvEr0.png" target="_blank" class="thumbnail"><img src="http://i.imgur.com/FRNvEr0.png" class="img-responsive" /></a>
+    <a href="https://i.imgur.com/FRNvEr0.png" target="_blank" class="thumbnail"><img src="https://i.imgur.com/FRNvEr0.png" class="img-responsive" /></a>
   </div>
 
   <div class="col-xs-12 col-md-6">
-    <a href="http://i.imgur.com/ohDvIaW.png" target="_blank" class="thumbnail"><img src="http://i.imgur.com/ohDvIaW.png" class="img-responsive" /></a>
+    <a href="https://i.imgur.com/ohDvIaW.png" target="_blank" class="thumbnail"><img src="https://i.imgur.com/ohDvIaW.png" class="img-responsive" /></a>
   </div>
 
   <div class="col-xs-12 col-md-6">
-    <a href="http://i.imgur.com/IjN1dT6.png" target="_blank" class="thumbnail"><img src="http://i.imgur.com/IjN1dT6.png" class="img-responsive" /></a>
+    <a href="https://i.imgur.com/IjN1dT6.png" target="_blank" class="thumbnail"><img src="https://i.imgur.com/IjN1dT6.png" class="img-responsive" /></a>
   </div>
 
   <div class="col-xs-12 col-md-6">
-    <a href="http://i.imgur.com/a5fB884" target="_blank" class="thumbnail"><img src="http://i.imgur.com/a5fB884.gif" class="img-responsive" /></a>
+    <a href="https://i.imgur.com/a5fB884" target="_blank" class="thumbnail"><img src="https://i.imgur.com/a5fB884.gif" class="img-responsive" /></a>
   </div>
 
 </div>
