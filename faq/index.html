@@ -1,0 +1,41 @@
+---
+layout: default
+title: FAQ (Frequently Asked Questions)
+---
+
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          How many LEDs do your various boards support?
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+          The simple answer is they all support potentially thousands of LEDs.
+          <br/><br/>
+          I have boards that support 4, 6, 8, and 16 way parallel output.
+          These should theoretically be able to drive 1,000 LEDs per output pin at ~30 frames per second.
+          So, using one of my 16 output boards, for example, you should be able to drive ~16,000 LEDs at ~30 frames per second.  Of course, that would require ~960 Amps to drive at max brightness, solid white color.
+          <br/><br/>
+          More detailed answer:
+          <br/><br/>
+          There are three main things that limit the number of LEDs you can drive:
+          <br/><br/>
+          <b>Power:</b> most LEDs requires a max of 60mA, at full brightness, solid white color.  So 1,000 LEDs would require 60 Amps max, for example.  In practice they usually require much less than that, but it's good to plan for the max for safety.
+          <br/><br/>
+          <b>RAM:</b> using the FastLED library, each LED requires 3 bytes of RAM.  Most ESP8266 boards have between 64K and 96K of RAM, so they could theoretically support 20,000 to 30,000 LEDs.
+          <br/><br/>
+          <b>CPU:</b> It depends on the type of LED.
+          <br/><br/>
+          For four-wire (SPI) LEDs like DotStar, APA102, SK9822, etc, can be driven extremely quickly, and you'd likely run out of power before you hit the RAM or CPU limit.
+          <br/><br/>
+          Three-wire LEDs like NeoPixel, WS2811, WS2812, etc usually take ~30 microseconds each to write data for each LED.  So you're limited by your desired frame rate.
+          <br/><br/>
+          You can drive 1,000 three wire LEDs on a single pin at about 30 frames per second.  Using parallel output, like FastLED and my boards support, you can drive multiple sets of LEDs at the same rate.  So, using 2 way parallel output, you could drive 2,000 at 30 FPS.  Using 4 way you could drive 4,000, etc.
+      </div>
+    </div>
+  </div>
+</div>

@@ -218,7 +218,7 @@ The [MultiGP Tiny Whoop Class](https://www.multigp.com/class-specifications/) 19
 
 ### Gate and Controller assembly
 
-I designed and (3D printed a case for the Trinket Pro](https://www.thingiverse.com/thing:3200653).  I assembled the shield with female headers so the Trinket Pro could be removed, so the case is a bit bulky.  I plan to build more without the female headers, and will make a new lower profile case when I do.
+I designed and [3D printed a case for the Trinket Pro](https://www.thingiverse.com/thing:3200653).  I assembled the shield with female headers so the Trinket Pro could be removed, so the case is a bit bulky.  I plan to build more without the female headers, and will make a new lower profile case when I do.
 
 I printed the case, lid, and two button pins.  The shield attaches to the case with small M3 screws.  The case can be attached to a flange/foot with M3 screws, by marking and drilling a small hole in the flange.  I'll likely end up combining the case and flange into one 3D printed part eventually.
 
