@@ -26,4 +26,8 @@ redirect_from:
   <a href="https://i.imgur.com/A0Yvsf7.jpg" target="_blank"><img src="https://i.imgur.com/A0Yvsf7.jpg" class="col-sm-4 col-xs-12" /></a>
 </div>
 
-[More information](https://www.evilgeniuslabs.org/trinket-pro-rgb-led-micro-quadrotor-race-gate)
+------
+
+[Trinket Pro Controller](https://www.evilgeniuslabs.org/trinket-pro-rgb-led-micro-quadrotor-race-gate)
+
+[Nano v3 Controller](https://www.evilgeniuslabs.org/nano-v3-rgb-led-micro-quadrotor-race-gate)
