@@ -9,6 +9,12 @@ redirect_from:
   - /27
 ---
 
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/BnhkVe6w-w4" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<br />
+
 <div class="row">
   <a href="https://i.imgur.com/LP60W0A" target="_blank"><img src="https://i.imgur.com/LP60W0A.jpg" class="col-sm-4 col-xs-12" /></a>
   <a href="https://i.imgur.com/KDue2cs.gif" target="_blank"><img src="https://i.imgur.com/KDue2cs.gif" class="col-sm-4 col-xs-12" /></a>
