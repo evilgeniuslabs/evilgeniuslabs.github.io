@@ -3,5 +3,6 @@ description: Custom Electronic Art
 url: https://evilgeniuslabs.org
 author: Jason Coon
 permalink: /:title
+markdown: kramdown
 plugins:
   - jekyll-redirect-from
