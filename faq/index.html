@@ -3,38 +3,138 @@ layout: default
 title: FAQ (Frequently Asked Questions)
 ---
 
-<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+<div
+  class="panel-group"
+  id="accordion"
+  role="tablist"
+  aria-multiselectable="true"
+>
   <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingOne">
-      <h4 class="panel-title">
-        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+    <div class="panel-heading" role="tab" id="heading1">
+      <h3 class="panel-title">
+        <a
+          role="button"
+          data-toggle="collapse"
+          data-parent="#accordion"
+          href="#collapse1"
+          aria-expanded="false"
+          aria-controls="collapse1"
+        >
           How many LEDs do your various boards support?
         </a>
-      </h4>
+      </h3>
     </div>
-    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+    <div
+      id="collapse1"
+      class="panel-collapse collapse"
+      role="tabpanel"
+      aria-labelledby="heading1"
+    >
       <div class="panel-body">
-          The simple answer is they all support potentially thousands of LEDs.
-          <br/><br/>
-          I have boards that support 4, 6, 8, and 16 way parallel output.
-          These should theoretically be able to drive 1,000 LEDs per output pin at ~30 frames per second.
-          So, using one of my 16 output boards, for example, you should be able to drive ~16,000 LEDs at ~30 frames per second.  Of course, that would require ~960 Amps to drive at max brightness, solid white color.
-          <br/><br/>
-          More detailed answer:
-          <br/><br/>
-          There are three main things that limit the number of LEDs you can drive:
-          <br/><br/>
-          <b>Power:</b> most LEDs requires a max of 60mA, at full brightness, solid white color.  So 1,000 LEDs would require 60 Amps max, for example.  In practice they usually require much less than that, but it's good to plan for the max for safety.
-          <br/><br/>
-          <b>RAM:</b> using the FastLED library, each LED requires 3 bytes of RAM.  Most ESP8266 boards have between 64K and 96K of RAM, so they could theoretically support 20,000 to 30,000 LEDs.
-          <br/><br/>
-          <b>CPU:</b> It depends on the type of LED.
-          <br/><br/>
-          For four-wire (SPI) LEDs like DotStar, APA102, SK9822, etc, can be driven extremely quickly, and you'd likely run out of power before you hit the RAM or CPU limit.
-          <br/><br/>
-          Three-wire LEDs like NeoPixel, WS2811, WS2812, etc usually take ~30 microseconds each to write data for each LED.  So you're limited by your desired frame rate.
-          <br/><br/>
-          You can drive 1,000 three wire LEDs on a single pin at about 30 frames per second.  Using parallel output, like FastLED and my boards support, you can drive multiple sets of LEDs at the same rate.  So, using 2 way parallel output, you could drive 2,000 at 30 FPS.  Using 4 way you could drive 4,000, etc.
+        The simple answer is they all support potentially thousands of LEDs.
+        <br /><br />
+        I have boards that support 4, 6, 8, and 16 way parallel output. These
+        should theoretically be able to drive 1,000 LEDs per output pin at ~30
+        frames per second. So, using one of my 16 output boards, for example,
+        you should be able to drive ~16,000 LEDs at ~30 frames per second. Of
+        course, that would require ~960 Amps to drive at max brightness, solid
+        white color.
+        <br /><br />
+        More detailed answer:
+        <br /><br />
+        There are three main things that limit the number of LEDs you can drive:
+        <br /><br />
+        <b>Power:</b> most LEDs requires a max of 60mA, at full brightness,
+        solid white color. So 1,000 LEDs would require 60 Amps max, for example.
+        In practice they usually require much less than that, but it's good to
+        plan for the max for safety. <br /><br />
+        <b>RAM:</b> using the FastLED library, each LED requires 3 bytes of RAM.
+        Most ESP8266 boards have between 64K and 96K of RAM, so they could
+        theoretically support 20,000 to 30,000 LEDs. <br /><br />
+        <b>CPU:</b> It depends on the type of LED. <br /><br />
+        For four-wire (SPI) LEDs like DotStar, APA102, SK9822, etc, can be
+        driven extremely quickly, and you'd likely run out of power before you
+        hit the RAM or CPU limit.
+        <br /><br />
+        Three-wire LEDs like NeoPixel, WS2811, WS2812, etc usually take ~30
+        microseconds each to write data for each LED. So you're limited by your
+        desired frame rate.
+        <br /><br />
+        You can drive 1,000 three wire LEDs on a single pin at about 30 frames
+        per second. Using parallel output, like FastLED and my boards support,
+        you can drive multiple sets of LEDs at the same rate. So, using 2 way
+        parallel output, you could drive 2,000 at 30 FPS. Using 4 way you could
+        drive 4,000, etc.
+      </div>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="heading2">
+      <h3 class="panel-title">
+        <a
+          role="button"
+          data-toggle="collapse"
+          data-parent="#accordion"
+          href="#collapse2"
+          aria-expanded="false"
+          aria-controls="collapse2"
+        >
+          How do I get started with FPV drone flying?
+        </a>
+      </h3>
+    </div>
+    <div
+      id="collapse2"
+      class="panel-collapse collapse in"
+      role="tabpanel"
+      aria-labelledby="heading2"
+    >
+      <div class="panel-body">
+        <h4>Kansas City Multi-Rotor</h4>
+        If you're in the Kansas City area, I recommend you join Kansas City
+        Multi-Rotor. We'll do everything we can to help you get started!<br />
+        Website: <a href="http://kcmultirotor.com">http://kcmultirotor.com</a
+        ><br />
+        Facebook Group:
+        <a href="https://www.facebook.com/groups/873336179435330"
+          >https://www.facebook.com/groups/873336179435330</a
+        ><br /><br />
+
+        <h4>Equipment</h4>
+        Here's a basic list of equipment you could use to get started:<br />
+        <b>Quadcopter:</b>
+        <ul>
+          <li>
+            <a href="https://amzn.to/2K6ffFx"
+              >Mobula7 75mm Brushless Quadcopter</a
+            >
+          </li>
+        </ul>
+        <b>Transmitter (Controller):</b>
+        <ul>
+          <li>
+            <a href="https://amzn.to/32vDnYs">
+              FrSky Taranis Q X7 16 Channel Transmitter Remote Controller White
+            </a>
+          </li>
+        </ul>
+        <b>Goggles:</b>
+        <ul>
+          <li>
+            <a href="https://amzn.to/2NYDjer">
+              EACHINE VR-007 Pro 5.8G 40CH FPV Goggles
+            </a>
+          </li>
+        </ul>
+        <b>Charger:</b>
+        <ul>
+          <li>
+            <a href="https://amzn.to/2Q8OV1v">
+              1S LiPo LiHV Charger Board
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
