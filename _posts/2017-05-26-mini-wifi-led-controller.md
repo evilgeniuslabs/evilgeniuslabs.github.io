@@ -10,7 +10,8 @@ redirect_from:
   - /wls2
 ---
 
-<img src="https://i.imgur.com/SR0Gx51.png" style="width:400px" class="img-responsive" />
+<img src="https://i.imgur.com/gXRUp18.png" style="width:400px" class="img-responsive" />
+<img src="https://i.imgur.com/OeFzvsb.png" style="width:400px" class="img-responsive" />
 
 <h3>Table of Contents</h3>
 
@@ -64,6 +65,52 @@ OR
 - [SN-48B Crimping Tool](https://amzn.to/2P6YpHh)
 - 22 AWG Wire
 
-### More Information
+### Assembly Instructions
 
-For assembly instructions, example code, and more information, please see [Wemos D1 Mini ESP8266 LED & Level Shifter Shield](/wifi-led-controller).
+**Note**: Double-check the position, alignment, and orientation of each component very carefully before soldering!
+
+If you're new to soldering, I highly recommend reading through a good soldering tutorial, such as the ones by [Adafruit](https://learn.adafruit.com/adafruit-guide-excellent-soldering) and [SparkFun](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering).
+
+**Note**: Some WEMOS/LOLIN D1 Minis have the USB port on the top side, and some have it on the bottom side of the board.  Either way, ensure the the button is in the lower-left corner, and the pins labels match the shield PCB:
+<img src="https://imgur.com/rnK7Fgp.png" class="img-responsive" />
+<img src="https://imgur.com/5k8cjgR.png" class="img-responsive" />
+
+1. Insert the SN74HCT125N Level Shifter chip into the holes in the top side of the board, where indicated, with the indentation towards the top edge of the board. <img src="https://imgur.com/MSNV5MO.png" class="img-responsive" />
+
+2. Flip the board over and solder one pin on the chip, pressing down on the PCB to ensure the chip is seated firmly.
+
+3. Make sure the chip is still seated properly before proceeding to solder the rest of the pins.
+
+4. Insert the 0.1uF capacitor, flip over and solder. <img src="https://imgur.com/BrdJJvZ.png" class="img-responsive" />
+
+5. Insert a 300 Ohm to 500 Ohm resistor in each set of holes for each output you plan to use. Bend one leg 180 degrees around, flat against the resistor body, and insert it vertically.
+<img src="https://i.imgur.com/j57FbGf.jpg" class="img-responsive" />
+<img src="https://imgur.com/Brr95O0.png" class="img-responsive" />
+
+6. Flip the board over and solder each leg of each resistor.<img src="https://imgur.com/zwHDoCI.png" class="img-responsive" />
+
+7. Decide whether you're going to use female headers, stacking female headers, or if you're going to solder the Wemos directly to the level shifter shield PCB. I used single female headers so the Wemos would be removable, but still fairly low profile.
+
+8. I used double-sided male headers in a small breadboard to hold the female headers correctly aligned while I soldered.
+<img src="https://imgur.com/ZhtHsED.png" class="img-responsive" />
+<img src="https://imgur.com/tmc4eO2.png" class="img-responsive" />
+
+9. Trim all the leads with a pair of wire cutters. Flush diagonal cutters work best.
+<img src="https://imgur.com/GAS54Jz.png" class="img-responsive" />
+<img src="https://imgur.com/3nx0UDM.png" class="img-responsive" />
+
+10. I use pre-assembled [3 pin JST-SM connectors](https://amzn.to/2CWBL1G) to connect the LEDs.
+
+11. If possible, use a [PCB vise](https://www.thingiverse.com/thing:2801942) to hold the PCB vertically, and a helping hands tool to hold the wires as they're soldered.
+<img src="https://imgur.com/CsfprPb.png" class="img-responsive" />
+<img src="https://imgur.com/jnb0RZF.png" class="img-responsive" />
+<img src="https://imgur.com/a80N2EM.png" class="img-responsive" />
+
+12. With a small amount of solder on the tip of the iron, heat the wire right on the bottom of the pad.
+<img src="https://imgur.com/81kVy3S.png" class="img-responsive" />
+
+14. Melt a fair amount of solder on the wire and pad. The insulation on the wire may start to melt as the wire heats up. If so, push the wire through the hole, from the top towards the bottom, to ensure no wire is left exposed on top.
+
+15. Repeat this process for the other wires.
+<img src="https://imgur.com/drhrzFN.png" class="img-responsive" />
+<img src="https://imgur.com/ljqBds6.png" class="img-responsive" />
