@@ -6,7 +6,7 @@ title: Home
 <div class="page-header" id="portfolio"><h1>Portfolio</h1></div>
 
 {% for post in site.posts %}
-{% unless post.categories contains "products" %}
+{% if post.categories contains "portfolio" %}
 {% if post.vineUrl != null %}
 <div class="col-md-6">
   <div class="thumbnail" id="{{ post.id }}">
@@ -45,5 +45,5 @@ title: Home
   </div>
 </div>
 {% endif %}
-{% endunless %}
+{% endif %}
 {% endfor %}
