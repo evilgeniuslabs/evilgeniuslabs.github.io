@@ -81,9 +81,9 @@
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Portfolio <span class="caret"></span></a>
             <ul class="dropdown-menu">
               {% for post in site.posts %}
-              {% unless post.categories contains "products" %}
+              {% if post.categories contains "portfolio" %}
               <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-              {% endunless %}
+              {% endif %}
               {% endfor %}
             </ul>
           </li>
@@ -101,6 +101,8 @@
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More <span class="caret"></span></a>
             <ul class="dropdown-menu">
+              <!-- <li><a href="/blog">Blog</a></li> -->
+              <li><a href="/community">Community Projects</a></li>
               <li><a href="/contact">Contact</a></li>
               <li><a href="/about">About</a></li>
             </ul>
@@ -138,18 +140,43 @@
   <div class="container bs-docs-container">
 
     <div class="row">
-      <div class="col-md-10" role="main">
+      <div class="col-xs-12 col-md-10" role="main">
         {{ content }}
       </div>
 
-      <div class="col-md-2" role="complementary">
-        <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix-top">
+      <div class="col-xs-12 col-md-2" role="complementary">
+        <nav class="bs-docs-sidebar">
           <ul class="nav bs-docs-sidenav">
+            {% if page.url == "/" %}
+            <li class="active"><a href="/">Portfolio</a></li>
+            {% else %}
             <li><a href="/">Portfolio</a></li>
-            <li><a href="/products">Products</a></li>
-            <li><a href="/store">Store</a></li>
-            <li><a href="/contact">Contact</a></li>
-            <li><a href="/about">About</a></li>
+            {% endif %}
+            {% if page.url == "/products/" %}
+            <li class="active"><a href="/products/">Products</a></li>
+            {% else %}
+            <li><a href="/products/">Products</a></li>
+            {% endif %}
+            {% if page.url == "/store/" %}
+            <li class="active"><a href="/store/">Store</a></li>
+            {% else %}
+            <li><a href="/store/">Store</a></li>
+            {% endif %}
+            {% if page.url == "/community/" %}
+            <li class="active"><a href="/community/">Community</a></li>
+            {% else %}
+            <li><a href="/community/">Community</a></li>
+            {% endif %}
+            {% if page.url == "/contact/" %}
+            <li class="active"><a href="/contact/">Contact</a></li>
+            {% else %}
+            <li><a href="/contact/">Contact</a></li>
+            {% endif %}
+            {% if page.url == "/about/" %}
+            <li class="active"><a href="/about/">About</a></li>
+            {% else %}
+            <li><a href="/about/">About</a></li>
+            {% endif %}
           </ul>
         </nav>
       </div>

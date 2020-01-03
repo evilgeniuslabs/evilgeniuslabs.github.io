@@ -3,10 +3,10 @@ layout: default
 title: Home
 ---
 
-<div class="page-header" id="portfolio"><h1>Portfolio</h1></div>
+<div class="page-header" id="portfolio"><h1>Community Projects</h1></div>
 
 {% for post in site.posts %}
-{% if post.categories contains "portfolio" %}
+{% if post.categories contains "community" %}
 {% if post.vineUrl != null %}
 <div class="col-md-6">
   <div class="thumbnail" id="{{ post.id }}">

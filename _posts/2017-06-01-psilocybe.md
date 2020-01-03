@@ -4,6 +4,7 @@ title: Psilocybe
 imgurId: B0XZCao
 videoUrl: https://www.youtube.com/embed/mms5l1I2q0M
 id: psilocybe
+categories: portfolio
 excerpt: Dome-shaped, wall-hung frosted glass and metal, with an inner 3D printed frame for 240 RGB LEDs.
 redirect_from:
   - /19
