@@ -37,5 +37,5 @@ It consists of 100 RGB LEDs, arranged into a <a href="https://en.wikipedia.org/w
   </div>
 </div>
 
-<p>Fermat's spiral. (2015, October 24).  In <i>Wikipedia, The Free Encyclopedia</i>. Retrieved 02:45, February 24, 2016, from <a class="external free" href="https://en.wikipedia.org/w/index.php?title=Fermat%27s_spiral&amp;oldid=687297594">https://en.wikipedia.org/w/index.php?title=Fermat%27s_spiral&amp;oldid=687297594</a>
+<p>Fermat's spiral. (2015, October 24).  In <i>Wikipedia, The Free Encyclopedia</i>. Retrieved 02:45, February 24, 2016, from <a class="external free" href="https://en.wikipedia.org/w/index.php?title=Fermat%27s_spiral">https://en.wikipedia.org/w/index.php?title=Fermat%27s_spiral</a>
 </p>
