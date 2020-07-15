@@ -1,11 +1,11 @@
 ---
 layout: post
-title: RGB LED Micro Quadrotor Race Gate
+title: RGB LED Micro Drone Race Gate
 id: rgb-led-micro-quadrotor-race-gate
 categories: portfolio
 imgurId: mOL28YC
 videoUrl: https://www.youtube.com/embed/oqDBVKWO1fo
-excerpt: RGB LED race gate for micro quadrotors, built with a Trinket Pro, 60 NeoPixel strip, PEX pipe, and FastLED.
+excerpt: RGB LED race gate for micro drones, built with a Trinket Pro, 60 NeoPixel strip, PEX pipe, and FastLED.
 redirect_from:
   - /27
 ---
@@ -28,7 +28,12 @@ redirect_from:
 
 ------
 
-### Controller Options:
+<h3>Table of Contents</h3>
+
+- TOC
+{:toc}
+
+### Controller Options
 
 [Wi-Fi LED Controller](https://www.evilgeniuslabs.org/wifi-led-controller)
 
@@ -72,33 +77,33 @@ All the pipe sections and fittings are just press fit together.  I did not use p
 
 ### Gate Sizes and Pipe Dimensions
 
-**MultiGP Tiny Whoop Class 19"x19" gate**
+#### MultiGP Tiny Whoop Class 19"x19" gate
 
 - Four 19" pipe sections
 
 The [MultiGP Tiny Whoop Class](https://www.multigp.com/class-specifications/) 19"x19" gate required 2 meters of LEDs, which fit nearly perfectly.
 
-**MultiGP Tiny Whoop Class 19" round gate**
+#### MultiGP Tiny Whoop Class 19" round gate
 
 - One 5' pipe section
 
 The [MultiGP Tiny Whoop Class](https://www.multigp.com/class-specifications/) 19" round gate required a little less than 2 meters of LEDs.  I had to trim 18 LEDs off the end.
 
-**Large gate**
+#### Large gate
 
 - Two 15" horizontal pipe sections
 - Two 10.5" vertical pipe sections
 
 The large gate has some space between the LED strips and the end fittings, but I don't feel it made much of a difference visually.
 
-**Medium gate**
+#### Medium gate
 
 - Two 12.5" horizontal pipe sections
 - Two 9.5" vertical pipe sections
 
 I measured and cut the medium gate size so each LED strip would end right where the fittings started inside the pipe sections.
 
-**Small gate**
+#### Small gate
 
 I built one small gate that did not require cutting or splicing the LED strip.  I just measured and cut the pipe, then slid the LEDs and styrofoam through the pipe and fittings.
 
