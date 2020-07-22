@@ -2,7 +2,7 @@
 layout: post
 title: Fibonacci 32 Mini
 id: fibonacci32mini
-imgurId: p39NhYf
+imgurId: 9wXGJhP
 # videoUrl: https://www.youtube.com/embed/SNB5xsYFCak
 excerpt: Fibonacci32 is a beautiful 50mm circular disc with 34 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
 categories: 
@@ -15,12 +15,11 @@ redirect_from:
   - /f32
 ---
 
-<a href="https://i.imgur.com/p39NhYf.gif" target="_blank"><img src="https://i.imgur.com/p39NhYf.gif" style="width:340px"  /></a>
-<a href="https://i.imgur.com/iLaweEn.png" target="_blank"><img src="https://i.imgur.com/iLaweEn.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/1Ou1Lma.png" target="_blank"><img src="https://i.imgur.com/1Ou1Lma.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/kiB0FaS.png" target="_blank"><img src="https://i.imgur.com/kiB0FaS.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/nEHwT8a.png" target="_blank"><img src="https://i.imgur.com/nEHwT8a.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/XiHVN9M.gif" target="_blank"><img src="https://i.imgur.com/XiHVN9M.gif" style="width:340px"  /></a>
+<a href="https://i.imgur.com/9wXGJhP.gif" target="_blank"><img src="https://i.imgur.com/9wXGJhP.gif" style="width:340px"  /></a>
+<a href="https://i.imgur.com/PPEmzME.png" target="_blank"><img src="https://i.imgur.com/PPEmzME.png" style="width:340px"  /></a>
+<a href="https://i.imgur.com/07Avtki.png" target="_blank"><img src="https://i.imgur.com/07Avtki.png" style="width:340px"  /></a>
+<a href="https://i.imgur.com/O4n5yro.png" target="_blank"><img src="https://i.imgur.com/O4n5yro.png" style="width:340px"  /></a>
+<a href="https://i.imgur.com/kxsWOKq.png" target="_blank"><img src="https://i.imgur.com/kxsWOKq.png" style="width:340px"  /></a>
 
 <h3>Table of Contents</h3>
 
