@@ -2,7 +2,7 @@
 layout: post
 title: Fibonacci 64 Mini
 id: fibonacci64mini
-imgurId: p39NhYf
+imgurId: awvYf9L
 # videoUrl: https://www.youtube.com/embed/SNB5xsYFCak
 excerpt: Fibonacci64 Mini is a beautiful 64mm circular disc with 64 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
 categories: 
@@ -14,12 +14,14 @@ redirect_from:
   - /f64mini
 ---
 
-<a href="https://i.imgur.com/p39NhYf.gif" target="_blank"><img src="https://i.imgur.com/p39NhYf.gif" style="width:340px"  /></a>
-<a href="https://i.imgur.com/iLaweEn.png" target="_blank"><img src="https://i.imgur.com/iLaweEn.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/1Ou1Lma.png" target="_blank"><img src="https://i.imgur.com/1Ou1Lma.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/kiB0FaS.png" target="_blank"><img src="https://i.imgur.com/kiB0FaS.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/nEHwT8a.png" target="_blank"><img src="https://i.imgur.com/nEHwT8a.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/XiHVN9M.gif" target="_blank"><img src="https://i.imgur.com/XiHVN9M.gif" style="width:340px"  /></a>
+<a href="https://i.imgur.com/awvYf9L.gif" target="_blank"><img src="https://i.imgur.com/awvYf9L.gif" style="width:340px"  /></a>
+<a href="https://i.imgur.com/KyoG8de.png" target="_blank"><img src="https://i.imgur.com/KyoG8de.png" style="width:340px"  /></a>
+<a href="https://i.imgur.com/zQLNbVo.png" target="_blank"><img src="https://i.imgur.com/zQLNbVo.png" style="width:340px"  /></a>
+<a href="https://i.imgur.com/fugZY8I.png" target="_blank"><img src="https://i.imgur.com/fugZY8I.png" style="width:340px"  /></a>
+<a href="https://i.imgur.com/kfN64ue.png" target="_blank"><img src="https://i.imgur.com/kfN64ue.png" style="width:340px"  /></a>
+<a href="https://i.imgur.com/ZN5ZZFs.png" target="_blank"><img src="https://i.imgur.com/ZN5ZZFs.png" style="width:340px"  /></a>
+<a href="https://i.imgur.com/4kxnxUJ.png" target="_blank"><img src="https://i.imgur.com/4kxnxUJ.png" style="width:340px"  /></a>
+<a href="https://i.imgur.com/fv6uFPp.png" target="_blank"><img src="https://i.imgur.com/fv6uFPp.png" style="width:340px"  /></a>
 
 <h3>Table of Contents</h3>
 
@@ -52,9 +54,9 @@ It consists of 64 RGB LEDs, arranged into a circular <a href="https://en.wikiped
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
       <div class="caption">
-        <a href="https://photos.app.goo.gl/sxWebS7FVF1jFhfLA" target="_blank">More pictures and details:</a>
+        <a href="https://photos.app.goo.gl/bwvDcZ96je8k7SoZ8" target="_blank">More pictures and details:</a>
       </div>
-      <a href="https://photos.app.goo.gl/sxWebS7FVF1jFhfLA" target="_blank">
+      <a href="https://photos.app.goo.gl/bwvDcZ96je8k7SoZ8" target="_blank">
         <img src="https://i.imgur.com/iLaweEn.png" style="width:340px" class="img-responsive" />
       </a>
     </div>
