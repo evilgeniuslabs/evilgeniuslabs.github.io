@@ -86,7 +86,7 @@ After trying a lot of different ESP8266 boards, I've found the [Wemos D1 Mini](h
 
 Open source example firmware and web application: [https://github.com/jasoncoon/esp8266-fastled-webserver/tree/parallel](https://github.com/jasoncoon/esp8266-fastled-webserver/tree/parallel)
 
-<img src="https://github.com/jasoncoon/esp8266-fastled-webserver/raw/master/webapp.png" style="width:300px" class="img-responsive" />
+<img src="https://raw.githubusercontent.com/jasoncoon/esp8266-fastled-webserver/main/webapp.png" style="width:300px" class="img-responsive" />
 
 Features:
 
