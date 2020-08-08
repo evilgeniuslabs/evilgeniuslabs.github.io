@@ -22,7 +22,7 @@ redirect_from:
 
 ### Buy
 
-For fast shipping to the US, you can buy from our [Tindie](https://www.tindie.com/products/jasoncoon/wemos-d32-esp32-led-and-level-shifter-shield/) store.
+For fast shipping to the US, you can buy from our [Tindie](https://www.tindie.com/products/13669) store.
 
 For free shipping worldwide, you can [contact us](/contact) to order and have them shipped to you directly from the PCB manufacturer.  It takes a few weeks, and they require PCBs be ordered in multiples of three.
 

@@ -24,7 +24,7 @@ redirect_from:
 
 ### Buy
 
-For fast shipping to the US, you can buy from our [Tindie](https://www.tindie.com/products/jasoncoon/6-output-wemos-d1-mini-wi-fi-led-controller/) store.
+For fast shipping to the US, you can buy from our [Tindie](https://www.tindie.com/products/16255) store.
 
 If we're out of stock on Tindie, or for free shipping worldwide, you can [contact us](/contact) to order and have them shipped to you directly from the PCB manufacturer. It takes a bit longer, and they require PCBs be ordered in multiples of three.
 
