@@ -5,10 +5,10 @@ id: fibonacci32mini
 imgurId: 9wXGJhP
 # videoUrl: https://www.youtube.com/embed/SNB5xsYFCak
 excerpt: Fibonacci32 is a beautiful 50mm circular disc with 34 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
-categories: 
-  - portfolio
-  - products
-published: false
+# categories: 
+#   - portfolio
+#   - products
+published: true
 redirect_from:
   - /38
   - /f32mini
@@ -32,7 +32,7 @@ Fibonacci32 is a beautiful 86mm circular disc with 34 RGB LEDs surface mounted i
 
 It consists of 34 RGB LEDs, arranged into a circular <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.  I decided to include 34 LEDs since it's a number in the Fibonacci sequence, only 2 away from 32, and there was room on the 50mm PCB.  I'm calling it Fibonacci32 so that it fits in with the rest of the series.
 
-<a class="btn btn-default" href="https://www.tindie.com/products/jasoncoon/fibonacci32-50mm-disc-with-34-ws2812b-rgb-leds/">Buy on Tindie</a>
+<a class="btn btn-default" href="https://www.tindie.com/products/20749">Buy on Tindie</a>
 
 <p>In disc <a href="https://en.wikipedia.org/wiki/Phyllotaxis" title="Phyllotaxis">phyllotaxis</a>, as in the <a href="https://en.wikipedia.org/wiki/Sunflower" title="Sunflower" class="mw-redirect">sunflower</a> and daisy, the mesh of spirals occurs in <a href="https://en.wikipedia.org/wiki/Fibonacci_number" title="Fibonacci number">Fibonacci numbers</a> because divergence (angle of succession in a single spiral arrangement) approaches the <a href="https://en.wikipedia.org/wiki/Golden_ratio" title="Golden ratio">golden ratio</a>. The shape of the spirals depends on the growth of the elements generated sequentially. In mature-disc <a href="https://en.wikipedia.org/wiki/Phyllotaxis" title="Phyllotaxis">phyllotaxis</a>, when all the elements are the same size, the shape of the spirals is that of Fermat spirals—ideally. That is because Fermat's spiral traverses equal <a href="https://en.wikipedia.org/wiki/Annulus_(mathematics)" title="Annulus (mathematics)">annuli</a> in equal turns. The full model proposed by H Vogel in 1979<sup id="cite_ref-2" class="reference"><a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral#cite_note-2"><span>[</span>2<span>]</span></a></sup> is</p>
 <dl>

@@ -31,7 +31,7 @@ redirect_from:
 
 ### Buy
 
-For fast shipping to the US, you can buy from our [Tindie](https://www.tindie.com/products/jasoncoon/smd-mini-6-output-esp8266-wi-fi-rgb-led-controller/) store.
+For fast shipping to the US, you can buy from our [Tindie](https://www.tindie.com/products/19174) store.
 
 If we're out of stock on Tindie, or for free shipping worldwide, you can [contact us](/contact) to order and have them shipped to you directly from the PCB manufacturer. They won't come with SMD components, it takes a bit longer, and they require PCBs be ordered in multiples of three.
 

@@ -18,7 +18,7 @@ redirect_from:
 
 ### Buy
 
-For fast shipping to the US, you can buy from our [Tindie](https://www.tindie.com/products/jasoncoon/wemos-d1-mini-esp8266-led-and-level-shifter-shield) store.
+For fast shipping to the US, you can buy from our [Tindie](https://www.tindie.com/products/8576) store.
 
 If we're out of stock on Tindie, or for free shipping worldwide, you can [contact us](/contact) to order and have them shipped to you directly from the PCB manufacturer. It takes a bit longer, and they require PCBs be ordered in multiples of three.
 
@@ -48,7 +48,7 @@ I also designed a 3D printed enclosure for it. It provides access to the wiring 
 
 <img src="https://i.imgur.com/KxmFRfz.jpg" style="width:400px" class="img-responsive" />
 
-The shields and enclosures are available in our store on [Tindie](https://www.tindie.com/products/jasoncoon/wemos-d1-mini-esp8266-led-and-level-shifter-shield).
+The shield is available in our store on [Tindie](https://www.tindie.com/products/8576).
 
 The enclosure STL files are also available for 3D printing on [Thingiverse](https://www.thingiverse.com/thing:2502212).
 
