@@ -27,7 +27,7 @@ redirect_from:
 <h3>Table of Contents</h3>
 
 - TOC
-{:toc}
+  {:toc}
 
 ### Buy
 
@@ -61,7 +61,7 @@ The shield also includes six surface mounted data line resistors as recommended 
 
 Parts that are **not included**, but are required to assemble:
 
-- [Wemos D1 Mini and headers](https://www.aliexpress.com/store/product/D1-mini-Mini-NodeMcu-4M-bytes-Lua-WIFI-Internet-of-Things-development-board-based-ESP8266/1331105_32529101036.html)
+- [Wemos D1 Mini and headers](https://s.click.aliexpress.com/e/_dWFb3cE)
 
 Wire/Connectors
 
