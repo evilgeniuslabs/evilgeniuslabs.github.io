@@ -19,8 +19,8 @@ redirect_from:
 
 <h3>Table of Contents</h3>
 
-* TOC
-{:toc}
+- TOC
+  {:toc}
 
 ### Buy
 
@@ -55,7 +55,7 @@ The 90 mil, double-sided 5V and GND traces should be rated for up to ~12 amps. T
 
 Parts that are **not included**, but are required to assemble:
 
-- [Wemos D1 Mini](https://www.aliexpress.com/store/product/D1-mini-Mini-NodeMcu-4M-bytes-Lua-WIFI-Internet-of-Things-development-board-based-ESP8266/1331105_32529101036.html)
+- [Wemos D1 Mini](https://s.click.aliexpress.com/e/_dWFb3cE)
 - [SN74HCT245N Level Shifter](http://www.digikey.com/product-detail/en/texas-instruments/SN74HCT245N/296-1612-5-ND/277258)
 - [1000µF Capacitor](http://www.digikey.com/product-detail/en/panasonic-electronic-components/ECA-1EM102/P5156-ND/245015)
 - [0.10µF Capacitor](https://www.digikey.com/product-detail/en/kemet/C320C104M5R5TA/399-9776-ND/3726028)
