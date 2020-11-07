@@ -99,7 +99,7 @@ Parts I used in my builds (also **not included**):
 
 ### Code
 
-Open source example firmware and web application: [https://github.com/jasoncoon/esp8266-fastled-webserver/tree/fibonacci32mini](https://github.com/jasoncoon/esp8266-fastled-webserver/tree/fibonacci32mini)
+Open source example firmware and web application: [https://github.com/jasoncoon/esp8266-fastled-webserver/tree/fibonacci64](https://github.com/jasoncoon/esp8266-fastled-webserver/tree/fibonacci64)
 
 <img src="https://raw.githubusercontent.com/jasoncoon/esp8266-fastled-webserver/main/web-app.png" style="width:300px" class="img-responsive" />
 
@@ -124,6 +124,6 @@ If you're new to soldering, I highly recommend reading through a good soldering 
 7. **VERY** carefully check polarity before connecting 5V and GND. If possible, connect 5V and GND on both sets of headers to provide maximum current flow and minimize voltage drop. I used [female jumper wires](https://amzn.to/2vjvZ8e).
    <img src="https://imgur.com/XqbL1R8.png" class="img-responsive" />
 8. Connect the data pin from your microcontroller to the DI pin on the Fibonacci board.
-9. Each WS2812 can theoretically draw 60mA at full brightness, solid white color. 32 of them can theoretically draw 2.04 Amps! I strongly suggest using [FastLED's power management](https://github.com/FastLED/FastLED/wiki/Power-notes#managing-power-in-fastled) to limit the maximum brightness to a reasonable amount, well under the maximum your power supply is rated for. I've found even just 2A from a USB power adapter is blindingly bright.
+9. Each WS2812 can theoretically draw 60mA at full brightness, solid white color. 64 of them can theoretically draw 4 Amps! I strongly suggest using [FastLED's power management](https://github.com/FastLED/FastLED/wiki/Power-notes#managing-power-in-fastled) to limit the maximum brightness to a reasonable amount, well under the maximum your power supply is rated for. I've found even just 2A from a USB power adapter is blindingly bright.
 10. Keep an eye on the temperature of the PCB and especially the connectors. High temperatures can reduce the life of the LEDs. When possible, ensure air can flow, either passively (ventilation) or actively (exhaust fan).
 11. Most header pins are rated for 4-6 amps, but be sure to check your pins and wires. High temperatures increase resistance, which increases temperature, ad infinitum. If temperatures exceed the maximum rating of the wire insulation, sparks and fire can occur at high amperage.
