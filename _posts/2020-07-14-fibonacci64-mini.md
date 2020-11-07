@@ -5,10 +5,10 @@ id: fibonacci64mini
 imgurId: awvYf9L
 # videoUrl: https://www.youtube.com/embed/SNB5xsYFCak
 excerpt: Fibonacci64 Mini is a beautiful 64mm circular disc with 64 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
-categories: 
-  - portfolio
-  - products
-published: false
+# categories: 
+#   - portfolio
+#   - products
+published: true
 redirect_from:
   - /37
   - /f64mini
@@ -32,7 +32,7 @@ redirect_from:
 
 Fibonacci64 is a beautiful 64mm circular disc with 64 RGB LEDs surface mounted in a Fibonacci distribution. Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
 
-It consists of 64 RGB LEDs, arranged into a circular <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.
+It consists of 64 WS2812B-Mini 3535 RGB LEDs, arranged into a circular <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.
 
 <a class="btn btn-default" href="https://www.tindie.com/products/19184">Buy on Tindie</a>
 
