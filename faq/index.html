@@ -70,6 +70,73 @@ title: FAQ (Frequently Asked Questions)
   </div>
 
   <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="shields">
+      <h3 class="panel-title">
+        <a
+          role="button"
+          data-toggle="collapse"
+          data-parent="#accordion"
+          href="#collapseShields"
+          aria-expanded="false"
+          aria-controls="collapseShields"
+        >
+          Which of your LED controller shields should I use?
+        </a>
+      </h3>
+    </div>
+    <div
+      id="collapseShields"
+      class="panel-collapse collapse"
+      role="tabpanel"
+      aria-labelledby="shields"
+    >
+      <div class="panel-body">
+        I have LED controller shields for a variety of dev boards.  The first thing you should decide is whether to use an ESP8266 or ESP32 dev board.<br /><br />
+        I personally still use Wemos D1 Mini ESP8266 boards in almost all of my projects, unless I need:
+        <ul>
+          <li>BLE (Bluetooth)</li>
+          <li>More than 6x parallel output, for driving thousands of LEDs at higher frame rates. See <a href="#leds">How many LEDs do your various boards support?</a> above.</li>
+          <li>More memory, for more LEDs, patterns, animations, etc.</li>
+          <li>Better support for making HTTPS/SSL web requests.</li>
+        </ul>
+        If you need any of the above, then I would recommend using one of my ESP32 LED controller shields.  They differ only by the specific dev board (Adafruit Feather, DevKitC, NodeMCU, Wemos, etc), and the number of parallel outputs supported (8 or 16).<br /><br />
+        My Wemos D1 Mini ESP8266 LED controller shields differ in the following ways:<br /><br />
+        <ul>
+          <li>
+            The <a href="https://www.tindie.com/products/19174">SMD 6 Output Wemos D1 Mini Wi-Fi LED Controller</a> is my most compact shield.
+            It can be assembled without removable headers to a height as low as 10mm, for use in very small or shallow projects.
+            It also comes with all SMD (surface mount) components (level shifter, small decoupling capacitor, and data line resistors) already assembled.
+            It supports up to 6x parallel output, and has headers for 6 outputs, GND, and 5V connections.
+            You can connect power to the controller, and use the shield to distribute power (up to 2A) to your LEDs.
+            This is the controller I use in most of my builds, including all fully-assembled Fibonacci.
+          </li>
+          <li>
+            The <a href="https://www.tindie.com/products/16255">6 Output Wemos D1 Mini Wi-Fi LED Controller</a> is a larger shield.
+            The extra space is used to provide a spot for a large capacitor (for smoothing out power spikes when driving and powering a large number of LEDs)
+            and large 5V and GND pads for connecting large gauge wire or a power barrel connector jack (although most of these jacks are only rated for up to ~2A).
+            It uses THT (through hole) components, and comes as a kit if you'd like to assemble it yourself.
+            It supports up to 6x parallel output, and has headers for 6 outputs, GND, and 5V connections.
+            You can connect power to the controller, and use the shield to distribute power (up to 12A) to your LEDs.
+            It also includes holes for mounting screws/bolts.
+          </li>
+          <li>
+            The <a href="https://www.tindie.com/products/9723">Wemos D1 Mini ESP8266 Level Shifter Mini Shield</a> is another compact shield.
+            It can also be assembled without removable headers to a height as low as 10mm, for use in very small or shallow projects.
+            It uses THT (through hole) components, and comes as a kit if you'd like to assemble it yourself.
+            It supports up to 4x parallel output, and has headers for 4 outputs, but only one GND and 5V connection.
+            For parallel output builds, you can connect power to your LEDs, and use the GND and 5V header pins to power the controller from the LEDs.
+          </li>
+          <li>
+            The <a href="https://www.tindie.com/products/8576/">Wemos D1 Mini ESP8266 LED & Level Shifter Shield</a> is the original, and is now considered legacy.
+            I do not recommend it, and would instead use one of the shields listed above.
+            It has a spot for the large capacitor, but supports only 4x parallel output, and doesn't have the large 5V and GND pads or power barrel connector jack.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="fpv">
       <h3 class="panel-title">
         <a
