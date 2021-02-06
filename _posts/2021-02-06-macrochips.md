@@ -27,6 +27,11 @@ More info on Twitter: [https://twitter.com/jasoncoon_/status/1358068819303014402
 
 Some source vector and image files: [https://github.com/jasoncoon/macrochips](https://github.com/jasoncoon/macrochips)
 
+I have a [Flux3D Beamo](https://flux3dp.com/beamo/) 30W CO2 laser.  I use the metal engraving preset (50% power, 80mm/s speed).
+
+A light coat of mineral oil before engraving makes them shiny, if that's the look you want.
+
+For custom designed, laser engraved items such as these, contact me here: https://www.evilgeniuslabs.org/contact
 ### Collection
 
 Atmel ATmega328P
