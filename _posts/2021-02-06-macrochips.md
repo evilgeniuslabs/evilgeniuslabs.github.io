@@ -42,6 +42,10 @@ Atmel ATSAMD21
 
 <a href="https://i.imgur.com/i5og0dU.jpg" target="_blank"><img src="https://i.imgur.com/i5og0dU.jpg" style="width:340px" /></a>
 
+Atmel ATxmega32E5
+
+<a href="https://i.imgur.com/cJ85mdc.jpg" target="_blank"><img src="https://i.imgur.com/cJ85mdc.jpg" style="width:340px" /></a>
+
 Espressif ESP32-PICO-D4
 
 <a href="https://i.imgur.com/qV1LX78.jpg" target="_blank"><img src="https://i.imgur.com/qV1LX78.jpg" style="width:340px" /></a>
