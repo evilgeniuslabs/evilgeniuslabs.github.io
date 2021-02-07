@@ -31,8 +31,14 @@ I have a [Flux3D Beamo](https://flux3dp.com/beamo/) 30W CO2 laser.  I use the me
 
 A light coat of mineral oil before engraving makes them shiny, if that's the look you want.
 
-For custom designed, laser engraved items such as these, contact me here: https://www.evilgeniuslabs.org/contact
+[Contact me here](https://www.evilgeniuslabs.org/contact) for custom designed, laser engraved items such as these.
+
 ### Collection
+
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/X9QCEbc">
+  <a href="//imgur.com/a/X9QCEbc">Macrochips by Evil Genius Labs</a>
+</blockquote>
+<script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 Atmel ATmega328P
 
