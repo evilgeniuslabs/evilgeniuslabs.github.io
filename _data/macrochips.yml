@@ -10,6 +10,9 @@
 - name: Espressif ESP32-PICO-D4
   imgurId: qV1LX78
 
+- name: Intel i386
+  imgurId: eBIG5R0
+
 - name: Intel i486 DX2
   imgurId: U8lqQgW
 
