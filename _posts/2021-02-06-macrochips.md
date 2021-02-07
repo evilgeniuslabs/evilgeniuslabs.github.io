@@ -25,6 +25,8 @@ A collection of laser engraved, 4 inch slate tile microchip coasters.
 
 More info on Twitter: [https://twitter.com/jasoncoon_/status/1358068819303014402](https://twitter.com/jasoncoon_/status/1358068819303014402)
 
+Full credit for the idea on Twitter: [https://twitter.com/arturo182/status/1356764474116554759](https://twitter.com/arturo182/status/1356764474116554759)
+
 Some source vector and image files: [https://github.com/jasoncoon/macrochips](https://github.com/jasoncoon/macrochips)
 
 I have a [Flux3D Beamo](https://flux3dp.com/beamo/) 30W CO2 laser.  I use the metal engraving preset (50% power, 80mm/s speed).
