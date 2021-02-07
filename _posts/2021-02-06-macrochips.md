@@ -35,7 +35,7 @@ A light coat of mineral oil before engraving makes them shiny, if that's the loo
 
 [Contact me here](https://www.evilgeniuslabs.org/contact) for custom designed, laser engraved items such as these.
 
-<a href="https://i.imgur.com/rGQkxnr.gifv" target="_blank"><img src="https://i.imgur.com/rGQkxnr.gifv" style="width:340px" /></a>
+<a href="https://i.imgur.com/rGQkxnr.gif" target="_blank"><img src="https://i.imgur.com/rGQkxnr.gif" style="width:340px" /></a>
 
 ### Collection
 
