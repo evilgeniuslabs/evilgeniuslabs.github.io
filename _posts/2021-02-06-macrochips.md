@@ -35,41 +35,26 @@ A light coat of mineral oil before engraving makes them shiny, if that's the loo
 
 [Contact me here](https://www.evilgeniuslabs.org/contact) for custom designed, laser engraved items such as these.
 
+<a href="https://i.imgur.com/rGQkxnr.gifv" target="_blank"><img src="https://i.imgur.com/rGQkxnr.gifv" style="width:340px" /></a>
+
 ### Collection
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/X9QCEbc">
+<!-- <blockquote class="imgur-embed-pub" lang="en" data-id="a/X9QCEbc">
   <a href="//imgur.com/a/X9QCEbc">Macrochips by Evil Genius Labs</a>
 </blockquote>
-<script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script> -->
 
-Atmel ATmega328P
-
-<a href="https://i.imgur.com/qFj0rEs.jpg" target="_blank"><img src="https://i.imgur.com/qFj0rEs.jpg" style="width:340px" /></a>
-
-Atmel ATSAMD21
-
-<a href="https://i.imgur.com/i5og0dU.jpg" target="_blank"><img src="https://i.imgur.com/i5og0dU.jpg" style="width:340px" /></a>
-
-Atmel ATxmega32E5
-
-<a href="https://i.imgur.com/cJ85mdc.jpg" target="_blank"><img src="https://i.imgur.com/cJ85mdc.jpg" style="width:340px" /></a>
-
-Espressif ESP32-PICO-D4
-
-<a href="https://i.imgur.com/qV1LX78.jpg" target="_blank"><img src="https://i.imgur.com/qV1LX78.jpg" style="width:340px" /></a>
-
-Intel i486 DX2
-
-<a href="https://i.imgur.com/U8lqQgW.jpg" target="_blank"><img src="https://i.imgur.com/U8lqQgW.jpg" style="width:340px" /></a>
-
-nRF52840
-
-<a href="https://i.imgur.com/sr11mKs.jpg" target="_blank"><img src="https://i.imgur.com/sr11mKs.jpg" style="width:340px" /></a>
-
-Raspberry Pi RP2040
-
-<a href="https://i.imgur.com/8DAWWY7.jpg" target="_blank"><img src="https://i.imgur.com/8DAWWY7.jpg" style="width:340px" /></a>
-
-STM32F07
-
-<a href="https://i.imgur.com/U901NNi.jpg" target="_blank"><img src="https://i.imgur.com/U901NNi.jpg" style="width:340px" /></a>
+<ul class="media-list">
+{% for macrochip in site.data.macrochips %}
+  <li class="media">
+    <div class="media-left">
+      <a href="https://i.imgur.com/{{ macrochip.imgurId }}.jpg" target="_blank" rel="noopener noreferrer">
+        <img class="media-object" style="width:340px" src="https://i.imgur.com/{{ macrochip.imgurId }}.jpg" alt="{{ macrochip.name }}">
+      </a>
+    </div>
+    <div class="media-body">
+      <h5 class="media-heading">{{ macrochip.name }}</h5>
+    </div>
+  </li>
+{% endfor %}
+</ul>
