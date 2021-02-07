@@ -1,0 +1,29 @@
+- name: Atmel ATmega328P
+  imgurId: qFj0rEs
+
+- name: Atmel ATSAMD21
+  imgurId: i5og0dU
+
+- name: ATxmega32E5
+  imgurId: cJ85mdc
+
+- name: Espressif ESP32-PICO-D4
+  imgurId: qV1LX78
+
+- name: Intel i486 DX2
+  imgurId: U8lqQgW
+
+- name: nRF52840
+  imgurId: sr11mKs
+
+- name: Raspberry Pi RP2040
+  imgurId: 8DAWWY7
+
+- name: Silicon Labs EM2420
+  imgurId: ZJVwXJo
+
+- name: STM32F07
+  imgurId: U901NNi
+
+- name: Sun Ultra SPARC III
+  imgurId: TBcVHKk
