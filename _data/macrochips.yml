@@ -1,11 +1,17 @@
 - name: Atmel ATmega328P
   imgurId: qFj0rEs
 
+- name: Atmel ATmega32u4
+  imgurId: 5o8Z1Tt
+
 - name: Atmel ATSAMD21
   imgurId: i5og0dU
 
 - name: ATxmega32E5
   imgurId: cJ85mdc
+
+- name: Cyrix MII
+  imgurId: lGVe4iW
 
 - name: Espressif ESP32-PICO-D4
   imgurId: qV1LX78
@@ -15,6 +21,9 @@
 
 - name: Intel i486 DX2
   imgurId: U8lqQgW
+
+- name: Intel i486 DX-50
+  imgurId: 1EqhBSF
 
 - name: nRF52840
   imgurId: sr11mKs
@@ -30,3 +39,6 @@
 
 - name: Sun Ultra SPARC III
   imgurId: TBcVHKk
+
+- name: Texas Instruments MSP430
+  imgurId: 0r3hSq3
