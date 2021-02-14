@@ -1,3 +1,6 @@
+- name: Allwinner A13
+  imgurId: PCbyhNc
+
 - name: Atmel ATmega328P
   imgurId: qFj0rEs
 
@@ -16,14 +19,20 @@
 - name: Espressif ESP32-PICO-D4
   imgurId: qV1LX78
 
-- name: Intel i386
+- name: Intel i386 DX-16
   imgurId: eBIG5R0
-
-- name: Intel i486 DX2
-  imgurId: U8lqQgW
 
 - name: Intel i486 DX-50
   imgurId: 1EqhBSF
+
+- name: Intel i486 DX2-50
+  imgurId: U8lqQgW
+
+- name: Intel i486 DX2-66
+  imgurId: ecLsIqR
+
+- name: MediaTek MT7688AN
+  imgurId: jtQZyF6
 
 - name: nRF52840
   imgurId: sr11mKs
