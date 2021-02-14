@@ -40,6 +40,9 @@
 - name: Raspberry Pi RP2040
   imgurId: 8DAWWY7
 
+- name: RealTek RTL2832U
+  imgurId: vq4LDfS
+
 - name: Silicon Labs EM2420
   imgurId: ZJVwXJo
 
