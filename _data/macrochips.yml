@@ -1,6 +1,9 @@
 - name: Allwinner A13
   imgurId: PCbyhNc
 
+- name: AMD Am5x86-P75
+  imgurId: EjNJbli
+
 - name: Atmel ATmega328P
   imgurId: qFj0rEs
 
@@ -37,6 +40,9 @@
 - name: nRF52840
   imgurId: sr11mKs
 
+- name: Parallax Propeller P8X32A-Q44
+  imgurId: QKrU5un
+
 - name: Raspberry Pi RP2040
   imgurId: 8DAWWY7
 
@@ -51,6 +57,9 @@
 
 - name: Sun Ultra SPARC III
   imgurId: TBcVHKk
+
+- name: Taito Bubble Bobble Arcade ROM (A78-01)
+  imgurId: vp7BTSt
 
 - name: Texas Instruments MSP430
   imgurId: 0r3hSq3
