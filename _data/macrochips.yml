@@ -25,6 +25,9 @@
 - name: Espressif ESP32-PICO-D4
   imgurId: jEyxnbV
 
+- name: Gowin GW1NR-LV9
+  imgurId: T0MwTyI
+
 - name: IBM PowerPC 604e
   imgurId: LK375TS
 
@@ -39,6 +42,9 @@
 
 - name: Intel i486 DX2-66
   imgurId: ecLsIqR
+
+- name: Lattice Semiconductor ICE40UP5K
+  imgurId: 6yGCKM6
 
 - name: MediaTek MT7688AN
   imgurId: jtQZyF6
