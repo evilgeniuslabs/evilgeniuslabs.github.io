@@ -4,6 +4,9 @@
 - name: AMD Am5x86-P75
   imgurId: EjNJbli
 
+- name: AMD K6-2 500AFX
+  imgurId: EjNJbli
+
 - name: Atmel ATmega328P
   imgurId: qFj0rEs
 
@@ -22,6 +25,9 @@
 - name: Espressif ESP32-PICO-D4
   imgurId: qV1LX78
 
+- name: IBM PowerPC 604e
+  imgurId: LK375TS
+
 - name: Intel i386 DX-16
   imgurId: eBIG5R0
 
@@ -36,6 +42,12 @@
 
 - name: MediaTek MT7688AN
   imgurId: jtQZyF6
+
+- name: MOS Technology 6502AD
+  imgurId: 24kPD64
+
+- name: Motorola 68HC11
+  imgurId: 0kVLzFV
 
 - name: nRF52840
   imgurId: sr11mKs
