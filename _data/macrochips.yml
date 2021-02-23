@@ -76,6 +76,9 @@
 - name: STM32F07
   imgurId: U901NNi
 
+- name: STM32F407-VGT6
+  imgurId: uIQX4YW
+
 - name: Sun Ultra SPARC III
   imgurId: TBcVHKk
 
