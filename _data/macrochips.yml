@@ -73,6 +73,9 @@
 - name: Silicon Labs EM2420
   imgurId: ZJVwXJo
 
+- name: ST10F168-Q6
+  imgurId: gMYlkZh
+
 - name: STM32F07
   imgurId: U901NNi
 
