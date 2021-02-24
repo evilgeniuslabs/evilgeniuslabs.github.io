@@ -31,11 +31,17 @@
 - name: Gowin GW1NR-LV9
   imgurId: T0MwTyI
 
+- name: IBM Gekko - Nintendo GameCube CPU
+  imgurId: Bdi551u
+
 - name: IBM PowerPC 604e
   imgurId: LK375TS
 
 - name: Intel i386 DX-16
   imgurId: eBIG5R0
+
+- name: Intel i486 DX-33
+  imgurId: ONciAa2
 
 - name: Intel i486 DX-50
   imgurId: 1EqhBSF
@@ -72,6 +78,9 @@
 
 - name: Silicon Labs EM2420
   imgurId: ZJVwXJo
+
+- name: Sony PlayStation 2 GraphicsSynthesizer
+  imgurId: HPJwkPt
 
 - name: ST10F168-Q6
   imgurId: gMYlkZh
