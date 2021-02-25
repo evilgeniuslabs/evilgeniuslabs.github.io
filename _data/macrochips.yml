@@ -88,6 +88,9 @@
 - name: STM32F07
   imgurId: U901NNi
 
+- name: STM32F767-IGT6
+  imgurId: Kf4wYDY
+
 - name: STM32F407-VGT6
   imgurId: uIQX4YW
 
