@@ -16,6 +16,9 @@
 - name: Atmel ATmega32u4
   imgurId: 5o8Z1Tt
 
+- name: Atmel ATmega8A
+  imgurId: 1J2tNiq
+
 - name: Atmel ATSAMD21
   imgurId: i5og0dU
 
@@ -108,3 +111,6 @@
 
 - name: Zilog Z80
   imgurId: KV9JPvp
+
+- name: Zilog Z80A
+  imgurId: lCpgonU
