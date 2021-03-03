@@ -25,14 +25,23 @@
 - name: ATxmega32E5
   imgurId: cJ85mdc
 
+- name: Creative Technology Sound Blaster VIBRA 16 CT2502
+  imgurId: oKGcS7g
+
 - name: Cyrix MII
   imgurId: lGVe4iW
+
+- name: Digital StrongArm SA-110S
+  imgurId: Luk48jY
 
 - name: Espressif ESP32-PICO-D4
   imgurId: jEyxnbV
 
 - name: Gowin GW1NR-LV9
   imgurId: T0MwTyI
+
+- name: Hitachi SH-2 HD6417095 (Sega Saturn, Sega 32X and Capcom CP System III)
+  imgurId: xS6Eu4p
 
 - name: IBM Gekko - Nintendo GameCube CPU
   imgurId: Bdi551u
@@ -55,11 +64,17 @@
 - name: Intel i486 DX2-66
   imgurId: ecLsIqR
 
+- name: Intel i860 XR-33
+  imgurId: EZxTRHT
+
 - name: Lattice Semiconductor ICE40UP5K
   imgurId: 6yGCKM6
 
 - name: MediaTek MT7688AN
   imgurId: jtQZyF6
+
+- name: Microchip Technology Microsemi PolarFire SoC MPFS250T
+  imgurId: AudUzNX
 
 - name: MOS Technology 6502AD
   imgurId: 24kPD64
@@ -75,6 +90,9 @@
 
 - name: Parallax Propeller P8X32A-Q44
   imgurId: QKrU5un
+
+- name: Qualcomm QCA9880-BR4A
+  imgurId: ImM8rvg
 
 - name: Raspberry Pi RP2040
   imgurId: 8DAWWY7
@@ -94,11 +112,11 @@
 - name: STM32F07
   imgurId: U901NNi
 
-- name: STM32F767-IGT6
-  imgurId: Kf4wYDY
-
 - name: STM32F407-VGT6
   imgurId: uIQX4YW
+
+- name: STM32F767-IGT6
+  imgurId: Kf4wYDY
 
 - name: Sun Ultra SPARC III
   imgurId: TBcVHKk
@@ -111,6 +129,9 @@
 
 - name: Xilinx Artix-7
   imgurId: NRXEj4M
+
+- name: Zilog Z80
+  imgurId: aRXZ766
 
 - name: Zilog Z80
   imgurId: KV9JPvp
