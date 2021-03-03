@@ -1,6 +1,9 @@
 - name: Allwinner A13
   imgurId: PCbyhNc
 
+- name: Altera Cyclone V FPGA
+  imgurId: DZSUgJ2
+
 - name: Apple A11
   imgurId: unCumdN
 
@@ -24,6 +27,9 @@
 
 - name: ATxmega32E5
   imgurId: cJ85mdc
+
+- name: Broadcom BCM2836 Raspberry Pi 2 Model B CPU
+  imgurId: goaFtTe
 
 - name: Creative Technology Sound Blaster VIBRA 16 CT2502
   imgurId: oKGcS7g
@@ -67,6 +73,9 @@
 - name: Intel i860 XR-33
   imgurId: EZxTRHT
 
+- name: Lattice Semiconductor ECP5-5G FPGA
+  imgurId: Btoezr3
+
 - name: Lattice Semiconductor ICE40UP5K
   imgurId: 6yGCKM6
 
@@ -79,11 +88,17 @@
 - name: MOS Technology 6502AD
   imgurId: 24kPD64
 
+- name: Motorola 68000 (m68k)
+  imgurId: Fkik1Do
+
 - name: Motorola 68HC11
   imgurId: 0kVLzFV
 
 - name: nRF52840
   imgurId: sr11mKs
+
+- name: Nintendo DS CPU NTR
+  imgurId: 7vCdbzV
 
 - name: Nvidia GeForce 256
   imgurId: 9I3vrGI
@@ -102,6 +117,12 @@
 
 - name: Silicon Labs EM2420
   imgurId: ZJVwXJo
+
+- name: Skytraq Venus838LPx-T-L GPS Receiver
+  imgurId: 4Ls0NO5
+
+- name: Sony PlayStation CPU CXD8606BQ
+  imgurId: 11MNivm
 
 - name: Sony PlayStation 2 GraphicsSynthesizer
   imgurId: HPJwkPt
