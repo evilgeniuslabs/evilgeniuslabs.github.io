@@ -97,6 +97,9 @@
 - name: nRF52840
   imgurId: sr11mKs
 
+- name: NXP i.MX6 MCIMX6G3DVM05AB
+  imgurId: jgC53ZX
+
 - name: Nintendo DS CPU NTR
   imgurId: 7vCdbzV
 
