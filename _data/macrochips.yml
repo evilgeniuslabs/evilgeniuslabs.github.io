@@ -154,6 +154,9 @@
 - name: Xilinx Artix-7
   imgurId: NRXEj4M
 
+- name: Xilinx XC216 (XC6200)
+  imgurId: LFxSKRT
+
 - name: Zilog Z80
   imgurId: aRXZ766
 
