@@ -25,7 +25,10 @@
 - name: Atmel ATSAMD21
   imgurId: i5og0dU
 
-- name: ATxmega32E5
+- name: Atmel AT90S8535
+  imgurId: uEbGB1c
+
+- name: Atmel ATxmega32E5
   imgurId: cJ85mdc
 
 - name: Broadcom BCM2836 Raspberry Pi 2 Model B CPU
@@ -33,6 +36,9 @@
 
 - name: Creative Technology Sound Blaster VIBRA 16 CT2502
   imgurId: oKGcS7g
+
+- name: CSG 8500
+  imgurId: 6ZQ7N8v
 
 - name: Cyrix MII
   imgurId: lGVe4iW
@@ -118,6 +124,9 @@
 - name: RealTek RTL2832U
   imgurId: vq4LDfS
 
+- name: Signetics NE555N
+  imgurId: gpu4Fyj
+
 - name: Silicon Labs EM2420
   imgurId: ZJVwXJo
 
@@ -135,6 +144,9 @@
 
 - name: STM32F07
   imgurId: U901NNi
+
+- name: STM32F405-RGT6
+  imgurId: h5DhQwY
 
 - name: STM32F407-VGT6
   imgurId: uIQX4YW
