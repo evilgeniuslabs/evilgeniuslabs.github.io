@@ -4,6 +4,9 @@
 - name: Altera Cyclone V FPGA
   imgurId: DZSUgJ2
 
+- name: Altera Max 10
+  imgurId: k8ivc3f
+
 - name: Apple A11
   imgurId: unCumdN
 
@@ -12,6 +15,9 @@
 
 - name: AMD K6-2 500AFX
   imgurId: cOpDfqs
+
+- name: Atheros AR9170
+  imgurId: YL69ozC
 
 - name: Atmel ATmega328P
   imgurId: qFj0rEs
@@ -64,6 +70,9 @@
 - name: Intel i386 DX-16
   imgurId: eBIG5R0
 
+- name: Intel i386 SX-25
+  imgurId: D7ynj0a
+
 - name: Intel i486 DX-33
   imgurId: ONciAa2
 
@@ -84,6 +93,9 @@
 
 - name: Lattice Semiconductor ICE40UP5K
   imgurId: 6yGCKM6
+
+- name: Linear Technology LTC2208
+  imgurId: xAJ6J0p
 
 - name: MediaTek MT7688AN
   imgurId: jtQZyF6
@@ -117,6 +129,9 @@
 
 - name: Qualcomm QCA9880-BR4A
   imgurId: ImM8rvg
+
+- name: Ralink RT2560F
+  imgurId: KFb1o3t
 
 - name: Raspberry Pi RP2040
   imgurId: 8DAWWY7
