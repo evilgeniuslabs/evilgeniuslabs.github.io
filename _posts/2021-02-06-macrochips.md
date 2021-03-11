@@ -48,14 +48,14 @@ A light coat of mineral oil before engraving makes them shiny, if that's the loo
 
 <ul class="media-list">
 {% for macrochip in site.data.macrochips %}
-  <li class="media">
+  <li class="media" id="{{ macrochip.name }}">
     <div class="media-left">
       <a href="https://i.imgur.com/{{ macrochip.imgurId }}.jpg" target="_blank" rel="noopener noreferrer">
         <img class="media-object" style="width:340px" src="https://i.imgur.com/{{ macrochip.imgurId }}.jpg" alt="{{ macrochip.name }}">
       </a>
     </div>
     <div class="media-body">
-      <h5 class="media-heading">{{ macrochip.name }}</h5>
+      <h5 class="media-heading">{{ macrochip.name }} <a href="macrochips#{{ macrochip.name }}"><i class="fa fa-link" aria-hidden="true"></i></a></h5>
     </div>
   </li>
 {% endfor %}
