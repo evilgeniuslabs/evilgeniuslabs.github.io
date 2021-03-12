@@ -67,6 +67,9 @@
 - name: IBM PowerPC 604e
   imgurId: LK375TS
 
+- name: Intel D8086-2
+  imgurId: 95CVxp2
+
 - name: Intel i386 DX-16
   imgurId: eBIG5R0
 
