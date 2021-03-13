@@ -46,6 +46,8 @@ A light coat of mineral oil before engraving makes them shiny, if that's the loo
 </blockquote>
 <script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script> -->
 
+I have made {{ site.data.macrochips | size }} different macrochip designs so far:
+
 <ul class="media-list">
 {% for macrochip in site.data.macrochips %}
   <li class="media" id="{{ macrochip.name }}">
