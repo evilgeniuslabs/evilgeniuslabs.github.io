@@ -115,7 +115,13 @@
 - name: Motorola 68HC11
   imgurId: 0kVLzFV
 
-- name: nRF52840
+- name: Motorola MC68030FE20
+  imgurId: w4rzsCX
+
+- name: Nordic Semiconductor nRF52832
+  imgurId: k4WQRvk
+
+- name: Nordic Semiconductor nRF52840
   imgurId: sr11mKs
 
 - name: NXP i.MX6 MCIMX6G3DVM05AB
@@ -177,6 +183,12 @@
 
 - name: Taito Bubble Bobble Arcade ROM (A78-01)
   imgurId: vp7BTSt
+
+- name: Texas Instruments CC2531 Zigbee
+  imgurId: z89tKk3
+
+- name: Texas Instruments CC2540 BLE
+  imgurId: 7IJRMcR
 
 - name: Texas Instruments MSP430
   imgurId: 0r3hSq3
