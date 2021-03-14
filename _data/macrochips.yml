@@ -193,8 +193,14 @@
 - name: Texas Instruments MSP430
   imgurId: 0r3hSq3
 
+- name: Texas Instruments NE555P
+  imgurId: R9MoCZ3
+
 - name: Xilinx Artix-7
   imgurId: NRXEj4M
+
+- name: Xilinx Virtex-5
+  imgurId: 7wxuthx
 
 - name: Xilinx XC216 (XC6200)
   imgurId: LFxSKRT
