@@ -52,6 +52,9 @@
 - name: Digital StrongArm SA-110S
   imgurId: Luk48jY
 
+- name: Espressif ESP32-D0WDQ6
+  imgurId: P7OwrnC
+
 - name: Espressif ESP32-PICO-D4
   imgurId: jEyxnbV
 
@@ -127,6 +130,9 @@
 - name: NXP i.MX6 MCIMX6G3DVM05AB
   imgurId: jgC53ZX
 
+- name: NXP SPC5748GHMKU6
+  imgurId: HhlxgUk
+
 - name: Nintendo DS CPU NTR
   imgurId: 7vCdbzV
 
@@ -168,6 +174,9 @@
 
 - name: STM32F07
   imgurId: U901NNi
+
+- name: STM32F103-C8T6
+  imgurId: a8pB9v3
 
 - name: STM32F405-RGT6
   imgurId: h5DhQwY
