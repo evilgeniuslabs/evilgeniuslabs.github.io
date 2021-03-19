@@ -64,6 +64,9 @@
 - name: Hitachi SH-2 HD6417095 (Sega Saturn, Sega 32X and Capcom CP System III)
   imgurId: xS6Eu4p
 
+- name: HPE iLO 88PA0SA1-BUY2
+  imgurId: w5Vql3g
+
 - name: IBM Gekko - Nintendo GameCube CPU
   imgurId: Bdi551u
 
@@ -153,6 +156,9 @@
 
 - name: RealTek RTL2832U
   imgurId: vq4LDfS
+
+- name: Reticon SAD1024 BBD (Bucket Brigade Device) Analog Delay/Flanger
+  imgurId: 3PLB5Ht
 
 - name: Signetics NE555N
   imgurId: gpu4Fyj
