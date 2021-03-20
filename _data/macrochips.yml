@@ -40,6 +40,9 @@
 - name: Broadcom BCM2836 Raspberry Pi 2 Model B CPU
   imgurId: goaFtTe
 
+- name: Broadcom Trident+ BCM56842A1IFRBG
+  imgurId: gubVnHJ
+
 - name: Creative Technology Sound Blaster VIBRA 16 CT2502
   imgurId: oKGcS7g
 
