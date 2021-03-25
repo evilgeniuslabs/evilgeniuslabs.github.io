@@ -19,6 +19,9 @@
 - name: Atheros AR9170
   imgurId: YL69ozC
 
+- name: Atmel ATmega1284
+  imgurId: zwi9QgG
+
 - name: Atmel ATmega328P
   imgurId: qFj0rEs
 
