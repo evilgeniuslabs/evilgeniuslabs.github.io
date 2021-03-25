@@ -79,6 +79,12 @@
 - name: Intel D8086-2
   imgurId: 95CVxp2
 
+- name: Intel Enpirion EN63A0QI (Top)
+  imgurId: HdNhyok
+
+- name: Intel Enpirion EN63A0QI (Bottom)
+  imgurId: 9iSgeKj
+
 - name: Intel i386 DX-16
   imgurId: eBIG5R0
 
@@ -135,6 +141,9 @@
 
 - name: NXP i.MX6 MCIMX6G3DVM05AB
   imgurId: jgC53ZX
+
+- name: NXP i.MX RT1062 (PJRC Teensy 4)
+  imgurId: WjOZ4Sr
 
 - name: NXP SPC5748GHMKU6
   imgurId: HhlxgUk
