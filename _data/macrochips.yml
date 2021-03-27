@@ -19,6 +19,9 @@
 - name: AMD Ryzen Threadripper 1920X
   imgurId: R2iVZhn
 
+- name: AMD Ryzen 7 I700X
+  imgurId: YzwC4U0
+
 - name: Atheros AR9170
   imgurId: YL69ozC
 
@@ -198,6 +201,9 @@
 
 - name: ST10F168-Q6
   imgurId: gMYlkZh
+
+- name: STM32F042C6U6
+  imgurId: ahmjGoZ
 
 - name: STM32F07
   imgurId: U901NNi
