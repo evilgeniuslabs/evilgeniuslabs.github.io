@@ -67,6 +67,9 @@
 - name: Espressif ESP32-PICO-D4
   imgurId: jEyxnbV
 
+- name: Espressif ESP32-S2
+  imgurId: 2qraP1g
+
 - name: Gowin GW1NR-LV9
   imgurId: T0MwTyI
 
