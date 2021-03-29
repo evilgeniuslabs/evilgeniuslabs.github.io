@@ -37,6 +37,9 @@
 - name: Atmel ATmega8A
   imgurId: 1J2tNiq
 
+- name: Atmel ATSAMA5D27
+  imgurId: 4nYzyJs
+
 - name: Atmel ATSAMD21
   imgurId: i5og0dU
 
