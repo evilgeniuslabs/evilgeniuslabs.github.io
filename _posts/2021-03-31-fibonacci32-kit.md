@@ -57,9 +57,7 @@ It consists of 32 RGB LEDs, arranged into a circular <a href="https://en.wikiped
 
 ### Code
 
-Open source example firmware and web application: [https://github.com/evilgeniuslabs/fibonacci32-demoreel100](https://github.com/evilgeniuslabs/fibonacci32-demoreel100)
-
-<img src="https://raw.githubusercontent.com/jasoncoon/esp8266-fastled-webserver/main/web-app.png" style="width:300px" class="img-responsive" />
+Open source example firmware: [https://github.com/evilgeniuslabs/fibonacci32-demoreel100](https://github.com/evilgeniuslabs/fibonacci32-demoreel100)
 
 ### Assembly Instructions
 
