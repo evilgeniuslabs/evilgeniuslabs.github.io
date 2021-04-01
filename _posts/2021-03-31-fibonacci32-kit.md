@@ -127,35 +127,35 @@ You can insert and solder the LEDs in any order. If you follow the order listed 
 1. Flip the board back over and repeat the steps above to check, recheck, insert, and solder each LED.
 1. Below is the order in which the LEDs should ideally be assembled:
 
-- [ ] 0
-- [ ] 13
-- [ ] 26
-- [ ] 31
-- [ ] 18
-- [ ] 5
-- [ ] 10
-- [ ] 23
-- [ ] 28
-- [ ] 15
-- [ ] 2
-- [ ] 7
-- [ ] 20
-- [ ] 25
-- [ ] 12
-- [ ] 4
-- [ ] 17
-- [ ] 30
-- [ ] 22
-- [ ] 9
-- [ ] 1
-- [ ] 14
-- [ ] 27
-- [ ] 19
-- [ ] 6
-- [ ] 11
-- [ ] 24
-- [ ] 29
-- [ ] 16
-- [ ] 3
-- [ ] 8
-- [ ] 21
+* [ ] &nbsp; &nbsp; 0
+- [ ] &nbsp; 13
+- [ ] &nbsp; 26
+- [ ] &nbsp; 31
+- [ ] &nbsp; 18
+- [ ] &nbsp; &nbsp; 5
+- [ ] &nbsp; 10
+- [ ] &nbsp; 23
+- [ ] &nbsp; 28
+- [ ] &nbsp; 15
+- [ ] &nbsp; &nbsp; 2
+- [ ] &nbsp; &nbsp; 7
+- [ ] &nbsp; 20
+- [ ] &nbsp; 25
+- [ ] &nbsp; 12
+- [ ] &nbsp; &nbsp; 4
+- [ ] &nbsp; 17
+- [ ] &nbsp; 30
+- [ ] &nbsp; 22
+- [ ] &nbsp; &nbsp; 9
+- [ ] &nbsp; &nbsp; 1
+- [ ] &nbsp; 14
+- [ ] &nbsp; 27
+- [ ] &nbsp; 19
+- [ ] &nbsp; &nbsp; 6
+- [ ] &nbsp; 11
+- [ ] &nbsp; 24
+- [ ] &nbsp; 29
+- [ ] &nbsp; 16
+- [ ] &nbsp; &nbsp; 3
+- [ ] &nbsp; &nbsp; 8
+- [ ] &nbsp; 21
