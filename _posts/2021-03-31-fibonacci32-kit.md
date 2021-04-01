@@ -46,15 +46,14 @@ It consists of 32 RGB LEDs, arranged into a circular <a href="https://en.wikiped
 ---
 
 ### Specifications
-
-- Size: 1.98 x 1.98 x .063 inch (50.2 x 50.2 mm x 1.6mm)
+         
+- Size: 86 x 86 mm x 1.6mm (3.39 x 3.39 x .063 inch)
 - 2 layer printed circuit board
 - FR4 substrate
-- Green SMOBC (solder mask over bare copper)
-- HASL (Hot Air Solder Leveling) Finish
+- Black SMOBC (solder mask over bare copper)
+- Lead Free HASL (Hot Air Solder Leveling)
 - Designed in the US by Evil Genius Labs
-- Some PCBs are manufactured in the US by [OSH Park](https://oshpark.com) in their [After Dark](https://docs.oshpark.com/services/afterdark) (clear soldermask on a black substrate for stylish boards) finish!
-- Some are assembled in the US by Evil Genius Labs
+- Assembled in the US by [Cyber City Circuits](https://cybercitycircuits.com)
 
 ### Code
 
@@ -73,18 +72,24 @@ If you're new to soldering, I highly recommend reading through a good soldering 
 1. Snap the header pins into sets of two, using side/flush cutters:
    <img class="img-responsive" src="https://i.imgur.com/dSlOLo5.png" />
    <img class="img-responsive" src="https://i.imgur.com/MaE1ICP.png" />
+
 1. We need five sets right now. Insert the long side of the header pins into the corners and side of the Nano outline, on the back of the PCB.
    <img class="img-responsive" src="https://i.imgur.com/jaxstnK.png" />
+
 1. Place the Nano onto the pins, but DO NOT solder the pins on the Nano yet.
    <img class="img-responsive" src="https://i.imgur.com/1xmRy03.png" />
+
 1. Hold the Nano in place as you flip the whole thing over.
    <img class="img-responsive" src="https://i.imgur.com/p8EKTeo.png" />
+
 1. Solder the pins on the front side of the board.
    <img class="img-responsive" src="https://i.imgur.com/p8EKTeo.png" />
    <img class="img-responsive" src="https://i.imgur.com/0Ku2KhY.png" />
    <img class="img-responsive" src="https://i.imgur.com/Rr3OTDE.png" />
+
 1. Using side/flush cutters, trim the pins close to the PCB.
-   <img class="img-responsive" src="https://i.imgur.com/p8EKTeo.png" />
+   <img class="img-responsive" src="https://i.imgur.com/olWF73B.png" />
+
 1. Flip the board back over and take the Nano off. Again, DO NOT solder the Nano on just yet.
    <img class="img-responsive" src="https://i.imgur.com/fHxHuoI.png" />
    <img class="img-responsive" src="https://i.imgur.com/r3OPum2.png" />
@@ -94,10 +99,63 @@ If you're new to soldering, I highly recommend reading through a good soldering 
 1. Insert two sets of pins into opposite sides of the gap in a breadboard. If you don't have a breadboard, you can use the Fibonacci PCB for this instead.
    <img class="img-responsive" src="https://i.imgur.com/kfim2Sr.png" />
    <img class="img-responsive" src="https://i.imgur.com/DC15nWf.png" />
-1. Place an LED onto the pins, and solder them.
+
+1. Place an LED PCB onto the pins, and solder them.
    <img class="img-responsive" src="https://i.imgur.com/3pGp1yy.png" />
    <img class="img-responsive" src="https://i.imgur.com/Fx38KtK.png" />
    <img class="img-responsive" src="https://i.imgur.com/e3vJE0l.png" />
-1. Remove the LED, and repeat for the rest.
+
+1. Remove the LED PCB, and repeat for the rest.
    <img class="img-responsive" src="https://i.imgur.com/SKsNnij.png" />
 
+#### Assemble the Fibonacci32
+
+**Note**: Double-check the orientation of each LED very carefully before soldering! It is much more difficult to desolder and fix incorrectly placed LEDs.
+
+The small black dot in the middle of each and every LED should point toward the outside of the main round PCB.
+
+You can insert and solder the LEDs in any order. If you follow the order listed below, you can stop and test the LEDs at any point. It's not a bad idea to test after each LED. If a mistake is made, or an LED has failed, it will be easier to fix the fewer LEDs have been assembled.
+
+1. We'll start with L0, the first LED, in the enter of the main PCB.
+1. Align the V, G, I, & O markings on an LED PCB with the markings on the main PCB. Insert the LED PCB pins into the holes on the main PCB.
+1. Check the markings again, making sure they match.
+1. Double-check and make sure that the small black dot in the middle of the LED points toward the outside of the main round PCB.
+   <img class="img-responsive" src="https://i.imgur.com/hHsbc7S.png" />
+
+1. Hold the LED in place while carefully flipping the board over.
+1. Hold the PCB down while soldering the pins on the LED.
+1. Flip the board back over and repeat the steps above to check, recheck, insert, and solder each LED.
+1. Below is the order in which the LEDs should ideally be assembled:
+
+- [ ] 0
+- [ ] 13
+- [ ] 26
+- [ ] 31
+- [ ] 18
+- [ ] 5
+- [ ] 10
+- [ ] 23
+- [ ] 28
+- [ ] 15
+- [ ] 2
+- [ ] 7
+- [ ] 20
+- [ ] 25
+- [ ] 12
+- [ ] 4
+- [ ] 17
+- [ ] 30
+- [ ] 22
+- [ ] 9
+- [ ] 1
+- [ ] 14
+- [ ] 27
+- [ ] 19
+- [ ] 6
+- [ ] 11
+- [ ] 24
+- [ ] 29
+- [ ] 16
+- [ ] 3
+- [ ] 8
+- [ ] 21
