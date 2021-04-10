@@ -7,6 +7,9 @@
 - name: Altera Max 10
   imgurId: k8ivc3f
 
+- name: Altera Max 10 - 10M50DAF484C7G
+  imgurId: raB2eBi
+
 - name: Apple A11
   imgurId: unCumdN
 
@@ -61,6 +64,9 @@
 - name: CSG 8500
   imgurId: 6ZQ7N8v
 
+- name: Cyrix 5x86-100GP
+  imgurId: KHH32nW
+
 - name: Cyrix MII
   imgurId: lGVe4iW
 
@@ -87,6 +93,9 @@
 
 - name: HPE iLO 88PA0SA1-BUY2
   imgurId: w5Vql3g
+
+- name: IBM Blue Lightning DX2
+  imgurId: rb2m56H
 
 - name: IBM Gekko - Nintendo GameCube CPU
   imgurId: Bdi551u
