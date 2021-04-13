@@ -10,6 +10,9 @@
 - name: Altera Max 10 - 10M50DAF484C7G
   imgurId: raB2eBi
 
+- name: Analog Devices AD9361BBCZ
+  imgurId: Ouv0ttR
+
 - name: Apple A11
   imgurId: unCumdN
 
@@ -81,6 +84,9 @@
 
 - name: Espressif ESP32-S2
   imgurId: 2qraP1g
+
+- name: FTDI FT2232H-56Q
+  imgurId: 8IHQ0QU
 
 - name: Gowin GW1NR-LV9
   imgurId: T0MwTyI
@@ -199,6 +205,9 @@
 - name: Reticon SAD1024 BBD (Bucket Brigade Device) Analog Delay/Flanger
   imgurId: 3PLB5Ht
 
+- name: Samsung K4P4G324EB-AGC1 (Raspberry Pi RAM)
+  imgurId: daCZEQw
+
 - name: Signetics NE555N
   imgurId: gpu4Fyj
 
@@ -207,6 +216,9 @@
 
 - name: Skytraq Venus838LPx-T-L GPS Receiver
   imgurId: 4Ls0NO5
+
+- name: SMSC USB4604
+  imgurId: PkQGw2N
 
 - name: Sony PlayStation CPU CXD8606BQ
   imgurId: 11MNivm
@@ -223,6 +235,9 @@
 - name: STM32F07
   imgurId: U901NNi
 
+- name: STM32F072C8U6
+  imgurId: fflQ29l
+
 - name: STM32F103-C8T6
   imgurId: a8pB9v3
 
@@ -234,6 +249,12 @@
 
 - name: STM32F767-IGT6
   imgurId: Kf4wYDY
+
+- name: STM32L562ZET6
+  imgurId: 5O0ghAQ
+
+- name: Sun UltraSPARC II
+  imgurId: XJIxk5n
 
 - name: Sun Ultra SPARC III
   imgurId: TBcVHKk
@@ -256,11 +277,26 @@
 - name: Xilinx Artix-7
   imgurId: NRXEj4M
 
+- name: Xilinx Kintex-7
+  imgurId: IxWMIhD
+
+- name: Xilinx Versal
+  imgurId: k3L7Zmo
+
 - name: Xilinx Virtex-5
   imgurId: 7wxuthx
 
+- name: Xilinx Virtex UltraScale+
+  imgurId: kAs0zg2
+
+- name: Xilinx XC2064-70
+  imgurId: 2tZkQvQ
+
 - name: Xilinx XC216 (XC6200)
   imgurId: LFxSKRT
+
+- name: Xilinx Zynq
+  imgurId: 2e0FYM9
 
 - name: Zilog Z80
   imgurId: aRXZ766
