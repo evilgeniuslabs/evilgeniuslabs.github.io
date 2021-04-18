@@ -91,6 +91,9 @@
 - name: Gowin GW1NR-LV9
   imgurId: T0MwTyI
 
+- name: GreenArrays GA144-f18a
+  imgurId: AKF9BBR
+
 - name: Hitachi SH-2 HD6417095 (Sega Saturn, Sega 32X and Capcom CP System III)
   imgurId: xS6Eu4p
 
@@ -252,6 +255,9 @@
 
 - name: STM32L562ZET6
   imgurId: 5O0ghAQ
+
+- name: STMicroelectronics M48T86PC1 RTC CLK/Calendar
+  imgurId: FpRkrUQ
 
 - name: Sun UltraSPARC II
   imgurId: XJIxk5n
