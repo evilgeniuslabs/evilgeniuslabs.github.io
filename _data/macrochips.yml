@@ -175,6 +175,9 @@
 - name: Nordic Semiconductor nRF52840
   imgurId: sr11mKs
 
+- name: nRF52840 (AND!XOR custom edition)
+  imgurId: P5HgRug
+
 - name: NXP i.MX6 MCIMX6G3DVM05AB
   imgurId: jgC53ZX
 
