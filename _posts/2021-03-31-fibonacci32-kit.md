@@ -5,7 +5,7 @@ id: fibonacci32-kit
 imgurId: Sa9oicX
 # videoUrl: https://www.youtube.com/embed/SNB5xsYFCak
 excerpt: Fibonacci32 is a beautiful 86mm circular disc with 32 RGB LEDs surface mounted in a Fibonacci distribution. Swirling and pulsing like a colorful galaxy, it’s mesmerizing to watch.
-# categories: 
+# categories:
 #   - portfolio
 #   - products
 published: true
@@ -21,7 +21,7 @@ redirect_from:
 <h3>Table of Contents</h3>
 
 - TOC
-{:toc}
+  {:toc}
 
 ### Details
 
@@ -46,7 +46,7 @@ It consists of 32 RGB LEDs, arranged into a circular <a href="https://en.wikiped
 ---
 
 ### Specifications
-         
+
 - Size: 86 x 86 mm x 1.6mm (3.39 x 3.39 x .063 inch)
 - 2 layer printed circuit board
 - FR4 substrate
@@ -114,6 +114,8 @@ The small black dot in the middle of each and every LED should point toward the 
 
 You can insert and solder the LEDs in any order. If you follow the order listed below, you can stop and test the LEDs at any point. It's not a bad idea to test after each LED. If a mistake is made, or an LED has failed, it will be easier to fix the fewer LEDs have been assembled.
 
+You can test the LEDs by placing the Nano onto the pins, carefully checking you have it aligned correctly, with the USB port toward the edge where noted. Hold it in place while plugging in the USB cable, and the LEDs should light up. If not, make sure the Arduino code has been uploaded (see above).
+
 1. We'll start with L0, the first LED, in the enter of the main PCB.
 1. Align the V, G, I, & O markings on an LED PCB with the markings on the main PCB. Insert the LED PCB pins into the holes on the main PCB.
 1. Check the markings again, making sure they match.
@@ -125,35 +127,91 @@ You can insert and solder the LEDs in any order. If you follow the order listed 
 1. Flip the board back over and repeat the steps above to check, recheck, insert, and solder each LED.
 1. Below is the order in which the LEDs should ideally be assembled:
 
-* [ ] &nbsp; &nbsp; 0
-- [ ] &nbsp; 13
-- [ ] &nbsp; 26
-- [ ] &nbsp; 31
-- [ ] &nbsp; 18
-- [ ] &nbsp; &nbsp; 5
-- [ ] &nbsp; 10
-- [ ] &nbsp; 23
-- [ ] &nbsp; 28
-- [ ] &nbsp; 15
-- [ ] &nbsp; &nbsp; 2
-- [ ] &nbsp; &nbsp; 7
-- [ ] &nbsp; 20
-- [ ] &nbsp; 25
-- [ ] &nbsp; 12
-- [ ] &nbsp; &nbsp; 4
-- [ ] &nbsp; 17
-- [ ] &nbsp; 30
-- [ ] &nbsp; 22
-- [ ] &nbsp; &nbsp; 9
-- [ ] &nbsp; &nbsp; 1
-- [ ] &nbsp; 14
-- [ ] &nbsp; 27
-- [ ] &nbsp; 19
-- [ ] &nbsp; &nbsp; 6
-- [ ] &nbsp; 11
-- [ ] &nbsp; 24
-- [ ] &nbsp; 29
-- [ ] &nbsp; 16
-- [ ] &nbsp; &nbsp; 3
-- [ ] &nbsp; &nbsp; 8
-- [ ] &nbsp; 21
+- &nbsp; &nbsp; 0
+- &nbsp; 13
+- &nbsp; 26
+- &nbsp; 31
+- &nbsp; 18
+- &nbsp; &nbsp; 5
+- &nbsp; 10
+- &nbsp; 23
+- &nbsp; 28
+- &nbsp; 15
+- &nbsp; &nbsp; 2
+- &nbsp; &nbsp; 7
+- &nbsp; 20
+- &nbsp; 25
+- &nbsp; 12
+- &nbsp; &nbsp; 4
+- &nbsp; 17
+- &nbsp; 30
+- &nbsp; 22
+- &nbsp; &nbsp; 9
+- &nbsp; &nbsp; 1
+- &nbsp; 14
+- &nbsp; 27
+- &nbsp; 19
+- &nbsp; &nbsp; 6
+- &nbsp; 11
+- &nbsp; 24
+- &nbsp; 29
+- &nbsp; 16
+- &nbsp; &nbsp; 3
+- &nbsp; &nbsp; 8
+- &nbsp; 21
+
+   <img class="img-responsive" src="https://i.imgur.com/ivyomjK.png" />
+
+   <img class="img-responsive" src="https://i.imgur.com/8yhr9xT.png" />
+
+   <img class="img-responsive" src="https://i.imgur.com/zLaluPn.png" />
+
+   <img class="img-responsive" src="https://i.imgur.com/rA2hlhR.png" />
+
+   <img class="img-responsive" src="https://i.imgur.com/1MYRsSv.png" />
+
+   <img class="img-responsive" src="https://i.imgur.com/UJ8Mjhl.png" />
+
+   <img class="img-responsive" src="https://i.imgur.com/LSarK9j.png" />
+
+Trim all the LED pins on the back side of the PCB with flush cutters.
+
+Test the LEDs, make sure they all light up.
+
+#### Solder the Nano
+
+1. Now we can solder the Nano pins.
+1. Again, make sure it's aligned correctly, with the USB connector towards the edge.
+
+   <img class="img-responsive" src="https://i.imgur.com/EfXSNLG.png" />
+
+1. Hold the Nano in place while soldering one of the pins.
+1. Now it should stay in place while soldering the rest of the pins.
+1. Test the LEDs again, make sure they all still light up.
+
+#### Assemble the case (optional)
+
+1. Insert M3x6mm Button Head Hex Screws into the holes in the matte side of the acrylic face plate.
+1. Hand-tighten M3x5mm+6mm Male-Female Hex Nylon Standoffs onto the M3x6mm screws, on the glossy side of the acrylic face plate.
+1. Carefully center and place the Fibonacci PCB onto the standoffs, with the LED side facing the glossy side of the acrylic face plate.
+1. Hand-tighten M3 Nylon Hex Standoffs onto the back side of the Fibonacci PCB.
+1. Center and place the back plate onto the standoffs.
+1. Insert M3x6mm Button Head Hex Screws into the holes in the back plate and hand-tighten.
+
+   <img class="img-responsive" src="https://i.imgur.com/v9hDvcg.png" />
+
+   <img class="img-responsive" src="https://i.imgur.com/HUn9bPx.png" />
+
+   <img class="img-responsive" src="https://i.imgur.com/pa3AFfa.png" />
+
+   <img class="img-responsive" src="https://i.imgur.com/NTPLsYf.png" />
+
+   <img class="img-responsive" src="https://i.imgur.com/dAoTn5q.png" />
+
+   <img class="img-responsive" src="https://i.imgur.com/AVfRUfh.png" />
+
+   <img class="img-responsive" src="https://i.imgur.com/ksais63.png" />
+
+   <img class="img-responsive" src="https://i.imgur.com/UWUwe7m.png" />
+
+   <img class="img-responsive" src="https://i.imgur.com/DyEz1ZZ.png" />
