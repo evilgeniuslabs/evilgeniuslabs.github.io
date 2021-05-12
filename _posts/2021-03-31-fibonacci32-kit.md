@@ -189,6 +189,12 @@ Test the LEDs, make sure they all light up.
 1. Now it should stay in place while soldering the rest of the pins.
 1. Test the LEDs again, make sure they all still light up.
 
+#### Solder the buttons
+
+1. Insert the buttons on the back of the PCB, in the outline, on the same side as the Nano.
+1. Hold the buttons in place while flipping the PCB over.
+1. Solder the button pins, while holding the PCB down.
+
 #### Assemble the case (optional)
 
 1. Insert M3x6mm Button Head Hex Screws into the holes in the matte side of the acrylic face plate.
