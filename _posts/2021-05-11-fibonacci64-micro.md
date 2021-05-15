@@ -2,20 +2,31 @@
 layout: post
 title: Fibonacci 64 Micro
 id: fibonacci64micro
-imgurId: awvYf9L
+imgurId: j83kSI7
 # videoUrl: https://www.youtube.com/embed/SNB5xsYFCak
 excerpt: Fibonacci64 Micro is a tiny, beautiful 40mm circular disc with 64 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
-# categories: 
-#   - portfolio
-#   - products
+categories:
+  - portfolio
+  - products
 published: true
 redirect_from:
   - /44
   - /f64micro
 ---
 
-<a href="https://i.imgur.com/awvYf9L.gif" target="_blank"><img src="https://i.imgur.com/awvYf9L.gif" style="width:340px"  /></a>
-<a href="https://i.imgur.com/KyoG8de.png" target="_blank"><img src="https://i.imgur.com/KyoG8de.png" style="width:340px"  /></a>
+<video class="post" poster="//i.imgur.com/j83kSI7.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
+   <source src="//i.imgur.com/j83kSI7.mp4" type="video/mp4">
+</video>
+
+<a href="https://i.imgur.com/MHJo2My.png" target="_blank"><img src="https://i.imgur.com/MHJo2My.png" style="width:340px"  /></a>
+<a href="https://i.imgur.com/zpv3plJ.png" target="_blank"><img src="https://i.imgur.com/zpv3plJ.png" style="width:340px"  /></a>
+<a href="https://i.imgur.com/0acgduU.png" target="_blank"><img src="https://i.imgur.com/0acgduU.png" style="width:340px"  /></a>
+<a href="https://i.imgur.com/MHJo2My.png" target="_blank"><img src="https://i.imgur.com/MHJo2My.png" style="width:340px"  /></a>
+<a href="https://i.imgur.com/1sOdoQt.png" target="_blank"><img src="https://i.imgur.com/1sOdoQt.png" style="width:340px"  /></a>
+<a href="https://i.imgur.com/RxRM1lW.png" target="_blank"><img src="https://i.imgur.com/RxRM1lW.png" style="width:340px"  /></a>
+<a href="https://i.imgur.com/9ZbtRUm.png" target="_blank"><img src="https://i.imgur.com/9ZbtRUm.png" style="width:340px"  /></a>
+<a href="https://i.imgur.com/fO8GSLk.png" target="_blank"><img src="https://i.imgur.com/fO8GSLk.png" style="width:340px"  /></a>
+<a href="https://i.imgur.com/K3pxorP.png" target="_blank"><img src="https://i.imgur.com/K3pxorP.png" style="width:340px"  /></a>
 
 <h3>Table of Contents</h3>
 
@@ -87,21 +98,13 @@ Open source example firmware and web application: [https://github.com/jasoncoon/
 
 If you're new to soldering, I highly recommend reading through a good soldering tutorial, such as the ones by [Adafruit](https://learn.adafruit.com/adafruit-guide-excellent-soldering) and [SparkFun](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering).
 
-**Note**: Pictures are of the larger [Fibonacci256](/fibonacci256), but the instructions are identical.
-
 1. Find a clean spot on your soldering workspace. I used a piece of heavy card stock. Carefully place the board with the LEDs facing down and the bottom of the board facing up.
-   <img src="https://imgur.com/dcH2g2E.png" class="img-responsive" />
 2. I used [90 degree header pins](https://amzn.to/2Vzi2gU) to allow connecting and disconnecting jumper wires easily. I used small [female headers](https://amzn.to/2Vzi2gU) to keep them level while I soldered.
-   <img src="https://imgur.com/oF0O5u5.png" class="img-responsive" />
 3. Insert the header pins.
-   <img src="https://imgur.com/SDp87ah.png" class="img-responsive" />
 4. Carefully turn the board over and solder only the middle pin of each header.
-   <img src="https://imgur.com/YafBoqC.png" class="img-responsive" />
 5. Ensure the headers are straight and level before proceeding to solder the remaining pins. The 5V and GND pins are connected to planes with large traces, and may take some time to heat up enough for solder to melt. Using a higher temperature and less time can help, if possible. Flux can also help.
 6. Check each solder joint, then disconnect the female headers.
 7. **VERY** carefully check polarity before connecting 5V and GND. If possible, connect 5V and GND on both sets of headers to provide maximum current flow and minimize voltage drop. I used [female jumper wires](https://amzn.to/2vjvZ8e).
-   <img src="https://imgur.com/XqbL1R8.png" class="img-responsive" />
 8. Connect the data pin from your microcontroller to the DI pin on the Fibonacci board.
-9. Each WS2812 can theoretically draw 60mA at full brightness, solid white color. 64 of them can theoretically draw 4 Amps! I strongly suggest using [FastLED's power management](https://github.com/FastLED/FastLED/wiki/Power-notes#managing-power-in-fastled) to limit the maximum brightness to a reasonable amount, well under the maximum your power supply is rated for. I've found even just 2A from a USB power adapter is blindingly bright.
+9. Each WS2812C-2020 can theoretically draw 5mA at full brightness, solid white color. 64 of them can theoretically draw 320mA. I suggest using [FastLED's power management](https://github.com/FastLED/FastLED/wiki/Power-notes#managing-power-in-fastled) to limit the maximum brightness to a reasonable amount, well under the maximum your power supply is rated for. I've found that 320mA is blindingly bright.
 10. Keep an eye on the temperature of the PCB and especially the connectors. High temperatures can reduce the life of the LEDs. When possible, ensure air can flow, either passively (ventilation) or actively (exhaust fan).
-11. Most header pins are rated for 4-6 amps, but be sure to check your pins and wires. High temperatures increase resistance, which increases temperature, ad infinitum. If temperatures exceed the maximum rating of the wire insulation, sparks and fire can occur at high amperage.
