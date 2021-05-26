@@ -88,9 +88,7 @@ Parts I used in my builds:
 
 ### Code
 
-Open source example firmware and web application: [https://github.com/jasoncoon/esp8266-fastled-webserver/tree/fibonacci64](https://github.com/jasoncoon/esp8266-fastled-webserver/tree/fibonacci64)
-
-<img src="https://raw.githubusercontent.com/jasoncoon/esp8266-fastled-webserver/main/web-app.png" style="width:300px" class="img-responsive" />
+Open source example firmware and web application: [https://github.com/jasoncoon/fibonacci-demoreel/tree/f64-micro](https://github.com/jasoncoon/fibonacci-demoreel/tree/f64-micro)
 
 ### Assembly Instructions
 
