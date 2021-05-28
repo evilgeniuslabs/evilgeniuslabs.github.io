@@ -65,11 +65,15 @@ Open source example firmware: [https://github.com/evilgeniuslabs/fibonacci32-dem
 
 ### Assembly Instructions
 
+~2 hours total
+
 **Note**: Double-check the position, alignment, and orientation of each component very carefully before soldering!
 
 If you're new to soldering, I highly recommend reading through a good soldering tutorial, such as the ones by [Adafruit](https://learn.adafruit.com/adafruit-guide-excellent-soldering) and [SparkFun](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering).
 
 #### Nano header pins
+
+~30 minutes
 
 The kit may come with header pin sockets. You _can_ use these to make the Nano removable, but if you do, the back of the [optional enclosure](https://shop.cybercitycircuits.com/collections/electronics-hobby-kits/products/fibonacci-32-soldering-kit-acrylic-add-on) won't fit without using taller standoffs.
 
@@ -102,13 +106,19 @@ These instructions do not use the header pin sockets.
 
 #### Prepare the LEDs
 
+~30 minutes
+
 1. **Carefully** snap all of the LEDs apart from the panel. You can use needle-nosed pliers to help, but only grip the PCB with them, not the LEDs, which can be damaged easily.
 
 1. Insert two sets of pins into opposite sides of the gap in a breadboard. If you don't have a breadboard, you can use the Fibonacci PCB for this instead.
+
    <img class="img-responsive" src="https://i.imgur.com/kfim2Sr.png" />
    <img class="img-responsive" src="https://i.imgur.com/DC15nWf.png" />
 
-1. Place an LED PCB onto the pins, and solder them.
+1. Place an LED PCB onto the pins, and solder them, one at a time, making sure the LED PCB is level.
+
+   You may need to hold it level while soldering the first pin.
+
    <img class="img-responsive" src="https://i.imgur.com/3pGp1yy.png" />
    <img class="img-responsive" src="https://i.imgur.com/Fx38KtK.png" />
    <img class="img-responsive" src="https://i.imgur.com/e3vJE0l.png" />
@@ -117,6 +127,8 @@ These instructions do not use the header pin sockets.
    <img class="img-responsive" src="https://i.imgur.com/SKsNnij.png" />
 
 #### Assemble the Fibonacci32
+
+~1 hour
 
 **Note**: Double-check the orientation of each LED very carefully before soldering! It is much more difficult to desolder and fix incorrectly placed LEDs.
 
