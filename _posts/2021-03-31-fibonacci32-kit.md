@@ -29,6 +29,10 @@ Fibonacci32 is a beautiful 86mm circular disc with 32 RGB LEDs surface mounted i
 
 It consists of 32 RGB LEDs, arranged into a circular <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.
 
+<a class="btn btn-default" href="https://shop.cybercitycircuits.com/products/fibonacci-32-soldering-kit">Buy from Cyber City Circuits</a>
+
+An [optional enclosure](https://shop.cybercitycircuits.com/collections/electronics-hobby-kits/products/fibonacci-32-soldering-kit-acrylic-add-on) is also available from Cyber City Circuits.
+
 ### Background
 
 <p>In disc <a href="https://en.wikipedia.org/wiki/Phyllotaxis" title="Phyllotaxis">phyllotaxis</a>, as in the <a href="https://en.wikipedia.org/wiki/Sunflower" title="Sunflower" class="mw-redirect">sunflower</a> and daisy, the mesh of spirals occurs in <a href="https://en.wikipedia.org/wiki/Fibonacci_number" title="Fibonacci number">Fibonacci numbers</a> because divergence (angle of succession in a single spiral arrangement) approaches the <a href="https://en.wikipedia.org/wiki/Golden_ratio" title="Golden ratio">golden ratio</a>. The shape of the spirals depends on the growth of the elements generated sequentially. In mature-disc <a href="https://en.wikipedia.org/wiki/Phyllotaxis" title="Phyllotaxis">phyllotaxis</a>, when all the elements are the same size, the shape of the spirals is that of Fermat spirals—ideally. That is because Fermat's spiral traverses equal <a href="https://en.wikipedia.org/wiki/Annulus_(mathematics)" title="Annulus (mathematics)">annuli</a> in equal turns. The full model proposed by H Vogel in 1979<sup id="cite_ref-2" class="reference"><a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral#cite_note-2"><span>[</span>2<span>]</span></a></sup> is</p>
@@ -67,6 +71,10 @@ If you're new to soldering, I highly recommend reading through a good soldering 
 
 #### Nano header pins
 
+The kit may come with header pin sockets. You _can_ use these to make the Nano removable, but if you do, the back of the [optional enclosure](https://shop.cybercitycircuits.com/collections/electronics-hobby-kits/products/fibonacci-32-soldering-kit-acrylic-add-on) won't fit without using taller standoffs.
+
+These instructions do not use the header pin sockets.
+
 1. Snap the header pins into sets of two, using side/flush cutters:
    <img class="img-responsive" src="https://i.imgur.com/dSlOLo5.png" />
    <img class="img-responsive" src="https://i.imgur.com/MaE1ICP.png" />
@@ -93,6 +101,8 @@ If you're new to soldering, I highly recommend reading through a good soldering 
    <img class="img-responsive" src="https://i.imgur.com/r3OPum2.png" />
 
 #### Prepare the LEDs
+
+1. **Carefully** snap all of the LEDs apart from the panel. You can use needle-nosed pliers to help, but only grip the PCB with them, not the LEDs, which can be damaged easily.
 
 1. Insert two sets of pins into opposite sides of the gap in a breadboard. If you don't have a breadboard, you can use the Fibonacci PCB for this instead.
    <img class="img-responsive" src="https://i.imgur.com/kfim2Sr.png" />
