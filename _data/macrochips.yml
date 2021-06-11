@@ -16,6 +16,9 @@
 - name: Apple A11
   imgurId: unCumdN
 
+- name: Apple A14
+  imgurId: pYFvdE8
+
 - name: AMD Am5x86-P75
   imgurId: EjNJbli
 
@@ -142,6 +145,9 @@
 - name: Intel i860 XR-33
   imgurId: EZxTRHT
 
+- name: Intel Pentium 75
+  imgurId: BxngAcm
+
 - name: Lattice Semiconductor ECP5-5G FPGA
   imgurId: Btoezr3
 
@@ -157,8 +163,14 @@
 - name: Microchip Technology Microsemi PolarFire SoC MPFS250T
   imgurId: AudUzNX
 
+- name: Microchip Technology - PIC32MZ2048EFM100-I/PT
+  imgurId: CVgcCoB
+
 - name: MOS Technology 6502AD
   imgurId: 24kPD64
+
+- name: MOS Technology 6502 (4" square version)
+  imgurId: gQPaCov
 
 - name: Motorola 68000 (m68k)
   imgurId: Fkik1Do
@@ -214,6 +226,9 @@
 - name: Samsung K4P4G324EB-AGC1 (Raspberry Pi RAM)
   imgurId: daCZEQw
 
+- name: SiFive FE310-G000
+  imgurId: afBKtL5
+
 - name: Signetics NE555N
   imgurId: gpu4Fyj
 
@@ -258,6 +273,9 @@
 
 - name: STM32L562ZET6
   imgurId: 5O0ghAQ
+
+- name: STM32L062K8T6
+  imgurId: m7CzZ2I
 
 - name: STMicroelectronics M48T86PC1 RTC CLK/Calendar
   imgurId: FpRkrUQ
