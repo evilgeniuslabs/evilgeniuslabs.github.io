@@ -181,6 +181,9 @@
 - name: Motorola MC68030FE20
   imgurId: w4rzsCX
 
+- name: Motorola XC68040RC25M (custom design)
+  imgurId: 9nGy7na
+
 - name: Nordic Semiconductor nRF52832
   imgurId: k4WQRvk
 
