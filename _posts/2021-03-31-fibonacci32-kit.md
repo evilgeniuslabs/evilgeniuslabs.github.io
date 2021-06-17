@@ -29,7 +29,7 @@ Fibonacci32 is a beautiful 86mm circular disc with 32 RGB LEDs surface mounted i
 
 It consists of 32 RGB LEDs, arranged into a circular <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.
 
-<a class="btn btn-default" href="https://shop.cybercitycircuits.com/products/fibonacci-32-soldering-kit">Buy from Cyber City Circuits</a>
+<a class="btn btn-success" href="https://shop.cybercitycircuits.com/products/fibonacci-32-soldering-kit">Buy from Cyber City Circuits</a>
 
 An [optional enclosure](https://shop.cybercitycircuits.com/collections/electronics-hobby-kits/products/fibonacci-32-soldering-kit-acrylic-add-on) is also available from Cyber City Circuits.
 
