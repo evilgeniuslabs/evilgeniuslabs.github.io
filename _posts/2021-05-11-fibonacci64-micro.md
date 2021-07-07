@@ -12,6 +12,7 @@ published: true
 redirect_from:
   - /44
   - /f64micro
+  - /f64u
 ---
 
 <video class="post" poster="//i.imgur.com/j83kSI7.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
@@ -31,7 +32,7 @@ redirect_from:
 <h3>Table of Contents</h3>
 
 - TOC
-{:toc}
+  {:toc}
 
 ### Details
 
