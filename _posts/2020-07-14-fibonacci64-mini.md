@@ -5,13 +5,14 @@ id: fibonacci64mini
 imgurId: awvYf9L
 # videoUrl: https://www.youtube.com/embed/SNB5xsYFCak
 excerpt: Fibonacci64 Mini is a beautiful 64mm circular disc with 64 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
-categories: 
+categories:
   - portfolio
   - products
 published: true
 redirect_from:
   - /37
   - /f64mini
+  - /f64m
 ---
 
 <a href="https://i.imgur.com/awvYf9L.gif" target="_blank"><img src="https://i.imgur.com/awvYf9L.gif" style="width:340px"  /></a>
@@ -26,7 +27,7 @@ redirect_from:
 <h3>Table of Contents</h3>
 
 - TOC
-{:toc}
+  {:toc}
 
 ### Details
 
