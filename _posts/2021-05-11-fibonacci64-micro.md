@@ -28,11 +28,12 @@ redirect_from:
 <a href="https://i.imgur.com/9ZbtRUm.png" target="_blank"><img src="https://i.imgur.com/9ZbtRUm.png" style="width:340px"  /></a>
 <a href="https://i.imgur.com/fO8GSLk.png" target="_blank"><img src="https://i.imgur.com/fO8GSLk.png" style="width:340px"  /></a>
 <a href="https://i.imgur.com/K3pxorP.png" target="_blank"><img src="https://i.imgur.com/K3pxorP.png" style="width:340px"  /></a>
+<a href="https://i.imgur.com/yONidkC.png" target="_blank"><img src="https://i.imgur.com/yONidkC.png" style="width:340px"  /></a>
 
 <h3>Table of Contents</h3>
 
 - TOC
-  {:toc}
+{:toc}
 
 ### Details
 
@@ -41,6 +42,14 @@ Fibonacci64 is a beautiful 64mm circular disc with 64 RGB LEDs surface mounted i
 It consists of 64 WS2812C-2020 RGB LEDs, arranged into a circular <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.
 
 <a class="btn btn-success" href="https://www.tindie.com/products/23597">Buy on Tindie</a>
+
+It has solder pads on the back that match the pinout of the [QT Py by Adafruit](https://www.adafruit.com/?q=qt+py), or [XIAO by Seeed](https://www.seeedstudio.com/catalogsearch/result/?q=xiao). For battery-powered projects, I like to use the [LiPo Power Pack by Oak Dev Tech](https://www.oakdev.tech/store/p6/LiPo-Power-Pack.html) It can be used by any microcontroller via the 5V, GND, and Data In pins. It also has a Data Out pad, for connecting more LEDs on the same data pin.
+
+The four mounting holes are surrounded by capacitive touch compatible pads. They're connected to the A0-A3 pads/pins on the QT Py footprint. The SAMD21 QT Py supports capacitive touch on these pins.
+
+<video class="post" poster="//i.imgur.com/L1YCyR1.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
+   <source src="//i.imgur.com/L1YCyR1.mp4" type="video/mp4">
+</video>
 
 <p>In disc <a href="https://en.wikipedia.org/wiki/Phyllotaxis" title="Phyllotaxis">phyllotaxis</a>, as in the <a href="https://en.wikipedia.org/wiki/Sunflower" title="Sunflower" class="mw-redirect">sunflower</a> and daisy, the mesh of spirals occurs in <a href="https://en.wikipedia.org/wiki/Fibonacci_number" title="Fibonacci number">Fibonacci numbers</a> because divergence (angle of succession in a single spiral arrangement) approaches the <a href="https://en.wikipedia.org/wiki/Golden_ratio" title="Golden ratio">golden ratio</a>. The shape of the spirals depends on the growth of the elements generated sequentially. In mature-disc <a href="https://en.wikipedia.org/wiki/Phyllotaxis" title="Phyllotaxis">phyllotaxis</a>, when all the elements are the same size, the shape of the spirals is that of Fermat spirals—ideally. That is because Fermat's spiral traverses equal <a href="https://en.wikipedia.org/wiki/Annulus_(mathematics)" title="Annulus (mathematics)">annuli</a> in equal turns. The full model proposed by H Vogel in 1979<sup id="cite_ref-2" class="reference"><a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral#cite_note-2"><span>[</span>2<span>]</span></a></sup> is</p>
 <dl>
@@ -89,13 +98,17 @@ Parts I used in my builds:
 
 ### Code
 
-Open source example firmware and web application: [https://github.com/jasoncoon/fibonacci-demoreel/tree/f64-micro](https://github.com/jasoncoon/fibonacci-demoreel/tree/f64-micro)
+Open source example firmware: [https://github.com/jasoncoon/fibonacci-demoreel/tree/f64-micro](https://github.com/jasoncoon/fibonacci-demoreel/tree/f64-micro)
+
+Open source touch demo: [https://gist.github.com/jasoncoon/c8972403ed67a7f8fc63613c6854fd47](https://gist.github.com/jasoncoon/c8972403ed67a7f8fc63613c6854fd47)
 
 ### Assembly Instructions
 
 **Note**: Double-check the position, alignment, and orientation of each component very carefully before soldering!
 
 If you're new to soldering, I highly recommend reading through a good soldering tutorial, such as the ones by [Adafruit](https://learn.adafruit.com/adafruit-guide-excellent-soldering) and [SparkFun](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering).
+
+Earlier versions of the PCB had header pin holes for 5V, GND, and Data In. Newer versions have pads, not holes. The pads allow you to either solder wires on, or solder a QT Py directly to the PCB.
 
 1. Find a clean spot on your soldering workspace. I used a piece of heavy card stock. Carefully place the board with the LEDs facing down and the bottom of the board facing up.
 2. I used [90 degree header pins](https://amzn.to/2Vzi2gU) to allow connecting and disconnecting jumper wires easily. I used small [female headers](https://amzn.to/2Vzi2gU) to keep them level while I soldered.
