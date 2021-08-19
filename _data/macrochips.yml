@@ -262,6 +262,9 @@
 - name: ST10F168-Q6
   imgurId: gMYlkZh
 
+- name: STLS2F02 Loongson
+  imgurId: xuHj8H5
+
 - name: STM32F042C6U6
   imgurId: ahmjGoZ
 
@@ -348,3 +351,6 @@
 
 - name: Zilog Z80A
   imgurId: lCpgonU
+
+- name: ZTEIC Z8H172T
+  imgurId: KHSXsI9

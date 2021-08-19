@@ -108,7 +108,7 @@ Open source touch demo: [https://gist.github.com/jasoncoon/c8972403ed67a7f8fc636
 
 If you're new to soldering, I highly recommend reading through a good soldering tutorial, such as the ones by [Adafruit](https://learn.adafruit.com/adafruit-guide-excellent-soldering) and [SparkFun](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering).
 
-Earlier versions of the PCB had header pin holes for 5V, GND, and Data In. Newer versions have pads, not holes. The pads allow you to either solder wires on, or solder a QT Py directly to the PCB.
+**Note**: Earlier versions of the PCB had header pin holes for 5V, GND, and Data In. Newer versions have pads, not holes. The pads allow you to either solder wires on, or solder a QT Py directly to the PCB.
 
 1. Find a clean spot on your soldering workspace. I used a piece of heavy card stock. Carefully place the board with the LEDs facing down and the bottom of the board facing up.
 2. I used [90 degree header pins](https://amzn.to/2Vzi2gU) to allow connecting and disconnecting jumper wires easily. I used small [female headers](https://amzn.to/2Vzi2gU) to keep them level while I soldered.
