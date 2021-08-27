@@ -33,7 +33,7 @@ redirect_from:
 <h3>Table of Contents</h3>
 
 - TOC
-{:toc}
+  {:toc}
 
 ### Details
 
@@ -82,7 +82,7 @@ Options available to purchase for additional amount:
 
 - Diffuser: 3mm black LED acrylic 42mm circle.
 - Open Case Kit: diffuser, back plate with wall mounting hole, M2 black nylon standoffs, M2 black metal screws.
-- Fully Assembled: diffuser, open case, and assembled [QT Py by Adafruit](https://www.adafruit.com/product/4600) controller with [LiPo Power Pack by Oak Dev Tech](https://www.tindie.com/products/oakdevtech/lipo-power-pack).
+- Fully Assembled: diffuser, open case, and assembled [QT Py by Adafruit](https://www.adafruit.com/product/4600) controller.
 
 If the "Fully Assembled" option is not chosen, these parts are **not included**, but are required to assemble and use:
 
@@ -93,7 +93,6 @@ If the "Fully Assembled" option is not chosen, these parts are **not included**,
 Parts I used in my builds:
 
 - [QT Py by Adafruit](https://www.adafruit.com/product/4600)(https://electromage.com)
-- [LiPo Power Pack by Oak Dev Tech](https://www.tindie.com/products/oakdevtech/lipo-power-pack)
 - [Chemcast Black LED Acrylic](https://www.tapplastics.com/product/plastics/cut_to_size_plastic/black_led_sheet/668)
 
 ### Code
@@ -116,7 +115,7 @@ If you're new to soldering, I highly recommend reading through a good soldering 
 4. Carefully turn the board over and solder only the middle pin of each header.
 5. Ensure the headers are straight and level before proceeding to solder the remaining pins. The 5V and GND pins are connected to planes with large traces, and may take some time to heat up enough for solder to melt. Using a higher temperature and less time can help, if possible. Flux can also help.
 6. Check each solder joint, then disconnect the female headers.
-7. **VERY** carefully check polarity before connecting 5V and GND. If possible, connect 5V and GND on both sets of headers to provide maximum current flow and minimize voltage drop. I used [female jumper wires](https://amzn.to/2vjvZ8e).
+7. **VERY** carefully check polarity before connecting 5V and GND.
 8. Connect the data pin from your microcontroller to the DI pin on the Fibonacci board.
 9. Each WS2812C-2020 can theoretically draw 5mA at full brightness, solid white color. 64 of them can theoretically draw 320mA. I suggest using [FastLED's power management](https://github.com/FastLED/FastLED/wiki/Power-notes#managing-power-in-fastled) to limit the maximum brightness to a reasonable amount, well under the maximum your power supply is rated for. I've found that 320mA is blindingly bright.
 10. Keep an eye on the temperature of the PCB and especially the connectors. High temperatures can reduce the life of the LEDs. When possible, ensure air can flow, either passively (ventilation) or actively (exhaust fan).
