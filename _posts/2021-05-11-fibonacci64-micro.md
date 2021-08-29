@@ -101,6 +101,24 @@ Open source example firmware: [https://github.com/jasoncoon/fibonacci-demoreel/t
 
 Open source touch demo: [https://gist.github.com/jasoncoon/c8972403ed67a7f8fc63613c6854fd47](https://gist.github.com/jasoncoon/c8972403ed67a7f8fc63613c6854fd47)
 
+### Acrylic Open Case Assembly Instructions
+
+1. Insert M2x10mm Button Head Hex Screws into the holes in the matte side of the acrylic face plate.
+1. Hand-tighten M2 Hex Metal Nuts onto the M2x6mm screws, on the glossy side of the acrylic face plate.
+1. Carefully center and place the Fibonacci PCB onto the standoffs, with the LED side facing the glossy side of the acrylic face plate.
+1. Hand-tighten M2 Nylon Hex Standoffs onto the back side of the Fibonacci PCB.
+1. Center and place the acrylic back plate onto the standoffs.
+1. Hand-tighten M2 Hex Nuts onto the standoffs.
+1. Use flush cutters to trim off any excess nylon thread from the standoffs that is extending past the nuts on the back of the enclosure.
+
+<img src="https://imgur.com/avCAoAR.png" class="img-responsive" />
+
+<img src="https://imgur.com/TIWcG3f.png" class="img-responsive" />
+
+<img src="https://imgur.com/1LA2cxt.png" class="img-responsive" />
+
+<img src="https://imgur.com/wqxP9ZI.png" class="img-responsive" />
+
 ### Assembly Instructions
 
 **Note**: Double-check the position, alignment, and orientation of each component very carefully before soldering!
