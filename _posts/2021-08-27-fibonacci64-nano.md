@@ -78,7 +78,7 @@ Three of the four mounting holes are surrounded by capacitive touch compatible p
 
 Options available to purchase for additional amount:
 
-- Diffuser: 3mm black LED acrylic 42mm circle.
+- Diffuser: 3mm black LED acrylic circle.
 - Open Case Kit: diffuser, back plate with wall mounting hole, M2 black nylon standoffs, M2 black metal screws.
 - Fully Assembled: diffuser, open case, and assembled [QT Py by Adafruit](https://www.adafruit.com/product/4600) controller.
 
