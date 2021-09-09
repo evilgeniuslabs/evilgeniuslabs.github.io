@@ -43,7 +43,7 @@ It consists of 64 WS2812C-2020 RGB LEDs, arranged into a circular <a href="https
 
 <a class="btn btn-success" href="https://www.tindie.com/products/23597">Buy on Tindie</a>
 
-It has solder pads on the back that match the pinout of the [QT Py by Adafruit](https://www.adafruit.com/?q=qt+py), or [XIAO by Seeed](https://www.seeedstudio.com/catalogsearch/result/?q=xiao). For battery-powered projects, I like to use the [LiPo Power Pack by Oak Dev Tech](https://www.oakdev.tech/store/p6/LiPo-Power-Pack.html) It can be used by any microcontroller via the 5V, GND, and Data In pins. It also has a Data Out pad, for connecting more LEDs on the same data pin.
+It has solder pads on the back that match the pinout of the [QT Py by Adafruit](https://www.adafruit.com/?q=qt+py), or [XIAO by Seeed](https://www.seeedstudio.com/catalogsearch/result/?q=xiao). It can be used by any microcontroller via the 5V, GND, and Data In pins. It also has a Data Out pad, for connecting more LEDs on the same data pin.
 
 The four mounting holes are surrounded by capacitive touch compatible pads. They're connected to the A0-A3 pads/pins on the QT Py footprint. The SAMD21 QT Py supports capacitive touch on these pins.
 
@@ -99,7 +99,7 @@ Parts I used in my builds:
 
 Open source example firmware: [https://github.com/jasoncoon/fibonacci-demoreel/tree/f64-micro](https://github.com/jasoncoon/fibonacci-demoreel/tree/f64-micro)
 
-Open source touch demo: [https://gist.github.com/jasoncoon/c8972403ed67a7f8fc63613c6854fd47](https://gist.github.com/jasoncoon/c8972403ed67a7f8fc63613c6854fd47)
+Open source touch demo: [https://github.com/jasoncoon/fibonacci64-touch-demo](https://github.com/jasoncoon/fibonacci64-touch-demo)
 
 ### Acrylic Open Case Assembly Instructions
 
