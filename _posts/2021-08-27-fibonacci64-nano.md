@@ -4,9 +4,9 @@ title: Fibonacci 64 Nano
 id: fibonacci64nano
 imgurId: MsRNmcq
 excerpt: Fibonacci64 Nano is a tiny, beautiful 33mm circular disc with 64 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
-# categories:
-#   - portfolio
-#   - products
+categories:
+  - portfolio
+  - products
 published: true
 redirect_from:
   - /46
@@ -40,7 +40,7 @@ Fibonacci64 Nano is a tiny, beautiful 33mm circular disc with 64 RGB LEDs surfac
 
 It consists of 64 SK6805-EC15 1.5mm RGB LEDs, arranged into a circular <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.
 
-<!-- <a class="btn btn-success" href="https://www.tindie.com/products/23597">Buy on Tindie</a> -->
+<a class="btn btn-success" href="https://www.tindie.com/products/24825">Buy on Tindie</a>
 
 It has solder pads on the back that match the pinout of the [QT Py by Adafruit](https://www.adafruit.com/?q=qt+py), or [XIAO by Seeed](https://www.seeedstudio.com/catalogsearch/result/?q=xiao). It can be used by any microcontroller via the 5V, GND, and Data In pins. It also has a Data Out pad, for connecting more LEDs on the same data pin.
 
