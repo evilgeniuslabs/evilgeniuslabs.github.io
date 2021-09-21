@@ -32,7 +32,7 @@ redirect_from:
 <h3>Table of Contents</h3>
 
 - TOC
-{:toc}
+  {:toc}
 
 ### Details
 
@@ -95,7 +95,7 @@ Parts I used in my builds:
 
 ### Code
 
-Open source touch demo: [https://gist.github.com/jasoncoon/c8972403ed67a7f8fc63613c6854fd47](https://gist.github.com/jasoncoon/c8972403ed67a7f8fc63613c6854fd47)
+Open source touch demo: [https://github.com/jasoncoon/fibonacci64-nano-touch-demo](https://github.com/jasoncoon/fibonacci64-nano-touch-demo)
 
 ### Assembly Instructions
 
