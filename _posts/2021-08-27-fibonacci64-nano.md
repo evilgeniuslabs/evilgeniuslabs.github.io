@@ -109,9 +109,9 @@ Open source touch demo: [https://github.com/jasoncoon/fibonacci64-nano-touch-dem
 1. Hand-tighten M2 Hex Nuts onto the standoffs.
 1. Use flush cutters to trim off any excess nylon thread from the standoffs that is extending past the nuts on the back of the enclosure.
 
-<img src="https://imgur.com/qXFqE0q.png" class="img-responsive" />
-
 <img src="https://imgur.com/DOkFdhH.png" class="img-responsive" />
+
+<img src="https://imgur.com/qXFqE0q.png" class="img-responsive" />
 
 <img src="https://imgur.com/N5eCAiV.png" class="img-responsive" />
 
