@@ -103,8 +103,9 @@ Open source touch demo: [https://github.com/jasoncoon/fibonacci64-touch-demo](ht
 
 ### Acrylic Open Case Assembly Instructions
 
+1. Peel and remove any protective plastic and/or paper film from the acrylic.
 1. Insert M2x10mm Button Head Hex Screws into the holes in the matte side of the acrylic face plate.
-1. Hand-tighten M2 Hex Metal Nuts onto the M2x6mm screws, on the glossy side of the acrylic face plate.
+1. Hand-tighten M2 Hex Metal Nuts onto the screws, on the glossy side of the acrylic face plate.
 1. Carefully center and place the Fibonacci PCB onto the standoffs, with the LED side facing the glossy side of the acrylic face plate.
 1. Hand-tighten M2 Nylon Hex Standoffs onto the back side of the Fibonacci PCB.
 1. Center and place the acrylic back plate onto the standoffs.

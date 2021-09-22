@@ -32,7 +32,7 @@ redirect_from:
 <h3>Table of Contents</h3>
 
 - TOC
-  {:toc}
+{:toc}
 
 ### Details
 
@@ -96,6 +96,28 @@ Parts I used in my builds:
 ### Code
 
 Open source touch demo: [https://github.com/jasoncoon/fibonacci64-nano-touch-demo](https://github.com/jasoncoon/fibonacci64-nano-touch-demo)
+
+### Acrylic Open Case Assembly Instructions
+
+1. Peel and remove any protective plastic and/or paper film from the acrylic.
+1. Insert M2x6mm Button Head Hex Screw into the bottom hole in the matte side of the acrylic face plate.
+1. Insert M2x10mm Button Head Hex Screws into the remaining holes in the matte side of the acrylic face plate.
+1. Hand-tighten M2 Hex Metal Nuts onto the screws, on the glossy side of the acrylic face plate.
+1. Carefully center and place the Fibonacci PCB onto the standoffs, with the LED side facing the glossy side of the acrylic face plate.
+1. Hand-tighten M2 Nylon Hex Standoffs onto the back side of the Fibonacci PCB.
+1. Center and place the acrylic back plate onto the standoffs.
+1. Hand-tighten M2 Hex Nuts onto the standoffs.
+1. Use flush cutters to trim off any excess nylon thread from the standoffs that is extending past the nuts on the back of the enclosure.
+
+<img src="https://imgur.com/qXFqE0q.png" class="img-responsive" />
+
+<img src="https://imgur.com/DOkFdhH.png" class="img-responsive" />
+
+<img src="https://imgur.com/N5eCAiV.png" class="img-responsive" />
+
+<img src="https://imgur.com/xCoDGG2.png" class="img-responsive" />
+
+<img src="https://imgur.com/7dYP0jH.png" class="img-responsive" />
 
 ### Assembly Instructions
 
