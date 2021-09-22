@@ -128,13 +128,13 @@ If you're new to soldering, I highly recommend reading through a good soldering 
 
 **Note**: Earlier versions of the PCB had header pin holes for 5V, GND, and Data In. Newer versions have pads, not holes. The pads allow you to either solder wires on, or solder a QT Py directly to the PCB.
 
+<img src="https://imgur.com/MlFHURn.png" class="img-responsive" />
+
 1. Find a clean spot on your soldering workspace. I used a piece of heavy card stock. Carefully place the board with the LEDs facing down and the bottom of the board facing up.
-2. I used [90 degree header pins](https://amzn.to/2Vzi2gU) to allow connecting and disconnecting jumper wires easily. I used small [female headers](https://amzn.to/2Vzi2gU) to keep them level while I soldered.
-3. Insert the header pins.
-4. Carefully turn the board over and solder only the middle pin of each header.
-5. Ensure the headers are straight and level before proceeding to solder the remaining pins. The 5V and GND pins are connected to planes with large traces, and may take some time to heat up enough for solder to melt. Using a higher temperature and less time can help, if possible. Flux can also help.
-6. Check each solder joint, then disconnect the female headers.
-7. **VERY** carefully check polarity before connecting 5V and GND.
-8. Connect the data pin from your microcontroller to the DI pin on the Fibonacci board.
-9. Each WS2812C-2020 can theoretically draw 5mA at full brightness, solid white color. 64 of them can theoretically draw 320mA. I suggest using [FastLED's power management](https://github.com/FastLED/FastLED/wiki/Power-notes#managing-power-in-fastled) to limit the maximum brightness to a reasonable amount, well under the maximum your power supply is rated for. I've found that 320mA is blindingly bright.
-10. Keep an eye on the temperature of the PCB and especially the connectors. High temperatures can reduce the life of the LEDs. When possible, ensure air can flow, either passively (ventilation) or actively (exhaust fan).
+1. **VERY** carefully check polarity before connecting 5V and GND.
+1. Either:
+  * Solder wires to the pads on the back of the Fibonacci PCB and connect them to your microcontroller.
+  * Or:
+  * Carefully align an Adafruit QT Py, Seeeduino XIAO, or another controller with an identical footprint with the pads on the back of the Fibonacci PCB. Solder the pads.
+1. Each WS2812C-2020 can theoretically draw 15mA at full brightness, solid white color. 64 of them can theoretically draw 960mA. I suggest using [FastLED's power management](https://github.com/FastLED/FastLED/wiki/Power-notes#managing-power-in-fastled) to limit the maximum brightness to a reasonable amount, well under the maximum your power supply is rated for. I've found that 960mA is blindingly bright.
+1. Keep an eye on the temperature of the PCB and especially the connectors. High temperatures can reduce the life of the LEDs. When possible, ensure air can flow, either passively (ventilation) or actively (exhaust fan).
