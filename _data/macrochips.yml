@@ -130,6 +130,9 @@
 - name: Intel i386 DX-16
   imgurId: eBIG5R0
 
+- name: Intel i386 EX-25
+  imgurId: zQ0PvO5
+
 - name: Intel i386 SX-25
   imgurId: D7ynj0a
 
