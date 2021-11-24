@@ -55,6 +55,9 @@
 - name: Atmel ATSAMD21
   imgurId: i5og0dU
 
+- name: Atmel ATSAME51-J20
+  imgurId: MinNQCQ
+
 - name: Atmel AT90S8535
   imgurId: uEbGB1c
 
@@ -66,6 +69,9 @@
 
 - name: Broadcom Trident+ BCM56842A1IFRBG
   imgurId: gubVnHJ
+
+- name: Capcom Cx4 (SNES game math coprocessor)
+  imgurId: baxYTZF
 
 - name: Creative Technology Sound Blaster VIBRA 16 CT2502
   imgurId: oKGcS7g
@@ -154,6 +160,9 @@
 - name: Intel Pentium 75
   imgurId: BxngAcm
 
+- name: Intel Pentium 4 2.4GHz
+  imgurId: oZR1cSr
+
 - name: Lattice Semiconductor ECP5-5G FPGA
   imgurId: Btoezr3
 
@@ -216,6 +225,9 @@
 
 - name: Nintendo DS CPU NTR
   imgurId: 7vCdbzV
+
+- name: Nintendo S-CPUN A (SNES video chip)
+  imgurId: 1YwlAFa
 
 - name: Nvidia GeForce 256
   imgurId: 9I3vrGI
