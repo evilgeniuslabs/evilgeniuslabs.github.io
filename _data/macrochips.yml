@@ -94,11 +94,17 @@
 - name: Espressif ESP32-D0WDQ6
   imgurId: P7OwrnC
 
+- name: Espressif ESP32-D0WDQ6-V3
+  imgurId: 5G6Kn1C
+
 - name: Espressif ESP32-PICO-D4
   imgurId: jEyxnbV
 
 - name: Espressif ESP32-S2
   imgurId: 2qraP1g
+
+- name: Espressif ESP8266EX
+  imgurId: lcOKOdu
 
 - name: FTDI FT2232H-56Q
   imgurId: 8IHQ0QU
