@@ -10,7 +10,7 @@ redirect_from:
   - /mako
 ---
 
-I love my iFixit Mako driver kit, but the labels molded into the foam are really hard to read.
+I really like my [iFixit Mako driver kit](https://amzn.to/3G3txky), but the labels molded into the foam are really hard to read.
 
 I downloaded iFixit's layout PDF here: [https://help.ifixit.com/article/196-bit-kit-layouts](https://help.ifixit.com/article/196-bit-kit-layouts)
 
