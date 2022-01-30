@@ -376,7 +376,10 @@
 - name: Xilinx XC216 (XC6200)
   imgurId: LFxSKRT
 
-- name: Xilinx Zynq
+- name: Xilinx Zynq - XC7Z010
+  imgurId: ExBojeU
+
+- name: Xilinx Zynq - XC7Z020
   imgurId: 2e0FYM9
 
 - name: Zilog Z80
