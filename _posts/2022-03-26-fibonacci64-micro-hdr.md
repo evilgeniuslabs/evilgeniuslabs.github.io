@@ -1,34 +1,24 @@
 ---
 layout: post
-title: Fibonacci 64 Micro
-id: fibonacci64micro
-imgurId: j83kSI7
+title: Fibonacci 64 Micro HDR
+id: fibonacci64microhdr
+imgurId: g8GJGfI
 # videoUrl: https://www.youtube.com/embed/SNB5xsYFCak
-excerpt: Fibonacci64 Micro is a tiny, beautiful 40mm circular disc with 64 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
-categories:
-  - portfolio
-  - products
+excerpt: Fibonacci64 Micro HDR is a tiny, beautiful 40mm circular disc with 64 SK9822-EC20 HDR RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
+categories: []
 published: true
 redirect_from:
-  - /44
-  - /f64micro
-  - /f64u
+  - /51
+  - /f64microhdr
+  - /f64uh
 ---
 
-<video class="post" poster="//i.imgur.com/j83kSI7.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
-   <source src="//i.imgur.com/j83kSI7.mp4" type="video/mp4">
+<video class="post" poster="//i.imgur.com/g8GJGfI.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
+   <source src="//i.imgur.com/g8GJGfI.mp4" type="video/mp4">
 </video>
 
-<a href="https://i.imgur.com/MHJo2My.png" target="_blank"><img src="https://i.imgur.com/MHJo2My.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/zpv3plJ.png" target="_blank"><img src="https://i.imgur.com/zpv3plJ.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/0acgduU.png" target="_blank"><img src="https://i.imgur.com/0acgduU.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/MHJo2My.png" target="_blank"><img src="https://i.imgur.com/MHJo2My.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/1sOdoQt.png" target="_blank"><img src="https://i.imgur.com/1sOdoQt.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/RxRM1lW.png" target="_blank"><img src="https://i.imgur.com/RxRM1lW.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/9ZbtRUm.png" target="_blank"><img src="https://i.imgur.com/9ZbtRUm.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/fO8GSLk.png" target="_blank"><img src="https://i.imgur.com/fO8GSLk.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/K3pxorP.png" target="_blank"><img src="https://i.imgur.com/K3pxorP.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/yONidkC.png" target="_blank"><img src="https://i.imgur.com/yONidkC.png" style="width:340px"  /></a>
+<a href="https://i.imgur.com/K2bqxvt.png" target="_blank"><img src="https://i.imgur.com/K2bqxvt.png" style="width:340px"  /></a>
+<a href="https://i.imgur.com/BTdKtF9.png" target="_blank"><img src="https://i.imgur.com/BTdKtF9.png" style="width:340px"  /></a>
 
 <h3>Table of Contents</h3>
 
@@ -37,19 +27,15 @@ redirect_from:
 
 ### Details
 
-Fibonacci64 Micro is a beautiful 40mm circular disc with 64 RGB LEDs surface mounted in a Fibonacci distribution. Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
+Fibonacci64 Micro HDR is a beautiful 40mm circular disc with 64 RGB LEDs surface mounted in a Fibonacci distribution. Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
 
-It consists of 64 WS2812C-2020 RGB LEDs, arranged into a circular <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.
+It consists of 64 SK9822-EC2020 HDR (High Dymanic Range) RGB LEDs, arranged into a circular <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.
 
 <a class="btn btn-success" href="https://www.tindie.com/products/23597">Buy on Tindie</a>
 
-It has solder pads on the back that match the pinout of the [QT Py by Adafruit](https://www.adafruit.com/?q=qt+py), or [XIAO by Seeed](https://www.seeedstudio.com/catalogsearch/result/?q=xiao). It can be used by any microcontroller via the 5V, GND, and Data In pins. It also has a Data Out pad, for connecting more LEDs on the same data pin.
+It has solder pads on the back that match the pinout of a [Pixelblaze V3 Pico by ElectroMage](https://shop.electromage.com/products/pixelblaze-v3-pico-tiny-wifi-led-controller), [QT Py by Adafruit](https://www.adafruit.com/?q=qt+py), or [XIAO by Seeed](https://www.seeedstudio.com/catalogsearch/result/?q=xiao). It can be used by any microcontroller via the 5V, GND, Clock and Data In pins.
 
-The four mounting holes are surrounded by capacitive touch compatible pads. They're connected to the A0-A3 pads/pins on the QT Py footprint. The SAMD21 QT Py supports capacitive touch on these pins.
-
-<video class="post" poster="//i.imgur.com/L1YCyR1.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
-   <source src="//i.imgur.com/L1YCyR1.mp4" type="video/mp4">
-</video>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">This is an incredibly cool fusion of <a href="https://twitter.com/evilgeniuslab?ref_src=twsrc%5Etfw">@evilgeniuslab</a>&#39;s Fib64 Micro with <a href="https://twitter.com/im889?ref_src=twsrc%5Etfw">@im889</a> &#39;s PixelBlaze Pico. Both boards have new mods designed for low power consumption (essential for wearables). This Fib64 uses SK9822 pixels which have more color depth, and produce much better color... <a href="https://t.co/v8B2vrUf2K">https://t.co/v8B2vrUf2K</a></p>&mdash; Geek Mom Projects (@GeekMomProjects) <a href="https://twitter.com/GeekMomProjects/status/1507490036907843587?ref_src=twsrc%5Etfw">March 25, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <p>In disc <a href="https://en.wikipedia.org/wiki/Phyllotaxis" title="Phyllotaxis">phyllotaxis</a>, as in the <a href="https://en.wikipedia.org/wiki/Sunflower" title="Sunflower" class="mw-redirect">sunflower</a> and daisy, the mesh of spirals occurs in <a href="https://en.wikipedia.org/wiki/Fibonacci_number" title="Fibonacci number">Fibonacci numbers</a> because divergence (angle of succession in a single spiral arrangement) approaches the <a href="https://en.wikipedia.org/wiki/Golden_ratio" title="Golden ratio">golden ratio</a>. The shape of the spirals depends on the growth of the elements generated sequentially. In mature-disc <a href="https://en.wikipedia.org/wiki/Phyllotaxis" title="Phyllotaxis">phyllotaxis</a>, when all the elements are the same size, the shape of the spirals is that of Fermat spirals—ideally. That is because Fermat's spiral traverses equal <a href="https://en.wikipedia.org/wiki/Annulus_(mathematics)" title="Annulus (mathematics)">annuli</a> in equal turns. The full model proposed by H Vogel in 1979<sup id="cite_ref-2" class="reference"><a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral#cite_note-2"><span>[</span>2<span>]</span></a></sup> is</p>
 <dl>
@@ -75,6 +61,7 @@ The four mounting holes are surrounded by capacitive touch compatible pads. They
 - Designed in the US by Evil Genius Labs
 - Some PCBs are manufactured in the US by [OSH Park](https://oshpark.com)
 - Some are assembled in the US by Evil Genius Labs
+- Some are assembled in the US by [ElectroMage](https://electromage.com)! See [Pixelblaze Map](#pixelblaze-map) below for more information. <a href="https://electromage.com" target="_blank"><img src="https://i.imgur.com/JSukWUk.png" style="width:150px" class="img-responsive" /></a>
 
 **Parts**
 
@@ -82,24 +69,25 @@ Options available to purchase for additional amount:
 
 - Diffuser: 3mm black LED acrylic 42mm circle.
 - Open Case Kit: diffuser, back plate with wall mounting hole, M2 black nylon standoffs, M2 black metal screws.
-- Fully Assembled: diffuser, open case, and assembled [QT Py by Adafruit](https://www.adafruit.com/product/4600) controller.
+- Fully Assembled: diffuser, open case, and assembled [Pixelblaze V3 Pico by ElectroMage](https://shop.electromage.com/products/pixelblaze-v3-pico-tiny-wifi-led-controller) controller.
 
 If the "Fully Assembled" option is not chosen, these parts are **not included**, but are required to assemble and use:
 
-- Microcontroller (Arduino, ESP8266, ESP32, etc)
+- Microcontroller (Pixelblaze, Arduino, ESP8266, ESP32, etc)
 - Wires, connectors, crimp tool, etc.
 - Soldering iron, solder, etc.
 
 Parts I used in my builds:
 
-- [QT Py by Adafruit](https://www.adafruit.com/product/4600)(https://electromage.com)
+- [Pixelblaze V3 Pico by ElectroMage](https://shop.electromage.com/products/pixelblaze-v3-pico-tiny-wifi-led-controller)
 - [Chemcast Black LED Acrylic](https://www.tapplastics.com/product/plastics/cut_to_size_plastic/black_led_sheet/668)
 
 ### Code
 
-Open source example firmware: [https://github.com/jasoncoon/fibonacci-demoreel/tree/f64-micro](https://github.com/jasoncoon/fibonacci-demoreel/tree/f64-micro)
+**Coming Soon!**
+<!-- Open source example firmware: [https://github.com/jasoncoon/fibonacci-demoreel/tree/f64-micro](https://github.com/jasoncoon/fibonacci-demoreel/tree/f64-micro)
 
-Open source touch demo: [https://github.com/jasoncoon/fibonacci64-touch-demo](https://github.com/jasoncoon/fibonacci64-touch-demo)
+Open source touch demo: [https://github.com/jasoncoon/fibonacci64-touch-demo](https://github.com/jasoncoon/fibonacci64-touch-demo) -->
 
 ### Pixelblaze Map
 
@@ -124,7 +112,7 @@ This map can be copied and pasted into the Pixel Mapper in the Mapper tab of you
     <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
       <div class="panel-body">
         <pre>
-[[140,128],[189,114],[208,91],[214,63],[208,34],[146,0],[168,21],[180,48],[180,76],[162,106],[152,78],[146,47],[129,25],[103,11],[72,5],[40,38],[70,35],[97,42],[120,61],[131,101],[107,87],[79,69],[50,68],[23,78],[0,98],[7,143],[23,118],[46,102],[76,98],[93,122],[57,131],[37,152],[28,179],[29,209],[87,255],[68,230],[59,202],[62,174],[80,148],[113,142],[91,181],[94,210],[109,235],[133,252],[202,235],[172,234],[145,224],[125,203],[117,170],[145,183],[170,201],[198,205],[227,198],[253,181],[255,134],[235,157],[210,171],[181,173],[148,153],[175,145],[207,138],[228,120],[240,93],[244,63]]
+[[21.502602,20],[18.080936,21.75802],[20.293741,16.652945],[22.418858,23.154966],[15.561102,19.214827],[24.20491,17.325178],[18.593546,25.231964],[17.317719,14.835452],[25.819462,22.125244],[13.945829,22.499092],[22.918507,13.763304],[22.156733,26.875914],[13.499651,16.232935],[27.625631,18.32349],[15.346212,26.619579],[18.924816,11.703243],[26.600313,25.562704],[11.118079,20.367321],[26.478645,13.552814],[19.566624,29.373734],[13.835497,12.612902],[29.765232,21.31385],[11.725987,25.756931],[22.260851,9.949839],[25.229496,29.126072],[9.776896,16.738628],[29.930382,15.4118],[15.697933,30.279684],[16.160395,9.325135],[30.21664,25.369465],[8.651968,22.991442],[26.450258,9.968233],[22.051985,31.939312],[10.275843,12.469116],[32.438927,18.969389],[11.40215,29.294174],[20.062494,7.161916],[28.743309,29.637972],[6.870969,18.783407],[30.638241,11.925657],[17.579596,33.305054],[12.708889,8.413881],[33.360676,23.661469],[7.530824,26.399166],[24.927456,6.708443],[25.40472,33.275917],[6.905394,13.794531],[33.995449,15.684956],[12.517452,32.767899],[16.860901,5.382563],[32.311134,28.744999],[4.867355,21.8862],[29.979706,8.274993],[20.566763,35.5327],[8.988551,8.826389],[35.810249,20.808222],[7.686638,30.174179],[22.226337,4.040931],[29.21772,33.386475],[4.025893,16.324734],[34.380741,11.852018],[14.857791,35.851456],[13.028164,4.715364],[35.588688,26.613251]]
         </pre>
       </div>
     </div>
@@ -157,15 +145,15 @@ This map can be copied and pasted into the Pixel Mapper in the Mapper tab of you
 
 If you're new to soldering, I highly recommend reading through a good soldering tutorial, such as the ones by [Adafruit](https://learn.adafruit.com/adafruit-guide-excellent-soldering) and [SparkFun](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering).
 
-**Note**: Earlier versions of the PCB had header pin holes for 5V, GND, and Data In. Newer versions have pads, not holes. The pads allow you to either solder wires on, or solder a QT Py directly to the PCB.
-
-<img src="https://imgur.com/MlFHURn.png" class="img-responsive" />
+<img src="https://imgur.com/BTdKtF9.png" class="img-responsive" />
 
 1. Find a clean spot on your soldering workspace. I used a piece of heavy card stock. Carefully place the board with the LEDs facing down and the bottom of the board facing up.
 1. **VERY** carefully check polarity before connecting 5V and GND.
 1. Either:
   * Solder wires to the pads on the back of the Fibonacci PCB and connect them to your microcontroller.
   * Or:
-  * Carefully align an Adafruit QT Py, Seeeduino XIAO, or another controller with an identical footprint with the pads on the back of the Fibonacci PCB. Solder the pads.
-1. Each WS2812C-2020 can theoretically draw 15mA at full brightness, solid white color. 64 of them can theoretically draw 960mA. I suggest using [FastLED's power management](https://github.com/FastLED/FastLED/wiki/Power-notes#managing-power-in-fastled) to limit the maximum brightness to a reasonable amount, well under the maximum your power supply is rated for. I've found that 960mA is blindingly bright.
+  * Carefully align a Pixelblaze V3 Pico Adafruit QT Py, Seeeduino XIAO, or another controller with an identical footprint with the pads on the back of the Fibonacci PCB. Solder the pads.
+1. Each SK9822-EC2020 can theoretically draw 15mA at full brightness, solid white color. 64 of them can theoretically draw 960mA. I've found that 960mA is blindingly bright.
+1. If using a Pixelblaze V3 Pico, I suggest using the low power settings to reduce the CPU clock speed and/or disable wi-fi to reduce power usage and heat.
+1. If using FastLED, I suggest using its [power management](https://github.com/FastLED/FastLED/wiki/Power-notes#managing-power-in-fastled) to limit the maximum brightness to a reasonable amount, well under the maximum your power supply is rated for.
 1. Keep an eye on the temperature of the PCB and especially the connectors. High temperatures can reduce the life of the LEDs. When possible, ensure air can flow, either passively (ventilation) or actively (exhaust fan).

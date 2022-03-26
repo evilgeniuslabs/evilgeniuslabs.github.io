@@ -6,6 +6,7 @@ excerpt: iFixit Mako Driver Kit Labels
 imgurId: wzHkifX
 published: true
 redirect_from:
+  - /50
   - /ifixit
   - /mako
 ---
