@@ -205,6 +205,9 @@
 - name: Motorola MC68030FE20
   imgurId: w4rzsCX
 
+- name: Motorola MC68000P8
+  imgurId: rex1fYt
+
 - name: Motorola XC68040RC25M (custom design)
   imgurId: 9nGy7na
 
@@ -390,6 +393,9 @@
 
 - name: Zilog Z80A
   imgurId: lCpgonU
+
+- name: Zilog Z084008PSC
+  imgurId: MeQ1im8
 
 - name: ZTEIC Z8H172T
   imgurId: KHSXsI9
