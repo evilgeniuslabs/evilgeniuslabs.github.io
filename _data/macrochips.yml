@@ -67,6 +67,9 @@
 - name: Atmel ATxmega32E5
   imgurId: cJ85mdc
 
+- name: Axis ARTPEC-8
+  imgurId: pDBJqU7
+
 - name: Broadcom BCM2836 Raspberry Pi 2 Model B CPU
   imgurId: goaFtTe
 
