@@ -1,26 +1,23 @@
 ---
 layout: post
-title: Fibonacci 182 Card
-id: fibonacci128-card
-imgurId: ErMFOKL
-excerpt: Fibonacci 182 Card is a beautiful credit card sized rectangle with 182 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
+title: Fibonacci 64 x 50mm
+id: fibonacci64goggles
+imgurId: U0uT02l
+excerpt: Fibonacci64 x 50mm Micro is a tiny, beautiful 50mm circular disc with 64 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
 categories: []
 published: true
 redirect_from:
-  - /53
-  - /f182card
-  - /f182c
-  - /fibonacci128-card
+  - /54
+  - /f64x50mm
+  - /f64goggles
 ---
 
-<video class="post" poster="//i.imgur.com/ErMFOKL.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop" style="width:340px">
-   <source src="//i.imgur.com/ErMFOKL.mp4" type="video/mp4">
+<video class="post" poster="//i.imgur.com/U0uT02l.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop" style="width:340px">
+   <source src="//i.imgur.com/U0uT02l.mp4" type="video/mp4">
 </video>
 
-<a href="https://imgur.com/RVQAho5.png" target="_blank"><img src="https://imgur.com/RVQAho5.png" style="width:340px"  /></a>
-<a href="https://imgur.com/CtY1Otx.png" target="_blank"><img src="https://imgur.com/CtY1Otx.png" style="width:340px"  /></a>
-<a href="https://imgur.com/56UauS6.png" target="_blank"><img src="https://imgur.com/56UauS6.png" style="width:340px"  /></a>
-<a href="https://imgur.com/rlgRwNS.png" target="_blank"><img src="https://imgur.com/rlgRwNS.png" style="width:340px"  /></a>
+<a href="https://imgur.com/6NER01l.png" target="_blank"><img src="https://imgur.com/6NER01l.png" style="width:340px"  /></a>
+<a href="https://imgur.com/EZLpJtT.png" target="_blank"><img src="https://imgur.com/EZLpJtT.png" style="width:340px"  /></a>
 
 <h3>Table of Contents</h3>
 
@@ -29,15 +26,21 @@ redirect_from:
 
 ### Details
 
-Fibonacci 182 Card is a beautiful credit card sized rectangle with 182 RGB LEDs surface mounted in a Fibonacci distribution. Swirling and pulsing like a tiny galaxy, it's mesmerizing to watch.
+Fibonacci64 x 50mm is a tiny, beautiful 50mm circular disc with 64 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
 
-It consists of 182 WS2812C-2020 RGB LEDs, arranged into a circular <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.
+It consists of 64 WS2812C-2020 RGB LEDs, arranged into a circular <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.
 
 <a class="btn btn-success" href="https://www.tindie.com/products/23597">Buy on Tindie</a>
 
+It's perfectly-sized to fit in costume goggles, like the amazing Adafruit Kaleidoscope Eyes (NeoPixel LED Ring Goggles): https://learn.adafruit.com/kaleidoscope-eyes-neopixel-led-goggles-trinket-gemma
+
 It has solder pads on the back that match the pinout of the [QT Py by Adafruit](https://www.adafruit.com/?q=qt+py), or [XIAO by Seeed](https://www.seeedstudio.com/catalogsearch/result/?q=xiao). It can be used by any microcontroller via the 5V, GND, and Data In pins. It also has a Data Out pad, for connecting more LEDs on the same data pin.
 
-The six mounting holes are surrounded by capacitive touch compatible pads. They're connected to the A0-A3, A6 & A7 pads/pins on the QT Py footprint. The SAMD21 QT Py supports capacitive touch on these pins.
+The four mounting holes are surrounded by capacitive touch compatible pads. They're connected to the A0-A3 pads/pins on the QT Py footprint. The SAMD21 QT Py supports capacitive touch on these pins.
+
+<video class="post" poster="//i.imgur.com/L1YCyR1.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
+   <source src="//i.imgur.com/L1YCyR1.mp4" type="video/mp4">
+</video>
 
 <p>In disc <a href="https://en.wikipedia.org/wiki/Phyllotaxis" title="Phyllotaxis">phyllotaxis</a>, as in the <a href="https://en.wikipedia.org/wiki/Sunflower" title="Sunflower" class="mw-redirect">sunflower</a> and daisy, the mesh of spirals occurs in <a href="https://en.wikipedia.org/wiki/Fibonacci_number" title="Fibonacci number">Fibonacci numbers</a> because divergence (angle of succession in a single spiral arrangement) approaches the <a href="https://en.wikipedia.org/wiki/Golden_ratio" title="Golden ratio">golden ratio</a>. The shape of the spirals depends on the growth of the elements generated sequentially. In mature-disc <a href="https://en.wikipedia.org/wiki/Phyllotaxis" title="Phyllotaxis">phyllotaxis</a>, when all the elements are the same size, the shape of the spirals is that of Fermat spirals—ideally. That is because Fermat's spiral traverses equal <a href="https://en.wikipedia.org/wiki/Annulus_(mathematics)" title="Annulus (mathematics)">annuli</a> in equal turns. The full model proposed by H Vogel in 1979<sup id="cite_ref-2" class="reference"><a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral#cite_note-2"><span>[</span>2<span>]</span></a></sup> is</p>
 <dl>
@@ -55,23 +58,37 @@ The six mounting holes are surrounded by capacitive touch compatible pads. They'
 
 ### Specifications
 
-- Size: 3.37 x 2.125 x .063 inch (85.6 x 53.98 x 1.6 mm)
+- Size: 1.57 x 1.57 x .063 inch (50 x 50 x 1.6 mm)
 - 2 layer printed circuit board
 - FR4 substrate
-- Black SMOBC (solder mask over bare copper)
-- HASL (Hot Air Solder Leveling) Finish
+- Black or Purple SMOBC (solder mask over bare copper)
+- HASL (Hot Air Solder Leveling) or ENIG (electroless nickel immersion gold) Finish
 - Designed in the US by Evil Genius Labs
+- Some PCBs are manufactured in the US by [OSH Park](https://oshpark.com)
 - Some are assembled in the US by Evil Genius Labs
 
 **Parts**
 
+Options available to purchase for additional amount:
+
+- Diffuser: 3mm black LED acrylic 50mm circle.
+
+These parts are **not included**, but are required to assemble and use:
+
+- Microcontroller (Arduino, ESP8266, ESP32, etc)
+- Wires, connectors, crimp tool, etc.
+- Soldering iron, solder, etc.
+
 Parts I used in my builds:
 
-- [QT Py by Adafruit](https://www.adafruit.com/product/4600)
+- [QT Py by Adafruit](https://www.adafruit.com/product/4600)(https://electromage.com)
+- [Chemcast Black LED Acrylic](https://www.tapplastics.com/product/plastics/cut_to_size_plastic/black_led_sheet/668)
 
 ### Code
 
-Open source touch demo: [https://github.com/jasoncoon/fibonacci128-card](https://github.com/jasoncoon/fibonacci128-card)
+Open source example firmware: [https://github.com/jasoncoon/fibonacci-demoreel/tree/f64-micro](https://github.com/jasoncoon/fibonacci-demoreel/tree/f64-micro)
+
+Open source touch demo: [https://github.com/jasoncoon/fibonacci64-touch-demo](https://github.com/jasoncoon/fibonacci64-touch-demo)
 
 ### Pixelblaze Map
 
@@ -96,13 +113,18 @@ This map can be copied and pasted into the Pixel Mapper in the Mapper tab of you
     <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
       <div class="panel-body">
         <pre>
-[[44.41,26.99],[56.09,25.89],[61.33,23.9],[65.08,21.35],[67.88,18.38],[69.94,15.08],[71.35,11.54],[72.15,7.82],[76.4,7.41],[75.8,11.25],[74.67,14.91],[72.99,18.32],[70.74,21.42],[67.86,24.11],[64.26,26.31],[59.69,27.85],[53.23,28.39],[49.02,29.26],[57.07,30.9],[62.31,30.64],[66.54,29.42],[70.08,27.52],[73.07,25.08],[75.54,22.18],[77.51,18.92],[78.99,15.35],[77.48,26.57],[74.78,29.25],[71.66,31.45],[68.11,33.07],[64.09,34.01],[59.45,34.05],[53.71,32.73],[49.85,32.93],[55.95,36.33],[60.75,37.63],[65.02,37.79],[68.94,37.12],[72.53,35.76],[75.8,33.83],[78.74,31.38],[76.08,38.69],[72.65,40.34],[68.99,41.41],[65.14,41.82],[61.09,41.44],[56.83,40.09],[52.14,37.28],[45.38,30.36],[48.39,36.74],[52.65,41.29],[56.62,43.89],[60.54,45.35],[64.42,45.95],[68.25,45.82],[71.97,45.05],[75.56,43.7],[78.96,41.82],[77.84,47.19],[55.48,47.58],[51.95,45.04],[48.57,41.17],[45.1,34.33],[44.99,39.74],[47.43,44.91],[43.41,43.58],[42.34,37],[41.3,32.58],[40.21,41.2],[40.9,46.49],[37.31,43.92],[38.2,37.97],[37.83,34.06],[34.81,40.63],[33.88,45.58],[30.12,46.29],[31.14,41.89],[33.62,36.92],[40.75,28.87],[33.96,33.14],[29.65,37.86],[27.35,42.07],[26.2,46.12],[22.26,45.09],[23.57,41.29],[25.84,37.55],[29.48,33.83],[36.33,29.66],[30.68,30.19],[25.62,33.08],[22.26,36.24],[19.94,39.65],[18.44,43.25],[17.63,46.98],[13.78,44.28],[14.88,40.64],[16.6,37.21],[19.02,34.07],[22.26,31.3],[26.64,29],[33.31,27.38],[38.06,26.15],[28.78,25.69],[23.47,26.8],[19.44,28.7],[16.22,31.16],[13.66,34.07],[11.7,37.33],[10.29,40.87],[9.43,44.63],[7.29,36.81],[9.01,33.39],[11.24,30.3],[13.96,27.62],[17.22,25.43],[21.08,23.85],[25.74,23.06],[31.88,23.51],[35.86,22.97],[28.81,20.36],[23.74,19.82],[19.44,20.34],[15.66,21.64],[12.33,23.57],[9.42,26.01],[6.93,28.91],[8.28,21.31],[11.39,19.12],[14.83,17.46],[18.58,16.44],[22.66,16.15],[27.16,16.83],[32.41,18.95],[36.22,19.1],[31.04,15.05],[26.61,13.07],[22.46,12.24],[18.51,12.28],[14.76,13.03],[11.21,14.4],[7.9,16.32],[8.31,11.16],[11.82,9.53],[15.48,8.47],[19.26,8.01],[23.11,8.24],[27.01,9.24],[30.95,11.22],[35.01,14.61],[39.93,21.47],[38.7,15.59],[35.35,10.66],[31.9,7.54],[39.45,11.38],[41.65,18.13],[43.11,23.41],[42.87,13.28],[41.32,7.99],[45.18,9.94],[45.21,16.25],[45.92,20.33],[48.06,12.79],[48.21,7.62],[51.43,10.77],[49.69,16.27],[49.72,20.1],[53.46,14.47],[55.11,9.84],[58.95,9.87],[57.28,13.99],[54.16,18.37],[47.29,24.13],[53.41,22.09],[58.16,18.29],[61.03,14.56],[62.79,10.79],[67.65,8.88],[66.5,12.55],[64.61,16.06],[61.82,19.36],[57.75,22.38],[50.95,25.2]]
+[[140,128],[189,114],[208,91],[214,63],[208,34],[146,0],[168,21],[180,48],[180,76],[162,106],[152,78],[146,47],[129,25],[103,11],[72,5],[40,38],[70,35],[97,42],[120,61],[131,101],[107,87],[79,69],[50,68],[23,78],[0,98],[7,143],[23,118],[46,102],[76,98],[93,122],[57,131],[37,152],[28,179],[29,209],[87,255],[68,230],[59,202],[62,174],[80,148],[113,142],[91,181],[94,210],[109,235],[133,252],[202,235],[172,234],[145,224],[125,203],[117,170],[145,183],[170,201],[198,205],[227,198],[253,181],[255,134],[235,157],[210,171],[181,173],[148,153],[175,145],[207,138],[228,120],[240,93],[244,63]]
         </pre>
       </div>
     </div>
   </div>
 
 </div>
+
+### Acrylic Open Case Assembly Instructions
+
+1. Peel and remove any protective plastic and/or paper film from the acrylic.
+1. Insert M2x10mm Button Head Hex Screws into the holes in the matte side of the acrylic face plate.
 
 ### Assembly Instructions
 
@@ -112,15 +134,13 @@ If you're new to soldering, I highly recommend reading through a good soldering 
 
 **Note**: Earlier versions of the PCB had header pin holes for 5V, GND, and Data In. Newer versions have pads, not holes. The pads allow you to either solder wires on, or solder a QT Py directly to the PCB.
 
-<img src="https://imgur.com/vTpDaWP.png" class="img-responsive" />
+<img src="https://imgur.com/MlFHURn.png" class="img-responsive" />
 
 1. Find a clean spot on your soldering workspace. I used a piece of heavy card stock. Carefully place the board with the LEDs facing down and the bottom of the board facing up.
 1. **VERY** carefully check polarity before connecting 5V and GND.
 1. Either:
-
-- Solder wires to the pads on the back of the Fibonacci PCB and connect them to your microcontroller.
-- Or:
-- Carefully align an Adafruit QT Py, Seeeduino XIAO, or another controller with an identical footprint with the pads on the back of the Fibonacci PCB. Solder the pads.
-
-1. Each WS2812C-2020 can theoretically draw 15mA at full brightness, solid white color. 182 of them can theoretically draw 2.72A! I suggest using [FastLED's power management](https://github.com/FastLED/FastLED/wiki/Power-notes#managing-power-in-fastled) to limit the maximum brightness to a reasonable amount, well under the maximum your power supply is rated for. I've found that 960mA is blindingly bright.
+  * Solder wires to the pads on the back of the Fibonacci PCB and connect them to your microcontroller.
+  * Or:
+  * Carefully align an Adafruit QT Py, Seeeduino XIAO, or another controller with an identical footprint with the pads on the back of the Fibonacci PCB. Solder the pads.
+1. Each WS2812C-2020 can theoretically draw 15mA at full brightness, solid white color. 64 of them can theoretically draw 960mA. I suggest using [FastLED's power management](https://github.com/FastLED/FastLED/wiki/Power-notes#managing-power-in-fastled) to limit the maximum brightness to a reasonable amount, well under the maximum your power supply is rated for. I've found that 960mA is blindingly bright.
 1. Keep an eye on the temperature of the PCB and especially the connectors. High temperatures can reduce the life of the LEDs. When possible, ensure air can flow, either passively (ventilation) or actively (exhaust fan).
