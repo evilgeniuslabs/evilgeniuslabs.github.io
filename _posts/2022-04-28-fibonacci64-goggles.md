@@ -3,16 +3,17 @@ layout: post
 title: Fibonacci 64 x 50mm
 id: fibonacci64goggles
 imgurId: U0uT02l
-excerpt: Fibonacci64 x 50mm Micro is a tiny, beautiful 50mm circular disc with 64 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
+excerpt: Fibonacci64 Goggle is a beautiful 50mm circular disc with 64 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
 categories: []
 published: true
 redirect_from:
   - /54
   - /f64x50mm
   - /f64goggles
+  - /f64g
 ---
 
-<video class="post" poster="//i.imgur.com/U0uT02l.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop" style="width:340px">
+<video class="post" poster="//i.imgur.com/U0uT02l.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop" style="width:684px">
    <source src="//i.imgur.com/U0uT02l.mp4" type="video/mp4">
 </video>
 
@@ -26,13 +27,13 @@ redirect_from:
 
 ### Details
 
-Fibonacci64 x 50mm is a tiny, beautiful 50mm circular disc with 64 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
+Fibonacci64 Goggle is a beautiful 50mm circular disc with 64 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
 
 It consists of 64 WS2812C-2020 RGB LEDs, arranged into a circular <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.
 
 <a class="btn btn-success" href="https://www.tindie.com/products/23597">Buy on Tindie</a>
 
-It's perfectly-sized to fit in costume goggles, like the amazing Adafruit Kaleidoscope Eyes (NeoPixel LED Ring Goggles): https://learn.adafruit.com/kaleidoscope-eyes-neopixel-led-goggles-trinket-gemma
+The 50mm diameter is perfect for mounting in the lenses of costume goggles! The goggles are **NOT INCLUDED**, but available from Adafruit here: [https://learn.adafruit.com/kaleidoscope-eyes-neopixel-led-goggles-trinket-gemma](https://learn.adafruit.com/kaleidoscope-eyes-neopixel-led-goggles-trinket-gemma)
 
 It has solder pads on the back that match the pinout of the [QT Py by Adafruit](https://www.adafruit.com/?q=qt+py), or [XIAO by Seeed](https://www.seeedstudio.com/catalogsearch/result/?q=xiao). It can be used by any microcontroller via the 5V, GND, and Data In pins. It also has a Data Out pad, for connecting more LEDs on the same data pin.
 
@@ -58,13 +59,12 @@ The four mounting holes are surrounded by capacitive touch compatible pads. They
 
 ### Specifications
 
-- Size: 1.57 x 1.57 x .063 inch (50 x 50 x 1.6 mm)
+- Size: 1.97 x 1.97 x .063 inch (50 x 50 x 1.6 mm)
 - 2 layer printed circuit board
 - FR4 substrate
-- Black or Purple SMOBC (solder mask over bare copper)
-- HASL (Hot Air Solder Leveling) or ENIG (electroless nickel immersion gold) Finish
+- Black SMOBC (solder mask over bare copper)
+- HASL (Hot Air Solder Leveling) Finish
 - Designed in the US by Evil Genius Labs
-- Some PCBs are manufactured in the US by [OSH Park](https://oshpark.com)
 - Some are assembled in the US by Evil Genius Labs
 
 **Parts**
