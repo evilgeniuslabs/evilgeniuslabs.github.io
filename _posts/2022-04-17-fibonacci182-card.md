@@ -3,7 +3,7 @@ layout: post
 title: Fibonacci 182 Card
 id: fibonacci128-card
 imgurId: ErMFOKL
-excerpt: Fibonacci 128 Pico is a tiny, beautiful 33mm circular disc with 128 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
+excerpt: Fibonacci 182 Card is a beautiful credit card sized rectangle with 182 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
 categories: []
 published: true
 redirect_from:
