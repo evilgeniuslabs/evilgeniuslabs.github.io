@@ -11,9 +11,10 @@ redirect_from:
   - /f182card
   - /f182c
   - /fibonacci128-card
+  - /fibonacci182-card
 ---
 
-<video class="post" poster="//i.imgur.com/ErMFOKL.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop" style="width:340px">
+<video class="post" poster="//i.imgur.com/ErMFOKL.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop" style="width:684px">
    <source src="//i.imgur.com/ErMFOKL.mp4" type="video/mp4">
 </video>
 
@@ -71,7 +72,7 @@ Parts I used in my builds:
 
 ### Code
 
-Open source touch demo: [https://github.com/jasoncoon/fibonacci128-card](https://github.com/jasoncoon/fibonacci128-card)
+Open source touch demo: [https://github.com/jasoncoon/fibonacci182-card](https://github.com/jasoncoon/fibonacci182-card)
 
 ### Pixelblaze Map
 
