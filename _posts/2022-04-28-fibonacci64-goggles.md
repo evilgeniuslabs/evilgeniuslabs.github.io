@@ -31,7 +31,7 @@ Fibonacci64 Goggle is a beautiful 50mm circular disc with 64 RGB LEDs surface mo
 
 It consists of 64 WS2812C-2020 RGB LEDs, arranged into a circular <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.
 
-<a class="btn btn-success" href="https://www.tindie.com/products/23597">Buy on Tindie</a>
+<a class="btn btn-success" href="https://www.tindie.com/products/26706">Buy on Tindie</a>
 
 The 50mm diameter is perfect for mounting in the lenses of costume goggles! The goggles are **NOT INCLUDED**, but available from Adafruit here: [https://learn.adafruit.com/kaleidoscope-eyes-neopixel-led-goggles-trinket-gemma](https://learn.adafruit.com/kaleidoscope-eyes-neopixel-led-goggles-trinket-gemma)
 
