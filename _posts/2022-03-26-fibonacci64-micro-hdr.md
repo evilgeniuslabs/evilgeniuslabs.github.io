@@ -120,24 +120,35 @@ This map can be copied and pasted into the Pixel Mapper in the Mapper tab of you
 
 </div>
 
-### Acrylic Open Case Assembly Instructions
+### Case Assembly Instructions
 
 1. Peel and remove any protective plastic and/or paper film from the acrylic.
 1. Insert M2x10mm Button Head Hex Screws into the holes in the matte side of the acrylic face plate.
-1. Hand-tighten M2 Hex Metal Nuts onto the screws, on the glossy side of the acrylic face plate.
 1. Carefully center and place the Fibonacci PCB onto the standoffs, with the LED side facing the glossy side of the acrylic face plate.
-1. Hand-tighten M2 Nylon Hex Standoffs onto the back side of the Fibonacci PCB.
-1. Center and place the acrylic back plate onto the standoffs.
-1. Hand-tighten M2 Hex Nuts onto the standoffs.
-1. Use flush cutters to trim off any excess nylon thread from the standoffs that is extending past the nuts on the back of the enclosure.
+1. Guide the wires through the holes in the back plate. Center and place the back plate onto the screws. Gently pull the slack out of the wires, through the slots in the back plate. The back plate should fit flush against the back of the PCB.
+1. Hand-tighten M2 Hex Nuts onto the screws.
 
-<img src="https://imgur.com/avCAoAR.png" class="img-responsive" />
+<img src="https://i.imgur.com/gSIIyeB.png" class="img-responsive" />
 
-<img src="https://imgur.com/TIWcG3f.png" class="img-responsive" />
+<img src="https://i.imgur.com/V6sFYjP.png" class="img-responsive" />
 
-<img src="https://imgur.com/1LA2cxt.png" class="img-responsive" />
+<img src="https://i.imgur.com/04DFta6.png" class="img-responsive" />
 
-<img src="https://imgur.com/wqxP9ZI.png" class="img-responsive" />
+<img src="https://i.imgur.com/efwTcve.png" class="img-responsive" />
+
+<img src="https://i.imgur.com/VVqsDXH.png" class="img-responsive" />
+
+<img src="https://i.imgur.com/IoB18cV.png" class="img-responsive" />
+
+<img src="https://i.imgur.com/uNrHVci.png" class="img-responsive" />
+
+<img src="https://i.imgur.com/sKSUWMC.png" class="img-responsive" />
+
+<img src="https://i.imgur.com/ZKyQbHm.png" class="img-responsive" />
+
+<img src="https://i.imgur.com/i1QUncM.png" class="img-responsive" />
+
+<img src="https://i.imgur.com/Lrk5Erw.png" class="img-responsive" />
 
 ### Assembly Instructions
 
