@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Nano v3 RGB LED Race Gate Controller
+sortKey: Nano v3 RGB LED Race Gate Controller
 id: nano-v3-rgb-led-micro-quadrotor-race-gate
 imgurId: mOL28YC
 videoUrl: https://www.youtube.com/embed/oqDBVKWO1fo

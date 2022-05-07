@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fibonacci 128 Pico
+title: Fibonacci128 Pico
 id: fibonacci128pico
 imgurId: j83kSI7
 excerpt: Fibonacci 128 Pico is a tiny, beautiful 33mm circular disc with 128 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
@@ -10,6 +10,7 @@ redirect_from:
   - /52
   - /f128pico
   - /f128p
+sortKey: Fibonacci0128 Pico
 ---
 
 <video class="post" poster="//i.imgur.com/j83kSI7.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">

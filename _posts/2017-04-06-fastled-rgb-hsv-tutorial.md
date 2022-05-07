@@ -1,6 +1,7 @@
 ---
 layout: post
 title: FastLED RGB & HSV Tutorial
+sortKey: FastLED RGB & HSV Tutorial
 id: fastled-rgb-hsv-tutorial
 imgurId: 4Hf72Le
 excerpt: Tutorial project to build an interactive and educational circuit board that teaches soldering, basic Arduino programming, and basic FastLED concepts.

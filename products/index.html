@@ -10,7 +10,7 @@ title: Home
 {% if post.vineUrl != null %}
 <div class="col-md-6">
   <div class="thumbnail" id="{{ post.id }}">
-    <div class="embed-responsive embed-responsive-4by3">
+    <div class="embed-responsive embed-responsive-16by9">
       <iframe src="{{ post.vineUrl }}" width="300" height="300" frameborder="0"></iframe><script src="https://platform.vine.co/static/scripts/embed.js"></script>
     </div>
     <div class="caption">
@@ -21,7 +21,7 @@ title: Home
 {% elsif post.imgurId != null %}
 <div class="col-md-6">
   <div class="thumbnail" id="{{ post.id }}">
-    <div class="embed-responsive embed-responsive-4by3">
+    <div class="embed-responsive embed-responsive-16by9">
       <a href="{{ post.url }}">
         <video class="post" poster="//i.imgur.com/{{ post.imgurId }}.jpg" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
           <source src="//i.imgur.com/{{ post.imgurId }}.mp4" type="video/mp4">
@@ -36,7 +36,7 @@ title: Home
 {% elsif post.videoUrl != null %}
 <div class="col-md-6">
   <div class="thumbnail" id="{{ post.id }}">
-    <div class="embed-responsive embed-responsive-4by3">
+    <div class="embed-responsive embed-responsive-16by9">
       <iframe class="embed-responsive-item" width="560" height="315" src="{{ post.videoUrl }}" frameborder="0" allowfullscreen></iframe>
     </div>
     <div class="caption">

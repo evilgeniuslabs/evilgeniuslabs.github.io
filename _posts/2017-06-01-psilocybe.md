@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Psilocybe
+sortKey: Psilocybe
 imgurId: B0XZCao
 videoUrl: https://www.youtube.com/embed/mms5l1I2q0M
 id: psilocybe

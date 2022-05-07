@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fibonacci 32 Kit
+title: Fibonacci32 Kit
 id: fibonacci32-kit
 imgurId: DWHFck2
 # videoUrl: https://www.youtube.com/embed/SNB5xsYFCak
@@ -12,6 +12,7 @@ published: true
 redirect_from:
   - /43
   - /f32kit
+sortKey: Fibonacci0032 Kit
 ---
 
 <a href="https://i.imgur.com/DWHFck2.gif" target="_blank"><img src="https://i.imgur.com/DWHFck2.gif" class="img-responsive"  /></a>

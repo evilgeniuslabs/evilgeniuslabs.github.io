@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Color Waves Playground
+sortKey: Color Waves Playground
 id: colorwavesplayground
 imgurId: yZh2fmo
 # videoUrl: https://www.youtube.com/embed/SNB5xsYFCak

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Mini Wi-Fi LED Controller
+sortKey: Mini Wi-Fi LED Controller
 id: mini-wifi-led-controller
 imgurId: SR0Gx51
 excerpt: Wi-Fi controlled, Arduino-compatible addressable RGB LED controller based on the ESP8266, with level shifter.

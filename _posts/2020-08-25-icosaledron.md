@@ -1,6 +1,7 @@
 ---
 layout: post
 title: IcosaLEDron
+sortKey: IcosaLEDron
 id: icosaledron
 imgurId: waybbXq
 # videoUrl: https://www.youtube.com/embed/SNB5xsYFCak

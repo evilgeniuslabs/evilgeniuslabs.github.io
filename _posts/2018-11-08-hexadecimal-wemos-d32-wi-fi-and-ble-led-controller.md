@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hexadecimal Wemos D32 Wi-Fi and BLE LED Controller
+sortKey: Hexadecimal Wemos D32 Wi-Fi and BLE LED Controller
 id: hexadecimal-wemos-d32-shield
 imgurId: LJhiN0m
 videoUrl: https://www.youtube.com/embed/0jCk7uoe0Ec

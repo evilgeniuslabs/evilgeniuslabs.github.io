@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Geek Mom's Wearable Fibonacci Nano
+title: Geek Mom's Wearable Fibonacci
+sortKey: Geek Mom's Wearable Fibonacci
 id: geek-mom-wearable-fibonacci
 videoUrl: https://www.youtube.com/embed/D1Xrzb3WciY
 excerpt: Geek Mom's Wearable Fibonacci Nano

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: iFixit Mako Driver Kit Labels
+sortKey: iFixit Mako Driver Kit Labels
 id: ifixit-mako-driver-kit-labels
 excerpt: iFixit Mako Driver Kit Labels
 imgurId: wzHkifX

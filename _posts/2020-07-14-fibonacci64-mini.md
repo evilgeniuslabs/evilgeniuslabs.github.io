@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fibonacci 64 Mini
+title: Fibonacci64 Mini
 id: fibonacci64mini
 imgurId: awvYf9L
 # videoUrl: https://www.youtube.com/embed/SNB5xsYFCak
@@ -13,6 +13,7 @@ redirect_from:
   - /37
   - /f64mini
   - /f64m
+sortKey: Fibonacci0064 Mini
 ---
 
 <a href="https://i.imgur.com/awvYf9L.gif" target="_blank"><img src="https://i.imgur.com/awvYf9L.gif" style="width:340px"  /></a>

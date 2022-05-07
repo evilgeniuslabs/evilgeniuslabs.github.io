@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fibonacci 64 Nano
+title: Fibonacci64 Nano
 id: fibonacci64nano
 imgurId: MsRNmcq
 excerpt: Fibonacci64 Nano is a tiny, beautiful 33mm circular disc with 64 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
@@ -12,6 +12,7 @@ redirect_from:
   - /46
   - /f64nano
   - /f64n
+sortKey: Fibonacci0064 Nano
 ---
 
 <video class="post" poster="//i.imgur.com/MsRNmcq.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">

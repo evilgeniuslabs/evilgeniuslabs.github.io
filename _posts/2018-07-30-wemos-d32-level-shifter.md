@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Wemos D32 ESP32 Wi-Fi and BLE LED Level Shifter Shield
+sortKey: Wemos D32 ESP32 Wi-Fi and BLE LED Level Shifter Shield
 id: d32-shield
 imgurId: LfGW6sl
 excerpt: Wi-Fi and BLE controlled, Arduino-compatible addressable RGB LED controller based on the ESP32, with level shifter.

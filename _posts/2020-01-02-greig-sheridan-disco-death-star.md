@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Greig Sheridan's Disco Death Star
+sortKey: Greig Sheridan's Disco Death Star
 id: greig-sheridan-disco-death-star
 videoUrl: https://www.youtube.com/embed/XHyatoIVfLs
 excerpt: Greig Sheridan's Disco Death Star
