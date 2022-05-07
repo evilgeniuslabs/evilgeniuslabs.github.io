@@ -1,6 +1,7 @@
 ---
 layout: post
 title: RGB LED Micro Drone Race Gate
+sortKey: RGB LED Micro Drone Race Gate
 id: rgb-led-micro-quadrotor-race-gate
 categories: portfolio
 imgurId: mOL28YC

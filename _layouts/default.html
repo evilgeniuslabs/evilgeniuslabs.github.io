@@ -63,6 +63,8 @@
 </head>
 
 <body>
+  
+{% assign sorted = site.posts | sort: 'sortKey' %}
 
   <!-- master nav -->
   <header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
@@ -81,7 +83,7 @@
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Portfolio <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              {% for post in site.posts %}
+              {% for post in sorted %}
               {% if post.categories contains "portfolio" %}
               <li><a href="{{ post.url }}">{{ post.title }}</a></li>
               {% endif %}
@@ -91,7 +93,7 @@
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              {% for post in site.posts %}
+              {% for post in sorted %}
               {% if post.categories contains 'products' %}
               <li><a href="{{ post.url }}">{{ post.title }}</a></li>
               {% endif %}

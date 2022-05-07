@@ -1,6 +1,7 @@
 ---
 layout: post
 title: FastLED Arcade for Maker Faire Kansas City 2017
+sortKey: FastLED Arcade for Maker Faire Kansas City 2017
 id: mini-wifi-led-controller
 imgurId: rp8lLwQ
 videoUrl: https://www.youtube.com/embed/uOu8dWnWBQw

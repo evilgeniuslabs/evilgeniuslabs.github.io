@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fibonacci 64 Micro HDR
+title: Fibonacci64 Micro HDR
 id: fibonacci64microhdr
 imgurId: g8GJGfI
 # videoUrl: https://www.youtube.com/embed/SNB5xsYFCak
@@ -11,6 +11,7 @@ redirect_from:
   - /51
   - /f64microhdr
   - /f64uh
+sortKey: Fibonacci0064 Micro HDR
 ---
 
 <video class="post" poster="//i.imgur.com/g8GJGfI.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">

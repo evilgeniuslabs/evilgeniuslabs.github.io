@@ -1,11 +1,13 @@
 ---
 layout: post
 title: Macrochips
+sortKey: Macrochips
 id: macrochips
 imgurId: 8DAWWY7
 excerpt: Laser engraved, 4 inch slate tile microchip coasters.
 categories:
   - portfolio
+  - products
 published: true
 redirect_from:
   - /42

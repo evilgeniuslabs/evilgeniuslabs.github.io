@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hexadecimal NodeMCU-32S Wi-Fi and BLE LED Controller
+sortKey: Hexadecimal NodeMCU-32S Wi-Fi and BLE LED Controller
 id: hexadecimal-nodemcu-32s-shield
 imgurId: XSqtDMi
 videoUrl: https://www.youtube.com/embed/0jCk7uoe0Ec

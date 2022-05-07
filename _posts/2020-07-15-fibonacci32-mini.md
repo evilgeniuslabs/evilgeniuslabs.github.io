@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fibonacci 32 Mini
+title: Fibonacci32 Mini
 id: fibonacci32mini
 imgurId: 9wXGJhP
 # videoUrl: https://www.youtube.com/embed/SNB5xsYFCak
@@ -13,6 +13,7 @@ redirect_from:
   - /38
   - /f32mini
   - /f32
+sortKey: Fibonacci0032 Mini
 ---
 
 <a href="https://i.imgur.com/9wXGJhP.gif" target="_blank"><img src="https://i.imgur.com/9wXGJhP.gif" style="width:340px"  /></a>

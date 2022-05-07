@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fibonacci 64 Micro
+title: Fibonacci64 Micro
 id: fibonacci64micro
 imgurId: j83kSI7
 # videoUrl: https://www.youtube.com/embed/SNB5xsYFCak
@@ -13,6 +13,7 @@ redirect_from:
   - /44
   - /f64micro
   - /f64u
+sortKey: Fibonacci0064 Micro
 ---
 
 <video class="post" poster="//i.imgur.com/j83kSI7.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">

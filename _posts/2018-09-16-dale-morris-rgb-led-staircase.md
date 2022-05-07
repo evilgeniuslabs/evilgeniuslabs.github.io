@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Dale Morris' RGB LED Staircase
+sortKey: Dale Morris' RGB LED Staircase
 id: dale-morris-rgb-led-staircase
 videoUrl: https://www.youtube.com/embed/8R36HzHyK74
 excerpt: Dale Morris' RGB LED Staircase

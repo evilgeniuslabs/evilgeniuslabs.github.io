@@ -1,16 +1,19 @@
 ---
 layout: post
-title: Fibonacci 64 x 50mm
+title: Fibonacci64 50mm Goggle Lens
 id: fibonacci64goggles
 imgurId: U0uT02l
 excerpt: Fibonacci64 Goggle is a beautiful 50mm circular disc with 64 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
-categories: []
+categories:
+  - portfolio
+  - products
 published: true
 redirect_from:
   - /54
   - /f64x50mm
   - /f64goggles
   - /f64g
+sortKey: Fibonacci0064 50mm Goggle Lens
 ---
 
 <video class="post" poster="//i.imgur.com/U0uT02l.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop" style="width:684px">

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Fibonacci v2
+sortKey: Fibonacci v2
 imgurId: UtGigbH
 videoUrl: https://www.youtube.com/embed/G6cYgBjpHAA?list=PLUYGVM-2vDxLanVedYG1cMMBDzuQ_ecQd
 sourceUrl: https://github.com/evilgeniuslabs/fibonacci-v3d

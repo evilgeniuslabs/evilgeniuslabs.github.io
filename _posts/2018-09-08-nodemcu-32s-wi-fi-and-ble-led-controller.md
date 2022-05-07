@@ -1,6 +1,7 @@
 ---
 layout: post
 title: NodeMCU-32S Wi-Fi and BLE LED Controller
+sortKey: NodeMCU-32S Wi-Fi and BLE LED Controller
 id: nodemcu-32s-shield
 imgurId: 2mjwnIJ
 excerpt: Wi-Fi and BLE controlled, Arduino-compatible addressable RGB LED controller based on the NodeMCU-32S, with level shifter.

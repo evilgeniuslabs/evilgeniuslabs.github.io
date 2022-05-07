@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Trinket Pro RGB LED Race Gate Controller
+sortKey: Trinket Pro RGB LED Race Gate Controller
 id: trinket-pro-rgb-led-micro-quadrotor-race-gate
 imgurId: mOL28YC
 videoUrl: https://www.youtube.com/embed/oqDBVKWO1fo

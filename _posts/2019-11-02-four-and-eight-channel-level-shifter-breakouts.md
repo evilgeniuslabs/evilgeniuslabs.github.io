@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Four and Eight Channel Level Shifter Breakouts
+sortKey: Four and Eight Channel Level Shifter Breakouts
 id: four-and-eight-channel-level-shifter-breakouts
 imgurId: w4jhZna
 excerpt: Four and eight channel level shifter breakouts for driving addressable RGB LEDs.
