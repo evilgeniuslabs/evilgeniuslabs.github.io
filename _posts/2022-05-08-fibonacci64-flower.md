@@ -2,7 +2,7 @@
 layout: post
 title: Fibonacci64 Flower
 id: fibonacci64-flower
-imgurId: 6my9fUx
+imgurId: SLTulBp
 videoUrl: https://www.youtube.com/embed/videoseries?list=PLUYGVM-2vDxJpEjrSeHCH8u1hxFz4qawU
 excerpt: Fibonacci64 is a beautiful 86mm circular disc with 64 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
 categories:
@@ -15,19 +15,19 @@ redirect_from:
 sortKey: Fibonacci0064 Flower
 ---
 
-<a href="https://i.imgur.com/6my9fUx.gif" target="_blank"><img src="https://i.imgur.com/6my9fUx.gif" style="width:340px" class="img-responsive" /></a>
+<div class="embed-responsive embed-responsive-16by9">
+   <a href="{{ post.url }}">
+      <video class="post" poster="//i.imgur.com/SLTulBp.jpg" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
+         <source src="//i.imgur.com/SLTulBp.mp4" type="video/mp4">
+      </video>
+   </a>
+</div>
 
-<a href="https://i.imgur.com/gHC4cA6.gif" target="_blank"><img src="https://i.imgur.com/gHC4cA6.gif" style="width:340px" class="img-responsive" /></a>
-
-<a href="https://i.imgur.com/iLaweEn.png" target="_blank"><img src="https://i.imgur.com/iLaweEn.png" style="width:340px" class="img-responsive" /></a>
-
-<a href="https://i.imgur.com/1QSxMku.png" target="_blank"><img src="https://i.imgur.com/1QSxMku.png" style="width:340px" class="img-responsive" /></a>
-
-<a href="https://i.imgur.com/3bSrP5e.png" target="_blank"><img src="https://i.imgur.com/3bSrP5e.png" style="width:340px" class="img-responsive" /></a>
-
-<a href="https://i.imgur.com/3bUMPma.png" target="_blank"><img src="https://i.imgur.com/3bUMPma.png" style="width:340px" class="img-responsive" /></a>
-
-<a href="https://i.imgur.com/DyUJ6JV.png" target="_blank"><img src="https://i.imgur.com/DyUJ6JV.png" style="width:340px" class="img-responsive" /></a>
+<a href="https://i.imgur.com/Vmn2bnJ.png" target="_blank"><img src="https://i.imgur.com/Vmn2bnJ.png" style="width:340px" class="img-responsive" /></a>
+<a href="https://i.imgur.com/e2azNfa.png" target="_blank"><img src="https://i.imgur.com/e2azNfa.png" style="width:340px" class="img-responsive" /></a>
+<a href="https://i.imgur.com/rmweViq.png" target="_blank"><img src="https://i.imgur.com/rmweViq.png" style="width:340px" class="img-responsive" /></a>
+<a href="https://i.imgur.com/cOuoA0N.png" target="_blank"><img src="https://i.imgur.com/cOuoA0N.png" style="width:340px" class="img-responsive" /></a>
+<a href="https://i.imgur.com/2z8lGsd.png" target="_blank"><img src="https://i.imgur.com/2z8lGsd.png" style="width:340px" class="img-responsive" /></a>
 
 <h3>Table of Contents</h3>
 
