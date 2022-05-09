@@ -3,7 +3,6 @@ layout: post
 title: Fibonacci64 Flower
 id: fibonacci64-flower
 imgurId: SLTulBp
-videoUrl: https://www.youtube.com/embed/videoseries?list=PLUYGVM-2vDxJpEjrSeHCH8u1hxFz4qawU
 excerpt: Fibonacci64 is a beautiful 86mm circular disc with 64 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
 categories:
   - portfolio
@@ -23,11 +22,7 @@ sortKey: Fibonacci0064 Flower
    </a>
 </div>
 
-<a href="https://i.imgur.com/Vmn2bnJ.png" target="_blank"><img src="https://i.imgur.com/Vmn2bnJ.png" style="width:340px" class="img-responsive" /></a>
-<a href="https://i.imgur.com/e2azNfa.png" target="_blank"><img src="https://i.imgur.com/e2azNfa.png" style="width:340px" class="img-responsive" /></a>
-<a href="https://i.imgur.com/rmweViq.png" target="_blank"><img src="https://i.imgur.com/rmweViq.png" style="width:340px" class="img-responsive" /></a>
-<a href="https://i.imgur.com/cOuoA0N.png" target="_blank"><img src="https://i.imgur.com/cOuoA0N.png" style="width:340px" class="img-responsive" /></a>
-<a href="https://i.imgur.com/2z8lGsd.png" target="_blank"><img src="https://i.imgur.com/2z8lGsd.png" style="width:340px" class="img-responsive" /></a>
+<a href="https://i.imgur.com/Vmn2bnJ.png" target="_blank"><img src="https://i.imgur.com/Vmn2bnJ.png" style="width:340px" /></a><a href="https://i.imgur.com/e2azNfa.png" target="_blank"><img src="https://i.imgur.com/e2azNfa.png" style="width:340px" /></a><a href="https://i.imgur.com/rmweViq.png" target="_blank"><img src="https://i.imgur.com/rmweViq.png" style="width:340px" /></a><a href="https://i.imgur.com/cOuoA0N.png" target="_blank"><img src="https://i.imgur.com/cOuoA0N.png" style="width:340px" /></a><a href="https://i.imgur.com/2z8lGsd.png" target="_blank"><img src="https://i.imgur.com/2z8lGsd.png" style="width:340px" /></a>
 
 <h3>Table of Contents</h3>
 
