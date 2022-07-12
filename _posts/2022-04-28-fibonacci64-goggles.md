@@ -91,7 +91,7 @@ Parts I used in my builds:
 
 Open source example firmware: [https://github.com/jasoncoon/fibonacci-demoreel/tree/f64-micro](https://github.com/jasoncoon/fibonacci-demoreel/tree/f64-micro)
 
-Open source touch demo: [https://github.com/jasoncoon/fibonacci64-touch-demo](https://github.com/jasoncoon/fibonacci64-touch-demo)
+Open source touch demo: [https://github.com/jasoncoon/fibonacci64-touch-demo/tree/goggles](https://github.com/jasoncoon/fibonacci64-touch-demo/tree/goggles)
 
 ### Pixelblaze Map
 
