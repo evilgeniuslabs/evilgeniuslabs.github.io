@@ -27,13 +27,19 @@ title: Contact Us
     </div>
   </div>
   <div class="form-group">
+    <label for="inputSubject" class="col-sm-2 control-label">Subject</label>
+    <div class="col-sm-6">
+      <input type="text" class="form-control" name="subject" id="inputSubject" placeholder="Subject"></input>
+    </div>
+  </div>
+  <div class="form-group">
     <label for="inputMessage" class="col-sm-2 control-label">Details</label>
     <div class="col-sm-6">
       <textarea type="text" class="form-control" name="message" rows="5" id="inputMessage" placeholder="Enter the details of your request, if any."></textarea>
     </div>
   </div>
+  <input type="text" name="_gotcha" style="display:none" />
   <input type="hidden" name="_next" value="//evilgeniuslabs.org/contact/thanks" />
-  <input type="hidden" name="_subject" value="Evil Genius Labs contact request" />
   <div class="form-group">
     <div class="col-sm-offset-2 col-sm-10">
       <input type="submit" class="btn btn-default" value="Send">
