@@ -2,7 +2,7 @@
 layout: post
 title: Fibonacci64 Flower
 id: fibonacci64-flower
-imgurId: SLTulBp
+imgurId: 50JYqsw
 excerpt: Fibonacci64 is a beautiful 86mm circular disc with 64 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
 categories:
   - portfolio
