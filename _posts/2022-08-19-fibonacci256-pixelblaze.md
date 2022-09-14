@@ -36,7 +36,7 @@ I have created several LED art pieces in Fibonacci patterns.  They are all very 
 
 I have RGB LEDs in just about every form they come: strips, strings, rings, discs, etc.  The LEDs on most discs are arranged in very regular rings.  Fibonacci256 is different.  The LEDs are arranged in a Fibonacci distribution.  The makes the layout very organic and seemingly messy.  But with the proper animation, spiral patterns emerge with spectacular results.
 
-Each of the 256 WS2812B-Mini 3535 RGB LEDs has its own decoupling capacitor built in.  The top and bottom of the PCB are large 5V and GND planes, to allow for the large amount of current required by the 256 LEDs.  The max theoretical frame rate with four way parallel output is ~130 FPS.
+Each of the 256 WS2812B-Mini 3535 RGB LEDs has its own decoupling capacitor built in.  The top and bottom of the PCB are large 5V and GND planes, to allow for the large amount of current required by the 256 LEDs.  The max theoretical frame rate is ~130 FPS.
 
 <a class="btn btn-success" href="https://www.tindie.com/products/19429">Buy on Tindie</a>
 
