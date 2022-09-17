@@ -16,9 +16,7 @@ redirect_from:
 sortKey: Lux Lavalier
 ---
 
-**Coming soon** - the most ambitious crossover maker project of the millennium!
-
-<a class="btn btn-success" href="https://luxlavalier.com/waitlist/">Buy Lux Lavalier</a>
+<a class="btn btn-success" href="https://luxlavalier.com/buy">Buy Lux Lavalier</a>
 
 Lux Lavalier is a beautiful wearable 40mm battery powered pendant necklace with 64 SK9822-2020 "HDR" RGB LEDs surface mounted in a Fibonacci distribution and a Pixelblaze V3 Pico controller built in.
 
