@@ -50,8 +50,8 @@ I quickly realized that a way of saving, importing and exporting the settings wo
 
 You can find the source code on GitHub: [https://github.com/jasoncoon/esp8266-fastled-webserver](https://github.com/jasoncoon/esp8266-fastled-webserver)
 
-* ColorWavesPlayground: [https://github.com/jasoncoon/esp8266-fastled-webserver/blob/main/ColorWavesPlayground.h](https://github.com/jasoncoon/esp8266-fastled-webserver/blob/main/ColorWavesPlayground.h)
-* PridePlayground: [https://github.com/jasoncoon/esp8266-fastled-webserver/blob/main/PridePlayground.h](https://github.com/jasoncoon/esp8266-fastled-webserver/blob/main/PridePlayground.h)
+* ColorWavesPlayground: [https://github.com/jasoncoon/esp8266-fastled-webserver/blob/main/esp8266-fastled-webserver/ColorWavesPlayground.cpp](https://github.com/jasoncoon/esp8266-fastled-webserver/blob/main/esp8266-fastled-webserver/ColorWavesPlayground.cpp)
+* PridePlayground: [https://github.com/jasoncoon/esp8266-fastled-webserver/blob/main/esp8266-fastled-webserver/PridePlayground.cpp](https://github.com/jasoncoon/esp8266-fastled-webserver/blob/main/esp8266-fastled-webserver/PridePlayground.cpp)
 
 I've also started porting the code to branches shared specifically for builds and products of mine, such as the Fibonacci boards pictured above:
 
