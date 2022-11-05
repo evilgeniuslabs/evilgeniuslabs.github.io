@@ -71,3 +71,39 @@ It consists of 64 RGB LEDs, arranged into a flower-shaped <a href="https://en.wi
 ### Code
 
 Open source example firmware and web application: [https://github.com/jasoncoon/fibonacci64-touch-demo/tree/f64-flower](https://github.com/jasoncoon/fibonacci64-touch-demo/tree/f64-flower)
+
+### Acrylic Open Case Assembly Instructions
+
+1. Peel and remove any protective plastic and/or paper film from the acrylic.
+1. Insert M2x6mm Button Head Hex Screw into the bottom hole in the matte side of the acrylic face plate.
+1. Insert M2x10mm Button Head Hex Screws into the remaining holes in the matte side of the acrylic face plate.
+1. Hand-tighten M2 Hex Metal Nuts onto the screws, on the glossy side of the acrylic face plate.
+1. Carefully center and place the Fibonacci PCB onto the standoffs, with the LED side facing the glossy side of the acrylic face plate.
+1. Hand-tighten M2 Nylon Hex Standoffs onto the back side of the Fibonacci PCB.
+1. Center and place the acrylic back plate onto the standoffs.
+1. Hand-tighten M2 Hex Nuts onto the standoffs.
+1. Use flush cutters to trim off any excess nylon thread from the standoffs that is extending past the nuts on the back of the enclosure.
+
+<img src="https://imgur.com/vTWd4vI.png" class="img-responsive" />
+
+<img src="https://imgur.com/xUO6aZY.png" class="img-responsive" />
+
+<img src="https://imgur.com/RoLJJ19.png" class="img-responsive" />
+
+<img src="https://imgur.com/oNLZf7Y.png" class="img-responsive" />
+
+### Assembly Instructions
+
+**Note**: Double-check the position, alignment, and orientation of each component very carefully before soldering!
+
+If you're new to soldering, I highly recommend reading through a good soldering tutorial, such as the ones by [Adafruit](https://learn.adafruit.com/adafruit-guide-excellent-soldering) and [SparkFun](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering).
+
+1. Find a clean spot on your soldering workspace. I used a piece of heavy card stock. Carefully place the board with the LEDs facing down and the bottom of the board facing up.
+1. **VERY** carefully check polarity before connecting 5V and GND.
+1. Either:
+  * Solder wires to the pads on the back of the Fibonacci PCB and connect them to your microcontroller.
+  * Or:
+  * Carefully align an Adafruit QT Py, Seeeduino XIAO, or another controller with an identical footprint with the pads on the back of the Fibonacci PCB. Solder the pads.
+1. Keep an eye on the temperature of the PCB and especially the connectors. High temperatures can reduce the life of the LEDs. When possible, ensure air can flow, either passively (ventilation) or actively (exhaust fan).
+1. Each WS2812C-2020 can theoretically draw 15mA at full brightness, solid white color. 64 of them can theoretically draw 960mA. I suggest using [FastLED's power management](https://github.com/FastLED/FastLED/wiki/Power-notes#managing-power-in-fastled) to limit the maximum brightness to a reasonable amount, well under the maximum your power supply is rated for. I've found that 960mA is blindingly bright.
+WS
