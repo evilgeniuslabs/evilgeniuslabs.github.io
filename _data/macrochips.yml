@@ -67,6 +67,9 @@
 - name: Atmel ATSAME51-J20
   imgurId: MinNQCQ
 
+- name: Atmel ATSAML22J18
+  imgurId: JMmT7qh
+
 - name: Atmel AT90S8535
   imgurId: uEbGB1c
 
