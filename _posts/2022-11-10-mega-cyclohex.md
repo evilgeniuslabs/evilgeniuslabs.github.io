@@ -75,7 +75,7 @@ The six mounting screws are connected to pins (A0-A3, A6 & A7) on the SAMD21 QT 
 - 6 x [M2.2 solder ring terminals](https://amzn.to/3PxTPSi): $8.31
 - [Adafruit QT Py SAMD21](https://www.adafruit.com/product/4600)
   * Also available at [Digi-Key](https://www.digikey.com/en/products/detail/adafruit-industries-llc/4600/13543375)
-- [Black LED Acrylic](): $16.17 plus ~$18 shipping, depending on your location
+- [Black LED Acrylic](https://www.tapplastics.com/product/plastics/cut_to_size_plastic/black_led_sheet/668): $16.17 plus ~$18 shipping, depending on your location
   * Only the front piece actually needs to be Black LED acrylic, the mount and back can be cut out of 
     cheaper acrylic or other materials.
 - [JST-SM pigtails](https://amzn.to/3C6sgdp): $9.99
@@ -86,12 +86,20 @@ The six mounting screws are connected to pins (A0-A3, A6 & A7) on the SAMD21 QT 
 - Front
    - [DXF](/images/CycloHex%2039mm%20Rings%20-%20Front.dxf)
    - [SVG](/images/CycloHex%2039mm%20Rings%20-%20Front.svg)
+
+     <a href="/images/CycloHex%2039mm%20Rings%20-%20Front.svg" target="_blank"><img src="/images/CycloHex%2039mm%20Rings%20-%20Front.svg" style="width:340px" /></a>
+
 - Mount
    - [DXF](/images/CycloHex%2039mm%20Rings%20-%20Mount.dxf)
    - [SVG](/images/CycloHex%2039mm%20Rings%20-%20Mount.svg)
+
+     <a href="/images/CycloHex%2039mm%20Rings%20-%20Mount.svg" target="_blank"><img src="/images/CycloHex%2039mm%20Rings%20-%20Mount.svg" style="width:340px" /></a>
+
 - Back
    - [DXF](/images/CycloHex%2039mm%20Rings%20-%20Back.dxf)
    - [SVG](/images/CycloHex%2039mm%20Rings%20-%20Back.svg)
+
+     <a href="/images/CycloHex%2039mm%20Rings%20-%20Back.svg" target="_blank"><img src="/images/CycloHex%2039mm%20Rings%20-%20Back.svg" style="width:340px" /></a>
 
 ---
 
