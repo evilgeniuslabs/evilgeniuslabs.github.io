@@ -203,3 +203,81 @@ The sequencer can be configured via the web interface over wi-fi in the followin
 - Black SMOBC (solder mask over bare copper)
 - HASL (Hot Air Solder Leveling)
 - Designed and assembled in the US by Evil Genius Labs
+
+### Retrofit Kit
+
+Parts:
+
+* [Pixelblaze V3 Standard - WiFi LED Controller](https://shop.electromage.com/products/pixelblaze-v3-standard-wifi-led-controller)
+* [Pixelblaze Sensor Expansion Board](https://shop.electromage.com/products/pixelblaze-sensor-expansion-board)
+* DC Power Jack Adapter Board
+* Acrylic Back with port access panel
+* 2 x M2x10mm Standoffs
+* 3 x M2x7mm Standoffs
+* 2 x M2x8mm Screws
+* 6 x M2x5mm Screws
+
+Instructions:
+
+1. Unplug any connected USB or power cables.
+1. Remove the screws from the back, and set them aside. We'll need them later to secure the new acrylic back on.
+   * Depending on which model you have these may be M3 or M2 screws.
+1. Remove the back cover. This will be replaced with the new back panel.
+1. Unplug the cable from the controller and/or the Fibonacci256 LED PCB.
+   * These can differ from the pictures between Fibonacci256 models.
+1. If the controller is mounted using double-sided foam tape, use a generous amount of isopropyl alcohol to loosen the adhesive. Fully saturate it.
+1. Do not use anything metal to pry the controller off. If needed, you can use a plastic scraper, putty knife, or credit card.
+1. Use alcohol and a plastic scraper to remove any foam tape or adhesive residue.
+
+Pixelblaze output:
+
+1. Place the 4 pin JST-XH connector into the holes on the left side of the Pixelblaze (GND, DAT, CLK, and 5V).
+1. Flip it over and solder all four pins.
+
+Pixelblaze expansion pins:
+
+1. Place the 7 pin header that came with the Pixelblaze Sensor Expansion in the holes in the bottom right corner of the **Pixelblaze**, not the expansion board. Note that the GND, RST, 3v3, RX, TX, IO0, and IO25 should have pins, and that IO26 will not have a pin.
+1. Ensure the 7 pin header is inserted all the way down, and that there are pins in the GND, 3v3, and RX holes on the Pixelblaze.
+1. Flip the Pixelblaze over and solder at least the GND, 3v3, and RX pins.
+
+Pixelblaze Sensor Expansion Board:
+
+1. With the Pixelblaze right-side up, with the pins pointing upwards, flip the Sensor Expansion Board over so the audio input jack is on the bottom, pointing down.
+1. Place the sensor board onto the Pixelblaze pins.
+1. Ensure that the GND, 3v3, and RX pins on the Pixelblaze are lined up and inserted into the GND, 3v3, and TX pins on the Sensor Expansion board. Note that the TX pin on the Sensor Expansion board is connected to the RX pin on the Pixelblaze
+1. The top of the audio input jack should be flush with, and not extend beyond the bottom of the Pixelblaze PCB.
+1. Double-check the pins are aligned and match up one more time.
+1. Solder at least the GND, 3v3, and TX pins on the Sensor Expansion board.
+
+Acrylic back and standoffs:
+
+1. All screws should be inserted from the matte side of the acrylic, with the standoffs on the glossy side. Loosely mount the standoffs with the screws until everything is mounted, then hand tighten.
+1. Place the acrylic back with the glossy reflective side of the acrylic back facing up and the connector opening on the bottom.
+1. Loosely secure two of the M2x7mm standoffs onto the two right-most holes, near the Micro USB label, with two M2x5mm screws. Insert the screws from the matte side. The heads of the screws should be on the matte side, the standoffs should be on the glossy side.
+1. Hand tighten one M2x10mm standoff in the next hole to the right (the one with the Audio In label) with a M2x8mm screw.
+1. Loosely secure one M2x7mm standoff onto the hole nearest the 5V DC label using one M2x5mm screw.
+1. Hand tighten the last M2x10mm standoff in the hole above the 5V DC label using one M2x8mm screw.
+
+Mount the Pixelblaze and Sensor Expansion assembly
+
+1. Place the Pixelblaze onto the two short standoffs on the glossy side, lining up the two mounting holes.
+1. Hand tighten and secure in place with two M2x5mm screws. The bottom edge of the Pixelblaze with the USB connector and the bottom edge of the Sensor Expansion board with the audio input jack should line up with the edge of the access panel opening in the acrylic.
+
+DC input board:
+
+1. Place the DC input board with the jack facing downward onto the remaining short standoff near the 5V DC label, lining up the mounting hole.
+1. Hand tighten and secure in place with one M2x5mm screw.
+
+Ensure all screws are hand tightened, including the ones on the matte side of the acrylic back.
+
+Cables:
+
+1. One of the new cables included with the kit has three pins on one side and four on the other. Insert the end with four pins into the connector on the Pixelblaze (GND, DAT, CLK, 5V). Ensure the red wire is connected to 5V, the middle wire is connected to DAT, and the remaining wire is connected to GND.
+1. Insert the other cable into the connector on the 5V DC board. The red wire should be connected to 5V.
+1. Place the Fibonacci256 face down next to the back panel.
+1. Connect the Pixelblaze cable to the Data In connector on the Fibonacci256. Ensure the red wire is connected to 5V.
+1. The 5V DC cable may be longer than needed. If so, coil up any excess.
+1. Flip the back panel over, on top of the Fibonacci256, and connect the remaining cable.
+1. Ensure the red wire is connected to 5V.
+
+Secure the new back panel in place using the screws you set aside earlier, after removing the old back cover.
