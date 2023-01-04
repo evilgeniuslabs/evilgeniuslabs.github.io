@@ -27,7 +27,7 @@ A collection of laser engraved, 4 inch slate tile microchip coasters.
 
 <a href="https://i.imgur.com/8DAWWY7.jpg" target="_blank"><img src="https://i.imgur.com/8DAWWY7.jpg" style="width:340px" /></a>
 
-<a class="btn btn-success" href="https://www.etsy.com/listing/971715779">Buy on Etsy</a>
+<!-- <a class="btn btn-success" href="https://www.etsy.com/listing/971715779">Buy on Etsy</a> -->
 
 More info on Twitter: [https://twitter.com/jasoncoon_/status/1358068819303014402](https://twitter.com/jasoncoon_/status/1358068819303014402)
 
