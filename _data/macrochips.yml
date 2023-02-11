@@ -337,6 +337,9 @@
 - name: STM32F407-VGT6
   imgurId: uIQX4YW
 
+- name: STM32F411-CEU6 (Custom Markings)
+  imgurId: jaoyt0n
+
 - name: STM32F767-IGT6
   imgurId: Kf4wYDY
 
