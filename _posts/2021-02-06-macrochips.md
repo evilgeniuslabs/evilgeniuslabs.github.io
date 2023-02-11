@@ -52,17 +52,17 @@ I have made {{ site.data.macrochips | size }} different macrochip designs so far
 
 <ul class="media-list">
 {% for macrochip in site.data.macrochips %}
-  <div class="col-md-4">
-  <div class="thumbnail" id="{{ post.id }}">
-    <div class="embed-responsive embed-responsive-4by3">
-      <a href="{{ post.url }}">
-        <img class="media-object" style="width:340px" src="https://i.imgur.com/{{ macrochip.imgurId }}.jpg" alt="{{ macrochip.name }}">
-      </a>
-    </div>
-    <div class="caption">
-      <a href="macrochips#{{ macrochip.name }}">{{ macrochip.name }} <i class="fa fa-link" aria-hidden="true"></i></a>
+  <div class="col-md-4" id="{{ macrochip.name }}">
+    <div class="thumbnail" id="{{ post.id }}">
+      <div class="embed-responsive embed-responsive-4by3">
+        <a href="https://i.imgur.com/{{ macrochip.imgurId }}.png">
+          <img class="media-object" style="width:340px" src="https://i.imgur.com/{{ macrochip.imgurId }}.jpg" alt="{{ macrochip.name }}">
+        </a>
+      </div>
+      <div class="caption">
+        <a href="macrochips#{{ macrochip.name }}">{{ macrochip.name }}</a>
+      </div>
     </div>
   </div>
-</div>
 {% endfor %}
 </ul>
