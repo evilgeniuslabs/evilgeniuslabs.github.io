@@ -2,7 +2,7 @@
 layout: post
 title: Fibonacci128 Pico
 id: fibonacci128pico
-imgurId: j83kSI7
+imgurId: 
 excerpt: Fibonacci 128 Pico is a tiny, beautiful 33mm circular disc with 128 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
 categories: []
 published: true
@@ -12,15 +12,6 @@ redirect_from:
   - /f128p
 sortKey: Fibonacci0128 Pico
 ---
-
-<video class="post" poster="//i.imgur.com/j83kSI7.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
-   <source src="//i.imgur.com/j83kSI7.mp4" type="video/mp4">
-</video>
-
-<a href="https://i.imgur.com/MHJo2My.png" target="_blank"><img src="https://i.imgur.com/MHJo2My.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/zpv3plJ.png" target="_blank"><img src="https://i.imgur.com/zpv3plJ.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/0acgduU.png" target="_blank"><img src="https://i.imgur.com/0acgduU.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/MHJo2My.png" target="_blank"><img src="https://i.imgur.com/MHJo2My.png" style="width:340px"  /></a>
 
 <h3>Table of Contents</h3>
 
@@ -33,15 +24,11 @@ Fibonacci 128 Pico is a beautiful 33mm circular disc with 128 RGB LEDs surface m
 
 It consists of 128 APA104-1212 RGB LEDs, arranged into a circular <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.
 
-<a class="btn btn-success" href="https://www.tindie.com/products/23597">Buy on Tindie</a>
+<!-- <a class="btn btn-success" href="https://www.tindie.com/products/23597">Buy on Tindie</a> -->
 
 It has solder pads on the back that match the pinout of the [QT Py by Adafruit](https://www.adafruit.com/?q=qt+py), or [XIAO by Seeed](https://www.seeedstudio.com/catalogsearch/result/?q=xiao). It can be used by any microcontroller via the 5V, GND, and Data In pins. It also has a Data Out pad, for connecting more LEDs on the same data pin.
 
 The four mounting holes are surrounded by capacitive touch compatible pads. They're connected to the A0-A3 pads/pins on the QT Py footprint. The SAMD21 QT Py supports capacitive touch on these pins.
-
-<video class="post" poster="//i.imgur.com/L1YCyR1.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
-   <source src="//i.imgur.com/L1YCyR1.mp4" type="video/mp4">
-</video>
 
 <p>In disc <a href="https://en.wikipedia.org/wiki/Phyllotaxis" title="Phyllotaxis">phyllotaxis</a>, as in the <a href="https://en.wikipedia.org/wiki/Sunflower" title="Sunflower" class="mw-redirect">sunflower</a> and daisy, the mesh of spirals occurs in <a href="https://en.wikipedia.org/wiki/Fibonacci_number" title="Fibonacci number">Fibonacci numbers</a> because divergence (angle of succession in a single spiral arrangement) approaches the <a href="https://en.wikipedia.org/wiki/Golden_ratio" title="Golden ratio">golden ratio</a>. The shape of the spirals depends on the growth of the elements generated sequentially. In mature-disc <a href="https://en.wikipedia.org/wiki/Phyllotaxis" title="Phyllotaxis">phyllotaxis</a>, when all the elements are the same size, the shape of the spirals is that of Fermat spirals—ideally. That is because Fermat's spiral traverses equal <a href="https://en.wikipedia.org/wiki/Annulus_(mathematics)" title="Annulus (mathematics)">annuli</a> in equal turns. The full model proposed by H Vogel in 1979<sup id="cite_ref-2" class="reference"><a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral#cite_note-2"><span>[</span>2<span>]</span></a></sup> is</p>
 <dl>
@@ -67,25 +54,6 @@ The four mounting holes are surrounded by capacitive touch compatible pads. They
 - Designed in the US by Evil Genius Labs
 - Some PCBs are manufactured in the US by [OSH Park](https://oshpark.com)
 - Some are assembled in the US by Evil Genius Labs
-
-**Parts**
-
-Options available to purchase for additional amount:
-
-- Diffuser: 3mm black LED acrylic circle.
-- Open Case Kit: diffuser, back plate with wall mounting hole, M2 black nylon standoffs, M2 black metal screws.
-- Fully Assembled: diffuser, open case, and assembled [QT Py by Adafruit](https://www.adafruit.com/product/4600) controller.
-
-If the "Fully Assembled" option is not chosen, these parts are **not included**, but are required to assemble and use:
-
-- Microcontroller (Arduino, ESP8266, ESP32, etc)
-- Wires, connectors, crimp tool, etc.
-- Soldering iron, solder, etc.
-
-Parts I used in my builds:
-
-- [QT Py by Adafruit](https://www.adafruit.com/product/4600)(https://electromage.com)
-- [Chemcast Black LED Acrylic](https://www.tapplastics.com/product/plastics/cut_to_size_plastic/black_led_sheet/668)
 
 ### Code
 
@@ -123,43 +91,3 @@ This map can be copied and pasted into the Pixel Mapper in the Mapper tab of you
   </div>
 
 </div>
-
-### Assembly Instructions
-
-**Note**: Double-check the position, alignment, and orientation of each component very carefully before soldering!
-
-If you're new to soldering, I highly recommend reading through a good soldering tutorial, such as the ones by [Adafruit](https://learn.adafruit.com/adafruit-guide-excellent-soldering) and [SparkFun](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering).
-
-**Note**: Earlier versions of the PCB had header pin holes for 5V, GND, and Data In. Newer versions have pads, not holes. The pads allow you to either solder wires on, or solder a QT Py directly to the PCB.
-
-<img src="https://imgur.com/MlFHURn.png" class="img-responsive" />
-
-1. Find a clean spot on your soldering workspace. I used a piece of heavy card stock. Carefully place the board with the LEDs facing down and the bottom of the board facing up.
-1. **VERY** carefully check polarity before connecting 5V and GND.
-1. Either:
-
-- Solder wires to the pads on the back of the Fibonacci PCB and connect them to your microcontroller.
-- Or:
-- Carefully align an Adafruit QT Py, Seeeduino XIAO, or another controller with an identical footprint with the pads on the back of the Fibonacci PCB. Solder the pads.
-
-1. Each APA104-1212 can theoretically draw 15mA at full brightness, solid white color. 128 of them can theoretically draw 960mA. I suggest using [FastLED's power management](https://github.com/FastLED/FastLED/wiki/Power-notes#managing-power-in-fastled) to limit the maximum brightness to a reasonable amount, well under the maximum your power supply is rated for. I've found that 960mA is blindingly bright.
-1. Keep an eye on the temperature of the PCB and especially the connectors. High temperatures can reduce the life of the LEDs. When possible, ensure air can flow, either passively (ventilation) or actively (exhaust fan).
-
-### Acrylic Open Case Assembly Instructions
-
-1. Peel and remove any protective plastic and/or paper film from the acrylic.
-1. Insert M2x10mm Button Head Hex Screws into the holes in the matte side of the acrylic face plate.
-1. Hand-tighten M2 Hex Metal Nuts onto the screws, on the glossy side of the acrylic face plate.
-1. Carefully center and place the Fibonacci PCB onto the standoffs, with the LED side facing the glossy side of the acrylic face plate.
-1. Hand-tighten M2 Nylon Hex Standoffs onto the back side of the Fibonacci PCB.
-1. Center and place the acrylic back plate onto the standoffs.
-1. Hand-tighten M2 Hex Nuts onto the standoffs.
-1. Use flush cutters to trim off any excess nylon thread from the standoffs that is extending past the nuts on the back of the enclosure.
-
-<img src="https://imgur.com/avCAoAR.png" class="img-responsive" />
-
-<img src="https://imgur.com/TIWcG3f.png" class="img-responsive" />
-
-<img src="https://imgur.com/1LA2cxt.png" class="img-responsive" />
-
-<img src="https://imgur.com/wqxP9ZI.png" class="img-responsive" />
