@@ -1,23 +1,22 @@
 ---
 layout: post
-title: Fibonacci HDR Heart
-id: fibonaccihdrheart
-imgurId: XFR7m2E
+title: Fibonacci128 Flex Bracelet
+id: fibonacci128flexbracelet
+# imgurId: XFR7m2E
 # videoUrl: https://www.youtube.com/embed/SNB5xsYFCak
-excerpt: Fibonacci HDR Heart is a tiny, beautiful 42mm heart-shaped disc with 74 SK9822-EC20 HDR RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
+excerpt: Fibonacci128 Flex Bracelet is a beautiful flexible PCB with 128 SK9822-EC20 HDR RGB LEDs surface mounted in a Fibonacci distribution.
 categories: 
   - portfolio
 published: true
 redirect_from:
-  - /64
-  - /fibonaccihdrheart
-  - /f74hdrheart
-  - /heart
-  - /hdrheart
-sortKey: Fibonacci HDR Heart
+  - /65
+  - /fibonacci128flexbracelet
+  - /f128flexbracelet
+  - /f128flex
+sortKey: Fibonacci 128 Flex Bracelet
 ---
 
-<video class="post" poster="//i.imgur.com/XFR7m2E.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
+<!-- <video class="post" poster="//i.imgur.com/XFR7m2E.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
    <source src="//i.imgur.com/XFR7m2E.mp4" type="video/mp4">
 </video>
 
@@ -28,7 +27,7 @@ sortKey: Fibonacci HDR Heart
 <a href="https://i.imgur.com/kD1Y1va.png" target="_blank"><img src="https://i.imgur.com/kD1Y1va.png" style="width:340px"  /></a>
 <a href="https://i.imgur.com/fzahOBP.png" target="_blank"><img src="https://i.imgur.com/fzahOBP.png" style="width:340px"  /></a>
 <a href="https://i.imgur.com/8zRjiJI.png" target="_blank"><img src="https://i.imgur.com/8zRjiJI.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/7JHcAPj.png" target="_blank"><img src="https://i.imgur.com/7JHcAPj.png" style="width:340px"  /></a>
+<a href="https://i.imgur.com/7JHcAPj.png" target="_blank"><img src="https://i.imgur.com/7JHcAPj.png" style="width:340px"  /></a> -->
 
 <h3>Table of Contents</h3>
 
@@ -37,9 +36,9 @@ sortKey: Fibonacci HDR Heart
 
 ### Details
 
-Fibonacci HDR Heart is a tiny, beautiful 42mm heart-shaped disc with 74 SK9822-EC20 HDR RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
+Fibonacci128 Flex Bracelet is a beautiful flexible PCB with 128 SK9822-EC20 HDR RGB LEDs surface mounted in a Fibonacci distribution.
 
-It consists of 74 SK9822-EC2020 HDR (High Dymanic Range) RGB LEDs, arranged into a <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.
+It consists of 128 SK9822-EC2020 HDR (High Dymanic Range) RGB LEDs, arranged into a <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.
 
 <!-- <a class="btn btn-success" href="https://www.tindie.com/products/23597">Buy on Tindie</a> -->
 
@@ -61,13 +60,11 @@ It has solder pads on the back that match the pinout of a [Pixelblaze V3 Pico by
 
 ### Specifications
 
-- Size: 1.65 x 1.42 x .063 inch (42.0 x 36.0 x 1.6 mm)
+- Size: 6.18 x 2.80 x .004 inch (157.0 x 71.25 x 0.11 mm)
 - 2 layer printed circuit board
-- FR4 substrate
-- Black or Purple SMOBC (solder mask over bare copper)
-- HASL (Hot Air Solder Leveling) or ENIG (electroless nickel immersion gold) Finish
+- Flex PCB with yellow coverlay
+- ENIG (electroless nickel immersion gold) Finish
 - Designed in the US by Evil Genius Labs
-- Some PCBs are manufactured in the US by [OSH Park](https://oshpark.com)
 - Some are assembled in the US by Evil Genius Labs
 
 ### Pixelblaze Map
@@ -80,7 +77,7 @@ To treat the board as a matrix, you can use a pixel map. A 2D XY map can allow y
 
 This map can be copied and pasted into the Pixel Mapper in the Mapper tab of your Pixelblaze web interface.
 
-View in [LED Mapper](https://jasoncoon.github.io/led-mapper/?p=NrBMoOgFgZgGlDCA2AunMAOCiEFYIBGATnWBgAZpQEB2CYvMmQiC4uFnNDUewmjCSFCZPkTwJiEWqDFQGHUMiJQxSWrSkQ8c3q1CYEK2pjKEqeZJwV7g-QZGR2FFI6GnFa5mTWUQYUl4ZLRIZMwwkTCgEDW8MAkxJcXYybDx3aSgg4BFwzipaNQxCAkJrShRREuwoa0MdcwVouiJ43NYWYxQc9OSFWiYMFWRk1kxq4AJBuEJsOwJiGMJbGDFChCrzFWy4BVhzJDc4fgpzKlHZqhh26SFZpEYyaTnZ+jw1kqpQGNBCnlykAysRwQ1yJiUChgYNK3AQBk+uWE1jmqnMkCSswGOUIj0Is1Y2W2RHg6XaYS6Kg86hwMWaETAL3g73aoDK+PoyByoFYeBi2Ew5OwtHxFgYDPKDBouIgSWJeA4hHoMDsYVePIYiLCyFC2GQxTAlkVA0m4AYkgEOAZ-lxBLYpukRSuDEmQmgKNYXjIUCoFHqtmY2HufwCAOhMkVysRKpQRlhLDE0g8WPdYkWKIUT14Rwt9DcNPgIeQpvoylmQejF0V6VdSB1CCouOY9Qx0foUGSKmhzHomA4lRgDJgCn1nE60ds7k5ORj7gUGWY3xbATB-l08J0pFQQA)
+View in [LED Mapper](https://jasoncoon.github.io/led-mapper/?c=JYSAHiCeBQAMIA4AsA6ArAJhBtKBsC0AjCEbLrCRgOz5HRZFGoZYDMRKT0bpGsKagE4QbXGkJI+uaiSQDh0NHyEo2vJHnTVoeUkVVDqIJKgR5oxphWNtVsQglKxaQ3usE6RQ3EJEYEFAQ2YngyAQ5RFkImZ0C8ZXkUIQsiRiI2QRNaJCFiXjJaOUC0YikyTjwpJIQMYmUEVQlRBWI9NyCpNlpqHSIrWAEkOVo8VKcO4RNUXOIRBCLbWm6GeARfatRMBhJalBxRThSGLGF8J2H9kIxeai2TXDw8jCkCFFgNHIZlai08W1wbAsGD01AERGUdnQ12MeE4sD0mnw1ycIP2iJ6hAw-iGiJm9DYYVwzBM4NKkTS71R4jqbEYWgCLWS5N4GE4GVEjyQPCkaLQIih5MhGDoJhF3KBolUWFM+x4xiRktlOjYTjQLERmTQBJEeEySFsqkk8Ce6HYIru0GGIDQRT03TU9CQMsCB1V+x0SA0ChIDrEVq6qAcnPenuUASuh3weU02EyaWwXwNpEC1HDIo4VqcEK45S0aAsuT4juc+1KaDCtFYpGSFm1pFUdkQKCQ5awrBbJGYLfLrK0FKNOnVUaoW0IaEhWgQVECzqUmvQTg4XDytptnF+ohFtqUTjw266nHHImomVVia4pTw8Ft738rgscOygn8WkouhlPuwIqeuncFD0IhAhWKomTXDIPV0cMilOdBuTGbBUAQzg6V0WwLRrU9dCXGRbkEK8BUMKxMhBSx4FbfBlCArgQlkG0z15EUIUsLAEnecNUD8SxeGvFtWQEBxLCkbV0Co0o0wefB2h7SxEU4flRBbHRenXZI8OY6g1WAgpMl-KYwTUcN6AQE0tAMUgzDyacbXiVi6GgWoQDY5pXQsYIQE0rhvzUKypGoEUhGzEjHGUf5zkw0pzA83TXhbOoFg8+xANwBBHCcEygnmLhjPmcRITUaAhDWGRyhFQghBICr0GbCRCsYJJYBEYkLDcUg2CDYwRRwQrygREsfzyHwQECu8PPwOoUkQBkClUXpCuMIQOtIXBSMC5xUE04b9kGkQmBIsbYDqcI+AUJzBBCCo+FoAsxoq0JGA8BKyG20IdNUJ8IIIUJymVKxXBicgLO3PQ0TnMhAIdRy2UEI6XDajNylocxQmzNFYhzd8yF2gx2LatQ+jIfQBCEB6XqYLtBiCMTxuIBMSdFaGCYKPq7hTIIjpJaxknKaUYghPgzyMztacA7FtEQ-DaeIswqHsbkmCC1QSXargOd251RShdZiH4CyVpMMz6DSLsHT1A2ghiasMiQi5iZ1nSFHYXBNB10rHlsBQLoOJhGxBqc+hBfQUNZVB+h1gZ4BufYMCAA)
 
 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 
@@ -95,7 +92,7 @@ View in [LED Mapper](https://jasoncoon.github.io/led-mapper/?p=NrBMoOgFgZgGlDCA2
     <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
       <div class="panel-body">
         <pre>
-[[22.43,23.6],[28.23,25.19],[30.42,27.95],[31.09,31.26],[27.12,33.11],[27.15,29.72],[24.99,26.14],[23.77,29.52],[21.28,26.78],[10.56,34.2],[7.12,32.62],[4.08,29.97],[1.72,26.39],[2.77,19.78],[3.84,23.77],[5.85,27.09],[8.58,29.49],[11.78,30.74],[15.16,30.61],[18.46,28.5],[14.84,27.17],[11.31,26.69],[8.55,24.75],[6.65,21.81],[5.75,18.2],[5.94,14.23],[20.7,2.61],[16.49,4.43],[13.08,7.10],[10.65,10.37],[9.33,13.95],[9.18,17.53],[10.24,20.76],[12.58,23.25],[16.79,24.35],[15.26,21.23],[13.16,18.14],[12.85,14.79],[13.91,11.49],[16.13,8.57],[19.31,6.29],[23.24,4.88],[29.13,7.57],[25.11,7.69],[21.54,8.87],[18.71,10.98],[16.92,13.85],[16.59,17.32],[19.18,21.93],[19.67,18.64],[20.59,14.71],[22.95,12.28],[26.13,11.01],[29.74,10.91],[33.46,11.97],[40.06,24.2],[38.33,20.36],[35.79,17.33],[32.68,15.31],[29.29,14.46],[25.96,14.95],[23.05,17.08],[23.3,20.61],[27.26,18.33],[30.69,18.51],[33.67,20.13],[36,22.83],[37.45,26.35],[37.89,30.38],[34.64,31.33],[34.28,27.69],[32.8,24.58],[30.26,22.35],[26.52,21.59]]
+[[84.52,25.68],[105.01,27.61],[114.22,31.11],[120.79,35.58],[125.71,40.79],[129.33,46.57],[119.97,44.86],[115.07,39.08],[107.93,33.77],[95.99,28.83],[100.31,34.28],[108.65,40.96],[113.7,47.49],[107.1,48.5],[101.64,40.82],[89.58,30.7],[93.84,37.77],[100.41,47.66],[93.79,44.49],[87.17,37.37],[85.94,44.52],[82.25,31.96],[79.68,41.23],[74.5,45.69],[68.03,47.4],[76.67,35.36],[70.15,39.53],[61.06,46.63],[26.26,47.78],[20.46,44.41],[15.14,40.15],[12.08,25.52],[16.28,30.95],[21.13,35.64],[26.59,39.5],[32.61,42.4],[39.2,44.2],[46.36,44.7],[54.26,43.51],[63.47,39.8],[69.52,32.74],[57.16,37.31],[48.25,38.27],[40.71,37.35],[34.08,35.07],[28.23,31.69],[23.12,27.4],[18.75,22.31],[15.14,16.56],[12.31,10.25],[17.22,1.96],[19.39,8.45],[22.41,14.45],[26.31,19.87],[31.1,24.58],[36.81,28.42],[43.58,31.19],[51.76,32.57],[62.54,31.8],[73.38,27.15],[57.09,27.96],[47.79,26.01],[40.71,22.69],[35.06,18.37],[30.57,13.27],[27.12,7.54],[24.66,1.32],[32.7,1.73],[35.73,7.75],[39.97,13.26],[45.65,18.13],[53.34,22.15],[65.05,24.99],[60.43,20.08],[51.55,15],[45.66,9.45],[41.59,3.47],[51.93,7.15],[58.33,13.69],[70.35,21],[66.19,14.89],[58.62,6.61],[65.58,8.26],[78.1,22.39],[72.98,13.28],[67.68,1.75],[73.64,6.42],[79.06,15.88],[80.89,8.11],[85.55,3.3],[85.74,12.8],[91.5,8.58],[140.09,5.16],[134.07,2.25],[106.31,2.69],[98.09,7.62],[86.23,19.77],[94.07,15.26],[104.78,9.29],[113.2,7.02],[120.7,6.73],[127.56,7.91],[133.87,10.29],[139.61,13.68],[144.77,17.98],[142.56,26.42],[137.82,21.72],[132.34,17.86],[126.11,15.01],[119.05,13.37],[110.92,13.29],[100.85,15.62],[92.61,21.7],[106.74,18.82],[115.94,19.28],[123.35,21.41],[129.57,24.75],[134.81,29.04],[139.14,34.12],[142.61,39.85],[145.2,46.11],[137.63,46.88],[134.68,40.9],[130.72,35.46],[125.67,30.73],[119.36,26.87],[111.33,24.17],[100,23.22]]
         </pre>
       </div>
     </div>
