@@ -67,3 +67,42 @@ The three mounting holes are surrounded by capacitive touch compatible pads. The
 ### Code
 
 Open source touch demo: [https://github.com/jasoncoon/fibonacci128-touch-demo](https://github.com/jasoncoon/fibonacci128-touch-demo)
+
+### Assembly Instructions
+
+**Note**: Double-check the position, alignment, and orientation of each component very carefully before soldering!
+
+If you're new to soldering, I highly recommend reading through a good soldering tutorial, such as the ones by [Adafruit](https://learn.adafruit.com/adafruit-guide-excellent-soldering) and [SparkFun](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering).
+
+<img src="https://imgur.com/WVNHbnu.png" class="img-responsive" />
+
+1. Find a clean spot on your soldering workspace. I used a piece of heavy card stock. Carefully place the board with the LEDs facing down and the bottom of the board facing up.
+1. **VERY** carefully check polarity before connecting 5V and GND.
+1. Either:
+  * Solder wires to the pads on the back of the Fibonacci PCB and connect them to your microcontroller.
+  * Or:
+  * Carefully align a Pixelblaze V3 Pico Adafruit QT Py, Seeeduino XIAO, or another controller with an identical footprint with the pads on the back of the Fibonacci PCB. Solder the pads.
+1. Each XL-1010RGBC-WS2812B can theoretically draw 15mA at full brightness, solid white color. 128 of them can theoretically draw 1.92A. I've found tha is blindingly bright, and brightness should be drastically reduced to keep current draw and heat down.
+1. Keep an eye on the temperature of the PCB and especially the connectors. High temperatures can reduce the life of the LEDs. When possible, ensure air can flow, either passively (ventilation) or actively (exhaust fan).
+1. If using a Pixelblaze V3 Pico, I suggest using the low power settings (reduce the global brightness, CPU clock speed, and/or disable wi-fi) to reduce power usage and heat.
+1. If using FastLED, I suggest using its [power management](https://github.com/FastLED/FastLED/wiki/Power-notes#managing-power-in-fastled) to limit the maximum brightness to a reasonable amount, well under the maximum your power supply is rated for.
+
+### Case Assembly Instructions
+
+1. Peel and remove any protective plastic and/or paper film from the acrylic.
+1. Insert M2x10mm Button Head Hex Screws into the holes in the matte side of the acrylic face plate.
+1. Carefully center and place the Fibonacci PCB onto the screws, with the LED side facing the glossy side of the acrylic face plate.
+1. Center and place the back plate onto the screws. The back plate should fit flush against the back of the PCB.
+1. Hand-tighten M2 Hex Nuts onto the screws.
+
+<img src="https://i.imgur.com/ZzV4tmQ.png" class="img-responsive" />
+
+<img src="https://i.imgur.com/efgJYpx.png" class="img-responsive" />
+
+<img src="https://i.imgur.com/T5P69iY.png" class="img-responsive" />
+
+<img src="https://i.imgur.com/kI99DoD.png" class="img-responsive" />
+
+<img src="https://i.imgur.com/LtrPo5c.png" class="img-responsive" />
+
+<img src="https://i.imgur.com/TDmzpqu.png" class="img-responsive" />
