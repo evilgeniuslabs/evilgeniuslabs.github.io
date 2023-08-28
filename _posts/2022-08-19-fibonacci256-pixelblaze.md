@@ -16,6 +16,8 @@ sortKey: Fibonacci0256pb
 
 <a href="https://i.imgur.com/D4qEjgU.gif" target="_blank"><img src="https://i.imgur.com/D4qEjgU.gif" style="width:340px"  /></a>
 
+<a class="btn btn-success" href="https://www.tindie.com/products/19429">Buy on Tindie</a>
+
 <!-- <a href="https://i.imgur.com/ej7igQO.png" target="_blank"><img src="https://i.imgur.com/ej7igQO.png" style="width:340px"  /></a>
 <a href="https://i.imgur.com/fKj1V7K.png" target="_blank"><img src="https://i.imgur.com/fKj1V7K.png" style="width:340px"  /></a>
 <a href="https://i.imgur.com/RHiNHaU.png" target="_blank"><img src="https://i.imgur.com/RHiNHaU.png" style="width:340px"  /></a>

@@ -24,6 +24,8 @@ sortKey: Fibonacci0064 Flower
 
 <a href="https://i.imgur.com/Vmn2bnJ.png" target="_blank"><img src="https://i.imgur.com/Vmn2bnJ.png" style="width:340px" /></a><a href="https://i.imgur.com/e2azNfa.png" target="_blank"><img src="https://i.imgur.com/e2azNfa.png" style="width:340px" /></a><a href="https://i.imgur.com/rmweViq.png" target="_blank"><img src="https://i.imgur.com/rmweViq.png" style="width:340px" /></a><a href="https://i.imgur.com/cOuoA0N.png" target="_blank"><img src="https://i.imgur.com/cOuoA0N.png" style="width:340px" /></a><a href="https://i.imgur.com/2z8lGsd.png" target="_blank"><img src="https://i.imgur.com/2z8lGsd.png" style="width:340px" /></a>
 
+<a class="btn btn-success" href="https://www.tindie.com/products/26864">Buy on Tindie</a>
+
 <h3>Table of Contents</h3>
 
 - TOC
