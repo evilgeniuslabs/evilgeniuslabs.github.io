@@ -21,6 +21,8 @@ sortKey: Fibonacci0512pb
 <a href="https://i.imgur.com/RHiNHaU.png" target="_blank"><img src="https://i.imgur.com/RHiNHaU.png" style="width:340px"  /></a>
 <a href="https://i.imgur.com/FUcgUAu.png" target="_blank"><img src="https://i.imgur.com/FUcgUAu.png" style="width:340px"  /></a>
 
+<a class="btn btn-success" href="https://www.tindie.com/products/23600">Buy on Tindie</a>
+
 <h3>Table of Contents</h3>
 
 - TOC
