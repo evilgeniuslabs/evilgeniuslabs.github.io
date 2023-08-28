@@ -22,6 +22,8 @@ sortKey: Fibonacci0128 One Inch
 <a href="https://i.imgur.com/WPtWVOj.png" target="_blank"><img src="https://i.imgur.com/WPtWVOj.png" style="width:340px"  /></a>
 <a href="https://i.imgur.com/WVNHbnu.png" target="_blank"><img src="https://i.imgur.com/WVNHbnu.png" style="width:340px"  /></a>
 
+<a class="btn btn-success" href="https://www.tindie.com/products/31672">Buy on Tindie</a>
+
 <h3>Table of Contents</h3>
 
 - TOC
