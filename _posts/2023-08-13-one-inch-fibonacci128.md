@@ -14,13 +14,19 @@ redirect_from:
 sortKey: Fibonacci0128 One Inch
 ---
 
-<video class="post" poster="//i.imgur.com/XS34sOM.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
+<video class="post" poster="//i.imgur.com/XS34sOM.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop" style="width:684px">
    <source src="//i.imgur.com/XS34sOM.mp4" type="video/mp4">
 </video>
 
-<a href="https://i.imgur.com/hJaM5kV.png" target="_blank"><img src="https://i.imgur.com/hJaM5kV.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/WPtWVOj.png" target="_blank"><img src="https://i.imgur.com/WPtWVOj.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/WVNHbnu.png" target="_blank"><img src="https://i.imgur.com/WVNHbnu.png" style="width:340px"  /></a>
+<a href="https://i.imgur.com/WVNHbnu.png" target="_blank"><img src="https://i.imgur.com/OPSRQJg.png" style="width:340px" /></a>
+<a href="https://i.imgur.com/hJaM5kV.png" target="_blank"><img src="https://i.imgur.com/hJaM5kV.png" style="width:340px" /></a>
+<a href="https://i.imgur.com/WPtWVOj.png" target="_blank"><img src="https://i.imgur.com/WPtWVOj.png" style="width:340px" /></a>
+<a href="https://i.imgur.com/WVNHbnu.png" target="_blank"><img src="https://i.imgur.com/WVNHbnu.png" style="width:340px" /></a>
+
+
+<a href="https://i.imgur.com/WVNHbnu.png" target="_blank"><img src="https://i.imgur.com/VtUPc6D.png" style="width:340px" /></a>
+<a href="https://i.imgur.com/WVNHbnu.png" target="_blank"><img src="https://i.imgur.com/nbgX3uo.png" style="width:340px" /></a>
+<a href="https://i.imgur.com/WVNHbnu.png" target="_blank"><img src="https://i.imgur.com/YPEkYqr.png" style="width:340px" /></a>
 
 <a class="btn btn-success" href="https://www.tindie.com/products/31672">Buy on Tindie</a>
 
