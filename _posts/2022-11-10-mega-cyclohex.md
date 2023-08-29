@@ -24,7 +24,6 @@ sortKey: Mega CycloHex
 </div>
 
 <a href="//i.imgur.com/Sz3XCdu.jpg" target="_blank"><img src="//i.imgur.com/Sz3XCdu.jpg" style="width:340px" /></a>
-
 <a href="//i.imgur.com/SecOW6S.png" target="_blank"><img src="//i.imgur.com/SecOW6S.png" style="width:340px" /></a><a href="//i.imgur.com/hsf6LRW.png" target="_blank"><img src="//i.imgur.com/hsf6LRW.png" style="width:340px" /></a>
 
 <h3>Table of Contents</h3>

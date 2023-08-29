@@ -17,11 +17,11 @@ redirect_from:
 sortKey: Fibonacci HDR Heart
 ---
 
-<video class="post" poster="//i.imgur.com/XFR7m2E.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
+<video class="post" poster="//i.imgur.com/XFR7m2E.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop" style="width:684px">
    <source src="//i.imgur.com/XFR7m2E.mp4" type="video/mp4">
 </video>
 
-<video class="post" poster="//i.imgur.com/VIlJk3Y.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
+<video class="post" poster="//i.imgur.com/VIlJk3Y.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop" style="width:684px">
    <source src="//i.imgur.com/VIlJk3Y.mp4" type="video/mp4">
 </video>
 
