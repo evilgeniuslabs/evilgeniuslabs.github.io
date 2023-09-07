@@ -30,6 +30,8 @@ sortKey: Fibonacci HDR Heart
 <a href="https://i.imgur.com/8zRjiJI.png" target="_blank"><img src="https://i.imgur.com/8zRjiJI.png" style="width:340px"  /></a>
 <a href="https://i.imgur.com/7JHcAPj.png" target="_blank"><img src="https://i.imgur.com/7JHcAPj.png" style="width:340px"  /></a>
 
+<a class="btn btn-success" href="https://www.tindie.com/products/31784">Buy on Tindie</a>
+
 <h3>Table of Contents</h3>
 
 - TOC
@@ -83,7 +85,6 @@ This map can be copied and pasted into the Pixel Mapper in the Mapper tab of you
 View in [LED Mapper](https://jasoncoon.github.io/led-mapper/?p=NrBMoOgFgZgGlDCA2AunMAOCiEFYIBGATnWBgAZpQEB2CYvMmQiC4uFnNDUewmjCSFCZPkTwJiEWqDFQGHUMiJQxSWrSkQ8c3q1CYEK2pjKEqeZJwV7g-QZGR2FFI6GnFa5mTWUQYUl4ZLRIZMwwkTCgEDW8MAkxJcXYybDx3aSgg4BFwzipaNQxCAkJrShRREuwoa0MdcwVouiJ43NYWYxQc9OSFWiYMFWRk1kxq4AJBuEJsOwJiGMJbGDFChCrzFWy4BVhzJDc4fgpzKlHZqhh26SFZpEYyaTnZ+jw1kqpQGNBCnlykAysRwQ1yJiUChgYNK3AQBk+uWE1jmqnMkCSswGOUIj0Is1Y2W2RHg6XaYS6Kg86hwMWaETAL3g73aoDK+PoyByoFYeBi2Ew5OwtHxFgYDPKDBouIgSWJeA4hHoMDsYVePIYiLCyFC2GQxTAlkVA0m4AYkgEOAZ-lxBLYpukRSuDEmQmgKNYXjIUCoFHqtmY2HufwCAOhMkVysRKpQRlhLDE0g8WPdYkWKIUT14Rwt9DcNPgIeQpvoylmQejF0V6VdSB1CCouOY9Qx0foUGSKmhzHomA4lRgDJgCn1nE60ds7k5ORj7gUGWY3xbATB-l08J0pFQQA)
 
 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-
   <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="headingOne">
       <h4 class="panel-title">
@@ -100,5 +101,15 @@ View in [LED Mapper](https://jasoncoon.github.io/led-mapper/?p=NrBMoOgFgZgGlDCA2
       </div>
     </div>
   </div>
-
 </div>
+
+### Instructions
+
+All instructions are identical to the rounnd Lux Lavalier, other than:
+
+* The shape of the pendant.
+* The Pixelblaze Pico sits horizontally on the heart rather than vertically on the circle.
+* In the Pixelblaze settings, set Pixels to 74 for the Heart, rather than 64 for the circle.
+* In the Pixelblaze Mapper, use the map [above](#pixelblaze-map).
+
+https://luxlavalier.com/start
