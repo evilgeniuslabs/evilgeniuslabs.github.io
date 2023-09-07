@@ -105,11 +105,11 @@ View in [LED Mapper](https://jasoncoon.github.io/led-mapper/?p=NrBMoOgFgZgGlDCA2
 
 ### Instructions
 
-All instructions are identical to the rounnd Lux Lavalier, other than:
+All instructions are identical to the rounnd [Lux Lavalier](https://luxlavalier.com/start), other than:
 
 * The shape of the pendant.
 * The Pixelblaze Pico sits horizontally on the heart rather than vertically on the circle.
 * In the Pixelblaze settings, set Pixels to 74 for the Heart, rather than 64 for the circle.
 * In the Pixelblaze Mapper, use the map [above](#pixelblaze-map).
 
-https://luxlavalier.com/start
+[https://luxlavalier.com/start](https://luxlavalier.com/start)
