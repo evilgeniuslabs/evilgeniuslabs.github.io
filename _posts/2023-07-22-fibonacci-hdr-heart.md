@@ -175,7 +175,7 @@ If the solder is sticking to the iron but not the pads, you may not be heating t
    Repeat until the wires are fairly straight. They do not need to be perfectly straight,
    and may still have a curve to them.
 
-   <img src="/images/heart/necklace/ll-necklace-1.jpg" class="img-thumbnail" />
+   <img src="/images/heart/ll-necklace-1.jpg" class="img-thumbnail" />
 
 1. Your Lux Lavalier necklace wires will come approximately between 24" and 26".
    The wires will need to be trimmed to the length you desire.
@@ -197,13 +197,13 @@ If the solder is sticking to the iron but not the pads, you may not be heating t
    shorter. Measure twice, cut once.
    Cut the ends of the wires.
 
-   <img src="/images/heart/necklace/ll-necklace-2.jpg" class="img-thumbnail" />
+   <img src="/images/heart/ll-necklace-2.jpg" class="img-thumbnail" />
 
 1. Strip about 1/8" (3mm) of insulation off both ends of the wires. The insulation is relatively
    soft silicone, and can usually be stripped off by pinching it between your fingernails.
    If you use wire cutters or strippers, be careful not to cut any of the metal wire strands inside.
 
-   <img src="/images/heart/necklace/ll-necklace-3.jpg" class="img-thumbnail" />
+   <img src="/images/heart/ll-necklace-3.jpg" class="img-thumbnail" />
 
 1. Using a soldering iron and solder, tin the ends of both wires, melting and completely saturating
    and covering the ends.
@@ -219,7 +219,7 @@ If the solder is sticking to the iron but not the pads, you may not be heating t
 
    Ensure the GND and DATA pads are not bridged or connected with solder.
 
-   <img src="/images/heart/necklace/heart-assembly-2.jpg" class="img-thumbnail" />
+   <img src="/images/heart/heart-assembly-2.jpg" class="img-thumbnail" />
 
 1. Repeat for the other end of the wire and the 5V pad.
 
