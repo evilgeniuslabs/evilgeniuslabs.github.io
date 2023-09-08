@@ -13,6 +13,7 @@ redirect_from:
   - /minnow
   - /manta
   - /ifixit-mako-driver-kit-labels
+  - /ifixit-mako-64-bit-labels
 ---
 
 <h3>Table of Contents</h3>
