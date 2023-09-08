@@ -1,16 +1,26 @@
 ---
 layout: post
-title: iFixit Mako Driver Kit Labels
-sortKey: iFixit Mako Driver Kit Labels
-id: ifixit-mako-driver-kit-labels
-excerpt: iFixit Mako Driver Kit Labels
+title: iFixit Driver Kit Labels
+sortKey: iFixit Driver Kit Labels
+id: ifixit-driver-kit-labels
+excerpt: iFixit Driver Kit Labels
 imgurId: wzHkifX
 published: true
 redirect_from:
   - /50
   - /ifixit
   - /mako
+  - /minnow
+  - /manta
+  - /ifixit-mako-driver-kit-labels
 ---
+
+<h3>Table of Contents</h3>
+
+- TOC
+{:toc}
+
+### Details
 
 I really like my [iFixit Mako driver kit](https://amzn.to/3G3txky), but the labels molded into the foam are really hard to read.
 
@@ -30,4 +40,16 @@ Labels:
 PNG:
 <a target="_blank" href="https://imgur.com/C5880Dc.png"><img src="https://imgur.com/C5880Dc.png" style="width:340px" class="img-responsive" /></a>
 
-<a class="btn btn-success" href="/images/ifixit-mako-64-bit-labels.svg">Download SVG</a> (right-click, Save Link As...)
+### Downloads
+
+#### Mako Driver Kit (64 Bit)
+
+<a class="btn btn-success" href="/images/ifixit-mako-64-bit-labels.svg">Download Mako Template SVG</a> (right-click, Save Link As...)
+
+#### Manta Driver Kit (112 Bit)
+
+<a class="btn btn-success" href="/images/ifixit-manta-112-bit-labels.svg">Download Manta Template SVG</a> (right-click, Save Link As...)
+
+#### Minnow Driver Kit (16 Bit)
+
+<a class="btn btn-success" href="/images/ifixit-minnow-16-bit-labels.svg">Download Minnow Template SVG</a> (right-click, Save Link As...)
