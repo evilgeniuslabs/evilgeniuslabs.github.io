@@ -113,3 +113,181 @@ All instructions are identical to the rounnd [Lux Lavalier](https://luxlavalier.
 * In the Pixelblaze Mapper, use the map [above](#pixelblaze-map).
 
 [https://luxlavalier.com/start](https://luxlavalier.com/start)
+
+### Assembly Instructions
+
+### PCB Assembly Instructions
+
+##### Soldering Notes:
+
+If you're new to soldering, we highly recommend reading through a good soldering tutorial,
+such as the ones by [Adafruit](https://learn.adafruit.com/adafruit-guide-excellent-soldering)
+and [SparkFun](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering).
+
+We recommend using only lead-free solder and a good quality, temperature-controlled soldering iron set to 750F/400C.
+
+When soldering, clean the soldering tip often. We recommend using a brass wire sponge. After cleaning, melt a small amount of solder onto the tip of the iron.
+
+Using the high 750F/400C temperature should mean that you don't need to heat the pads for more than a few seconds at at time. This allows you to work more quickly and avoid overheating and damaging the pads or any components.
+
+If you're having a hard time getting the solder to melt, check your temperature.
+
+If the solder is sticking to the iron but not the pads, you may not be heating the pads long enough, but it should only take a few seconds. You can use soldering flux, which may help.
+
+---
+
+##### Soldering the Pixelblaze Pico onto the back of the Fibonacci HDR Heart board:
+
+1. Note where and how the Pixelblaze Pico aligns with the outline on the back of the Fibonacci board,
+   and how the contacts line up.
+
+   <img src="/images/heart/heart-assembly-1.jpg" class="img-thumbnail" />
+
+1. Tin the 5V pad by melting a blob of solder onto it.
+
+1. Carefully align the Pico with the outline and contacts on the back of the Fibonacci board,
+   and reheat the solder blob on the 5V pad, while holding both boards in place.
+   Remove the soldering iron, wait for the solder blob to cool.
+
+   Check the alignment. If it's not centered, reheat the solder blob, re-align it,
+   and repeat as necessary until it's aligned correctly.
+
+   Ensure the end of the Pico does not extend past the edge of the Fibonacci board!
+
+1. Once again, check the alignment. <b>Do not proceed</b> until it's aligned correctly.
+   See the step above if it's not.
+
+   Solder the GND pad. Make sure you get a nice smooth fillet of solder on the pads.
+   Use plenty of solder on the pad, then inside the pin header hole.
+
+1. Repeat for the Data, CLK, and 5V pads, making sure to use plenty of solder.
+   Ensure there are no bridged connections between the pads.
+
+1. Clean up any flux on the PCBs and contacts with isopropyl alcohol,
+   especially if you didn't use solder with no-clean flux.
+
+### Necklace Assembly Instructions
+
+##### Trimming and soldering the magnetic wearable battery connector necklace:
+
+1. Unwind, unwrap, and gently straighten the wires by holding the wire at the battery holder.
+   Gently grip the wire with your other hand and run it down the length of the wire.
+   Repeat until the wires are fairly straight. They do not need to be perfectly straight,
+   and may still have a curve to them.
+
+   <img src="/images/heart/necklace/ll-necklace-1.jpg" class="img-thumbnail" />
+
+1. Your Lux Lavalier necklace wires will come approximately between 24" and 26".
+   The wires will need to be trimmed to the length you desire.
+
+   Determine your desired length by holding the pendant where you'd like it to hang.
+   Then wrap the wires around to the back of your neck where the battery holder will rest
+   on the nape (base) of your neck, with one wire in each hand. Ensure the pendant still
+   rests where desired, pinch the wires on the back of your neck, then lay it out on a flat
+   surface.
+
+   Measure the distance between your hands. That's the total length we'll trim the
+   wires to, including the width of the battery holder.
+
+   Common necklace lengths are in two inch increments from 14" or 16" (for a "choker" necklace),
+   18" for a "princess", 20" to 24" for a "matinee", etc.
+
+1. I'll be trimming this one to 18" total length, so I laid it out with 9" in the center of the battery holder.
+   Straighten and lay out the wires. Leave a little extra on both ends of the wires, as you can always trim it
+   shorter. Measure twice, cut once.
+   Cut the ends of the wires.
+
+   <img src="/images/heart/necklace/ll-necklace-2.jpg" class="img-thumbnail" />
+
+1. Strip about 1/8" (3mm) of insulation off both ends of the wires. The insulation is relatively
+   soft silicone, and can usually be stripped off by pinching it between your fingernails.
+   If you use wire cutters or strippers, be careful not to cut any of the metal wire strands inside.
+
+   <img src="/images/heart/necklace/ll-necklace-3.jpg" class="img-thumbnail" />
+
+1. Using a soldering iron and solder, tin the ends of both wires, melting and completely saturating
+   and covering the ends.
+
+1. Place the wire on the GND pad, with the end of the wire pointing down, towards the edge of the
+   round PCB. Hold the wire in place. Tweezers can help to prevent burning your fingers.
+
+   Gently press the soldering iron down onto the wire, reheating the solder, until it
+   melts and joins with the solder blob on the GND pad on the PCB. Hold it in place,
+   remove the soldering iron, and wait until the solder cools and hardens before releasing.
+
+   Repeat as necessary until the wire and pad are completely covered with a nice compact solder joint.
+
+   Ensure the GND and DATA pads are not bridged or connected with solder.
+
+   <img src="/images/heart/necklace/heart-assembly-2.jpg" class="img-thumbnail" />
+
+1. Repeat for the other end of the wire and the 5V pad.
+
+1. Before proceeding, once again check to make sure there are no bridged solder joints between any of the pads.
+   If you have a multimeter, you can use it to make sure there is no conductivity (or infinite resistance)
+   between the pads.
+
+1. Before assembling the case, insert a 14500 3.7V rechargeable lithium battery (not alkaline AA!) with the
+   negative end against the spring in the battery holder. The light on the Pixelblaze Pico on the back should
+   blink, and then the LEDs on the front should light up.
+
+   Remove the battery before proceeding to assemble the case.
+
+### Case Assembly Instructions
+
+1. The front black acrylic may still have protective film on one or both sides.
+
+1. Gently remove any protective film before proceeding by scraping the edge with a
+   fingernail, thin plastic card, or plastic scraper. Do not use a metal object,
+   which could scratch the acrylic.
+
+1. Place the pendant on a flat surface with the back of the PCB facing up.
+   Carefully and gently bend the wires to point towards the outside edge of the PCB.
+
+1. Place the back plastic cover on the back of the PCB, lining up the the holes,
+   with the button tab towards the bottom and the wire holes towards the top.
+
+   Do not press it down flat yet.
+
+   <img src="/images/heart/heart-assembly-3.jpg" class="img-thumbnail" />
+
+1. Gently guide the wires through the slots, then up through the holes.
+   Gently press the back cover down until it's flat against the back of the PCB.
+
+   <img src="/images/heart/heart-assembly-4.jpg" class="img-thumbnail" />
+
+1. Align the holes in the acrylic and PCB, with the matte frosted side facing up and
+   the glossy side facing towards the PCB.
+
+1. Insert the M2 x 6mm black metal screws through the holes in the back plastic cover,
+   through the PCB, aligning them with the holes in the acrylic. Do not press the screws
+   in to the acrylic. The holes in the acrylic are just large enough for the screws to
+   thread into.
+
+   <img src="/images/heart/heart-assembly-5.jpg" class="img-thumbnail" />
+
+1. Gently thread and hand-tighten the M2 screws, making sure not to pinch the wires.
+   Do not over-tighten the screws, or the threads in the acrylic holes might strip.
+
+   The screws should not go all the way through the acrylic. There should be about 1mm
+   of space between the end of the screw and the front of the acrylic.
+
+   <img src="/images/heart/heart-assembly-6.jpg" class="img-thumbnail" />
+
+1. Repeat for each of the three screws.
+
+1. Align the bezel with the acrylic and place the clip on one side of the bezel over the side of the acrylic.
+
+1. Press a finger into the gap between the other side of the bezel and the acyrylic.
+
+1. Press the other clip, flexing it over the acrylic. It can take a fair amount of pressure, but the bezel should flex just enough to fit over the acrylic.
+
+   If needed, one of the bezel side clips can be trimmed with a knife or sanded with sandpaper to more easily fit over the acrylic.
+
+   <img src="/images/heart/heart-assembly-7.jpg" class="img-thumbnail" />
+
+   <img src="/images/heart/heart-assembly-8.jpg" class="img-thumbnail" />
+
+Congratulations! Your Lux Lavalier Heart is now fully assembled!
+
+   <img src="/images/heart/heart-assembly-9.jpg" class="img-thumbnail" />
