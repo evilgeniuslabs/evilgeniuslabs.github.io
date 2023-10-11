@@ -187,6 +187,13 @@ If you ever do need to reset to the Fibonacci256's default map, use these values
 
 Fibonacci256 comes with a wide variety of patterns built-in.
 By default, it will automatically play a playlist of pre-selected patterns.
+
+* Color Waves <a href="/downloads/f256pb/F256 Color Waves.epe"><i class="fa fa-download" aria-hidden="true"></i></a>
+* Pride <a href="/downloads/f256pb/F256 Pride.epe"><i class="fa fa-download" aria-hidden="true"></i></a>
+* Stars <a href="/downloads/f256pb/F256 Stars.epe"><i class="fa fa-download" aria-hidden="true"></i></a>
+* Palette Noise <a href="/downloads/Palette Noise.epe"><i class="fa fa-download" aria-hidden="true"></i></a>
+* Palettes Outward <a href="/downloads/Palettes Outward.epe"><i class="fa fa-download" aria-hidden="true"></i></a>
+
 The sequencer can be configured via the web interface over wi-fi in the following ways:
 
 ##### Pattern sequencer options:
