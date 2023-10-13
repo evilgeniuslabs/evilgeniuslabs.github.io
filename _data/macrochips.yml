@@ -268,6 +268,9 @@
 - name: Ralink RT2560F
   imgurId: KFb1o3t
 
+- name: Raspberry Pi RP1
+  imgurId: sP7vss8
+
 - name: Raspberry Pi RP2040
   imgurId: 8DAWWY7
 
