@@ -74,7 +74,7 @@ The three mounting holes are surrounded by capacitive touch compatible pads. The
 
 ### Code
 
-Open source touch demo: [https://github.com/jasoncoon/fibonacci128-touch-demo](https://github.com/jasoncoon/fibonacci128-touch-demo)
+Open source touch demo: [https://github.com/jasoncoon/fibonacci128-touch-demo/tree/f128-one-inch](https://github.com/jasoncoon/fibonacci128-touch-demo/tree/f128-one-inch)
 
 ### Assembly Instructions
 
