@@ -13,8 +13,14 @@
 - name: Altera Max 10 - 10M50DAF484C7G
   imgurId: raB2eBi
 
-- name: Analog Devices AD9361BBCZ
+- name: Analog Devices AD5941
   imgurId: Ouv0ttR
+
+- name: Analog Devices AD9361BBCZ
+  imgurId: W3BFSJS
+
+- name: Analog Devices MAX32664
+  imgurId: sYNAnZT
 
 - name: Apple A11
   imgurId: unCumdN
@@ -51,6 +57,9 @@
 
 - name: Atmel ATmega328P
   imgurId: qFj0rEs
+
+- name: Atmel ATmega328-MMH
+  imgurId: 61L3hpE
 
 - name: Atmel ATmega32u4
   imgurId: 5o8Z1Tt
