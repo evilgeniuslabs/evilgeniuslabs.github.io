@@ -23,12 +23,10 @@ sortKey: Fibonacci0064 Nano
    <source src="//i.imgur.com/p1UoRS3.mp4" type="video/mp4">
 </video>
 
-<a href="https://i.imgur.com/uc9KQOF.png" target="_blank"><img src="https://i.imgur.com/uc9KQOF.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/xbkqiP4.png" target="_blank"><img src="https://i.imgur.com/xbkqiP4.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/8WQzmK2.png" target="_blank"><img src="https://i.imgur.com/8WQzmK2.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/fiSf7fG.png" target="_blank"><img src="https://i.imgur.com/fiSf7fG.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/wqnRBvt.png" target="_blank"><img src="https://i.imgur.com/wqnRBvt.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/D2tefTW.png" target="_blank"><img src="https://i.imgur.com/D2tefTW.png" style="width:340px"  /></a>
+<a href="https://i.imgur.com/uc9KQOF.png" target="_blank"><img src="https://i.imgur.com/uc9KQOF.png" style="width:340px" /></a>
+<a href="https://i.imgur.com/xbkqiP4.png" target="_blank"><img src="https://i.imgur.com/xbkqiP4.png" style="width:340px" /></a>
+<a href="https://i.imgur.com/FSuA9x5.png" target="_blank"><img src="https://i.imgur.com/FSuA9x5.png" style="width:340px" /></a>
+<a href="https://i.imgur.com/7alAobq.png" target="_blank"><img src="https://i.imgur.com/7alAobq.png" style="width:340px" /></a>
 
 <h3>Table of Contents</h3>
 
@@ -96,7 +94,9 @@ Parts I used in my builds:
 
 ### Code
 
-Open source touch demo: [https://github.com/jasoncoon/fibonacci64-nano-touch-demo](https://github.com/jasoncoon/fibonacci64-nano-touch-demo)
+**Please note the code is in the `f64-nano` branch!**
+
+Open source touch demo: [https://github.com/jasoncoon/fibonacci64-touch-demo/tree/f64-nano](https://github.com/jasoncoon/fibonacci64-touch-demo/tree/f64-nano)
 
 ### Pixelblaze Map
 
@@ -135,7 +135,7 @@ This map can be copied and pasted into the Pixel Mapper in the Mapper tab of you
 
 If you're new to soldering, I highly recommend reading through a good soldering tutorial, such as the ones by [Adafruit](https://learn.adafruit.com/adafruit-guide-excellent-soldering) and [SparkFun](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering).
 
-<img src="https://imgur.com/MlFHURn.png" class="img-responsive" />
+<img src="https://imgur.com/s8TJPib.png" class="img-responsive" />
 
 1. Find a clean spot on your soldering workspace. I used a piece of heavy card stock. Carefully place the board with the LEDs facing down and the bottom of the board facing up.
 1. **VERY** carefully check polarity before connecting 5V and GND.
@@ -150,20 +150,21 @@ If you're new to soldering, I highly recommend reading through a good soldering 
 
 1. Peel and remove any protective plastic and/or paper film from the acrylic.
 1. Insert M2x6mm Button Head Hex Screw into the bottom hole in the matte side of the acrylic face plate.
-1. Insert M2x10mm Button Head Hex Screws into the remaining holes in the matte side of the acrylic face plate.
+1. Insert M2x8mm Button Head Hex Screws into the remaining holes in the matte side of the acrylic face plate.
 1. Hand-tighten M2 Hex Metal Nuts onto the screws, on the glossy side of the acrylic face plate.
 1. Carefully center and place the Fibonacci PCB onto the standoffs, with the LED side facing the glossy side of the acrylic face plate.
 1. Hand-tighten M2 Nylon Hex Standoffs onto the back side of the Fibonacci PCB.
-1. Center and place the acrylic back plate onto the standoffs.
-1. Hand-tighten M2 Hex Nuts onto the standoffs.
-1. Use flush cutters to trim off any excess nylon thread from the standoffs that is extending past the nuts on the back of the enclosure.
+1. Center and place the acrylic back plate on the standoffs.
+1. Insert and hand-tighten M2x6mm Button Head Hex Screws through the holes in the matte side of the acrylic back plate and into the standoffs.
 
-<img src="https://imgur.com/DOkFdhH.png" class="img-responsive" />
+<img src="https://imgur.com/IgkeZ4y.png" class="img-responsive" />
 
-<img src="https://imgur.com/qXFqE0q.png" class="img-responsive" />
+<img src="https://imgur.com/5wLlU37.png" class="img-responsive" />
 
-<img src="https://imgur.com/N5eCAiV.png" class="img-responsive" />
+<img src="https://imgur.com/lrDAsJk.png" class="img-responsive" />
 
-<img src="https://imgur.com/xCoDGG2.png" class="img-responsive" />
+<img src="https://imgur.com/tny8Nk9.png" class="img-responsive" />
 
-<img src="https://imgur.com/7dYP0jH.png" class="img-responsive" />
+<img src="https://imgur.com/WkulVtp.png" class="img-responsive" />
+
+<img src="https://imgur.com/FLlXkB8.png" class="img-responsive" />
