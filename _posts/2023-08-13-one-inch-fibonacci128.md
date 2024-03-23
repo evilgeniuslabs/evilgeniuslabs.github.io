@@ -18,15 +18,15 @@ sortKey: Fibonacci0128 One Inch
    <source src="//i.imgur.com/XS34sOM.mp4" type="video/mp4">
 </video>
 
-<a href="https://i.imgur.com/WVNHbnu.png" target="_blank"><img src="https://i.imgur.com/OPSRQJg.png" style="width:340px" /></a>
+<a href="https://i.imgur.com/OPSRQJg.png" target="_blank"><img src="https://i.imgur.com/OPSRQJg.png" style="width:340px" /></a>
 <a href="https://i.imgur.com/hJaM5kV.png" target="_blank"><img src="https://i.imgur.com/hJaM5kV.png" style="width:340px" /></a>
 <a href="https://i.imgur.com/WPtWVOj.png" target="_blank"><img src="https://i.imgur.com/WPtWVOj.png" style="width:340px" /></a>
 <a href="https://i.imgur.com/WVNHbnu.png" target="_blank"><img src="https://i.imgur.com/WVNHbnu.png" style="width:340px" /></a>
 
 
-<a href="https://i.imgur.com/WVNHbnu.png" target="_blank"><img src="https://i.imgur.com/VtUPc6D.png" style="width:340px" /></a>
-<a href="https://i.imgur.com/WVNHbnu.png" target="_blank"><img src="https://i.imgur.com/nbgX3uo.png" style="width:340px" /></a>
-<a href="https://i.imgur.com/WVNHbnu.png" target="_blank"><img src="https://i.imgur.com/YPEkYqr.png" style="width:340px" /></a>
+<a href="https://i.imgur.com/VtUPc6D.png" target="_blank"><img src="https://i.imgur.com/VtUPc6D.png" style="width:340px" /></a>
+<a href="https://i.imgur.com/nbgX3uo.png" target="_blank"><img src="https://i.imgur.com/nbgX3uo.png" style="width:340px" /></a>
+<a href="https://i.imgur.com/YPEkYqr.png" target="_blank"><img src="https://i.imgur.com/YPEkYqr.png" style="width:340px" /></a>
 
 <a class="btn btn-success" href="https://www.tindie.com/products/31672">Buy on Tindie</a>
 
@@ -89,10 +89,9 @@ If you're new to soldering, I highly recommend reading through a good soldering 
 1. Either:
   * Solder wires to the pads on the back of the Fibonacci PCB and connect them to your microcontroller.
   * Or:
-  * Carefully align a Pixelblaze V3 Pico Adafruit QT Py, Seeeduino XIAO, or another controller with an identical footprint with the pads on the back of the Fibonacci PCB. Solder the pads.
+  * Carefully align an Adafruit QT Py, Seeeduino XIAO, or another controller with an identical footprint with the pads on the back of the Fibonacci PCB. Solder the pads.
 1. Each XL-1010RGBC-WS2812B can theoretically draw 15mA at full brightness, solid white color. 128 of them can theoretically draw 1.92A. I've found tha is blindingly bright, and brightness should be drastically reduced to keep current draw and heat down.
 1. Keep an eye on the temperature of the PCB and especially the connectors. High temperatures can reduce the life of the LEDs. When possible, ensure air can flow, either passively (ventilation) or actively (exhaust fan).
-1. If using a Pixelblaze V3 Pico, I suggest using the low power settings (reduce the global brightness, CPU clock speed, and/or disable wi-fi) to reduce power usage and heat.
 1. If using FastLED, I suggest using its [power management](https://github.com/FastLED/FastLED/wiki/Power-notes#managing-power-in-fastled) to limit the maximum brightness to a reasonable amount, well under the maximum your power supply is rated for.
 
 ### Case Assembly Instructions
