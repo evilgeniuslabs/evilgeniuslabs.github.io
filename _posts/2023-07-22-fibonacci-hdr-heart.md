@@ -7,6 +7,7 @@ imgurId: XFR7m2E
 excerpt: Fibonacci HDR Heart is a tiny, beautiful 42mm heart-shaped disc with 74 SK9822-EC20 HDR RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
 categories: 
   - portfolio
+  - products
 published: true
 redirect_from:
   - /64

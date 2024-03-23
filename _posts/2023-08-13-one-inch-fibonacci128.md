@@ -6,6 +6,7 @@ imgurId: 9AMlrZH
 excerpt: One Inch Fibonacci 128 is a tiny, beautiful 25.4mm circular disc with 128 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
 categories: 
   - portfolio
+  - products
 published: true
 redirect_from:
   - /66
