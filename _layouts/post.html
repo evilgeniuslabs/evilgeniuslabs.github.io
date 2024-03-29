@@ -18,6 +18,18 @@ layout: default
 <br />
 {% endif %}
 
+{{ post.imgurId }}
+
+{% if post.imgurId != null %}
+<div class="embed-responsive embed-responsive-16by9">
+  <video class="post lazy" data-poster="//i.imgur.com/{{ post.imgurId }}.jpg" autoplay="autoplay" muted="muted" loop="loop">
+    <source data-src="//i.imgur.com/{{ post.imgurId }}.mp4" type="video/mp4">
+  </video>
+</div>
+<br />
+<br />
+{% endif %}
+
 {% if page.sourceUrl != null %}
 <p>
   <a href="{{ page.sourceUrl }}">More information and source code</a>
