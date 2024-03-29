@@ -15,6 +15,12 @@ redirect_from:
 sortKey: Fibonacci0128-hdr-86mm
 ---
 
+<div class="embed-responsive embed-responsive-16by9">
+  <video class="post lazy" data-poster="https://i.imgur.com/9m1VjmE.jpg" autoplay="autoplay" muted="muted" loop="loop">
+    <source data-src="https://i.imgur.com/9m1VjmE.mp4" type="video/mp4">
+  </video>
+</div>
+
 <h3>Table of Contents</h3>
 
 - TOC
