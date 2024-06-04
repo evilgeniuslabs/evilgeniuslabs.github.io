@@ -5,8 +5,8 @@ id: necklace-battery-holder-usb-c
 imgurId: rdRBsqF
 excerpt: Necklace battery holder for 14500 size 4.2V lithium batteries with USB-C plug on the end for connecting to 1" Fibonacci and other devices powered via USB-C.
 categories:
-  - portfolio
   - products
+#   - portfolio
 published: true
 redirect_from:
   - /usb-c-battery-necklace
