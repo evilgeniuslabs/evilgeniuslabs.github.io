@@ -388,6 +388,12 @@
 - name: Texas Instruments NE555P
   imgurId: R9MoCZ3
 
+- name: ublox M8
+  imgurId: TgiJXEu
+
+- name: ublox M9
+  imgurId: VdnotBm
+
 - name: WCH CH446Q
   imgurId: 0MMxaD1
 
