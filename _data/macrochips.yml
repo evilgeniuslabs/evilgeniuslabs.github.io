@@ -286,7 +286,7 @@
 - name: Raspberry Pi RP2040
   imgurId: 8DAWWY7
 
-- name: Raspberry Pi RP2350
+- name: Raspberry Pi RP2350B
   imgurId: Lol0IHa
 
 - name: Raspberry Pi RP3A0 - Zero 2 W SiP (Broadcom BCM2710A1)
