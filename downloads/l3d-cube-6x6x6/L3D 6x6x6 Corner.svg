@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 68.149077 68.603968"
+   width="68.149078"
+   height="68.603966"
+   version="1.1"
+   id="svg7"
+   sodipodi:docname="L3D 6x6x6 Corner.svg"
+   inkscape:version="1.4-beta3 (01c8a1ca, 2024-08-28)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="12.360801"
+     inkscape:cx="34.05928"
+     inkscape:cy="34.301983"
+     inkscape:window-width="1792"
+     inkscape:window-height="1067"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g7" />
+  <desc
+     id="desc1">L3D 6x6x6 Corner.dxf - scale = 1.000000, origin = (0.000000, 0.000000), method = manual</desc>
+  <defs
+     id="defs4">
+    <marker
+       id="DistanceX"
+       orient="auto"
+       refX="0"
+       refY="0"
+       style="overflow:visible">
+      <path
+         d="M 3,-3 -3,3 M 0,-5 V 5"
+         style="stroke:#000000;stroke-width:0.5"
+         id="path1" />
+    </marker>
+    <pattern
+       id="Hatch"
+       patternUnits="userSpaceOnUse"
+       width="8"
+       height="8"
+       x="0"
+       y="0">
+      <path
+         d="M8 4 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path2" />
+      <path
+         d="M6 2 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path3" />
+      <path
+         d="M4 0 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path4" />
+    </pattern>
+    <symbol
+       id="*MODEL_SPACE" />
+    <symbol
+       id="*PAPER_SPACE" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="0"
+     id="g7"
+     transform="translate(339.08141,-957.30849)">
+    <path
+       d="m -327.53512,957.80849 -10.68027,18.49875 h 18.59408 v 7.69534 l -15.22736,15.22735 21.91475,21.91477 15.14721,-15.1472 h 7.85562 v 19.0489 l 18.49876,-10.6802 v -39.54984 a 17.007874,17.007874 0 0 0 -17.00788,-17.00787 z"
+       style="fill:none;stroke:#000000"
+       id="path5" />
+    <path
+       d="m -307.91643,999.3148 a 5.102365,5.102365 0 0 0 -10.20473,0 5.102365,5.102365 0 0 0 10.20473,0 z"
+       style="fill:none;stroke:#000000"
+       id="path7" />
+  </g>
+</svg>
