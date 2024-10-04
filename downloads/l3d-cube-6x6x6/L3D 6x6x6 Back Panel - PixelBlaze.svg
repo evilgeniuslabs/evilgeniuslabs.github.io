@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="svgcontent"
+   width="141.88571mm"
+   height="169.35335mm"
+   viewBox="0 0 1418.8571 1693.5335"
+   data-top="27"
+   data-left="-179"
+   data-zoom="0.475"
+   data-workarea="fbm1"
+   data-en_af="false"
+   data-en_diode="false"
+   data-rotary_mode="null"
+   data-engrave_dpi="medium"
+   version="1.1"
+   sodipodi:docname="L3D 6x6x6 - Side - PixelBlaze.svg"
+   inkscape:version="1.4-beta3 (01c8a1ca, 2024-08-28)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview13"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.3248434"
+     inkscape:cx="268.3336"
+     inkscape:cy="320.03782"
+     inkscape:window-width="1792"
+     inkscape:window-height="1067"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svgcontent" />
+  <defs
+     id="defs10">
+    <symbol
+       id="svg_1"
+       data-bbox="{&quot;x&quot;:1.32037,&quot;y&quot;:1.32402,&quot;width&quot;:1415.65625,&quot;height&quot;:1689.99207}"
+       data-image-symbol="svg_1_image">
+      <defs
+         id="defs1">
+        <style
+           id="style1">#svg_1 *[data-color] ellipse[fill=none],
+        #svg_1 *[data-color] circle[fill=none],
+        #svg_1 *[data-color] rect[fill=none],
+        #svg_1 *[data-color] path[fill=none],
+        #svg_1 *[data-color] polygon[fill=none] {
+            fill-opacity: 0 !important;
+            stroke-width: 1px !important;
+            stroke-opacity: 1 !important;
+            vector-effect: non-scaling-stroke !important;
+        }
+
+        #svg_1 *[data-color] ellipse[stroke=none],
+        #svg_1 *[data-color] circle[stroke=none],
+        #svg_1 *[data-color] rect[stroke=none],
+        #svg_1 *[data-color] path[stroke=none],
+        #svg_1 *[data-color] polygon[stroke=none],
+        #svg_1 *[data-color] ellipse:not([stroke]),
+        #svg_1 *[data-color] circle:not([stroke]),
+        #svg_1 *[data-color] rect:not([stroke]),
+        #svg_1 *[data-color] path:not([stroke]),
+        #svg_1 *[data-color] polygon:not([stroke]) {
+            fill-opacity: 1 !important;
+            stroke-width: 0 !important;
+        }
+
+        *[data-wireframe] {
+            stroke-width: 1px !important;
+            stroke-opacity: 1.0 !important;
+            stroke-dasharray: 0 !important;
+            opacity: 1 !important;
+            vector-effect: non-scaling-stroke !important;
+            filter: none !important;
+        }
+
+        #svg_1 {
+            overflow: visible;
+        }</style>
+      </defs>
+      <g
+         id="g10">
+        <g
+           id="g9">
+          <path
+             fill="none"
+             stroke="#000000"
+             stroke-miterlimit="4"
+             d="m 1120.9765,126.32402 c 0,-5.53908 -2.9531,-10.65625 -7.75,-13.42578 -4.7968,-2.76953 -10.7031,-2.76953 -15.5,0 -4.7969,2.76953 -7.75,7.8867 -7.75,13.42578 0,5.53516 2.9531,10.65234 7.75,13.42186 4.7969,2.76955 10.7032,2.76955 15.5,0 4.7969,-2.76953 7.75,-7.8867 7.75,-13.42186 z"
+             id="path1" />
+          <path
+             fill="none"
+             stroke="#000000"
+             stroke-miterlimit="4"
+             d="m 323.97658,126.65996 c -0.004,-5.53516 -2.96093,-10.64453 -7.7539,-13.41017 -4.79295,-2.76561 -10.69922,-2.76561 -15.49217,0 -4.79298,2.76564 -7.7461,7.875 -7.7539,13.41017 0.008,5.53516 2.96093,10.64453 7.7539,13.41014 4.79295,2.76564 10.69922,2.76564 15.49217,0 4.79298,-2.76561 7.75002,-7.87498 7.7539,-13.41014 z"
+             id="path2" />
+          <path
+             fill="none"
+             stroke="#000000"
+             stroke-miterlimit="4"
+             d="m 1381.9765,542.82398 h -23 V 430.82399 h 23 z"
+             id="path3" />
+          <path
+             fill="none"
+             stroke="#000000"
+             stroke-miterlimit="4"
+             d="m 1381.9765,1529.8239 v 112 h -23 v -112 z"
+             id="path4" />
+          <path
+             fill="none"
+             stroke="#000000"
+             stroke-miterlimit="4"
+             d="M 1358.9765,1093.8239 V 981.82395 h 23 v 111.99995 z"
+             id="path5" />
+          <path
+             fill="none"
+             stroke="#000000"
+             stroke-miterlimit="4"
+             d="M 1416.9765,109.32401 V 36.64824 L 1381.6523,1.32401 H 56.9766 v 109.00001 h 60 v 32.99999 h -60 V 433.32398 H 32.97659 V 418.32399 L 27.9766,413.324 H 20.71098 L 1.47659,432.55836 v 66.53124 l 20.49999,21.23048 H 56.97659 V 984.32005 H 32.97658 v -15.00002 l -4.99999,-4.99999 H 20.71097 L 1.47658,983.55443 v 66.53127 l 20.49999,21.2304 h 35.00001 v 384 h 60 v 33 h -60 v 44 H 32.97657 v -15 l -4.99999,-5 h -8.52733 l -18.1289,18.1289 v 66.9492 l 21.08983,21.9219 h 34.56249 v 72 h 100 l 20.00001,-20 H 1236.9726 l 32,20 h 120 l 28,-28 v -175 l -119.9961,0.01 v -33 h 120 V 142.324 h -120 v -32.99999 h 120 z"
+             id="path6" />
+          <path
+             fill="none"
+             stroke="#000000"
+             stroke-miterlimit="4"
+             d="m 381.66019,1557.7067 c 0,-14.289 -7.62111,-27.4922 -20.00001,-34.6406 -12.37498,-7.1445 -27.62109,-7.1445 -39.99999,0 -12.37501,7.1484 -20.00001,20.3516 -20.00001,34.6406 0,14.293 7.625,27.4961 20.00001,34.6446 12.3789,7.1445 27.62501,7.1445 39.99999,0 12.3789,-7.1485 20.00001,-20.3516 20.00001,-34.6446 z"
+             id="path7" />
+          <path
+             fill="none"
+             stroke="#000000"
+             stroke-miterlimit="4"
+             d="M 678.28124,1516.8122 H 558.28126 c -5.52344,0 -10.00001,4.4766 -10.00001,10 v 60 c 0,5.5234 4.47656,10 10.00001,10 h 119.99998 c 5.52344,0 10.00001,-4.4765 10.00001,-10 v -60 c 0,-5.5234 -4.47656,-10 -10.00001,-10 z"
+             id="path8" />
+          <path
+             fill="none"
+             stroke="#000000"
+             stroke-miterlimit="4"
+             d="m 969.19529,1454.3239 c 0,-14.2929 -7.625,-27.4961 -19.99998,-34.6406 -12.37893,-7.1484 -27.62501,-7.1484 -39.99999,0 -12.37893,7.1445 -20.00001,20.3477 -20.00001,34.6406 0,14.2891 7.62108,27.4961 20.00001,34.6407 12.37498,7.1445 27.62107,7.1445 39.99999,0 12.37498,-7.1446 19.99998,-20.3516 19.99998,-34.6407 z"
+             id="path9" />
+        </g>
+      </g>
+    </symbol>
+    <symbol
+       overflow="visible"
+       id="svg_1_image"
+       data-origin-symbol="svg_1">
+      <image
+         x="1.32037"
+         y="1.32402"
+         width="1415.6562"
+         height="1689.9921"
+         id="image10" />
+    </symbol>
+  </defs>
+  <g
+     display="inline"
+     data-printingStrength="100"
+     data-kRatio="100"
+     data-yRatio="100"
+     data-mRatio="100"
+     data-cRatio="100"
+     data-wRepeat="1"
+     data-wMultipass="3"
+     data-wInk="-9"
+     data-wSpeed="100"
+     data-halftone="1"
+     data-uv="0"
+     data-multipass="3"
+     data-backlash="0"
+     data-module="1"
+     data-configName="0"
+     data-diode="0"
+     data-zstep="0"
+     data-height="-3"
+     data-repeat="2"
+     data-ink="3"
+     data-strength="50"
+     data-printingSpeed="60"
+     data-speed="6"
+     data-color="#3F51B5"
+     class="layer"
+     id="g11"
+     transform="translate(-127.00674,-389.24004)">
+    <title
+       id="title10">Outer Cuts</title>
+    <filter
+       color-interpolation-filters="sRGB"
+       primitiveUnits="userSpaceOnUse"
+       filterUnits="objectBoundingBox"
+       id="filter#3F51B5">
+      <feColorMatrix
+         values="1 0 0 0 0.24705882352941178, 0 1 0 0 0.3176470588235294, 0 0 1 0 0.7098039215686275, 0 0 0 1 0"
+         type="matrix"
+         id="feColorMatrix10" />
+    </filter>
+    <path
+       vector-effect="non-scaling-stroke"
+       data-original-layer="Outer Cuts"
+       data-ratiofixed="true"
+       transform="rotate(-0.11,835.97211,1236.026)"
+       id="svg_24"
+       fill="none"
+       stroke="#3f51b5"
+       stroke-miterlimit="4"
+       d="m 1543.8001,499.02999 v -72.67577 l -35.3242,-35.32423 H 183.80021 V 500.03 h 60 v 32.99999 h -60 V 823.02996 H 159.8002 v -14.99999 l -4.99999,-4.99999 h -7.26562 l -19.23439,19.23436 v 66.53124 l 20.49999,21.23048 H 183.8002 V 1374.026 h -24.00001 v -15 l -4.99999,-5 h -7.26562 l -19.23439,19.2344 v 66.5313 l 20.49999,21.2304 h 35.00001 v 384 h 60 v 33 h -60 v 44 h -24.00001 v -15 l -4.99999,-5 h -8.52733 l -18.1289,18.1289 v 66.9492 l 21.08983,21.9219 h 34.56249 v 72 h 100 l 20.00001,-20 H 1363.7962 l 32,20 h 120 l 28,-28 v -175 l -119.9961,0.01 v -33 h 120 V 532.02998 h -120 v -32.99999 z" />
+  </g>
+  <g
+     data-configName="0"
+     display="inline"
+     class="layer"
+     data-color="#F44336"
+     data-speed="6"
+     data-printingSpeed="60"
+     data-strength="50"
+     data-ink="3"
+     data-repeat="2"
+     data-height="-3"
+     data-zstep="0"
+     data-diode="0"
+     data-module="1"
+     data-backlash="0"
+     data-multipass="3"
+     data-uv="0"
+     data-halftone="1"
+     data-wSpeed="100"
+     data-wInk="-9"
+     data-wMultipass="3"
+     data-wRepeat="1"
+     data-cRatio="100"
+     data-mRatio="100"
+     data-yRatio="100"
+     data-kRatio="100"
+     data-printingStrength="100"
+     id="g12"
+     transform="translate(-127.00674,-389.24004)">
+    <title
+       id="title11">Inner Cuts</title>
+    <filter
+       id="filter#F44336"
+       filterUnits="objectBoundingBox"
+       primitiveUnits="userSpaceOnUse"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         type="matrix"
+         values="1 0 0 0 0.9568627450980393, 0 1 0 0 0.2627450980392157, 0 0 1 0 0.21176470588235294, 0 0 0 1 0"
+         id="feColorMatrix11" />
+    </filter>
+    <path
+       data-original-layer="Inner Cuts"
+       data-ratiofixed="true"
+       transform="rotate(-0.11,1230.9171,515.26848)"
+       vector-effect="non-scaling-stroke"
+       id="svg_19"
+       fill="none"
+       stroke="#f44336"
+       stroke-miterlimit="4"
+       d="m 1246.4171,515.27043 c 0,-5.53908 -2.9531,-10.65625 -7.75,-13.42578 -4.7969,-2.76953 -10.7031,-2.76953 -15.5,0 -4.7969,2.76953 -7.75,7.8867 -7.75,13.42578 0,5.53516 2.9531,10.65234 7.75,13.42186 4.7969,2.76955 10.7031,2.76955 15.5,0 4.7969,-2.76953 7.75,-7.8867 7.75,-13.42186 z" />
+    <path
+       data-original-layer="Inner Cuts"
+       data-ratiofixed="true"
+       transform="rotate(-0.11,433.91928,517.13647)"
+       vector-effect="non-scaling-stroke"
+       id="svg_20"
+       fill="none"
+       stroke="#f44336"
+       stroke-miterlimit="4"
+       d="m 449.41928,517.1365 c -0.004,-5.53516 -2.96093,-10.64453 -7.7539,-13.41017 -4.79295,-2.76561 -10.69922,-2.76561 -15.49217,0 -4.79298,2.76564 -7.7461,7.875 -7.7539,13.41017 0.008,5.53516 2.96093,10.64453 7.7539,13.41014 4.79295,2.76564 10.69922,2.76564 15.49217,0 4.79298,-2.76561 7.75002,-7.87498 7.7539,-13.41014 z" />
+    <path
+       vector-effect="non-scaling-stroke"
+       data-original-layer="Inner Cuts"
+       data-ratiofixed="true"
+       transform="rotate(-0.11,1496.6088,875.26097)"
+       id="svg_21"
+       fill="none"
+       stroke="#f44336"
+       stroke-miterlimit="4"
+       d="m 1508.1087,931.26096 h -23 V 819.26097 h 23 z" />
+    <path
+       vector-effect="non-scaling-stroke"
+       data-original-layer="Inner Cuts"
+       data-ratiofixed="true"
+       transform="rotate(-0.11,1498.7186,1974.2589)"
+       id="svg_22"
+       fill="none"
+       stroke="#f44336"
+       stroke-miterlimit="4"
+       d="m 1510.2187,1918.2589 v 112 h -23 v -112 z" />
+    <path
+       vector-effect="non-scaling-stroke"
+       data-original-layer="Inner Cuts"
+       data-ratiofixed="true"
+       transform="rotate(-0.11,1497.6666,1426.2599)"
+       id="svg_23"
+       fill="none"
+       stroke="#f44336"
+       stroke-miterlimit="4"
+       d="m 1486.1666,1482.2599 v -112 h 23 v 112 z" />
+  </g>
+  <g
+     data-printingStrength="100"
+     data-kRatio="100"
+     data-yRatio="100"
+     data-mRatio="100"
+     data-cRatio="100"
+     data-wRepeat="1"
+     data-wMultipass="3"
+     data-wInk="-9"
+     data-wSpeed="100"
+     data-halftone="1"
+     data-uv="0"
+     data-multipass="3"
+     data-backlash="0"
+     data-module="1"
+     data-configName="0"
+     data-diode="0"
+     data-zstep="0"
+     data-height="-3"
+     data-repeat="2"
+     data-ink="3"
+     data-strength="50"
+     data-printingSpeed="60"
+     data-speed="6"
+     data-color="#3F51B5"
+     class="layer"
+     id="g13"
+     transform="translate(-127.00674,-389.24004)">
+    <title
+       id="title12">PixelBlaze Inner Cuts</title>
+    <filter
+       color-interpolation-filters="sRGB"
+       primitiveUnits="userSpaceOnUse"
+       filterUnits="objectBoundingBox"
+       id="filter12">
+      <feColorMatrix
+         values="1 0 0 0 0.24705882352941178, 0 1 0 0 0.3176470588235294, 0 0 1 0 0.7098039215686275, 0 0 0 1 0"
+         type="matrix"
+         id="feColorMatrix12" />
+    </filter>
+    <path
+       vector-effect="non-scaling-stroke"
+       data-original-layer="PixelBlaze Inner Cuts"
+       data-ratiofixed="true"
+       transform="rotate(-0.11,746.46912,1976.6914)"
+       id="svg_26"
+       fill="none"
+       stroke="#3f51b5"
+       stroke-miterlimit="4"
+       d="M 806.46907,1936.6913 H 686.46909 c -5.52344,0 -10.00001,4.4766 -10.00001,10 v 60 c 0,5.5235 4.47656,10 10.00001,10 h 119.99998 c 5.52344,0 10.00001,-4.4765 10.00001,-10 v -60 c 0,-5.5234 -4.47656,-10 -10.00001,-10 z" />
+    <path
+       vector-effect="non-scaling-stroke"
+       data-original-layer="PixelBlaze Inner Cuts"
+       data-ratiofixed="true"
+       transform="rotate(-0.11,1057.1858,1853.6049)"
+       id="svg_27"
+       fill="none"
+       stroke="#3f51b5"
+       stroke-miterlimit="4"
+       d="m 1097.1858,1853.6063 c 0,-14.2929 -7.625,-27.4961 -20,-34.6406 -12.3789,-7.1484 -27.625,-7.1484 -40,0 -12.3789,7.1445 -20,20.3477 -20,34.6406 0,14.2891 7.6211,27.4961 20,34.6407 12.375,7.1445 27.6211,7.1445 40,0 12.375,-7.1446 20,-20.3516 20,-34.6407 z" />
+    <path
+       vector-effect="non-scaling-stroke"
+       data-original-layer="PixelBlaze Inner Cuts"
+       data-ratiofixed="true"
+       transform="rotate(-0.11,469.85025,1978.1189)"
+       id="svg_25"
+       fill="none"
+       stroke="#3f51b5"
+       stroke-miterlimit="4"
+       d="m 509.85025,1978.1169 c 0,-14.289 -7.62111,-27.4922 -20.00001,-34.6406 -12.37498,-7.1445 -27.62109,-7.1445 -39.99999,0 -12.37501,7.1484 -20.00001,20.3516 -20.00001,34.6406 0,14.293 7.625,27.4961 20.00001,34.6446 12.3789,7.1445 27.62501,7.1445 39.99999,0 12.3789,-7.1485 20.00001,-20.3516 20.00001,-34.6446 z" />
+  </g>
+</svg>
