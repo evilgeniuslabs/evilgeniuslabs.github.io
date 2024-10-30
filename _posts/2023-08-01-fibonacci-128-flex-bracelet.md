@@ -2,7 +2,7 @@
 layout: post
 title: Fibonacci128 Flex Bracelet
 id: fibonacci128flexbracelet
-# imgurId: XFR7m2E
+imgurId: dH0Mkwa
 # videoUrl: https://www.youtube.com/embed/SNB5xsYFCak
 excerpt: Fibonacci128 Flex Bracelet is a beautiful flexible PCB with 128 SK9822-EC20 HDR RGB LEDs surface mounted in a Fibonacci distribution.
 categories: 
