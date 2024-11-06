@@ -93,19 +93,17 @@ WS
 ### Acrylic Open Case Assembly Instructions
 
 1. Peel and remove any protective plastic and/or paper film from the acrylic.
-1. Insert M2x6mm Button Head Hex Screw into the bottom hole in the matte side of the acrylic face plate.
-1. Insert M2x10mm Button Head Hex Screws into the remaining holes in the matte side of the acrylic face plate.
+1. Insert M2x8mm Button Head Hex Screws the holes in the matte side of the acrylic face plate.
 1. Hand-tighten M2 Hex Metal Nuts onto the screws, on the glossy side of the acrylic face plate.
 1. Carefully center and place the Fibonacci PCB onto the standoffs, with the LED side facing the glossy side of the acrylic face plate.
-1. Hand-tighten M2 Nylon Hex Standoffs onto the back side of the Fibonacci PCB.
-1. Center and place the acrylic back plate onto the standoffs.
-1. Hand-tighten M2 Hex Nuts onto the standoffs.
-1. Use flush cutters to trim off any excess nylon thread from the standoffs that is extending past the nuts on the back of the enclosure.
+1. Hand-tighten M2 Hex Metal Nuts onto the back side of the Fibonacci PCB.
+1. Center and place the acrylic back plate over the standoffs.
+1. Hand-tighten M2x6mm Button Head Hex Screws onto the standoffs.
 
-<img src="https://imgur.com/vTWd4vI.png" class="img-responsive" />
+<!-- <img src="https://imgur.com/vTWd4vI.png" class="img-responsive" />
 
 <img src="https://imgur.com/xUO6aZY.png" class="img-responsive" />
 
 <img src="https://imgur.com/RoLJJ19.png" class="img-responsive" />
 
-<img src="https://imgur.com/oNLZf7Y.png" class="img-responsive" />
+<img src="https://imgur.com/oNLZf7Y.png" class="img-responsive" /> -->

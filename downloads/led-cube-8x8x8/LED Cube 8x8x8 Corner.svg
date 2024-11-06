@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 66.648455 66.648095"
+   width="17.634071mm"
+   height="17.633974mm"
+   version="1.1"
+   id="svg30"
+   sodipodi:docname="L3D Cube 8x8x8 Corner.svg"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview30"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="7.3325954"
+     inkscape:cx="47.936642"
+     inkscape:cy="33.276076"
+     inkscape:window-width="1792"
+     inkscape:window-height="1067"
+     inkscape:window-x="0"
+     inkscape:window-y="1465"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g30"
+     showgrid="false"
+     inkscape:document-units="mm" />
+  <desc
+     id="desc1">corner.DXF - scale = 1.000000, origin = (0.000000, 0.000000), method = manual</desc>
+  <defs
+     id="defs10">
+    <marker
+       id="DistanceX"
+       orient="auto"
+       refX="0"
+       refY="0"
+       style="overflow:visible">
+      <path
+         d="M 3,-3 -3,3 M 0,-5 V 5"
+         style="stroke:#000000;stroke-width:0.5"
+         id="path1" />
+    </marker>
+    <pattern
+       id="Hatch"
+       patternUnits="userSpaceOnUse"
+       width="8"
+       height="8"
+       x="0"
+       y="0">
+      <path
+         d="M8 4 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path2" />
+      <path
+         d="M6 2 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path3" />
+      <path
+         d="M4 0 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path4" />
+    </pattern>
+    <symbol
+       id="$MODEL_SPACE" />
+    <symbol
+       id="$PAPER_SPACE" />
+    <symbol
+       id="*D1">
+      <path
+         style="fill:none;stroke:#000000;stroke-linecap:round"
+         d="m 531.762,631.604 1.92,-12.48 h -3.84 z"
+         id="path5" />
+      <path
+         style="fill:none;stroke:#000000;stroke-linecap:round"
+         d="m 531.762,698.252 -1.92,12.48 h 3.84 z"
+         id="path6" />
+      <path
+         style="fill:none;stroke:#000000;stroke-linecap:round"
+         d="m 481.759,631.604 h 62.003"
+         id="path7" />
+      <path
+         style="fill:none;stroke:#000000;stroke-linecap:round"
+         d="m 479.869,698.252 h 63.893"
+         id="path8" />
+      <path
+         style="fill:none;stroke:#000000;stroke-linecap:round"
+         d="m 531.762,631.604 v -24"
+         id="path9" />
+      <path
+         style="fill:none;stroke:#000000;stroke-linecap:round"
+         d="m 531.762,698.252 v 24"
+         id="path10" />
+      <text
+         x="507.37961"
+         y="671.79834"
+         style="font-size:12px;line-height:125%;font-family:Arial;text-anchor:start;fill:#000000"
+         id="text10"><tspan
+           sodipodi:role="line"
+           dx="0"
+           dy="0"
+           id="tspan10"
+           x="507.37961"
+           y="671.79834">17.634</tspan></text>
+    </symbol>
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="0"
+     id="g30"
+     transform="translate(-427.31854,-631.60395)">
+    <g
+       id="g1"
+       style="vector-effect:non-scaling-stroke;stroke-width:1;stroke-dasharray:none;-inkscape-stroke:hairline">
+      <path
+         d="m 456.36033,655.92133 a 4.72441,4.72441 0 0 0 -9.44882,0 4.72441,4.72441 0 0 0 9.44882,0 z"
+         style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;-inkscape-stroke:hairline"
+         id="path11" />
+      <path
+         style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;-inkscape-stroke:hairline"
+         d="m 454.796,636.404 h -5.345"
+         id="path12" />
+      <path
+         style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;-inkscape-stroke:hairline"
+         d="m 454.796,636.404 12.714,12.714"
+         id="path13" />
+      <path
+         style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;-inkscape-stroke:hairline"
+         d="M 475.069,649.118 H 467.51"
+         id="path14" />
+      <path
+         style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;-inkscape-stroke:hairline"
+         d="m 475.069,633.494 v 15.624"
+         id="path15" />
+      <path
+         d="m 477.90364,631.85713 a 1.889764,1.889764 0 0 0 -2.83465,1.63658"
+         style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;-inkscape-stroke:hairline"
+         id="path16" />
+      <path
+         style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;-inkscape-stroke:hairline"
+         d="m 493.022,640.586 -15.118,-8.729"
+         id="path17" />
+      <path
+         d="m 493.96663,642.22216 a 1.889764,1.889764 0 0 0 -0.94488,-1.63658"
+         style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;-inkscape-stroke:hairline"
+         id="path18" />
+      <path
+         style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;-inkscape-stroke:hairline"
+         d="M 493.967,679.354 V 642.222"
+         id="path19" />
+      <path
+         d="m 475.06899,698.25204 a 18.897638,18.897638 0 0 0 18.89764,-18.89763"
+         style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;-inkscape-stroke:hairline"
+         id="path20" />
+      <path
+         style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;-inkscape-stroke:hairline"
+         d="m 437.937,698.252 h 37.132"
+         id="path21" />
+      <path
+         d="m 436.30016,697.30716 a 1.889764,1.889764 0 0 0 1.63659,0.94488"
+         style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;-inkscape-stroke:hairline"
+         id="path22" />
+      <path
+         style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;-inkscape-stroke:hairline"
+         d="m 427.572,682.189 8.728,15.118"
+         id="path23" />
+      <path
+         d="m 429.2083,679.35441 a 1.889764,1.889764 0 0 0 -1.63658,2.83464"
+         style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;-inkscape-stroke:hairline"
+         id="path24" />
+      <path
+         style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;-inkscape-stroke:hairline"
+         d="M 444.833,679.354 H 429.208"
+         id="path25" />
+      <path
+         style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;-inkscape-stroke:hairline"
+         d="m 444.833,671.795 v 7.559"
+         id="path26" />
+      <path
+         style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;-inkscape-stroke:hairline"
+         d="M 444.833,671.795 432.119,659.081"
+         id="path27" />
+      <path
+         style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;-inkscape-stroke:hairline"
+         d="m 432.119,653.736 v 5.345"
+         id="path28" />
+      <path
+         style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-dasharray:none;-inkscape-stroke:hairline"
+         d="m 449.451,636.404 -17.332,17.332"
+         id="path29" />
+    </g>
+  </g>
+</svg>
