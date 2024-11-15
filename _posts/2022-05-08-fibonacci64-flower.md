@@ -39,9 +39,11 @@ It has solder pads on the back that match the pinout of the [QT Py by Adafruit](
 
 The six mounting holes are surrounded by capacitive touch compatible pads. They're connected to the A0-A3, A6 & A7 pads/pins on the QT Py footprint. The SAMD21 QT Py supports capacitive touch on these pins. Most other QT Py / XIAO boards, such as the RP2040, do not support capacitive touch.
 
-It was inspired by and created with a fork of bleeptrack's overflower project:
+It was inspired by and created with a fork of [bleeptrack's overflower project](https://bleeptrack.de/projects/overflower)
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Overflower Generator has two new features:<br>- Color Picker<br>- Set number of leaves<a href="https://t.co/viUEdNGSVe">https://t.co/viUEdNGSVe</a><a href="https://twitter.com/hashtag/generative?src=hash&amp;ref_src=twsrc%5Etfw">#generative</a> <a href="https://twitter.com/hashtag/procedural?src=hash&amp;ref_src=twsrc%5Etfw">#procedural</a> <a href="https://t.co/gzOBMi7BqM">pic.twitter.com/gzOBMi7BqM</a></p>&mdash; bleeptrack (@Bleeptrack) <a href="https://twitter.com/Bleeptrack/status/1127377988880863232?ref_src=twsrc%5Etfw">May 12, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+You can buy stickers of the designs in [bleeptrack's store](https://shop.bleeptrack.de/products/sticker-pack-overflower-3pcs)
+
+<a href="https://shop.bleeptrack.de/products/sticker-pack-overflower-3pcs"><img src="https://shop.bleeptrack.de/cdn/shop/products/II9A0128-2.jpg?v=1677954704&width=500" /></a>
 
 It consists of 64 RGB LEDs, arranged into a flower-shaped <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.
 
@@ -83,12 +85,14 @@ If you're new to soldering, I highly recommend reading through a good soldering 
 1. Find a clean spot on your soldering workspace. I used a piece of heavy card stock. Carefully place the board with the LEDs facing down and the bottom of the board facing up.
 1. **VERY** carefully check polarity before connecting 5V and GND.
 1. Either:
-  * Solder wires to the pads on the back of the Fibonacci PCB and connect them to your microcontroller.
-  * Or:
-  * Carefully align an Adafruit QT Py, Seeeduino XIAO, or another controller with an identical footprint with the pads on the back of the Fibonacci PCB. Solder the pads.
+
+- Solder wires to the pads on the back of the Fibonacci PCB and connect them to your microcontroller.
+- Or:
+- Carefully align an Adafruit QT Py, Seeeduino XIAO, or another controller with an identical footprint with the pads on the back of the Fibonacci PCB. Solder the pads.
+
 1. Keep an eye on the temperature of the PCB and especially the connectors. High temperatures can reduce the life of the LEDs. When possible, ensure air can flow, either passively (ventilation) or actively (exhaust fan).
 1. Each WS2812C-2020 can theoretically draw 15mA at full brightness, solid white color. 64 of them can theoretically draw 960mA. I suggest using [FastLED's power management](https://github.com/FastLED/FastLED/wiki/Power-notes#managing-power-in-fastled) to limit the maximum brightness to a reasonable amount, well under the maximum your power supply is rated for. I've found that 960mA is blindingly bright.
-WS
+   WS
 
 ### Acrylic Open Case Assembly Instructions
 
