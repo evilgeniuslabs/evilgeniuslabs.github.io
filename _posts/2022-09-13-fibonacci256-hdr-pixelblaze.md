@@ -26,7 +26,8 @@ sortKey: Fibonacci0256hdrpb
 
 ### Details
 
-<a class="btn btn-success" href="https://www.tindie.com/products/jasoncoon/fibonacci256-166mm-disc-with-256-ws2812b-rgb-led/">Buy on Tindie</a>
+<!-- <a class="btn btn-success" href="https://www.tindie.com/products/jasoncoon/fibonacci256-166mm-disc-with-256-ws2812b-rgb-led/">Buy on Tindie</a> -->
+<a href="https://lectronz.com/products/fibonacci256-hdr-166mm" alt="Buy it on Lectronz"><img src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
 
 Fibonacci256 HDR is a beautiful 166mm circular disc with 256 RGB LEDs surface mounted in a Fibonacci distribution. Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
 
