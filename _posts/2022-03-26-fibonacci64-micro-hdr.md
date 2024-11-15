@@ -5,7 +5,7 @@ id: fibonacci64microhdr
 imgurId: g8GJGfI
 # videoUrl: https://www.youtube.com/embed/SNB5xsYFCak
 excerpt: Fibonacci64 Micro HDR is a tiny, beautiful 40mm circular disc with 64 SK9822-EC20 HDR RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
-categories: 
+categories:
   - portfolio
   - products
 published: true
@@ -38,7 +38,7 @@ It consists of 64 SK9822-EC2020 HDR (High Dymanic Range) RGB LEDs, arranged into
 
 It has solder pads on the back that match the pinout of a [Pixelblaze V3 Pico by ElectroMage](https://shop.electromage.com/products/pixelblaze-v3-pico-tiny-wifi-led-controller), [QT Py by Adafruit](https://www.adafruit.com/?q=qt+py), or [XIAO by Seeed](https://www.seeedstudio.com/catalogsearch/result/?q=xiao). It can be used by any microcontroller via the 5V, GND, Clock and Data In pins.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">This is an incredibly cool fusion of <a href="https://twitter.com/evilgeniuslab?ref_src=twsrc%5Etfw">@evilgeniuslab</a>&#39;s Fib64 Micro with <a href="https://twitter.com/im889?ref_src=twsrc%5Etfw">@im889</a> &#39;s PixelBlaze Pico. Both boards have new mods designed for low power consumption (essential for wearables). This Fib64 uses SK9822 pixels which have more color depth, and produce much better color... <a href="https://t.co/v8B2vrUf2K">https://t.co/v8B2vrUf2K</a></p>&mdash; Geek Mom Projects (@GeekMomProjects) <a href="https://twitter.com/GeekMomProjects/status/1507490036907843587?ref_src=twsrc%5Etfw">March 25, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<!-- <blockquote class="twitter-tweet"><p lang="en" dir="ltr">This is an incredibly cool fusion of <a href="https://twitter.com/evilgeniuslab?ref_src=twsrc%5Etfw">@evilgeniuslab</a>&#39;s Fib64 Micro with <a href="https://twitter.com/im889?ref_src=twsrc%5Etfw">@im889</a> &#39;s PixelBlaze Pico. Both boards have new mods designed for low power consumption (essential for wearables). This Fib64 uses SK9822 pixels which have more color depth, and produce much better color... <a href="https://t.co/v8B2vrUf2K">https://t.co/v8B2vrUf2K</a></p>&mdash; Geek Mom Projects (@GeekMomProjects) <a href="https://twitter.com/GeekMomProjects/status/1507490036907843587?ref_src=twsrc%5Etfw">March 25, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
 
 <p>In disc <a href="https://en.wikipedia.org/wiki/Phyllotaxis" title="Phyllotaxis">phyllotaxis</a>, as in the <a href="https://en.wikipedia.org/wiki/Sunflower" title="Sunflower" class="mw-redirect">sunflower</a> and daisy, the mesh of spirals occurs in <a href="https://en.wikipedia.org/wiki/Fibonacci_number" title="Fibonacci number">Fibonacci numbers</a> because divergence (angle of succession in a single spiral arrangement) approaches the <a href="https://en.wikipedia.org/wiki/Golden_ratio" title="Golden ratio">golden ratio</a>. The shape of the spirals depends on the growth of the elements generated sequentially. In mature-disc <a href="https://en.wikipedia.org/wiki/Phyllotaxis" title="Phyllotaxis">phyllotaxis</a>, when all the elements are the same size, the shape of the spirals is that of Fermat spirals—ideally. That is because Fermat's spiral traverses equal <a href="https://en.wikipedia.org/wiki/Annulus_(mathematics)" title="Annulus (mathematics)">annuli</a> in equal turns. The full model proposed by H Vogel in 1979<sup id="cite_ref-2" class="reference"><a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral#cite_note-2"><span>[</span>2<span>]</span></a></sup> is</p>
 <dl>
@@ -161,9 +161,11 @@ If you're new to soldering, I highly recommend reading through a good soldering 
 1. Find a clean spot on your soldering workspace. I used a piece of heavy card stock. Carefully place the board with the LEDs facing down and the bottom of the board facing up.
 1. **VERY** carefully check polarity before connecting 5V and GND.
 1. Either:
-  * Solder wires to the pads on the back of the Fibonacci PCB and connect them to your microcontroller.
-  * Or:
-  * Carefully align a Pixelblaze V3 Pico Adafruit QT Py, Seeeduino XIAO, or another controller with an identical footprint with the pads on the back of the Fibonacci PCB. Solder the pads.
+
+- Solder wires to the pads on the back of the Fibonacci PCB and connect them to your microcontroller.
+- Or:
+- Carefully align a Pixelblaze V3 Pico Adafruit QT Py, Seeeduino XIAO, or another controller with an identical footprint with the pads on the back of the Fibonacci PCB. Solder the pads.
+
 1. Each SK9822-EC2020 can theoretically draw 15mA at full brightness, solid white color. 64 of them can theoretically draw 960mA. I've found that 960mA is blindingly bright.
 1. Keep an eye on the temperature of the PCB and especially the connectors. High temperatures can reduce the life of the LEDs. When possible, ensure air can flow, either passively (ventilation) or actively (exhaust fan).
 1. If using a Pixelblaze V3 Pico, I suggest using the low power settings (reduce the global brightness, CPU clock speed, and/or disable wi-fi) to reduce power usage and heat.

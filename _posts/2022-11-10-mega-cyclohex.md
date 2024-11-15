@@ -37,7 +37,7 @@ sortKey: Mega CycloHex
 
 Mega CycloHex is a beautiful set of hexagonally-nested rings with 228 RGB LEDs, six touch pads, and an Adafruit QT Py SAMD21.
 
-I have RGB LEDs in just about every form they come: strips, strings, rings, discs, etc.  I constantly seek new and novel forms.
+I have RGB LEDs in just about every form they come: strips, strings, rings, discs, etc. I constantly seek new and novel forms.
 
 The six mounting screws are connected to pins (A0-A3, A6 & A7) on the SAMD21 QT Py, which supports capacitive touch on these pins. Most other QT Py / XIAO boards, such as the RP2040, do not support capacitive touch.
 
@@ -53,52 +53,58 @@ The six mounting screws are connected to pins (A0-A3, A6 & A7) on the SAMD21 QT 
 ### Parts
 
 - 19 x [12 WS2812B 5050 RGB LED Rings](https://www.aliexpress.us/item/2251832627571531.html): $31.06
-  * These particular rings have two sets of three pads (5V, DI, GND) & (5V, DO, GND) and are **much** easier to wire and assemble.
-  * The rings with only four pads (DI, 5V, GND, DO) are **much** harder to wire and assemble, as they require either soldering two 5V & GND wires to the small pads, or the creation of 5V & GND busses. Also the mounting holes do not match the acrylic design attached below.
-  * Watch out for other listing that may show six pads, I ordered several and they arrived with only four pads.
+  - These particular rings have two sets of three pads (5V, DI, GND) & (5V, DO, GND) and are **much** easier to wire and assemble.
+  - The rings with only four pads (DI, 5V, GND, DO) are **much** harder to wire and assemble, as they require either soldering two 5V & GND wires to the small pads, or the creation of 5V & GND busses. Also the mounting holes do not match the acrylic design attached below.
+  - Watch out for other listing that may show six pads, I ordered several and they arrived with only four pads.
 - [22AWG flexible stranded hookup wire with silicone insulation](https://amzn.to/3jdBwpa): $16.95
-  * You can use any small gauge flexible wire, but I really like this kit of 6 different color spools.
+  - You can use any small gauge flexible wire, but I really like this kit of 6 different color spools.
 - [Metric button head hex socket screws/bolt & washer kit](https://amzn.to/3YtmgF1): $21.59
-   - Actual hardware needed:
-   - 6 x M2x16mm button head hex socket screws/bolts
-   - 6 x M2x6mm button head hex socket screws/bolts
-   - 6 x M2 washers
+  - Actual hardware needed:
+  - 6 x M2x16mm button head hex socket screws/bolts
+  - 6 x M2x6mm button head hex socket screws/bolts
+  - 6 x M2 washers
 - [M2 hex standoff kit](https://amzn.to/3VYpNcJ): $9.99
-   - Actual standoffs needed:
-   - 6 x M2x10mm hex standoffs
-   - 6 x M2x4mm hex standoffs (or M2x5mm, or M2x6mm, depending on diffusion desired)
 
-     The larger the standoffs used between LEDs and the front acrylic, the more diffused (or blurred) the LEDs will appear.
+  - Actual standoffs needed:
+  - 6 x M2x10mm hex standoffs
+  - 6 x M2x4mm hex standoffs (or M2x5mm, or M2x6mm, depending on diffusion desired)
+
+    The larger the standoffs used between LEDs and the front acrylic, the more diffused (or blurred) the LEDs will appear.
+
 - [M2 Nylon screw/bolt kit](https://amzn.to/3v4NUuh): $7.99
   - Use plastic screws/bolts, as the LED rings do not have enough room for metal M2 hardware without possibly shorting out the LED contacts.
 - 6 x [M2.2 solder ring terminals](https://amzn.to/3PxTPSi): $8.31
 - [Adafruit QT Py SAMD21](https://www.adafruit.com/product/4600)
-  * Also available at [Digi-Key](https://www.digikey.com/en/products/detail/adafruit-industries-llc/4600/13543375)
+  - Also available at [Digi-Key](https://www.digikey.com/en/products/detail/adafruit-industries-llc/4600/13543375)
 - [Black LED Acrylic](https://www.tapplastics.com/product/plastics/cut_to_size_plastic/black_led_sheet/668): $16.17 plus ~$18 shipping, depending on your location
-  * Only the front piece actually needs to be Black LED acrylic, the mount and back can be cut out of 
+  - Only the front piece actually needs to be Black LED acrylic, the mount and back can be cut out of
     cheaper acrylic or other materials.
 - [JST-SM pigtails](https://amzn.to/3C6sgdp): $9.99
 
 ---
 
 ### Laser Cut Acrylic Parts
-- Front
-   - [DXF](/images/CycloHex%2039mm%20Rings%20-%20Front.dxf)
-   - [SVG](/images/CycloHex%2039mm%20Rings%20-%20Front.svg)
 
-     <a href="/images/CycloHex%2039mm%20Rings%20-%20Front.svg" target="_blank"><img src="/images/CycloHex%2039mm%20Rings%20-%20Front.svg" style="width:340px" /></a>
+- Front
+
+  - [DXF](/images/CycloHex%2039mm%20Rings%20-%20Front.dxf)
+  - [SVG](/images/CycloHex%2039mm%20Rings%20-%20Front.svg)
+
+    <a href="/images/CycloHex%2039mm%20Rings%20-%20Front.svg" target="_blank"><img src="/images/CycloHex%2039mm%20Rings%20-%20Front.svg" style="width:340px" /></a>
 
 - Mount
-   - [DXF](/images/CycloHex%2039mm%20Rings%20-%20Mount.dxf)
-   - [SVG](/images/CycloHex%2039mm%20Rings%20-%20Mount.svg)
 
-     <a href="/images/CycloHex%2039mm%20Rings%20-%20Mount.svg" target="_blank"><img src="/images/CycloHex%2039mm%20Rings%20-%20Mount.svg" style="width:340px" /></a>
+  - [DXF](/images/CycloHex%2039mm%20Rings%20-%20Mount.dxf)
+  - [SVG](/images/CycloHex%2039mm%20Rings%20-%20Mount.svg)
+
+    <a href="/images/CycloHex%2039mm%20Rings%20-%20Mount.svg" target="_blank"><img src="/images/CycloHex%2039mm%20Rings%20-%20Mount.svg" style="width:340px" /></a>
 
 - Back
-   - [DXF](/images/CycloHex%2039mm%20Rings%20-%20Back.dxf)
-   - [SVG](/images/CycloHex%2039mm%20Rings%20-%20Back.svg)
 
-     <a href="/images/CycloHex%2039mm%20Rings%20-%20Back.svg" target="_blank"><img src="/images/CycloHex%2039mm%20Rings%20-%20Back.svg" style="width:340px" /></a>
+  - [DXF](/images/CycloHex%2039mm%20Rings%20-%20Back.dxf)
+  - [SVG](/images/CycloHex%2039mm%20Rings%20-%20Back.svg)
+
+    <a href="/images/CycloHex%2039mm%20Rings%20-%20Back.svg" target="_blank"><img src="/images/CycloHex%2039mm%20Rings%20-%20Back.svg" style="width:340px" /></a>
 
 ---
 
@@ -108,18 +114,18 @@ These costs do not include shipping. Also not included: your time, which is pric
 
 I already had most of the parts on hand, so my total cost was lower, of course.
 
-| Part              | Qty |  Total  |
-| ----------------  | --: | ------: |
-| LED Rings         | 19  |  $27.55 |
-| M2 Metal Bolt Kit |  1  |  $21.59 |
-| Wire Kit          |  1  |  $16.95 |
-| Black LED Acrylic |  3  |  $16.17 |
-| M2 Standoff Kit   |  1  |   $9.99 |
-| JST-SM Pigtail    |  1  |   $9.99 |
-| M2 Nylon HW Kit   |  1  |   $7.99 |
-| M2.2 Solder Rings |  1  |   $7.99 |
-| Qt Py SAMD21      |  1  |   $7.50 |
-| **Total**         | 25  | $125.72 |
+| Part              | Qty |   Total |
+| ----------------- | --: | ------: |
+| LED Rings         |  19 |  $27.55 |
+| M2 Metal Bolt Kit |   1 |  $21.59 |
+| Wire Kit          |   1 |  $16.95 |
+| Black LED Acrylic |   3 |  $16.17 |
+| M2 Standoff Kit   |   1 |   $9.99 |
+| JST-SM Pigtail    |   1 |   $9.99 |
+| M2 Nylon HW Kit   |   1 |   $7.99 |
+| M2.2 Solder Rings |   1 |   $7.99 |
+| Qt Py SAMD21      |   1 |   $7.50 |
+| **Total**         |  25 | $125.72 |
 
 ---
 
@@ -140,10 +146,10 @@ you won't be able to utilize the touch pads, but you will be able to control it 
 
 Here are the settings and maps I use:
 
-* Limit Brightness: 25
-* LED Type: WS2812 / SK6812 / NeoPixel
-* Pixels: 228
-* Color Order: GRB (note this may be different if you used different LED rings)
+- Limit Brightness: 25
+- LED Type: WS2812 / SK6812 / NeoPixel
+- Pixels: 228
+- Color Order: GRB (note this may be different if you used different LED rings)
 
 Map:
 
@@ -188,6 +194,7 @@ Map:
    ensuring there are no shorts between the pads. Solder the red wire to the 5V pad, the center wire (green on mine) to the DI pad, and the GND wire (white on mine) to the GND pad.
 
 ---
+
 **Important!** - repeat these steps each time you connect another LED ring. It's much easier to find and fix problems, such as short-circuit connections between wires/pads, as you go rather than troubleshoot at the end with them all connected. If a short-circuit does happen and the connected LEDs get damaged, there's less to replace if you test as you go.
 
 1. Check for shorts between the pads. Use a multimeter's continuity tester if possible.
@@ -245,7 +252,7 @@ Repeat the steps above to connect each LED ring, one at a time, testing each new
 ### Share your work!
 
 Possibly the **MOST IMPORTANT** step: please take lots of photos and videos of your Mega CycloHex and share them with me!
-* If you're on Mastodon, you can find me there at [@jasoncoon@leds.social](https://leds.social/@jasoncoon).
-* If you're not on Mastodon, [please join](https://joinmastodon.org/)!
-* If, for some reason, you don't want to join Mastodon, you can find me on Instagram at [@jasoncoon](https://www.instagram.com/jasoncoon/).
-* If, for some reason, you're not on either Mastodon or Instagram, but you're still hanging on at Twitter, you can find me at [@jasoncoon_](https://twitter.com/jasoncoon_), but I'll be honest, I'm not going to be very active there any more.
+
+- Mastodon: [@jasoncoon@leds.social](https://leds.social/@jasoncoon).
+- Bluesky: [@evilgeniuslabs.org](https://bsky.app/profile/evilgeniuslabs.org).
+- Instagram: [@jasoncoon](https://www.instagram.com/jasoncoon).
