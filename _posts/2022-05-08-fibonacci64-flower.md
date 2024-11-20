@@ -24,7 +24,7 @@ sortKey: Fibonacci0064 Flower
 
 <a href="https://i.imgur.com/Vmn2bnJ.png" target="_blank"><img src="https://i.imgur.com/Vmn2bnJ.png" style="width:340px" /></a><a href="https://i.imgur.com/e2azNfa.png" target="_blank"><img src="https://i.imgur.com/e2azNfa.png" style="width:340px" /></a><a href="https://i.imgur.com/rmweViq.png" target="_blank"><img src="https://i.imgur.com/rmweViq.png" style="width:340px" /></a><a href="https://i.imgur.com/cOuoA0N.png" target="_blank"><img src="https://i.imgur.com/cOuoA0N.png" style="width:340px" /></a><a href="https://i.imgur.com/2z8lGsd.png" target="_blank"><img src="https://i.imgur.com/2z8lGsd.png" style="width:340px" /></a>
 
-<a class="btn btn-success" href="https://www.tindie.com/products/26864">Buy on Tindie</a>
+<a href="https://lectronz.com/products/fibonacci64-flower-148mm" alt="Buy it on Lectronz"><img src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
 
 <h3>Table of Contents</h3>
 
@@ -46,8 +46,6 @@ You can buy stickers of the designs in [bleeptrack's store](https://shop.bleeptr
 <a href="https://shop.bleeptrack.de/products/sticker-pack-overflower-3pcs"><img src="https://shop.bleeptrack.de/cdn/shop/products/II9A0128-2.jpg?v=1677954704&width=500" /></a>
 
 It consists of 64 RGB LEDs, arranged into a flower-shaped <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.
-
-<!-- <a class="btn btn-success" href="https://www.tindie.com/products/19184">Buy on Tindie</a> -->
 
 <p>In disc <a href="https://en.wikipedia.org/wiki/Phyllotaxis" title="Phyllotaxis">phyllotaxis</a>, as in the <a href="https://en.wikipedia.org/wiki/Sunflower" title="Sunflower" class="mw-redirect">sunflower</a> and daisy, the mesh of spirals occurs in <a href="https://en.wikipedia.org/wiki/Fibonacci_number" title="Fibonacci number">Fibonacci numbers</a> because divergence (angle of succession in a single spiral arrangement) approaches the <a href="https://en.wikipedia.org/wiki/Golden_ratio" title="Golden ratio">golden ratio</a>. The shape of the spirals depends on the growth of the elements generated sequentially. In mature-disc <a href="https://en.wikipedia.org/wiki/Phyllotaxis" title="Phyllotaxis">phyllotaxis</a>, when all the elements are the same size, the shape of the spirals is that of Fermat spirals—ideally. That is because Fermat's spiral traverses equal <a href="https://en.wikipedia.org/wiki/Annulus_(mathematics)" title="Annulus (mathematics)">annuli</a> in equal turns. The full model proposed by H Vogel in 1979<sup id="cite_ref-2" class="reference"><a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral#cite_note-2"><span>[</span>2<span>]</span></a></sup> is</p>
 <dl>

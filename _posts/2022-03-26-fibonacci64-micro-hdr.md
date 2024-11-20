@@ -34,7 +34,6 @@ Fibonacci64 Micro HDR is a beautiful 40mm circular disc with 64 RGB LEDs surface
 
 It consists of 64 SK9822-EC2020 HDR (High Dymanic Range) RGB LEDs, arranged into a circular <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.
 
-<!-- <a class="btn btn-success" href="https://www.tindie.com/products/29148">Buy on Tindie</a> -->
 <a href="https://lectronz.com/products/fibonacci64-micro-hdr-40mm" alt="Buy it on Lectronz"><img src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
 
 It has solder pads on the back that match the pinout of a [Pixelblaze V3 Pico by ElectroMage](https://shop.electromage.com/products/pixelblaze-v3-pico-tiny-wifi-led-controller), [QT Py by Adafruit](https://www.adafruit.com/?q=qt+py), or [XIAO by Seeed](https://www.seeedstudio.com/catalogsearch/result/?q=xiao). It can be used by any microcontroller via the 5V, GND, Clock and Data In pins.
