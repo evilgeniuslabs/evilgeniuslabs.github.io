@@ -22,7 +22,7 @@ sortKey: Fibonacci0064 One Inch
 <a href="https://i.imgur.com/bPLNbqw.png" target="_blank"><img src="https://i.imgur.com/bPLNbqw.png" style="width:340px" /></a>
 <a href="https://i.imgur.com/nuRnffr.png" target="_blank"><img src="https://i.imgur.com/nuRnffr.png" style="width:340px" /></a>
 
-<a class="btn btn-success" href="https://www.tindie.com/products/34112">Buy on Tindie</a>
+<a href="https://lectronz.com/products/inch-fibonacci64" alt="Buy it on Lectronz"><img src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
 
 <h3>Table of Contents</h3>
 
@@ -34,8 +34,6 @@ sortKey: Fibonacci0064 One Inch
 One Inch Fibonacci 64 is a tiny, beautiful 25.4mm circular disc with 64 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
 
 It consists of 64 SK6805-1515 1.5mm² RGB LEDs, arranged into a circular <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.
-
-<!-- <a class="btn btn-success" href="https://www.tindie.com/products/34112">Buy on Tindie</a> -->
 
 It has solder pads on the back that match the pinout of the [QT Py by Adafruit](https://www.adafruit.com/?q=qt+py), or [XIAO by Seeed](https://www.seeedstudio.com/catalogsearch/result/?q=xiao). It can be used by any microcontroller via the 5V, GND, and Data In pins. It also has a Data Out pad, for connecting more LEDs on the same data pin.
 
@@ -68,7 +66,7 @@ The three mounting holes are surrounded by capacitive touch compatible pads. The
 
 ### Code
 
-Open source touch demo: [https://www.tindie.com/products/34108](https://www.tindie.com/products/34108)
+Open source touch demo: [https://github.com/jasoncoon/fibonacci64-one-inch](https://github.com/jasoncoon/fibonacci64-one-inch)
 
 ### Assembly Instructions
 

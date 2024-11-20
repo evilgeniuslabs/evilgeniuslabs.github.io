@@ -31,7 +31,7 @@ sortKey: Fibonacci HDR Heart
 <a href="https://i.imgur.com/8zRjiJI.png" target="_blank"><img src="https://i.imgur.com/8zRjiJI.png" style="width:340px"  /></a>
 <a href="https://i.imgur.com/7JHcAPj.png" target="_blank"><img src="https://i.imgur.com/7JHcAPj.png" style="width:340px"  /></a>
 
-<a class="btn btn-success" href="https://www.tindie.com/products/31784">Buy on Tindie</a>
+<a href="https://lectronz.com/products/lux-lavalier-heart-wearable-light-art-pendant" alt="Buy it on Lectronz"><img src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
 
 <h3>Table of Contents</h3>
 
@@ -43,8 +43,6 @@ sortKey: Fibonacci HDR Heart
 Fibonacci HDR Heart is a tiny, beautiful 42mm heart-shaped disc with 74 SK9822-EC20 HDR RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
 
 It consists of 74 SK9822-EC2020 HDR (High Dymanic Range) RGB LEDs, arranged into a <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.
-
-<!-- <a class="btn btn-success" href="https://www.tindie.com/products/23597">Buy on Tindie</a> -->
 
 It has solder pads on the back that match the pinout of a [Pixelblaze V3 Pico by ElectroMage](https://shop.electromage.com/products/pixelblaze-v3-pico-tiny-wifi-led-controller). It can be used by any microcontroller via the 5V, GND, Clock and Data In pins.
 

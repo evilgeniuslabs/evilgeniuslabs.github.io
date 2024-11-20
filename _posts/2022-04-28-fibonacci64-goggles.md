@@ -23,7 +23,7 @@ sortKey: Fibonacci0064 50mm Goggle Lens
 <a href="https://imgur.com/6NER01l.png" target="_blank"><img src="https://imgur.com/6NER01l.png" style="width:340px"  /></a>
 <a href="https://imgur.com/EZLpJtT.png" target="_blank"><img src="https://imgur.com/EZLpJtT.png" style="width:340px"  /></a>
 
-<a class="btn btn-success" href="https://www.tindie.com/products/26706">Buy on Tindie</a>
+<a href="https://lectronz.com/products/fibonacci64-goggle-lens-50mm" alt="Buy it on Lectronz"><img src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
 
 <h3>Table of Contents</h3>
 

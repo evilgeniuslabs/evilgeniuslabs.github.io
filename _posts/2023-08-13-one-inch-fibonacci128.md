@@ -29,7 +29,7 @@ sortKey: Fibonacci0128 One Inch
 <a href="https://i.imgur.com/nbgX3uo.png" target="_blank"><img src="https://i.imgur.com/nbgX3uo.png" style="width:340px" /></a>
 <a href="https://i.imgur.com/YPEkYqr.png" target="_blank"><img src="https://i.imgur.com/YPEkYqr.png" style="width:340px" /></a>
 
-<a class="btn btn-success" href="https://www.tindie.com/products/31672">Buy on Tindie</a>
+<a href="https://lectronz.com/products/inch-fibonacci128" alt="Buy it on Lectronz"><img src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
 
 <h3>Table of Contents</h3>
 
@@ -41,8 +41,6 @@ sortKey: Fibonacci0128 One Inch
 One Inch Fibonacci 128 is a tiny, beautiful 25.4mm circular disc with 128 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
 
 It consists of 128 XL-1010RGBC-WS2812B 1mm² RGB LEDs, arranged into a circular <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.
-
-<!-- <a class="btn btn-success" href="https://www.tindie.com/products/23597">Buy on Tindie</a> -->
 
 It has solder pads on the back that match the pinout of the [QT Py by Adafruit](https://www.adafruit.com/?q=qt+py), or [XIAO by Seeed](https://www.seeedstudio.com/catalogsearch/result/?q=xiao). It can be used by any microcontroller via the 5V, GND, and Data In pins. It also has a Data Out pad, for connecting more LEDs on the same data pin.
 
