@@ -8,3 +8,7 @@
 .img-responsive {
 	width: 600px;
 }
+
+ul {
+	padding-inline-start: 2rem;
+}
