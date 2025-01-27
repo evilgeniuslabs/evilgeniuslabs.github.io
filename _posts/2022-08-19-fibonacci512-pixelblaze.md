@@ -76,9 +76,9 @@ For more control, you can connect to it via wi-fi.
    
    To put it in to setup mode:
    1. Press and hold the button for 5 seconds.
-   1. If the status LED on the back flashes 5 times, it's now in setup mode.
+   1. If the status LED on the back flashes 3 times, it's now in setup mode.
    1. If the status LED on the back flashes once, press and hold the button for 5 more seconds.
-   The status LED on the back should now flash 5 times, 
+   The status LED on the back should now flash 3 times, 
    1. It should now be in setup mode and its wi-fi network should now appear in the list on your computer or mobile device.
 
 1. Connect to this network from a computer or mobile device.
