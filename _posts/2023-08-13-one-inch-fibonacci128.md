@@ -75,6 +75,29 @@ The three mounting holes are surrounded by capacitive touch compatible pads. The
 
 Open source touch demo: [https://github.com/jasoncoon/fibonacci128-touch-demo/tree/f128-one-inch](https://github.com/jasoncoon/fibonacci128-touch-demo/tree/f128-one-inch)
 
+#### PixelBlaze Map
+
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          Pixelblaze Map (click to expand)
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+        <pre>
+[[137,130],[181,137],[201,150],[213,166],[219,184],[221,204],[218,224],[193,235],[198,216],[199,197],[195,178],[184,159],[160,141],[164,160],[176,182],[178,203],[175,222],[167,240],[154,255],[127,251],[142,237],[152,221],[158,202],[157,180],[142,147],[140,167],[140,195],[132,215],[119,229],[103,240],[85,247],[45,227],[65,228],[84,225],[101,216],[116,202],[126,181],[121,158],[106,186],[89,199],[70,206],[51,207],[32,203],[9,166],[25,177],[43,184],[63,185],[83,181],[104,166],[118,139],[84,161],[62,165],[42,161],[25,152],[11,139],[0,122],[11,96],[19,114],[32,129],[47,140],[68,146],[96,143],[81,132],[58,123],[43,110],[33,93],[27,74],[26,55],[49,39],[47,59],[50,78],[58,96],[74,112],[105,126],[94,109],[77,89],[70,69],[69,49],[74,30],[83,13],[125,0],[110,13],[99,28],[91,46],[90,67],[96,90],[114,102],[108,72],[112,50],[121,33],[135,19],[152,9],[193,21],[174,24],[156,31],[141,43],[129,60],[123,85],[130,112],[141,75],[155,57],[172,47],[191,42],[210,42],[239,74],[221,66],[202,63],[182,66],[164,75],[145,96],[164,95],[186,86],[206,85],[225,91],[241,101],[255,115],[248,142],[237,126],[222,114],[204,106],[182,105],[151,115],[170,121],[196,124],[214,134],[227,148],[236,166],[241,185]]
+        </pre>
+      </div>
+    </div>
+  </div>
+
+</div>
+
 ### Assembly Instructions
 
 **Note**: Double-check the position, alignment, and orientation of each component very carefully before soldering!
