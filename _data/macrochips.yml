@@ -442,6 +442,9 @@
 - name: Zilog Z80A
   imgurId: lCpgonU
 
+- name: Zilog Z80A (4x4 square version)
+  imgurId: rEmsAda
+
 - name: Zilog Z084008PSC
   imgurId: MeQ1im8
 
