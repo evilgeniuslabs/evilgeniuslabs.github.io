@@ -23,8 +23,6 @@ sortKey: Fibonacci0128 One Inch
 <a href="https://i.imgur.com/hJaM5kV.png" target="_blank"><img src="https://i.imgur.com/hJaM5kV.png" style="width:340px" /></a>
 <a href="https://i.imgur.com/WPtWVOj.png" target="_blank"><img src="https://i.imgur.com/WPtWVOj.png" style="width:340px" /></a>
 <a href="https://i.imgur.com/WVNHbnu.png" target="_blank"><img src="https://i.imgur.com/WVNHbnu.png" style="width:340px" /></a>
-
-
 <a href="https://i.imgur.com/VtUPc6D.png" target="_blank"><img src="https://i.imgur.com/VtUPc6D.png" style="width:340px" /></a>
 <a href="https://i.imgur.com/nbgX3uo.png" target="_blank"><img src="https://i.imgur.com/nbgX3uo.png" style="width:340px" /></a>
 <a href="https://i.imgur.com/YPEkYqr.png" target="_blank"><img src="https://i.imgur.com/YPEkYqr.png" style="width:340px" /></a>
@@ -104,7 +102,7 @@ Open source touch demo: [https://github.com/jasoncoon/fibonacci128-touch-demo/tr
 
 If you're new to soldering, I highly recommend reading through a good soldering tutorial, such as the ones by [Adafruit](https://learn.adafruit.com/adafruit-guide-excellent-soldering) and [SparkFun](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering).
 
-<img src="https://imgur.com/WVNHbnu.png" class="img-responsive" style="max-width: 340px" />
+<img src="https://imgur.com/WVNHbnu.png" style="width:340px" />
 
 1. Find a clean spot on your soldering workspace. I used a piece of heavy card stock. Carefully place the board with the LEDs facing down and the bottom of the board facing up.
 1. **VERY** carefully check polarity before connecting 5V and GND.
@@ -120,9 +118,9 @@ If you're new to soldering, I highly recommend reading through a good soldering 
 
 #### Acrylic with screws in front
 
-<a href="https://i.imgur.com/OPSRQJg.png" target="_blank"><img src="https://i.imgur.com/RCJ5i9i.png" class="img-responsive" style="max-width: 340px" /></a>
-<a href="https://i.imgur.com/OPSRQJg.png" target="_blank"><img src="https://i.imgur.com/QpPWrXU.png" class="img-responsive" style="max-width: 340px" /></a>
-<a href="https://i.imgur.com/OPSRQJg.png" target="_blank"><img src="https://i.imgur.com/gvG7DdM.png" class="img-responsive" style="max-width: 340px" /></a>
+<a href="https://i.imgur.com/OPSRQJg.png" target="_blank"><img src="https://i.imgur.com/RCJ5i9i.png" style="width:340px" /></a>
+<a href="https://i.imgur.com/OPSRQJg.png" target="_blank"><img src="https://i.imgur.com/QpPWrXU.png" style="width:340px" /></a>
+<a href="https://i.imgur.com/OPSRQJg.png" target="_blank"><img src="https://i.imgur.com/gvG7DdM.png" style="width:340px" /></a>
 
 1. Peel and remove any protective plastic and/or paper film from the acrylic.
 1. Insert M2x10mm Button Head Hex Screws into the holes in the matte side of the acrylic face plate.
@@ -132,9 +130,9 @@ If you're new to soldering, I highly recommend reading through a good soldering 
 
 #### Acrylic with screws in back
 
-<a href="https://i.imgur.com/OPSRQJg.png" target="_blank"><img src="https://i.imgur.com/6BTUx6L.png" class="img-responsive" style="max-width: 340px" /></a>
-<a href="https://i.imgur.com/OPSRQJg.png" target="_blank"><img src="https://i.imgur.com/mBIWm9E.png" class="img-responsive" style="max-width: 340px" /></a>
-<a href="https://i.imgur.com/OPSRQJg.png" target="_blank"><img src="https://i.imgur.com/gvG7DdM.png" class="img-responsive" style="max-width: 340px" /></a>
+<a href="https://i.imgur.com/OPSRQJg.png" target="_blank"><img src="https://i.imgur.com/6BTUx6L.png" style="width:340px" /></a>
+<a href="https://i.imgur.com/OPSRQJg.png" target="_blank"><img src="https://i.imgur.com/mBIWm9E.png" style="width:340px" /></a>
+<a href="https://i.imgur.com/OPSRQJg.png" target="_blank"><img src="https://i.imgur.com/gvG7DdM.png" style="width:340px" /></a>
 
 This option requires acrylic with smaller 2.8mm screw holes so the screws thread into the acrylic.
 
@@ -142,9 +140,9 @@ You can use M2x7mm or M2x8mm screws, depending on how far out you want the ends 
 
 #### 3D printed front
 
-<a href="https://i.imgur.com/OPSRQJg.png" target="_blank"><img src="https://i.imgur.com/cH2ze97.png" class="img-responsive" style="max-width: 340px" /></a>
-<a href="https://i.imgur.com/OPSRQJg.png" target="_blank"><img src="https://i.imgur.com/xHmJ8Nq.png" class="img-responsive" style="max-width: 340px" /></a>
-<a href="https://i.imgur.com/OPSRQJg.png" target="_blank"><img src="https://i.imgur.com/vBDcpaL.png" class="img-responsive" style="max-width: 340px" /></a>
-<a href="https://i.imgur.com/OPSRQJg.png" target="_blank"><img src="https://i.imgur.com/gvG7DdM.png" class="img-responsive" style="max-width: 340px" /></a>
+<a href="https://i.imgur.com/OPSRQJg.png" target="_blank"><img src="https://i.imgur.com/cH2ze97.png" style="width:340px" /></a>
+<a href="https://i.imgur.com/OPSRQJg.png" target="_blank"><img src="https://i.imgur.com/xHmJ8Nq.png" style="width:340px" /></a>
+<a href="https://i.imgur.com/OPSRQJg.png" target="_blank"><img src="https://i.imgur.com/vBDcpaL.png" style="width:340px" /></a>
+<a href="https://i.imgur.com/OPSRQJg.png" target="_blank"><img src="https://i.imgur.com/gvG7DdM.png" style="width:340px" /></a>
 
 Use M2x4mm screws, inserted from the back, threaded through the back cover, through the LED PCB, and into the front. This option will only let you use the touch points from the back.
