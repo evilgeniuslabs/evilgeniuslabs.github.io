@@ -145,4 +145,6 @@ You can use M2x7mm or M2x8mm screws, depending on how far out you want the ends 
 <a href="https://i.imgur.com/OPSRQJg.png" target="_blank"><img src="https://i.imgur.com/vBDcpaL.png" style="width:340px" /></a>
 <a href="https://i.imgur.com/OPSRQJg.png" target="_blank"><img src="https://i.imgur.com/gvG7DdM.png" style="width:340px" /></a>
 
+3D print files: [https://www.printables.com/model/831490-1-fibonacci128-screw-diffuser-cover](https://www.printables.com/model/831490-1-fibonacci128-screw-diffuser-cover)
+
 Use M2x4mm screws, inserted from the back, threaded through the back cover, through the LED PCB, and into the front. This option will only let you use the touch points from the back.
