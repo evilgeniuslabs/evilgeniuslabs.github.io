@@ -1,19 +1,25 @@
 ---
 layout: post
-title: Fibonacci256 HDR Pixelblaze
-id: fibonacci256-hdr-pixelblaze
-imgurId: D4qEjgU
-excerpt: Fibonacci256 HDR is a beautiful 166mm circular disc with 256 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
+title: Fibonacci256 Expanding Pixelblaze
+id: fibonacci256-expanding-pixelblaze
+imgurId: 0OlTim6
+excerpt: Fibonacci256 Expanding is a beautiful 166mm circular disc with 256 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
 categories:
   - portfolio
   - products
 published: true
 redirect_from:
-  - /61
-  - /f256hdr
-  - /f256hdrpb
-sortKey: Fibonacci0256hdrpb
+  - /f256e
+  - /f256expanding
+sortKey: Fibonacci0256expanding
 ---
+
+<a href="https://i.imgur.com/XpEm2VJ.png" target="_blank"><img src="https://i.imgur.com/XpEm2VJ.png" style="width:340px" /></a>
+<a href="https://i.imgur.com/8FVEf2V.png" target="_blank"><img src="https://i.imgur.com/8FVEf2V.png" style="width:340px" /></a>
+<a href="https://i.imgur.com/tmK3E7x.png" target="_blank"><img src="https://i.imgur.com/tmK3E7x.png" style="width:340px" /></a>
+<a href="https://i.imgur.com/1pdD2p2.png" target="_blank"><img src="https://i.imgur.com/1pdD2p2.png" style="width:340px" /></a>
+<a href="https://i.imgur.com/v0Knj3W.png" target="_blank"><img src="https://i.imgur.com/v0Knj3W.png" style="width:340px" /></a>
+<a href="https://i.imgur.com/p7sbXcL.png" target="_blank"><img src="https://i.imgur.com/p7sbXcL.png" style="width:340px" /></a>
 
 <h3>Table of Contents</h3>
 
@@ -22,17 +28,15 @@ sortKey: Fibonacci0256hdrpb
 
 ### Details
 
-<a href="https://lectronz.com/products/fibonacci256-hdr-166mm" alt="Buy it on Lectronz"><img src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
+<a href="https://lectronz.com/products/fibonacci256-expanding-166mm-disc-w-256-rgb-leds" alt="Buy it on Lectronz"><img src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
 
-Fibonacci256 HDR is a beautiful 166mm circular disc with 256 RGB LEDs surface mounted in a Fibonacci distribution. Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
+Fibonacci256 Expanding is a beautiful 166mm circular disc with 256 RGB LEDs surface mounted in a Fibonacci layout. Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
 
-It consists of 256 SK9822-EC20 RGB LEDs, arranged into a circular <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.
+Three different sizes of LEDs are used: 2mm, 3.5mm and 5mm. The LEDs start out small and close together in the center and gradually get larger and further apart. This gives an illusion of expansion, especially with the right animation.
 
 I have created several LED art pieces in Fibonacci patterns. They are all very labor intensive to create, and so are fairly expensive and limited in quantity. I wanted to come up with a Fibonacci layout that was at least slightly easier to create, and therefore more affordable.
 
 I have RGB LEDs in just about every form they come: strips, strings, rings, discs, etc. The LEDs on most discs are arranged in very regular rings. Fibonacci256 is different. The LEDs are arranged in a Fibonacci distribution. The makes the layout very organic and seemingly messy. But with the proper animation, spiral patterns emerge with spectacular results.
-
-The PCB includes 17 0.1uF decoupling capacitors. The top and bottom of the PCB are large 5V and GND planes, to allow for the large amount of current required by the 256 LEDs. The LEDs can be driven at up to 30MHz for insanely high frame rates. They also support 8bit color per channel, like WS2812, but also 5bit brightness control. This allows for much better color depth at low brightness.
 
 <p>In disc <a href="https://en.wikipedia.org/wiki/Phyllotaxis" title="Phyllotaxis">phyllotaxis</a>, as in the <a href="https://en.wikipedia.org/wiki/Sunflower" title="Sunflower" class="mw-redirect">sunflower</a> and daisy, the mesh of spirals occurs in <a href="https://en.wikipedia.org/wiki/Fibonacci_number" title="Fibonacci number">Fibonacci numbers</a> because divergence (angle of succession in a single spiral arrangement) approaches the <a href="https://en.wikipedia.org/wiki/Golden_ratio" title="Golden ratio">golden ratio</a>. The shape of the spirals depends on the growth of the elements generated sequentially. In mature-disc <a href="https://en.wikipedia.org/wiki/Phyllotaxis" title="Phyllotaxis">phyllotaxis</a>, when all the elements are the same size, the shape of the spirals is that of Fermat spirals—ideally. That is because Fermat's spiral traverses equal <a href="https://en.wikipedia.org/wiki/Annulus_(mathematics)" title="Annulus (mathematics)">annuli</a> in equal turns. The full model proposed by H Vogel in 1979<sup id="cite_ref-2" class="reference"><a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral#cite_note-2"><span>[</span>2<span>]</span></a></sup> is</p>
 <dl>
@@ -167,7 +171,7 @@ If you ever do need to reset to the Fibonacci256's default map, use these values
     <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
       <div class="panel-body">
         <pre>
-[[133,126],[164,131],[178,140],[186,152],[191,164],[192,178],[190,192],[185,206],[178,219],[167,230],[154,241],[140,249],[123,255],[96,248],[114,245],[129,240],[143,233],[156,223],[165,212],[172,200],[176,187],[177,173],[174,160],[166,147],[149,134],[152,148],[161,163],[162,177],[160,191],[154,203],[145,214],[134,223],[121,230],[106,234],[90,236],[73,235],[56,231],[23,202],[37,211],[53,218],[69,222],[85,223],[100,222],[114,218],[126,211],[136,202],[144,190],[148,177],[147,161],[137,138],[136,153],[135,172],[130,186],[121,196],[109,203],[96,208],[82,210],[67,209],[53,205],[38,198],[24,188],[12,176],[0,133],[7,149],[17,163],[28,175],[41,184],[54,191],[68,195],[82,195],[96,193],[108,187],[118,177],[126,162],[122,146],[111,166],[99,175],[86,180],[73,180],[59,177],[46,172],[34,163],[24,152],[15,138],[9,123],[5,106],[17,64],[15,81],[16,98],[19,114],[25,129],[33,141],[43,152],[54,159],[67,164],[81,165],[95,162],[110,152],[120,133],[96,148],[80,151],[66,148],[54,142],[44,132],[37,121],[31,107],[28,92],[28,77],[30,60],[36,44],[44,28],[68,16],[58,29],[49,44],[44,59],[41,74],[41,89],[44,103],[50,115],[59,126],[70,134],[84,138],[104,136],[94,128],[78,122],[67,112],[60,101],[56,88],[55,74],[57,59],[63,45],[71,32],[81,20],[94,9],[110,0],[137,2],[120,8],[106,16],[93,26],[83,37],[76,50],[71,63],[70,77],[72,90],[78,103],[89,114],[111,123],[103,112],[90,98],[86,84],[85,70],[89,57],[95,45],[105,34],[116,25],[130,18],[145,13],[162,11],[179,11],[217,35],[201,28],[184,24],[168,23],[152,25],[138,29],[125,36],[114,45],[106,56],[101,68],[100,82],[104,98],[117,107],[113,86],[115,71],[122,59],[132,49],[143,42],[157,38],[172,36],[187,37],[202,41],[217,48],[232,58],[251,98],[241,83],[229,71],[216,62],[202,55],[187,51],[173,50],[159,52],[147,57],[136,66],[128,77],[123,95],[128,114],[136,88],[146,76],[158,69],[171,65],[185,65],[198,69],[212,75],[224,84],[235,95],[244,109],[251,125],[255,142],[246,168],[245,151],[241,134],[235,120],[227,107],[216,96],[205,87],[192,82],[179,80],[165,82],[152,88],[138,103],[152,102],[168,96],[182,95],[195,99],[206,106],[216,116],[224,128],[230,142],[233,158],[233,174],[231,191],[226,208],[204,224],[212,209],[218,194],[220,178],[220,163],[217,148],[212,135],[204,124],[193,115],[180,110],[165,109],[143,116],[156,120],[175,122],[187,129],[197,139],[203,151],[206,165],[207,179],[204,194],[199,209],[191,223],[180,235],[167,247]]
+[[84.69,84.88],[92,86.86],[95.28,90.56],[96.77,95.33],[96.48,100.72],[94.37,106.26],[90.42,111.45],[84.73,115.77],[77.52,118.74],[69.13,119.92],[60.02,118.96],[50.74,115.61],[41.91,109.77],[34.18,101.51],[28.19,91.04],[24.54,78.75],[23.74,65.18],[26.15,51.01],[32,37.01],[41.31,24.03],[80.44,9.68],[65.3,15.7],[52.57,24.5],[42.67,35.34],[35.87,47.45],[32.2,60.05],[31.55,72.38],[33.62,83.8],[37.98,93.75],[44.11,101.83],[51.43,107.77],[59.34,111.48],[67.25,113],[74.63,112.51],[81.02,110.32],[86.06,106.79],[89.48,102.37],[91.12,97.51],[90.79,92.63],[87.81,87.94],[86.41,92.16],[85.77,97.18],[83.08,101.32],[78.8,104.44],[73.27,106.2],[66.9,106.31],[60.12,104.54],[53.48,100.77],[47.5,94.98],[42.76,87.33],[39.78,78.1],[39,67.71],[40.78,56.71],[45.34,45.73],[52.74,35.47],[62.86,26.67],[75.39,20.01],[89.87,16.15],[105.65,15.61],[140.43,37.66],[126.59,29.43],[112.02,24.77],[97.58,23.57],[84.01,25.55],[71.97,30.27],[61.94,37.2],[54.29,45.69],[49.17,55.08],[46.58,64.71],[46.38,73.98],[48.27,82.34],[51.87,89.38],[56.7,94.78],[62.26,98.36],[68.03,100.07],[73.5,99.97],[78.22,98.18],[81.72,94.74],[83.33,88.67],[79.91,90.84],[75.54,93.82],[70.67,94.43],[65.65,93.1],[60.93,89.96],[56.97,85.13],[54.23,78.85],[53.14,71.43],[54.02,63.32],[57.09,55.03],[62.46,47.15],[70.08,40.29],[79.72,35.05],[91.03,31.99],[103.5,31.58],[116.47,34.18],[129.23,39.98],[140.98,48.98],[150.92,61],[158.28,75.68],[154.56,101.52],[152.65,85.73],[147.51,71.51],[139.75,59.49],[130.02,50.08],[119.07,43.52],[107.64,39.88],[96.41,39.03],[86.01,40.7],[76.96,44.49],[69.65,49.92],[64.31,56.43],[61.04,63.45],[59.8,70.44],[60.42,76.88],[62.62,82.34],[66.07,86.45],[70.4,88.9],[75.36,89.31],[77.94,85.78],[72.36,84.44],[68.76,81.13],[66.65,76.49],[66.15,70.96],[67.44,64.99],[70.62,59.08],[75.68,53.76],[82.48,49.54],[90.76,46.93],[100.12,46.35],[110.05,48.14],[119.94,52.5],[129.14,59.47],[136.96,68.96],[142.76,80.66],[145.92,94.12],[145.96,108.74],[142.53,123.77],[135.48,138.38],[112.96,150.99],[124.18,139.96],[132.21,127.38],[136.93,114.06],[138.42,100.79],[136.94,88.29],[132.89,77.18],[126.79,67.91],[119.23,60.83],[110.83,56.08],[102.21,53.68],[93.95,53.47],[86.55,55.18],[80.42,58.46],[75.85,62.84],[73.02,67.85],[72.03,73.02],[72.91,77.86],[75.96,81.98],[80.84,82.9],[77.49,77.04],[77.66,72.12],[79.86,67.6],[83.77,63.83],[89.12,61.18],[95.59,60.05],[102.76,60.73],[110.12,63.45],[117.13,68.3],[123.22,75.21],[127.81,84.01],[130.38,94.33],[130.48,105.71],[127.8,117.53],[122.15,129.1],[113.53,139.69],[102.12,148.53],[88.29,154.92],[72.59,158.2],[33.9,142.29],[49.18,148.1],[64.58,150.24],[79.26,148.93],[92.52,144.59],[103.79,137.76],[112.65,129.08],[118.88,119.22],[122.42,108.89],[123.38,98.74],[122,89.36],[118.68,81.22],[113.86,74.7],[108.06,70.03],[101.83,67.29],[95.7,66.44],[90.14,67.35],[85.59,69.8],[82.48,73.57],[81.38,78.87],[85.53,76.83],[89.42,73.67],[94.24,72.49],[99.52,73.14],[104.81,75.63],[109.61,79.91],[113.41,85.84],[115.75,93.17],[116.23,101.53],[114.53,110.42],[110.46,119.29],[103.97,127.51],[95.17,134.44],[84.33,139.46],[71.89,142.03],[58.42,141.67],[44.62,138.08],[31.29,131.11],[19.25,120.8],[8.46,80.89],[13.12,96.37],[20.73,109.71],[30.6,120.4],[41.98,128.15],[54.11,132.84],[66.23,134.52],[77.67,133.44],[87.85,129.97],[96.32,124.6],[102.77,117.88],[107.07,110.4],[109.21,102.74],[109.32,95.44],[107.65,88.99],[104.57,83.78],[100.46,80.09],[95.77,78.17],[90.88,78.24],[85.75,81.3],[89.74,82.42],[94.87,83.28],[98.82,86.19],[101.6,90.62],[102.93,96.17],[102.56,102.45],[100.29,108.97],[96.04,115.2],[89.86,120.61],[81.94,124.65],[72.59,126.83],[62.29,126.73],[51.59,124.05],[41.13,118.63],[31.64,110.46],[23.8,99.72],[18.29,86.77],[15.71,72.13],[16.52,56.49],[21.03,40.64]]
         </pre>
       </div>
     </div>
