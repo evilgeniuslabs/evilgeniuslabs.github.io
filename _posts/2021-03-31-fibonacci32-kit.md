@@ -7,7 +7,7 @@ imgurId: DWHFck2
 excerpt: Fibonacci32 is a beautiful 86mm circular disc with 32 RGB LEDs surface mounted in a Fibonacci distribution. Swirling and pulsing like a colorful galaxy, it’s mesmerizing to watch.
 categories:
   - portfolio
-  - products
+  - retired
 published: true
 redirect_from:
   - /43
@@ -18,6 +18,16 @@ sortKey: Fibonacci0032 Kit
 <a href="https://i.imgur.com/DWHFck2.gif" target="_blank"><img src="https://i.imgur.com/DWHFck2.gif" class="img-responsive"  /></a>
 
 <a href="https://i.imgur.com/Sa9oicX.png" target="_blank"><img src="https://i.imgur.com/Sa9oicX.png" class="img-responsive"  /></a>
+
+---
+
+**Retired**
+
+Alternatives:
+
+* [One Inch Fibonacc32](/one-inch-fibonacci32)
+
+---
 
 <h3>Table of Contents</h3>
 

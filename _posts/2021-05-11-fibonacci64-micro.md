@@ -7,7 +7,7 @@ imgurId: j83kSI7
 excerpt: Fibonacci64 Micro is a tiny, beautiful 40mm circular disc with 64 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
 categories:
   - portfolio
-  - products
+  - retired
 published: true
 redirect_from:
   - /44
@@ -31,6 +31,18 @@ sortKey: Fibonacci0064 Micro
 <a href="https://i.imgur.com/K3pxorP.png" target="_blank"><img src="https://i.imgur.com/K3pxorP.png" style="width:340px"  /></a>
 <a href="https://i.imgur.com/yONidkC.png" target="_blank"><img src="https://i.imgur.com/yONidkC.png" style="width:340px"  /></a>
 
+---
+
+**Retired**
+
+Alternatives:
+
+* [Fibonacci64 Micro HDR](fibonacci64-micro-hdr)
+* [Fibonacci64 50mm](/fibonacci64-goggles)
+* [One Inch Fibonacc64](/one-inch-fibonacci64)
+
+---
+
 <h3>Table of Contents</h3>
 
 - TOC
@@ -42,7 +54,7 @@ Fibonacci64 Micro is a beautiful 40mm circular disc with 64 RGB LEDs surface mou
 
 It consists of 64 WS2812C-2020 RGB LEDs, arranged into a circular <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.
 
-<a class="btn btn-success" href="https://www.tindie.com/products/23597">Buy on Tindie</a>
+<a href="https://lectronz.com/stores/evilgeniuslabs" alt="I sell on Lectronz"><img src="https://lectronz-images.b-cdn.net/static/badges/i-sell-on-lectronz-medium.png" /></a>
 
 It has solder pads on the back that match the pinout of the [QT Py by Adafruit](https://www.adafruit.com/?q=qt+py), or [XIAO by Seeed](https://www.seeedstudio.com/catalogsearch/result/?q=xiao). It can be used by any microcontroller via the 5V, GND, and Data In pins. It also has a Data Out pad, for connecting more LEDs on the same data pin.
 

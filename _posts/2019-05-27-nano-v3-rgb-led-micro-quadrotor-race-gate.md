@@ -6,7 +6,7 @@ id: nano-v3-rgb-led-micro-quadrotor-race-gate
 imgurId: mOL28YC
 videoUrl: https://www.youtube.com/embed/oqDBVKWO1fo
 excerpt: RGB LED race gate for micro quadrotors, built with a Nano v3, 120 NeoPixel strip, PEX pipe, and FastLED.
-categories: products
+categories: retired
 redirect_from:
   - /30
 ---
@@ -36,9 +36,7 @@ redirect_from:
 
 ### Buy
 
-For fast shipping to the US, you can buy from our [Tindie](https://www.tindie.com/products/17138) store.
-
-For free shipping worldwide, you can [contact us](/contact) to order and have them shipped to you directly from the PCB manufacturer.  It takes a few weeks, and they require PCBs be ordered in multiples of three.
+For free shipping worldwide, you can order directly from OSH Park: [https://oshpark.com/shared_projects/g39rlmiB](https://oshpark.com/shared_projects/g39rlmiB)
 
 ### Details
 

@@ -6,7 +6,7 @@ id: mini-wifi-led-controller
 imgurId: rp8lLwQ
 videoUrl: https://www.youtube.com/embed/uOu8dWnWBQw
 excerpt: Fun and interactive project for Maker Faire Kansas City 2017 using LED arcade buttons.
-categories: products
+categories: retired
 redirect_from:
   - /18
   - /mfkc2017
