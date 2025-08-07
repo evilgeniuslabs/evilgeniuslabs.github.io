@@ -5,7 +5,7 @@ sortKey: Four and Eight Channel Level Shifter Breakouts
 id: four-and-eight-channel-level-shifter-breakouts
 imgurId: w4jhZna
 excerpt: Four and eight channel level shifter breakouts for driving addressable RGB LEDs.
-categories: products
+categories: retired
 published: false
 redirect_from:
   - /31
@@ -26,9 +26,11 @@ redirect_from:
 
 ### Buy
 
-For fast shipping to the US, you can buy from our [Tindie](https://www.tindie.com/products/18459) store.
+For free shipping worldwide, you can order directly from OSH Park:
 
-If we're out of stock on Tindie, or for free shipping worldwide, you can [contact us](/contact) to order and have them shipped to you directly from the PCB manufacturer. It takes a bit longer, and they require PCBs be ordered in multiples of three.
+Four Channel Level Shifter Breakout: [https://oshpark.com/shared_projects/qjilYKy1](https://oshpark.com/shared_projects/qjilYKy1)
+
+Eight Channel Level Shifter Breakout: [https://oshpark.com/shared_projects/uwi2JC23](https://oshpark.com/shared_projects/uwi2JC23)
 
 ### Details
 

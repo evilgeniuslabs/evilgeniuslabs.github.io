@@ -5,7 +5,7 @@ sortKey: NodeMCU-32S Wi-Fi and BLE LED Controller
 id: nodemcu-32s-shield
 imgurId: 2mjwnIJ
 excerpt: Wi-Fi and BLE controlled, Arduino-compatible addressable RGB LED controller based on the NodeMCU-32S, with level shifter.
-categories: products
+categories: retired
 redirect_from:
   - /24
 ---
@@ -23,9 +23,7 @@ redirect_from:
 
 ### Buy
 
-For fast shipping to the US, you can buy from our [Tindie](https://www.tindie.com/products/15203) store.
-
-For free shipping worldwide, you can [contact us](/contact) to order and have them shipped to you directly from the PCB manufacturer.  It takes a few weeks, and they require PCBs be ordered in multiples of three.
+For free shipping worldwide, you can order directly from OSH Park: [https://oshpark.com/shared_projects/hL0Bna7M](https://oshpark.com/shared_projects/hL0Bna7M)
 
 ### Details
 

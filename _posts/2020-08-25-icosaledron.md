@@ -8,7 +8,7 @@ imgurId: waybbXq
 excerpt: IcosaLEDron is a 20-sided polyhedron with one WS2812B-Mini-3535 addressable RGB LED per face.
 categories:
   - portfolio
-  - products
+  - retired
 published: true
 redirect_from:
   - /40
@@ -44,7 +44,7 @@ The triangles can be assembled into any [deltahedron](https://en.wikipedia.org/w
 Augmentation
 4 tets + 1 oct</a>
 
-<a class="btn btn-success" href="https://www.tindie.com/products/21216/">Buy on Tindie</a>
+<a href="https://lectronz.com/stores/evilgeniuslabs" alt="I sell on Lectronz"><img src="https://lectronz-images.b-cdn.net/static/badges/i-sell-on-lectronz-medium.png" /></a>
 
 <p>Deltahedron from <i>Wikipedia, The Free Encyclopedia</i>.  <a href="https://en.wikipedia.org/wiki/Deltahedron">https://en.wikipedia.org/wiki/Deltahedron</a>
 </p>

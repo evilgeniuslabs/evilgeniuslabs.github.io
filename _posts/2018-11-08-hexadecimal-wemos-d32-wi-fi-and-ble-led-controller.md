@@ -6,7 +6,7 @@ id: hexadecimal-wemos-d32-shield
 imgurId: LJhiN0m
 videoUrl: https://www.youtube.com/embed/0jCk7uoe0Ec
 excerpt: 16 output, Wi-Fi and BLE controlled, Arduino-compatible addressable RGB LED controller based on the Wemos D32, with level shifter.
-categories: products
+categories: retired
 redirect_from:
   - /28
 ---
@@ -26,9 +26,7 @@ redirect_from:
 
 ### Buy
 
-For fast shipping to the US, you can buy from our [Tindie](https://www.tindie.com/products/15363) store.
-
-For free shipping worldwide, you can [contact us](/contact) to order and have them shipped to you directly from the PCB manufacturer. It takes a few weeks, and they require PCBs be ordered in multiples of three.
+For free shipping worldwide, you can order directly from OSH Park: [https://oshpark.com/shared_projects/Uh663LXX](https://oshpark.com/shared_projects/Uh663LXX)
 
 ### Details
 

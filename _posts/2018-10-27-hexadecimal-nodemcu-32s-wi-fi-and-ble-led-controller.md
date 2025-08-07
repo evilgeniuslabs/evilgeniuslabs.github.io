@@ -6,7 +6,7 @@ id: hexadecimal-nodemcu-32s-shield
 imgurId: XSqtDMi
 videoUrl: https://www.youtube.com/embed/0jCk7uoe0Ec
 excerpt: 16 output, Wi-Fi and BLE controlled, Arduino-compatible addressable RGB LED controller based on the NodeMCU-32S, with level shifter.
-categories: products
+categories: retired
 redirect_from:
   - /25
 ---
@@ -24,9 +24,7 @@ redirect_from:
 
 ### Buy
 
-For fast shipping to the US, you can buy from our [Tindie](https://www.tindie.com/products/15247) store.
-
-For free shipping worldwide, you can [contact us](/contact) to order and have them shipped to you directly from the PCB manufacturer.  It takes a few weeks, and they require PCBs be ordered in multiples of three.
+For free shipping worldwide, you can order directly from OSH Park: [https://oshpark.com/shared_projects/dDX67jyf](https://oshpark.com/shared_projects/dDX67jyf)
 
 ### Details
 

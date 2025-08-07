@@ -5,7 +5,7 @@ sortKey: SMD Mini Six Output ESP8266 Wi-Fi RGB LED Controller
 id: smd-mini-six-output-esp8266-wi-fi-rgb-led-controller
 imgurId: w4jhZna
 excerpt: Six output, surface mount assembled, Wi-Fi controlled, Arduino-compatible addressable RGB LED controller based on the ESP8266, with level shifter.
-categories: products
+categories: retired
 published: true
 redirect_from:
   - /33
@@ -32,9 +32,7 @@ redirect_from:
 
 ### Buy
 
-For fast shipping to the US, you can buy from our [Tindie](https://www.tindie.com/products/19174) store.
-
-If we're out of stock on Tindie, or for free shipping worldwide, you can [contact us](/contact) to order and have them shipped to you directly from the PCB manufacturer. They won't come with SMD components, it takes a bit longer, and they require PCBs be ordered in multiples of three.
+For free shipping worldwide, you can order the bare PCBs directly from OSH Park: [https://oshpark.com/shared_projects/dNnNjJRk](https://oshpark.com/shared_projects/dNnNjJRk)
 
 ### Details
 

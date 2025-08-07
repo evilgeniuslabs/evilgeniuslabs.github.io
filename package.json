@@ -1,0 +1,11 @@
+{
+  "name": "evilgeniuslabs.github.io",
+  "version": "1.0.0",
+  "description": "This repository contains the source code for the [evilgeniuslabs.org](http://www.evilgeniuslabs.org) web site.",
+  "main": "index.js",
+  "scripts": {
+    "start": "bundle exec jekyll serve"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -5,7 +5,7 @@ sortKey: Wi-Fi LED Controller
 id: wifi-led-controller
 imgurId: TTtKvaG
 excerpt: Wi-Fi controlled, Arduino-compatible addressable RGB LED controller based on the ESP8266, with level shifter.
-categories: products
+categories: retired
 redirect_from:
   - /15
 ---
@@ -19,9 +19,7 @@ redirect_from:
 
 ### Buy
 
-For fast shipping to the US, you can buy from our [Tindie](https://www.tindie.com/products/8576) store.
-
-If we're out of stock on Tindie, or for free shipping worldwide, you can [contact us](/contact) to order and have them shipped to you directly from the PCB manufacturer. It takes a bit longer, and they require PCBs be ordered in multiples of three.
+For free shipping worldwide, you can order directly from OSH Park: [https://oshpark.com/shared_projects/Pb1joWH6](https://oshpark.com/shared_projects/Pb1joWH6)
 
 ### Details
 
@@ -48,8 +46,6 @@ Stacking female headers can be used, which allows plugging other Wemos shields d
 I also designed a 3D printed enclosure for it. It provides access to the wiring for the LEDs, IR receiver, reset button, and Micro USB connector.
 
 <img src="https://i.imgur.com/KxmFRfz.jpg" style="width:400px" class="img-responsive" />
-
-The shield is available in our store on [Tindie](https://www.tindie.com/products/8576).
 
 The enclosure STL files are also available for 3D printing on [Thingiverse](https://www.thingiverse.com/thing:2502212).
 

@@ -7,7 +7,7 @@ imgurId: 9wXGJhP
 excerpt: Fibonacci32 is a beautiful 50mm circular disc with 34 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
 categories: 
   - portfolio
-  - products
+  - retired
 published: true
 redirect_from:
   - /38
@@ -22,6 +22,16 @@ sortKey: Fibonacci0032 Mini
 <a href="https://i.imgur.com/O4n5yro.png" target="_blank"><img src="https://i.imgur.com/O4n5yro.png" style="width:340px"  /></a>
 <a href="https://i.imgur.com/kxsWOKq.png" target="_blank"><img src="https://i.imgur.com/kxsWOKq.png" style="width:340px"  /></a>
 
+---
+
+**Retired**
+
+Alternatives:
+
+* [One Inch Fibonacc32](/one-inch-fibonacci32)
+
+---
+
 <h3>Table of Contents</h3>
 
 - TOC
@@ -33,7 +43,7 @@ Fibonacci32 is a beautiful 86mm circular disc with 34 RGB LEDs surface mounted i
 
 It consists of 34 RGB LEDs, arranged into a circular <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.  I decided to include 34 LEDs since it's a number in the Fibonacci sequence, only 2 away from 32, and there was room on the 50mm PCB.  I'm calling it Fibonacci32 so that it fits in with the rest of the series.
 
-<a class="btn btn-success" href="https://www.tindie.com/products/20749">Buy on Tindie</a>
+<a href="https://lectronz.com/stores/evilgeniuslabs" alt="I sell on Lectronz"><img src="https://lectronz-images.b-cdn.net/static/badges/i-sell-on-lectronz-medium.png" /></a>
 
 <p>In disc <a href="https://en.wikipedia.org/wiki/Phyllotaxis" title="Phyllotaxis">phyllotaxis</a>, as in the <a href="https://en.wikipedia.org/wiki/Sunflower" title="Sunflower" class="mw-redirect">sunflower</a> and daisy, the mesh of spirals occurs in <a href="https://en.wikipedia.org/wiki/Fibonacci_number" title="Fibonacci number">Fibonacci numbers</a> because divergence (angle of succession in a single spiral arrangement) approaches the <a href="https://en.wikipedia.org/wiki/Golden_ratio" title="Golden ratio">golden ratio</a>. The shape of the spirals depends on the growth of the elements generated sequentially. In mature-disc <a href="https://en.wikipedia.org/wiki/Phyllotaxis" title="Phyllotaxis">phyllotaxis</a>, when all the elements are the same size, the shape of the spirals is that of Fermat spirals—ideally. That is because Fermat's spiral traverses equal <a href="https://en.wikipedia.org/wiki/Annulus_(mathematics)" title="Annulus (mathematics)">annuli</a> in equal turns. The full model proposed by H Vogel in 1979<sup id="cite_ref-2" class="reference"><a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral#cite_note-2"><span>[</span>2<span>]</span></a></sup> is</p>
 <dl>
@@ -95,7 +105,6 @@ Instructions for connecting to a Fibonacci, pre-assembled or programmed with the
 Parts that are **not included**, but are required to assemble and use:
 
 - Microcontroller (Arduino, ESP8266, ESP32, etc):
-  - Any of my [LED controllers](https://www.tindie.com/stores/jasoncoon/items/)
   - [Pixelblaze](https://www.bhencke.com/pixelblaze) by [ElectroMage](https://electromage.com)
 - Power supply, or run off of USB power from microcontroller.
 - Wires, connectors, crimp tool, etc.
@@ -103,7 +112,7 @@ Parts that are **not included**, but are required to assemble and use:
 
 Parts I used in my builds (also **not included**):
 
-- [Wemos D1 Mini ESP8266 Level Shifter Mini Shield Kit](https://www.tindie.com/products/9723/) is a great option. It's what I've used in all my builds.
+- [Wemos D1 Mini ESP8266 Level Shifter Mini Shield Kit](https://oshpark.com/shared_projects/6tHcl6u3) is a great option. It's what I used to use in all my builds.
 - USB power from microcontroller, with [FastLED's power management](https://github.com/FastLED/FastLED/wiki/Power-notes#managing-power-in-fastled) to limit the maximum brightness and keep total current draw under 2A.
 - [Dupont Connector Pins](https://amzn.to/2IiN84D)
 - [Dupont Connector Housings](https://amzn.to/39pjZRk)

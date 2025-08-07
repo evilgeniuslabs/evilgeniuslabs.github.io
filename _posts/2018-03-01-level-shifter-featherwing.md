@@ -5,7 +5,7 @@ sortKey: Level Shifter FeatherWing
 id: level-shifter-featherwing
 imgurId: rdqYNG6
 excerpt: Wi-Fi controlled, Arduino-compatible addressable RGB LED controller based on the ESP32, with level shifter.
-categories: products
+categories: retired
 redirect_from:
   - /20
 ---
@@ -23,9 +23,7 @@ redirect_from:
 
 ### Buy
 
-For fast shipping to the US, you can buy from our [Tindie](https://www.tindie.com/products/11579) store.
-
-If we're out of stock on Tindie, or for free shipping worldwide, you can [contact us](/contact) to order and have them shipped to you directly from the PCB manufacturer. It takes a bit longer, and they require PCBs be ordered in multiples of three.
+For free shipping worldwide, you can order directly from OSH Park: [https://oshpark.com/shared_projects/M36968Sg](https://oshpark.com/shared_projects/M36968Sg)
 
 ### Details
 
