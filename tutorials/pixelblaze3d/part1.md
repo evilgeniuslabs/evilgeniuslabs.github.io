@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Pixelblaze 3D Tutorial
+title: Pixelblaze 3D Tutorial - Part 1
 ---
 
 <div class="page-header">
@@ -13,7 +13,9 @@ title: Pixelblaze 3D Tutorial
 - TOC
 {:toc}
 
-The Pixelblaze controller inside your cube allows you to write your own patterns! In fact, you can view and edit the code for every pattern included with it.
+These tutorials were made using an [LED Cube 8x8x8](led-cube-8x8x8), but should work on any 3D mapped set of LEDs using a [Pixelblaze](https://electromage.com/) controller.
+
+The [Pixelblaze](https://electromage.com/) controller inside your cube allows you to write your own patterns! In fact, you can view and edit the code for every pattern included with it.
 
 Let’s get started writing your first pattern.
 
@@ -54,9 +56,9 @@ Any time you see a `render2D` function, just rename it to `render3D` instead, or
 1. Delete any code in the New Expression editor.
 1. Type (or copy and paste) the following code into the editor:
 
-       export function render() {
-         rgb(1, 0, 0)
-       }
+   export function render() {
+   rgb(1, 0, 0)
+   }
 
 1. All of the pixels (LEDs) should turn red.
 1. Change the second line of the code to `rgb(0, 1, 0)` and all of the pixels should turn green.
@@ -87,20 +89,20 @@ You may have found that it can be a little difficult to get just the right color
 
 ### HSV Colors and the `hsv` function
 
-We can also control the pixel colors by using the `hsv` function. 
+We can also control the pixel colors by using the `hsv` function.
 
-1. Change the second line of the code to `hsv(0, 1, 1)` and all of the pixels should turn red.
-   
-   Here's the complete code:
+1.  Change the second line of the code to `hsv(0, 1, 1)` and all of the pixels should turn red.
 
-       export function render() {
-         hsv(0, 1, 1)
-       }
+    Here's the complete code:
 
-1. Change it to `hsv(.33, 1, 1)` and they'll turn green.
-1. Change it to `hsv(.66, 1, 1)` and they'll turn blue.
-1. Change it to `hsv(1, 1, 1)` and they'll turn back to red.
-1. Change it to `hsv(1, .99, 1)` and they'll turn pink.
+        export function render() {
+          hsv(0, 1, 1)
+        }
+
+1.  Change it to `hsv(.33, 1, 1)` and they'll turn green.
+1.  Change it to `hsv(.66, 1, 1)` and they'll turn blue.
+1.  Change it to `hsv(1, 1, 1)` and they'll turn back to red.
+1.  Change it to `hsv(1, .99, 1)` and they'll turn pink.
 
 HSV stands for Hue, Saturation, and Value.
 
@@ -137,21 +139,21 @@ Changing every pixel to be the same color is neat, but what if we want each pixe
 
 We can use the pixel index to make each LED a different color.
 
-1. Change the first line, adding `index` in between the parentheses of the render function:
+1.  Change the first line, adding `index` in between the parentheses of the render function:
 
-       export function render(index) {
+    export function render(index) {
 
-1. Change the second line to `hsv(index / pixelCount, 1, 1)`
-   
-   Here's the complete code:
+1.  Change the second line to `hsv(index / pixelCount, 1, 1)`
 
-       export function render(index) {
-         hsv(index / pixelCount, 1, 1)
-       }
+    Here's the complete code:
 
-1. Congratulations, you made a rainbow!
+        export function render(index) {
+          hsv(index / pixelCount, 1, 1)
+        }
 
-    <img src="https://i.imgur.com/8rP0GLu.jpeg" class="img-thumbnail" style="width: 240px" />
+1.  Congratulations, you made a rainbow!
+
+<img src="https://i.imgur.com/8rP0GLu.jpeg" class="img-thumbnail" style="width: 240px" />
 
 The `render` function includes `index`, which is the index of the current pixel being rendered. The very first time render is called, index is set to 0. The next time, index is 1, etc, until index is the number of pixels minus one. Then it wraps back to the beginning so that the next time it's called it starts back over at 0.
 
@@ -202,7 +204,7 @@ Note that we've reorganized the code a bit:
 
 The `time` function returns a value between 0 and 1 that loops over and over. The speed it loops is controlled by the value passed to it. A value of 1 will loop about every 65 seconds. A value of .1 will loop about every 6.5 seconds. When added to a hue, this rotates the color around the hue color wheel. Since we add that to each pixel's fixed hue (`index / pixelCount`), they all rotate at the same speed.
 
-Note that Pixelblaze automatically handles values for hue larger than 1, wrapping it around to the other side of the color wheel.  So a hue of `1.33` is the same green as `0.33`.
+Note that Pixelblaze automatically handles values for hue larger than 1, wrapping it around to the other side of the color wheel. So a hue of `1.33` is the same green as `0.33`.
 
 ---
 
@@ -301,7 +303,7 @@ The `hypot3` function calculates the radius of the current point, or the distanc
 
 It may be difficult to tell it's a sphere now, so let's increase the contrast by adding this line:
 
-   v = v * v
+v = v \* v
 
    <img src="https://i.imgur.com/sV9sLNP.jpeg" class="img-thumbnail" style="width: 240px" />
 
@@ -334,9 +336,25 @@ Flip the direction and make it move inward by adding instead of subtracting:
 
 Experiment by changing any of the numbers in the code with different values:
 
-* Changing the x, y and z offsets from .5 will change the center of the circle.
-* Changing the time from .1 will make it move slower or faster.
+- Changing the x, y and z offsets from .5 will change the center of the circle.
+- Changing the time from .1 will make it move slower or faster.
 
----
+### Next Steps
 
-More coming soon!
+Congratulations! You made it to the end, through the trigonometry section!
+
+Next steps:
+
+* Keep experimenting by changing the code above! You can't crash the Pixelblaze. The pixels will just temporarily stop updating, the editor will happily report any errors, and as soon as they're fixed the pixels will resume updating.
+
+* You can enter a name and click the save button to save your pattern at any point.  Click the `New Pattern` button to keep the current one and start a new one.
+
+* Scroll down in the editor page and there's a full reference of everything the Pixelblaze supports.
+
+* Go to the `Patterns` page and click the `Edit` button to the right of every pattern to view the code for any of the patterns! Or use the `Clone` button to edit a copy of the pattern, leaving the current one unchanged.
+
+* If you get stuck, need help, or are unsure how to create the pattern of your dreams, reach out to one of us at any of our social links below.
+
+* Join the [ElectroMage Forum](https://forum.electromage.com) where Pixelblaze users help each other with questions, share amazing patterns, and more!
+
+[Pixelblaze 3D Tutorial - Part 2](/tutorials/pixelblaze3d/part2)
