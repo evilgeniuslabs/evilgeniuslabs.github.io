@@ -128,7 +128,7 @@ Let's explore some different waveforms and how to generate them.
 
 The `time` function that we've been using creates a sawtooth wave between 0.0 and 1.0 that loops about every `65.536 * interval` seconds (use `0.015` for approximately 1 second).
 
-<img src="https://luxlavalier.com/assets/img/code/sawtooth-wave.png" class="img-thumbnail" /> style="width: 240px"
+<img src="https://luxlavalier.com/assets/img/code/sawtooth-wave.png" class="img-thumbnail" />
 
 Let's use time to make a moving rainbow:
 
@@ -155,7 +155,7 @@ We see it as a continuously scrolling rainbow, because the time wave wraps from 
 
 The `triangle` function converts a sawtooth wave between 0.0 and 1.0, like that returned by the `time` function, to a triangle wave between 0.0 and 1.0. The value passed to `triangle` is automatically wrapped between 0.0 and 1.0.
 
-<img src="https://luxlavalier.com/assets/img/code/triangle-wave.png" class="img-thumbnail" /> style="width: 240px"
+<img src="https://luxlavalier.com/assets/img/code/triangle-wave.png" class="img-thumbnail" />
 
 Add the following line inside the `beforeRender` function:
 
@@ -192,7 +192,7 @@ Notice now instead of constantly scrolling in one direction, it now moves back a
 
 The `wave` function converts a sawtooth wave between 0.0 and 1.0, like that returned by the `time` function, to a smooth sine wave between 0.0 and 1.0. The value passed to `wave` is automatically wrapped between 0.0 and 1.0.
 
-<img src="https://luxlavalier.com/assets/img/code/sine-wave.png" class="img-thumbnail" /> style="width: 240px"
+<img src="https://luxlavalier.com/assets/img/code/sine-wave.png" class="img-thumbnail" />
 
 Try changing line in `beforeRender` from `triangle` to `wave`:
 
@@ -300,7 +300,7 @@ All of the above wave functions are symmetrical waveforms.  Let's explore a rand
 
 The `perlin` function generates random 3D dimensional Perlin noise waveform. Every integer value produces a different random result, with smooth transitions between them. It returns a value ranging from -1.0 to 1.0.
 
-<img src="https://luxlavalier.com/assets/img/code/perlin-wave.png" class="img-thumbnail" /> style="width: 240px"
+<img src="https://luxlavalier.com/assets/img/code/perlin-wave.png" class="img-thumbnail" />
 
 Try this code:
 
