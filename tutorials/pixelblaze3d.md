@@ -180,8 +180,8 @@ Replace the code with the following:
 
 And now the rainbow moves!
 
-<div class="ratio ratio-1x1 img-thumbnail" style="width: 240px">
-  <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy">
+<div class="ratio ratio-1x1 img-thumbnail">
+  <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" style="width: 240px">
     <source src="https://i.imgur.com/MqZ9p3Z.mp4" type="video/mp4">
   </video>
 </div>
@@ -236,8 +236,8 @@ We can animate these three dimensional rainbows the same way we did before, with
 
 should give you a rainbow that scrolls from right to left:
 
-<div class="ratio ratio-1x1 img-thumbnail" style="width: 240px">
-  <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy">
+<div class="ratio ratio-1x1 img-thumbnail">
+  <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" style="width: 240px">
     <source src="https://i.imgur.com/qhxfOai.mp4" type="video/mp4">
   </video>
 </div>
@@ -247,8 +247,8 @@ To make it change direction, subtract instead of adding time:
 
     hsv(x - time(.1), 1, 1)
 
-<div class="ratio ratio-1x1 img-thumbnail" style="width: 240px">
-  <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy">
+<div class="ratio ratio-1x1 img-thumbnail">
+  <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" style="width: 240px">
     <source src="https://i.imgur.com/4kO0WuI.mp4" type="video/mp4">
   </video>
 </div>
@@ -258,8 +258,8 @@ To make it scroll vertically, change `x` to `z`:
 
     hsv(z - time(.1), 1, 1)
 
-<div class="ratio ratio-1x1 img-thumbnail" style="width: 240px">
-  <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy">
+<div class="ratio ratio-1x1 img-thumbnail">
+  <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" style="width: 240px">
     <source src="https://i.imgur.com/4yvofFE.mp4" type="video/mp4">
   </video>
 </div>
@@ -269,8 +269,8 @@ Diagonal:
 
     hsv((x + y + z) / 3 + time(.1), 1, 1)
 
-<div class="ratio ratio-1x1 img-thumbnail" style="width: 240px">
-  <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy">
+<div class="ratio ratio-1x1 img-thumbnail">
+  <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" style="width: 240px">
     <source src="https://i.imgur.com/ChRnxO1.mp4" type="video/mp4">
   </video>
 </div>
@@ -314,8 +314,8 @@ Make it move with time:
       hsv(1, 1, v)
     }
 
-<div class="ratio ratio-1x1 img-thumbnail" style="width: 240px">
-  <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy">
+<div class="ratio ratio-1x1 img-thumbnail">
+  <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" style="width: 240px">
     <source src="https://i.imgur.com/h5sQidd.mp4" type="video/mp4">
   </video>
 </div>
@@ -325,8 +325,8 @@ Flip the direction and make it move inward by adding instead of subtracting:
 
     v = 1 - (t + hypot3(x - .5, y - .5, z - .5))
 
-<div class="ratio ratio-1x1 img-thumbnail" style="width: 240px">
-  <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy">
+<div class="ratio ratio-1x1 img-thumbnail">
+  <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" style="width: 240px">
     <source src="https://i.imgur.com/oBLqTQK.mp4" type="video/mp4">
   </video>
 </div>
