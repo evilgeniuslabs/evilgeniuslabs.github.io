@@ -151,7 +151,7 @@ We can use the pixel index to make each LED a different color.
 
 1. Congratulations, you made a rainbow!
 
-    // TODO: add an image
+    <img src="https://i.imgur.com/8rP0GLu.jpeg" class="img-thumbnail" style="width: 240px" />
 
 The `render` function includes `index`, which is the index of the current pixel being rendered. The very first time render is called, index is set to 0. The next time, index is 1, etc, until index is the number of pixels minus one. Then it wraps back to the beginning so that the next time it's called it starts back over at 0.
 
@@ -180,7 +180,12 @@ Replace the code with the following:
 
 And now the rainbow moves!
 
-    // TODO: add an image
+<div class="ratio ratio-1x1 img-thumbnail" style="width: 240px">
+  <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy">
+    <source src="https://i.imgur.com/MqZ9p3Z.mp4" type="video/mp4">
+  </video>
+</div>
+<br />
 
 Try different values in the `time` function on the second line. You should find that `1` makes it move extremely slowly, taking over a minute to make a full rotation, while `0.005` is very fast. With low enough numbers for time, it will rotate so fast that it looks white!
 
@@ -213,15 +218,15 @@ Replace the code with the following:
 
 You should now see a horizontal rainbow!
 
-   <img src="/assets/img/code/x.jpg" class="img-thumbnail" style="width: 240px" />
+   <img src="https://i.imgur.com/EZfr3yQ.jpeg" class="img-thumbnail" style="width: 240px" />
 
-Change the hue (the first parameter inside the `hsv` function) from `x` to `y` and it'll change to vertical.
+Change the hue (the first parameter inside the `hsv` function) from `x` to `z` and it'll change to vertical.
 
-   <img src="/assets/img/code/y.jpg" class="img-thumbnail" style="width: 240px" />
+   <img src="https://i.imgur.com/2ahJUK5.jpeg" class="img-thumbnail" style="width: 240px" />
 
 Change it to `(x + y + z) / 3` and it'll be diagonal!
 
-   <img src="/assets/img/code/xy.jpg" class="img-thumbnail" style="width: 240px" />
+   <img src="https://i.imgur.com/o54k9Zt.jpeg" class="img-thumbnail" style="width: 240px" />
 
 Notice that we changed from using the `render` function to the `render3D` function. In addition to the `index` parameter, it also includes `x`, `y` and `z`. These parameters range from 0 to 1, and indicate the current pixel's three-dimensional position in the display, with `(0,0,0)` in the top left corner, and `(1,1,1)` in the bottom right.
 
@@ -232,8 +237,8 @@ We can animate these three dimensional rainbows the same way we did before, with
 should give you a rainbow that scrolls from right to left:
 
 <div class="ratio ratio-1x1 img-thumbnail" style="width: 240px">
-  <video poster="/assets/img/code/x.jpg" preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy">
-    <source src="/assets/img/code/x.mp4" type="video/mp4">
+  <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy">
+    <source src="https://i.imgur.com/qhxfOai.mp4" type="video/mp4">
   </video>
 </div>
 <br />
@@ -243,8 +248,8 @@ To make it change direction, subtract instead of adding time:
     hsv(x - time(.1), 1, 1)
 
 <div class="ratio ratio-1x1 img-thumbnail" style="width: 240px">
-  <video poster="/assets/img/code/x.jpg" preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy">
-    <source src="/assets/img/code/x-neg.mp4" type="video/mp4">
+  <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy">
+    <source src="https://i.imgur.com/4kO0WuI.mp4" type="video/mp4">
   </video>
 </div>
 <br />
@@ -254,8 +259,8 @@ To make it scroll vertically, change `x` to `z`:
     hsv(z - time(.1), 1, 1)
 
 <div class="ratio ratio-1x1 img-thumbnail" style="width: 240px">
-  <video poster="/assets/img/code/y.jpg" preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy">
-    <source src="/assets/img/code/y.mp4" type="video/mp4">
+  <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy">
+    <source src="https://i.imgur.com/4yvofFE.mp4" type="video/mp4">
   </video>
 </div>
 <br />
@@ -265,8 +270,8 @@ Diagonal:
     hsv((x + y + z) / 3 + time(.1), 1, 1)
 
 <div class="ratio ratio-1x1 img-thumbnail" style="width: 240px">
-  <video poster="/assets/img/code/xy.jpg" preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy">
-    <source src="/assets/img/code/xy.mp4" type="video/mp4">
+  <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy">
+    <source src="https://i.imgur.com/ChRnxO1.mp4" type="video/mp4">
   </video>
 </div>
 <br />
@@ -284,23 +289,23 @@ Replace the code with the following:
       hsv(1, 1, v)
     }
 
-You should see a red quarter sphere in the back bottom left corner!
+You should see a red quarter sphere in the back bottom left corner.
 
-   <img src="/assets/img/code/radius.jpg" class="img-thumbnail" style="width: 240px" />
+   <img src="https://i.imgur.com/Ljhf0X6.jpeg" class="img-thumbnail" style="width: 240px" />
 
 The `hypot3` function calculates the radius of the current point, or the distance of the point `(x,y,z)` from the origin `(0,0)` (the upper-left corner). If we want the origin in the center of the display, we change the second line to:
 
     v = 1 - hypot3(x - .5, y - .5, z - .5)
 
-   <img src="/assets/img/code/radius-center.jpg" class="img-thumbnail" style="width: 240px" />
+   <img src="https://i.imgur.com/sV9sLNP.jpeg" class="img-thumbnail" style="width: 240px" />
 
 It may be difficult to tell it's a sphere now, so let's increase the contrast by adding this line:
 
    v = v * v
 
-   <img src="/assets/img/code/radius-center-full.jpg" class="img-thumbnail" style="width: 240px" />
+   <img src="https://i.imgur.com/sV9sLNP.jpeg" class="img-thumbnail" style="width: 240px" />
 
-Make it move by adding time:
+Make it move with time:
 
     export function render3D(index, x, y, z) {
       t = time(.01)
@@ -310,19 +315,19 @@ Make it move by adding time:
     }
 
 <div class="ratio ratio-1x1 img-thumbnail" style="width: 240px">
-  <video poster="/assets/img/code/radius-center.jpg" preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy">
-    <source src="/assets/img/code/radius-in.mp4" type="video/mp4">
+  <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy">
+    <source src="https://i.imgur.com/h5sQidd.mp4" type="video/mp4">
   </video>
 </div>
 <br />
 
-Flip the direction and make it move inward by adding time:
+Flip the direction and make it move inward by adding instead of subtracting:
 
     v = 1 - (t + hypot3(x - .5, y - .5, z - .5))
 
 <div class="ratio ratio-1x1 img-thumbnail" style="width: 240px">
-  <video poster="/assets/img/code/radius-center.jpg" preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy">
-    <source src="/assets/img/code/radius-out.mp4" type="video/mp4">
+  <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy">
+    <source src="https://i.imgur.com/oBLqTQK.mp4" type="video/mp4">
   </video>
 </div>
 <br />
