@@ -11,9 +11,9 @@ title: Pixelblaze 3D Tutorial - Part 1
 </div>
 
 - TOC
-{:toc}
+  {:toc}
 
-These tutorials were made using an [LED Cube 8x8x8](led-cube-8x8x8), but should work on any 3D mapped set of LEDs using a [Pixelblaze](https://electromage.com/) controller.
+These tutorials were made using an [LED Cube 8x8x8](/led-cube-8x8x8), but should work on any 3D mapped set of LEDs using a [Pixelblaze](https://electromage.com/) controller.
 
 The [Pixelblaze](https://electromage.com/) controller inside your cube allows you to write your own patterns! In fact, you can view and edit the code for every pattern included with it.
 
@@ -345,16 +345,16 @@ Congratulations! You made it to the end, through the trigonometry section!
 
 Next steps:
 
-* Keep experimenting by changing the code above! You can't crash the Pixelblaze. The pixels will just temporarily stop updating, the editor will happily report any errors, and as soon as they're fixed the pixels will resume updating.
+- Keep experimenting by changing the code above! You can't crash the Pixelblaze. The pixels will just temporarily stop updating, the editor will happily report any errors, and as soon as they're fixed the pixels will resume updating.
 
-* You can enter a name and click the save button to save your pattern at any point.  Click the `New Pattern` button to keep the current one and start a new one.
+- You can enter a name and click the save button to save your pattern at any point. Click the `New Pattern` button to keep the current one and start a new one.
 
-* Scroll down in the editor page and there's a full reference of everything the Pixelblaze supports.
+- Scroll down in the editor page and there's a full reference of everything the Pixelblaze supports.
 
-* Go to the `Patterns` page and click the `Edit` button to the right of every pattern to view the code for any of the patterns! Or use the `Clone` button to edit a copy of the pattern, leaving the current one unchanged.
+- Go to the `Patterns` page and click the `Edit` button to the right of every pattern to view the code for any of the patterns! Or use the `Clone` button to edit a copy of the pattern, leaving the current one unchanged.
 
-* If you get stuck, need help, or are unsure how to create the pattern of your dreams, reach out to one of us at any of our social links below.
+- If you get stuck, need help, or are unsure how to create the pattern of your dreams, reach out to one of us at any of our social links below.
 
-* Join the [ElectroMage Forum](https://forum.electromage.com) where Pixelblaze users help each other with questions, share amazing patterns, and more!
+- Join the [ElectroMage Forum](https://forum.electromage.com) where Pixelblaze users help each other with questions, share amazing patterns, and more!
 
 [Pixelblaze 3D Tutorial - Part 2](/tutorials/pixelblaze3d/part2)
