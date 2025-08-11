@@ -11,7 +11,7 @@ title: Pixelblaze 3D Tutorial - Part 1
 </div>
 
 - TOC
-  {:toc}
+{:toc}
 
 These tutorials were made using an [LED Cube 8x8x8](/led-cube-8x8x8), but should work on any 3D mapped set of LEDs using a [Pixelblaze](https://electromage.com/) controller.
 
