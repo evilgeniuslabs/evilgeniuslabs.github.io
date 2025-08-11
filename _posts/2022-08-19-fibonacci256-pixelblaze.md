@@ -22,7 +22,7 @@ sortKey: Fibonacci0256pb
 
 **Retired**
 
-See [Fibonacci256 HDR Pixelblaze](/fibonacci256-hdr-pixelblaze) and [Fibonacci256 Expanding Pixelblaze](http://127.0.0.1:4000/fibonacci256-expanding-pixelblaze) instead.
+See [Fibonacci256 HDR Pixelblaze](/fibonacci256-hdr-pixelblaze) and [Fibonacci256 Expanding Pixelblaze](/fibonacci256-expanding-pixelblaze) instead.
 
 ---
 

@@ -34,7 +34,7 @@ While the `render` and `render2D` functions are called once for each pixel, the 
 
 The delta argument is the number of elapsed milliseconds (with a resolution of 6.25ns!) since the last time beforeRender was called. You can use delta to create animations that run at the same speed regardless of the frame rate.
 
-In the introduction, we used the `time` function to make patterns move. In [Part 1](/code/part1), we just did this in `render`, once for each pixel. Now we know that we should move that to `beforeRender`, since it only needs to be updated once per frame not once per pixel:
+In the introduction, we used the `time` function to make patterns move. In [Part 1](/tutorials/pixelblaze3d/part1), we just did this in `render`, once for each pixel. Now we know that we should move that to `beforeRender`, since it only needs to be updated once per frame not once per pixel:
 
     export function beforeRender(delta) {
       t = time(.1)
