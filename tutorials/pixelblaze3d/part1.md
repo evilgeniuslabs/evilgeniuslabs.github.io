@@ -51,7 +51,7 @@ Any time you see a `render2D` function, just rename it to `render3D` instead, or
 
 ### Getting Started
 
-1. If you haven't already, connect your Pixelblaze to your wi-fi, and open its web page: [Wi-Fi Setup Instructions](/setup/wifi)
+1. If you haven't already, connect your Pixelblaze to your wi-fi, and open its web page: [Wi-Fi Setup Instructions](https://luxlavalier.com/setup/wifi)
 1. In the Pixelblaze web app, click the Edit tab at the top of the page.
 1. Delete any code in the New Expression editor.
 1. Type (or copy and paste) the following code into the editor:
