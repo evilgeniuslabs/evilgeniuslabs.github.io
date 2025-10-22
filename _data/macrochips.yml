@@ -232,10 +232,10 @@
 - name: Motorola MC68000P8
   imgurId: rex1fYt
 
-- name: 'Motorola SC414200AT - Atari Jaguar CPU "Tom"'
+- name: Motorola SC414200AT - Atari Jaguar CPU 'Tom'
   imgurId: YkadC5L
 
-- name: 'Motorola SC414201FT - Atari Jaguar DSP "Jerry"'
+- name: Motorola SC414201FT - Atari Jaguar DSP 'Jerry'
   imgurId: TJFM6AM
 
 - name: Motorola XC68040RC25M (custom design)
