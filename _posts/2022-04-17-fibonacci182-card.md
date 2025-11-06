@@ -6,6 +6,7 @@ imgurId: ErMFOKL
 excerpt: Fibonacci 182 Card is a beautiful credit card sized rectangle with 182 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
 categories: 
   - portfolio
+  - products
 published: true
 redirect_from:
   - /53
@@ -24,6 +25,8 @@ sortKey: Fibonacci0182 Card
 <a href="https://imgur.com/CtY1Otx.png" target="_blank"><img src="https://imgur.com/CtY1Otx.png" style="width:340px"  /></a>
 <a href="https://imgur.com/56UauS6.png" target="_blank"><img src="https://imgur.com/56UauS6.png" style="width:340px"  /></a>
 <a href="https://imgur.com/rlgRwNS.png" target="_blank"><img src="https://imgur.com/rlgRwNS.png" style="width:340px"  /></a>
+
+<a href="https://lectronz.com/products/fibonacci182-card" alt="Buy it on Lectronz"><img src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
 
 <h3>Table of Contents</h3>
 

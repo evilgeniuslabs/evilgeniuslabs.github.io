@@ -30,7 +30,7 @@ sortKey: Fibonacci0064 Flower
 <h3>Table of Contents</h3>
 
 - TOC
-  {:toc}
+{:toc}
 
 ### Details
 
