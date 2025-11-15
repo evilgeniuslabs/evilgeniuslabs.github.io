@@ -14,7 +14,8 @@ title: Home
   <div class="thumbnail" id="{{ post.id }}">
     <div class="embed-responsive embed-responsive-16by9">
       <a href="{{ post.url }}">
-        <video class="post lazy" autoplay="autoplay" muted="muted" loop="loop" playsinline>
+        <video class="post lazy" data-poster="//i.imgur.com/{{ post.imgurId }}.jpg" autoplay="autoplay" muted="muted"
+          loop="loop" playsinline>
           <source data-src="//i.imgur.com/{{ post.imgurId }}.mp4" type="video/mp4">
         </video>
       </a>
