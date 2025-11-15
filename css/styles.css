@@ -12,3 +12,9 @@
 ul {
 	padding-inline-start: 2rem;
 }
+
+.mwe-math-fallback-image-inline {
+	background-color: #c3c3c3;
+	padding: 1rem;
+	border-radius: 1rem;
+}
