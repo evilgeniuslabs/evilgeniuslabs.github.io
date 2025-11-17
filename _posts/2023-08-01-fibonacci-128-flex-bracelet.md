@@ -2,10 +2,10 @@
 layout: post
 title: Fibonacci128 Flex Bracelet
 id: fibonacci128flexbracelet
-imgurId: dH0Mkwa
+imgurId: dH0Mkwa.mp4
 # videoUrl: https://www.youtube.com/embed/SNB5xsYFCak
 excerpt: Fibonacci128 Flex Bracelet is a beautiful flexible PCB with 128 SK9822-EC20 HDR RGB LEDs surface mounted in a Fibonacci distribution.
-categories: 
+categories:
   - portfolio
 published: true
 redirect_from:
@@ -16,18 +16,18 @@ redirect_from:
 sortKey: Fibonacci 128 Flex Bracelet
 ---
 
-<!-- <video class="post" poster="//i.imgur.com/XFR7m2E.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
-   <source src="//i.imgur.com/XFR7m2E.mp4" type="video/mp4">
+<!-- <video class="post" poster="/assets//XFR7m2E.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
+   <source src="/assets//XFR7m2E.mp4" type="video/mp4">
 </video>
 
-<video class="post" poster="//i.imgur.com/VIlJk3Y.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
-   <source src="//i.imgur.com/VIlJk3Y.mp4" type="video/mp4">
+<video class="post" poster="/assets//VIlJk3Y.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
+   <source src="/assets//VIlJk3Y.mp4" type="video/mp4">
 </video>
 
-<a href="https://i.imgur.com/kD1Y1va.png" target="_blank"><img src="https://i.imgur.com/kD1Y1va.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/fzahOBP.png" target="_blank"><img src="https://i.imgur.com/fzahOBP.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/8zRjiJI.png" target="_blank"><img src="https://i.imgur.com/8zRjiJI.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/7JHcAPj.png" target="_blank"><img src="https://i.imgur.com/7JHcAPj.png" style="width:340px"  /></a> -->
+<a href="/assets/kD1Y1va.jpg" target="_blank"><img src="/assets/kD1Y1va.jpg" style="width:340px"  /></a>
+<a href="/assets/fzahOBP.jpg" target="_blank"><img src="/assets/fzahOBP.jpg" style="width:340px"  /></a>
+<a href="/assets/8zRjiJI.jpg" target="_blank"><img src="/assets/8zRjiJI.jpg" style="width:340px"  /></a>
+<a href="/assets/7JHcAPj.jpg" target="_blank"><img src="/assets/7JHcAPj.jpg" style="width:340px"  /></a> -->
 
 <h3>Table of Contents</h3>
 

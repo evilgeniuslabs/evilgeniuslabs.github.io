@@ -2,9 +2,9 @@
 layout: post
 title: One Inch Fibonacci128
 id: oneInchFibonacci128
-imgurId: 9AMlrZH
+imgurId: 9AMlrZH.mp4
 excerpt: One Inch Fibonacci 128 is a tiny, beautiful 25.4mm circular disc with 128 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
-categories: 
+categories:
   - portfolio
   - products
 published: true
@@ -15,17 +15,13 @@ redirect_from:
 sortKey: Fibonacci0128 One Inch
 ---
 
-<video class="post" poster="//i.imgur.com/XS34sOM.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop" style="width:684px">
-   <source src="//i.imgur.com/XS34sOM.mp4" type="video/mp4">
-</video>
-
-<a href="https://i.imgur.com/OPSRQJg.png" target="_blank"><img src="https://i.imgur.com/OPSRQJg.png" style="width:340px" /></a>
-<a href="https://i.imgur.com/hJaM5kV.png" target="_blank"><img src="https://i.imgur.com/hJaM5kV.png" style="width:340px" /></a>
-<a href="https://i.imgur.com/WPtWVOj.png" target="_blank"><img src="https://i.imgur.com/WPtWVOj.png" style="width:340px" /></a>
-<a href="https://i.imgur.com/WVNHbnu.png" target="_blank"><img src="https://i.imgur.com/WVNHbnu.png" style="width:340px" /></a>
-<a href="https://i.imgur.com/VtUPc6D.png" target="_blank"><img src="https://i.imgur.com/VtUPc6D.png" style="width:340px" /></a>
-<a href="https://i.imgur.com/nbgX3uo.png" target="_blank"><img src="https://i.imgur.com/nbgX3uo.png" style="width:340px" /></a>
-<a href="https://i.imgur.com/YPEkYqr.png" target="_blank"><img src="https://i.imgur.com/YPEkYqr.png" style="width:340px" /></a>
+<a href="/assets/OPSRQJg.jpg" target="_blank"><img src="/assets/OPSRQJg.jpg" style="width:340px" /></a>
+<a href="/assets/hJaM5kV.jpg" target="_blank"><img src="/assets/hJaM5kV.jpg" style="width:340px" /></a>
+<a href="/assets/WPtWVOj.jpg" target="_blank"><img src="/assets/WPtWVOj.jpg" style="width:340px" /></a>
+<a href="/assets/WVNHbnu.jpg" target="_blank"><img src="/assets/WVNHbnu.jpg" style="width:340px" /></a>
+<a href="/assets/VtUPc6D.jpg" target="_blank"><img src="/assets/VtUPc6D.jpg" style="width:340px" /></a>
+<a href="/assets/nbgX3uo.jpg" target="_blank"><img src="/assets/nbgX3uo.jpg" style="width:340px" /></a>
+<a href="/assets/YPEkYqr.jpg" target="_blank"><img src="/assets/YPEkYqr.jpg" style="width:340px" /></a>
 
 <a href="https://lectronz.com/products/inch-fibonacci128" alt="Buy it on Lectronz"><img src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
 
@@ -36,7 +32,7 @@ sortKey: Fibonacci0128 One Inch
 
 ### Details
 
-One Inch Fibonacci 128 is a tiny, beautiful 25.4mm circular disc with 128 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
+One Inch Fibonacci 128 is a tiny, beautiful 25.4mm circular disc with 128 RGB LEDs surface mounted in a Fibonacci distribution. Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
 
 It consists of 128 XL-1010RGBC-WS2812B 1mm² RGB LEDs, arranged into a circular <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.
 
@@ -102,14 +98,16 @@ Open source touch demo: [https://github.com/jasoncoon/fibonacci128-touch-demo/tr
 
 If you're new to soldering, I highly recommend reading through a good soldering tutorial, such as the ones by [Adafruit](https://learn.adafruit.com/adafruit-guide-excellent-soldering) and [SparkFun](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering).
 
-<img src="https://imgur.com/WVNHbnu.png" style="width:340px" />
+<img src="/assets/WVNHbnu.jpg" style="width:340px" />
 
 1. Find a clean spot on your soldering workspace. I used a piece of heavy card stock. Carefully place the board with the LEDs facing down and the bottom of the board facing up.
 1. **VERY** carefully check polarity before connecting 5V and GND.
 1. Either:
-  * Solder wires to the pads on the back of the Fibonacci PCB and connect them to your microcontroller.
-  * Or:
-  * Carefully align an Adafruit QT Py, Seeeduino XIAO, or another controller with an identical footprint with the pads on the back of the Fibonacci PCB. Solder the pads.
+
+- Solder wires to the pads on the back of the Fibonacci PCB and connect them to your microcontroller.
+- Or:
+- Carefully align an Adafruit QT Py, Seeeduino XIAO, or another controller with an identical footprint with the pads on the back of the Fibonacci PCB. Solder the pads.
+
 1. Each XL-1010RGBC-WS2812B can theoretically draw 15mA at full brightness, solid white color. 128 of them can theoretically draw 1.92A. I've found tha is blindingly bright, and brightness should be drastically reduced to keep current draw and heat down.
 1. Keep an eye on the temperature of the PCB and especially the connectors. High temperatures can reduce the life of the LEDs. When possible, ensure air can flow, either passively (ventilation) or actively (exhaust fan).
 1. If using FastLED, I suggest using its [power management](https://github.com/FastLED/FastLED/wiki/Power-notes#managing-power-in-fastled) to limit the maximum brightness to a reasonable amount, well under the maximum your power supply is rated for.
@@ -118,9 +116,9 @@ If you're new to soldering, I highly recommend reading through a good soldering 
 
 #### Acrylic with screws in front
 
-<a href="https://i.imgur.com/OPSRQJg.png" target="_blank"><img src="https://i.imgur.com/RCJ5i9i.png" style="width:340px" /></a>
-<a href="https://i.imgur.com/OPSRQJg.png" target="_blank"><img src="https://i.imgur.com/QpPWrXU.png" style="width:340px" /></a>
-<a href="https://i.imgur.com/OPSRQJg.png" target="_blank"><img src="https://i.imgur.com/gvG7DdM.png" style="width:340px" /></a>
+<a href="/assets/OPSRQJg.jpg" target="_blank"><img src="/assets/RCJ5i9i.jpg" style="width:340px" /></a>
+<a href="/assets/OPSRQJg.jpg" target="_blank"><img src="/assets/QpPWrXU.jpg" style="width:340px" /></a>
+<a href="/assets/OPSRQJg.jpg" target="_blank"><img src="/assets/gvG7DdM.jpg" style="width:340px" /></a>
 
 1. Peel and remove any protective plastic and/or paper film from the acrylic.
 1. Insert M2x10mm Button Head Hex Screws into the holes in the matte side of the acrylic face plate.
@@ -130,9 +128,9 @@ If you're new to soldering, I highly recommend reading through a good soldering 
 
 #### Acrylic with screws in back
 
-<a href="https://i.imgur.com/OPSRQJg.png" target="_blank"><img src="https://i.imgur.com/6BTUx6L.png" style="width:340px" /></a>
-<a href="https://i.imgur.com/OPSRQJg.png" target="_blank"><img src="https://i.imgur.com/mBIWm9E.png" style="width:340px" /></a>
-<a href="https://i.imgur.com/OPSRQJg.png" target="_blank"><img src="https://i.imgur.com/gvG7DdM.png" style="width:340px" /></a>
+<a href="/assets/OPSRQJg.jpg" target="_blank"><img src="/assets/6BTUx6L.jpg" style="width:340px" /></a>
+<a href="/assets/OPSRQJg.jpg" target="_blank"><img src="/assets/mBIWm9E.jpg" style="width:340px" /></a>
+<a href="/assets/OPSRQJg.jpg" target="_blank"><img src="/assets/gvG7DdM.jpg" style="width:340px" /></a>
 
 This option requires acrylic with smaller 2.8mm screw holes so the screws thread into the acrylic.
 
@@ -140,10 +138,10 @@ You can use M2x7mm or M2x8mm screws, depending on how far out you want the ends 
 
 #### 3D printed front
 
-<a href="https://i.imgur.com/OPSRQJg.png" target="_blank"><img src="https://i.imgur.com/cH2ze97.png" style="width:340px" /></a>
-<a href="https://i.imgur.com/OPSRQJg.png" target="_blank"><img src="https://i.imgur.com/xHmJ8Nq.png" style="width:340px" /></a>
-<a href="https://i.imgur.com/OPSRQJg.png" target="_blank"><img src="https://i.imgur.com/vBDcpaL.png" style="width:340px" /></a>
-<a href="https://i.imgur.com/OPSRQJg.png" target="_blank"><img src="https://i.imgur.com/gvG7DdM.png" style="width:340px" /></a>
+<a href="/assets/OPSRQJg.jpg" target="_blank"><img src="/assets/cH2ze97.jpg" style="width:340px" /></a>
+<a href="/assets/OPSRQJg.jpg" target="_blank"><img src="/assets/xHmJ8Nq.jpg" style="width:340px" /></a>
+<a href="/assets/OPSRQJg.jpg" target="_blank"><img src="/assets/vBDcpaL.jpg" style="width:340px" /></a>
+<a href="/assets/OPSRQJg.jpg" target="_blank"><img src="/assets/gvG7DdM.jpg" style="width:340px" /></a>
 
 3D print files: [https://www.printables.com/model/831490-1-fibonacci128-screw-diffuser-cover](https://www.printables.com/model/831490-1-fibonacci128-screw-diffuser-cover)
 

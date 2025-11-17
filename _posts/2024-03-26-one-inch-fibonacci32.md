@@ -2,9 +2,9 @@
 layout: post
 title: One Inch Fibonacci32
 id: oneInchFibonacci32
-imgurId: frgLUoK
+imgurId: frgLUoK.mp4
 excerpt: One Inch Fibonacci 32 is a tiny, beautiful 25.4mm circular disc with 32 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
-categories: 
+categories:
   - portfolio
   - products
 published: true
@@ -15,11 +15,11 @@ redirect_from:
 sortKey: Fibonacci0032 One Inch
 ---
 
-<a href="https://i.imgur.com/p1h802V.png" target="_blank"><img src="https://i.imgur.com/p1h802V.png" style="width:340px" /></a>
-<a href="https://i.imgur.com/TMCIxrg.png" target="_blank"><img src="https://i.imgur.com/TMCIxrg.png" style="width:340px" /></a>
-<a href="https://i.imgur.com/0rUoHHm.png" target="_blank"><img src="https://i.imgur.com/0rUoHHm.png" style="width:340px" /></a>
-<a href="https://i.imgur.com/A4Mp9aR.png" target="_blank"><img src="https://i.imgur.com/A4Mp9aR.png" style="width:340px" /></a>
-<a href="https://i.imgur.com/VX8u6vM.png" target="_blank"><img src="https://i.imgur.com/VX8u6vM.png" style="width:340px" /></a>
+<a href="/assets/p1h802V.jpg" target="_blank"><img src="/assets/p1h802V.jpg" style="width:340px" /></a>
+<a href="/assets/TMCIxrg.jpg" target="_blank"><img src="/assets/TMCIxrg.jpg" style="width:340px" /></a>
+<a href="/assets/0rUoHHm.jpg" target="_blank"><img src="/assets/0rUoHHm.jpg" style="width:340px" /></a>
+<a href="/assets/A4Mp9aR.jpg" target="_blank"><img src="/assets/A4Mp9aR.jpg" style="width:340px" /></a>
+<a href="/assets/VX8u6vM.jpg" target="_blank"><img src="/assets/VX8u6vM.jpg" style="width:340px" /></a>
 
 <a href="https://lectronz.com/products/inch-fibonacci32" alt="Buy it on Lectronz"><img src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
 
@@ -30,7 +30,7 @@ sortKey: Fibonacci0032 One Inch
 
 ### Details
 
-One Inch Fibonacci 32 is a tiny, beautiful 25.4mm circular disc with 32 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
+One Inch Fibonacci 32 is a tiny, beautiful 25.4mm circular disc with 32 RGB LEDs surface mounted in a Fibonacci distribution. Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
 
 It consists of 32 SK6805-1515 1.5mm² RGB LEDs, arranged into a circular <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.
 
@@ -73,14 +73,16 @@ Open source touch demo: [https://github.com/jasoncoon/fibonacci32-one-inch](http
 
 If you're new to soldering, I highly recommend reading through a good soldering tutorial, such as the ones by [Adafruit](https://learn.adafruit.com/adafruit-guide-excellent-soldering) and [SparkFun](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering).
 
-<img src="https://imgur.com/DqfN3na.png" class="img-responsive" />
+<img src="/assets/DqfN3na.jpg" class="img-responsive" />
 
 1. Find a clean spot on your soldering workspace. I used a piece of heavy card stock. Carefully place the board with the LEDs facing down and the bottom of the board facing up.
 1. **VERY** carefully check polarity before connecting 5V and GND.
 1. Either:
-  * Solder wires to the pads on the back of the Fibonacci PCB and connect them to your microcontroller.
-  * Or:
-  * Carefully align an Adafruit QT Py, Seeeduino XIAO, or another controller with an identical footprint with the pads on the back of the Fibonacci PCB. Solder the pads.
+
+- Solder wires to the pads on the back of the Fibonacci PCB and connect them to your microcontroller.
+- Or:
+- Carefully align an Adafruit QT Py, Seeeduino XIAO, or another controller with an identical footprint with the pads on the back of the Fibonacci PCB. Solder the pads.
+
 1. Each SK6805-1515 can theoretically draw 15mA at full brightness, solid white color. 32 of them can theoretically draw 480mA. I've found tha is blindingly bright, and brightness should be drastically reduced to keep current draw and heat down.
 1. Keep an eye on the temperature of the PCB and especially the connectors. High temperatures can reduce the life of the LEDs. When possible, ensure air can flow, either passively (ventilation) or actively (exhaust fan).
 1. If using FastLED, I suggest using its [power management](https://github.com/FastLED/FastLED/wiki/Power-notes#managing-power-in-fastled) to limit the maximum brightness to a reasonable amount, well under the maximum your power supply is rated for.

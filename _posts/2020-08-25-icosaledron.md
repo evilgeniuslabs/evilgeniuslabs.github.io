@@ -3,7 +3,7 @@ layout: post
 title: IcosaLEDron
 sortKey: IcosaLEDron
 id: icosaledron
-imgurId: waybbXq
+imgurId: waybbXq.mp4
 # videoUrl: https://www.youtube.com/embed/SNB5xsYFCak
 excerpt: IcosaLEDron is a 20-sided polyhedron with one WS2812B-Mini-3535 addressable RGB LED per face.
 categories:
@@ -17,11 +17,11 @@ redirect_from:
 ---
 
 <a href="https://media.giphy.com/media/UoLzutZkzOEUC1aZZ3/giphy.gif" target="_blank"><img src="https://media.giphy.com/media/UoLzutZkzOEUC1aZZ3/giphy.gif" style="width:340px"  /></a>
-<a href="https://i.imgur.com/waybbXq.gif" target="_blank"><img src="https://i.imgur.com/waybbXq.gif" style="width:340px"  /></a>
-<a href="https://i.imgur.com/fcWXd9l.jpg" target="_blank"><img src="https://i.imgur.com/fcWXd9l.jpg" style="width:340px"  /></a>
-<a href="https://i.imgur.com/kq1mQMI.jpg" target="_blank"><img src="https://i.imgur.com/kq1mQMI.jpg" style="width:340px"  /></a>
-<a href="https://i.imgur.com/uYUS46G.jpg" target="_blank"><img src="https://i.imgur.com/uYUS46G.jpg" style="width:340px"  /></a>
-<a href="https://i.imgur.com/Ndzfn2W.jpg" target="_blank"><img src="https://i.imgur.com/Ndzfn2W.jpg" style="width:340px"  /></a>
+<a href="/assets/waybbXq.mp4" target="_blank"><img src="/assets/waybbXq.mp4" style="width:340px"  /></a>
+<a href="/assets/fcWXd9l.jpg" target="_blank"><img src="/assets/fcWXd9l.jpg" style="width:340px"  /></a>
+<a href="/assets/kq1mQMI.jpg" target="_blank"><img src="/assets/kq1mQMI.jpg" style="width:340px"  /></a>
+<a href="/assets/uYUS46G.jpg" target="_blank"><img src="/assets/uYUS46G.jpg" style="width:340px"  /></a>
+<a href="/assets/Ndzfn2W.jpg" target="_blank"><img src="/assets/Ndzfn2W.jpg" style="width:340px"  /></a>
 
 <h3>Table of Contents</h3>
 
@@ -119,7 +119,7 @@ If you're new to soldering, I highly recommend reading through a good soldering 
 
 1. **Check the polarity of your LiPo battery and JST extensions before assembling anything!** There is unfortunately no standard for polarity on these, apparently. My LiPo battery and JST extensions were wired backwards compared to the Feather board. Thankfully all Feathers, and likely all Adafruit products, do use the same polarity. When looking into the LiPo connector socket on the Feather board, the left pin is positive, the right pin is negative. If the connectors do not match, use a small flat screwdriver or knife to carefully pry the plastic tabs that hold the contact inside the connectors, then gently pull the wires out. Be extremely careful not to touch the exposed battery leads! Push them back in to the correct side.
 
-   <a href="https://i.imgur.com/uyXCObF.png" target="_blank"><img src="https://i.imgur.com/uyXCObF.png" style="width:340px"  /></a>
+   <a href="/assets/uyXCObF.jpg" target="_blank"><img src="/assets/uyXCObF.jpg" style="width:340px"  /></a>
 
 1. Follow Adafruit's excellent instructions to create a [power switch for the LiPo battery](https://learn.adafruit.com/circuit-playground-yoyo/wiring-switch), **but I recommend also adding heat shrink tubing to insulate the exposed switch pins as well!**
 
@@ -135,29 +135,29 @@ If you're new to soldering, I highly recommend reading through a good soldering 
 
 1. Hold two of the 3D printed triangular frame pieces securely, one in each hand. Align the hinges, then snap them together py pressing them together firmly.
 
-   <a href="https://i.imgur.com/DWfeA1u.png" target="_blank"><img src="https://i.imgur.com/DWfeA1u.png" style="width:340px"  /></a>
-   <a href="https://i.imgur.com/uUwZMGR.png" target="_blank"><img src="https://i.imgur.com/uUwZMGR.png" style="width:340px"  /></a>
-   <a href="https://i.imgur.com/XFmD7Is.png" target="_blank"><img src="https://i.imgur.com/XFmD7Is.png" style="width:340px"  /></a>
-   <a href="https://i.imgur.com/XehK5Z7.png" target="_blank"><img src="https://i.imgur.com/XehK5Z7.png" style="width:340px"  /></a>
+   <a href="/assets/DWfeA1u.jpg" target="_blank"><img src="/assets/DWfeA1u.jpg" style="width:340px"  /></a>
+   <a href="/assets/uUwZMGR.jpg" target="_blank"><img src="/assets/uUwZMGR.jpg" style="width:340px"  /></a>
+   <a href="/assets/XFmD7Is.jpg" target="_blank"><img src="/assets/XFmD7Is.jpg" style="width:340px"  /></a>
+   <a href="/assets/XehK5Z7.jpg" target="_blank"><img src="/assets/XehK5Z7.jpg" style="width:340px"  /></a>
 
 1. Rotate the connected pieces along the hinge pivot, back and forth, several times to loosen the hinges. Separate the pieces by holding them firmly, one in each hand, rotating the hinge outward, then snapping them apart. Repeat for each edge of each piece. Doing this will make assembly and disassembly (if needed) of the frame much easier.
 
 1. Insert the switch into the 3D printed triangle with the switch holder.
 
-   <a href="https://i.imgur.com/65ZXbKR.png" target="_blank"><img src="https://i.imgur.com/65ZXbKR.png" style="width:340px"  /></a>
-   <a href="https://i.imgur.com/qczcNjH.png" target="_blank"><img src="https://i.imgur.com/qczcNjH.png" style="width:340px"  /></a>
-   <a href="https://i.imgur.com/7aG8nO4.png" target="_blank"><img src="https://i.imgur.com/7aG8nO4.png" style="width:340px"  /></a>
-   <a href="https://i.imgur.com/mXnSeko.png" target="_blank"><img src="https://i.imgur.com/mXnSeko.png" style="width:340px"  /></a>
+   <a href="/assets/65ZXbKR.jpg" target="_blank"><img src="/assets/65ZXbKR.jpg" style="width:340px"  /></a>
+   <a href="/assets/qczcNjH.jpg" target="_blank"><img src="/assets/qczcNjH.jpg" style="width:340px"  /></a>
+   <a href="/assets/7aG8nO4.jpg" target="_blank"><img src="/assets/7aG8nO4.jpg" style="width:340px"  /></a>
+   <a href="/assets/mXnSeko.jpg" target="_blank"><img src="/assets/mXnSeko.jpg" style="width:340px"  /></a>
 
 1. Feed the BAT, GND, and Data wires through the 3D printed triangle with the slot for the Feather's USB port edge.
 
 1. Carefully snap the triangle PCBs apart. Hold securely and very closely on both sides of a single perforation and bend to flex and snap the perforation. Do not flex the entire panel at once. Sandpaper can be used to clean up any rough edges, but do this in a well ventilated area with a mask on to prevent breathing in the dust.
 
-   <a href="https://i.imgur.com/bFaeRsp.png" target="_blank"><img src="https://i.imgur.com/bFaeRsp.png" style="width:340px"  /></a>
+   <a href="/assets/bFaeRsp.jpg" target="_blank"><img src="/assets/bFaeRsp.jpg" style="width:340px"  /></a>
 
 1. Strip and then solder the ends of the wires to the 5V, DI (Data In), and G (Ground) pins on one of the triangle PCBs. Use the set of three holes in the triangle PCB, not the ones on the edge.
 
-   <a href="https://i.imgur.com/3gGQhnZ.png" target="_blank"><img src="https://i.imgur.com/3gGQhnZ.png" style="width:340px"  /></a>
+   <a href="/assets/3gGQhnZ.jpg" target="_blank"><img src="/assets/3gGQhnZ.jpg" style="width:340px"  /></a>
 
 1. Turn the switch on, and/or connect the USB cable, and ensure the LED on the triangle PCB lights up. Do not proceed if it does not. Ensure you've uploaded the firmware using Arduino, MicroPython editor, etc.
 
@@ -167,55 +167,55 @@ Welcome back, let's proceed.
 
 1. Align the triangle PCB to the face. The USB connector should be aligned inside the slot in the triangle PCB. Feed the wires inside.
 
-   <a href="https://i.imgur.com/tVJy7dV.png" target="_blank"><img src="https://i.imgur.com/tVJy7dV.png" style="width:340px"  /></a>
-   <a href="https://i.imgur.com/zIqzECD.png" target="_blank"><img src="https://i.imgur.com/zIqzECD.png" style="width:340px"  /></a>
+   <a href="/assets/tVJy7dV.jpg" target="_blank"><img src="/assets/tVJy7dV.jpg" style="width:340px"  /></a>
+   <a href="/assets/zIqzECD.jpg" target="_blank"><img src="/assets/zIqzECD.jpg" style="width:340px"  /></a>
 
 1. Insert an M3 screw in the hole above the LED, and carefully hand-tighten it with a hex driver. Do not over-tighten. Ensure the edges of the PCB are aligned with the edges of the triangle frame piece.
 
 1. The two Feather holder pieces go on opposite faces of the icosahedron. The USB port of the Feather should be flush with the face. The other end of the Feather goes in the slots of the opposite face. One side of every triangle has a notch in the hinges, snap this edge on the same side as the Feather holder slots. Be very careful with the fragile antenna on the Feather Sense.
 
-   <a href="https://i.imgur.com/A7bXd33.png" target="_blank"><img src="https://i.imgur.com/A7bXd33.png" style="width:340px"  /></a>
-   <a href="https://i.imgur.com/7pB0PVg.png" target="_blank"><img src="https://i.imgur.com/7pB0PVg.png" style="width:340px"  /></a>
-   <a href="https://i.imgur.com/HAcOU3v.png" target="_blank"><img src="https://i.imgur.com/HAcOU3v.png" style="width:340px"  /></a>
-   <a href="https://i.imgur.com/RIPHm7J.png" target="_blank"><img src="https://i.imgur.com/RIPHm7J.png" style="width:340px"  /></a>
+   <a href="/assets/A7bXd33.jpg" target="_blank"><img src="/assets/A7bXd33.jpg" style="width:340px"  /></a>
+   <a href="/assets/7pB0PVg.jpg" target="_blank"><img src="/assets/7pB0PVg.jpg" style="width:340px"  /></a>
+   <a href="/assets/HAcOU3v.jpg" target="_blank"><img src="/assets/HAcOU3v.jpg" style="width:340px"  /></a>
+   <a href="/assets/RIPHm7J.jpg" target="_blank"><img src="/assets/RIPHm7J.jpg" style="width:340px"  /></a>
 
 1. Assemble the IcosaLEDron 3D printed parts, with the Feather board, battery, and wires tucked inside. First, add pieces to connect the top and bottom end Feather holder pieces. Be very careful not to pinch or crimp any wires as you tuck them inside and snap more pieces on.
 
-   <a href="https://i.imgur.com/54uaoeV.png" target="_blank"><img src="https://i.imgur.com/54uaoeV.png" style="width:340px"  /></a>
-   <a href="https://i.imgur.com/4f1NMTF.png" target="_blank"><img src="https://i.imgur.com/4f1NMTF.png" style="width:340px"  /></a>
-   <a href="https://i.imgur.com/SlgvXuE.png" target="_blank"><img src="https://i.imgur.com/SlgvXuE.png" style="width:340px"  /></a>
-   <a href="https://i.imgur.com/ZVBDy8T.png" target="_blank"><img src="https://i.imgur.com/ZVBDy8T.png" style="width:340px"  /></a>
+   <a href="/assets/54uaoeV.jpg" target="_blank"><img src="/assets/54uaoeV.jpg" style="width:340px"  /></a>
+   <a href="/assets/4f1NMTF.jpg" target="_blank"><img src="/assets/4f1NMTF.jpg" style="width:340px"  /></a>
+   <a href="/assets/SlgvXuE.jpg" target="_blank"><img src="/assets/SlgvXuE.jpg" style="width:340px"  /></a>
+   <a href="/assets/ZVBDy8T.jpg" target="_blank"><img src="/assets/ZVBDy8T.jpg" style="width:340px"  /></a>
 
 1. Start connecting pieces in the remaining spaces.
 
-   <a href="https://i.imgur.com/z8zEMZ5.png" target="_blank"><img src="https://i.imgur.com/z8zEMZ5.png" style="width:340px"  /></a>
-   <a href="https://i.imgur.com/oChHkRw.png" target="_blank"><img src="https://i.imgur.com/oChHkRw.png" style="width:340px"  /></a>
+   <a href="/assets/z8zEMZ5.jpg" target="_blank"><img src="/assets/z8zEMZ5.jpg" style="width:340px"  /></a>
+   <a href="/assets/oChHkRw.jpg" target="_blank"><img src="/assets/oChHkRw.jpg" style="width:340px"  /></a>
 
 1. When you need to snap in a piece with two adjacent pieces, you should be able to set it in the gap, with the hinges aligned, then using your thumb and pointer finger, snap them together, one side at a time.
 
-   <a href="https://i.imgur.com/deEx4IK.png" target="_blank"><img src="https://i.imgur.com/deEx4IK.png" style="width:340px"  /></a>
+   <a href="/assets/deEx4IK.jpg" target="_blank"><img src="/assets/deEx4IK.jpg" style="width:340px"  /></a>
 
 1. When you get to the last piece, with an adjacent piece on each of the three sides, follow the same steps. Set it in the gap, with the hinges aligned, then using your thumb and pointer finger, snap them together, one side at a time.
 
-   <a href="https://i.imgur.com/EVAGmc1.png" target="_blank"><img src="https://i.imgur.com/EVAGmc1.png" style="width:340px"  /></a>
-   <a href="https://i.imgur.com/Z4mQih3.png" target="_blank"><img src="https://i.imgur.com/Z4mQih3.png" style="width:340px"  /></a>
-   <a href="https://i.imgur.com/Agdszmb.png" target="_blank"><img src="https://i.imgur.com/Agdszmb.png" style="width:340px"  /></a>
-   <a href="https://i.imgur.com/8zZ65t1.png" target="_blank"><img src="https://i.imgur.com/8zZ65t1.png" style="width:340px"  /></a>
-   <a href="https://i.imgur.com/nxdq3c7.png" target="_blank"><img src="https://i.imgur.com/nxdq3c7.png" style="width:340px"  /></a>
-   <a href="https://i.imgur.com/vzG1QZj.png" target="_blank"><img src="https://i.imgur.com/vzG1QZj.png" style="width:340px"  /></a>
-   <a href="https://i.imgur.com/yjWenJM.png" target="_blank"><img src="https://i.imgur.com/yjWenJM.png" style="width:340px"  /></a>
+   <a href="/assets/EVAGmc1.jpg" target="_blank"><img src="/assets/EVAGmc1.jpg" style="width:340px"  /></a>
+   <a href="/assets/Z4mQih3.jpg" target="_blank"><img src="/assets/Z4mQih3.jpg" style="width:340px"  /></a>
+   <a href="/assets/Agdszmb.jpg" target="_blank"><img src="/assets/Agdszmb.jpg" style="width:340px"  /></a>
+   <a href="/assets/8zZ65t1.jpg" target="_blank"><img src="/assets/8zZ65t1.jpg" style="width:340px"  /></a>
+   <a href="/assets/nxdq3c7.jpg" target="_blank"><img src="/assets/nxdq3c7.jpg" style="width:340px"  /></a>
+   <a href="/assets/vzG1QZj.jpg" target="_blank"><img src="/assets/vzG1QZj.jpg" style="width:340px"  /></a>
+   <a href="/assets/yjWenJM.jpg" target="_blank"><img src="/assets/yjWenJM.jpg" style="width:340px"  /></a>
 
 1. Ensure all pieces are firmly connected, with only minor gaps in the seams.
 
-   <a href="https://i.imgur.com/Mz4SiA4.png" target="_blank"><img src="https://i.imgur.com/Mz4SiA4.png" style="width:340px"  /></a>
-   <a href="https://i.imgur.com/17UN32H.png" target="_blank"><img src="https://i.imgur.com/17UN32H.png" style="width:340px"  /></a>
-   <a href="https://i.imgur.com/lWi60zs.png" target="_blank"><img src="https://i.imgur.com/lWi60zs.png" style="width:340px"  /></a>
+   <a href="/assets/Mz4SiA4.jpg" target="_blank"><img src="/assets/Mz4SiA4.jpg" style="width:340px"  /></a>
+   <a href="/assets/17UN32H.jpg" target="_blank"><img src="/assets/17UN32H.jpg" style="width:340px"  /></a>
+   <a href="/assets/lWi60zs.jpg" target="_blank"><img src="/assets/lWi60zs.jpg" style="width:340px"  /></a>
 
 1. Turn on the switch, make sure everything still works and lights up.
 
 Take another break. Stretch.
 
-<a href="https://i.imgur.com/yOOUeCI.png" target="_blank"><img src="https://i.imgur.com/yOOUeCI.png" style="width:340px"  /></a>
+<a href="/assets/yOOUeCI.jpg" target="_blank"><img src="/assets/yOOUeCI.jpg" style="width:340px"  /></a>
 
 1. **Turn off the switch and disconnect the USB cable.** Use a multimeter to ensure there is no voltage or shorts between the BAT and GND pins.
 
@@ -253,4 +253,4 @@ You should now have the top and center row of the icosaLEDron assembled. Repeat 
 
 Turn it on. Hold it in your hand. Marvel at its beauty.
 
-<a href="https://i.imgur.com/KnSlyi7.gif" target="_blank"><img src="https://i.imgur.com/KnSlyi7.gif" style="width:340px"  /></a>
+<a href="/assets/KnSlyi7.mp4" target="_blank"><img src="/assets/KnSlyi7.mp4" style="width:340px"  /></a>

@@ -2,9 +2,9 @@
 layout: post
 title: Fibonacci182 Card
 id: fibonacci128-card
-imgurId: ErMFOKL
+imgurId: ErMFOKL.mp4
 excerpt: Fibonacci 182 Card is a beautiful credit card sized rectangle with 182 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
-categories: 
+categories:
   - portfolio
   - products
 published: true
@@ -17,14 +17,14 @@ redirect_from:
 sortKey: Fibonacci0182 Card
 ---
 
-<video class="post" poster="//i.imgur.com/ErMFOKL.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop" style="width:684px">
-   <source src="//i.imgur.com/ErMFOKL.mp4" type="video/mp4">
+<video class="post" poster="/assets//ErMFOKL.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop" style="width:684px">
+   <source src="/assets//ErMFOKL.mp4" type="video/mp4">
 </video>
 
-<a href="https://imgur.com/RVQAho5.png" target="_blank"><img src="https://imgur.com/RVQAho5.png" style="width:340px"  /></a>
-<a href="https://imgur.com/CtY1Otx.png" target="_blank"><img src="https://imgur.com/CtY1Otx.png" style="width:340px"  /></a>
-<a href="https://imgur.com/56UauS6.png" target="_blank"><img src="https://imgur.com/56UauS6.png" style="width:340px"  /></a>
-<a href="https://imgur.com/rlgRwNS.png" target="_blank"><img src="https://imgur.com/rlgRwNS.png" style="width:340px"  /></a>
+<a href="/assets/RVQAho5.jpg" target="_blank"><img src="/assets/RVQAho5.jpg" style="width:340px"  /></a>
+<a href="/assets/CtY1Otx.jpg" target="_blank"><img src="/assets/CtY1Otx.jpg" style="width:340px"  /></a>
+<a href="/assets/56UauS6.jpg" target="_blank"><img src="/assets/56UauS6.jpg" style="width:340px"  /></a>
+<a href="/assets/rlgRwNS.jpg" target="_blank"><img src="/assets/rlgRwNS.jpg" style="width:340px"  /></a>
 
 <a href="https://lectronz.com/products/fibonacci182-card" alt="Buy it on Lectronz"><img src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
 
@@ -118,7 +118,7 @@ If you're new to soldering, I highly recommend reading through a good soldering 
 
 **Note**: Earlier versions of the PCB had header pin holes for 5V, GND, and Data In. Newer versions have pads, not holes. The pads allow you to either solder wires on, or solder a QT Py directly to the PCB.
 
-<img src="https://imgur.com/vTpDaWP.png" class="img-responsive" />
+<img src="/assets/vTpDaWP.jpg" class="img-responsive" />
 
 1. Find a clean spot on your soldering workspace. I used a piece of heavy card stock. Carefully place the board with the LEDs facing down and the bottom of the board facing up.
 1. **VERY** carefully check polarity before connecting 5V and GND.

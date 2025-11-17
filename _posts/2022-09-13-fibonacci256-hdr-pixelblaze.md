@@ -2,7 +2,7 @@
 layout: post
 title: Fibonacci256 HDR Pixelblaze
 id: fibonacci256-hdr-pixelblaze
-imgurId: D4qEjgU
+imgurId: D4qEjgU.mp4
 excerpt: Fibonacci256 HDR is a beautiful 166mm circular disc with 256 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
 categories:
   - portfolio

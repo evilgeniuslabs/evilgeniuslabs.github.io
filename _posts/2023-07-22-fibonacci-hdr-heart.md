@@ -2,10 +2,10 @@
 layout: post
 title: Fibonacci HDR Heart
 id: fibonaccihdrheart
-imgurId: XFR7m2E
+imgurId: XFR7m2E.mp4
 # videoUrl: https://www.youtube.com/embed/SNB5xsYFCak
 excerpt: Fibonacci HDR Heart is a tiny, beautiful 42mm heart-shaped disc with 74 SK9822-EC20 HDR RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
-categories: 
+categories:
   - portfolio
   - products
 published: true
@@ -18,18 +18,18 @@ redirect_from:
 sortKey: Fibonacci HDR Heart
 ---
 
-<video class="post" poster="//i.imgur.com/XFR7m2E.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop" style="width:684px">
-   <source src="//i.imgur.com/XFR7m2E.mp4" type="video/mp4">
+<video class="post" poster="/assets//XFR7m2E.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop" style="width:684px">
+   <source src="/assets//XFR7m2E.mp4" type="video/mp4">
 </video>
 
-<video class="post" poster="//i.imgur.com/VIlJk3Y.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop" style="width:684px">
-   <source src="//i.imgur.com/VIlJk3Y.mp4" type="video/mp4">
+<video class="post" poster="/assets//VIlJk3Y.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop" style="width:684px">
+   <source src="/assets//VIlJk3Y.mp4" type="video/mp4">
 </video>
 
-<a href="https://i.imgur.com/kD1Y1va.png" target="_blank"><img src="https://i.imgur.com/kD1Y1va.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/fzahOBP.png" target="_blank"><img src="https://i.imgur.com/fzahOBP.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/8zRjiJI.png" target="_blank"><img src="https://i.imgur.com/8zRjiJI.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/7JHcAPj.png" target="_blank"><img src="https://i.imgur.com/7JHcAPj.png" style="width:340px"  /></a>
+<a href="/assets/kD1Y1va.jpg" target="_blank"><img src="/assets/kD1Y1va.jpg" style="width:340px"  /></a>
+<a href="/assets/fzahOBP.jpg" target="_blank"><img src="/assets/fzahOBP.jpg" style="width:340px"  /></a>
+<a href="/assets/8zRjiJI.jpg" target="_blank"><img src="/assets/8zRjiJI.jpg" style="width:340px"  /></a>
+<a href="/assets/7JHcAPj.jpg" target="_blank"><img src="/assets/7JHcAPj.jpg" style="width:340px"  /></a>
 
 <a href="https://lectronz.com/products/lux-lavalier-heart-wearable-light-art-pendant" alt="Buy it on Lectronz"><img src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
 
@@ -40,7 +40,7 @@ sortKey: Fibonacci HDR Heart
 
 ### Details
 
-Fibonacci HDR Heart is a tiny, beautiful 42mm heart-shaped disc with 74 SK9822-EC20 HDR RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
+Fibonacci HDR Heart is a tiny, beautiful 42mm heart-shaped disc with 74 SK9822-EC20 HDR RGB LEDs surface mounted in a Fibonacci distribution. Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
 
 It consists of 74 SK9822-EC2020 HDR (High Dymanic Range) RGB LEDs, arranged into a <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.
 
@@ -106,10 +106,10 @@ View in [LED Mapper](https://jasoncoon.github.io/led-mapper/?p=NrBMoOgFgZgGlDCA2
 
 All instructions are identical to the rounnd [Lux Lavalier](https://luxlavalier.com/start), other than:
 
-* The shape of the pendant.
-* The Pixelblaze Pico sits horizontally on the heart rather than vertically on the circle.
-* In the Pixelblaze settings, set Pixels to 74 for the Heart, rather than 64 for the circle.
-* In the Pixelblaze Mapper, use the map [above](#pixelblaze-map).
+- The shape of the pendant.
+- The Pixelblaze Pico sits horizontally on the heart rather than vertically on the circle.
+- In the Pixelblaze settings, set Pixels to 74 for the Heart, rather than 64 for the circle.
+- In the Pixelblaze Mapper, use the map [above](#pixelblaze-map).
 
 [https://luxlavalier.com/start](https://luxlavalier.com/start)
 

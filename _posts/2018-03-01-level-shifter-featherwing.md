@@ -3,18 +3,18 @@ layout: post
 title: Level Shifter FeatherWing
 sortKey: Level Shifter FeatherWing
 id: level-shifter-featherwing
-imgurId: rdqYNG6
+imgurId: rdqYNG6.mp4
 excerpt: Wi-Fi controlled, Arduino-compatible addressable RGB LED controller based on the ESP32, with level shifter.
 categories: retired
 redirect_from:
   - /20
 ---
 
-<img src="https://i.imgur.com/jz8J5P8.jpg" style="width:400px" class="img-responsive" />
+<img src="/assets/jz8J5P8.jpg" style="width:400px" class="img-responsive" />
 
-<img src="https://i.imgur.com/cDRWBta.jpg" style="width:400px" class="img-responsive" />
+<img src="/assets/cDRWBta.jpg" style="width:400px" class="img-responsive" />
 
-<img src="https://i.imgur.com/XaLZdW2.jpg" style="width:400px" class="img-responsive" />
+<img src="/assets/XaLZdW2.jpg" style="width:400px" class="img-responsive" />
 
 <h3>Table of Contents</h3>
 
@@ -39,18 +39,18 @@ The shield also includes places for data line resistors as recommended when driv
 
 ### Pinout
 
-<a href="https://i.imgur.com/kp3sQae.png" target="_blank">
-  <img src="https://i.imgur.com/kp3sQae.png" style="width:400px" class="img-responsive" />
+<a href="/assets/kp3sQae.jpg" target="_blank">
+  <img src="/assets/kp3sQae.jpg" style="width:400px" class="img-responsive" />
 </a>
 
 ESP32 Pins 13, 12, 27, 33, 15, 32, 14, SCL
-<a href="https://i.imgur.com/fMmY6OL.png" target="_blank">
-<img src="https://i.imgur.com/fMmY6OL.png" style="width:400px" class="img-responsive" />
+<a href="/assets/fMmY6OL.jpg" target="_blank">
+<img src="/assets/fMmY6OL.jpg" style="width:400px" class="img-responsive" />
 </a>
 
 ESP8266 Pins 14, 12, 13, 15, 0, 16, 2, 5 (SCL)
-<a href="https://i.imgur.com/SjgJWZn.png" target="_blank">
-<img src="https://i.imgur.com/SjgJWZn.png" style="width:400px" class="img-responsive" />
+<a href="/assets/SjgJWZn.jpg" target="_blank">
+<img src="/assets/SjgJWZn.jpg" style="width:400px" class="img-responsive" />
 </a>
 
 ### Specifications
@@ -87,7 +87,7 @@ OR
 
 Open source example firmware and web application: [https://github.com/jasoncoon/esp32-fastled-webserver](https://github.com/jasoncoon/esp32-fastled-webserver)
 
-<img src="https://i.imgur.com/ks1Zyfa.png" style="width:600px" class="img-responsive" />
+<img src="/assets/ks1Zyfa.jpg" style="width:600px" class="img-responsive" />
 
 Features:
 
@@ -109,20 +109,20 @@ I used this [3D printed vise](https://www.thingiverse.com/thing:2801942) to hold
 
 I also built one of these [DIY flexible soldering helping hands](http://www.instructables.com/id/DIY-Flexible-Soldering-Helping-Hand/).
 
-1. Insert the SN74HCT245N Level Shifter chip into the holes in the top side of the board, where indicated. <img src="https://imgur.com/mzgFBwC.jpg" class="img-responsive" />
+1. Insert the SN74HCT245N Level Shifter chip into the holes in the top side of the board, where indicated. <img src="/assets//mzgFBwC.jpg" class="img-responsive" />
 2. Flip the board over and solder one pin on the chip, pressing down on the PCB to ensure the chip is seated firmly.
 3. Make sure the chip is still seated properly before proceeding to solder the rest of the pins.
 4. Insert the 0.1uF capacitor.
 5. Insert 300 Ohm to 500 Ohm resistors in each set of holes for each output you plan to use. Bend one leg 180 degrees around, flat against the resistor body, and insert it vertically.
 6. Trim all the leads with a pair of wire cutters. Flush diagonal cutters work best.
-7. Flip the board over and solder each leg of each resistor.<img src="https://imgur.com/C09pFod.jpg" class="img-responsive" />
-8. Insert the power barrel jack.<img src="https://imgur.com/NEs4nTV.jpg" class="img-responsive" />
-9. I used a twist tie through the corner mounting holes to hold it in while I flipped the PCB over and soldered it in.<img src="https://imgur.com/3XlQiGy.jpg" class="img-responsive" />
-10. The pads are very large, and connected to large ground and power planes on the board, so they might take a while to heat up before the solder starts to flow around the leads.<img src="https://imgur.com/8NVusfc.jpg" class="img-responsive" />
-11. If possible, use a vise to hold the PCB vertically, and a helping hands tool to hold the wires as they're soldered.<img src="https://imgur.com/wwEqib0.jpg" class="img-responsive" />
-12. Strip the ends of the wires you'll use to connect the LEDs.<img src="https://imgur.com/QSpwkNV.jpg" class="img-responsive" /> I left the wires on the spools, which makes it easier to handle.
+7. Flip the board over and solder each leg of each resistor.<img src="/assets//C09pFod.jpg" class="img-responsive" />
+8. Insert the power barrel jack.<img src="/assets//NEs4nTV.jpg" class="img-responsive" />
+9. I used a twist tie through the corner mounting holes to hold it in while I flipped the PCB over and soldered it in.<img src="/assets//3XlQiGy.jpg" class="img-responsive" />
+10. The pads are very large, and connected to large ground and power planes on the board, so they might take a while to heat up before the solder starts to flow around the leads.<img src="/assets//8NVusfc.jpg" class="img-responsive" />
+11. If possible, use a vise to hold the PCB vertically, and a helping hands tool to hold the wires as they're soldered.<img src="/assets//wwEqib0.jpg" class="img-responsive" />
+12. Strip the ends of the wires you'll use to connect the LEDs.<img src="/assets//QSpwkNV.jpg" class="img-responsive" /> I left the wires on the spools, which makes it easier to handle.
 13. With a small amount of solder on the tip of the iron, heat the wire right on the bottom of the pad.
 14. Melt a fair amount of solder on the wire and pad. The insulation on the wire may start to melt as the wire heats up. If so, push the wire through the hole, from the top towards the bottom, to ensure no wire is left exposed on top.
-15. Repeat this process for the other wires.<img src="https://imgur.com/Y2lxdRA.jpg" class="img-responsive" />
+15. Repeat this process for the other wires.<img src="/assets//Y2lxdRA.jpg" class="img-responsive" />
 16. Cut the wires to the desired length and add [JST-SM connectors](https://amzn.to/2P7cvJ1) using a [SN-48B Crimping Tool](https://amzn.to/2P6YpHh).
-17. I used double-sided male headers in a small breadboard to hold the female headers correctly aligned while I soldered.<img src="https://imgur.com/UhEGkzn.jpg" class="img-responsive" />
+17. I used double-sided male headers in a small breadboard to hold the female headers correctly aligned while I soldered.<img src="/assets//UhEGkzn.jpg" class="img-responsive" />

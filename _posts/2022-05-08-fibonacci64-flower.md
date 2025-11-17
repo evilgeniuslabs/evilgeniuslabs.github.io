@@ -2,7 +2,7 @@
 layout: post
 title: Fibonacci64 Flower
 id: fibonacci64-flower
-imgurId: 50JYqsw
+imgurId: 50JYqsw.mp4
 excerpt: Fibonacci64 Flower is a beautiful 86mm circular disc with 64 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
 categories:
   - portfolio
@@ -17,13 +17,13 @@ sortKey: Fibonacci0064 Flower
 
 <div class="embed-responsive embed-responsive-16by9">
    <a href="{{ post.url }}">
-      <video class="post" poster="//i.imgur.com/SLTulBp.jpg" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
-         <source src="//i.imgur.com/SLTulBp.mp4" type="video/mp4">
+      <video class="post" poster="/assets//50JYqsw.jpg" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
+         <source src="/assets//50JYqsw.mp4" type="video/mp4">
       </video>
    </a>
 </div>
 
-<a href="https://i.imgur.com/Vmn2bnJ.png" target="_blank"><img src="https://i.imgur.com/Vmn2bnJ.png" style="width:340px" /></a><a href="https://i.imgur.com/e2azNfa.png" target="_blank"><img src="https://i.imgur.com/e2azNfa.png" style="width:340px" /></a><a href="https://i.imgur.com/rmweViq.png" target="_blank"><img src="https://i.imgur.com/rmweViq.png" style="width:340px" /></a><a href="https://i.imgur.com/cOuoA0N.png" target="_blank"><img src="https://i.imgur.com/cOuoA0N.png" style="width:340px" /></a><a href="https://i.imgur.com/2z8lGsd.png" target="_blank"><img src="https://i.imgur.com/2z8lGsd.png" style="width:340px" /></a>
+<a href="/assets/Vmn2bnJ.jpg" target="_blank"><img src="/assets/Vmn2bnJ.jpg" style="width:340px" /></a><a href="/assets/e2azNfa.jpg" target="_blank"><img src="/assets/e2azNfa.jpg" style="width:340px" /></a><a href="/assets/rmweViq.jpg" target="_blank"><img src="/assets/rmweViq.jpg" style="width:340px" /></a><a href="/assets/cOuoA0N.jpg" target="_blank"><img src="/assets/cOuoA0N.jpg" style="width:340px" /></a><a href="/assets/2z8lGsd.jpg" target="_blank"><img src="/assets/2z8lGsd.jpg" style="width:340px" /></a>
 
 <a href="https://lectronz.com/products/fibonacci64-flower-148mm" alt="Buy it on Lectronz"><img src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
 
@@ -103,10 +103,10 @@ If you're new to soldering, I highly recommend reading through a good soldering 
 1. Center and place the acrylic back plate over the standoffs.
 1. Hand-tighten M2x6mm Button Head Hex Screws onto the standoffs.
 
-<!-- <img src="https://imgur.com/vTWd4vI.png" class="img-responsive" />
+<!-- <img src="/assets/vTWd4vI.jpg" class="img-responsive" />
 
-<img src="https://imgur.com/xUO6aZY.png" class="img-responsive" />
+<img src="/assets/xUO6aZY.jpg" class="img-responsive" />
 
-<img src="https://imgur.com/RoLJJ19.png" class="img-responsive" />
+<img src="/assets/RoLJJ19.jpg" class="img-responsive" />
 
-<img src="https://imgur.com/oNLZf7Y.png" class="img-responsive" /> -->
+<img src="/assets/oNLZf7Y.jpg" class="img-responsive" /> -->

@@ -2,9 +2,9 @@
 layout: post
 title: Fibonacci512 HDR Pixelblaze
 id: fibonacci512-hdr-pixelblaze
-imgurId: GYO1iQ2
+imgurId: GYO1iQ2.mp4
 excerpt: Fibonacci512 HDR Pixelblaze is a giant, beautiful 320mm circular disc with 512 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
-categories: 
+categories:
   - portfolio
   - products
 published: true
@@ -15,12 +15,10 @@ redirect_from:
 sortKey: Fibonacci0512hdrpb
 ---
 
-<a href="https://i.imgur.com/GYO1iQ2.gif" target="_blank"><img src="https://i.imgur.com/GYO1iQ2.gif" style="width:340px"  /></a>
-
-<a href="https://i.imgur.com/ej7igQO.png" target="_blank"><img src="https://i.imgur.com/ej7igQO.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/fKj1V7K.png" target="_blank"><img src="https://i.imgur.com/fKj1V7K.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/RHiNHaU.png" target="_blank"><img src="https://i.imgur.com/RHiNHaU.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/FUcgUAu.png" target="_blank"><img src="https://i.imgur.com/FUcgUAu.png" style="width:340px"  /></a>
+<a href="/assets/ej7igQO.jpg" target="_blank"><img src="/assets/ej7igQO.jpg" style="width:340px"  /></a>
+<a href="/assets/fKj1V7K.jpg" target="_blank"><img src="/assets/fKj1V7K.jpg" style="width:340px"  /></a>
+<a href="/assets/RHiNHaU.jpg" target="_blank"><img src="/assets/RHiNHaU.jpg" style="width:340px"  /></a>
+<a href="/assets/FUcgUAu.jpg" target="_blank"><img src="/assets/FUcgUAu.jpg" style="width:340px"  /></a>
 
 <a href="https://lectronz.com/stores/evilgeniuslabs" alt="I sell on Lectronz"><img src="https://lectronz-images.b-cdn.net/static/badges/i-sell-on-lectronz-medium.png" /></a>
 
@@ -35,11 +33,11 @@ Fibonacci512 HDR is a giant, beautiful 320mm circular disc with 512 RGB LEDs sur
 
 It consists of 512 SK9822-EC20 HDR RGB LEDs, arranged into a circular <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.
 
-I have created several LED art pieces in Fibonacci patterns.  They are all very labor intensive to create, and so are fairly expensive and limited in quantity.  I wanted to come up with a Fibonacci layout that was at least slightly easier to create, and therefore more affordable.
+I have created several LED art pieces in Fibonacci patterns. They are all very labor intensive to create, and so are fairly expensive and limited in quantity. I wanted to come up with a Fibonacci layout that was at least slightly easier to create, and therefore more affordable.
 
-I have RGB LEDs in just about every form they come: strips, strings, rings, discs, etc.  The LEDs on most discs are arranged in very regular rings.  Fibonacci512 is different.  The LEDs are arranged in a Fibonacci distribution.  The makes the layout very organic and seemingly messy.  But with the proper animation, spiral patterns emerge with spectacular results.
+I have RGB LEDs in just about every form they come: strips, strings, rings, discs, etc. The LEDs on most discs are arranged in very regular rings. Fibonacci512 is different. The LEDs are arranged in a Fibonacci distribution. The makes the layout very organic and seemingly messy. But with the proper animation, spiral patterns emerge with spectacular results.
 
-Each of the 512 SK9822-EC20 HDR RGB LEDs has its own decoupling capacitor built in.  The top and bottom of the PCB are large 5V and GND planes, to allow for the large amount of current required by the 512 LEDs.
+Each of the 512 SK9822-EC20 HDR RGB LEDs has its own decoupling capacitor built in. The top and bottom of the PCB are large 5V and GND planes, to allow for the large amount of current required by the 512 LEDs.
 
 <p>In disc <a href="https://en.wikipedia.org/wiki/Phyllotaxis" title="Phyllotaxis">phyllotaxis</a>, as in the <a href="https://en.wikipedia.org/wiki/Sunflower" title="Sunflower" class="mw-redirect">sunflower</a> and daisy, the mesh of spirals occurs in <a href="https://en.wikipedia.org/wiki/Fibonacci_number" title="Fibonacci number">Fibonacci numbers</a> because divergence (angle of succession in a single spiral arrangement) approaches the <a href="https://en.wikipedia.org/wiki/Golden_ratio" title="Golden ratio">golden ratio</a>. The shape of the spirals depends on the growth of the elements generated sequentially. In mature-disc <a href="https://en.wikipedia.org/wiki/Phyllotaxis" title="Phyllotaxis">phyllotaxis</a>, when all the elements are the same size, the shape of the spirals is that of Fermat spirals—ideally. That is because Fermat's spiral traverses equal <a href="https://en.wikipedia.org/wiki/Annulus_(mathematics)" title="Annulus (mathematics)">annuli</a> in equal turns. The full model proposed by H Vogel in 1979<sup id="cite_ref-2" class="reference"><a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral#cite_note-2"><span>[</span>2<span>]</span></a></sup> is</p>
 <dl>
@@ -72,12 +70,13 @@ For more control, you can connect to it via wi-fi.
    <img src="/images/setup/wifi-android.png" class="img-thumbnail" style="width: 240px" />
 
    **Note:** If you can't find the Fibonacci512's wi-fi network, it may not be in setup mode.
-   
+
    To put it in to setup mode:
+
    1. Press and hold the button for 5 seconds.
    1. If the status LED on the back flashes 3 times, it's now in setup mode.
    1. If the status LED on the back flashes once, press and hold the button for 5 more seconds.
-   The status LED on the back should now flash 3 times, 
+      The status LED on the back should now flash 3 times,
    1. It should now be in setup mode and its wi-fi network should now appear in the list on your computer or mobile device.
 
 1. Connect to this network from a computer or mobile device.
@@ -194,9 +193,9 @@ The sequencer can be configured via the web interface over wi-fi in the followin
 
 ##### Pattern sequencer options:
 
-* <b><u>Off</u></b>: Continuously play your selected favorite pattern. You can manually move to the next pattern by clicking the button on the back.
-* <b><u>Shuffle All</u></b>: randomly shuffle between all patterns after playing each one for an adjustable duration.
-* <b><u>Playlist</u></b>: patterns can be arranged into a playlist with customizable order and duration for each pattern.
+- <b><u>Off</u></b>: Continuously play your selected favorite pattern. You can manually move to the next pattern by clicking the button on the back.
+- <b><u>Shuffle All</u></b>: randomly shuffle between all patterns after playing each one for an adjustable duration.
+- <b><u>Playlist</u></b>: patterns can be arranged into a playlist with customizable order and duration for each pattern.
 
 ---
 

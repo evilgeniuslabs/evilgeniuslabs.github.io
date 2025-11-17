@@ -3,7 +3,7 @@ layout: post
 title: Nano v3 RGB LED Race Gate Controller
 sortKey: Nano v3 RGB LED Race Gate Controller
 id: nano-v3-rgb-led-micro-quadrotor-race-gate
-imgurId: mOL28YC
+imgurId: mOL28YC.mp4
 videoUrl: https://www.youtube.com/embed/oqDBVKWO1fo
 excerpt: RGB LED race gate for micro quadrotors, built with a Nano v3, 120 NeoPixel strip, PEX pipe, and FastLED.
 categories: retired
@@ -12,26 +12,26 @@ redirect_from:
 ---
 
 <div class="row">
-  <a href="https://i.imgur.com/LP60W0A" target="_blank"><img src="https://i.imgur.com/LP60W0A.jpg" class="col-sm-4 col-xs-12" /></a>
-  <a href="https://i.imgur.com/KDue2cs.gif" target="_blank"><img src="https://i.imgur.com/KDue2cs.gif" class="col-sm-4 col-xs-12" /></a>
-  <a href="https://i.imgur.com/mOL28YC" target="_blank"><img src="https://i.imgur.com/mOL28YC.gif" class="col-sm-4 col-xs-12" /></a>
-  <a href="https://i.imgur.com/VLQ5fCV" target="_blank"><img src="https://i.imgur.com/VLQ5fCV.gif" class="col-sm-4 col-xs-12" /></a>
-  <a href="https://i.imgur.com/WNybN7b.mp4" target="_blank"><img src="https://i.imgur.com/V9kHfCS.gif" class="col-sm-4 col-xs-12" /></a>
-  <a href="https://i.imgur.com/M060Hxu.jpg" target="_blank"><img src="https://i.imgur.com/M060Hxu.jpg" class="col-sm-4 col-xs-12" /></a>
-  <a href="https://i.imgur.com/HSkjbnz.jpg" target="_blank"><img src="https://i.imgur.com/HSkjbnz.jpg" class="col-sm-4 col-xs-12" /></a>
-  <a href="https://i.imgur.com/sMUO99b.jpg" target="_blank"><img src="https://i.imgur.com/sMUO99b.jpg" class="col-sm-4 col-xs-12" /></a>
-  <a href="https://i.imgur.com/JWSIr2c.jpg" target="_blank"><img src="https://i.imgur.com/JWSIr2c.jpg" class="col-sm-4 col-xs-12" /></a>
-  <a href="https://i.imgur.com/9aP8yPQ.jpg" target="_blank"><img src="https://i.imgur.com/9aP8yPQ.jpg" class="col-sm-4 col-xs-12" /></a>
-  <a href="https://i.imgur.com/2x4a5ya.jpg" target="_blank"><img src="https://i.imgur.com/2x4a5ya.jpg" class="col-sm-4 col-xs-12" /></a>
-  <a href="https://i.imgur.com/FZ5uncT.jpg" target="_blank"><img src="https://i.imgur.com/FZ5uncT.jpg" class="col-sm-4 col-xs-12" /></a>
-  <a href="https://i.imgur.com/3SkGjEZ.jpg" target="_blank"><img src="https://i.imgur.com/3SkGjEZ.jpg" class="col-sm-4 col-xs-12" /></a>
-  <a href="https://i.imgur.com/XNo0xSk.jpg" target="_blank"><img src="https://i.imgur.com/XNo0xSk.jpg" class="col-sm-4 col-xs-12" /></a>
-  <a href="https://i.imgur.com/udk0QyR.jpg" target="_blank"><img src="https://i.imgur.com/udk0QyR.jpg" class="col-sm-4 col-xs-12" /></a>
+  <a href="/assets/LP60W0A" target="_blank"><img src="/assets/LP60W0A.jpg" class="col-sm-4 col-xs-12" /></a>
+  <a href="/assets/KDue2cs.gif" target="_blank"><img src="/assets/KDue2cs.gif" class="col-sm-4 col-xs-12" /></a>
+  <a href="/assets/mOL28YC" target="_blank"><img src="/assets/mOL28YC.gif" class="col-sm-4 col-xs-12" /></a>
+  <a href="/assets/VLQ5fCV" target="_blank"><img src="/assets/VLQ5fCV.gif" class="col-sm-4 col-xs-12" /></a>
+  <a href="/assets/WNybN7b.mp4" target="_blank"><img src="/assets/V9kHfCS.gif" class="col-sm-4 col-xs-12" /></a>
+  <a href="/assets/M060Hxu.jpg" target="_blank"><img src="/assets/M060Hxu.jpg" class="col-sm-4 col-xs-12" /></a>
+  <a href="/assets/HSkjbnz.jpg" target="_blank"><img src="/assets/HSkjbnz.jpg" class="col-sm-4 col-xs-12" /></a>
+  <a href="/assets/sMUO99b.jpg" target="_blank"><img src="/assets/sMUO99b.jpg" class="col-sm-4 col-xs-12" /></a>
+  <a href="/assets/JWSIr2c.jpg" target="_blank"><img src="/assets/JWSIr2c.jpg" class="col-sm-4 col-xs-12" /></a>
+  <a href="/assets/9aP8yPQ.jpg" target="_blank"><img src="/assets/9aP8yPQ.jpg" class="col-sm-4 col-xs-12" /></a>
+  <a href="/assets/2x4a5ya.jpg" target="_blank"><img src="/assets/2x4a5ya.jpg" class="col-sm-4 col-xs-12" /></a>
+  <a href="/assets/FZ5uncT.jpg" target="_blank"><img src="/assets/FZ5uncT.jpg" class="col-sm-4 col-xs-12" /></a>
+  <a href="/assets/3SkGjEZ.jpg" target="_blank"><img src="/assets/3SkGjEZ.jpg" class="col-sm-4 col-xs-12" /></a>
+  <a href="/assets/XNo0xSk.jpg" target="_blank"><img src="/assets/XNo0xSk.jpg" class="col-sm-4 col-xs-12" /></a>
+  <a href="/assets/udk0QyR.jpg" target="_blank"><img src="/assets/udk0QyR.jpg" class="col-sm-4 col-xs-12" /></a>
 </div>
 
 <h3>Table of Contents</h3>
 
-* TOC
+- TOC
 {:toc}
 
 ### Buy
@@ -48,7 +48,7 @@ I made this shield because I was hand-wiring this same layout on perma-proto boa
 
 One digital output pin (D4) is run through a data line resistor, as recommended by [Adafruit's NeoPixel Best Practices](https://learn.adafruit.com/adafruit-neopixel-uberguide/best-practices).
 
-The large 5V trace and GND pour should be rated for up to 2 amps.  That's enough for about 33 LEDs at max output (solid white, full brightness).  For larger quantities, power should be connected directly to the LEDs, and/or brightness should be limited in software.
+The large 5V trace and GND pour should be rated for up to 2 amps. That's enough for about 33 LEDs at max output (solid white, full brightness). For larger quantities, power should be connected directly to the LEDs, and/or brightness should be limited in software.
 
 ### Specifications
 
@@ -91,8 +91,8 @@ Open source example Arduino sketch: [https://github.com/jasoncoon/demoreel100-bu
 
 Features:
 
-* Adjustable brightness/power
-* Choose animation/pattern
+- Adjustable brightness/power
+- Choose animation/pattern
 
 ### Electronics Assembly Instructions
 
@@ -104,7 +104,7 @@ I used this [3D printed vise](https://www.thingiverse.com/thing:2801942) to hold
 
 I also built one of these [DIY flexible soldering helping hands](http://www.instructables.com/id/DIY-Flexible-Soldering-Helping-Hand/).
 
-<img src="https://i.imgur.com/HkRdXLb.jpg" class="img-responsive" />
+<img src="/assets/HkRdXLb.jpg" class="img-responsive" />
 
 1. Insert the 300 Ohm to 500 Ohm resistor.
 
@@ -112,28 +112,28 @@ I also built one of these [DIY flexible soldering helping hands](http://www.inst
 
 3. Insert and solder the button pins.
 
-4. Trim all the leads with a pair of wire cutters.  Flush diagonal cutters work best.
+4. Trim all the leads with a pair of wire cutters. Flush diagonal cutters work best.
 
 5. I used a pre-assembled [3 pin JST-SM connector](https://amzn.to/2CWBL1G) to connect the LEDs.
 
 6. If possible, use a vise to hold the PCB vertically, and a helping hands tool to hold the wires as they're soldered.
-<img src="https://i.imgur.com/26X166P.jpg" class="img-responsive" />
-Â
+   <img src="/assets/26X166P.jpg" class="img-responsive" />
+   Â
 7. With a small amount of solder on the tip of the iron, heat the wire right on the bottom of the pad.
 
-8. Melt a fair amount of solder on the wire and pad.  The insulation on the wire may start to melt as the wire heats up.  If so, push the wire through the hole, from the top towards the bottom, to ensure no wire is left exposed on top.
+8. Melt a fair amount of solder on the wire and pad. The insulation on the wire may start to melt as the wire heats up. If so, push the wire through the hole, from the top towards the bottom, to ensure no wire is left exposed on top.
 
 9. Repeat this process for the other wires.
 
 10. I used the Nano to hold the female headers correctly aligned while I soldered.
-<img src="https://i.imgur.com/A0Yvsf7.jpg" class="img-responsive" />
+    <img src="/assets/A0Yvsf7.jpg" class="img-responsive" />
 
 ### Gate and Controller assembly
 
 See this post for more details on building the gates: https://www.evilgeniuslabs.org/rgb-led-micro-quadrotor-race-gate
 
-I designed and [3D printed a case for the Nano](https://www.thingiverse.com/thing:3200653).  I assembled the shield with female headers so the Nano could be removed, so the case is a bit bulky.  I plan to build more without the female headers, and will make a new lower profile case when I do.
+I designed and [3D printed a case for the Nano](https://www.thingiverse.com/thing:3200653). I assembled the shield with female headers so the Nano could be removed, so the case is a bit bulky. I plan to build more without the female headers, and will make a new lower profile case when I do.
 
-I printed the case, lid, and two button pins.  The shield attaches to the case with small M3 screws.  The case can be attached to a flange/foot with M3 screws, by marking and drilling a small hole in the flange.  I'll likely end up combining the case and flange into one 3D printed part eventually.
+I printed the case, lid, and two button pins. The shield attaches to the case with small M3 screws. The case can be attached to a flange/foot with M3 screws, by marking and drilling a small hole in the flange. I'll likely end up combining the case and flange into one 3D printed part eventually.
 
 I power each gate with a [cheap USB power bank](https://www.microcenter.com/product/488479/2600mah-power-bank---white).
