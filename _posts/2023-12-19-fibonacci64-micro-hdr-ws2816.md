@@ -2,10 +2,10 @@
 layout: post
 title: Fibonacci0064 Micro HDR WS2816
 id: fibonacci64microhdrws2816
-imgurId: g8GJGfI
+imgurId: g8GJGfI.mp4
 # videoUrl: https://www.youtube.com/embed/SNB5xsYFCak
 excerpt: Fibonacci64 Micro HDR is a tiny, beautiful 40mm circular disc with 64 WS2816 HDR RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
-categories: 
+categories:
   # - portfolio
   # - products
 published: true
@@ -16,12 +16,12 @@ redirect_from:
 sortKey: Fibonacci0064 Micro HDR WS2816
 ---
 
-<video class="post" poster="//i.imgur.com/g8GJGfI.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
-   <source src="//i.imgur.com/g8GJGfI.mp4" type="video/mp4">
+<video class="post" poster="/assets//g8GJGfI.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
+   <source src="/assets//g8GJGfI.mp4" type="video/mp4">
 </video>
 
-<a href="https://i.imgur.com/K2bqxvt.png" target="_blank"><img src="https://i.imgur.com/K2bqxvt.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/BTdKtF9.png" target="_blank"><img src="https://i.imgur.com/BTdKtF9.png" style="width:340px"  /></a>
+<a href="/assets/K2bqxvt.jpg" target="_blank"><img src="/assets/K2bqxvt.jpg" style="width:340px"  /></a>
+<a href="/assets/BTdKtF9.jpg" target="_blank"><img src="/assets/BTdKtF9.jpg" style="width:340px"  /></a>
 
 <h3>Table of Contents</h3>
 
@@ -121,27 +121,27 @@ This map can be copied and pasted into the Pixel Mapper in the Mapper tab of you
 1. Guide the wires through the holes in the back plate. Center and place the back plate onto the screws. Gently pull the slack out of the wires, through the slots in the back plate. The back plate should fit flush against the back of the PCB.
 1. Hand-tighten M2 Hex Nuts onto the screws.
 
-<img src="https://i.imgur.com/gSIIyeB.png" class="img-responsive" />
+<img src="/assets/gSIIyeB.jpg" class="img-responsive" />
 
-<img src="https://i.imgur.com/V6sFYjP.png" class="img-responsive" />
+<img src="/assets/V6sFYjP.jpg" class="img-responsive" />
 
-<img src="https://i.imgur.com/04DFta6.png" class="img-responsive" />
+<img src="/assets/04DFta6.jpg" class="img-responsive" />
 
-<img src="https://i.imgur.com/efwTcve.png" class="img-responsive" />
+<img src="/assets/efwTcve.jpg" class="img-responsive" />
 
-<img src="https://i.imgur.com/VVqsDXH.png" class="img-responsive" />
+<img src="/assets/VVqsDXH.jpg" class="img-responsive" />
 
-<img src="https://i.imgur.com/IoB18cV.png" class="img-responsive" />
+<img src="/assets/IoB18cV.jpg" class="img-responsive" />
 
-<img src="https://i.imgur.com/uNrHVci.png" class="img-responsive" />
+<img src="/assets/uNrHVci.jpg" class="img-responsive" />
 
-<img src="https://i.imgur.com/sKSUWMC.png" class="img-responsive" />
+<img src="/assets/sKSUWMC.jpg" class="img-responsive" />
 
-<img src="https://i.imgur.com/ZKyQbHm.png" class="img-responsive" />
+<img src="/assets/ZKyQbHm.jpg" class="img-responsive" />
 
-<img src="https://i.imgur.com/i1QUncM.png" class="img-responsive" />
+<img src="/assets/i1QUncM.jpg" class="img-responsive" />
 
-<img src="https://i.imgur.com/Lrk5Erw.png" class="img-responsive" />
+<img src="/assets/Lrk5Erw.jpg" class="img-responsive" />
 
 ### Assembly Instructions
 
@@ -149,14 +149,16 @@ This map can be copied and pasted into the Pixel Mapper in the Mapper tab of you
 
 If you're new to soldering, I highly recommend reading through a good soldering tutorial, such as the ones by [Adafruit](https://learn.adafruit.com/adafruit-guide-excellent-soldering) and [SparkFun](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering).
 
-<img src="https://imgur.com/BTdKtF9.png" class="img-responsive" />
+<img src="/assets/BTdKtF9.jpg" class="img-responsive" />
 
 1. Find a clean spot on your soldering workspace. I used a piece of heavy card stock. Carefully place the board with the LEDs facing down and the bottom of the board facing up.
 1. **VERY** carefully check polarity before connecting 5V and GND.
 1. Either:
-  * Solder wires to the pads on the back of the Fibonacci PCB and connect them to your microcontroller.
-  * Or:
-  * Carefully align a Pixelblaze V3 Pico Adafruit QT Py, Seeeduino XIAO, or another controller with an identical footprint with the pads on the back of the Fibonacci PCB. Solder the pads.
+
+- Solder wires to the pads on the back of the Fibonacci PCB and connect them to your microcontroller.
+- Or:
+- Carefully align a Pixelblaze V3 Pico Adafruit QT Py, Seeeduino XIAO, or another controller with an identical footprint with the pads on the back of the Fibonacci PCB. Solder the pads.
+
 1. Each WS2816C-2020 can theoretically draw 15mA at full brightness, solid white color. 64 of them can theoretically draw 960mA. I've found that 960mA is blindingly bright.
 1. Keep an eye on the temperature of the PCB and especially the connectors. High temperatures can reduce the life of the LEDs. When possible, ensure air can flow, either passively (ventilation) or actively (exhaust fan).
 1. If using a Pixelblaze V3 Pico, I suggest using the low power settings (reduce the global brightness, CPU clock speed, and/or disable wi-fi) to reduce power usage and heat.

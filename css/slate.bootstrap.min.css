@@ -5326,6 +5326,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-toggle .icon-bar {
+  background-color: #c8c8c8;
   display: block;
   width: 22px;
   height: 2px;

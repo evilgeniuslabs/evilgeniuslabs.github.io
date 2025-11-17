@@ -2,7 +2,7 @@
 layout: post
 title: Mega CycloHex
 id: mega-cyclohex
-imgurId: nsAjW5T
+imgurId: nsAjW5T.mp4
 excerpt: Mega CycloHex is a beautiful set of hexagonally-nested rings with 228 RGB LEDs, six touch pads, and an Adafruit QT Py SAMD21.
 categories:
   - portfolio
@@ -17,14 +17,14 @@ sortKey: Mega CycloHex
 
 <div class="embed-responsive embed-responsive-16by9">
    <a href="{{ post.url }}">
-      <video class="post" poster="//i.imgur.com/nsAjW5T.jpg" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
-         <source src="//i.imgur.com/nsAjW5T.mp4" type="video/mp4">
+      <video class="post" poster="/assets//nsAjW5T.jpg" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
+         <source src="/assets//nsAjW5T.mp4" type="video/mp4">
       </video>
    </a>
 </div>
 
-<a href="//i.imgur.com/Sz3XCdu.jpg" target="_blank"><img src="//i.imgur.com/Sz3XCdu.jpg" style="width:340px" /></a>
-<a href="//i.imgur.com/SecOW6S.png" target="_blank"><img src="//i.imgur.com/SecOW6S.png" style="width:340px" /></a><a href="//i.imgur.com/hsf6LRW.png" target="_blank"><img src="//i.imgur.com/hsf6LRW.png" style="width:340px" /></a>
+<a href="/assets//Sz3XCdu.jpg" target="_blank"><img src="/assets//Sz3XCdu.jpg" style="width:340px" /></a>
+<a href="/assets//SecOW6S.png" target="_blank"><img src="/assets//SecOW6S.png" style="width:340px" /></a><a href="/assets//hsf6LRW.png" target="_blank"><img src="/assets//hsf6LRW.png" style="width:340px" /></a>
 
 <h3>Table of Contents</h3>
 

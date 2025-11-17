@@ -14,16 +14,15 @@ layout: default
 <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" width="560" height="315" src="{{ page.videoUrl }}" frameborder="0" allowfullscreen></iframe>
 </div>
+
 <br />
 <br />
 {% endif %}
 
-{{ post.imgurId }}
-
 {% if page.imgurId != null %}
 <div class="embed-responsive embed-responsive-16by9">
-  <video class="post lazy" data-poster="//i.imgur.com/{{ page.imgurId }}.jpg" autoplay="autoplay" muted="muted" loop="loop">
-    <source data-src="//i.imgur.com/{{ page.imgurId }}.mp4" type="video/mp4">
+  <video class="post lazy" data-poster="/assets/{{ page.imgurId }}" autoplay="autoplay" muted="muted" loop="loop">
+    <source data-src="/assets/{{ page.imgurId }}" type="video/mp4">
   </video>
 </div>
 <br />

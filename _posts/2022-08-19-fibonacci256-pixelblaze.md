@@ -2,9 +2,9 @@
 layout: post
 title: Fibonacci256 Pixelblaze
 id: fibonacci256-pixelblaze
-imgurId: D4qEjgU
+imgurId: D4qEjgU.mp4
 excerpt: Fibonacci256 is a beautiful 166mm circular disc with 256 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
-categories: 
+categories:
   - portfolio
   - retired
 published: true
@@ -13,8 +13,6 @@ redirect_from:
   - /f256pb
 sortKey: Fibonacci0256pb
 ---
-
-<a href="https://i.imgur.com/D4qEjgU.gif" target="_blank"><img src="https://i.imgur.com/D4qEjgU.gif" style="width:340px"  /></a>
 
 <a href="https://lectronz.com/products/fibonacci256-hdr-166mm" alt="Buy it on Lectronz"><img src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-medium.png" /></a>
 
@@ -37,11 +35,11 @@ Fibonacci256 is a beautiful 166mm circular disc with 256 RGB LEDs surface mounte
 
 It consists of 256 WS2812B-Mini 3535 RGB LEDs, arranged into a circular <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.
 
-I have created several LED art pieces in Fibonacci patterns.  They are all very labor intensive to create, and so are fairly expensive and limited in quantity.  I wanted to come up with a Fibonacci layout that was at least slightly easier to create, and therefore more affordable.
+I have created several LED art pieces in Fibonacci patterns. They are all very labor intensive to create, and so are fairly expensive and limited in quantity. I wanted to come up with a Fibonacci layout that was at least slightly easier to create, and therefore more affordable.
 
-I have RGB LEDs in just about every form they come: strips, strings, rings, discs, etc.  The LEDs on most discs are arranged in very regular rings.  Fibonacci256 is different.  The LEDs are arranged in a Fibonacci distribution.  The makes the layout very organic and seemingly messy.  But with the proper animation, spiral patterns emerge with spectacular results.
+I have RGB LEDs in just about every form they come: strips, strings, rings, discs, etc. The LEDs on most discs are arranged in very regular rings. Fibonacci256 is different. The LEDs are arranged in a Fibonacci distribution. The makes the layout very organic and seemingly messy. But with the proper animation, spiral patterns emerge with spectacular results.
 
-Each of the 256 WS2812B-Mini 3535 RGB LEDs has its own decoupling capacitor built in.  The top and bottom of the PCB are large 5V and GND planes, to allow for the large amount of current required by the 256 LEDs.  The max theoretical frame rate is ~130 FPS.
+Each of the 256 WS2812B-Mini 3535 RGB LEDs has its own decoupling capacitor built in. The top and bottom of the PCB are large 5V and GND planes, to allow for the large amount of current required by the 256 LEDs. The max theoretical frame rate is ~130 FPS.
 
 <p>In disc <a href="https://en.wikipedia.org/wiki/Phyllotaxis" title="Phyllotaxis">phyllotaxis</a>, as in the <a href="https://en.wikipedia.org/wiki/Sunflower" title="Sunflower" class="mw-redirect">sunflower</a> and daisy, the mesh of spirals occurs in <a href="https://en.wikipedia.org/wiki/Fibonacci_number" title="Fibonacci number">Fibonacci numbers</a> because divergence (angle of succession in a single spiral arrangement) approaches the <a href="https://en.wikipedia.org/wiki/Golden_ratio" title="Golden ratio">golden ratio</a>. The shape of the spirals depends on the growth of the elements generated sequentially. In mature-disc <a href="https://en.wikipedia.org/wiki/Phyllotaxis" title="Phyllotaxis">phyllotaxis</a>, when all the elements are the same size, the shape of the spirals is that of Fermat spirals—ideally. That is because Fermat's spiral traverses equal <a href="https://en.wikipedia.org/wiki/Annulus_(mathematics)" title="Annulus (mathematics)">annuli</a> in equal turns. The full model proposed by H Vogel in 1979<sup id="cite_ref-2" class="reference"><a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral#cite_note-2"><span>[</span>2<span>]</span></a></sup> is</p>
 <dl>
@@ -72,12 +70,13 @@ For more control, you can connect to it via wi-fi.
    <img src="/images/setup/wifi-android.png" class="img-thumbnail" style="width: 240px" />
 
    **Note:** If you can't find the Fibonacci256's wi-fi network, it may not be in setup mode.
-   
+
    To put it in to setup mode:
+
    1. Press and hold the button for 5 seconds.
    1. If the status LED on the back flashes 3 times, it's now in setup mode.
    1. If the status LED on the back flashes once, press and hold the button for 5 more seconds.
-   The status LED on the back should now flash 3 times, 
+      The status LED on the back should now flash 3 times,
    1. It should now be in setup mode and its wi-fi network should now appear in the list on your computer or mobile device.
 
 1. Connect to this network from a computer or mobile device.
@@ -189,19 +188,19 @@ If you ever do need to reset to the Fibonacci256's default map, use these values
 Fibonacci256 comes with a wide variety of patterns built-in.
 By default, it will automatically play a playlist of pre-selected patterns.
 
-* Color Waves <a href="/downloads/f256pb/F256 Color Waves.epe"><i class="fa fa-download" aria-hidden="true"></i></a>
-* Pride <a href="/downloads/f256pb/F256 Pride.epe"><i class="fa fa-download" aria-hidden="true"></i></a>
-* Stars <a href="/downloads/f256pb/F256 Stars.epe"><i class="fa fa-download" aria-hidden="true"></i></a>
-* Palette Noise <a href="/downloads/Palette Noise.epe"><i class="fa fa-download" aria-hidden="true"></i></a>
-* Palettes Outward <a href="/downloads/Palettes Outward.epe"><i class="fa fa-download" aria-hidden="true"></i></a>
+- Color Waves <a href="/downloads/f256pb/F256 Color Waves.epe"><i class="fa fa-download" aria-hidden="true"></i></a>
+- Pride <a href="/downloads/f256pb/F256 Pride.epe"><i class="fa fa-download" aria-hidden="true"></i></a>
+- Stars <a href="/downloads/f256pb/F256 Stars.epe"><i class="fa fa-download" aria-hidden="true"></i></a>
+- Palette Noise <a href="/downloads/Palette Noise.epe"><i class="fa fa-download" aria-hidden="true"></i></a>
+- Palettes Outward <a href="/downloads/Palettes Outward.epe"><i class="fa fa-download" aria-hidden="true"></i></a>
 
 The sequencer can be configured via the web interface over wi-fi in the following ways:
 
 ##### Pattern sequencer options:
 
-* <b><u>Off</u></b>: Continuously play your selected favorite pattern. You can manually move to the next pattern by clicking the button on the back.
-* <b><u>Shuffle All</u></b>: randomly shuffle between all patterns after playing each one for an adjustable duration.
-* <b><u>Playlist</u></b>: patterns can be arranged into a playlist with customizable order and duration for each pattern.
+- <b><u>Off</u></b>: Continuously play your selected favorite pattern. You can manually move to the next pattern by clicking the button on the back.
+- <b><u>Shuffle All</u></b>: randomly shuffle between all patterns after playing each one for an adjustable duration.
+- <b><u>Playlist</u></b>: patterns can be arranged into a playlist with customizable order and duration for each pattern.
 
 ---
 
@@ -218,23 +217,23 @@ The sequencer can be configured via the web interface over wi-fi in the followin
 
 Parts:
 
-* [Pixelblaze V3 Standard - WiFi LED Controller](https://shop.electromage.com/products/pixelblaze-v3-standard-wifi-led-controller)
-* [Pixelblaze Sensor Expansion Board](https://shop.electromage.com/products/pixelblaze-sensor-expansion-board)
-* DC Power Jack Adapter Board
-* Acrylic Back with port access panel
-* 2 x M2x10mm Standoffs
-* 3 x M2x7mm Standoffs
-* 2 x M2x8mm Screws
-* 6 x M2x5mm Screws
+- [Pixelblaze V3 Standard - WiFi LED Controller](https://shop.electromage.com/products/pixelblaze-v3-standard-wifi-led-controller)
+- [Pixelblaze Sensor Expansion Board](https://shop.electromage.com/products/pixelblaze-sensor-expansion-board)
+- DC Power Jack Adapter Board
+- Acrylic Back with port access panel
+- 2 x M2x10mm Standoffs
+- 3 x M2x7mm Standoffs
+- 2 x M2x8mm Screws
+- 6 x M2x5mm Screws
 
 Instructions:
 
 1. Unplug any connected USB or power cables.
 1. Remove the screws from the back, and set them aside. We'll need them later to secure the new acrylic back on.
-   * Depending on which model you have these may be M3 or M2 screws.
+   - Depending on which model you have these may be M3 or M2 screws.
 1. Remove the back cover. This will be replaced with the new back panel.
 1. Unplug the cable from the controller and/or the Fibonacci256 LED PCB.
-   * These can differ from the pictures between Fibonacci256 models.
+   - These can differ from the pictures between Fibonacci256 models.
 1. If the controller is mounted using double-sided foam tape, use a generous amount of isopropyl alcohol to loosen the adhesive. Fully saturate it.
 1. Do not use anything metal to pry the controller off. If needed, you can use a plastic scraper, putty knife, or credit card.
 1. Use alcohol and a plastic scraper to remove any foam tape or adhesive residue.

@@ -16,15 +16,15 @@ Let's pick up from where we left off in [Part 1](/tutorials/pixelblaze3d/part1)
 
 ### Table of contents
 
-* [The `beforeRender` function](#the-beforerender-function)
-* [Value, Brightness, and Gamma Correction](#value-brightness-and-gamma-correction)
-* [Waves](#waves)
-* [Sawtooth Wave (Time)](#sawtooth-wave-time)
-* [Triangle Wave](#triangle-wave)
-* [Sine Wave](#sine-wave)
-* [Polar Waves](#polar-waves)
-* [Perlin Noise](#perlin-noise)
-* [Next Steps](#next-steps)
+- [The `beforeRender` function](#the-beforerender-function)
+- [Value, Brightness, and Gamma Correction](#value-brightness-and-gamma-correction)
+- [Waves](#waves)
+- [Sawtooth Wave (Time)](#sawtooth-wave-time)
+- [Triangle Wave](#triangle-wave)
+- [Sine Wave](#sine-wave)
+- [Polar Waves](#polar-waves)
+- [Perlin Noise](#perlin-noise)
+- [Next Steps](#next-steps)
 
 ---
 
@@ -39,7 +39,7 @@ In the introduction, we used the `time` function to make patterns move. In [Part
     export function beforeRender(delta) {
       t = time(.1)
     }
-    
+
     export function render3D(index, x, y, z) {
       h = x + t
       hsv(h, 1, 1)
@@ -67,13 +67,13 @@ Note that we now have a static rainbow with a slightly dark line scrolling horiz
 
 <div class="ratio ratio-1x1 img-thumbnail">
   <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" style="width: 240px">
-    <source src="https://i.imgur.com/LUeI9b8.mp4" type="video/mp4">
+    <source src="/assets/LUeI9b8" type="video/mp4">
   </video>
 </div>
 <br />
 
 Value (v) is the amount of light energy. You might think that a value of 0.5 would be half as bright as 1.0, but humans actually perceive brightness on a power-law scale (search for "gamma correction" for more information).
-This means that our eyes perceive 0.25 as about half as bright as 1.0. 
+This means that our eyes perceive 0.25 as about half as bright as 1.0.
 
 To make the value change more noticeable, let's square it.
 
@@ -85,7 +85,7 @@ Notice the value change is more pronounced? We've squared the value. Value is be
 
 <div class="ratio ratio-1x1 img-thumbnail">
   <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" style="width: 240px">
-    <source src="https://i.imgur.com/JNOTgwp.mp4" type="video/mp4">
+    <source src="/assets/JNOTgwp" type="video/mp4">
   </video>
 </div>
 <br />
@@ -98,12 +98,12 @@ and the contrast increases even more. Notice that the brightest part stays just 
 
 <div class="ratio ratio-1x1 img-thumbnail">
   <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" style="width: 240px">
-    <source src="https://i.imgur.com/wXrrGJz.mp4" type="video/mp4">
+    <source src="/assets/wXrrGJz" type="video/mp4">
   </video>
 </div>
 <br />
 
-The final code: 
+The final code:
 
     export function beforeRender(delta) {
       t = time(.01)
@@ -145,7 +145,7 @@ We see it as a continuously scrolling rainbow, because the time wave wraps from 
 
 <div class="ratio ratio-1x1 img-thumbnail">
   <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" style="width: 240px">
-    <source src="https://i.imgur.com/sE69gvC.mp4" type="video/mp4">
+    <source src="/assets/sE69gvC" type="video/mp4">
   </video>
 </div>
 
@@ -181,7 +181,7 @@ Notice now instead of constantly scrolling in one direction, it now moves back a
 
 <div class="ratio ratio-1x1 img-thumbnail">
   <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" style="width: 240px">
-    <source src="https://i.imgur.com/wdoWPaQ.mp4" type="video/mp4">
+    <source src="/assets/wdoWPaQ" type="video/mp4">
   </video>
 </div>
 <br />
@@ -214,7 +214,7 @@ Notice the wave moves back and forth more smoothly, slowing as it reaches the si
 
 <div class="ratio ratio-1x1 img-thumbnail">
   <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" style="width: 240px">
-    <source src="https://i.imgur.com/HWC7uTb.mp4" type="video/mp4">
+    <source src="/assets/HWC7uTb" type="video/mp4">
   </video>
 </div>
 <br />
@@ -239,7 +239,7 @@ Like in Part 1, we can switch from Cartesian XY coordinates to polar coordinates
 
 <div class="ratio ratio-1x1 img-thumbnail">
   <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" style="width: 240px">
-    <source src="https://i.imgur.com/gpIgrkl.mp4" type="video/mp4">
+    <source src="/assets/gpIgrkl" type="video/mp4">
   </video>
 </div>
 <br />
@@ -260,7 +260,7 @@ Lets change it so the value moves but the hue doesn't:
 
 <div class="ratio ratio-1x1 img-thumbnail">
   <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" style="width: 240px">
-    <source src="https://i.imgur.com/CcYZkl7.mp4" type="video/mp4">
+    <source src="/assets/CcYZkl7" type="video/mp4">
   </video>
 </div>
 <br />
@@ -271,7 +271,7 @@ Flip the direction:
 
 <div class="ratio ratio-1x1 img-thumbnail">
   <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" style="width: 240px">
-    <source src="https://i.imgur.com/4CYyaWe.mp4" type="video/mp4">
+    <source src="/assets/4CYyaWe" type="video/mp4">
   </video>
 </div>
 <br />
@@ -294,7 +294,7 @@ The complete code:
 
 ### Perlin Noise
 
-All of the above wave functions are symmetrical waveforms.  Let's explore a random, asymmetrical, irregular waveform.
+All of the above wave functions are symmetrical waveforms. Let's explore a random, asymmetrical, irregular waveform.
 
 `perlin(x, y, z, seed)`
 
@@ -320,7 +320,7 @@ Notice the rainbow now moves in a much less regular, predictable way.
 
 <div class="ratio ratio-1x1 img-thumbnail">
   <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" style="width: 240px">
-    <source src="https://i.imgur.com/HsjoYhB.mp4" type="video/mp4">
+    <source src="/assets/HsjoYhB" type="video/mp4">
   </video>
 </div>
 <br />
@@ -343,7 +343,7 @@ We've mapped the three-dimensional Perlin noise waveform to the hues for each pi
 
 <div class="ratio ratio-1x1 img-thumbnail">
   <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" style="width: 240px">
-    <source src="https://i.imgur.com/d3P7M6v.mp4" type="video/mp4">
+    <source src="/assets/d3P7M6v" type="video/mp4">
   </video>
 </div>
 <br />
@@ -358,7 +358,7 @@ Let's make it look like a lava lamp by mapping Perlin noise to value (brightness
     export function render3D(index, x, y, z) {
       h = perlin(x - noiseTime, y, z, 0) // perlin returns values ranging from -1.0 to 1.0
       v = perlin(x, y, z - noiseTime, 1) // use a different value for the last parameter (seed) to create a completely different set of noise
-      
+
       h = (h * 0.5) + 0.5 // adjust them to 0.0 to 1.0
       v = (v * 0.5) + 0.5 // adjust them to 0.0 to 1.0
       v = v * v * v
@@ -367,7 +367,7 @@ Let's make it look like a lava lamp by mapping Perlin noise to value (brightness
 
 <div class="ratio ratio-1x1 img-thumbnail">
   <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" style="width: 240px">
-    <source src="https://i.imgur.com/y7duaFV.mp4" type="video/mp4">
+    <source src="/assets/y7duaFV" type="video/mp4">
   </video>
 </div>
 <br />

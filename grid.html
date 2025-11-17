@@ -15,7 +15,7 @@ title: Grid
 
   <meta property="og:title" content="Evil Genius Labs | {{page.title}}" />
   <meta property="og:description" content="{{page.excerpt}}" />
-  <meta property="og:image" content="https://i.imgur.com/{{page.imgurId}}.mp4" />
+  <meta property="og:image" content="/assets/{{page.imgurId}}.mp4" />
 
   <title>Evil Genius Labs | {{page.title}}</title>
 
@@ -88,9 +88,9 @@ title: Grid
       <div class="col-xs-2">
         <div class="embed-responsive embed-responsive-16by9">
           <a href="{{ post.url }}">
-            <video class="post lazy" data-poster="//i.imgur.com/{{ post.imgurId }}.jpg" autoplay="autoplay"
+            <video class="post lazy" data-poster="/assets//{{ post.imgurId }}.jpg" autoplay="autoplay"
               muted="muted" loop="loop" playsinline>
-              <source data-src="//i.imgur.com/{{ post.imgurId }}.mp4" type="video/mp4">
+              <source data-src="/assets//{{ post.imgurId }}.mp4" type="video/mp4">
             </video>
           </a>
         </div>

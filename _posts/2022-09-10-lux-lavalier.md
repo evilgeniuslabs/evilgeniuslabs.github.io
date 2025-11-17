@@ -2,9 +2,9 @@
 layout: post
 title: Lux Lavalier
 id: lux-lavalier
-imgurId: lmPr0ob
+imgurId: lmPr0ob.mp4
 excerpt: Lux Lavalier is a beautiful wearable 40mm battery powered pendant necklace with 64 SK9822-2020 "HDR" RGB LEDs surface mounted in a Fibonacci distribution and a Pixelblaze V3 Pico controller built in.
-categories: 
+categories:
   - portfolio
   - products
 published: true
@@ -27,13 +27,10 @@ Lux Lavalier is a beautiful wearable 40mm battery powered pendant necklace with 
 **Geek-tested, Geek Mom Projects approved!**
 
 <div class="ratio ratio-1x1 img-thumbnail">
-  <video poster="https://i.imgur.com/EPf2onF.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy"  style="width:340px">
-    <source src="https://i.imgur.com/EPf2onF.mp4" type="video/mp4">
+  <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy"  style="width:340px">
+    <source src="/assets/EPf2onF.mp4" type="video/mp4">
   </video>
 </div>
 
-<br />
-
-<img src="https://i.imgur.com/HQTcDUW.png" class="img-thumbnail" style="width:340px" /><img src="https://i.imgur.com/cw5kVu5.png" class="img-thumbnail" style="width:340px" />
-
-<img src="https://i.imgur.com/2AqwaSA.png" class="img-thumbnail" style="width:340px" /><img src="https://i.imgur.com/knt3sVA.png" class="img-thumbnail" style="width:340px" />
+<img src="/assets/HQTcDUW.jpg" class="img-thumbnail" style="width:340px" /><img src="/assets/cw5kVu5.jpg" class="img-thumbnail" style="width:340px" />
+<img src="/assets/2AqwaSA.jpg" class="img-thumbnail" style="width:340px" /><img src="/assets/knt3sVA.jpg" class="img-thumbnail" style="width:340px" />

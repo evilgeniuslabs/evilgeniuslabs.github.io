@@ -2,10 +2,10 @@
 layout: post
 title: Fibonacci32 Mini
 id: fibonacci32mini
-imgurId: 9wXGJhP
+imgurId: 9wXGJhP.mp4
 # videoUrl: https://www.youtube.com/embed/SNB5xsYFCak
 excerpt: Fibonacci32 is a beautiful 50mm circular disc with 34 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
-categories: 
+categories:
   - portfolio
   - retired
 published: true
@@ -16,11 +16,11 @@ redirect_from:
 sortKey: Fibonacci0032 Mini
 ---
 
-<a href="https://i.imgur.com/9wXGJhP.gif" target="_blank"><img src="https://i.imgur.com/9wXGJhP.gif" style="width:340px"  /></a>
-<a href="https://i.imgur.com/PPEmzME.png" target="_blank"><img src="https://i.imgur.com/PPEmzME.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/07Avtki.png" target="_blank"><img src="https://i.imgur.com/07Avtki.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/O4n5yro.png" target="_blank"><img src="https://i.imgur.com/O4n5yro.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/kxsWOKq.png" target="_blank"><img src="https://i.imgur.com/kxsWOKq.png" style="width:340px"  /></a>
+<a href="/assets/9wXGJhP.gif" target="_blank"><img src="/assets/9wXGJhP.gif" style="width:340px"  /></a>
+<a href="/assets/PPEmzME.jpg" target="_blank"><img src="/assets/PPEmzME.jpg" style="width:340px"  /></a>
+<a href="/assets/07Avtki.jpg" target="_blank"><img src="/assets/07Avtki.jpg" style="width:340px"  /></a>
+<a href="/assets/O4n5yro.jpg" target="_blank"><img src="/assets/O4n5yro.jpg" style="width:340px"  /></a>
+<a href="/assets/kxsWOKq.jpg" target="_blank"><img src="/assets/kxsWOKq.jpg" style="width:340px"  /></a>
 
 ---
 
@@ -28,7 +28,7 @@ sortKey: Fibonacci0032 Mini
 
 Alternatives:
 
-* [One Inch Fibonacc32](/one-inch-fibonacci32)
+- [One Inch Fibonacc32](/one-inch-fibonacci32)
 
 ---
 
@@ -41,7 +41,7 @@ Alternatives:
 
 Fibonacci32 is a beautiful 86mm circular disc with 34 RGB LEDs surface mounted in a Fibonacci distribution. Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
 
-It consists of 34 RGB LEDs, arranged into a circular <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.  I decided to include 34 LEDs since it's a number in the Fibonacci sequence, only 2 away from 32, and there was room on the 50mm PCB.  I'm calling it Fibonacci32 so that it fits in with the rest of the series.
+It consists of 34 RGB LEDs, arranged into a circular <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern. I decided to include 34 LEDs since it's a number in the Fibonacci sequence, only 2 away from 32, and there was room on the 50mm PCB. I'm calling it Fibonacci32 so that it fits in with the rest of the series.
 
 <a href="https://lectronz.com/stores/evilgeniuslabs" alt="I sell on Lectronz"><img src="https://lectronz-images.b-cdn.net/static/badges/i-sell-on-lectronz-medium.png" /></a>
 
@@ -66,7 +66,7 @@ It consists of 34 RGB LEDs, arranged into a circular <a href="https://en.wikiped
         <a href="https://photos.app.goo.gl/sxWebS7FVF1jFhfLA" target="_blank">More pictures and details:</a>
       </div>
       <a href="https://photos.app.goo.gl/sxWebS7FVF1jFhfLA" target="_blank">
-        <img src="https://i.imgur.com/iLaweEn.png" style="width:340px" class="img-responsive" />
+        <img src="/assets/iLaweEn.jpg" style="width:340px" class="img-responsive" />
       </a>
     </div>
   </div>
@@ -135,17 +135,17 @@ If you're new to soldering, I highly recommend reading through a good soldering 
 **Note**: Pictures are of the larger [Fibonacci256](/fibonacci256), but the instructions are identical.
 
 1. Find a clean spot on your soldering workspace. I used a piece of heavy card stock. Carefully place the board with the LEDs facing down and the bottom of the board facing up.
-   <img src="https://imgur.com/dcH2g2E.png" class="img-responsive" />
+   <img src="/assets/dcH2g2E.jpg" class="img-responsive" />
 2. I used [90 degree header pins](https://amzn.to/2Vzi2gU) to allow connecting and disconnecting jumper wires easily. I used small [female headers](https://amzn.to/2Vzi2gU) to keep them level while I soldered.
-   <img src="https://imgur.com/oF0O5u5.png" class="img-responsive" />
+   <img src="/assets/oF0O5u5.jpg" class="img-responsive" />
 3. Insert the header pins.
-   <img src="https://imgur.com/SDp87ah.png" class="img-responsive" />
+   <img src="/assets/SDp87ah.jpg" class="img-responsive" />
 4. Carefully turn the board over and solder only the middle pin of each header.
-   <img src="https://imgur.com/YafBoqC.png" class="img-responsive" />
+   <img src="/assets/YafBoqC.jpg" class="img-responsive" />
 5. Ensure the headers are straight and level before proceeding to solder the remaining pins. The 5V and GND pins are connected to planes with large traces, and may take some time to heat up enough for solder to melt. Using a higher temperature and less time can help, if possible. Flux can also help.
 6. Check each solder joint, then disconnect the female headers.
 7. **VERY** carefully check polarity before connecting 5V and GND. If possible, connect 5V and GND on both sets of headers to provide maximum current flow and minimize voltage drop. I used [female jumper wires](https://amzn.to/2vjvZ8e).
-   <img src="https://imgur.com/XqbL1R8.png" class="img-responsive" />
+   <img src="/assets/XqbL1R8.jpg" class="img-responsive" />
 8. Connect the data pin from your microcontroller to the DI pin on the Fibonacci board.
 9. Each WS2812 can theoretically draw 60mA at full brightness, solid white color. 32 of them can theoretically draw 2.04 Amps! I strongly suggest using [FastLED's power management](https://github.com/FastLED/FastLED/wiki/Power-notes#managing-power-in-fastled) to limit the maximum brightness to a reasonable amount, well under the maximum your power supply is rated for. I've found even just 2A from a USB power adapter is blindingly bright.
 10. Keep an eye on the temperature of the PCB and especially the connectors. High temperatures can reduce the life of the LEDs. When possible, ensure air can flow, either passively (ventilation) or actively (exhaust fan).

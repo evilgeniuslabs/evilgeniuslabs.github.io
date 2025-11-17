@@ -2,7 +2,7 @@
 layout: post
 title: Fibonacci256 Expanding Pixelblaze
 id: fibonacci256-expanding-pixelblaze
-imgurId: 0OlTim6
+imgurId: 0OlTim6.mp4
 excerpt: Fibonacci256 Expanding is a beautiful 166mm circular disc with 256 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
 categories:
   - portfolio
@@ -14,12 +14,7 @@ redirect_from:
 sortKey: Fibonacci0256expanding
 ---
 
-<a href="https://i.imgur.com/XpEm2VJ.png" target="_blank"><img src="https://i.imgur.com/XpEm2VJ.png" style="width:340px" /></a>
-<a href="https://i.imgur.com/8FVEf2V.png" target="_blank"><img src="https://i.imgur.com/8FVEf2V.png" style="width:340px" /></a>
-<a href="https://i.imgur.com/tmK3E7x.png" target="_blank"><img src="https://i.imgur.com/tmK3E7x.png" style="width:340px" /></a>
-<a href="https://i.imgur.com/1pdD2p2.png" target="_blank"><img src="https://i.imgur.com/1pdD2p2.png" style="width:340px" /></a>
-<a href="https://i.imgur.com/v0Knj3W.png" target="_blank"><img src="https://i.imgur.com/v0Knj3W.png" style="width:340px" /></a>
-<a href="https://i.imgur.com/p7sbXcL.png" target="_blank"><img src="https://i.imgur.com/p7sbXcL.png" style="width:340px" /></a>
+<a href="/assets/XpEm2VJ.jpg" target="_blank"><img src="/assets/XpEm2VJ.jpg" style="width:340px" /></a><a href="/assets/8FVEf2V.jpg" target="_blank"><img src="/assets/8FVEf2V.jpg" style="width:340px" /></a><a href="/assets/tmK3E7x.jpg" target="_blank"><img src="/assets/tmK3E7x.jpg" style="width:340px" /></a><a href="/assets/1pdD2p2.jpg" target="_blank"><img src="/assets/1pdD2p2.jpg" style="width:340px" /></a><a href="/assets/v0Knj3W.jpg" target="_blank"><img src="/assets/v0Knj3W.jpg" style="width:340px" /></a><a href="/assets/p7sbXcL.jpg" target="_blank"><img src="/assets/p7sbXcL.jpg" style="width:340px" /></a>
 
 <h3>Table of Contents</h3>
 

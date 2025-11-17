@@ -2,10 +2,12 @@
 layout: default
 title: Home
 ---
-
+<!-- 
 <div class="page-header" id="home">
   <h1>{{page.title}}</h1>
-</div>
+</div> -->
+
+<br />
 
 {% for post in site.posts %}
 {% if post.categories contains "portfolio" %}
@@ -14,9 +16,9 @@ title: Home
   <div class="thumbnail" id="{{ post.id }}">
     <div class="embed-responsive embed-responsive-16by9">
       <a href="{{ post.url }}">
-        <video class="post lazy" data-poster="//i.imgur.com/{{ post.imgurId }}.jpg" autoplay="autoplay" muted="muted"
-          loop="loop" playsinline>
-          <source data-src="//i.imgur.com/{{ post.imgurId }}.mp4" type="video/mp4">
+        <video class="post lazy" data-poster="/assets/{{ post.imgurId }}" autoplay="autoplay" muted="muted" loop="loop"
+          playsinline>
+          <source data-src="/assets/{{ post.imgurId }}" type="video/mp4">
         </video>
       </a>
     </div>

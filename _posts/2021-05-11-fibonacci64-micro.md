@@ -2,7 +2,7 @@
 layout: post
 title: Fibonacci64 Micro
 id: fibonacci64micro
-imgurId: j83kSI7
+imgurId: j83kSI7.mp4
 # videoUrl: https://www.youtube.com/embed/SNB5xsYFCak
 excerpt: Fibonacci64 Micro is a tiny, beautiful 40mm circular disc with 64 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
 categories:
@@ -16,20 +16,20 @@ redirect_from:
 sortKey: Fibonacci0064 Micro
 ---
 
-<video class="post" poster="//i.imgur.com/j83kSI7.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
-   <source src="//i.imgur.com/j83kSI7.mp4" type="video/mp4">
+<video class="post" poster="/assets//j83kSI7.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
+   <source src="/assets//j83kSI7.mp4" type="video/mp4">
 </video>
 
-<a href="https://i.imgur.com/MHJo2My.png" target="_blank"><img src="https://i.imgur.com/MHJo2My.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/zpv3plJ.png" target="_blank"><img src="https://i.imgur.com/zpv3plJ.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/0acgduU.png" target="_blank"><img src="https://i.imgur.com/0acgduU.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/MHJo2My.png" target="_blank"><img src="https://i.imgur.com/MHJo2My.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/1sOdoQt.png" target="_blank"><img src="https://i.imgur.com/1sOdoQt.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/RxRM1lW.png" target="_blank"><img src="https://i.imgur.com/RxRM1lW.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/9ZbtRUm.png" target="_blank"><img src="https://i.imgur.com/9ZbtRUm.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/fO8GSLk.png" target="_blank"><img src="https://i.imgur.com/fO8GSLk.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/K3pxorP.png" target="_blank"><img src="https://i.imgur.com/K3pxorP.png" style="width:340px"  /></a>
-<a href="https://i.imgur.com/yONidkC.png" target="_blank"><img src="https://i.imgur.com/yONidkC.png" style="width:340px"  /></a>
+<a href="/assets/MHJo2My.jpg" target="_blank"><img src="/assets/MHJo2My.jpg" style="width:340px"  /></a>
+<a href="/assets/zpv3plJ.jpg" target="_blank"><img src="/assets/zpv3plJ.jpg" style="width:340px"  /></a>
+<a href="/assets/0acgduU.jpg" target="_blank"><img src="/assets/0acgduU.jpg" style="width:340px"  /></a>
+<a href="/assets/MHJo2My.jpg" target="_blank"><img src="/assets/MHJo2My.jpg" style="width:340px"  /></a>
+<a href="/assets/1sOdoQt.jpg" target="_blank"><img src="/assets/1sOdoQt.jpg" style="width:340px"  /></a>
+<a href="/assets/RxRM1lW.jpg" target="_blank"><img src="/assets/RxRM1lW.jpg" style="width:340px"  /></a>
+<a href="/assets/9ZbtRUm.jpg" target="_blank"><img src="/assets/9ZbtRUm.jpg" style="width:340px"  /></a>
+<a href="/assets/fO8GSLk.jpg" target="_blank"><img src="/assets/fO8GSLk.jpg" style="width:340px"  /></a>
+<a href="/assets/K3pxorP.jpg" target="_blank"><img src="/assets/K3pxorP.jpg" style="width:340px"  /></a>
+<a href="/assets/yONidkC.jpg" target="_blank"><img src="/assets/yONidkC.jpg" style="width:340px"  /></a>
 
 ---
 
@@ -37,9 +37,9 @@ sortKey: Fibonacci0064 Micro
 
 Alternatives:
 
-* [Fibonacci64 Micro HDR](fibonacci64-micro-hdr)
-* [Fibonacci64 50mm](/fibonacci64-goggles)
-* [One Inch Fibonacc64](/one-inch-fibonacci64)
+- [Fibonacci64 Micro HDR](fibonacci64-micro-hdr)
+- [Fibonacci64 50mm](/fibonacci64-goggles)
+- [One Inch Fibonacc64](/one-inch-fibonacci64)
 
 ---
 
@@ -60,8 +60,8 @@ It has solder pads on the back that match the pinout of the [QT Py by Adafruit](
 
 The four mounting holes are surrounded by capacitive touch compatible pads. They're connected to the A0-A3 pads/pins on the QT Py footprint. The SAMD21 QT Py supports capacitive touch on these pins.
 
-<video class="post" poster="//i.imgur.com/L1YCyR1.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
-   <source src="//i.imgur.com/L1YCyR1.mp4" type="video/mp4">
+<video class="post" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
+   <source src="/assets//L1YCyR1.mp4" type="video/mp4">
 </video>
 
 <p>In disc <a href="https://en.wikipedia.org/wiki/Phyllotaxis" title="Phyllotaxis">phyllotaxis</a>, as in the <a href="https://en.wikipedia.org/wiki/Sunflower" title="Sunflower" class="mw-redirect">sunflower</a> and daisy, the mesh of spirals occurs in <a href="https://en.wikipedia.org/wiki/Fibonacci_number" title="Fibonacci number">Fibonacci numbers</a> because divergence (angle of succession in a single spiral arrangement) approaches the <a href="https://en.wikipedia.org/wiki/Golden_ratio" title="Golden ratio">golden ratio</a>. The shape of the spirals depends on the growth of the elements generated sequentially. In mature-disc <a href="https://en.wikipedia.org/wiki/Phyllotaxis" title="Phyllotaxis">phyllotaxis</a>, when all the elements are the same size, the shape of the spirals is that of Fermat spirals—ideally. That is because Fermat's spiral traverses equal <a href="https://en.wikipedia.org/wiki/Annulus_(mathematics)" title="Annulus (mathematics)">annuli</a> in equal turns. The full model proposed by H Vogel in 1979<sup id="cite_ref-2" class="reference"><a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral#cite_note-2"><span>[</span>2<span>]</span></a></sup> is</p>
@@ -153,14 +153,16 @@ If you're new to soldering, I highly recommend reading through a good soldering 
 
 **Note**: Earlier versions of the PCB had header pin holes for 5V, GND, and Data In. Newer versions have pads, not holes. The pads allow you to either solder wires on, or solder a QT Py directly to the PCB.
 
-<img src="https://imgur.com/MlFHURn.png" class="img-responsive" />
+<img src="/assets/MlFHURn.jpg" class="img-responsive" />
 
 1. Find a clean spot on your soldering workspace. I used a piece of heavy card stock. Carefully place the board with the LEDs facing down and the bottom of the board facing up.
 1. **VERY** carefully check polarity before connecting 5V and GND.
 1. Either:
-  * Solder wires to the pads on the back of the Fibonacci PCB and connect them to your microcontroller.
-  * Or:
-  * Carefully align an Adafruit QT Py, Seeeduino XIAO, or another controller with an identical footprint with the pads on the back of the Fibonacci PCB. Solder the pads.
+
+- Solder wires to the pads on the back of the Fibonacci PCB and connect them to your microcontroller.
+- Or:
+- Carefully align an Adafruit QT Py, Seeeduino XIAO, or another controller with an identical footprint with the pads on the back of the Fibonacci PCB. Solder the pads.
+
 1. Each WS2812C-2020 can theoretically draw 15mA at full brightness, solid white color. 64 of them can theoretically draw 960mA. I suggest using [FastLED's power management](https://github.com/FastLED/FastLED/wiki/Power-notes#managing-power-in-fastled) to limit the maximum brightness to a reasonable amount, well under the maximum your power supply is rated for. I've found that 960mA is blindingly bright.
 1. Keep an eye on the temperature of the PCB and especially the connectors. High temperatures can reduce the life of the LEDs. When possible, ensure air can flow, either passively (ventilation) or actively (exhaust fan).
 
@@ -175,10 +177,10 @@ If you're new to soldering, I highly recommend reading through a good soldering 
 1. Hand-tighten M2 Hex Nuts onto the standoffs.
 1. Use flush cutters to trim off any excess nylon thread from the standoffs that is extending past the nuts on the back of the enclosure.
 
-<img src="https://imgur.com/avCAoAR.png" class="img-responsive" />
+<img src="/assets/avCAoAR.jpg" class="img-responsive" />
 
-<img src="https://imgur.com/TIWcG3f.png" class="img-responsive" />
+<img src="/assets/TIWcG3f.jpg" class="img-responsive" />
 
-<img src="https://imgur.com/1LA2cxt.png" class="img-responsive" />
+<img src="/assets/1LA2cxt.jpg" class="img-responsive" />
 
-<img src="https://imgur.com/wqxP9ZI.png" class="img-responsive" />
+<img src="/assets/wqxP9ZI.jpg" class="img-responsive" />

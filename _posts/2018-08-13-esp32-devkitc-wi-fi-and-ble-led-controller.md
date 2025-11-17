@@ -3,22 +3,22 @@ layout: post
 title: ESP32 DevKitC Wi-Fi and BLE LED Controller
 sortKey: ESP32 DevKitC Wi-Fi and BLE LED Controller
 id: d32-shield
-imgurId: CaElmEG
+imgurId: CaElmEG.mp4
 excerpt: Wi-Fi and BLE controlled, Arduino-compatible addressable RGB LED controller based on the ESP32-DevKitC, with level shifter.
 categories: retired
 redirect_from:
   - /23
 ---
 
-<img src="https://i.imgur.com/jT7bq4S.jpg" style="width:400px" class="img-responsive" />
+<img src="/assets/jT7bq4S.jpg" style="width:400px" class="img-responsive" />
 
-<img src="https://i.imgur.com/SqDk1tO.jpg" style="width:400px" class="img-responsive" />
+<img src="/assets/SqDk1tO.jpg" style="width:400px" class="img-responsive" />
 
-<img src="https://i.imgur.com/UHvLlvr.jpg" style="width:400px" class="img-responsive" />
+<img src="/assets/UHvLlvr.jpg" style="width:400px" class="img-responsive" />
 
 <h3>Table of Contents</h3>
 
-* TOC
+- TOC
 {:toc}
 
 ### Buy
@@ -31,11 +31,11 @@ This is a shield/breakout for the [ESP32 DevKitC](https://www.espressif.com/en/p
 
 I made this shield because I was hand-wiring this same layout on perma-proto boards, which was time-consuming and unprofessional looking.
 
-The shield includes a 74HCT245 level shifter, which is the most well-regarded high speed level shifter I've found.  This shifts the 3.3V logic level of the ESP32 to the 5V expected by addressable RGB LEDs.  These projects often work fine without a level shifter, until they don't.
+The shield includes a 74HCT245 level shifter, which is the most well-regarded high speed level shifter I've found. This shifts the 3.3V logic level of the ESP32 to the 5V expected by addressable RGB LEDs. These projects often work fine without a level shifter, until they don't.
 
 Eight digital output pins (0, 2, 4, 12, 13, 15, 16, 17) are run through the level shifter. It supports parallel output, thanks to Sam Guyer's excellent work on [FastLED ESP32 support](https://github.com/samguyer/FastLED).
 
-The shield also includes places for data line resistors as recommended when driving LEDs. A large capacitor should be connected across the power and ground connections near the LEDs.  A barrel connector can be added to connect a power supply, but the connector and PCB are only rated for 2.5A.  That's enough for about 50 LEDs at solid white, full brightness.  For larger quantities, power should be connected directly to the LEDs, and/or brightness should be limited in software.
+The shield also includes places for data line resistors as recommended when driving LEDs. A large capacitor should be connected across the power and ground connections near the LEDs. A barrel connector can be added to connect a power supply, but the connector and PCB are only rated for 2.5A. That's enough for about 50 LEDs at solid white, full brightness. For larger quantities, power should be connected directly to the LEDs, and/or brightness should be limited in software.
 
 ### Specifications
 
@@ -71,17 +71,17 @@ OR
 
 Open source example firmware and web application: [https://github.com/jasoncoon/esp32-fastled-webserver](https://github.com/jasoncoon/esp32-fastled-webserver)
 
-<img src="https://i.imgur.com/ks1Zyfa.png" style="width:600px" class="img-responsive" />
+<img src="/assets/ks1Zyfa.jpg" style="width:600px" class="img-responsive" />
 
 Features:
 
-* Control via a web app over Wi-Fi
-* On/Off
-* Adjustable brightness
-* Choose animation/pattern
-* Choose color palette
-* Set to any solid color
-* Autoplay patterns with adjustable duration
+- Control via a web app over Wi-Fi
+- On/Off
+- Adjustable brightness
+- Choose animation/pattern
+- Choose color palette
+- Set to any solid color
+- Autoplay patterns with adjustable duration
 
 ### Assembly Instructions
 
@@ -95,7 +95,7 @@ I also built one of these [DIY flexible soldering helping hands](http://www.inst
 
 1. Insert the SN74HCT245N Level Shifter chip into the holes in the top side of the board, where indicated. Be sure the notch is correctly aligned toward the 0.1uF capacitor, as indicated with the markings on the PCB.
 
-<img src="https://i.imgur.com/Ldq6QRR.jpg" class="img-responsive" />
+<img src="/assets/Ldq6QRR.jpg" class="img-responsive" />
 
 2. Flip the board over and solder one pin on the chip, pressing down on the PCB to ensure the chip is seated firmly.
 
@@ -103,54 +103,54 @@ I also built one of these [DIY flexible soldering helping hands](http://www.inst
 
 4. Insert the 0.1uF capacitor, flip over and solder.
 
-<img src="https://i.imgur.com/a0K7GCy.jpg" class="img-responsive" />
+<img src="/assets/a0K7GCy.jpg" class="img-responsive" />
 
-5. Insert 300 Ohm to 500 Ohm resistors in each set of holes for each output you plan to use.  Bend one leg 180 degrees around, flat against the resistor body, and insert it vertically.
+5. Insert 300 Ohm to 500 Ohm resistors in each set of holes for each output you plan to use. Bend one leg 180 degrees around, flat against the resistor body, and insert it vertically.
 
-<img src="https://i.imgur.com/j57FbGf.jpg" class="img-responsive" />
+<img src="/assets/j57FbGf.jpg" class="img-responsive" />
 
 6. Flip the board over and solder each leg of each resistor.
 
-<img src="https://i.imgur.com/mQdOrFt.jpg" class="img-responsive" />
+<img src="/assets/mQdOrFt.jpg" class="img-responsive" />
 
-7. Trim all the leads with a pair of wire cutters.  Flush diagonal cutters work best.
+7. Trim all the leads with a pair of wire cutters. Flush diagonal cutters work best.
 
 8. Insert the power barrel jack.
 
-<img src="https://i.imgur.com/DIpFafb.jpg" class="img-responsive" />
+<img src="/assets/DIpFafb.jpg" class="img-responsive" />
 
 9. I used a twist tie through the corner mounting holes to hold it in while I flipped the PCB over and soldered it in.
 
-<img src="https://i.imgur.com/XdFK3uA.jpg" class="img-responsive" />
+<img src="/assets/XdFK3uA.jpg" class="img-responsive" />
 
 10. The pads are very large, and connected to large ground and power planes on the board, so they might take a while to heat up before the solder starts to flow around the leads.
 
-<img src="https://i.imgur.com/5dyZ3o3.jpg" class="img-responsive" />
+<img src="/assets/5dyZ3o3.jpg" class="img-responsive" />
 
 11. Strip and tin the ends of the wires you'll use to connect the LEDs.
 
-<img src="https://i.imgur.com/QSpwkNV.jpg" class="img-responsive" />
+<img src="/assets/QSpwkNV.jpg" class="img-responsive" />
 
 I left the wires on the spools, which makes it easier to handle.
 
 12. If possible, use a vise to hold the PCB vertically, and a helping hands tool to hold the wires as they're soldered.
 
-<img src="https://i.imgur.com/QEVkk3s.jpg" class="img-responsive" />
+<img src="/assets/QEVkk3s.jpg" class="img-responsive" />
 
 13. With a small amount of solder on the tip of the iron, heat the wire right on the bottom of the pad.
 
-14. Melt a fair amount of solder on the wire and pad.  The insulation on the wire may start to melt as the wire heats up.  If so, push the wire through the hole, from the top towards the bottom, to ensure no wire is left exposed on top.
+14. Melt a fair amount of solder on the wire and pad. The insulation on the wire may start to melt as the wire heats up. If so, push the wire through the hole, from the top towards the bottom, to ensure no wire is left exposed on top.
 
 15. Repeat this process for the other wires.
 
-<img src="https://i.imgur.com/qkRO8b6.jpg" class="img-responsive" />
+<img src="/assets/qkRO8b6.jpg" class="img-responsive" />
 
 16. Cut the wires to the desired length and add [JST-SM connectors](https://amzn.to/2P7cvJ1) using a [SN-48B Crimping Tool](https://amzn.to/2P6YpHh).
 
-<img src="https://i.imgur.com/gxQ3QA1.jpg" class="img-responsive" />
+<img src="/assets/gxQ3QA1.jpg" class="img-responsive" />
 
 17. I used the ESP32 DevKitC to hold the female headers correctly aligned while I soldered.
 
-<img src="https://i.imgur.com/YRDLKbV.jpg" class="img-responsive" />
+<img src="/assets/YRDLKbV.jpg" class="img-responsive" />
 
-<img src="https://i.imgur.com/lQHpR5x.jpg" class="img-responsive" />
+<img src="/assets/lQHpR5x.jpg" class="img-responsive" />

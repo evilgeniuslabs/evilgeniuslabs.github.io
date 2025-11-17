@@ -2,7 +2,7 @@
 layout: post
 title: Fibonacci v2
 sortKey: Fibonacci v2
-imgurId: UtGigbH
+imgurId: UtGigbH.mp4
 videoUrl: https://www.youtube.com/embed/G6cYgBjpHAA?list=PLUYGVM-2vDxLanVedYG1cMMBDzuQ_ecQd
 sourceUrl: https://github.com/evilgeniuslabs/fibonacci-v3d
 id: fibonacci-v2
@@ -14,7 +14,7 @@ redirect_from:
 
 <br />
 
-Fibonacci v2 is a beautiful light art display.  Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
+Fibonacci v2 is a beautiful light art display. Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
 
 It consists of 100 RGB LEDs, arranged into a <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.
 

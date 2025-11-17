@@ -2,9 +2,9 @@
 layout: post
 title: One Inch Fibonacci64
 id: oneInchFibonacci64
-imgurId: bqyET8v
+imgurId: bqyET8v.mp4
 excerpt: One Inch Fibonacci 64 is a tiny, beautiful 25.4mm circular disc with 64 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
-categories: 
+categories:
   - portfolio
   - products
 published: true
@@ -15,12 +15,12 @@ redirect_from:
 sortKey: Fibonacci0064 One Inch
 ---
 
-<a href="https://i.imgur.com/36WDLb4.png" target="_blank"><img src="https://i.imgur.com/36WDLb4.png" style="width:340px" /></a>
-<a href="https://i.imgur.com/5j1I4vR.png" target="_blank"><img src="https://i.imgur.com/5j1I4vR.png" style="width:340px" /></a>
-<a href="https://i.imgur.com/os6nuxz.png" target="_blank"><img src="https://i.imgur.com/os6nuxz.png" style="width:340px" /></a>
-<a href="https://i.imgur.com/WD5ZzBg.png" target="_blank"><img src="https://i.imgur.com/WD5ZzBg.png" style="width:340px" /></a>
-<a href="https://i.imgur.com/bPLNbqw.png" target="_blank"><img src="https://i.imgur.com/bPLNbqw.png" style="width:340px" /></a>
-<a href="https://i.imgur.com/nuRnffr.png" target="_blank"><img src="https://i.imgur.com/nuRnffr.png" style="width:340px" /></a>
+<a href="/assets/36WDLb4.jpg" target="_blank"><img src="/assets/36WDLb4.jpg" style="width:340px" /></a>
+<a href="/assets/5j1I4vR.jpg" target="_blank"><img src="/assets/5j1I4vR.jpg" style="width:340px" /></a>
+<a href="/assets/os6nuxz.jpg" target="_blank"><img src="/assets/os6nuxz.jpg" style="width:340px" /></a>
+<a href="/assets/WD5ZzBg.jpg" target="_blank"><img src="/assets/WD5ZzBg.jpg" style="width:340px" /></a>
+<a href="/assets/bPLNbqw.jpg" target="_blank"><img src="/assets/bPLNbqw.jpg" style="width:340px" /></a>
+<a href="/assets/nuRnffr.jpg" target="_blank"><img src="/assets/nuRnffr.jpg" style="width:340px" /></a>
 
 <a href="https://lectronz.com/products/inch-fibonacci64" alt="Buy it on Lectronz"><img src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
 
@@ -31,7 +31,7 @@ sortKey: Fibonacci0064 One Inch
 
 ### Details
 
-One Inch Fibonacci 64 is a tiny, beautiful 25.4mm circular disc with 64 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
+One Inch Fibonacci 64 is a tiny, beautiful 25.4mm circular disc with 64 RGB LEDs surface mounted in a Fibonacci distribution. Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
 
 It consists of 64 SK6805-1515 1.5mm² RGB LEDs, arranged into a circular <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.
 
@@ -74,14 +74,16 @@ Open source touch demo: [https://github.com/jasoncoon/fibonacci64-one-inch](http
 
 If you're new to soldering, I highly recommend reading through a good soldering tutorial, such as the ones by [Adafruit](https://learn.adafruit.com/adafruit-guide-excellent-soldering) and [SparkFun](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering).
 
-<img src="https://imgur.com/X8Wm4sq.png" class="img-responsive" />
+<img src="/assets/X8Wm4sq.jpg" class="img-responsive" />
 
 1. Find a clean spot on your soldering workspace. I used a piece of heavy card stock. Carefully place the board with the LEDs facing down and the bottom of the board facing up.
 1. **VERY** carefully check polarity before connecting 5V and GND.
 1. Either:
-  * Solder wires to the pads on the back of the Fibonacci PCB and connect them to your microcontroller.
-  * Or:
-  * Carefully align an Adafruit QT Py, Seeeduino XIAO, or another controller with an identical footprint with the pads on the back of the Fibonacci PCB. Solder the pads.
+
+- Solder wires to the pads on the back of the Fibonacci PCB and connect them to your microcontroller.
+- Or:
+- Carefully align an Adafruit QT Py, Seeeduino XIAO, or another controller with an identical footprint with the pads on the back of the Fibonacci PCB. Solder the pads.
+
 1. Each SK6805-1515 can theoretically draw 15mA at full brightness, solid white color. 64 of them can theoretically draw 960mA. I've found tha is blindingly bright, and brightness should be drastically reduced to keep current draw and heat down.
 1. Keep an eye on the temperature of the PCB and especially the connectors. High temperatures can reduce the life of the LEDs. When possible, ensure air can flow, either passively (ventilation) or actively (exhaust fan).
 1. If using FastLED, I suggest using its [power management](https://github.com/FastLED/FastLED/wiki/Power-notes#managing-power-in-fastled) to limit the maximum brightness to a reasonable amount, well under the maximum your power supply is rated for.
