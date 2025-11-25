@@ -93,8 +93,8 @@ It's much smaller and easier to assemble, compared to the perma-proto boards I w
 
 If you're new to soldering, I highly recommend reading through a good soldering tutorial, such as the ones by [Adafruit](https://learn.adafruit.com/adafruit-guide-excellent-soldering) and [SparkFun](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering).
 
-1. Insert the Level Shifter chip into the holes in the top side of the board, where indicated, with the indentation towards the left edge of the board. <img src="/assets//Ez9cXED.jpg" class="img-responsive" />
-   <img src="/assets//TM6OXFC.jpg" class="img-responsive" />
+1. Insert the Level Shifter chip into the holes in the top side of the board, where indicated, with the indentation towards the left edge of the board. <img src="/assets/Ez9cXED.jpg" class="img-responsive" />
+   <img src="/assets/TM6OXFC.jpg" class="img-responsive" />
 
 2. Flip the board over and solder one pin on the chip, pressing down on the PCB to ensure the chip is seated firmly.
 

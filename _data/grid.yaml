@@ -4,35 +4,41 @@
 - url: /led-cube-6x6x6
   imgurId: f4IOwWI
 
+- url: /fibonacci256-expanding-pixelblaze
+  imgurId: 0OlTim6
+
 - url: /fibonacci48-14mm
   imgurId: LIVH6nv
 
-- url: /fibonacci512-hdr-pixelblaze
-  imgurId: GYO1iQ2
+# - url: /fibonacci512-hdr-pixelblaze
+#   imgurId: GYO1iQ2
 
 - url: /one-inch-fibonacci128
   imgurId: 9AMlrZH
 
-- url: /fibonacci-128-flex-bracelet
-  imgurId: dH0Mkwa
+# - url: fibonacci64microhdr
+#   imgurId: g8GJGfI
 
-- url: /fibonacci-hdr-heart
-  imgurId: XFR7m2E
+# - url: /fibonacci-128-flex-bracelet
+#   imgurId: dH0Mkwa
+
+# - url: /fibonacci-hdr-heart
+#   imgurId: XFR7m2E
 
 - url: /cyclohex
   imgurId: fzGwzVQ
 
-- url: /lux-lavalier
-  imgurId: lmPr0ob
+# - url: /lux-lavalier
+#   imgurId: lmPr0ob
 
-- url: /fibonacci64-flower
-  imgurId: 50JYqsw
+# - url: /fibonacci64-flower
+#   imgurId: 50JYqsw
 
-- url: /fibonacci1024
-  imgurId: QtWv6Z8
+# - url: /fibonacci1024
+#   imgurId: QtWv6Z8
 
-- url: /fibonacci64-goggles
-  imgurId: U0uT02l
+# - url: /fibonacci64-goggles
+#   imgurId: U0uT02l
 
 - url: /fibonacci182-card
   imgurId: ErMFOKL
@@ -42,48 +48,47 @@
 
 - url: /kraken64
   imgurId: grnjkmC
+# - url: /fibonacci512
+#   imgurId: 1IpjwvJ
 
-- url: /fibonacci512
-  imgurId: 1IpjwvJ
+# - url: /macrochips
+#   imgurId: 8DAWWY7
 
-- url: /macrochips
-  imgurId: 8DAWWY7
+# - url: /sol-v2
+#   imgurId: 8MpQv5X
 
-- url: /sol-v2
-  imgurId: 8MpQv5X
+# - url: /icosaledron
+#   imgurId: waybbXq
 
-- url: /icosaledron
-  imgurId: waybbXq
+# - url: /rgb-led-micro-quadrotor-race-gate
+#   imgurId: mOL28YC
 
-- url: /rgb-led-micro-quadrotor-race-gate
-  imgurId: mOL28YC
+# - url: /eclipse-v2
+#   imgurId: oaZQjSC
 
-- url: /eclipse-v2
-  imgurId: oaZQjSC
+# - url: /psilocybe
+#   imgurId: B0XZCao
 
-- url: /psilocybe
-  imgurId: B0XZCao
+# - url: /bloom-v2
+#   imgurId: RmuJT2x
 
-- url: /bloom-v2
-  imgurId: RmuJT2x
+# - url: /ducenti
+#   imgurId: PGERTCZ
 
-- url: /ducenti
-  imgurId: PGERTCZ
+# - url: /torch-v2
+#   imgurId: nhn8ckv
 
-- url: /torch-v2
-  imgurId: nhn8ckv
+# - url: /sol
+#   imgurId: RvR9XW2
 
-- url: /sol
-  imgurId: RvR9XW2
+# - url: /fibonacci-v2
+#   imgurId: UtGigbH
 
-- url: /fibonacci-v2
-  imgurId: UtGigbH
+# - url: /plasma
+#   imgurId: DEZfUNs
 
-- url: /plasma
-  imgurId: DEZfUNs
+# - url: /bloom
+#   imgurId: EzTai7f
 
-- url: /bloom
-  imgurId: EzTai7f
-
-- url: /torch
-  imgurId: ttGX4D8
+# - url: /torch
+#   imgurId: ttGX4D8

@@ -85,12 +85,12 @@ title: Grid
 
     <div class="row row-no-gutters">
       {% for post in site.data.grid %}
-      <div class="col-xs-2">
+      <div class="col-xs-4">
         <div class="embed-responsive embed-responsive-16by9">
           <a href="{{ post.url }}">
-            <video class="post lazy" data-poster="/assets//{{ post.imgurId }}.jpg" autoplay="autoplay"
-              muted="muted" loop="loop" playsinline>
-              <source data-src="/assets//{{ post.imgurId }}.mp4" type="video/mp4">
+            <video class="post lazy" data-poster="/assets/{{ post.imgurId }}.jpg" autoplay="autoplay" muted="muted"
+              loop="loop" playsinline>
+              <source data-src="/assets/{{ post.imgurId }}.mp4" type="video/mp4">
             </video>
           </a>
         </div>

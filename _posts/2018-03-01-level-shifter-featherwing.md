@@ -109,20 +109,20 @@ I used this [3D printed vise](https://www.thingiverse.com/thing:2801942) to hold
 
 I also built one of these [DIY flexible soldering helping hands](http://www.instructables.com/id/DIY-Flexible-Soldering-Helping-Hand/).
 
-1. Insert the SN74HCT245N Level Shifter chip into the holes in the top side of the board, where indicated. <img src="/assets//mzgFBwC.jpg" class="img-responsive" />
+1. Insert the SN74HCT245N Level Shifter chip into the holes in the top side of the board, where indicated. <img src="/assets/mzgFBwC.jpg" class="img-responsive" />
 2. Flip the board over and solder one pin on the chip, pressing down on the PCB to ensure the chip is seated firmly.
 3. Make sure the chip is still seated properly before proceeding to solder the rest of the pins.
 4. Insert the 0.1uF capacitor.
 5. Insert 300 Ohm to 500 Ohm resistors in each set of holes for each output you plan to use. Bend one leg 180 degrees around, flat against the resistor body, and insert it vertically.
 6. Trim all the leads with a pair of wire cutters. Flush diagonal cutters work best.
-7. Flip the board over and solder each leg of each resistor.<img src="/assets//C09pFod.jpg" class="img-responsive" />
-8. Insert the power barrel jack.<img src="/assets//NEs4nTV.jpg" class="img-responsive" />
-9. I used a twist tie through the corner mounting holes to hold it in while I flipped the PCB over and soldered it in.<img src="/assets//3XlQiGy.jpg" class="img-responsive" />
-10. The pads are very large, and connected to large ground and power planes on the board, so they might take a while to heat up before the solder starts to flow around the leads.<img src="/assets//8NVusfc.jpg" class="img-responsive" />
-11. If possible, use a vise to hold the PCB vertically, and a helping hands tool to hold the wires as they're soldered.<img src="/assets//wwEqib0.jpg" class="img-responsive" />
-12. Strip the ends of the wires you'll use to connect the LEDs.<img src="/assets//QSpwkNV.jpg" class="img-responsive" /> I left the wires on the spools, which makes it easier to handle.
+7. Flip the board over and solder each leg of each resistor.<img src="/assets/C09pFod.jpg" class="img-responsive" />
+8. Insert the power barrel jack.<img src="/assets/NEs4nTV.jpg" class="img-responsive" />
+9. I used a twist tie through the corner mounting holes to hold it in while I flipped the PCB over and soldered it in.<img src="/assets/3XlQiGy.jpg" class="img-responsive" />
+10. The pads are very large, and connected to large ground and power planes on the board, so they might take a while to heat up before the solder starts to flow around the leads.<img src="/assets/8NVusfc.jpg" class="img-responsive" />
+11. If possible, use a vise to hold the PCB vertically, and a helping hands tool to hold the wires as they're soldered.<img src="/assets/wwEqib0.jpg" class="img-responsive" />
+12. Strip the ends of the wires you'll use to connect the LEDs.<img src="/assets/QSpwkNV.jpg" class="img-responsive" /> I left the wires on the spools, which makes it easier to handle.
 13. With a small amount of solder on the tip of the iron, heat the wire right on the bottom of the pad.
 14. Melt a fair amount of solder on the wire and pad. The insulation on the wire may start to melt as the wire heats up. If so, push the wire through the hole, from the top towards the bottom, to ensure no wire is left exposed on top.
-15. Repeat this process for the other wires.<img src="/assets//Y2lxdRA.jpg" class="img-responsive" />
+15. Repeat this process for the other wires.<img src="/assets/Y2lxdRA.jpg" class="img-responsive" />
 16. Cut the wires to the desired length and add [JST-SM connectors](https://amzn.to/2P7cvJ1) using a [SN-48B Crimping Tool](https://amzn.to/2P6YpHh).
-17. I used double-sided male headers in a small breadboard to hold the female headers correctly aligned while I soldered.<img src="/assets//UhEGkzn.jpg" class="img-responsive" />
+17. I used double-sided male headers in a small breadboard to hold the female headers correctly aligned while I soldered.<img src="/assets/UhEGkzn.jpg" class="img-responsive" />

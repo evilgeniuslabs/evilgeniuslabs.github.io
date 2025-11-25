@@ -17,8 +17,8 @@ redirect_from:
 sortKey: Fibonacci0182 Card
 ---
 
-<video class="post" poster="/assets//ErMFOKL.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop" style="width:684px">
-   <source src="/assets//ErMFOKL.mp4" type="video/mp4">
+<video class="post" poster="/assets/ErMFOKL.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop" style="width:684px">
+   <source src="/assets/ErMFOKL.mp4" type="video/mp4">
 </video>
 
 <a href="/assets/RVQAho5.jpg" target="_blank"><img src="/assets/RVQAho5.jpg" style="width:340px"  /></a>

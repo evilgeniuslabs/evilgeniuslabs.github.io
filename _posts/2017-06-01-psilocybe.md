@@ -59,7 +59,9 @@ Inner frame:
   </div>
 
   <div class="col-xs-12 col-md-6">
-    <a href="/assets/a5fB884.mp4" target="_blank" class="thumbnail"><img src="/assets/a5fB884.mp4" class="img-responsive" /></a>
+    <video class="post" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="/assets/a5fB884.mp4" type="video/mp4">
+    </video>
   </div>
 
 </div>
