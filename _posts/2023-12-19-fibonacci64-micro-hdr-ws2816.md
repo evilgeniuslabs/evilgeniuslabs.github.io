@@ -16,8 +16,8 @@ redirect_from:
 sortKey: Fibonacci0064 Micro HDR WS2816
 ---
 
-<video class="post" poster="/assets//g8GJGfI.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
-   <source src="/assets//g8GJGfI.mp4" type="video/mp4">
+<video class="post" poster="/assets/g8GJGfI.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
+   <source src="/assets/g8GJGfI.mp4" type="video/mp4">
 </video>
 
 <a href="/assets/K2bqxvt.jpg" target="_blank"><img src="/assets/K2bqxvt.jpg" style="width:340px"  /></a>

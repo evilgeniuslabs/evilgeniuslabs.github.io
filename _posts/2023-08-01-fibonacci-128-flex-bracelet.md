@@ -16,12 +16,12 @@ redirect_from:
 sortKey: Fibonacci 128 Flex Bracelet
 ---
 
-<!-- <video class="post" poster="/assets//XFR7m2E.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
-   <source src="/assets//XFR7m2E.mp4" type="video/mp4">
+<!-- <video class="post" poster="/assets/XFR7m2E.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
+   <source src="/assets/XFR7m2E.mp4" type="video/mp4">
 </video>
 
-<video class="post" poster="/assets//VIlJk3Y.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
-   <source src="/assets//VIlJk3Y.mp4" type="video/mp4">
+<video class="post" poster="/assets/VIlJk3Y.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
+   <source src="/assets/VIlJk3Y.mp4" type="video/mp4">
 </video>
 
 <a href="/assets/kD1Y1va.jpg" target="_blank"><img src="/assets/kD1Y1va.jpg" style="width:340px"  /></a>

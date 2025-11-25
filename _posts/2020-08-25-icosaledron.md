@@ -17,7 +17,6 @@ redirect_from:
 ---
 
 <a href="https://media.giphy.com/media/UoLzutZkzOEUC1aZZ3/giphy.gif" target="_blank"><img src="https://media.giphy.com/media/UoLzutZkzOEUC1aZZ3/giphy.gif" style="width:340px"  /></a>
-<a href="/assets/waybbXq.mp4" target="_blank"><img src="/assets/waybbXq.mp4" style="width:340px"  /></a>
 <a href="/assets/fcWXd9l.jpg" target="_blank"><img src="/assets/fcWXd9l.jpg" style="width:340px"  /></a>
 <a href="/assets/kq1mQMI.jpg" target="_blank"><img src="/assets/kq1mQMI.jpg" style="width:340px"  /></a>
 <a href="/assets/uYUS46G.jpg" target="_blank"><img src="/assets/uYUS46G.jpg" style="width:340px"  /></a>
@@ -253,4 +252,6 @@ You should now have the top and center row of the icosaLEDron assembled. Repeat 
 
 Turn it on. Hold it in your hand. Marvel at its beauty.
 
-<a href="/assets/KnSlyi7.mp4" target="_blank"><img src="/assets/KnSlyi7.mp4" style="width:340px"  /></a>
+<video class="post" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
+   <source src="/assets/KnSlyi7.mp4" type="video/mp4">
+</video>

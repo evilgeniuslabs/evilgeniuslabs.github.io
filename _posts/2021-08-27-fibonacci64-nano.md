@@ -15,12 +15,12 @@ redirect_from:
 sortKey: Fibonacci0064 Nano
 ---
 
-<video class="post" poster="/assets//MsRNmcq.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
-   <source src="/assets//MsRNmcq.mp4" type="video/mp4">
+<video class="post" poster="/assets/MsRNmcq.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
+   <source src="/assets/MsRNmcq.mp4" type="video/mp4">
 </video>
 
-<video class="post" poster="/assets//p1UoRS3.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
-   <source src="/assets//p1UoRS3.mp4" type="video/mp4">
+<video class="post" poster="/assets/p1UoRS3.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
+   <source src="/assets/p1UoRS3.mp4" type="video/mp4">
 </video>
 
 <a href="/assets/uc9KQOF.jpg" target="_blank"><img src="/assets/uc9KQOF.jpg" style="width:340px" /></a>

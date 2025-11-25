@@ -17,8 +17,8 @@ sortKey: Fibonacci0064 Flower
 
 <div class="embed-responsive embed-responsive-16by9">
    <a href="{{ post.url }}">
-      <video class="post" poster="/assets//50JYqsw.jpg" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
-         <source src="/assets//50JYqsw.mp4" type="video/mp4">
+      <video class="post" poster="/assets/50JYqsw.jpg" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
+         <source src="/assets/50JYqsw.mp4" type="video/mp4">
       </video>
    </a>
 </div>

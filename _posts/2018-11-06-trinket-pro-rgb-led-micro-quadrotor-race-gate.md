@@ -12,22 +12,32 @@ redirect_from:
 ---
 
 <div class="row">
-  <a href="/assets/LP60W0A.jpg" target="_blank"><img src="/assets/LP60W0A.jpg" class="col-sm-4 col-xs-12" /></a>
-  <a href="/assets/KDue2cs.mp4" target="_blank"><img src="/assets/KDue2cs.mp4" class="col-sm-4 col-xs-12" /></a>
-  <a href="/assets/mOL28YC.mp4" target="_blank"><img src="/assets/mOL28YC.mp4" class="col-sm-4 col-xs-12" /></a>
-  <a href="/assets/VLQ5fCV.mp4" target="_blank"><img src="/assets/VLQ5fCV.mp4" class="col-sm-4 col-xs-12" /></a>
-  <a href="/assets/WNybN7b.mp4" target="_blank"><img src="/assets/V9kHfCS.mp4" class="col-sm-4 col-xs-12" /></a>
-  <a href="/assets/M060Hxu.jpg" target="_blank"><img src="/assets/M060Hxu.jpg" class="col-sm-4 col-xs-12" /></a>
-  <a href="/assets/HSkjbnz.jpg" target="_blank"><img src="/assets/HSkjbnz.jpg" class="col-sm-4 col-xs-12" /></a>
-  <a href="/assets/sMUO99b.jpg" target="_blank"><img src="/assets/sMUO99b.jpg" class="col-sm-4 col-xs-12" /></a>
-  <a href="/assets/JWSIr2c.jpg" target="_blank"><img src="/assets/JWSIr2c.jpg" class="col-sm-4 col-xs-12" /></a>
-  <a href="/assets/9aP8yPQ.jpg" target="_blank"><img src="/assets/9aP8yPQ.jpg" class="col-sm-4 col-xs-12" /></a>
-  <a href="/assets/HToMlpe.jpg" target="_blank"><img src="/assets/HToMlpe.jpg" class="col-sm-4 col-xs-12" /></a>
-  <a href="/assets/Fvj1nbg.jpg" target="_blank"><img src="/assets/Fvj1nbg.jpg" class="col-sm-4 col-xs-12" /></a>
-  <a href="/assets/VUIQWmk.jpg" target="_blank"><img src="/assets/VUIQWmk.jpg" class="col-sm-4 col-xs-12" /></a>
-  <a href="/assets/NHmCcdx.jpg" target="_blank"><img src="/assets/NHmCcdx.jpg" class="col-sm-4 col-xs-12" /></a>
-  <a href="/assets/aKOmQde.jpg" target="_blank"><img src="/assets/aKOmQde.jpg" class="col-sm-4 col-xs-12" /></a>
-  <a href="/assets/A0Yvsf7.jpg" target="_blank"><img src="/assets/A0Yvsf7.jpg" class="col-sm-4 col-xs-12" /></a>
+
+  <video class="post col-sm-4 col-xs-12" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
+    <source src="/assets/KDue2cs.mp4" type="video/mp4">
+  </video>
+
+  <video class="post col-sm-4 col-xs-12" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
+    <source src="/assets/VLQ5fCV.mp4" type="video/mp4">
+  </video>
+
+  <video class="post col-sm-4 col-xs-12" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
+    <source src="/assets/V9kHfCS.mp4" type="video/mp4">
+  </video>
+
+<a href="/assets/LP60W0A.jpg" target="_blank"><img src="/assets/LP60W0A.jpg" class="col-sm-4 col-xs-12" /></a>
+<a href="/assets/M060Hxu.jpg" target="_blank"><img src="/assets/M060Hxu.jpg" class="col-sm-4 col-xs-12" /></a>
+<a href="/assets/HSkjbnz.jpg" target="_blank"><img src="/assets/HSkjbnz.jpg" class="col-sm-4 col-xs-12" /></a>
+<a href="/assets/sMUO99b.jpg" target="_blank"><img src="/assets/sMUO99b.jpg" class="col-sm-4 col-xs-12" /></a>
+<a href="/assets/JWSIr2c.jpg" target="_blank"><img src="/assets/JWSIr2c.jpg" class="col-sm-4 col-xs-12" /></a>
+<a href="/assets/9aP8yPQ.jpg" target="_blank"><img src="/assets/9aP8yPQ.jpg" class="col-sm-4 col-xs-12" /></a>
+<a href="/assets/HToMlpe.jpg" target="_blank"><img src="/assets/HToMlpe.jpg" class="col-sm-4 col-xs-12" /></a>
+<a href="/assets/Fvj1nbg.jpg" target="_blank"><img src="/assets/Fvj1nbg.jpg" class="col-sm-4 col-xs-12" /></a>
+<a href="/assets/VUIQWmk.jpg" target="_blank"><img src="/assets/VUIQWmk.jpg" class="col-sm-4 col-xs-12" /></a>
+<a href="/assets/NHmCcdx.jpg" target="_blank"><img src="/assets/NHmCcdx.jpg" class="col-sm-4 col-xs-12" /></a>
+<a href="/assets/aKOmQde.jpg" target="_blank"><img src="/assets/aKOmQde.jpg" class="col-sm-4 col-xs-12" /></a>
+<a href="/assets/A0Yvsf7.jpg" target="_blank"><img src="/assets/A0Yvsf7.jpg" class="col-sm-4 col-xs-12" /></a>
+
 </div>
 
 <h3>Table of Contents</h3>
