@@ -54,6 +54,14 @@ The three mounting holes are surrounded by capacitive touch compatible pads. The
 
 ---
 
+### Instructions
+
+If you bought the full-assembled version, just plug your new Fibonacci into a power source using a USB-C cable and it will light up.
+
+Touch any of the mounting screws and a wave of light should emanate from that point. Touch multiple and where they overlap the colors will combine, saturating towards white.
+
+Press the button on the back (until it clicks) and it'll switch to the next pattern.  If you disconnect and then reconnect the power, it will also change to the next pattern.
+
 ### Specifications
 
 - Size: 1.0 x 1.0 x .063 inch (25.4 x 25.4 x 1.6 mm)
@@ -64,33 +72,6 @@ The three mounting holes are surrounded by capacitive touch compatible pads. The
 - Designed in the US by Evil Genius Labs
 - Some PCBs are manufactured in the US by [OSH Park](https://oshpark.com)
 - Some are assembled in the US by Evil Genius Labs
-
-### Code
-
-Open source touch demo: [https://github.com/jasoncoon/fibonacci128-touch-demo/tree/f128-one-inch](https://github.com/jasoncoon/fibonacci128-touch-demo/tree/f128-one-inch)
-
-#### PixelBlaze Map
-
-<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingOne">
-      <h4 class="panel-title">
-        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-          Pixelblaze Map (click to expand)
-        </a>
-      </h4>
-    </div>
-    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-      <div class="panel-body">
-        <pre>
-[[137,125],[181,118],[201,105],[213,89],[219,71],[221,51],[218,31],[193,20],[198,39],[199,58],[195,77],[184,96],[160,114],[164,95],[176,73],[178,52],[175,33],[167,15],[154,0],[127,4],[142,18],[152,34],[158,53],[157,75],[142,108],[140,88],[140,60],[132,40],[119,26],[103,15],[85,8],[45,28],[65,27],[84,30],[101,39],[116,53],[126,74],[121,97],[106,69],[89,56],[70,49],[51,48],[32,52],[9,89],[25,78],[43,71],[63,70],[83,74],[104,89],[118,116],[84,94],[62,90],[42,94],[25,103],[11,116],[0,133],[11,159],[19,141],[32,126],[47,115],[68,109],[96,112],[81,123],[58,132],[43,145],[33,162],[27,181],[26,200],[49,216],[47,196],[50,177],[58,159],[74,143],[105,129],[94,146],[77,166],[70,186],[69,206],[74,225],[83,242],[125,255],[110,242],[99,227],[91,209],[90,188],[96,165],[114,153],[108,183],[112,205],[121,222],[135,236],[152,246],[193,234],[174,231],[156,224],[141,212],[129,195],[123,170],[130,143],[141,180],[155,198],[172,208],[191,213],[210,213],[239,181],[221,189],[202,192],[182,189],[164,180],[145,159],[164,160],[186,169],[206,170],[225,164],[241,154],[255,140],[248,113],[237,129],[222,141],[204,149],[182,150],[151,140],[170,134],[196,131],[214,121],[227,107],[236,89],[241,70]]
-        </pre>
-      </div>
-    </div>
-  </div>
-
-</div>
 
 ### Assembly Instructions
 
@@ -146,3 +127,30 @@ You can use M2x7mm or M2x8mm screws, depending on how far out you want the ends 
 3D print files: [https://www.printables.com/model/831490-1-fibonacci128-screw-diffuser-cover](https://www.printables.com/model/831490-1-fibonacci128-screw-diffuser-cover)
 
 Use M2x4mm screws, inserted from the back, threaded through the back cover, through the LED PCB, and into the front. This option will only let you use the touch points from the back.
+
+### Code
+
+Open source touch demo: [https://github.com/jasoncoon/fibonacci128-touch-demo/tree/f128-one-inch](https://github.com/jasoncoon/fibonacci128-touch-demo/tree/f128-one-inch)
+
+#### PixelBlaze Map
+
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          Pixelblaze Map (click to expand)
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+        <pre>
+[[137,125],[181,118],[201,105],[213,89],[219,71],[221,51],[218,31],[193,20],[198,39],[199,58],[195,77],[184,96],[160,114],[164,95],[176,73],[178,52],[175,33],[167,15],[154,0],[127,4],[142,18],[152,34],[158,53],[157,75],[142,108],[140,88],[140,60],[132,40],[119,26],[103,15],[85,8],[45,28],[65,27],[84,30],[101,39],[116,53],[126,74],[121,97],[106,69],[89,56],[70,49],[51,48],[32,52],[9,89],[25,78],[43,71],[63,70],[83,74],[104,89],[118,116],[84,94],[62,90],[42,94],[25,103],[11,116],[0,133],[11,159],[19,141],[32,126],[47,115],[68,109],[96,112],[81,123],[58,132],[43,145],[33,162],[27,181],[26,200],[49,216],[47,196],[50,177],[58,159],[74,143],[105,129],[94,146],[77,166],[70,186],[69,206],[74,225],[83,242],[125,255],[110,242],[99,227],[91,209],[90,188],[96,165],[114,153],[108,183],[112,205],[121,222],[135,236],[152,246],[193,234],[174,231],[156,224],[141,212],[129,195],[123,170],[130,143],[141,180],[155,198],[172,208],[191,213],[210,213],[239,181],[221,189],[202,192],[182,189],[164,180],[145,159],[164,160],[186,169],[206,170],[225,164],[241,154],[255,140],[248,113],[237,129],[222,141],[204,149],[182,150],[151,140],[170,134],[196,131],[214,121],[227,107],[236,89],[241,70]]
+        </pre>
+      </div>
+    </div>
+  </div>
+
+</div>
