@@ -89,7 +89,12 @@ If you're new to soldering, I highly recommend reading through a good soldering 
 
 ### Case Assembly Instructions
 
-1. Peel and remove any protective plastic and/or paper film from the acrylic.
+#### 3D printed front
+
+Use M2x4mm screws, inserted from the back, threaded through the back cover, through the LED PCB, and into the front.
+
+#### Acrylic with screws in front
+
 1. Insert M2x10mm Button Head Hex Screws into the holes in the matte side of the acrylic face plate.
 1. Carefully center and place the Fibonacci PCB onto the screws, with the LED side facing the glossy side of the acrylic face plate.
 1. Center and place the back plate onto the screws. The back plate should fit flush against the back of the PCB.

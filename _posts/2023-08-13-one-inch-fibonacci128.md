@@ -95,17 +95,16 @@ If you're new to soldering, I highly recommend reading through a good soldering 
 
 ### Case Assembly Instructions
 
-#### Acrylic with screws in front
+#### 3D printed front
 
-<a href="/assets/OPSRQJg.jpg" target="_blank"><img src="/assets/RCJ5i9i.jpg" style="width:340px" /></a>
-<a href="/assets/OPSRQJg.jpg" target="_blank"><img src="/assets/QpPWrXU.jpg" style="width:340px" /></a>
+<a href="/assets/OPSRQJg.jpg" target="_blank"><img src="/assets/cH2ze97.jpg" style="width:340px" /></a>
+<a href="/assets/OPSRQJg.jpg" target="_blank"><img src="/assets/xHmJ8Nq.jpg" style="width:340px" /></a>
+<a href="/assets/OPSRQJg.jpg" target="_blank"><img src="/assets/vBDcpaL.jpg" style="width:340px" /></a>
 <a href="/assets/OPSRQJg.jpg" target="_blank"><img src="/assets/gvG7DdM.jpg" style="width:340px" /></a>
 
-1. Peel and remove any protective plastic and/or paper film from the acrylic.
-1. Insert M2x10mm Button Head Hex Screws into the holes in the matte side of the acrylic face plate.
-1. Carefully center and place the Fibonacci PCB onto the screws, with the LED side facing the glossy side of the acrylic face plate.
-1. Center and place the back plate onto the screws. The back plate should fit flush against the back of the PCB.
-1. Hand-tighten M2 Hex Nuts onto the screws.
+3D print files: [https://www.printables.com/model/831490-1-fibonacci128-screw-diffuser-cover](https://www.printables.com/model/831490-1-fibonacci128-screw-diffuser-cover)
+
+Use M2x4mm screws, inserted from the back, threaded through the back cover, through the LED PCB, and into the front. This option will only let you use the touch points from the back.
 
 #### Acrylic with screws in back
 
@@ -117,16 +116,17 @@ This option requires acrylic with smaller 2.8mm screw holes so the screws thread
 
 You can use M2x7mm or M2x8mm screws, depending on how far out you want the ends of the screws to protrude from the front. Longer screws let you activate the touch points from the front or rear. Shorter ones will only let you use the touch points from the rear.
 
-#### 3D printed front
+#### Acrylic with screws in front
 
-<a href="/assets/OPSRQJg.jpg" target="_blank"><img src="/assets/cH2ze97.jpg" style="width:340px" /></a>
-<a href="/assets/OPSRQJg.jpg" target="_blank"><img src="/assets/xHmJ8Nq.jpg" style="width:340px" /></a>
-<a href="/assets/OPSRQJg.jpg" target="_blank"><img src="/assets/vBDcpaL.jpg" style="width:340px" /></a>
+<a href="/assets/OPSRQJg.jpg" target="_blank"><img src="/assets/RCJ5i9i.jpg" style="width:340px" /></a>
+<a href="/assets/OPSRQJg.jpg" target="_blank"><img src="/assets/QpPWrXU.jpg" style="width:340px" /></a>
 <a href="/assets/OPSRQJg.jpg" target="_blank"><img src="/assets/gvG7DdM.jpg" style="width:340px" /></a>
 
-3D print files: [https://www.printables.com/model/831490-1-fibonacci128-screw-diffuser-cover](https://www.printables.com/model/831490-1-fibonacci128-screw-diffuser-cover)
-
-Use M2x4mm screws, inserted from the back, threaded through the back cover, through the LED PCB, and into the front. This option will only let you use the touch points from the back.
+1. Peel and remove any protective plastic and/or paper film from the acrylic.
+1. Insert M2x10mm Button Head Hex Screws into the holes in the matte side of the acrylic face plate.
+1. Carefully center and place the Fibonacci PCB onto the screws, with the LED side facing the glossy side of the acrylic face plate.
+1. Center and place the back plate onto the screws. The back plate should fit flush against the back of the PCB.
+1. Hand-tighten M2 Hex Nuts onto the screws.
 
 ### Code
 
