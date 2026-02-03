@@ -27,7 +27,7 @@ sortKey: Fibonacci0256expanding
 
 Fibonacci256 Expanding is a beautiful 166mm circular disc with 256 RGB LEDs surface mounted in a Fibonacci layout. Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
 
-Three different sizes of LEDs are used: 2mm, 3.5mm and 5mm. The LEDs start out small and close together in the center and gradually get larger and further apart. This gives an illusion of expansion, especially with the right animation.
+Three different sizes of WS2812 RGB LEDs are used: 2mm, 3.5mm and 5mm. The LEDs start out small and close together in the center and gradually get larger and further apart. This gives an illusion of expansion, especially with the right animation.
 
 I have created several LED art pieces in Fibonacci patterns. They are all very labor intensive to create, and so are fairly expensive and limited in quantity. I wanted to come up with a Fibonacci layout that was at least slightly easier to create, and therefore more affordable.
 
@@ -138,7 +138,7 @@ We won't go over every setting on this page, just the ones that are important fo
 
 These settings should **always** be set to the following values to match the type and quantity of LEDs in your Fibonacci256:
 
-- LED Type: APA102 / SK9822 / DotStar
+- LED Type: WS2812
 - Pixels: 256
 - Data Speed: 2 MHz
 - Color Order: GRB
