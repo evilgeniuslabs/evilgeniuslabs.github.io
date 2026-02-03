@@ -1,17 +1,17 @@
 ---
 layout: post
-title: Fibonacci256 Expanding Pixelblaze
-id: fibonacci256-expanding-pixelblaze
+title: Fibonacci256 Expanding HDR Pixelblaze
+id: fibonacci256-expanding-hdr-pixelblaze
 imgurId: 0OlTim6.mp4
-excerpt: Fibonacci256 Expanding is a beautiful 166mm circular disc with 256 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
+excerpt: Fibonacci256 Expanding HDR is a beautiful 166mm circular disc with 256 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
 categories:
   - portfolio
   - products
 published: true
 redirect_from:
-  - /f256e
-  - /f256expanding
-sortKey: Fibonacci0256expanding
+  - /f256eh
+  - /f256expandinghdr
+sortKey: Fibonacci0256expandinghdr
 ---
 
 <a href="/assets/XpEm2VJ.jpg" target="_blank"><img src="/assets/XpEm2VJ.jpg" style="width:340px" /></a><a href="/assets/8FVEf2V.jpg" target="_blank"><img src="/assets/8FVEf2V.jpg" style="width:340px" /></a><a href="/assets/tmK3E7x.jpg" target="_blank"><img src="/assets/tmK3E7x.jpg" style="width:340px" /></a><a href="/assets/1pdD2p2.jpg" target="_blank"><img src="/assets/1pdD2p2.jpg" style="width:340px" /></a><a href="/assets/v0Knj3W.jpg" target="_blank"><img src="/assets/v0Knj3W.jpg" style="width:340px" /></a><a href="/assets/p7sbXcL.jpg" target="_blank"><img src="/assets/p7sbXcL.jpg" style="width:340px" /></a>
@@ -25,9 +25,9 @@ sortKey: Fibonacci0256expanding
 
 <a href="https://lectronz.com/products/fibonacci256-expanding-166mm-disc-w-256-rgb-leds" alt="Buy it on Lectronz"><img src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
 
-Fibonacci256 Expanding is a beautiful 166mm circular disc with 256 RGB LEDs surface mounted in a Fibonacci layout. Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
+Fibonacci256 Expanding HDR is a beautiful 166mm circular disc with 256 RGB LEDs surface mounted in a Fibonacci layout. Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
 
-Three different sizes of WS2812 RGB LEDs are used: 2mm, 3.5mm and 5mm. The LEDs start out small and close together in the center and gradually get larger and further apart. This gives an illusion of expansion, especially with the right animation.
+The 256 SK9822-EC20 HDR RGB LEDs start out close together in the center and gradually get larger and further apart. This gives an illusion of expansion, especially with the right animation.
 
 I have created several LED art pieces in Fibonacci patterns. They are all very labor intensive to create, and so are fairly expensive and limited in quantity. I wanted to come up with a Fibonacci layout that was at least slightly easier to create, and therefore more affordable.
 
@@ -49,19 +49,19 @@ I have RGB LEDs in just about every form they come: strips, strings, rings, disc
 
 ### Connecting
 
-Your Fibonacci256 should automatically play a playlist of pre-selected patterns endlessly.
+Your Fibonacci should automatically play a playlist of pre-selected patterns endlessly.
 
 For more control, you can connect to it via wi-fi.
 
-##### To connect your Fibonacci256 to a wi-fi network:
+##### To connect your Fibonacci to a wi-fi network:
 
-1. If not already connected to a wi-fi network, your Fibonacci256 will create its own network named Pixelblaze_XXXXXXX,
-   where XXXXX is a code unique to your Fibonacci256. You should see it in the list of wi-fi networks available on
+1. If not already connected to a wi-fi network, your Fibonacci will create its own network named Pixelblaze_XXXXXXX,
+   where XXXXX is a code unique to your Fibonacci. You should see it in the list of wi-fi networks available on
    a computer or mobile device:
 
    <img src="/images/setup/wifi-android.png" class="img-thumbnail" style="width: 240px" />
 
-   **Note:** If you can't find the Fibonacci256's wi-fi network, it may not be in setup mode.
+   **Note:** If you can't find the Fibonacci's wi-fi network, it may not be in setup mode.
 
    To put it in to setup mode:
 
@@ -72,18 +72,18 @@ For more control, you can connect to it via wi-fi.
    1. It should now be in setup mode and its wi-fi network should now appear in the list on your computer or mobile device.
 
 1. Connect to this network from a computer or mobile device.
-1. You should see a pop-up and/or automatically get redirected to configure the Fibonacci256's wi-fi settings.
+1. You should see a pop-up and/or automatically get redirected to configure the Fibonacci's wi-fi settings.
    If not, open a browser and go to [http://192.168.4.1](http://192.168.4.1)
 
    <img src="/images/setup/wifi-settings.jpeg" class="img-thumbnail" style="width: 240px" />
 
-In WiFi Settings you an configure your Fibonacci256 to run in one of two modes:
+In WiFi Settings you an configure your Fibonacci to run in one of two modes:
 
 ---
 
 ##### Client Mode - Connect to a network
 
-In this mode your Fibonacci256 can connect to an existing wi-fi network.
+In this mode your Fibonacci can connect to an existing wi-fi network.
 Use this mode while at home or another location with an existing wi-fi network that you can connect to.
 
 1. Choose the wi-fi network to which you'd like to connect, or enter the SSID (Name) if you know it, it's hidden, etc.
@@ -99,20 +99,20 @@ Use this mode while at home or another location with an existing wi-fi network t
 
 1. Once it has connected, it will have an IP address on your wi-fi network.
 1. The computer or mobile device you're using should automatically re-connect to its previous network (your home wi-fi, mobile data, etc).
-1. If you left it enabled, use the [Pixelblaze Discovery Service](http://discover.electromage.com) to find your Fibonacci256.
-1. If you're unable to find your Fibonacci256's IP address, you can use [these instructions for finding a Raspberry Pi](https://www.raspberrypi.org/documentation/remote-access/ip-address.md).
+1. If you left it enabled, use the [Pixelblaze Discovery Service](http://discover.electromage.com) to find your Fibonacci.
+1. If you're unable to find your Fibonacci's IP address, you can use [these instructions for finding a Raspberry Pi](https://www.raspberrypi.org/documentation/remote-access/ip-address.md).
 
 ---
 
 ##### AP Mode - Create a stand-alone network
 
-In this mode your Fibonacci256 will create its own wi-fi network that you can connect to from another device.
+In this mode your Fibonacci will create its own wi-fi network that you can connect to from another device.
 Use this mode when outdoors or away from other wi-fi networks.
 
 If you've already chosen **Client Mode** and followed the instructions above, skip down to [**Next Steps**](#next-step-settingssetupsettings)
 
 1. Enter an SSID (Name).
-   This is the name of the wi-fi network that you will connect to from other devices to configure your Fibonacci256.
+   This is the name of the wi-fi network that you will connect to from other devices to configure your Fibonacci.
 1. Enter a password at least 8 characters long. Passwords with fewer than 8 characters will not work.
 1. Now you should be able to use a computer or mobile device to connect to the wi-fi network with the SSID (name)
    you entered in step one above.
@@ -120,25 +120,25 @@ If you've already chosen **Client Mode** and followed the instructions above, sk
 
 ---
 
-Congratulations! You should now be able to connect to and configure your Fibonacci256!
+Congratulations! You should now be able to connect to and configure your Fibonacci!
 
 ### Settings
 
-After you've gotten your Fibonacci256 connected to a wi-fi network,
+After you've gotten your Fibonacci connected to a wi-fi network,
 there are a few settings you should check and be aware of.
 
-Open your Fibonacci256's web app and click on the **Settings** tab.
+Open your Fibonacci's web app and click on the **Settings** tab.
 
-We won't go over every setting on this page, just the ones that are important for the use of your Fibonacci256.
+We won't go over every setting on this page, just the ones that are important for the use of your Fibonacci.
 
-- Name: you can give your Fibonacci256 a unique name to differentiate it from others. This is especially useful if you have multiple Fibonacci256s and/or Pixelblaze controllers on the same network.
+- Name: you can give your Fibonacci a unique name to differentiate it from others. This is especially useful if you have multiple Fibonaccis and/or Pixelblaze controllers on the same network.
 - LED Settings:
 - Limit Brightness: **Warning!** we recommend you keep this **at or below 50%!**
   It is possible for high brightnesses and patterns that use a lot of white or desaturated colors to draw a lot of power, potentially causing high temperatures and reducing the LED life time.
 
 These settings should **always** be set to the following values to match the type and quantity of LEDs in your Fibonacci256:
 
-- LED Type: WS2812
+- LED Type: SK9822-EC20 2mm HDR RGB
 - Pixels: 256
 - Data Speed: 2 MHz
 - Color Order: GRB
@@ -149,9 +149,9 @@ These settings should **always** be set to the following values to match the typ
 ### Mapper
 
 You shouldn't need to change anything on the **Mapper** tab.
-This page just contains the pixel map, which is the location of each of your Fibonacci256's LEDs. It's used by the Pixelblaze controller in patterns.
+This page just contains the pixel map, which is the location of each of your Fibonacci's LEDs. It's used by the Pixelblaze controller in patterns.
 
-If you ever do need to reset to the Fibonacci256's default map, use these values:
+If you ever do need to reset to the Fibonacci's default map, use these values:
 
 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 
@@ -177,7 +177,7 @@ If you ever do need to reset to the Fibonacci256's default map, use these values
 
 ### Patterns
 
-Fibonacci256 comes with a wide variety of patterns built-in.
+Fibonacci comes with a wide variety of patterns built-in.
 By default, it will automatically play a playlist of pre-selected patterns.
 
 - Color Waves <a href="/downloads/f256pb/F256 Color Waves.epe"><i class="fa fa-download" aria-hidden="true"></i></a>
