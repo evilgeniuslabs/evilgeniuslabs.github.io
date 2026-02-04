@@ -3,7 +3,7 @@ layout: post
 title: Hexadecimal NodeMCU-32S Wi-Fi and BLE LED Controller
 sortKey: Hexadecimal NodeMCU-32S Wi-Fi and BLE LED Controller
 id: hexadecimal-nodemcu-32s-shield
-imgurId: XSqtDMi.mp4
+imgurId: XSqtDMi.jpg
 videoUrl: https://www.youtube.com/embed/0jCk7uoe0Ec
 excerpt: 16 output, Wi-Fi and BLE controlled, Arduino-compatible addressable RGB LED controller based on the NodeMCU-32S, with level shifter.
 categories: retired
@@ -20,7 +20,7 @@ redirect_from:
 <h3>Table of Contents</h3>
 
 - TOC
-{:toc}
+  {:toc}
 
 ### Buy
 

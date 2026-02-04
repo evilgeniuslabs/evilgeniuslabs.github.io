@@ -3,7 +3,7 @@ layout: post
 title: FastLED Arcade for Maker Faire Kansas City 2017
 sortKey: FastLED Arcade for Maker Faire Kansas City 2017
 id: mini-wifi-led-controller
-imgurId: rp8lLwQ.mp4
+imgurId: rp8lLwQ.jpg
 videoUrl: https://www.youtube.com/embed/uOu8dWnWBQw
 excerpt: Fun and interactive project for Maker Faire Kansas City 2017 using LED arcade buttons.
 categories: retired
@@ -23,7 +23,7 @@ I plan to mount the control box to a table, and mount the LED strip a few feet a
 <h3>Table of Contents</h3>
 
 - TOC
-{:toc}
+  {:toc}
 
 ### Parts List
 

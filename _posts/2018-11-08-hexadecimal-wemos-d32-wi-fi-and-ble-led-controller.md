@@ -3,7 +3,7 @@ layout: post
 title: Hexadecimal Wemos D32 Wi-Fi and BLE LED Controller
 sortKey: Hexadecimal Wemos D32 Wi-Fi and BLE LED Controller
 id: hexadecimal-wemos-d32-shield
-imgurId: LJhiN0m.mp4
+imgurId: LJhiN0m.jpg
 videoUrl: https://www.youtube.com/embed/0jCk7uoe0Ec
 excerpt: 16 output, Wi-Fi and BLE controlled, Arduino-compatible addressable RGB LED controller based on the Wemos D32, with level shifter.
 categories: retired
@@ -22,7 +22,7 @@ redirect_from:
 <h3>Table of Contents</h3>
 
 - TOC
-{:toc}
+  {:toc}
 
 ### Buy
 
