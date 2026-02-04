@@ -4,9 +4,7 @@ title: Fibonacci256 Expanding Pixelblaze
 id: fibonacci256-expanding-pixelblaze
 imgurId: 0OlTim6.mp4
 excerpt: Fibonacci256 Expanding is a beautiful 166mm circular disc with 256 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
-categories:
-  - portfolio
-  - products
+categories: retired
 published: true
 redirect_from:
   - /f256e
@@ -19,7 +17,7 @@ sortKey: Fibonacci0256expanding
 <h3>Table of Contents</h3>
 
 - TOC
-{:toc}
+  {:toc}
 
 ### Details
 
@@ -64,7 +62,6 @@ For more control, you can connect to it via wi-fi.
    **Note:** If you can't find the Fibonacci256's wi-fi network, it may not be in setup mode.
 
    To put it in to setup mode:
-
    1. Press and hold the button for 5 seconds.
    1. If the status LED on the back flashes 3 times, it's now in setup mode.
    1. If the status LED on the back flashes once, press and hold the button for 5 more seconds.
