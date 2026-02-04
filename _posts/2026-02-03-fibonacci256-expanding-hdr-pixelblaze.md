@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fibonacci256 Expanding HDR Pixelblaze
+title: Fibonacci256 Expanding HDR
 id: fibonacci256-expanding-hdr-pixelblaze
 imgurId: 0OlTim6.mp4
 excerpt: Fibonacci256 Expanding HDR is a beautiful 166mm circular disc with 256 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
@@ -19,7 +19,7 @@ sortKey: Fibonacci0256expandinghdr
 <h3>Table of Contents</h3>
 
 - TOC
-{:toc}
+  {:toc}
 
 ### Details
 
@@ -64,7 +64,6 @@ For more control, you can connect to it via wi-fi.
    **Note:** If you can't find the Fibonacci's wi-fi network, it may not be in setup mode.
 
    To put it in to setup mode:
-
    1. Press and hold the button for 5 seconds.
    1. If the status LED on the back flashes 3 times, it's now in setup mode.
    1. If the status LED on the back flashes once, press and hold the button for 5 more seconds.
