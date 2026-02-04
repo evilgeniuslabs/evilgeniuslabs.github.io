@@ -25,7 +25,7 @@ So, I set out to design a PCB that I can assemble ahead of time, and will hopefu
 <h3>Table of Contents</h3>
 
 - TOC
-  {:toc}
+{:toc}
 
 ### Project Requirements
 

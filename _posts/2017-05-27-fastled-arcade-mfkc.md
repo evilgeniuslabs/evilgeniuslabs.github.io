@@ -23,7 +23,7 @@ I plan to mount the control box to a table, and mount the LED strip a few feet a
 <h3>Table of Contents</h3>
 
 - TOC
-  {:toc}
+{:toc}
 
 ### Parts List
 
