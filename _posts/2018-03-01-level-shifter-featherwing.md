@@ -3,7 +3,7 @@ layout: post
 title: Level Shifter FeatherWing
 sortKey: Level Shifter FeatherWing
 id: level-shifter-featherwing
-imgurId: rdqYNG6.mp4
+imgurId: rdqYNG6.jpg
 excerpt: Wi-Fi controlled, Arduino-compatible addressable RGB LED controller based on the ESP32, with level shifter.
 categories: retired
 redirect_from:
@@ -19,7 +19,7 @@ redirect_from:
 <h3>Table of Contents</h3>
 
 - TOC
-{:toc}
+  {:toc}
 
 ### Buy
 
