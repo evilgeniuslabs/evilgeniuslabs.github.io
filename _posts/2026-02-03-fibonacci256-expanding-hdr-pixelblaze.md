@@ -195,6 +195,12 @@ The sequencer can be configured via the web interface over wi-fi in the followin
 
 ---
 
+#### PixelBlaze Settings
+
+You can download this backup file <a href="/downloads/Fibonacci256 Expanding HDR.pbb">LED Cube 8x8x8.pbb</a> and restore it with the `Restore from Backup` button at the bottom of the PixelBlaze web UI's Settings tab/page.
+
+---
+
 ### Specifications
 
 - Size: 6.54 x 6.54 x .063 inch (166 x 166 x 1.6 mm)
