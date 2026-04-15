@@ -26,6 +26,8 @@ Necklace battery holder for 14500 size 4.2V lithium batteries with USB-C plug on
 
 Wear your small LED devices around your neck, on the go!
 
+**Please Note**: the USB-C connector provides the lithium battery voltage of ~3.2V to ~4.2V. This works fine for some devices like the Adafruit QT Py SAMD21 used in my 1" Fibonacci builds, but other devices will not work or could even possibly be damaged.
+
 ### Precautions
 
 - <b><u>NEVER</u> insert the battery into the holder with the wrong orientation!</b> Doing so will reverse the polarity of the circuit and is highly likely to damage the electronics inside the device. The battery holder is designed to prevent reverse polarity contact, but it is still possible.

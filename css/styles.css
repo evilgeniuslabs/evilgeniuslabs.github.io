@@ -18,3 +18,8 @@ ul {
 	padding: 1rem;
 	border-radius: 1rem;
 }
+
+th, td {
+  border: 1px solid;
+  padding: .5rem;
+}
