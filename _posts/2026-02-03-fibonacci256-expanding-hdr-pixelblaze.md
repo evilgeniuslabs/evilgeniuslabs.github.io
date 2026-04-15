@@ -203,3 +203,38 @@ The sequencer can be configured via the web interface over wi-fi in the followin
 - Black SMOBC (solder mask over bare copper)
 - HASL (Hot Air Solder Leveling)
 - Designed and assembled in the US by Evil Genius Labs
+
+### Case Kit Assembly
+
+<img src="/images/f256-eh/case-1.png" class="img-thumbnail" style="width: 320px" />
+<img src="/images/f256-eh/case-7.png" class="img-thumbnail" style="width: 320px" />
+<img src="/images/f256-eh/case-6.png" class="img-thumbnail" style="width: 320px" />
+
+Parts:
+
+- Acrylic front
+- 3D printed Voronoi grid
+- Acrylic back
+- 4 x M2x12mm Screws
+- 4 x M2x10mm Standoffs
+- 4 x M2x6mm Screws
+
+Instructions:
+
+1. Gently and carefully place the 3D printed Voronoi grid on the LED PCB with the flat part facing up, the feet nubs facing down towards the PCB.
+1. Line up the small screw holes in the grid with the holes in the PCB.
+1. Make sure the LEDs line up with the Voronoi grid. Rotate until the holes and LEDs line up.
+1. Remove any protective film or paper from the acrylic front.
+1. Place the acrylic front on top of the flat face of the grid. The matte side of the acrylic should be facing up, the smooth and shiny side should be facing down towards the grid.
+1. Line up the small screw holes in the acrylic front with those of the grid.
+1. Make sure the lines in the acrylic front match the grid. Rotate if necessary until they do. Holding them up to the light can help with this.
+1. Gently and carefully insert the longer M2x12mm screws into each of the holes in the acrylic front, making sure they extend through the acrylic, grid, and PCB.
+1. Holding the assembly together, gently insert and hand-tighten an M2x10mm standoff onto each of the M2x12mm screw threads on the back of the PCB.
+1. Remove any protective film or paper from the acrylic back.
+1. Place the acrylic back onto the standoffs with the mounting hole "key" at the top and the port access opening at the bottom, lining up the screw holes with the standoffs.
+1. Insert and gently hand-tighten the shorter M2x6mm screws into each of the holes in the acrylic back, making sure they extend through the acrylic and into the standoffs.
+
+<img src="/images/f256-eh/case-2.png" class="img-thumbnail" style="width: 320px" />
+<img src="/images/f256-eh/case-3.png" class="img-thumbnail" style="width: 320px" />
+<img src="/images/f256-eh/case-4.png" class="img-thumbnail" style="width: 320px" />
+<img src="/images/f256-eh/case-5.png" class="img-thumbnail" style="width: 320px" />
