@@ -210,37 +210,115 @@ You can download this backup file <a href="/downloads/Fibonacci256 Expanding HDR
 - HASL (Hot Air Solder Leveling)
 - Designed and assembled in the US by Evil Genius Labs
 
-### Case Kit Assembly
+### Assembly Instructions
 
 <img src="/images/f256-eh/case-1.png" class="img-thumbnail" style="width: 320px" />
 <img src="/images/f256-eh/case-7.png" class="img-thumbnail" style="width: 320px" />
 <img src="/images/f256-eh/case-6.png" class="img-thumbnail" style="width: 320px" />
 
-Parts:
+#### Pixelblaze Assembly
 
-- Acrylic front
-- 3D printed Voronoi grid
-- Acrylic back
-- 4 x M2x12mm Screws
-- 4 x M2x10mm Standoffs
-- 4 x M2x6mm Screws
+Pixelblaze output:
 
-Instructions:
+1. Place the 4 pin JST-XH connector into the holes on the left side of the Pixelblaze (GND, DAT, CLK, and 5V).
+1. Flip it over and solder all four pins.
 
-1. Gently and carefully place the 3D printed Voronoi grid on the LED PCB with the flat part facing up, the feet nubs facing down towards the PCB.
-1. Line up the small screw holes in the grid with the holes in the PCB.
-1. Make sure the LEDs line up with the Voronoi grid. Rotate until the holes and LEDs line up.
-1. Remove any protective film or paper from the acrylic front.
-1. Place the acrylic front on top of the flat face of the grid. The matte side of the acrylic should be facing up, the smooth and shiny side should be facing down towards the grid.
-1. Line up the small screw holes in the acrylic front with those of the grid.
-1. Make sure the lines in the acrylic front match the grid. Rotate if necessary until they do. Holding them up to the light can help with this.
-1. Gently and carefully insert the longer M2x12mm screws into each of the holes in the acrylic front, making sure they extend through the acrylic, grid, and PCB.
-1. Holding the assembly together, gently insert and hand-tighten an M2x10mm standoff onto each of the M2x12mm screw threads on the back of the PCB.
-1. Remove any protective film or paper from the acrylic back.
-1. Place the acrylic back onto the standoffs with the mounting hole "key" at the top and the port access opening at the bottom, lining up the screw holes with the standoffs.
-1. Insert and gently hand-tighten the shorter M2x6mm screws into each of the holes in the acrylic back, making sure they extend through the acrylic and into the standoffs.
+<img src="/images/pixelblaze/pb3.jpg" class="img-thumbnail" style="width: 320px" />
 
-<img src="/images/f256-eh/case-2.png" class="img-thumbnail" style="width: 320px" />
-<img src="/images/f256-eh/case-3.png" class="img-thumbnail" style="width: 320px" />
-<img src="/images/f256-eh/case-4.png" class="img-thumbnail" style="width: 320px" />
-<img src="/images/f256-eh/case-5.png" class="img-thumbnail" style="width: 320px" />
+Pixelblaze expansion pins:
+
+1. Place the 7 pin header that came with the Pixelblaze Sensor Expansion in the holes in the bottom right corner of the **Pixelblaze**, not the expansion board. Note that the GND, RST, 3v3, RX, TX, IO0, and IO25 should have pins, and that IO26 will not have a pin.
+1. Ensure the 7 pin header is inserted all the way down, and that there are pins in the GND, 3v3, and RX holes on the Pixelblaze.
+1. Flip the Pixelblaze over and solder at least the GND, 3v3, and RX pins.
+
+<img src="/images/pixelblaze/pb2.jpg" class="img-thumbnail" style="width: 320px" />
+
+Pixelblaze Sensor Expansion Board:
+
+<img src="/images/pixelblaze/pb1.jpg" class="img-thumbnail" style="width: 320px" />
+
+1. With the Pixelblaze right-side up, with the pins pointing upwards, flip the Sensor Expansion Board over so the audio input jack is on the bottom, pointing down.
+1. Place the sensor board onto the Pixelblaze pins.
+1. Ensure that the GND, 3v3, and RX pins on the Pixelblaze are lined up and inserted into the GND, 3v3, and TX pins on the Sensor Expansion board. Note that the TX pin on the Sensor Expansion board is connected to the RX pin on the Pixelblaze
+1. The top of the audio input jack should be flush with, and not extend beyond the bottom of the Pixelblaze PCB.
+1. Double-check the pins are aligned and match up one more time.
+1. Solder at least the GND, 3v3, and TX pins on the Sensor Expansion board.
+
+<img src="/images/pixelblaze/pb4.jpg" class="img-thumbnail" style="width: 320px" />
+
+#### Power board assembly
+
+1. Insert the three-pin JST-XH connector into the power board as shown, flip it over, and solder the pins.
+1. Insert the power connector  into the power board as shown, flip it over, and solder the pins.
+
+   <img src="/images/f256-eh/power-pcb.jpg" class="img-thumbnail" style="width: 320px" />
+
+#### LED PCB Assembly
+
+1. The plastic fins on the JST-XH connectors may extend past the edge of the LED PCB when inserted. If so, they can be trimmed with a pair of wire cutters:
+
+   <img src="/images/f256-eh/jst1.jpg" class="img-thumbnail" style="width: 320px" />
+
+1. Insert the JST-XH connectors with the white plastic on the back of the LED PCB. The metal legs should be on the front, the side with the LEDs:
+
+   <img src="/images/f256-eh/jst2.jpg" class="img-thumbnail" style="width: 320px" />
+
+1. Flip the board over and solder all of the pins on both connectors.
+
+   <img src="/images/f256-eh/jst3.jpg" class="img-thumbnail" style="width: 320px" />
+
+#### Acrylic Case Assembly
+
+1. Arrange the acrylic front, diffuser grid, and LED PCB as shown. Note the position of the Voronoi grid on the front and grid pieces, they should line up. The connectors on the LED PCB should be on the top.
+
+   <img src="/images/f256-eh/case1.jpg" class="img-thumbnail" style="width: 320px" />
+
+1. Flip the acrylic front over, then flip the Voronoi grid over and place it's flat side on the glossy side of the acrylic front. Then flip the LED PCB over and place it on the grid's feet, lining up all of the mounting holes on all three pieces.
+   
+   <img src="/images/f256-eh/case2.jpg" class="img-thumbnail" style="width: 320px" />
+
+1. Insert M2x12mm screws into each of the holes in the front of the acrylic, making sure each screw extends through the acrylic, grid, and PCB.
+
+   <img src="/images/f256-eh/case3.jpg" class="img-thumbnail" style="width: 320px" />
+
+1. Hand-tighten M2x10mm standoffs onto each of the screws.
+
+   <img src="/images/f256-eh/case4.jpg" class="img-thumbnail" style="width: 320px" />
+
+1. Insert M2x5mm screws into the four holes shown here, starting from the matte side, out of the glossy side, and hand-tighten M2x7mm standoffs onto them.
+
+   <img src="/images/f256-eh/case5.jpg" class="img-thumbnail" style="width: 320px" />
+
+1. Insert M2x10mm screws into the two holes shown here, and hand-tighten M2x10mm standoffs onto them.
+
+   <img src="/images/f256-eh/case6.jpg" class="img-thumbnail" style="width: 320px" />
+
+1. Insert M2x10mm screws into the two holes shown here, and hand-tighten M2x10mm standoffs onto them.
+
+   <img src="/images/f256-eh/case6.jpg" class="img-thumbnail" style="width: 320px" />
+
+1. Place the Pixelblaze and power board into the standoffs, insert M2x5mm screws into the holes shown here, and hand-tighten them.
+
+   <img src="/images/f256-eh/case7.jpg" class="img-thumbnail" style="width: 320px" />
+
+1. Insert the three-pin end of the power wire harness into the connector on the power board.
+1. Insert either end of the four wire harness into the connector on the Pixelblaze.
+
+   <img src="/images/f256-eh/wiring1.jpg" class="img-thumbnail" style="width: 320px" />
+
+1. Bend a loop into both wires, and cross them in the middle, as shown:
+
+   <img src="/images/f256-eh/wiring2.jpg" class="img-thumbnail" style="width: 320px" />
+
+1. Holding the wires, flip the back panel over place it over the LED PCB as shown:
+
+   <img src="/images/f256-eh/wiring3.jpg" class="img-thumbnail" style="width: 320px" />
+
+1. Insert the two-wire harness into the output connector (marked 5V, CO, DO, G) on the left side of the back of the LED PCB.
+1. Insert the four-wire harness into the input connector (marked 5V, CI, DI, G) on the right side of the back of the LED PCB.
+
+   <img src="/images/f256-eh/wiring4.jpg" class="img-thumbnail" style="width: 320px" />
+
+1. Place the back panel onto the standoffs, lining up the screw holes. Insert and hand-tighten M2x6mm screws.
+
+   <img src="/images/f256-eh/case7.jpg" class="img-thumbnail" style="width: 320px" />
