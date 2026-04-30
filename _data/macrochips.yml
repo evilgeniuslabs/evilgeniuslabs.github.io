@@ -97,7 +97,7 @@
 - name: Capcom Cx4 (SNES game math coprocessor)
   imgurId: baxYTZF
 
-- name: Creative Technology Sound Blaster VIBRA 16 CT2502
+- name: Creative Technology Sound Blaster
   imgurId: oKGcS7g
 
 - name: CSG 8500
@@ -217,7 +217,7 @@
 - name: MOS Technology 6502AD
   imgurId: 24kPD64
 
-- name: MOS Technology 6502 (4x4 square version)
+- name: MOS Technology 6502 (4x4 square)
   imgurId: gQPaCov
 
 - name: Motorola 68000 (m68k)
@@ -268,7 +268,7 @@
 - name: Nintendo DS CPU NTR
   imgurId: 7vCdbzV
 
-- name: Nintendo Gameboy Advance CPU (CPU AGB)
+- name: Nintendo Gameboy Advance CPU
   imgurId: Q9BTECm
 
 - name: Nintendo S-CPUN A (SNES video chip)
@@ -295,16 +295,19 @@
 - name: Raspberry Pi RP2350B
   imgurId: Lol0IHa
 
-- name: Raspberry Pi RP3A0 - Zero 2 W SiP (Broadcom BCM2710A1)
+- name: Raspberry Pi RP3A0 - Zero 2 W SiP
   imgurId: lxp63qH
+
+- name: Raspberry Pi RP3A0 - Bottom Pinout
+  imgurId: rp3a0-au-bottom
 
 - name: RealTek RTL2832U
   imgurId: vq4LDfS
 
-- name: Reticon SAD1024 BBD (Bucket Brigade Device) Analog Delay/Flanger
+- name: Reticon SAD1024 Bucket Brigade Dev
   imgurId: 3PLB5Ht
 
-- name: Samsung K4P4G324EB-AGC1 (Raspberry Pi RAM)
+- name: Samsung K4P4G3 (Raspberry Pi RAM)
   imgurId: daCZEQw
 
 - name: SiFive FE310-G000
@@ -373,7 +376,7 @@
 - name: STM32L062K8T6
   imgurId: m7CzZ2I
 
-- name: STMicroelectronics M48T86PC1 RTC CLK/Calendar
+- name: STMicroelectronics M48T86PC1 RTC
   imgurId: FpRkrUQ
 
 - name: Sun UltraSPARC II
@@ -382,7 +385,7 @@
 - name: Sun Ultra SPARC III
   imgurId: TBcVHKk
 
-- name: Taito Bubble Bobble Arcade ROM (A78-01)
+- name: Taito Bubble Bobble Arcade ROM
   imgurId: vp7BTSt
 
 - name: Texas Instruments CC2531 Zigbee
@@ -439,10 +442,10 @@
 - name: Xilinx Zynq - XC7Z020
   imgurId: 2e0FYM9
 
-- name: Zilog Z80
+- name: Zilog Z80 - Z84C0010FEC
   imgurId: aRXZ766
 
-- name: Zilog Z80
+- name: Zilog Z80 - Z8018233ASC
   imgurId: KV9JPvp
 
 - name: Zilog Z80A
