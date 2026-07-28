@@ -9,9 +9,35 @@
   <meta name="author" content="">
   <link rel="alternate" type="application/rss+xml" title="Evil Genius Labs" href="/feed.xml" />
 
+  {% comment %} Resolve an absolute, static preview image for link/social previews.
+     Video imgurIds (.mp4) map to a downloaded poster frame at /assets/<id>.jpg;
+     image imgurIds are used as-is; YouTube-only posts use /assets/yt-<videoId>.jpg. {% endcomment %}
+  {% assign og_image = "/images/egl-light-buib-2-white.png" %}
+  {% if page.imgurId and page.imgurId != "" %}
+    {% assign img_ext = page.imgurId | split: "." | last %}
+    {% if img_ext == "mp4" %}
+      {% assign og_base = page.imgurId | split: "." | first %}
+      {% assign og_image = "/assets/" | append: og_base | append: ".jpg" %}
+    {% else %}
+      {% assign og_image = "/assets/" | append: page.imgurId %}
+    {% endif %}
+  {% elsif page.videoUrl and page.videoUrl != "" %}
+    {% assign yt_id = page.videoUrl | split: "/embed/" | last | split: "?" | first %}
+    {% assign og_image = "/assets/yt-" | append: yt_id | append: ".jpg" %}
+  {% endif %}
+
+  <meta property="og:site_name" content="Evil Genius Labs" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
   <meta property="og:title" content="Evil Genius Labs | {{page.title}}" />
   <meta property="og:description" content="{{page.excerpt}}" />
-  <meta property="og:image" content="/assets/{{page.imgurId}}" />
+  <meta property="og:image" content="{{ site.url }}{{ og_image }}" />
+  <meta property="og:image:secure_url" content="{{ site.url }}{{ og_image }}" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Evil Genius Labs | {{page.title}}" />
+  <meta name="twitter:description" content="{{page.excerpt}}" />
+  <meta name="twitter:image" content="{{ site.url }}{{ og_image }}" />
 
   <title>Evil Genius Labs | {{page.title}}</title>
 

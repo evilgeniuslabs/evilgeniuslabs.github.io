@@ -53,7 +53,7 @@ Your Fibonacci should automatically play a playlist of pre-selected patterns end
 
 For more control, you can connect to it via wi-fi.
 
-##### To connect your Fibonacci to a wi-fi network:
+To connect your Fibonacci to a wi-fi network:
 
 1. If not already connected to a wi-fi network, your Fibonacci will create its own network named Pixelblaze_XXXXXXX,
    where XXXXX is a code unique to your Fibonacci. You should see it in the list of wi-fi networks available on
@@ -80,7 +80,7 @@ In WiFi Settings you an configure your Fibonacci to run in one of two modes:
 
 ---
 
-##### Client Mode - Connect to a network
+Client Mode - Connect to a network
 
 In this mode your Fibonacci can connect to an existing wi-fi network.
 Use this mode while at home or another location with an existing wi-fi network that you can connect to.
@@ -103,7 +103,7 @@ Use this mode while at home or another location with an existing wi-fi network t
 
 ---
 
-##### AP Mode - Create a stand-alone network
+AP Mode - Create a stand-alone network
 
 In this mode your Fibonacci will create its own wi-fi network that you can connect to from another device.
 Use this mode when outdoors or away from other wi-fi networks.
@@ -187,7 +187,7 @@ By default, it will automatically play a playlist of pre-selected patterns.
 
 The sequencer can be configured via the web interface over wi-fi in the following ways:
 
-##### Pattern sequencer options:
+Pattern sequencer options:
 
 - <b><u>Off</u></b>: Continuously play your selected favorite pattern. You can manually move to the next pattern by clicking the button on the back.
 - <b><u>Shuffle All</u></b>: randomly shuffle between all patterns after playing each one for an adjustable duration.
@@ -195,7 +195,7 @@ The sequencer can be configured via the web interface over wi-fi in the followin
 
 ---
 
-#### PixelBlaze Settings
+### PixelBlaze Settings
 
 You can download this backup file <a href="/downloads/Fibonacci256 Expanding HDR.pbb">LED Cube 8x8x8.pbb</a> and restore it with the `Restore from Backup` button at the bottom of the PixelBlaze web UI's Settings tab/page.
 

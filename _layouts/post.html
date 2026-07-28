@@ -20,8 +20,9 @@ layout: default
 {% endif %}
 
 {% if page.imgurId != null %}
+{% assign poster_base = page.imgurId | split: "." | first %}
 <div class="embed-responsive embed-responsive-16by9">
-  <video class="post lazy" data-poster="/assets/{{ page.imgurId }}" autoplay="autoplay" muted="muted" loop="loop">
+  <video class="post lazy" data-poster="/assets/{{ poster_base }}.jpg" autoplay="autoplay" muted="muted" loop="loop">
     <source data-src="/assets/{{ page.imgurId }}" type="video/mp4">
   </video>
 </div>
