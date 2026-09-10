@@ -119,7 +119,7 @@ If you've already chosen **Client Mode** and followed the instructions above, sk
 
 ---
 
-Congratulations! You should now be able to connect to and configure your Fibonacci!
+<!-- Congratulations! You should now be able to connect to and configure your Fibonacci! -->
 
 ### Settings
 
@@ -216,6 +216,16 @@ You can download this backup file <a href="/downloads/Fibonacci256 Expanding HDR
 <img src="/images/f256-eh/case-7.png" class="img-thumbnail" style="width: 320px" />
 <img src="/images/f256-eh/case-6.png" class="img-thumbnail" style="width: 320px" />
 
+#### Case Kit Parts
+
+- 1 x Acrylic front with Voronoi pattern etch
+- 1 x Voronoi grid
+- 1 x Fibonacci256 Expanding HDR LED PCB
+- 1 x Acrylic back with Pixelblaze mounting holes
+- 4 x M2x12mm screws
+- 4 x M2x10mm standoffs
+- 4 x M2x6mm screws
+
 #### Pixelblaze Assembly
 
 Pixelblaze output:
@@ -249,7 +259,7 @@ Pixelblaze Sensor Expansion Board:
 #### Power board assembly
 
 1. Insert the three-pin JST-XH connector into the power board as shown, flip it over, and solder the pins.
-1. Insert the power connector  into the power board as shown, flip it over, and solder the pins.
+1. Insert the power connector into the power board as shown, flip it over, and solder the pins.
 
    <img src="/images/f256-eh/power-pcb.jpg" class="img-thumbnail" style="width: 320px" />
 
@@ -274,7 +284,7 @@ Pixelblaze Sensor Expansion Board:
    <img src="/images/f256-eh/case1.jpg" class="img-thumbnail" style="width: 320px" />
 
 1. Flip the acrylic front over, then flip the Voronoi grid over and place it's flat side on the glossy side of the acrylic front. Then flip the LED PCB over and place it on the grid's feet, lining up all of the mounting holes on all three pieces.
-   
+
    <img src="/images/f256-eh/case2.jpg" class="img-thumbnail" style="width: 320px" />
 
 1. Insert M2x12mm screws into each of the holes in the front of the acrylic, making sure each screw extends through the acrylic, grid, and PCB.

@@ -17,14 +17,14 @@ redirect_from:
 sortKey: Fibonacci0182 Card
 ---
 
-<video class="post" poster="/assets/ErMFOKL.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop" style="width:684px">
+<!-- <video class="post" poster="/assets/ErMFOKL.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop" style="width:684px">
    <source src="/assets/ErMFOKL.mp4" type="video/mp4">
-</video>
+</video> -->
 
-<a href="/assets/RVQAho5.jpg" target="_blank"><img src="/assets/RVQAho5.jpg" style="width:340px"  /></a>
+<!-- <a href="/assets/RVQAho5.jpg" target="_blank"><img src="/assets/RVQAho5.jpg" style="width:340px"  /></a>
 <a href="/assets/CtY1Otx.jpg" target="_blank"><img src="/assets/CtY1Otx.jpg" style="width:340px"  /></a>
 <a href="/assets/56UauS6.jpg" target="_blank"><img src="/assets/56UauS6.jpg" style="width:340px"  /></a>
-<a href="/assets/rlgRwNS.jpg" target="_blank"><img src="/assets/rlgRwNS.jpg" style="width:340px"  /></a>
+<a href="/assets/rlgRwNS.jpg" target="_blank"><img src="/assets/rlgRwNS.jpg" style="width:340px"  /></a> -->
 
 <a href="https://lectronz.com/products/fibonacci182-card" alt="Buy it on Lectronz"><img src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
 

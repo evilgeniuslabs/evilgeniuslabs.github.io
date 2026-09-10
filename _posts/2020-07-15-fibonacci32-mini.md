@@ -16,7 +16,7 @@ redirect_from:
 sortKey: Fibonacci0032 Mini
 ---
 
-<a href="/assets/9wXGJhP.gif" target="_blank"><img src="/assets/9wXGJhP.gif" style="width:340px"  /></a>
+<!-- <a href="/assets/9wXGJhP.gif" target="_blank"><img src="/assets/9wXGJhP.gif" style="width:340px"  /></a> -->
 <a href="/assets/PPEmzME.jpg" target="_blank"><img src="/assets/PPEmzME.jpg" style="width:340px"  /></a>
 <a href="/assets/07Avtki.jpg" target="_blank"><img src="/assets/07Avtki.jpg" style="width:340px"  /></a>
 <a href="/assets/O4n5yro.jpg" target="_blank"><img src="/assets/O4n5yro.jpg" style="width:340px"  /></a>
