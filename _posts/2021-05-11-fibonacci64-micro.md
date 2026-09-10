@@ -16,9 +16,9 @@ redirect_from:
 sortKey: Fibonacci0064 Micro
 ---
 
-<video class="post" poster="/assets/j83kSI7.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
+<!-- <video class="post" poster="/assets/j83kSI7.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
    <source src="/assets/j83kSI7.mp4" type="video/mp4">
-</video>
+</video> -->
 
 <a href="/assets/MHJo2My.jpg" target="_blank"><img src="/assets/MHJo2My.jpg" style="width:340px"  /></a>
 <a href="/assets/zpv3plJ.jpg" target="_blank"><img src="/assets/zpv3plJ.jpg" style="width:340px"  /></a>

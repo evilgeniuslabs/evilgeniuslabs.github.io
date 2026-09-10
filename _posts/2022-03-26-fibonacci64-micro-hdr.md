@@ -16,9 +16,9 @@ redirect_from:
 sortKey: Fibonacci0064 Micro HDR
 ---
 
-<video class="post" poster="/assets/g8GJGfI.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
+<!-- <video class="post" poster="/assets/g8GJGfI.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
    <source src="/assets/g8GJGfI.mp4" type="video/mp4">
-</video>
+</video> -->
 
 <a href="/assets/K2bqxvt.jpg" target="_blank"><img src="/assets/K2bqxvt.jpg" style="width:340px"  /></a>
 <a href="/assets/BTdKtF9.jpg" target="_blank"><img src="/assets/BTdKtF9.jpg" style="width:340px"  /></a>
@@ -121,6 +121,18 @@ This map can be copied and pasted into the Pixel Mapper in the Mapper tab of you
 </div>
 
 ### Case Assembly Instructions
+
+#### Case Kit Parts
+
+- 1 x Acrylic front with Voronoi pattern etch
+- 1 x Fibonacci64 Micro HDR LED PCB
+- 1 x Acrylic back
+- 4 x M2x10mm screws
+- 4 x M2 hex metal nuts
+- 4 x M2x5mm standoffs
+- 4 x M2x6mm screws
+
+#### Pixelblaze Assembly
 
 1. Peel and remove any protective plastic and/or paper film from the acrylic.
 1. Insert M2x10mm Button Head Hex Screws into the holes in the matte side of the acrylic face plate.

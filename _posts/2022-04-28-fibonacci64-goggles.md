@@ -16,12 +16,12 @@ redirect_from:
 sortKey: Fibonacci0064 50mm Goggle Lens
 ---
 
-<video class="post" poster="/assets/U0uT02l.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop" style="width:684px">
+<!-- <video class="post" poster="/assets/U0uT02l.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop" style="width:684px">
    <source src="/assets/U0uT02l.mp4" type="video/mp4">
-</video>
+</video> -->
 
-<a href="/assets/6NER01l.jpg" target="_blank"><img src="/assets/6NER01l.jpg" style="width:340px"  /></a>
-<a href="/assets/EZLpJtT.jpg" target="_blank"><img src="/assets/EZLpJtT.jpg" style="width:340px"  /></a>
+<!-- <a href="/assets/6NER01l.jpg" target="_blank"><img src="/assets/6NER01l.jpg" style="width:340px"  /></a>
+<a href="/assets/EZLpJtT.jpg" target="_blank"><img src="/assets/EZLpJtT.jpg" style="width:340px"  /></a> -->
 
 <a href="https://lectronz.com/products/fibonacci64-goggle-lens-50mm" alt="Buy it on Lectronz"><img src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
 
