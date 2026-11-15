@@ -33,9 +33,7 @@ Any time you see a `render2D` function, just rename it to `render3D` instead, or
       <div class="embed-responsive embed-responsive-4by3">
         <a href="https://luxlavalier.com/code">
           <video class="post lazy" data-poster="https://luxlavalier.com/assets/img/code/radius-center-full.jpg"
-            autoplay="autoplay" muted="muted" loop="loop" playsinline>
-            <source data-src="https://luxlavalier.com/assets/img/code/radius-out.mp4" type="video/mp4">
-          </video>
+            autoplay="autoplay" muted="muted" loop="loop" playsinline data-src="https://luxlavalier.com/assets/img/code/radius-out.mp4"></video>
         </a>
       </div>
       <div class="caption">
