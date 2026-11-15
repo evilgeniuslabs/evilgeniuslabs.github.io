@@ -24,39 +24,39 @@ title: Contact Us
 
 <h2 class="h3">Send a message</h2>
 
-<form action="https://formspree.io/f/mnqovovq" method="POST" class="form-horizontal">
-  <div class="form-group">
-    <label for="inputName" class="col-sm-2 control-label">Name <span aria-hidden="true">*</span></label>
+<form action="https://formspree.io/f/mnqovovq" method="POST">
+  <div class="row mb-3">
+    <label for="inputName" class="col-sm-2 col-form-label">Name <span aria-hidden="true">*</span></label>
     <div class="col-sm-6">
       <input type="text" class="form-control" name="name" id="inputName" autocomplete="name" required>
     </div>
   </div>
-  <div class="form-group">
-    <label for="inputEmail" class="col-sm-2 control-label">Email address <span aria-hidden="true">*</span></label>
+  <div class="row mb-3">
+    <label for="inputEmail" class="col-sm-2 col-form-label">Email address <span aria-hidden="true">*</span></label>
     <div class="col-sm-6">
       <input type="email" class="form-control" name="_replyto" id="inputEmail" autocomplete="email" required>
     </div>
   </div>
-  <div class="form-group">
-    <label for="inputSubject" class="col-sm-2 control-label">Subject <span aria-hidden="true">*</span></label>
+  <div class="row mb-3">
+    <label for="inputSubject" class="col-sm-2 col-form-label">Subject <span aria-hidden="true">*</span></label>
     <div class="col-sm-6">
       <input type="text" class="form-control" name="subject" id="inputSubject" required>
     </div>
   </div>
-  <div class="form-group">
-    <label for="inputMessage" class="col-sm-2 control-label">Message <span aria-hidden="true">*</span></label>
+  <div class="row mb-3">
+    <label for="inputMessage" class="col-sm-2 col-form-label">Message <span aria-hidden="true">*</span></label>
     <div class="col-sm-6">
       <textarea class="form-control" name="message" rows="5" id="inputMessage" required
         placeholder="What can we help with? For out-of-stock items, include the product name."></textarea>
     </div>
   </div>
   <!-- Spam honeypot: hidden from people and assistive tech; bots that fill it in are rejected by Formspree. -->
-  <input type="text" name="_gotcha" class="hidden" tabindex="-1" autocomplete="off" aria-hidden="true">
+  <input type="text" name="_gotcha" class="d-none" tabindex="-1" autocomplete="off" aria-hidden="true">
   <input type="hidden" name="_next" value="https://www.evilgeniuslabs.org/contact/thanks/">
-  <div class="form-group">
-    <div class="col-sm-offset-2 col-sm-10">
+  <div class="row mb-3">
+    <div class="offset-sm-2 col-sm-10">
       <button type="submit" class="btn btn-primary">Send</button>
-      <p class="help-block">All fields are required.</p>
+      <p class="form-text">All fields are required.</p>
     </div>
   </div>
 </form>

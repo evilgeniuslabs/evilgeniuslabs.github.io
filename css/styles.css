@@ -1,71 +1,110 @@
-.bs-docs-header > .container > img {
+/*
+ * Site styles on top of Bootstrap 5.3 (Bootswatch "Slate", css/bootstrap-5.3.8-slate.min.css).
+ * Classes here are the site's own; Bootstrap 3 names that had no Bootstrap 5 equivalent were mapped to these.
+ */
+
+/* ---------- layout ---------- */
+
+/* Home-page banner (light bulb + name + tagline) */
+.site-banner {
+	padding: 1.5rem 0 0.5rem;
+}
+
+.site-banner .container > img {
 	width: 100px;
 	height: 100px;
 	float: left;
 	margin-right: 10px;
 }
 
-/* Still-image thumbnails/heroes inside 16:9 boxes: letterbox like the videos do */
-.embed-responsive img.embed-responsive-item {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	object-fit: contain;
+.site-banner h1 {
+	margin-top: 0.75rem;
 }
 
-.img-responsive {
-	width: 600px;
-}
-
-ul {
-	padding-inline-start: 2rem;
-}
-
-.mwe-math-fallback-image-inline {
-	background-color: #c3c3c3;
-	padding: 1rem;
-	border-radius: 1rem;
-}
-
-th, td {
-  border: 1px solid;
-  padding: .5rem;
-}
-
-/* Listing grids: flex rows so cards with taller captions can't snag the float layout */
-.card-grid {
-	display: flex;
-	flex-wrap: wrap;
-}
-
-.card-grid::before,
-.card-grid::after {
-	display: none; /* Bootstrap's clearfix pseudo-elements would become flex items */
-}
-
-.card-grid > [class*="col-"] {
-	float: none;
-	display: flex;
-	min-width: 0; /* flex items default to min-width:auto; never let a wide video force a card past the screen */
-}
-
-.card-grid .thumbnail {
-	flex: 1 1 auto;
-	width: 100%;
-	min-width: 0;
-}
-
-/* Contact page social links: natural width instead of a fixed 320px box */
-.contact-links {
-	max-width: 20rem;
+/* Page titles (Bootstrap 3's .page-header, which Bootstrap 5 dropped) */
+.page-header {
+	padding-bottom: 0.5rem;
+	margin: 2.5rem 0 1.25rem;
+	border-bottom: 1px solid var(--bs-border-color);
 }
 
 /* Skip-link target: focus moves here without drawing a box around the whole page */
 #main:focus {
 	outline: none;
 }
+
+footer {
+	padding: 1rem 0 2rem;
+}
+
+/* ---------- navbar ---------- */
+
+/* Portfolio / Products dropdowns are long (~56 / ~25 entries): scroll inside the menu instead of off the page */
+.navbar .dropdown-menu.nav-scroll {
+	max-height: calc(100vh - 70px);
+	overflow-y: auto;
+	overscroll-behavior: contain;
+}
+
+@media (max-width: 767.98px) {
+	/* In the phone menu the dropdown opens inline; keep it to part of the screen so the rest of the nav stays reachable */
+	.navbar .dropdown-menu.nav-scroll {
+		max-height: 50vh;
+	}
+
+	/* Social icons on one row in the phone menu instead of one per line */
+	.navbar .nav-social {
+		flex-direction: row;
+	}
+}
+
+/* ---------- media ---------- */
+
+/* Post images (was Bootstrap 3's .img-responsive: block-level, 600px unless the post sets a width) */
+.post-img {
+	display: block;
+	width: 600px;
+}
+
+/* Anything inside a .ratio box fills it and letterboxes like the videos do. Bootstrap 5 positions only the
+   direct child, so links wrapping a video/image need their content stretched too. */
+.ratio > img,
+.ratio > a > img,
+.ratio > a > video {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.ratio > a {
+	display: block;
+}
+
+/* Wikipedia formula images */
+.mwe-math-fallback-image-inline {
+	background-color: #c3c3c3;
+	padding: 1rem;
+	border-radius: 1rem;
+}
+
+/* ---------- content ---------- */
+
+ul {
+	padding-inline-start: 2rem;
+}
+
+th,
+td {
+	border: 1px solid;
+	padding: 0.5rem;
+}
+
+/* Contact page social links: natural width */
+.contact-links {
+	max-width: 20rem;
+}
+
+/* ---------- icons ---------- */
 
 /* Inline SVG icons (_includes/icon.html): sized and coloured like the text around them */
 .icon {
@@ -81,26 +120,15 @@ th, td {
 	height: 1.15em;
 }
 
-/* Current section in the top nav (the navbar has no navbar-default/inverse class, so Bootstrap's own
-   active styles never applied) */
-.navbar-nav > .active > a,
-.navbar-nav > .active > a:hover,
-.navbar-nav > .active > a:focus {
-	color: #fff;
-	background-color: rgba(255, 255, 255, 0.08);
-	box-shadow: inset 0 -3px 0 #7a8288;
+/* ---------- cards ---------- */
+
+/* Card titles look like Bootstrap 3's (no underline; the whole card reads as a link). Body-text links keep
+   Bootstrap 5's underline, so they're distinguishable without relying on colour alone. */
+.card-title a {
+	text-decoration: none;
 }
 
-/* Portfolio / Products dropdowns are long (~80 / ~25 entries): scroll inside the menu instead of off the page */
-.navbar .dropdown-menu.nav-scroll {
-	max-height: calc(100vh - 70px);
-	overflow-y: auto;
-	overscroll-behavior: contain;
-}
-
-@media (max-width: 767px) {
-	/* In the phone menu the dropdown opens inline; keep it to part of the screen so the rest of the nav stays reachable */
-	.navbar .dropdown-menu.nav-scroll {
-		max-height: 50vh;
-	}
+.card-title a:hover,
+.card-title a:focus-visible {
+	text-decoration: underline;
 }

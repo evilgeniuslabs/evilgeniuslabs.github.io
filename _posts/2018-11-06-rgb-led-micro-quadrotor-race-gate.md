@@ -11,22 +11,22 @@ redirect_from:
   - /27
 ---
 
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe title="RGB LED Micro Drone Race Gate video" class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/BnhkVe6w-w4" frameborder="0" allowfullscreen></iframe>
+<div class="ratio ratio-16x9">
+  <iframe title="RGB LED Micro Drone Race Gate video" width="560" height="315" src="https://www.youtube.com/embed/BnhkVe6w-w4" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <br />
 
-<div class="row">
-  <video playsinline class="post col-sm-4 col-xs-12 lazy" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/KDue2cs.mp4"></video>
+<div class="row g-2">
+  <video playsinline class="post col-sm-4 col-12 lazy" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/KDue2cs.mp4"></video>
 
-  <video playsinline class="post col-sm-4 col-xs-12 lazy" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/VLQ5fCV.mp4"></video>
+  <video playsinline class="post col-sm-4 col-12 lazy" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/VLQ5fCV.mp4"></video>
 
-  <video playsinline class="post col-sm-4 col-xs-12 lazy" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/V9kHfCS.mp4"></video>
+  <video playsinline class="post col-sm-4 col-12 lazy" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/V9kHfCS.mp4"></video>
 
-  <a href="/assets/LP60W0A.jpg" target="_blank"><img src="/assets/LP60W0A.jpg" class="col-sm-4 col-xs-12" /></a>
-  <a href="/assets/M060Hxu.jpg" target="_blank"><img src="/assets/M060Hxu.jpg" class="col-sm-4 col-xs-12" /></a>
-  <a href="/assets/HSkjbnz.jpg" target="_blank"><img src="/assets/HSkjbnz.jpg" class="col-sm-4 col-xs-12" /></a>
+  <a class="col-12 col-sm-4" href="/assets/LP60W0A.jpg" target="_blank"><img src="/assets/LP60W0A.jpg" class="w-100 d-block" /></a>
+  <a class="col-12 col-sm-4" href="/assets/M060Hxu.jpg" target="_blank"><img src="/assets/M060Hxu.jpg" class="w-100 d-block" /></a>
+  <a class="col-12 col-sm-4" href="/assets/HSkjbnz.jpg" target="_blank"><img src="/assets/HSkjbnz.jpg" class="w-100 d-block" /></a>
 
 </div>
 
@@ -64,13 +64,13 @@ I built one gate with 3/4" PEX [elbows](https://www.homedepot.com/p/Apollo-3-4-i
 
 The white PEX pipe is great at diffusing the light from the LEDs, but I realized it was still very irregular and the strip could move around inside the pipe.
 
-<img src="/assets/TK1Mo66.jpg" class="img-responsive" />
+<img src="/assets/TK1Mo66.jpg" class="img-fluid post-img" />
 
 So I cut thin strips of white floral craft styrofoam, one on the front and one on the back of each LED strip. Then I slid the LEDs into the pipes. They no longer moved, and they were much better centered inside the pipe. The light was much more regular.
 
-<img src="/assets/YtBD7k4.jpg" class="img-responsive" />
+<img src="/assets/YtBD7k4.jpg" class="img-fluid post-img" />
 
-<img src="/assets/ojRlkRk.jpg" class="img-responsive" />
+<img src="/assets/ojRlkRk.jpg" class="img-fluid post-img" />
 
 You might try using one thicker strip of foam on the front of the LEDs for even better diffusion, but then I don't think as much light would bounce around to the back. I chose to point the LEDs towards the inside of the gate.
 

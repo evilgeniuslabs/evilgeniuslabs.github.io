@@ -8,7 +8,7 @@ sitemap: false
   <h1>Blog Posts</h1>
 </div>
 
-<div class="row card-grid">
+<div class="row g-3 card-grid">
 {% for post in site.posts %}
 {% if post.categories contains "blog" %}
 {% include post-card.html post=post %}

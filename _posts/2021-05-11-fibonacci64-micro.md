@@ -120,18 +120,12 @@ To treat the board as a matrix, you can use a pixel map. A 2D XY map can allow y
 
 This map can be copied and pasted into the Pixel Mapper in the Mapper tab of your Pixelblaze web interface.
 
-<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+<div class="accordion" id="accordion">
 
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingOne">
-      <h4 class="panel-title">
-        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-          Pixelblaze XY Map (click to expand)
-        </a>
-      </h4>
-    </div>
-    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-      <div class="panel-body">
+  <div class="accordion-item">
+    <h4 class="accordion-header" id="headingOne"><button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Pixelblaze XY Map (click to expand)</button></h4>
+    <div id="collapseOne" class="accordion-collapse collapse" data-parent="#accordion" aria-labelledby="headingOne">
+      <div class="accordion-body">
         <pre>
 [[140,128],[189,114],[208,91],[214,63],[208,34],[146,0],[168,21],[180,48],[180,76],[162,106],[152,78],[146,47],[129,25],[103,11],[72,5],[40,38],[70,35],[97,42],[120,61],[131,101],[107,87],[79,69],[50,68],[23,78],[0,98],[7,143],[23,118],[46,102],[76,98],[93,122],[57,131],[37,152],[28,179],[29,209],[87,255],[68,230],[59,202],[62,174],[80,148],[113,142],[91,181],[94,210],[109,235],[133,252],[202,235],[172,234],[145,224],[125,203],[117,170],[145,183],[170,201],[198,205],[227,198],[253,181],[255,134],[235,157],[210,171],[181,173],[148,153],[175,145],[207,138],[228,120],[240,93],[244,63]]
         </pre>
@@ -149,7 +143,7 @@ If you're new to soldering, I highly recommend reading through a good soldering 
 
 **Note**: Earlier versions of the PCB had header pin holes for 5V, GND, and Data In. Newer versions have pads, not holes. The pads allow you to either solder wires on, or solder a QT Py directly to the PCB.
 
-<img src="/assets/MlFHURn.jpg" class="img-responsive" />
+<img src="/assets/MlFHURn.jpg" class="img-fluid post-img" />
 
 1. Find a clean spot on your soldering workspace. I used a piece of heavy card stock. Carefully place the board with the LEDs facing down and the bottom of the board facing up.
 1. **VERY** carefully check polarity before connecting 5V and GND.
@@ -173,10 +167,10 @@ If you're new to soldering, I highly recommend reading through a good soldering 
 1. Hand-tighten M2 Hex Nuts onto the standoffs.
 1. Use flush cutters to trim off any excess nylon thread from the standoffs that is extending past the nuts on the back of the enclosure.
 
-<img src="/assets/avCAoAR.jpg" class="img-responsive" />
+<img src="/assets/avCAoAR.jpg" class="img-fluid post-img" />
 
-<img src="/assets/TIWcG3f.jpg" class="img-responsive" />
+<img src="/assets/TIWcG3f.jpg" class="img-fluid post-img" />
 
-<img src="/assets/1LA2cxt.jpg" class="img-responsive" />
+<img src="/assets/1LA2cxt.jpg" class="img-fluid post-img" />
 
-<img src="/assets/wqxP9ZI.jpg" class="img-responsive" />
+<img src="/assets/wqxP9ZI.jpg" class="img-fluid post-img" />

@@ -29,9 +29,9 @@ It consists of 100 RGB LEDs, arranged into a <a href="https://en.wikipedia.org/w
 
 <div class="row">
   <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
+    <div class="card">
       <img src="/images/Fibonacci-V2.jpg" alt="Fibonacci v2" />
-      <div class="caption">
+      <div class="card-body">
         <a href="https://goo.gl/photos/TA2RXFS82G9uapnJA">More pictures and details</a>
       </div>
     </div>

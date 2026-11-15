@@ -17,7 +17,7 @@ sitemap: false
   <title>Evil Genius Labs | {{ page.title }}</title>
 
   <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="/css/slate.bootstrap.min.css" />
+  <link rel="stylesheet" href="/css/bootstrap-5.3.8-slate.min.css">
 
   <!-- Custom styles -->
   <link rel="stylesheet" href="/css/styles.css">
@@ -37,10 +37,10 @@ sitemap: false
 
   <div class="container-fluid">
 
-    <div class="row row-no-gutters">
+    <div class="row g-0">
       {% for post in site.data.grid %}
-      <div class="col-xs-4">
-        <div class="embed-responsive embed-responsive-16by9">
+      <div class="col-4">
+        <div class="ratio ratio-16x9">
           <a href="{{ post.url }}">
             <video class="post" data-poster="/assets/{{ post.imgurId }}.jpg" autoplay muted loop playsinline
               data-src="/assets/{{ post.imgurId }}.mp4"></video>

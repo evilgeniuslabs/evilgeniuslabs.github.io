@@ -10,13 +10,13 @@ redirect_from:
   - /29
 ---
 
-<img src="/assets/fz2cuqp.jpg" style="width:400px" class="img-responsive" />
+<img src="/assets/fz2cuqp.jpg" style="width:400px" class="img-fluid post-img" />
 
-<img src="/assets/i22hSwj.jpg" style="width:400px" class="img-responsive" />
+<img src="/assets/i22hSwj.jpg" style="width:400px" class="img-fluid post-img" />
 
-<img src="/assets/e1CwOfg.jpg" style="width:400px" class="img-responsive" />
+<img src="/assets/e1CwOfg.jpg" style="width:400px" class="img-fluid post-img" />
 
-<img src="/assets/TnjrrRD.jpg" style="width:400px" class="img-responsive" />
+<img src="/assets/TnjrrRD.jpg" style="width:400px" class="img-fluid post-img" />
 
 <h3>Table of Contents</h3>
 
@@ -77,7 +77,7 @@ All of my projects lately have been driven by ESP8266 microcontrollers with Wi-F
 
 It's much smaller and easier to assemble, compared to the perma-proto boards I was building:
 
-<img src="/images/tree-v2-board.jpg" style="width:400px" class="img-responsive" />
+<img src="/images/tree-v2-board.jpg" style="width:400px" class="img-fluid post-img" />
 
 After trying a lot of different ESP8266 boards, I've found the [Wemos D1 Mini](https://www.wemos.cc/product/d1-mini-pro.html) to be great for the price. It includes an improved CP2104 USB-TO-UART adapter for more reliable, high-speed firmware and SPIFFs updates, larger (16MB) flash storage, etc.
 
@@ -85,7 +85,7 @@ After trying a lot of different ESP8266 boards, I've found the [Wemos D1 Mini](h
 
 Open source example firmware and web application: [https://github.com/jasoncoon/esp8266-fastled-webserver/tree/parallel](https://github.com/jasoncoon/esp8266-fastled-webserver/tree/parallel)
 
-<img src="/assets/esp8266-fastled-webserver-webapp.png" style="width:300px" class="img-responsive" />
+<img src="/assets/esp8266-fastled-webserver-webapp.png" style="width:300px" class="img-fluid post-img" />
 
 Features:
 
@@ -103,21 +103,21 @@ Features:
 
 If you're new to soldering, I highly recommend reading through a good soldering tutorial, such as the ones by [Adafruit](https://learn.adafruit.com/adafruit-guide-excellent-soldering) and [SparkFun](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering).
 
-1. Insert the SN74HCT245N Level Shifter chip into the holes in the top side of the board, where indicated, with the indentation towards the bottom edge of the board. <img src="/assets/GWo61Xp.jpg" class="img-responsive" />
+1. Insert the SN74HCT245N Level Shifter chip into the holes in the top side of the board, where indicated, with the indentation towards the bottom edge of the board. <img src="/assets/GWo61Xp.jpg" class="img-fluid post-img" />
 
 2. Flip the board over and solder one pin on the chip, pressing down on the PCB to ensure the chip is seated firmly.
 
 3. Make sure the chip is still seated properly before proceeding to solder the rest of the pins.
 
-4. Insert the 0.1uF capacitor, flip over and solder. <img src="/assets/DOSd90N.jpg" class="img-responsive" />
+4. Insert the 0.1uF capacitor, flip over and solder. <img src="/assets/DOSd90N.jpg" class="img-fluid post-img" />
 
-5. Insert a 300 Ohm to 500 Ohm resistor in each set of holes for each output you plan to use. Bend one leg 180 degrees around, flat against the resistor body, and insert it vertically.<img src="/assets/vIn4uU6.jpg" class="img-responsive" />
+5. Insert a 300 Ohm to 500 Ohm resistor in each set of holes for each output you plan to use. Bend one leg 180 degrees around, flat against the resistor body, and insert it vertically.<img src="/assets/vIn4uU6.jpg" class="img-fluid post-img" />
 
-6. Flip the board over and solder each leg of each resistor.<img src="/assets/hZYCPz1.jpg" class="img-responsive" />
+6. Flip the board over and solder each leg of each resistor.<img src="/assets/hZYCPz1.jpg" class="img-fluid post-img" />
 
-7. Decide whether you're going to use female headers, stacking female headers, or if you're going to solder the Wemos directly to the level shifter shield PCB. I used single female headers so the Wemos would be removable, but still fairly low profile.<img src="/assets/6JNdDAL.jpg" class="img-responsive" />
+7. Decide whether you're going to use female headers, stacking female headers, or if you're going to solder the Wemos directly to the level shifter shield PCB. I used single female headers so the Wemos would be removable, but still fairly low profile.<img src="/assets/6JNdDAL.jpg" class="img-fluid post-img" />
 
-8. I used double-sided male headers in a small breadboard to hold the female headers correctly aligned while I soldered.<img src="/assets/U1zIbwT.jpg" class="img-responsive" /><img src="/assets/uzUaqaK.jpg" class="img-responsive" /><img src="/assets/hjQToRx.jpg" class="img-responsive" />
+8. I used double-sided male headers in a small breadboard to hold the female headers correctly aligned while I soldered.<img src="/assets/U1zIbwT.jpg" class="img-fluid post-img" /><img src="/assets/uzUaqaK.jpg" class="img-fluid post-img" /><img src="/assets/hjQToRx.jpg" class="img-fluid post-img" />
 
 9. Insert the power barrel jack.
 
@@ -140,4 +140,4 @@ If you're new to soldering, I highly recommend reading through a good soldering 
 18. Melt a fair amount of solder on the wire and pad. The insulation on the wire may start to melt as the wire heats up. If so, push the wire through the hole, from the top towards the bottom, to ensure no wire is left exposed on top.
 
 19. Repeat this process for the other wires.
-    <img src="/assets/gOWXNq4.jpg" class="img-responsive" />
+    <img src="/assets/gOWXNq4.jpg" class="img-fluid post-img" />

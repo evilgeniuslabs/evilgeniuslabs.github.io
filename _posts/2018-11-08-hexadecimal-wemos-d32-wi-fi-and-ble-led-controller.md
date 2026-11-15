@@ -11,13 +11,13 @@ redirect_from:
   - /28
 ---
 
-<img src="/assets/LJhiN0m.jpg" style="width:400px" class="img-responsive" />
+<img src="/assets/LJhiN0m.jpg" style="width:400px" class="img-fluid post-img" />
 
-<img src="/assets/KOr08u6.jpg" style="width:400px" class="img-responsive" />
+<img src="/assets/KOr08u6.jpg" style="width:400px" class="img-fluid post-img" />
 
-<img src="/assets/gQ5IrM1.jpg" style="width:400px" class="img-responsive" />
+<img src="/assets/gQ5IrM1.jpg" style="width:400px" class="img-fluid post-img" />
 
-<img src="/assets/Ao6E8rK.jpg" style="width:400px" class="img-responsive" />
+<img src="/assets/Ao6E8rK.jpg" style="width:400px" class="img-fluid post-img" />
 
 <h3>Table of Contents</h3>
 
@@ -74,7 +74,7 @@ OR
 
 Open source example firmware and web application: [https://github.com/jasoncoon/esp32-fastled-webserver](https://github.com/jasoncoon/esp32-fastled-webserver)
 
-<img src="/assets/ks1Zyfa.jpg" style="width:600px" class="img-responsive" />
+<img src="/assets/ks1Zyfa.jpg" style="width:600px" class="img-fluid post-img" />
 
 Features:
 
@@ -96,7 +96,7 @@ I used this [3D printed vise](https://www.thingiverse.com/thing:2801942) to hold
 
 I also built one of these [DIY flexible soldering helping hands](http://www.instructables.com/id/DIY-Flexible-Soldering-Helping-Hand/).
 
-<img src="/assets/EAo8PLs.jpg" class="img-responsive" />
+<img src="/assets/EAo8PLs.jpg" class="img-fluid post-img" />
 
 1. Insert the SN74HCT245N Level Shifter chip into the holes in the top side of the board, where indicated. Be sure the notch is correctly aligned toward the 0.1uF capacitor, as indicated with the markings on the PCB.
 
@@ -107,7 +107,7 @@ I also built one of these [DIY flexible soldering helping hands](http://www.inst
 4. Insert the 0.1uF capacitor, flip over and solder.
 
 5. Insert 300 Ohm to 500 Ohm resistors in each set of holes for each output you plan to use. Bend one leg 180 degrees around, flat against the resistor body, and insert it vertically.
-   <img src="/assets/LXLxwnq.jpg" class="img-responsive" />
+   <img src="/assets/LXLxwnq.jpg" class="img-fluid post-img" />
 
 6. Flip the board over and solder each leg of each resistor.
 
@@ -122,13 +122,13 @@ I also built one of these [DIY flexible soldering helping hands](http://www.inst
 11. I use pre-assembled [3 pin JST-SM connectors](https://amzn.to/2CWBL1G) to connect the LEDs.
 
 12. If possible, use a vise to hold the PCB vertically, and a helping hands tool to hold the wires as they're soldered.
-    <img src="/assets/eAmTsiZ.jpg" class="img-responsive" />
+    <img src="/assets/eAmTsiZ.jpg" class="img-fluid post-img" />
 
 13. With a small amount of solder on the tip of the iron, heat the wire right on the bottom of the pad.
 
 14. Melt a fair amount of solder on the wire and pad. The insulation on the wire may start to melt as the wire heats up. If so, push the wire through the hole, from the top towards the bottom, to ensure no wire is left exposed on top.
 
 15. Repeat this process for the other wires.
-    <img src="/assets/fWqsV49.jpg" class="img-responsive" />
+    <img src="/assets/fWqsV49.jpg" class="img-fluid post-img" />
 
 16. I used the Wemos D32 to hold the female headers correctly aligned while I soldered.

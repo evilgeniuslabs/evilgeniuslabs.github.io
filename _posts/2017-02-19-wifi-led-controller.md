@@ -10,7 +10,7 @@ redirect_from:
   - /15
 ---
 
-<img src="/images/wifi-led-controller/pcb-render-top.png" style="width:400px" class="img-responsive" />
+<img src="/images/wifi-led-controller/pcb-render-top.png" style="width:400px" class="img-fluid post-img" />
 
 <h3>Table of Contents</h3>
 
@@ -35,17 +35,17 @@ Four digital output pins (D5 - D8) are run through the level shifter. These pins
 
 The board can be assembled in a very low profile configuration (about 10mm thick) by soldering the Wemos directly to the PCB with only male headers, and by mounting the large capacitor to the side:
 
-<img src="/assets/7h14bR3.jpg" style="width:400px" class="img-responsive" />
+<img src="/assets/7h14bR3.jpg" style="width:400px" class="img-fluid post-img" />
 
 Alternatively, female headers can be used to allow easy removal of the Wemos microcontroller. This results in about 18mm of thickness.
 
 Stacking female headers can be used, which allows plugging other Wemos shields directly on top and/or bottom. This adds another 8mm to 16mm of thickness.
 
-<img src="/assets/x41cioC.jpg" style="width:400px" class="img-responsive" />
+<img src="/assets/x41cioC.jpg" style="width:400px" class="img-fluid post-img" />
 
 I also designed a 3D printed enclosure for it. It provides access to the wiring for the LEDs, IR receiver, reset button, and Micro USB connector.
 
-<img src="/assets/KxmFRfz.jpg" style="width:400px" class="img-responsive" />
+<img src="/assets/KxmFRfz.jpg" style="width:400px" class="img-fluid post-img" />
 
 The enclosure STL files are also available for 3D printing on [Thingiverse](https://www.thingiverse.com/thing:2502212).
 
@@ -83,7 +83,7 @@ All of my projects lately have been driven by ESP8266 microcontrollers with Wi-F
 
 It's much smaller and easier to assemble, compared to the perma-proto boards I was building:
 
-<img src="/images/tree-v2-board.jpg" style="width:400px" class="img-responsive" />
+<img src="/images/tree-v2-board.jpg" style="width:400px" class="img-fluid post-img" />
 
 After trying a lot of different ESP8266 boards, I've found the [Wemos D1 Mini](https://www.wemos.cc/product/d1-mini-pro.html) to be great for the price. It includes an improved CP2104 USB-TO-UART adapter for more reliable, high-speed firmware and SPIFFs updates, larger (16MB) flash storage, etc.
 
@@ -91,7 +91,7 @@ After trying a lot of different ESP8266 boards, I've found the [Wemos D1 Mini](h
 
 Open source example firmware and web application: [https://github.com/jasoncoon/esp8266-fastled-webserver](https://github.com/jasoncoon/esp8266-fastled-webserver)
 
-<img src="/assets/esp8266-fastled-webserver-webapp.png" style="width:300px" class="img-responsive" />
+<img src="/assets/esp8266-fastled-webserver-webapp.png" style="width:300px" class="img-fluid post-img" />
 
 Features:
 
@@ -110,24 +110,24 @@ Features:
 
 If you're new to soldering, I highly recommend reading through a good soldering tutorial, such as the ones by [Adafruit](https://learn.adafruit.com/adafruit-guide-excellent-soldering) and [SparkFun](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering).
 
-1. Insert the SN74HCT245N Level Shifter chip into the holes in the top side of the board, where indicated, with the indentation towards the bottom edge of the board. <img src="/assets/4NfZJu8.jpg" class="img-responsive" />
-2. Flip the board over and solder one pin on the chip, pressing down on the PCB to ensure the chip is seated firmly. <img src="/assets/RKSk0Ww.jpg" class="img-responsive" />
-3. Make sure the chip is still seated properly before proceeding to solder the rest of the pins. <img src="/assets/xiaarAj.jpg" class="img-responsive" />
+1. Insert the SN74HCT245N Level Shifter chip into the holes in the top side of the board, where indicated, with the indentation towards the bottom edge of the board. <img src="/assets/4NfZJu8.jpg" class="img-fluid post-img" />
+2. Flip the board over and solder one pin on the chip, pressing down on the PCB to ensure the chip is seated firmly. <img src="/assets/RKSk0Ww.jpg" class="img-fluid post-img" />
+3. Make sure the chip is still seated properly before proceeding to solder the rest of the pins. <img src="/assets/xiaarAj.jpg" class="img-fluid post-img" />
 4. If you have a v1.0 or older PCB, if your PCB does not have a version number, or if this spot is labeled 'jumper or 0.1uF', you **must** use a jumper wire instead of a capacitor.
 
-   If you have a v1.1 or newer PCB, or if this spot is labeled '0.1uF', you can either leave it empty or use a 0.1uF capacitor.<img src="/assets/ft608YT.jpg" class="img-responsive" />
+   If you have a v1.1 or newer PCB, or if this spot is labeled '0.1uF', you can either leave it empty or use a 0.1uF capacitor.<img src="/assets/ft608YT.jpg" class="img-fluid post-img" />
 
-5. Insert a 300 Ohm to 500 Ohm resistor in each set of holes for each output you plan to use. Bend one leg 180 degrees around, flat against the resistor body, and insert it vertically.<img src="/assets/VHDGTzv.jpg" class="img-responsive" />
-6. Flip the board over and solder each leg of each resistor.<img src="/assets/x5Wd6Wk.jpg" class="img-responsive" />
-7. Decide whether you're going to use female headers, stacking female headers, or if you're going to solder the Wemos directly to the level shifter shield PCB. I used single female headers so the Wemos would be removable, but still fairly low profile.<img src="/assets/LIUZL8t.jpg" class="img-responsive" />
-8. I used double-sided male headers in a small breadboard to hold the female headers correctly aligned while I soldered.<img src="/assets/U1zIbwT.jpg" class="img-responsive" /><img src="/assets/uzUaqaK.jpg" class="img-responsive" /><img src="/assets/oqrcZzy.jpg" class="img-responsive" /><img src="/assets/1DoksKR.jpg" class="img-responsive" />
-9. Insert the large 1000uF capacitor, make sure the negative leg of the capacitor is in the negative labeled hole in the PCB.<img src="/assets/WPEPwba.jpg" class="img-responsive" /><img src="/assets/Ijmnx6N.jpg" class="img-responsive" />
-10. Flip the board over and solder one leg, making sure the capacitor is properly aligned before soldering the other leg.<img src="/assets/5aQLHi7.jpg" class="img-responsive" />
+5. Insert a 300 Ohm to 500 Ohm resistor in each set of holes for each output you plan to use. Bend one leg 180 degrees around, flat against the resistor body, and insert it vertically.<img src="/assets/VHDGTzv.jpg" class="img-fluid post-img" />
+6. Flip the board over and solder each leg of each resistor.<img src="/assets/x5Wd6Wk.jpg" class="img-fluid post-img" />
+7. Decide whether you're going to use female headers, stacking female headers, or if you're going to solder the Wemos directly to the level shifter shield PCB. I used single female headers so the Wemos would be removable, but still fairly low profile.<img src="/assets/LIUZL8t.jpg" class="img-fluid post-img" />
+8. I used double-sided male headers in a small breadboard to hold the female headers correctly aligned while I soldered.<img src="/assets/U1zIbwT.jpg" class="img-fluid post-img" /><img src="/assets/uzUaqaK.jpg" class="img-fluid post-img" /><img src="/assets/oqrcZzy.jpg" class="img-fluid post-img" /><img src="/assets/1DoksKR.jpg" class="img-fluid post-img" />
+9. Insert the large 1000uF capacitor, make sure the negative leg of the capacitor is in the negative labeled hole in the PCB.<img src="/assets/WPEPwba.jpg" class="img-fluid post-img" /><img src="/assets/Ijmnx6N.jpg" class="img-fluid post-img" />
+10. Flip the board over and solder one leg, making sure the capacitor is properly aligned before soldering the other leg.<img src="/assets/5aQLHi7.jpg" class="img-fluid post-img" />
 11. Trim all the leads with a pair of wire cutters. Flush diagonal cutters work best.
-12. To attach male headers to the Wemos board, you can either use the shield PCB or a breadboard to keep them correctly aligned.<img src="/assets/uLzEBg1.jpg" class="img-responsive" /><img src="/assets/3XDmGXI.jpg" class="img-responsive" />
-13. Solder all of the pins, taking care to keep the soldering iron away from the components on the Wemos board.<img src="/assets/7qBrq0U.jpg" class="img-responsive" />
-14. Strip the ends of the wires you'll use to connect the LEDs.<img src="/assets/QSpwkNV.jpg" class="img-responsive" /> I left the wires on the spools, which makes it easier to handle. I used a third hand tool to hold the PCB, since this part requires both hands free.<img src="/assets/qe6YJo2.jpg" class="img-responsive" />
-15. With a small amount of solder on the tip of the iron, heat the wire right on the bottom of the pad.<img src="/assets/fbp3dCC.jpg" class="img-responsive" />
-16. Melt a fair amount of solder on the wire and pad. The insulation on the wire may start to melt as the wire heats up. If so, push the wire through the hole, from the top towards the bottom, to ensure no wire is left exposed on top.<img src="/assets/OKdiUUU.jpg" class="img-responsive" /><img src="/assets/kK5PD17.jpg" class="img-responsive" />
-17. Repeat this process for the other wires.<img src="/assets/tWxcq4m.jpg" class="img-responsive" />
+12. To attach male headers to the Wemos board, you can either use the shield PCB or a breadboard to keep them correctly aligned.<img src="/assets/uLzEBg1.jpg" class="img-fluid post-img" /><img src="/assets/3XDmGXI.jpg" class="img-fluid post-img" />
+13. Solder all of the pins, taking care to keep the soldering iron away from the components on the Wemos board.<img src="/assets/7qBrq0U.jpg" class="img-fluid post-img" />
+14. Strip the ends of the wires you'll use to connect the LEDs.<img src="/assets/QSpwkNV.jpg" class="img-fluid post-img" /> I left the wires on the spools, which makes it easier to handle. I used a third hand tool to hold the PCB, since this part requires both hands free.<img src="/assets/qe6YJo2.jpg" class="img-fluid post-img" />
+15. With a small amount of solder on the tip of the iron, heat the wire right on the bottom of the pad.<img src="/assets/fbp3dCC.jpg" class="img-fluid post-img" />
+16. Melt a fair amount of solder on the wire and pad. The insulation on the wire may start to melt as the wire heats up. If so, push the wire through the hole, from the top towards the bottom, to ensure no wire is left exposed on top.<img src="/assets/OKdiUUU.jpg" class="img-fluid post-img" /><img src="/assets/kK5PD17.jpg" class="img-fluid post-img" />
+17. Repeat this process for the other wires.<img src="/assets/tWxcq4m.jpg" class="img-fluid post-img" />
 18. Cut the wires to the desired length and add [JST-SM connectors](https://amzn.to/2P7cvJ1) using a [SN-48B Crimping Tool](https://amzn.to/2P6YpHh).

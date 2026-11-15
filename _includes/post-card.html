@@ -8,24 +8,24 @@
 {% if card.imgurId or card.videoUrl %}
 {% assign card_ext = card.imgurId | split: "." | last %}
 {% assign card_base = card.imgurId | split: "." | first %}
-<div class="col-xs-12 col-md-6">
-  <div class="thumbnail" id="{{ card.id }}">
-    <div class="embed-responsive embed-responsive-16by9">
+<div class="col-12 col-md-6">
+  <div class="card h-100" id="{{ card.id }}">
+    <div class="ratio ratio-16x9">
       {% if card.imgurId and card_ext == "mp4" %}
       <a href="{{ card.url }}">
         <video class="post lazy" data-poster="/assets/{{ card_base }}.jpg" autoplay muted loop playsinline data-src="/assets/{{ card.imgurId }}"></video>
       </a>
       {% elsif card.imgurId %}
       <a href="{{ card.url }}">
-        <img class="embed-responsive-item" src="/assets/{{ card.imgurId }}" loading="lazy" alt="{{ card.title | escape }}">
+        <img src="/assets/{{ card.imgurId }}" loading="lazy" alt="{{ card.title | escape }}">
       </a>
       {% else %}
-      <iframe class="embed-responsive-item" src="{{ card.videoUrl }}" loading="lazy" title="{{ card.title | escape }} video"
+      <iframe src="{{ card.videoUrl }}" loading="lazy" title="{{ card.title | escape }} video"
         allowfullscreen></iframe>
       {% endif %}
     </div>
-    <div class="caption">
-      <h3><a href="{{ card.url }}">{{ card.title }}</a></h3>
+    <div class="card-body">
+      <h3 class="card-title h4 mb-0"><a href="{{ card.url }}">{{ card.title }}</a></h3>
     </div>
   </div>
 </div>

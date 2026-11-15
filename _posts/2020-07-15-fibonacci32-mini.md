@@ -61,12 +61,12 @@ It consists of 34 RGB LEDs, arranged into a circular <a href="https://en.wikiped
 
 <div class="row">
   <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <div class="caption">
+    <div class="card">
+      <div class="card-body">
         <a href="https://photos.app.goo.gl/sxWebS7FVF1jFhfLA" target="_blank">More pictures and details:</a>
       </div>
       <a href="https://photos.app.goo.gl/sxWebS7FVF1jFhfLA" target="_blank">
-        <img src="/assets/iLaweEn.jpg" style="width:340px" class="img-responsive" />
+        <img src="/assets/iLaweEn.jpg" style="width:340px" class="img-fluid post-img" />
       </a>
     </div>
   </div>
@@ -124,7 +124,7 @@ Parts I used in my builds (also **not included**):
 
 Open source example firmware and web application: [https://github.com/jasoncoon/esp8266-fastled-webserver/tree/fibonacci32mini](https://github.com/jasoncoon/esp8266-fastled-webserver/tree/fibonacci32mini)
 
-<img src="/assets/esp8266-fastled-webserver-web-app.png" style="width:300px" class="img-responsive" />
+<img src="/assets/esp8266-fastled-webserver-web-app.png" style="width:300px" class="img-fluid post-img" />
 
 ### Assembly Instructions
 
@@ -135,17 +135,17 @@ If you're new to soldering, I highly recommend reading through a good soldering 
 **Note**: Pictures are of the larger [Fibonacci256](/fibonacci256), but the instructions are identical.
 
 1. Find a clean spot on your soldering workspace. I used a piece of heavy card stock. Carefully place the board with the LEDs facing down and the bottom of the board facing up.
-   <img src="/assets/dcH2g2E.jpg" class="img-responsive" />
+   <img src="/assets/dcH2g2E.jpg" class="img-fluid post-img" />
 2. I used [90 degree header pins](https://amzn.to/2Vzi2gU) to allow connecting and disconnecting jumper wires easily. I used small [female headers](https://amzn.to/2Vzi2gU) to keep them level while I soldered.
-   <img src="/assets/oF0O5u5.jpg" class="img-responsive" />
+   <img src="/assets/oF0O5u5.jpg" class="img-fluid post-img" />
 3. Insert the header pins.
-   <img src="/assets/SDp87ah.jpg" class="img-responsive" />
+   <img src="/assets/SDp87ah.jpg" class="img-fluid post-img" />
 4. Carefully turn the board over and solder only the middle pin of each header.
-   <img src="/assets/YafBoqC.jpg" class="img-responsive" />
+   <img src="/assets/YafBoqC.jpg" class="img-fluid post-img" />
 5. Ensure the headers are straight and level before proceeding to solder the remaining pins. The 5V and GND pins are connected to planes with large traces, and may take some time to heat up enough for solder to melt. Using a higher temperature and less time can help, if possible. Flux can also help.
 6. Check each solder joint, then disconnect the female headers.
 7. **VERY** carefully check polarity before connecting 5V and GND. If possible, connect 5V and GND on both sets of headers to provide maximum current flow and minimize voltage drop. I used [female jumper wires](https://amzn.to/2vjvZ8e).
-   <img src="/assets/XqbL1R8.jpg" class="img-responsive" />
+   <img src="/assets/XqbL1R8.jpg" class="img-fluid post-img" />
 8. Connect the data pin from your microcontroller to the DI pin on the Fibonacci board.
 9. Each WS2812 can theoretically draw 60mA at full brightness, solid white color. 32 of them can theoretically draw 2.04 Amps! I strongly suggest using [FastLED's power management](https://github.com/FastLED/FastLED/wiki/Power-notes#managing-power-in-fastled) to limit the maximum brightness to a reasonable amount, well under the maximum your power supply is rated for. I've found even just 2A from a USB power adapter is blindingly bright.
 10. Keep an eye on the temperature of the PCB and especially the connectors. High temperatures can reduce the life of the LEDs. When possible, ensure air can flow, either passively (ventilation) or actively (exhaust fan).

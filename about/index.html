@@ -26,48 +26,28 @@ title: About
     <a href="https://lectronz.com/stores/evilgeniuslabs"><img alt="I sell on Lectronz" src="https://lectronz-images.b-cdn.net/static/badges/i-sell-on-lectronz-small.png" /></a>
 
     <hr />
-    <div class="media">
-      <div class="media-left">
-        <img src="/images/profile.jpg" alt="Jason Coon" />
+    <div class="d-flex flex-column flex-sm-row gap-3">
+      <div class="flex-shrink-0">
+        <img src="/images/profile.jpg" alt="Jason Coon" class="img-fluid" width="400" height="400">
       </div>
-      <div class="media-body">
-        <h4 class="media-heading">Jason Coon</h4>
-        <ul class="media-list">
-          <li class="media">
-            <div class="media-left">
-              {% include icon.html name="mastodon" %}
-            </div>
-            <div class="media-body">
-              Mastodon
-              <a target="_blank" href="https://leds.social/@jasoncoon">@jasoncoon</a>
-            </div>
+      <div class="flex-grow-1">
+        <h4 class="mt-0">Jason Coon</h4>
+        <ul class="list-unstyled">
+          <li class="d-flex align-items-center gap-2 mb-1">
+            {% include icon.html name="mastodon" %}
+            <span>Mastodon <a rel="me noopener" target="_blank" href="https://leds.social/@jasoncoon">@jasoncoon</a></span>
           </li>
-          <li class="media">
-            <div class="media-left">
-              {% include icon.html name="bluesky" %}
-            </div>
-            <div class="media-body">
-              Bluesky
-              <a target="_blank" href="https://bsky.app/profile/evilgeniuslabs.org">@evilgeniuslabs.org</a>
-            </div>
+          <li class="d-flex align-items-center gap-2 mb-1">
+            {% include icon.html name="bluesky" %}
+            <span>Bluesky <a rel="me noopener" target="_blank" href="https://bsky.app/profile/evilgeniuslabs.org">@evilgeniuslabs.org</a></span>
           </li>
-          <li class="media">
-            <div class="media-left">
-              {% include icon.html name="github" %}
-            </div>
-            <div class="media-body">
-              GitHub
-              <a target="_blank" href="https://github.com/jasoncoon">jasoncoon</a>
-            </div>
+          <li class="d-flex align-items-center gap-2 mb-1">
+            {% include icon.html name="github" %}
+            <span>GitHub <a rel="me noopener" target="_blank" href="https://github.com/jasoncoon">jasoncoon</a></span>
           </li>
-          <li class="media">
-            <div class="media-left">
-              {% include icon.html name="youtube" %}
-            </div>
-            <div class="media-body">
-              YouTube
-              <a target="_blank" href="https://www.youtube.com/jasoncoon">jasoncoon</a>
-            </div>
+          <li class="d-flex align-items-center gap-2 mb-1">
+            {% include icon.html name="youtube" %}
+            <span>YouTube <a rel="me noopener" target="_blank" href="https://www.youtube.com/jasoncoon">jasoncoon</a></span>
           </li>
         </ul>
       </div>

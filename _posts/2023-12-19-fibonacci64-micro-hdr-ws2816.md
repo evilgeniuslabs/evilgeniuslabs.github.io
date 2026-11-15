@@ -90,18 +90,12 @@ To treat the board as a matrix, you can use a pixel map. A 2D XY map can allow y
 
 This map can be copied and pasted into the Pixel Mapper in the Mapper tab of your Pixelblaze web interface.
 
-<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+<div class="accordion" id="accordion">
 
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingOne">
-      <h4 class="panel-title">
-        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-          Pixelblaze XY Map (click to expand)
-        </a>
-      </h4>
-    </div>
-    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-      <div class="panel-body">
+  <div class="accordion-item">
+    <h4 class="accordion-header" id="headingOne"><button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Pixelblaze XY Map (click to expand)</button></h4>
+    <div id="collapseOne" class="accordion-collapse collapse" data-parent="#accordion" aria-labelledby="headingOne">
+      <div class="accordion-body">
         <pre>
 [[21.5,20],[27.63,18.32],[29.93,15.41],[30.64,11.92],[29.98,8.27],[22.23,4.04],[24.93,6.71],[26.45,9.97],[26.48,13.55],[24.2,17.32],[22.92,13.76],[22.26,9.95],[20.06,7.16],[16.86,5.38],[13.03,4.71],[8.99,8.82],[12.71,8.41],[16.16,9.32],[18.92,11.7],[20.29,16.65],[17.32,14.83],[13.84,12.61],[10.28,12.47],[6.91,13.79],[4.03,16.32],[4.87,21.88],[6.87,18.78],[9.78,16.74],[13.5,16.23],[15.56,19.21],[11.12,20.36],[8.65,22.99],[7.53,26.4],[7.69,30.17],[14.86,35.85],[12.52,32.77],[11.4,29.29],[11.73,25.75],[13.95,22.5],[18.08,21.76],[15.35,26.62],[15.7,30.28],[17.58,33.30],[20.57,35.53],[29.22,33.38],[25.4,33.27],[22.05,31.94],[19.57,29.37],[18.59,25.23],[22.16,26.87],[25.23,29.12],[28.74,29.64],[32.31,28.74],[35.59,26.61],[35.81,20.81],[33.36,23.66],[30.22,25.37],[26.6,25.56],[22.42,23.15],[25.82,22.12],[29.77,21.31],[32.44,18.97],[34,15.68],[34.38,11.85]]
         </pre>
@@ -119,27 +113,27 @@ This map can be copied and pasted into the Pixel Mapper in the Mapper tab of you
 1. Guide the wires through the holes in the back plate. Center and place the back plate onto the screws. Gently pull the slack out of the wires, through the slots in the back plate. The back plate should fit flush against the back of the PCB.
 1. Hand-tighten M2 Hex Nuts onto the screws.
 
-<img src="/assets/gSIIyeB.jpg" class="img-responsive" />
+<img src="/assets/gSIIyeB.jpg" class="img-fluid post-img" />
 
-<img src="/assets/V6sFYjP.jpg" class="img-responsive" />
+<img src="/assets/V6sFYjP.jpg" class="img-fluid post-img" />
 
-<img src="/assets/04DFta6.jpg" class="img-responsive" />
+<img src="/assets/04DFta6.jpg" class="img-fluid post-img" />
 
-<img src="/assets/efwTcve.jpg" class="img-responsive" />
+<img src="/assets/efwTcve.jpg" class="img-fluid post-img" />
 
-<img src="/assets/VVqsDXH.jpg" class="img-responsive" />
+<img src="/assets/VVqsDXH.jpg" class="img-fluid post-img" />
 
-<img src="/assets/IoB18cV.jpg" class="img-responsive" />
+<img src="/assets/IoB18cV.jpg" class="img-fluid post-img" />
 
-<img src="/assets/uNrHVci.jpg" class="img-responsive" />
+<img src="/assets/uNrHVci.jpg" class="img-fluid post-img" />
 
-<img src="/assets/sKSUWMC.jpg" class="img-responsive" />
+<img src="/assets/sKSUWMC.jpg" class="img-fluid post-img" />
 
-<img src="/assets/ZKyQbHm.jpg" class="img-responsive" />
+<img src="/assets/ZKyQbHm.jpg" class="img-fluid post-img" />
 
-<img src="/assets/i1QUncM.jpg" class="img-responsive" />
+<img src="/assets/i1QUncM.jpg" class="img-fluid post-img" />
 
-<img src="/assets/Lrk5Erw.jpg" class="img-responsive" />
+<img src="/assets/Lrk5Erw.jpg" class="img-fluid post-img" />
 
 ### Assembly Instructions
 
@@ -147,7 +141,7 @@ This map can be copied and pasted into the Pixel Mapper in the Mapper tab of you
 
 If you're new to soldering, I highly recommend reading through a good soldering tutorial, such as the ones by [Adafruit](https://learn.adafruit.com/adafruit-guide-excellent-soldering) and [SparkFun](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering).
 
-<img src="/assets/BTdKtF9.jpg" class="img-responsive" />
+<img src="/assets/BTdKtF9.jpg" class="img-fluid post-img" />
 
 1. Find a clean spot on your soldering workspace. I used a piece of heavy card stock. Carefully place the board with the LEDs facing down and the bottom of the board facing up.
 1. **VERY** carefully check polarity before connecting 5V and GND.

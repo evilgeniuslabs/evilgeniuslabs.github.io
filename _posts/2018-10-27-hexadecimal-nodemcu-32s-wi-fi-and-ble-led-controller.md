@@ -11,11 +11,11 @@ redirect_from:
   - /25
 ---
 
-<img src="/assets/UvKEmf7.jpg" style="width:400px" class="img-responsive" />
+<img src="/assets/UvKEmf7.jpg" style="width:400px" class="img-fluid post-img" />
 
-<img src="/assets/XSqtDMi.jpg" style="width:400px" class="img-responsive" />
+<img src="/assets/XSqtDMi.jpg" style="width:400px" class="img-fluid post-img" />
 
-<img src="/assets/XSqtDMi.jpg" style="width:400px" class="img-responsive" />
+<img src="/assets/XSqtDMi.jpg" style="width:400px" class="img-fluid post-img" />
 
 <h3>Table of Contents</h3>
 
@@ -72,7 +72,7 @@ OR
 
 Open source example firmware and web application: [https://github.com/jasoncoon/esp32-fastled-webserver](https://github.com/jasoncoon/esp32-fastled-webserver)
 
-<img src="/assets/ks1Zyfa.jpg" style="width:600px" class="img-responsive" />
+<img src="/assets/ks1Zyfa.jpg" style="width:600px" class="img-fluid post-img" />
 
 Features:
 
@@ -94,7 +94,7 @@ I used this [3D printed vise](https://www.thingiverse.com/thing:2801942) to hold
 
 I also built one of these [DIY flexible soldering helping hands](http://www.instructables.com/id/DIY-Flexible-Soldering-Helping-Hand/).
 
-<img src="/assets/aZw6sBz.jpg" class="img-responsive" />
+<img src="/assets/aZw6sBz.jpg" class="img-fluid post-img" />
 
 1. Insert the SN74HCT245N Level Shifter chip into the holes in the top side of the board, where indicated. Be sure the notch is correctly aligned toward the 0.1uF capacitor, as indicated with the markings on the PCB.
 

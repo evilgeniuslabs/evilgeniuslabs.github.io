@@ -11,19 +11,19 @@ redirect_from:
   - /33
 ---
 
-<img src="/assets/8GPEIL6.jpg" style="width:265px" class="img-responsive" />
+<img src="/assets/8GPEIL6.jpg" style="width:265px" class="img-fluid post-img" />
 
-<img src="/assets/To5U8Vj.jpg" style="width:340px" class="img-responsive" />
+<img src="/assets/To5U8Vj.jpg" style="width:340px" class="img-fluid post-img" />
 
-<img src="/assets/bn1Ht27.jpg" style="width:340px" class="img-responsive" />
+<img src="/assets/bn1Ht27.jpg" style="width:340px" class="img-fluid post-img" />
 
-<img src="/assets/ZyC9DNj.jpg" style="width:265px" class="img-responsive" />
+<img src="/assets/ZyC9DNj.jpg" style="width:265px" class="img-fluid post-img" />
 
-<img src="/assets/Wmrtrow.jpg" style="width:265px" class="img-responsive" />
+<img src="/assets/Wmrtrow.jpg" style="width:265px" class="img-fluid post-img" />
 
-<img src="/assets/kvh0ild.jpg" style="width:265px" class="img-responsive" />
+<img src="/assets/kvh0ild.jpg" style="width:265px" class="img-fluid post-img" />
 
-<img src="/assets/I0XMeOz.jpg" style="width:265px" class="img-responsive" />
+<img src="/assets/I0XMeOz.jpg" style="width:265px" class="img-fluid post-img" />
 
 <h3>Table of Contents</h3>
 
@@ -79,26 +79,26 @@ OR
 If you're new to soldering, I highly recommend reading through a good soldering tutorial, such as the ones by [Adafruit](https://learn.adafruit.com/adafruit-guide-excellent-soldering) and [SparkFun](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering).
 
 **Note**: Some WEMOS/LOLIN D1 Minis have the USB port on the top side, and some have it on the bottom side of the board. Either way, ensure the the button is in the lower-left corner, and the pins labels match the shield PCB:
-<img src="/assets/rnK7Fgp.jpg" class="img-responsive" />
-<img src="/assets/5k8cjgR.jpg" class="img-responsive" />
+<img src="/assets/rnK7Fgp.jpg" class="img-fluid post-img" />
+<img src="/assets/5k8cjgR.jpg" class="img-fluid post-img" />
 
 1. Decide whether you're going to use female headers, stacking female headers, or if you're going to solder the Wemos directly to the level shifter shield PCB. I used single female headers so the Wemos would be removable, but still fairly low profile.
 
 2. I used double-sided male headers in a small breadboard to hold the female headers correctly aligned while I soldered.
-   <img src="/assets/BTKr4U0.jpg" class="img-responsive" />
-   <img src="/assets/j3IKfpJ.jpg" class="img-responsive" />
+   <img src="/assets/BTKr4U0.jpg" class="img-fluid post-img" />
+   <img src="/assets/j3IKfpJ.jpg" class="img-fluid post-img" />
 
 3. Trim all the leads with a pair of wire cutters. Flush diagonal cutters work best.
 
 4. I use pre-assembled [3 pin JST-SM connectors](https://amzn.to/2CWBL1G) to connect the LEDs.
 
 5. If possible, use a [PCB vise](https://www.thingiverse.com/thing:2801942) to hold the PCB vertically, and a helping hands tool to hold the wires as they're soldered.
-   <img src="/assets/qsS4bi4.jpg" class="img-responsive" />
+   <img src="/assets/qsS4bi4.jpg" class="img-fluid post-img" />
 
 6. With a small amount of solder on the tip of the iron, heat the wire right on the bottom of the pad.
 
 7. Melt a fair amount of solder on the wire and pad. The insulation on the wire may start to melt as the wire heats up. If so, push the wire through the hole, from the top towards the bottom, to ensure no wire is left exposed on top.
 
 8. Repeat this process for the other wires.
-   <img src="/assets/usCMGwI.jpg" class="img-responsive" />
-   <img src="/assets/ZyC9DNj.jpg" class="img-responsive" />
+   <img src="/assets/usCMGwI.jpg" class="img-fluid post-img" />
+   <img src="/assets/ZyC9DNj.jpg" class="img-fluid post-img" />

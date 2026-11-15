@@ -66,12 +66,12 @@ It consists of 64 WS2812B-Mini 3535 RGB LEDs, arranged into a circular <a href="
 
 <div class="row">
   <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <div class="caption">
+    <div class="card">
+      <div class="card-body">
         <a href="https://photos.app.goo.gl/bwvDcZ96je8k7SoZ8" target="_blank">More pictures and details:</a>
       </div>
       <a href="https://photos.app.goo.gl/bwvDcZ96je8k7SoZ8" target="_blank">
-        <img src="/assets/iLaweEn.jpg" style="width:340px" class="img-responsive" />
+        <img src="/assets/iLaweEn.jpg" style="width:340px" class="img-fluid post-img" />
       </a>
     </div>
   </div>
@@ -129,7 +129,7 @@ Parts I used in my builds (also **not included**):
 
 Open source example firmware and web application: [https://github.com/jasoncoon/esp8266-fastled-webserver/tree/fibonacci64](https://github.com/jasoncoon/esp8266-fastled-webserver/tree/fibonacci64)
 
-<img src="/assets/esp8266-fastled-webserver-web-app.png" style="width:300px" class="img-responsive" />
+<img src="/assets/esp8266-fastled-webserver-web-app.png" style="width:300px" class="img-fluid post-img" />
 
 ### Pixelblaze Map
 
@@ -141,18 +141,12 @@ To treat the board as a matrix, you can use a pixel map. A 2D XY map can allow y
 
 This map can be copied and pasted into the Pixel Mapper in the Mapper tab of your Pixelblaze web interface.
 
-<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+<div class="accordion" id="accordion">
 
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingOne">
-      <h4 class="panel-title">
-        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-          Pixelblaze XY Map (click to expand)
-        </a>
-      </h4>
-    </div>
-    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-      <div class="panel-body">
+  <div class="accordion-item">
+    <h4 class="accordion-header" id="headingOne"><button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Pixelblaze XY Map (click to expand)</button></h4>
+    <div id="collapseOne" class="accordion-collapse collapse" data-parent="#accordion" aria-labelledby="headingOne">
+      <div class="accordion-body">
         <pre>
 [[140,128],[189,114],[208,91],[214,63],[208,34],[146,0],[168,21],[180,48],[180,76],[162,106],[152,78],[146,47],[129,25],[103,11],[72,5],[40,38],[70,35],[97,42],[120,61],[131,101],[107,87],[79,69],[50,68],[23,78],[0,98],[7,143],[23,118],[46,102],[76,98],[93,122],[57,131],[37,152],[28,179],[29,209],[87,255],[68,230],[59,202],[62,174],[80,148],[113,142],[91,181],[94,210],[109,235],[133,252],[202,235],[172,234],[145,224],[125,203],[117,170],[145,183],[170,201],[198,205],[227,198],[253,181],[255,134],[235,157],[210,171],[181,173],[148,153],[175,145],[207,138],[228,120],[240,93],[244,63]]
         </pre>
@@ -171,17 +165,17 @@ If you're new to soldering, I highly recommend reading through a good soldering 
 **Note**: Pictures are of the larger [Fibonacci256](/fibonacci256), but the instructions are identical.
 
 1. Find a clean spot on your soldering workspace. I used a piece of heavy card stock. Carefully place the board with the LEDs facing down and the bottom of the board facing up.
-   <img src="/assets/dcH2g2E.jpg" class="img-responsive" />
+   <img src="/assets/dcH2g2E.jpg" class="img-fluid post-img" />
 2. I used [90 degree header pins](https://amzn.to/2Vzi2gU) to allow connecting and disconnecting jumper wires easily. I used small [female headers](https://amzn.to/2Vzi2gU) to keep them level while I soldered.
-   <img src="/assets/oF0O5u5.jpg" class="img-responsive" />
+   <img src="/assets/oF0O5u5.jpg" class="img-fluid post-img" />
 3. Insert the header pins.
-   <img src="/assets/SDp87ah.jpg" class="img-responsive" />
+   <img src="/assets/SDp87ah.jpg" class="img-fluid post-img" />
 4. Carefully turn the board over and solder only the middle pin of each header.
-   <img src="/assets/YafBoqC.jpg" class="img-responsive" />
+   <img src="/assets/YafBoqC.jpg" class="img-fluid post-img" />
 5. Ensure the headers are straight and level before proceeding to solder the remaining pins. The 5V and GND pins are connected to planes with large traces, and may take some time to heat up enough for solder to melt. Using a higher temperature and less time can help, if possible. Flux can also help.
 6. Check each solder joint, then disconnect the female headers.
 7. **VERY** carefully check polarity before connecting 5V and GND. If possible, connect 5V and GND on both sets of headers to provide maximum current flow and minimize voltage drop. I used [female jumper wires](https://amzn.to/2vjvZ8e).
-   <img src="/assets/XqbL1R8.jpg" class="img-responsive" />
+   <img src="/assets/XqbL1R8.jpg" class="img-fluid post-img" />
 8. Connect the data pin from your microcontroller to the DI pin on the Fibonacci board.
 9. Each WS2812 can theoretically draw 60mA at full brightness, solid white color. 64 of them can theoretically draw 4 Amps! I strongly suggest using [FastLED's power management](https://github.com/FastLED/FastLED/wiki/Power-notes#managing-power-in-fastled) to limit the maximum brightness to a reasonable amount, well under the maximum your power supply is rated for. I've found even just 2A from a USB power adapter is blindingly bright.
 10. Keep an eye on the temperature of the PCB and especially the connectors. High temperatures can reduce the life of the LEDs. When possible, ensure air can flow, either passively (ventilation) or actively (exhaust fan).

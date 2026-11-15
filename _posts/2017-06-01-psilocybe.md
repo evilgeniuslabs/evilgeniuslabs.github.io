@@ -14,16 +14,16 @@ redirect_from:
 Dome-shaped, wall-hung frosted glass and metal, with an inner 3D printed frame for 240 RGB LEDs. Driven by an ESP8266 microcontroller using the FastLED library, controlled with a web app over WiFi and/or an infrared remote control.
 
 <div class="row">
-  <div class="col-xs-12 col-md-6">
-    <a href="/assets/Tk4GIeV.jpg" target="_blank" class="thumbnail"><img src="/assets/Tk4GIeV.jpg" class="img-responsive" /></a>
+  <div class="col-12 col-md-6">
+    <a href="/assets/Tk4GIeV.jpg" target="_blank" class="card"><img src="/assets/Tk4GIeV.jpg" class="img-fluid post-img" /></a>
   </div>
 
-  <div class="col-xs-12 col-md-6">
-    <a href="/assets/litybtv.jpg" target="_blank" class="thumbnail"><img src="/assets/litybtv.jpg" class="img-responsive" /></a>
+  <div class="col-12 col-md-6">
+    <a href="/assets/litybtv.jpg" target="_blank" class="card"><img src="/assets/litybtv.jpg" class="img-fluid post-img" /></a>
   </div>
 
-  <div class="col-xs-12 col-md-6">
-    <a href="/assets/We9Vi6a.jpg" target="_blank" class="thumbnail"><img src="/assets/We9Vi6a.jpg" class="img-responsive" /></a>
+  <div class="col-12 col-md-6">
+    <a href="/assets/We9Vi6a.jpg" target="_blank" class="card"><img src="/assets/We9Vi6a.jpg" class="img-fluid post-img" /></a>
   </div>
 </div>
 
@@ -42,23 +42,23 @@ Dome-shaped, wall-hung frosted glass and metal, with an inner 3D printed frame f
 Inner frame:
 
 <div class="row">
-  <div class="col-xs-12 col-md-6">
-    <a href="/assets/AHeDDQl.jpg" target="_blank" class="thumbnail"><img src="/assets/AHeDDQl.jpg" class="img-responsive" /></a>
+  <div class="col-12 col-md-6">
+    <a href="/assets/AHeDDQl.jpg" target="_blank" class="card"><img src="/assets/AHeDDQl.jpg" class="img-fluid post-img" /></a>
   </div>
 
-  <div class="col-xs-12 col-md-6">
-    <a href="/assets/FRNvEr0.jpg" target="_blank" class="thumbnail"><img src="/assets/FRNvEr0.jpg" class="img-responsive" /></a>
+  <div class="col-12 col-md-6">
+    <a href="/assets/FRNvEr0.jpg" target="_blank" class="card"><img src="/assets/FRNvEr0.jpg" class="img-fluid post-img" /></a>
   </div>
 
-  <div class="col-xs-12 col-md-6">
-    <a href="/assets/ohDvIaW.jpg" target="_blank" class="thumbnail"><img src="/assets/ohDvIaW.jpg" class="img-responsive" /></a>
+  <div class="col-12 col-md-6">
+    <a href="/assets/ohDvIaW.jpg" target="_blank" class="card"><img src="/assets/ohDvIaW.jpg" class="img-fluid post-img" /></a>
   </div>
 
-  <div class="col-xs-12 col-md-6">
-    <a href="/assets/IjN1dT6.jpg" target="_blank" class="thumbnail"><img src="/assets/IjN1dT6.jpg" class="img-responsive" /></a>
+  <div class="col-12 col-md-6">
+    <a href="/assets/IjN1dT6.jpg" target="_blank" class="card"><img src="/assets/IjN1dT6.jpg" class="img-fluid post-img" /></a>
   </div>
 
-  <div class="col-xs-12 col-md-6">
+  <div class="col-12 col-md-6">
     <video playsinline class="post lazy" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/a5fB884.mp4"></video>
   </div>
 

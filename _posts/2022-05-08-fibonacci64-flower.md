@@ -15,7 +15,7 @@ redirect_from:
 sortKey: Fibonacci0064 Flower
 ---
 
-<!-- <div class="embed-responsive embed-responsive-16by9">
+<!-- <div class="ratio ratio-16x9">
    <video playsinline class="post lazy" data-poster="/assets/50JYqsw.jpg" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/50JYqsw.mp4"></video>
 </div> -->
 
@@ -99,10 +99,10 @@ If you're new to soldering, I highly recommend reading through a good soldering 
 1. Center and place the acrylic back plate over the standoffs.
 1. Hand-tighten M2x6mm Button Head Hex Screws onto the standoffs.
 
-<!-- <img src="/assets/vTWd4vI.jpg" class="img-responsive" />
+<!-- <img src="/assets/vTWd4vI.jpg" class="img-fluid post-img" />
 
-<img src="/assets/xUO6aZY.jpg" class="img-responsive" />
+<img src="/assets/xUO6aZY.jpg" class="img-fluid post-img" />
 
-<img src="/assets/RoLJJ19.jpg" class="img-responsive" />
+<img src="/assets/RoLJJ19.jpg" class="img-fluid post-img" />
 
-<img src="/assets/oNLZf7Y.jpg" class="img-responsive" /> -->
+<img src="/assets/oNLZf7Y.jpg" class="img-fluid post-img" /> -->

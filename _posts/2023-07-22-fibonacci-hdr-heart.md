@@ -79,17 +79,11 @@ This map can be copied and pasted into the Pixel Mapper in the Mapper tab of you
 
 View in [LED Mapper](https://jasoncoon.github.io/led-mapper/?p=NrBMoOgFgZgGlDCA2AunMAOCiEFYIBGATnWBgAZpQEB2CYvMmQiC4uFnNDUewmjCSFCZPkTwJiEWqDFQGHUMiJQxSWrSkQ8c3q1CYEK2pjKEqeZJwV7g-QZGR2FFI6GnFa5mTWUQYUl4ZLRIZMwwkTCgEDW8MAkxJcXYybDx3aSgg4BFwzipaNQxCAkJrShRREuwoa0MdcwVouiJ43NYWYxQc9OSFWiYMFWRk1kxq4AJBuEJsOwJiGMJbGDFChCrzFWy4BVhzJDc4fgpzKlHZqhh26SFZpEYyaTnZ+jw1kqpQGNBCnlykAysRwQ1yJiUChgYNK3AQBk+uWE1jmqnMkCSswGOUIj0Is1Y2W2RHg6XaYS6Kg86hwMWaETAL3g73aoDK+PoyByoFYeBi2Ew5OwtHxFgYDPKDBouIgSWJeA4hHoMDsYVePIYiLCyFC2GQxTAlkVA0m4AYkgEOAZ-lxBLYpukRSuDEmQmgKNYXjIUCoFHqtmY2HufwCAOhMkVysRKpQRlhLDE0g8WPdYkWKIUT14Rwt9DcNPgIeQpvoylmQejF0V6VdSB1CCouOY9Qx0foUGSKmhzHomA4lRgDJgCn1nE60ds7k5ORj7gUGWY3xbATB-l08J0pFQQA)
 
-<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingOne">
-      <h4 class="panel-title">
-        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-          Pixelblaze XY Map (click to expand)
-        </a>
-      </h4>
-    </div>
-    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-      <div class="panel-body">
+<div class="accordion" id="accordion">
+  <div class="accordion-item">
+    <h4 class="accordion-header" id="headingOne"><button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Pixelblaze XY Map (click to expand)</button></h4>
+    <div id="collapseOne" class="accordion-collapse collapse" data-parent="#accordion" aria-labelledby="headingOne">
+      <div class="accordion-body">
         <pre>
 [[22.43,23.6],[28.23,25.19],[30.42,27.95],[31.09,31.26],[27.12,33.11],[27.15,29.72],[24.99,26.14],[23.77,29.52],[21.28,26.78],[10.56,34.2],[7.12,32.62],[4.08,29.97],[1.72,26.39],[2.77,19.78],[3.84,23.77],[5.85,27.09],[8.58,29.49],[11.78,30.74],[15.16,30.61],[18.46,28.5],[14.84,27.17],[11.31,26.69],[8.55,24.75],[6.65,21.81],[5.75,18.2],[5.94,14.23],[20.7,2.61],[16.49,4.43],[13.08,7.10],[10.65,10.37],[9.33,13.95],[9.18,17.53],[10.24,20.76],[12.58,23.25],[16.79,24.35],[15.26,21.23],[13.16,18.14],[12.85,14.79],[13.91,11.49],[16.13,8.57],[19.31,6.29],[23.24,4.88],[29.13,7.57],[25.11,7.69],[21.54,8.87],[18.71,10.98],[16.92,13.85],[16.59,17.32],[19.18,21.93],[19.67,18.64],[20.59,14.71],[22.95,12.28],[26.13,11.01],[29.74,10.91],[33.46,11.97],[40.06,24.2],[38.33,20.36],[35.79,17.33],[32.68,15.31],[29.29,14.46],[25.96,14.95],[23.05,17.08],[23.3,20.61],[27.26,18.33],[30.69,18.51],[33.67,20.13],[36,22.83],[37.45,26.35],[37.89,30.38],[34.64,31.33],[34.28,27.69],[32.8,24.58],[30.26,22.35],[26.52,21.59]]
         </pre>

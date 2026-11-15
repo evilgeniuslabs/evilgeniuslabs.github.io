@@ -36,7 +36,7 @@ I have a [Flux3D Beamo](https://flux3dp.com/beamo/) 30W CO2 laser. I use the met
 
 A light coat of mineral oil before engraving makes them shiny, if that's the look you want.
 
-<div class="embed-responsive embed-responsive-16by9">
+<div class="ratio ratio-16x9">
   <video playsinline class="post lazy" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/rGQkxnr.mp4"></video>
 </div>
 
@@ -44,19 +44,19 @@ A light coat of mineral oil before engraving makes them shiny, if that's the loo
 
 I have made {{ site.data.macrochips | size }} different macrochip designs so far:
 
-<ul class="media-list">
+<div class="row g-3 card-grid">
 {% for macrochip in site.data.macrochips %}
-  <div class="col-md-4" id="{{ macrochip.name }}">
-    <div class="thumbnail" id="{{ post.id }}">
-      <div class="embed-responsive embed-responsive-4by3">
+  <div class="col-12 col-sm-6 col-md-4" id="{{ macrochip.name }}">
+    <div class="card h-100">
+      <div class="ratio ratio-4x3">
         <a href="/assets/{{ macrochip.imgurId }}.jpg">
-          <img class="media-object" style="width:340px" src="/assets/{{ macrochip.imgurId }}.jpg" alt="{{ macrochip.name }}">
+          <img src="/assets/{{ macrochip.imgurId }}.jpg" alt="{{ macrochip.name }}" loading="lazy">
         </a>
       </div>
-      <div class="caption">
-        <a href="macrochips#{{ macrochip.name }}">{{ macrochip.name }}</a>
+      <div class="card-body">
+        <a href="#{{ macrochip.name }}">{{ macrochip.name }}</a>
       </div>
     </div>
   </div>
 {% endfor %}
-</ul>
+</div>

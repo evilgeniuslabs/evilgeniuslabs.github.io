@@ -15,9 +15,9 @@ redirect_from:
 sortKey: Fibonacci0032 Kit
 ---
 
-<!-- <a href="/assets/DWHFck2.mp4" target="_blank"><video class="img-responsive lazy" data-src="/assets/DWHFck2.mp4" autoplay muted loop playsinline></video></a> -->
+<!-- <a href="/assets/DWHFck2.mp4" target="_blank"><video class="img-fluid post-img lazy" data-src="/assets/DWHFck2.mp4" autoplay muted loop playsinline></video></a> -->
 
-<a href="/assets/Sa9oicX.jpg" target="_blank"><img src="/assets/Sa9oicX.jpg" class="img-responsive"  /></a>
+<a href="/assets/Sa9oicX.jpg" target="_blank"><img src="/assets/Sa9oicX.jpg" class="img-fluid post-img"  /></a>
 
 ---
 
@@ -91,29 +91,29 @@ The kit may come with header pin sockets. You _can_ use these to make the Nano r
 These instructions do not use the header pin sockets.
 
 1. Snap the header pins into sets of two, using side/flush cutters:
-   <img class="img-responsive" src="/assets/dSlOLo5.jpg" />
-   <img class="img-responsive" src="/assets/MaE1ICP.jpg" />
+   <img class="img-fluid post-img" src="/assets/dSlOLo5.jpg" />
+   <img class="img-fluid post-img" src="/assets/MaE1ICP.jpg" />
 
 1. We need five sets right now. Insert the long side of the header pins into the corners and side of the Nano outline, on the back of the PCB.
-   <img class="img-responsive" src="/assets/jaxstnK.jpg" />
+   <img class="img-fluid post-img" src="/assets/jaxstnK.jpg" />
 
 1. Place the Nano onto the pins, but DO NOT solder the pins on the Nano yet.
-   <img class="img-responsive" src="/assets/1xmRy03.jpg" />
+   <img class="img-fluid post-img" src="/assets/1xmRy03.jpg" />
 
 1. Hold the Nano in place as you flip the whole thing over.
-   <img class="img-responsive" src="/assets/p8EKTeo.jpg" />
+   <img class="img-fluid post-img" src="/assets/p8EKTeo.jpg" />
 
 1. Solder the pins on the front side of the board.
-   <img class="img-responsive" src="/assets/p8EKTeo.jpg" />
-   <img class="img-responsive" src="/assets/0Ku2KhY.jpg" />
-   <img class="img-responsive" src="/assets/Rr3OTDE.jpg" />
+   <img class="img-fluid post-img" src="/assets/p8EKTeo.jpg" />
+   <img class="img-fluid post-img" src="/assets/0Ku2KhY.jpg" />
+   <img class="img-fluid post-img" src="/assets/Rr3OTDE.jpg" />
 
 1. Using side/flush cutters, trim the pins close to the PCB.
-   <img class="img-responsive" src="/assets/olWF73B.jpg" />
+   <img class="img-fluid post-img" src="/assets/olWF73B.jpg" />
 
 1. Flip the board back over and take the Nano off. Again, DO NOT solder the Nano on just yet.
-   <img class="img-responsive" src="/assets/fHxHuoI.jpg" />
-   <img class="img-responsive" src="/assets/r3OPum2.jpg" />
+   <img class="img-fluid post-img" src="/assets/fHxHuoI.jpg" />
+   <img class="img-fluid post-img" src="/assets/r3OPum2.jpg" />
 
 #### Prepare the LEDs
 
@@ -123,19 +123,19 @@ These instructions do not use the header pin sockets.
 
 1. Insert two sets of pins into opposite sides of the gap in a breadboard. If you don't have a breadboard, you can use the Fibonacci PCB for this instead.
 
-   <img class="img-responsive" src="/assets/kfim2Sr.jpg" />
-   <img class="img-responsive" src="/assets/DC15nWf.jpg" />
+   <img class="img-fluid post-img" src="/assets/kfim2Sr.jpg" />
+   <img class="img-fluid post-img" src="/assets/DC15nWf.jpg" />
 
 1. Place an LED PCB onto the pins, and solder them, one at a time, making sure the LED PCB is level.
 
    You may need to hold it level while soldering the first pin.
 
-   <img class="img-responsive" src="/assets/3pGp1yy.jpg" />
-   <img class="img-responsive" src="/assets/Fx38KtK.jpg" />
-   <img class="img-responsive" src="/assets/e3vJE0l.jpg" />
+   <img class="img-fluid post-img" src="/assets/3pGp1yy.jpg" />
+   <img class="img-fluid post-img" src="/assets/Fx38KtK.jpg" />
+   <img class="img-fluid post-img" src="/assets/e3vJE0l.jpg" />
 
 1. Remove the LED PCB, and repeat for the rest.
-   <img class="img-responsive" src="/assets/SKsNnij.jpg" />
+   <img class="img-fluid post-img" src="/assets/SKsNnij.jpg" />
 
 #### Assemble the Fibonacci32
 
@@ -153,7 +153,7 @@ You can test the LEDs by placing the Nano onto the pins, carefully checking you 
 1. Align the V, G, I, & O markings on an LED PCB with the markings on the main PCB. Insert the LED PCB pins into the holes on the main PCB.
 1. Check the markings again, making sure they match.
 1. Double-check and make sure that the small black dot in the middle of the LED points toward the outside of the main round PCB.
-   <img class="img-responsive" src="/assets/hHsbc7S.jpg" />
+   <img class="img-fluid post-img" src="/assets/hHsbc7S.jpg" />
 
 1. Hold the LED in place while carefully flipping the board over.
 1. Hold the PCB down while soldering the pins on the LED.
@@ -193,19 +193,19 @@ You can test the LEDs by placing the Nano onto the pins, carefully checking you 
 - &nbsp; &nbsp; 8
 - &nbsp; 21
 
-   <img class="img-responsive" src="/assets/ivyomjK.jpg" />
+   <img class="img-fluid post-img" src="/assets/ivyomjK.jpg" />
 
-   <img class="img-responsive" src="/assets/8yhr9xT.jpg" />
+   <img class="img-fluid post-img" src="/assets/8yhr9xT.jpg" />
 
-   <img class="img-responsive" src="/assets/zLaluPn.jpg" />
+   <img class="img-fluid post-img" src="/assets/zLaluPn.jpg" />
 
-   <img class="img-responsive" src="/assets/rA2hlhR.jpg" />
+   <img class="img-fluid post-img" src="/assets/rA2hlhR.jpg" />
 
-   <img class="img-responsive" src="/assets/1MYRsSv.jpg" />
+   <img class="img-fluid post-img" src="/assets/1MYRsSv.jpg" />
 
-   <img class="img-responsive" src="/assets/UJ8Mjhl.jpg" />
+   <img class="img-fluid post-img" src="/assets/UJ8Mjhl.jpg" />
 
-   <img class="img-responsive" src="/assets/LSarK9j.jpg" />
+   <img class="img-fluid post-img" src="/assets/LSarK9j.jpg" />
 
 Trim all the LED pins on the back side of the PCB with flush cutters.
 
@@ -216,7 +216,7 @@ Test the LEDs, make sure they all light up.
 1. Now we can solder the Nano pins.
 1. Again, make sure it's aligned correctly, with the USB connector towards the edge.
 
-   <img class="img-responsive" src="/assets/EfXSNLG.jpg" />
+   <img class="img-fluid post-img" src="/assets/EfXSNLG.jpg" />
 
 1. Hold the Nano in place while soldering one of the pins.
 1. Now it should stay in place while soldering the rest of the pins.
@@ -237,20 +237,20 @@ Test the LEDs, make sure they all light up.
 1. Center and place the back plate onto the standoffs.
 1. Insert M3x6mm Button Head Hex Screws into the holes in the back plate and hand-tighten.
 
-   <img class="img-responsive" src="/assets/v9hDvcg.jpg" />
+   <img class="img-fluid post-img" src="/assets/v9hDvcg.jpg" />
 
-   <img class="img-responsive" src="/assets/HUn9bPx.jpg" />
+   <img class="img-fluid post-img" src="/assets/HUn9bPx.jpg" />
 
-   <img class="img-responsive" src="/assets/pa3AFfa.jpg" />
+   <img class="img-fluid post-img" src="/assets/pa3AFfa.jpg" />
 
-   <img class="img-responsive" src="/assets/NTPLsYf.jpg" />
+   <img class="img-fluid post-img" src="/assets/NTPLsYf.jpg" />
 
-   <img class="img-responsive" src="/assets/dAoTn5q.jpg" />
+   <img class="img-fluid post-img" src="/assets/dAoTn5q.jpg" />
 
-   <img class="img-responsive" src="/assets/AVfRUfh.jpg" />
+   <img class="img-fluid post-img" src="/assets/AVfRUfh.jpg" />
 
-   <img class="img-responsive" src="/assets/ksais63.jpg" />
+   <img class="img-fluid post-img" src="/assets/ksais63.jpg" />
 
-   <img class="img-responsive" src="/assets/UWUwe7m.jpg" />
+   <img class="img-fluid post-img" src="/assets/UWUwe7m.jpg" />
 
-   <img class="img-responsive" src="/assets/DyEz1ZZ.jpg" />
+   <img class="img-fluid post-img" src="/assets/DyEz1ZZ.jpg" />

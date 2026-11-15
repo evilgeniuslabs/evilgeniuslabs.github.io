@@ -18,7 +18,7 @@ Having already built an [educational project](https://evilgeniuslabs.org/fastled
 
 I plan to mount the control box to a table, and mount the LED strip a few feet away. The wooden box is pretty solid, and I'm hoping it can survive a weekend of constant abuse.
 
-<a href="/assets/rp8lLwQ.jpg" target="_blank"><img src="/assets/rp8lLwQ.jpg" style="width:400px" class="img-responsive" /></a>
+<a href="/assets/rp8lLwQ.jpg" target="_blank"><img src="/assets/rp8lLwQ.jpg" style="width:400px" class="img-fluid post-img" /></a>
 
 <h3>Table of Contents</h3>
 
@@ -48,17 +48,17 @@ Also needed:
 
 Some of these parts can, of course, be obtained for less at other suppliers.
 
-<a href="/assets/anKPcEq.jpg" target="_blank"><img src="/assets/anKPcEq.jpg" style="width:400px" class="img-responsive" /></a>
+<a href="/assets/anKPcEq.jpg" target="_blank"><img src="/assets/anKPcEq.jpg" style="width:400px" class="img-fluid post-img" /></a>
 
 ### Assembly
 
-<a href="/assets/bamGsWx.jpg" target="_blank"><img src="/assets/bamGsWx.jpg" style="width:400px" class="img-responsive" /></a>
+<a href="/assets/bamGsWx.jpg" target="_blank"><img src="/assets/bamGsWx.jpg" style="width:400px" class="img-fluid post-img" /></a>
 
 I'll try to provide more details later, but the biggest difference with this project (compared to my other projects), was the LED illuminated arcade buttons. Five pins on the Teensy are used to read the button states and determine when they are pressed. Another five pins are used to control the button LEDs. I could have just wired the button LEDs to power and ground and kept them illuminated, but I wanted to be able to control them for more interactivity, for games, animations, etc. I tried driving them directly from pins on the Teensy, but they output 3.3V which made the LEDs very dim. I also worried about drawing too much current through the Teensy, since each LED can draw 10mA. Since I had a lot of 74HCT245 level shifter chips on hand, and planned to use one to drive the LED strip anyway, I tried driving the button LEDs through it and it worked great. The [datasheet](http://www.ti.com/lit/ds/symlink/sn74hct245.pdf) says not to exceed 35mA per output and 70mA total.
 
 Five Teensy pins are wired to the 74HCT245 level shifter inputs, and then each button LED is wired to a level shifter output and ground. The button states can be read with digitalRead, and the LEDs can be turned on and off with digitalWrite.
 
-<a href="/assets/ahP4bvR.jpg" target="_blank"><img src="/assets/ahP4bvR.jpg" style="width:400px" class="img-responsive" /></a>
+<a href="/assets/ahP4bvR.jpg" target="_blank"><img src="/assets/ahP4bvR.jpg" style="width:400px" class="img-fluid post-img" /></a>
 
 ### Interactions
 

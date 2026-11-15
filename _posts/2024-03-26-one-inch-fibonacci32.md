@@ -73,7 +73,7 @@ Open source touch demo: [https://github.com/jasoncoon/fibonacci32-one-inch](http
 
 If you're new to soldering, I highly recommend reading through a good soldering tutorial, such as the ones by [Adafruit](https://learn.adafruit.com/adafruit-guide-excellent-soldering) and [SparkFun](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering).
 
-<img src="/assets/DqfN3na.jpg" class="img-responsive" />
+<img src="/assets/DqfN3na.jpg" class="img-fluid post-img" />
 
 1. Find a clean spot on your soldering workspace. I used a piece of heavy card stock. Carefully place the board with the LEDs facing down and the bottom of the board facing up.
 1. **VERY** carefully check polarity before connecting 5V and GND.

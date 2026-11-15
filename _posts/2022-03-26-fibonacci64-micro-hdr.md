@@ -62,7 +62,7 @@ It has solder pads on the back that match the pinout of a [Pixelblaze V3 Pico by
 - Designed in the US by Evil Genius Labs
 - Some PCBs are manufactured in the US by [OSH Park](https://oshpark.com)
 - Some are assembled in the US by Evil Genius Labs
-- Some are assembled in the US by [ElectroMage](https://electromage.com)! See [Pixelblaze Map](#pixelblaze-map) below for more information. <a href="https://electromage.com" target="_blank"><img src="/assets/JSukWUk.jpg" style="width:150px" class="img-responsive" /></a>
+- Some are assembled in the US by [ElectroMage](https://electromage.com)! See [Pixelblaze Map](#pixelblaze-map) below for more information. <a href="https://electromage.com" target="_blank"><img src="/assets/JSukWUk.jpg" style="width:150px" class="img-fluid post-img" /></a>
 
 **Parts**
 
@@ -97,18 +97,12 @@ To treat the board as a matrix, you can use a pixel map. A 2D XY map can allow y
 
 This map can be copied and pasted into the Pixel Mapper in the Mapper tab of your Pixelblaze web interface.
 
-<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+<div class="accordion" id="accordion">
 
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingOne">
-      <h4 class="panel-title">
-        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-          Pixelblaze XY Map (click to expand)
-        </a>
-      </h4>
-    </div>
-    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-      <div class="panel-body">
+  <div class="accordion-item">
+    <h4 class="accordion-header" id="headingOne"><button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Pixelblaze XY Map (click to expand)</button></h4>
+    <div id="collapseOne" class="accordion-collapse collapse" data-parent="#accordion" aria-labelledby="headingOne">
+      <div class="accordion-body">
         <pre>
 [[140,128],[189,114],[208,91],[214,63],[208,34],[146,0],[168,21],[180,48],[180,76],[162,106],[152,78],[146,47],[129,25],[103,11],[72,5],[40,38],[70,35],[97,42],[120,61],[131,101],[107,87],[79,69],[50,68],[23,78],[0,98],[7,143],[23,118],[46,102],[76,98],[93,122],[57,131],[37,152],[28,179],[29,209],[87,255],[68,230],[59,202],[62,174],[80,148],[113,142],[91,181],[94,210],[109,235],[133,252],[202,235],[172,234],[145,224],[125,203],[117,170],[145,183],[170,201],[198,205],[227,198],[253,181],[255,134],[235,157],[210,171],[181,173],[148,153],[175,145],[207,138],[228,120],[240,93],[244,63]]
         </pre>
@@ -138,27 +132,27 @@ This map can be copied and pasted into the Pixel Mapper in the Mapper tab of you
 1. Guide the wires through the holes in the back plate. Center and place the back plate onto the screws. Gently pull the slack out of the wires, through the slots in the back plate. The back plate should fit flush against the back of the PCB.
 1. Hand-tighten M2 Hex Nuts onto the screws.
 
-<img src="/assets/gSIIyeB.jpg" class="img-responsive" />
+<img src="/assets/gSIIyeB.jpg" class="img-fluid post-img" />
 
-<img src="/assets/V6sFYjP.jpg" class="img-responsive" />
+<img src="/assets/V6sFYjP.jpg" class="img-fluid post-img" />
 
-<img src="/assets/04DFta6.jpg" class="img-responsive" />
+<img src="/assets/04DFta6.jpg" class="img-fluid post-img" />
 
-<img src="/assets/efwTcve.jpg" class="img-responsive" />
+<img src="/assets/efwTcve.jpg" class="img-fluid post-img" />
 
-<img src="/assets/VVqsDXH.jpg" class="img-responsive" />
+<img src="/assets/VVqsDXH.jpg" class="img-fluid post-img" />
 
-<img src="/assets/IoB18cV.jpg" class="img-responsive" />
+<img src="/assets/IoB18cV.jpg" class="img-fluid post-img" />
 
-<img src="/assets/uNrHVci.jpg" class="img-responsive" />
+<img src="/assets/uNrHVci.jpg" class="img-fluid post-img" />
 
-<img src="/assets/sKSUWMC.jpg" class="img-responsive" />
+<img src="/assets/sKSUWMC.jpg" class="img-fluid post-img" />
 
-<img src="/assets/ZKyQbHm.jpg" class="img-responsive" />
+<img src="/assets/ZKyQbHm.jpg" class="img-fluid post-img" />
 
-<img src="/assets/i1QUncM.jpg" class="img-responsive" />
+<img src="/assets/i1QUncM.jpg" class="img-fluid post-img" />
 
-<img src="/assets/Lrk5Erw.jpg" class="img-responsive" />
+<img src="/assets/Lrk5Erw.jpg" class="img-fluid post-img" />
 
 ### Assembly Instructions
 
@@ -166,7 +160,7 @@ This map can be copied and pasted into the Pixel Mapper in the Mapper tab of you
 
 If you're new to soldering, I highly recommend reading through a good soldering tutorial, such as the ones by [Adafruit](https://learn.adafruit.com/adafruit-guide-excellent-soldering) and [SparkFun](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering).
 
-<img src="/assets/BTdKtF9.jpg" class="img-responsive" />
+<img src="/assets/BTdKtF9.jpg" class="img-fluid post-img" />
 
 1. Find a clean spot on your soldering workspace. I used a piece of heavy card stock. Carefully place the board with the LEDs facing down and the bottom of the board facing up.
 1. **VERY** carefully check polarity before connecting 5V and GND.

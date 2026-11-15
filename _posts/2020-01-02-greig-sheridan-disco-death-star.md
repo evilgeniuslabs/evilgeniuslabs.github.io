@@ -11,9 +11,9 @@ redirect_from:
   - /32
 ---
 
-<a target="_blank" href="https://greiginsydney.com/wp-content/uploads/2019/12/IMG_8131_1200w.jpg"><img src="https://greiginsydney.com/wp-content/uploads/2019/12/IMG_8131_1200w.jpg" style="width:340px" class="img-responsive" /></a>
+<a target="_blank" href="https://greiginsydney.com/wp-content/uploads/2019/12/IMG_8131_1200w.jpg"><img src="https://greiginsydney.com/wp-content/uploads/2019/12/IMG_8131_1200w.jpg" style="width:340px" class="img-fluid post-img" /></a>
 
-<a target="_blank" href="https://greiginsydney.com/wp-content/uploads/2019/12/IMG_3863.jpg"><img src="https://greiginsydney.com/wp-content/uploads/2019/12/IMG_3863.jpg" style="width:340px" class="img-responsive" /></a>
+<a target="_blank" href="https://greiginsydney.com/wp-content/uploads/2019/12/IMG_3863.jpg"><img src="https://greiginsydney.com/wp-content/uploads/2019/12/IMG_3863.jpg" style="width:340px" class="img-fluid post-img" /></a>
 
 ### Info
 

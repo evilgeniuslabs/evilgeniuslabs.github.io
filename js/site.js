@@ -1,9 +1,12 @@
 /*
- * Site behaviour, no dependencies. Replaces jQuery + Bootstrap 3's JS + vanilla-lazyload.
+ * Site behaviour, no dependencies. Works with Bootstrap 5's CSS classes (show/collapsed) but not its JS.
+ * Uses its own data-toggle / data-target / data-parent attributes (not data-bs-*), so loading Bootstrap's JS
+ * later would not double-handle clicks.
  *
  * 1. Collapse  [data-toggle="collapse"]: navbar ☰ menu, FAQ accordion, "click to expand" panels.
- *              Target from data-target or href; data-parent makes an accordion (opening one closes the others).
- * 2. Dropdown  [data-toggle="dropdown"]: the "More" menu. Closes on outside click and Escape.
+ *              Target from data-target or href. data-parent (on the panel, Bootstrap 5 style, or on the toggle)
+ *              makes an accordion: opening one closes the others.
+ * 2. Dropdown  [data-toggle="dropdown"]: Portfolio / Products / More. Closes on outside click and Escape.
  * 3. Lazy media <video data-src data-poster> and <iframe data-src>: real src assigned shortly before they
  *              scroll into view (browsers can't natively lazy-load <video>).
  * 4. Motion    Looping autoplay videos: with "reduce motion" nothing autoplays (posters show; videos not inside a
@@ -33,19 +36,31 @@
   }
 
   function setCollapsed(panel, open) {
-    panel.classList.toggle("in", open);
+    panel.classList.toggle("show", open);
     togglesFor(panel).forEach(function (t) {
       t.classList.toggle("collapsed", !open);
       t.setAttribute("aria-expanded", open ? "true" : "false");
     });
   }
 
+  function setDropdown(dropdown, open) {
+    var t = dropdown.querySelector('[data-toggle="dropdown"]');
+    var menu = dropdown.querySelector(".dropdown-menu");
+    if (t) {
+      t.classList.toggle("show", open);
+      t.setAttribute("aria-expanded", open ? "true" : "false");
+    }
+    if (menu) menu.classList.toggle("show", open);
+  }
+
+  function openDropdown() {
+    var menu = document.querySelector(".dropdown-menu.show");
+    return menu ? menu.closest(".dropdown") : null;
+  }
+
   function closeDropdowns(except) {
-    document.querySelectorAll(".dropdown.open").forEach(function (dropdown) {
-      if (dropdown === except) return;
-      dropdown.classList.remove("open");
-      var t = dropdown.querySelector('[data-toggle="dropdown"]');
-      if (t) t.setAttribute("aria-expanded", "false");
+    document.querySelectorAll(".dropdown").forEach(function (dropdown) {
+      if (dropdown !== except) setDropdown(dropdown, false);
     });
   }
 
@@ -59,22 +74,23 @@
     event.preventDefault();
 
     if (toggle.getAttribute("data-toggle") === "dropdown") {
-      var dropdown = toggle.parentElement;
-      var open = !dropdown.classList.contains("open");
+      var dropdown = toggle.closest(".dropdown");
+      var menu = dropdown && dropdown.querySelector(".dropdown-menu");
+      if (!menu) return;
+      var open = !menu.classList.contains("show");
       closeDropdowns(dropdown);
-      dropdown.classList.toggle("open", open);
-      toggle.setAttribute("aria-expanded", open ? "true" : "false");
+      setDropdown(dropdown, open);
       return;
     }
 
     var panel = targetOf(toggle);
     if (!panel) return;
-    var opening = !panel.classList.contains("in");
-    var parentSelector = toggle.getAttribute("data-parent");
+    var opening = !panel.classList.contains("show");
+    var parentSelector = panel.getAttribute("data-parent") || toggle.getAttribute("data-parent");
     if (opening && parentSelector) {
       var parent = document.querySelector(parentSelector);
       if (parent) {
-        parent.querySelectorAll(".collapse.in").forEach(function (other) {
+        parent.querySelectorAll(".collapse.show").forEach(function (other) {
           if (other !== panel) setCollapsed(other, false);
         });
       }
@@ -84,7 +100,7 @@
 
   document.addEventListener("keydown", function (event) {
     if (event.key !== "Escape") return;
-    var open = document.querySelector(".dropdown.open");
+    var open = openDropdown();
     if (!open) return;
     closeDropdowns(null);
     var t = open.querySelector('[data-toggle="dropdown"]');

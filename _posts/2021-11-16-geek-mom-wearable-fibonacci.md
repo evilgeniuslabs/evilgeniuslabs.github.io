@@ -12,9 +12,9 @@ redirect_from:
   - /wearable
 ---
 
-<a target="_blank" href="https://i2.wp.com/www.geekmomprojects.com/wp-content/uploads/2021/08/PXL_20210802_181907232-2-scaled.jpg"><img src="https://i2.wp.com/www.geekmomprojects.com/wp-content/uploads/2021/08/PXL_20210802_181907232-2-scaled.jpg" style="width:340px" class="img-responsive" /></a>
+<a target="_blank" href="https://i2.wp.com/www.geekmomprojects.com/wp-content/uploads/2021/08/PXL_20210802_181907232-2-scaled.jpg"><img src="https://i2.wp.com/www.geekmomprojects.com/wp-content/uploads/2021/08/PXL_20210802_181907232-2-scaled.jpg" style="width:340px" class="img-fluid post-img" /></a>
 
-<a target="_blank" href="https://i0.wp.com/www.geekmomprojects.com/wp-content/uploads/2021/08/ezgif.com-gif-maker.gif?resize=150%2C267&ssl=1"><img src="https://i0.wp.com/www.geekmomprojects.com/wp-content/uploads/2021/08/ezgif.com-gif-maker.gif?resize=150%2C267&ssl=1" style="width:150px" class="img-responsive" /></a>
+<a target="_blank" href="https://i0.wp.com/www.geekmomprojects.com/wp-content/uploads/2021/08/ezgif.com-gif-maker.gif?resize=150%2C267&ssl=1"><img src="https://i0.wp.com/www.geekmomprojects.com/wp-content/uploads/2021/08/ezgif.com-gif-maker.gif?resize=150%2C267&ssl=1" style="width:150px" class="img-fluid post-img" /></a>
 
 ### Links
 

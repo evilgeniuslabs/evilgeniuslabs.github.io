@@ -10,11 +10,11 @@ redirect_from:
   - /24
 ---
 
-<img src="/assets/jT7bq4S.jpg" style="width:400px" class="img-responsive" />
+<img src="/assets/jT7bq4S.jpg" style="width:400px" class="img-fluid post-img" />
 
-<img src="/assets/2mjwnIJ.jpg" style="width:400px" class="img-responsive" />
+<img src="/assets/2mjwnIJ.jpg" style="width:400px" class="img-fluid post-img" />
 
-<img src="/assets/xSwN6sy.jpg" style="width:400px" class="img-responsive" />
+<img src="/assets/xSwN6sy.jpg" style="width:400px" class="img-fluid post-img" />
 
 <h3>Table of Contents</h3>
 
@@ -71,7 +71,7 @@ OR
 
 Open source example firmware and web application: [https://github.com/jasoncoon/esp32-fastled-webserver](https://github.com/jasoncoon/esp32-fastled-webserver)
 
-<img src="/assets/ks1Zyfa.jpg" style="width:600px" class="img-responsive" />
+<img src="/assets/ks1Zyfa.jpg" style="width:600px" class="img-fluid post-img" />
 
 Features:
 
@@ -95,7 +95,7 @@ I also built one of these [DIY flexible soldering helping hands](http://www.inst
 
 1. Insert the SN74HCT245N Level Shifter chip into the holes in the top side of the board, where indicated. Be sure the notch is correctly aligned toward the 0.1uF capacitor, as indicated with the markings on the PCB.
 
-<img src="/assets/eWWlZjD.jpg" class="img-responsive" />
+<img src="/assets/eWWlZjD.jpg" class="img-fluid post-img" />
 
 2. Flip the board over and solder one pin on the chip, pressing down on the PCB to ensure the chip is seated firmly.
 
@@ -103,41 +103,41 @@ I also built one of these [DIY flexible soldering helping hands](http://www.inst
 
 4. Insert the 0.1uF capacitor, flip over and solder.
 
-<img src="/assets/6CL4RwZ.jpg" class="img-responsive" />
+<img src="/assets/6CL4RwZ.jpg" class="img-fluid post-img" />
 
 5. Insert 300 Ohm to 500 Ohm resistors in each set of holes for each output you plan to use. Bend one leg 180 degrees around, flat against the resistor body, and insert it vertically.
 
-<img src="/assets/j57FbGf.jpg" class="img-responsive" />
+<img src="/assets/j57FbGf.jpg" class="img-fluid post-img" />
 
 6. Flip the board over and solder each leg of each resistor.
 
-<img src="/assets/oRzHNX6.jpg" class="img-responsive" />
+<img src="/assets/oRzHNX6.jpg" class="img-fluid post-img" />
 
-<img src="/assets/3CnX3MX.jpg" class="img-responsive" />
+<img src="/assets/3CnX3MX.jpg" class="img-fluid post-img" />
 
 7. Trim all the leads with a pair of wire cutters. Flush diagonal cutters work best.
 
 8. Insert the power barrel jack.
 
-<img src="/assets/DhTB9Jt.jpg" class="img-responsive" />
+<img src="/assets/DhTB9Jt.jpg" class="img-fluid post-img" />
 
 9. I used a twist tie through the corner mounting holes to hold it in while I flipped the PCB over and soldered it in.
 
-<img src="/assets/xMlnCuQ.jpg" class="img-responsive" />
+<img src="/assets/xMlnCuQ.jpg" class="img-fluid post-img" />
 
 10. The pads are very large, and connected to large ground and power planes on the board, so they might take a while to heat up before the solder starts to flow around the leads.
 
-<img src="/assets/PlBhEe5.jpg" class="img-responsive" />
+<img src="/assets/PlBhEe5.jpg" class="img-fluid post-img" />
 
 11. I use pre-assembled [3 pin JST-SM connectors](https://amzn.to/2CWBL1G) to connect the LEDs.
 
-<img src="/assets/Qg0ikxA.jpg" class="img-responsive" />
+<img src="/assets/Qg0ikxA.jpg" class="img-fluid post-img" />
 
 12. If possible, use a vise to hold the PCB vertically, and a helping hands tool to hold the wires as they're soldered.
 
-<img src="/assets/QmyMrN8.jpg" class="img-responsive" />
+<img src="/assets/QmyMrN8.jpg" class="img-fluid post-img" />
 
-<img src="/assets/YnxsDwQ.jpg" class="img-responsive" />
+<img src="/assets/YnxsDwQ.jpg" class="img-fluid post-img" />
 
 13. With a small amount of solder on the tip of the iron, heat the wire right on the bottom of the pad.
 
@@ -145,8 +145,8 @@ I also built one of these [DIY flexible soldering helping hands](http://www.inst
 
 15. Repeat this process for the other wires.
 
-<img src="/assets/80KyNTS.jpg" class="img-responsive" />
+<img src="/assets/80KyNTS.jpg" class="img-fluid post-img" />
 
 17. I used the NodeMCU-32S to hold the female headers correctly aligned while I soldered.
 
-<img src="/assets/lQHpR5x.jpg" class="img-responsive" />
+<img src="/assets/lQHpR5x.jpg" class="img-fluid post-img" />

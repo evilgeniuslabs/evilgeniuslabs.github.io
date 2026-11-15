@@ -50,7 +50,7 @@
   <title>Evil Genius Labs | {{ page_title }}</title>
 
   <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="/css/slate.bootstrap.min.css" />
+  <link rel="stylesheet" href="/css/bootstrap-5.3.8-slate.min.css">
 
   <!-- Custom styles -->
   <link rel="stylesheet" href="/css/styles.css">
@@ -85,89 +85,89 @@
     {% endfor %}
   {% endif %}
 
-  <a class="sr-only sr-only-focusable" href="#main">Skip to content</a>
+  <a class="visually-hidden-focusable" href="#main">Skip to content</a>
 
-  <!-- main nav -->
-  <header class="navbar navbar-static-top" id="top" role="banner">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#site-nav"
-          aria-expanded="false" aria-controls="site-nav">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
+  <!-- main nav (Bootstrap 5 markup; behaviour from /js/site.js, not Bootstrap's JS) -->
+  <header>
+    <nav class="navbar navbar-expand-md bg-primary" data-bs-theme="dark" aria-label="Main">
+      <div class="container-fluid">
         <a class="navbar-brand" href="/">Evil Genius Labs</a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#site-nav"
+          aria-controls="site-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="site-nav">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item dropdown">
+              <a href="/" class="nav-link dropdown-toggle{% if nav_section == "portfolio" %} active{% endif %}" data-toggle="dropdown"
+                role="button" aria-expanded="false">Portfolio</a>
+              <ul class="dropdown-menu nav-scroll" data-bs-popper="static">
+                <li><a class="dropdown-item{% if page.url == "/" %} active{% endif %}" href="/"{% if page.url == "/" %} aria-current="page"{% endif %}><strong>All portfolio</strong></a></li>
+                <li><hr class="dropdown-divider"></li>
+                {% for post in sorted %}{% if post.categories contains "portfolio" %}
+                <li><a class="dropdown-item{% if page.url == post.url %} active{% endif %}" href="{{ post.url }}"{% if page.url == post.url %} aria-current="page"{% endif %}>{{ post.title }}</a></li>
+                {% endif %}{% endfor %}
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a href="/products/" class="nav-link dropdown-toggle{% if nav_section == "products" %} active{% endif %}" data-toggle="dropdown"
+                role="button" aria-expanded="false">Products</a>
+              <ul class="dropdown-menu nav-scroll" data-bs-popper="static">
+                <li><a class="dropdown-item{% if page.url == "/products/" %} active{% endif %}" href="/products/"{% if page.url == "/products/" %} aria-current="page"{% endif %}><strong>All products</strong></a></li>
+                <li><hr class="dropdown-divider"></li>
+                {% for post in sorted %}{% if post.categories contains "products" %}
+                <li><a class="dropdown-item{% if page.url == post.url %} active{% endif %}" href="{{ post.url }}"{% if page.url == post.url %} aria-current="page"{% endif %}>{{ post.title }}</a></li>
+                {% endif %}{% endfor %}
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item{% if page.url == "/retired/" %} active{% endif %}" href="/retired/"{% if page.url == "/retired/" %} aria-current="page"{% endif %}>Retired Products</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link{% if nav_section == "store" %} active{% endif %}" href="/store/"{% if page.url == "/store/" %} aria-current="page"{% endif %}>Store</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle{% if nav_section == "more" %} active{% endif %}" data-toggle="dropdown"
+                role="button" aria-expanded="false">More</a>
+              <ul class="dropdown-menu" data-bs-popper="static">
+                {% for link in more_links %}
+                {% assign link_url = link | split: "|" | first %}
+                {% assign link_text = link | split: "|" | last %}
+                <li><a class="dropdown-item{% if page.url == link_url %} active{% endif %}" href="{{ link_url }}"{% if page.url == link_url %} aria-current="page"{% endif %}>{{ link_text }}</a></li>
+                {% endfor %}
+              </ul>
+            </li>
+          </ul>
+          <ul class="navbar-nav nav-social">
+            <li class="nav-item">
+              <a class="nav-link" rel="me noopener" target="_blank" href="https://leds.social/@jasoncoon"
+                title="Follow @jasoncoon@leds.social on Mastodon" aria-label="Mastodon">{% include icon.html name="mastodon" %}</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" rel="me noopener" target="_blank" href="https://bsky.app/profile/evilgeniuslabs.org"
+                title="Follow @evilgeniuslabs.org on Bluesky" aria-label="Bluesky">{% include icon.html name="bluesky" %}</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" rel="me noopener" target="_blank" href="https://github.com/evilgeniuslabs" title="evilgeniuslabs on GitHub"
+                aria-label="GitHub">{% include icon.html name="github" %}</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" rel="me noopener" target="_blank" href="https://www.youtube.com/jasoncoon"
+                title="Subscribe to JasonCoon on YouTube" aria-label="YouTube">{% include icon.html name="youtube" %}</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/feed.xml" title="Subscribe to Evil Genius Labs updates with Atom/RSS"
+                aria-label="RSS feed">{% include icon.html name="rss" %}</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <nav class="collapse navbar-collapse" id="site-nav" aria-label="Main">
-        <ul class="nav navbar-nav">
-          <li class="dropdown{% if nav_section == "portfolio" %} active{% endif %}">
-            <a href="/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-              aria-expanded="false">Portfolio <span class="caret"></span></a>
-            <ul class="dropdown-menu nav-scroll">
-              <li{% if page.url == "/" %} class="active"{% endif %}><a href="/"{% if page.url == "/" %} aria-current="page"{% endif %}><strong>All portfolio</strong></a></li>
-              <li role="separator" class="divider"></li>
-              {% for post in sorted %}{% if post.categories contains "portfolio" %}
-              <li{% if page.url == post.url %} class="active"{% endif %}><a href="{{ post.url }}"{% if page.url == post.url %} aria-current="page"{% endif %}>{{ post.title }}</a></li>
-              {% endif %}{% endfor %}
-            </ul>
-          </li>
-          <li class="dropdown{% if nav_section == "products" %} active{% endif %}">
-            <a href="/products/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-              aria-expanded="false">Products <span class="caret"></span></a>
-            <ul class="dropdown-menu nav-scroll">
-              <li{% if page.url == "/products/" %} class="active"{% endif %}><a href="/products/"{% if page.url == "/products/" %} aria-current="page"{% endif %}><strong>All products</strong></a></li>
-              <li role="separator" class="divider"></li>
-              {% for post in sorted %}{% if post.categories contains "products" %}
-              <li{% if page.url == post.url %} class="active"{% endif %}><a href="{{ post.url }}"{% if page.url == post.url %} aria-current="page"{% endif %}>{{ post.title }}</a></li>
-              {% endif %}{% endfor %}
-              <li role="separator" class="divider"></li>
-              <li{% if page.url == "/retired/" %} class="active"{% endif %}><a href="/retired/"{% if page.url == "/retired/" %} aria-current="page"{% endif %}>Retired Products</a></li>
-            </ul>
-          </li>
-          <li{% if nav_section == "store" %} class="active"{% endif %}><a href="/store/"{% if page.url == "/store/" %} aria-current="page"{% endif %}>Store</a></li>
-          <li class="dropdown{% if nav_section == "more" %} active{% endif %}">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-              aria-expanded="false">More <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              {% for link in more_links %}
-              {% assign link_url = link | split: "|" | first %}
-              {% assign link_text = link | split: "|" | last %}
-              <li{% if page.url == link_url %} class="active"{% endif %}><a href="{{ link_url }}"{% if page.url == link_url %} aria-current="page"{% endif %}>{{ link_text }}</a></li>
-              {% endfor %}
-            </ul>
-          </li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li>
-            <a rel="me noopener" target="_blank" href="https://leds.social/@jasoncoon"
-              title="Follow @jasoncoon@leds.social on Mastodon" aria-label="Mastodon">{% include icon.html name="mastodon" %}</a>
-          </li>
-          <li>
-            <a rel="me noopener" target="_blank" href="https://bsky.app/profile/evilgeniuslabs.org"
-              title="Follow @evilgeniuslabs.org on Bluesky" aria-label="Bluesky">{% include icon.html name="bluesky" %}</a>
-          </li>
-          <li>
-            <a rel="me noopener" target="_blank" href="https://github.com/evilgeniuslabs" title="evilgeniuslabs on GitHub"
-              aria-label="GitHub">{% include icon.html name="github" %}</a>
-          </li>
-          <li>
-            <a rel="me noopener" target="_blank" href="https://www.youtube.com/jasoncoon"
-              title="Subscribe to JasonCoon on YouTube" aria-label="YouTube">{% include icon.html name="youtube" %}</a>
-          </li>
-          <li>
-            <a href="/feed.xml" title="Subscribe to Evil Genius Labs updates with Atom/RSS" aria-label="RSS feed">{% include icon.html name="rss" %}</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+    </nav>
   </header>
 
   {% if page.url == "/" %}
   <!-- banner: home page only; elsewhere the navbar carries the name and the page starts with its own title -->
-  <div class="bs-docs-header" id="content">
-    <div class="container">
+  <div class="site-banner" id="content">
+    <div class="container clearfix">
       <img id="egl-logo" alt="" src="/images/egl-light-buib-2-white.png">
       <h1>Evil Genius Labs</h1>
       <p>{{ site.description }}</p>
@@ -175,7 +175,7 @@
   </div>
   {% endif %}
 
-  <div class="container bs-docs-container">
+  <div class="container">
 
     <main id="main" tabindex="-1">
       {{ content }}
@@ -187,7 +187,7 @@
 
   <footer class="footer">
     <div class="container">
-      <span class="muted">© 2015-{{ 'now' | date: "%Y" }} Evil Genius Labs LLC</span>
+      <span class="text-body-secondary">© 2015-{{ 'now' | date: "%Y" }} Evil Genius Labs LLC</span>
     </div>
   </footer>
 

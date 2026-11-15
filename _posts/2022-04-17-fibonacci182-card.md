@@ -87,18 +87,12 @@ To treat the board as a matrix, you can use a pixel map. A 2D XY map can allow y
 
 This map can be copied and pasted into the Pixel Mapper in the Mapper tab of your Pixelblaze web interface.
 
-<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+<div class="accordion" id="accordion">
 
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingOne">
-      <h4 class="panel-title">
-        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-          Pixelblaze XY Map (click to expand)
-        </a>
-      </h4>
-    </div>
-    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-      <div class="panel-body">
+  <div class="accordion-item">
+    <h4 class="accordion-header" id="headingOne"><button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Pixelblaze XY Map (click to expand)</button></h4>
+    <div id="collapseOne" class="accordion-collapse collapse" data-parent="#accordion" aria-labelledby="headingOne">
+      <div class="accordion-body">
         <pre>
 [[44.41,26.99],[56.09,25.89],[61.33,23.9],[65.08,21.35],[67.88,18.38],[69.94,15.08],[71.35,11.54],[72.15,7.82],[76.4,7.41],[75.8,11.25],[74.67,14.91],[72.99,18.32],[70.74,21.42],[67.86,24.11],[64.26,26.31],[59.69,27.85],[53.23,28.39],[49.02,29.26],[57.07,30.9],[62.31,30.64],[66.54,29.42],[70.08,27.52],[73.07,25.08],[75.54,22.18],[77.51,18.92],[78.99,15.35],[77.48,26.57],[74.78,29.25],[71.66,31.45],[68.11,33.07],[64.09,34.01],[59.45,34.05],[53.71,32.73],[49.85,32.93],[55.95,36.33],[60.75,37.63],[65.02,37.79],[68.94,37.12],[72.53,35.76],[75.8,33.83],[78.74,31.38],[76.08,38.69],[72.65,40.34],[68.99,41.41],[65.14,41.82],[61.09,41.44],[56.83,40.09],[52.14,37.28],[45.38,30.36],[48.39,36.74],[52.65,41.29],[56.62,43.89],[60.54,45.35],[64.42,45.95],[68.25,45.82],[71.97,45.05],[75.56,43.7],[78.96,41.82],[77.84,47.19],[55.48,47.58],[51.95,45.04],[48.57,41.17],[45.1,34.33],[44.99,39.74],[47.43,44.91],[43.41,43.58],[42.34,37],[41.3,32.58],[40.21,41.2],[40.9,46.49],[37.31,43.92],[38.2,37.97],[37.83,34.06],[34.81,40.63],[33.88,45.58],[30.12,46.29],[31.14,41.89],[33.62,36.92],[40.75,28.87],[33.96,33.14],[29.65,37.86],[27.35,42.07],[26.2,46.12],[22.26,45.09],[23.57,41.29],[25.84,37.55],[29.48,33.83],[36.33,29.66],[30.68,30.19],[25.62,33.08],[22.26,36.24],[19.94,39.65],[18.44,43.25],[17.63,46.98],[13.78,44.28],[14.88,40.64],[16.6,37.21],[19.02,34.07],[22.26,31.3],[26.64,29],[33.31,27.38],[38.06,26.15],[28.78,25.69],[23.47,26.8],[19.44,28.7],[16.22,31.16],[13.66,34.07],[11.7,37.33],[10.29,40.87],[9.43,44.63],[7.29,36.81],[9.01,33.39],[11.24,30.3],[13.96,27.62],[17.22,25.43],[21.08,23.85],[25.74,23.06],[31.88,23.51],[35.86,22.97],[28.81,20.36],[23.74,19.82],[19.44,20.34],[15.66,21.64],[12.33,23.57],[9.42,26.01],[6.93,28.91],[8.28,21.31],[11.39,19.12],[14.83,17.46],[18.58,16.44],[22.66,16.15],[27.16,16.83],[32.41,18.95],[36.22,19.1],[31.04,15.05],[26.61,13.07],[22.46,12.24],[18.51,12.28],[14.76,13.03],[11.21,14.4],[7.9,16.32],[8.31,11.16],[11.82,9.53],[15.48,8.47],[19.26,8.01],[23.11,8.24],[27.01,9.24],[30.95,11.22],[35.01,14.61],[39.93,21.47],[38.7,15.59],[35.35,10.66],[31.9,7.54],[39.45,11.38],[41.65,18.13],[43.11,23.41],[42.87,13.28],[41.32,7.99],[45.18,9.94],[45.21,16.25],[45.92,20.33],[48.06,12.79],[48.21,7.62],[51.43,10.77],[49.69,16.27],[49.72,20.1],[53.46,14.47],[55.11,9.84],[58.95,9.87],[57.28,13.99],[54.16,18.37],[47.29,24.13],[53.41,22.09],[58.16,18.29],[61.03,14.56],[62.79,10.79],[67.65,8.88],[66.5,12.55],[64.61,16.06],[61.82,19.36],[57.75,22.38],[50.95,25.2]]
         </pre>
@@ -116,7 +110,7 @@ If you're new to soldering, I highly recommend reading through a good soldering 
 
 **Note**: Earlier versions of the PCB had header pin holes for 5V, GND, and Data In. Newer versions have pads, not holes. The pads allow you to either solder wires on, or solder a QT Py directly to the PCB.
 
-<img src="/assets/vTpDaWP.jpg" class="img-responsive" />
+<img src="/assets/vTpDaWP.jpg" class="img-fluid post-img" />
 
 1. Find a clean spot on your soldering workspace. I used a piece of heavy card stock. Carefully place the board with the LEDs facing down and the bottom of the board facing up.
 1. **VERY** carefully check polarity before connecting 5V and GND.

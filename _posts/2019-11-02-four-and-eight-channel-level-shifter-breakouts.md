@@ -11,13 +11,13 @@ redirect_from:
   - /31
 ---
 
-<img src="/assets/w4jhZna.jpg" style="width:340px" class="img-responsive" />
+<img src="/assets/w4jhZna.jpg" style="width:340px" class="img-fluid post-img" />
 
-<img src="/assets/yC4nscY.jpg" style="width:340px" class="img-responsive" />
+<img src="/assets/yC4nscY.jpg" style="width:340px" class="img-fluid post-img" />
 
-<img src="/assets/TwSkOY7.jpg" style="width:265px" class="img-responsive" />
+<img src="/assets/TwSkOY7.jpg" style="width:265px" class="img-fluid post-img" />
 
-<img src="/assets/HmgnFRA.jpg" style="width:265px" class="img-responsive" />
+<img src="/assets/HmgnFRA.jpg" style="width:265px" class="img-fluid post-img" />
 
 <h3>Table of Contents</h3>
 
@@ -85,7 +85,7 @@ Following the best practice recommendations of using a fast level shifter, large
 
 It's much smaller and easier to assemble, compared to the perma-proto boards I was building:
 
-<img src="/images/tree-v2-board.jpg" style="width:400px" class="img-responsive" />
+<img src="/images/tree-v2-board.jpg" style="width:400px" class="img-fluid post-img" />
 
 ### Assembly Instructions
 
@@ -93,28 +93,28 @@ It's much smaller and easier to assemble, compared to the perma-proto boards I w
 
 If you're new to soldering, I highly recommend reading through a good soldering tutorial, such as the ones by [Adafruit](https://learn.adafruit.com/adafruit-guide-excellent-soldering) and [SparkFun](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering).
 
-1. Insert the Level Shifter chip into the holes in the top side of the board, where indicated, with the indentation towards the left edge of the board. <img src="/assets/Ez9cXED.jpg" class="img-responsive" />
-   <img src="/assets/TM6OXFC.jpg" class="img-responsive" />
+1. Insert the Level Shifter chip into the holes in the top side of the board, where indicated, with the indentation towards the left edge of the board. <img src="/assets/Ez9cXED.jpg" class="img-fluid post-img" />
+   <img src="/assets/TM6OXFC.jpg" class="img-fluid post-img" />
 
 2. Flip the board over and solder one pin on the chip, pressing down on the PCB to ensure the chip is seated firmly.
 
 3. Make sure the chip is still seated properly before proceeding to solder the rest of the pins.
 
-4. Insert the 0.1uF capacitor, flip over and solder. <img src="/assets/Ey5xiq3.jpg" class="img-responsive" />
-   <img src="/assets/u6cM9sh.jpg" class="img-responsive" />
+4. Insert the 0.1uF capacitor, flip over and solder. <img src="/assets/Ey5xiq3.jpg" class="img-fluid post-img" />
+   <img src="/assets/u6cM9sh.jpg" class="img-fluid post-img" />
 
-5. Insert a 300 Ohm to 500 Ohm resistor in each set of holes for each output you plan to use. Bend one leg 180 degrees around, flat against the resistor body, and insert it vertically.<img src="/assets/7EGahcY.jpg" class="img-responsive" />
-   <img src="/assets/vLrAEy6.jpg" class="img-responsive" />
+5. Insert a 300 Ohm to 500 Ohm resistor in each set of holes for each output you plan to use. Bend one leg 180 degrees around, flat against the resistor body, and insert it vertically.<img src="/assets/7EGahcY.jpg" class="img-fluid post-img" />
+   <img src="/assets/vLrAEy6.jpg" class="img-fluid post-img" />
 
-6. Flip the board over and solder each leg of each resistor.<img src="/assets/3R9LFoa.jpg" class="img-responsive" />
-   <img src="/assets/qxkbv2j.jpg" class="img-responsive" />
+6. Flip the board over and solder each leg of each resistor.<img src="/assets/3R9LFoa.jpg" class="img-fluid post-img" />
+   <img src="/assets/qxkbv2j.jpg" class="img-fluid post-img" />
 
 7. Insert the power barrel jack.
 
 8. Flip the PCB over and solder it in.
 
 9. The pads are very large, and connected to large ground and power planes on the board, so they might take a while to heat up before the solder starts to flow around the leads.
-   <img src="/assets/TyPpH4b.jpg" class="img-responsive" />
+   <img src="/assets/TyPpH4b.jpg" class="img-fluid post-img" />
 
 10. Insert the large 1000uF capacitor, make sure the negative leg of the capacitor is in the negative labeled hole in the PCB.
 
@@ -125,16 +125,16 @@ If you're new to soldering, I highly recommend reading through a good soldering 
 13. I use pre-assembled [3 pin JST-SM connectors](https://amzn.to/2CWBL1G) to connect the LEDs.
 
 14. If possible, use a [PCB vise](https://www.thingiverse.com/thing:2801942) to hold the PCB vertically, and a helping hands tool to hold the wires as they're soldered.
-    <img src="/assets/xcbssd4.jpg" class="img-responsive" />
-    <img src="/assets/8ZGhc7M.jpg" class="img-responsive" />
-    <img src="/assets/ubfHZkL.jpg" class="img-responsive" />
-    <img src="/assets/xuQTFWw.jpg" class="img-responsive" />
-    <img src="/assets/OBeXEJQ.jpg" class="img-responsive" />
-    <img src="/assets/qYG9cjs.jpg" class="img-responsive" />
+    <img src="/assets/xcbssd4.jpg" class="img-fluid post-img" />
+    <img src="/assets/8ZGhc7M.jpg" class="img-fluid post-img" />
+    <img src="/assets/ubfHZkL.jpg" class="img-fluid post-img" />
+    <img src="/assets/xuQTFWw.jpg" class="img-fluid post-img" />
+    <img src="/assets/OBeXEJQ.jpg" class="img-fluid post-img" />
+    <img src="/assets/qYG9cjs.jpg" class="img-fluid post-img" />
 
 15. With a small amount of solder on the tip of the iron, heat the wire right on the bottom of the pad.
 
 16. Melt a fair amount of solder on the wire and pad. The insulation on the wire may start to melt as the wire heats up. If so, push the wire through the hole, from the top towards the bottom, to ensure no wire is left exposed on top.
 
 17. Repeat this process for the other wires.
-    <img src="/assets/wNDM8c7.jpg" class="img-responsive" />
+    <img src="/assets/wNDM8c7.jpg" class="img-fluid post-img" />

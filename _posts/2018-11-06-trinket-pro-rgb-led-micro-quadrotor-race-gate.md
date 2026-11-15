@@ -11,26 +11,26 @@ redirect_from:
   - /26
 ---
 
-<div class="row">
+<div class="row g-2">
 
-  <video playsinline class="post col-sm-4 col-xs-12 lazy" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/KDue2cs.mp4"></video>
+  <video playsinline class="post col-sm-4 col-12 lazy" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/KDue2cs.mp4"></video>
 
-  <video playsinline class="post col-sm-4 col-xs-12 lazy" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/VLQ5fCV.mp4"></video>
+  <video playsinline class="post col-sm-4 col-12 lazy" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/VLQ5fCV.mp4"></video>
 
-  <video playsinline class="post col-sm-4 col-xs-12 lazy" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/V9kHfCS.mp4"></video>
+  <video playsinline class="post col-sm-4 col-12 lazy" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/V9kHfCS.mp4"></video>
 
-<a href="/assets/LP60W0A.jpg" target="_blank"><img src="/assets/LP60W0A.jpg" class="col-sm-4 col-xs-12" /></a>
-<a href="/assets/M060Hxu.jpg" target="_blank"><img src="/assets/M060Hxu.jpg" class="col-sm-4 col-xs-12" /></a>
-<a href="/assets/HSkjbnz.jpg" target="_blank"><img src="/assets/HSkjbnz.jpg" class="col-sm-4 col-xs-12" /></a>
-<a href="/assets/sMUO99b.jpg" target="_blank"><img src="/assets/sMUO99b.jpg" class="col-sm-4 col-xs-12" /></a>
-<a href="/assets/JWSIr2c.jpg" target="_blank"><img src="/assets/JWSIr2c.jpg" class="col-sm-4 col-xs-12" /></a>
-<a href="/assets/9aP8yPQ.jpg" target="_blank"><img src="/assets/9aP8yPQ.jpg" class="col-sm-4 col-xs-12" /></a>
-<a href="/assets/HToMlpe.jpg" target="_blank"><img src="/assets/HToMlpe.jpg" class="col-sm-4 col-xs-12" /></a>
-<a href="/assets/Fvj1nbg.jpg" target="_blank"><img src="/assets/Fvj1nbg.jpg" class="col-sm-4 col-xs-12" /></a>
-<a href="/assets/VUIQWmk.jpg" target="_blank"><img src="/assets/VUIQWmk.jpg" class="col-sm-4 col-xs-12" /></a>
-<a href="/assets/NHmCcdx.jpg" target="_blank"><img src="/assets/NHmCcdx.jpg" class="col-sm-4 col-xs-12" /></a>
-<a href="/assets/aKOmQde.jpg" target="_blank"><img src="/assets/aKOmQde.jpg" class="col-sm-4 col-xs-12" /></a>
-<a href="/assets/A0Yvsf7.jpg" target="_blank"><img src="/assets/A0Yvsf7.jpg" class="col-sm-4 col-xs-12" /></a>
+<a class="col-12 col-sm-4" href="/assets/LP60W0A.jpg" target="_blank"><img src="/assets/LP60W0A.jpg" class="w-100 d-block" /></a>
+<a class="col-12 col-sm-4" href="/assets/M060Hxu.jpg" target="_blank"><img src="/assets/M060Hxu.jpg" class="w-100 d-block" /></a>
+<a class="col-12 col-sm-4" href="/assets/HSkjbnz.jpg" target="_blank"><img src="/assets/HSkjbnz.jpg" class="w-100 d-block" /></a>
+<a class="col-12 col-sm-4" href="/assets/sMUO99b.jpg" target="_blank"><img src="/assets/sMUO99b.jpg" class="w-100 d-block" /></a>
+<a class="col-12 col-sm-4" href="/assets/JWSIr2c.jpg" target="_blank"><img src="/assets/JWSIr2c.jpg" class="w-100 d-block" /></a>
+<a class="col-12 col-sm-4" href="/assets/9aP8yPQ.jpg" target="_blank"><img src="/assets/9aP8yPQ.jpg" class="w-100 d-block" /></a>
+<a class="col-12 col-sm-4" href="/assets/HToMlpe.jpg" target="_blank"><img src="/assets/HToMlpe.jpg" class="w-100 d-block" /></a>
+<a class="col-12 col-sm-4" href="/assets/Fvj1nbg.jpg" target="_blank"><img src="/assets/Fvj1nbg.jpg" class="w-100 d-block" /></a>
+<a class="col-12 col-sm-4" href="/assets/VUIQWmk.jpg" target="_blank"><img src="/assets/VUIQWmk.jpg" class="w-100 d-block" /></a>
+<a class="col-12 col-sm-4" href="/assets/NHmCcdx.jpg" target="_blank"><img src="/assets/NHmCcdx.jpg" class="w-100 d-block" /></a>
+<a class="col-12 col-sm-4" href="/assets/aKOmQde.jpg" target="_blank"><img src="/assets/aKOmQde.jpg" class="w-100 d-block" /></a>
+<a class="col-12 col-sm-4" href="/assets/A0Yvsf7.jpg" target="_blank"><img src="/assets/A0Yvsf7.jpg" class="w-100 d-block" /></a>
 
 </div>
 
@@ -109,7 +109,7 @@ I used this [3D printed vise](https://www.thingiverse.com/thing:2801942) to hold
 
 I also built one of these [DIY flexible soldering helping hands](http://www.instructables.com/id/DIY-Flexible-Soldering-Helping-Hand/).
 
-<img src="/assets/HkRdXLb.jpg" class="img-responsive" />
+<img src="/assets/HkRdXLb.jpg" class="img-fluid post-img" />
 
 1. Insert the 300 Ohm to 500 Ohm resistor.
 
@@ -122,7 +122,7 @@ I also built one of these [DIY flexible soldering helping hands](http://www.inst
 5. I used a pre-assembled [3 pin JST-SM connector](https://amzn.to/2CWBL1G) to connect the LEDs.
 
 6. If possible, use a vise to hold the PCB vertically, and a helping hands tool to hold the wires as they're soldered.
-   <img src="/assets/26X166P.jpg" class="img-responsive" />
+   <img src="/assets/26X166P.jpg" class="img-fluid post-img" />
    Â
 7. With a small amount of solder on the tip of the iron, heat the wire right on the bottom of the pad.
 
@@ -131,7 +131,7 @@ I also built one of these [DIY flexible soldering helping hands](http://www.inst
 9. Repeat this process for the other wires.
 
 10. I used the Trinket to hold the female headers correctly aligned while I soldered.
-    <img src="/assets/A0Yvsf7.jpg" class="img-responsive" />
+    <img src="/assets/A0Yvsf7.jpg" class="img-fluid post-img" />
 
 ### Gate and Controller assembly
 

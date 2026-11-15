@@ -16,7 +16,7 @@ I'm preparing to exhibit at Maker Faire Kansas City 2017, and trying to come up 
 
 With what I have on hand, I quickly threw together a couple of breadboards, each with a Teensy, some RGB LEDs, and three potentiometers (using Paul Stoffregen's excellent [Sturdy Potentiometer Adapter for Breadboards](https://oshpark.com/shared_projects/P38N77nS)).
 
-<img src="/images/fastled-rgb-hsv-tutorial/breadboard.jpg" style="width:400px" class="img-responsive" />
+<img src="/images/fastled-rgb-hsv-tutorial/breadboard.jpg" style="width:400px" class="img-fluid post-img" />
 
 While this would work, it's not very durable. I need something that lots of people can tinker and play with all weekend, without worrying about replacing disconnected wires.
 
@@ -43,9 +43,9 @@ With these goals in mind, I created this PCB.
 
 <a href="https://oshpark.com/shared_projects/O7lkxF3n" target="_blank"><img src="https://oshpark.com/assets/badge-5b7ec47045b78aef6eb9d83b3bac6b1920de805e9a0c227658eac6e19a045b9c.png" alt="Order from OSH Park" /></a>
 
-<a href="https://oshpark.com/shared_projects/O7lkxF3n" target="_blank"><img src="/images/fastled-rgb-hsv-tutorial/pcb-top.png" style="width:400px" class="img-responsive" /></a>
+<a href="https://oshpark.com/shared_projects/O7lkxF3n" target="_blank"><img src="/images/fastled-rgb-hsv-tutorial/pcb-top.png" style="width:400px" class="img-fluid post-img" /></a>
 
-<a href="https://oshpark.com/shared_projects/O7lkxF3n" target="_blank"><img src="/images/fastled-rgb-hsv-tutorial/pcb-bottom.png" style="width:400px" class="img-responsive" /></a>
+<a href="https://oshpark.com/shared_projects/O7lkxF3n" target="_blank"><img src="/images/fastled-rgb-hsv-tutorial/pcb-bottom.png" style="width:400px" class="img-fluid post-img" /></a>
 
 Here are the Eagle files ([schematic](/images/fastled-rgb-hsv-tutorial/FastLED RGB & HSV Tutorial.sch) & [board](/images/fastled-rgb-hsv-tutorial/FastLED RGB & HSV Tutorial.brd))
 
@@ -104,7 +104,7 @@ You will need to solder the 5 header pins on the end of the Teensy as well. At t
 
 **PCB**
 
-<img src="/assets/nExINgG.jpg" style="width:400px" class="img-responsive" />
+<img src="/assets/nExINgG.jpg" style="width:400px" class="img-fluid post-img" />
 
 I prefer to add components to the PCB from the shortest to the tallest. I find this way is easiest to hold the PCB steady when soldering. If you have a [third hand](https://www.adafruit.com/categories?q=third%20hand), it can help as well.
 
@@ -142,7 +142,7 @@ Insert and solder the potentiometers.
 
 **NeoPixels**
 
-<img src="/assets/8nYOC2B.jpg" style="width:400px" class="img-responsive" />
+<img src="/assets/8nYOC2B.jpg" style="width:400px" class="img-fluid post-img" />
 
 Use a third hand, clothes pin, paper clip, etc to hold the short side of the right-angle header pins on the "DIN" side of the NeoPixel strip while you solder. The longer legs of the pins, with the black plastic insulator, should be sticking up at a right angle from the NeoPixel stick.
 

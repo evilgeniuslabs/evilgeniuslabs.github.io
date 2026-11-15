@@ -11,13 +11,13 @@ redirect_from:
   - /33
 ---
 
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe title="Dale Morris' RGB LED Staircase video" class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/P2HpgP1DUhQ" frameborder="0"></iframe>
+<div class="ratio ratio-16x9">
+  <iframe title="Dale Morris' RGB LED Staircase video" width="560" height="315" src="https://www.youtube.com/embed/P2HpgP1DUhQ" frameborder="0"></iframe>
 </div>
 <br />
 <br />
 
-<a target="_blank" href="https://discourseuploadspace.sfo2.cdn.digitaloceanspaces.com/original/3X/7/8/780405f882712d987299682db54f9aea262c63e8.jpeg"><img src="https://discourseuploadspace.sfo2.cdn.digitaloceanspaces.com/original/3X/7/8/780405f882712d987299682db54f9aea262c63e8.jpeg" style="width:340px" class="img-responsive" /></a>
+<a target="_blank" href="https://discourseuploadspace.sfo2.cdn.digitaloceanspaces.com/original/3X/7/8/780405f882712d987299682db54f9aea262c63e8.jpeg"><img src="https://discourseuploadspace.sfo2.cdn.digitaloceanspaces.com/original/3X/7/8/780405f882712d987299682db54f9aea262c63e8.jpeg" style="width:340px" class="img-fluid post-img" /></a>
 
 ### Info
 
