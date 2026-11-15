@@ -27,7 +27,7 @@ Lux Lavalier is a beautiful wearable 40mm battery powered pendant necklace with 
 **Geek-tested, Geek Mom Projects approved!**
 
 <!-- <div class="ratio ratio-1x1 img-thumbnail">
-  <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy"  style="width:340px">
+  <video playsinline preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy"  style="width:340px">
     <source src="/assets/EPf2onF.mp4" type="video/mp4">
   </video>
 </div> -->

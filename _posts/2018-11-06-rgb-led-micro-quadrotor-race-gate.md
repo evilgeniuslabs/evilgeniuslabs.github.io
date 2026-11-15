@@ -18,15 +18,15 @@ redirect_from:
 <br />
 
 <div class="row">
-  <video class="post col-sm-4 col-xs-12" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
+  <video playsinline class="post col-sm-4 col-xs-12" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
     <source src="/assets/KDue2cs.mp4" type="video/mp4">
   </video>
 
-  <video class="post col-sm-4 col-xs-12" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
+  <video playsinline class="post col-sm-4 col-xs-12" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
     <source src="/assets/VLQ5fCV.mp4" type="video/mp4">
   </video>
 
-  <video class="post col-sm-4 col-xs-12" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
+  <video playsinline class="post col-sm-4 col-xs-12" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
     <source src="/assets/V9kHfCS.mp4" type="video/mp4">
   </video>
 

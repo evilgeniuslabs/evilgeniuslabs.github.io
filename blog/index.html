@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Blog Posts
 ---
 
 <div class="page-header">
@@ -9,34 +9,6 @@ title: Home
 
 {% for post in site.posts %}
 {% if post.categories contains "blog" %}
-{% if post.imgurId != null %}
-<div class="col-md-6">
-  <div class="thumbnail" id="{{ post.id }}">
-    <div class="embed-responsive embed-responsive-16by9">
-      <a href="{{ post.url }}">
-        <video class="post" poster="/assets/{{ post.imgurId }}" preload="auto" autoplay="autoplay" muted="muted"
-          loop="loop">
-          <source src="/assets/{{ post.imgurId }}" type="video/mp4">
-        </video>
-      </a>
-    </div>
-    <div class="caption">
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-    </div>
-  </div>
-</div>
-{% elsif post.videoUrl != null %}
-<div class="col-md-6">
-  <div class="thumbnail" id="{{ post.id }}">
-    <div class="embed-responsive embed-responsive-16by9">
-      <iframe class="embed-responsive-item" width="560" height="315" src="{{ post.videoUrl }}" frameborder="0"
-        allowfullscreen></iframe>
-    </div>
-    <div class="caption">
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-    </div>
-  </div>
-</div>
-{% endif %}
+{% include post-card.html post=post %}
 {% endif %}
 {% endfor %}

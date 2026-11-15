@@ -5,6 +5,16 @@
 	margin-right: 10px;
 }
 
+/* Still-image thumbnails/heroes inside 16:9 boxes: letterbox like the videos do */
+.embed-responsive img.embed-responsive-item {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
 .img-responsive {
 	width: 600px;
 }

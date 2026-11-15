@@ -12,7 +12,7 @@ layout: default
 
 {% if page.videoUrl != null %}
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" width="560" height="315" src="{{ page.videoUrl }}" frameborder="0" allowfullscreen></iframe>
+  <iframe class="embed-responsive-item" width="560" height="315" src="{{ page.videoUrl }}" title="{{ page.title | escape }} video" allowfullscreen></iframe>
 </div>
 
 <br />
@@ -21,10 +21,15 @@ layout: default
 
 {% if page.imgurId != null %}
 {% assign poster_base = page.imgurId | split: "." | first %}
+{% assign hero_ext = page.imgurId | split: "." | last %}
 <div class="embed-responsive embed-responsive-16by9">
-  <video class="post lazy" data-poster="/assets/{{ poster_base }}.jpg" autoplay="autoplay" muted="muted" loop="loop">
+  {% if hero_ext == "mp4" %}
+  <video class="post lazy" data-poster="/assets/{{ poster_base }}.jpg" autoplay muted loop playsinline>
     <source data-src="/assets/{{ page.imgurId }}" type="video/mp4">
   </video>
+  {% else %}
+  <img class="embed-responsive-item" src="/assets/{{ page.imgurId }}" alt="{{ page.title | escape }}">
+  {% endif %}
 </div>
 <br />
 <br />

@@ -17,7 +17,7 @@ sortKey: Mega CycloHex
 
 <!-- <div class="embed-responsive embed-responsive-16by9">
    <a href="{{ post.url }}">
-      <video class="post" poster="/assets/nsAjW5T.jpg" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
+      <video playsinline class="post" poster="/assets/nsAjW5T.jpg" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
          <source src="/assets/nsAjW5T.mp4" type="video/mp4">
       </video>
    </a>
