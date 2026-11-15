@@ -252,6 +252,6 @@ You should now have the top and center row of the icosaLEDron assembled. Repeat 
 
 Turn it on. Hold it in your hand. Marvel at its beauty.
 
-<video class="post" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
+<video playsinline class="post" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
    <source src="/assets/KnSlyi7.mp4" type="video/mp4">
 </video>

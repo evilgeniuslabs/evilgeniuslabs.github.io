@@ -37,7 +37,7 @@ I have a [Flux3D Beamo](https://flux3dp.com/beamo/) 30W CO2 laser. I use the met
 A light coat of mineral oil before engraving makes them shiny, if that's the look you want.
 
 <div class="embed-responsive embed-responsive-16by9">
-  <video class="post lazy" autoplay="autoplay" muted="muted" loop="loop">
+  <video playsinline class="post lazy" autoplay="autoplay" muted="muted" loop="loop">
     <source data-src="/assets/rGQkxnr.mp4" type="video/mp4">
   </video>
 </div>

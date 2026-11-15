@@ -16,7 +16,7 @@ redirect_from:
 sortKey: Fibonacci0064 50mm Goggle Lens
 ---
 
-<!-- <video class="post" poster="/assets/U0uT02l.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop" style="width:684px">
+<!-- <video playsinline class="post" poster="/assets/U0uT02l.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop" style="width:684px">
    <source src="/assets/U0uT02l.mp4" type="video/mp4">
 </video> -->
 
@@ -42,7 +42,7 @@ It has solder pads on the back that match the pinout of the [QT Py by Adafruit](
 
 The four mounting holes are surrounded by capacitive touch compatible pads. They're connected to the A0-A3 pads/pins on the QT Py footprint. The SAMD21 QT Py supports capacitive touch on these pins.
 
-<video class="post" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
+<video playsinline class="post" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
    <source src="/assets/L1YCyR1.mp4" type="video/mp4">
 </video>
 

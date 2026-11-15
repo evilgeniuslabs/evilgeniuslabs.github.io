@@ -16,7 +16,7 @@ redirect_from:
 sortKey: Fibonacci0064 Micro HDR
 ---
 
-<!-- <video class="post" poster="/assets/g8GJGfI.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
+<!-- <video playsinline class="post" poster="/assets/g8GJGfI.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
    <source src="/assets/g8GJGfI.mp4" type="video/mp4">
 </video> -->
 

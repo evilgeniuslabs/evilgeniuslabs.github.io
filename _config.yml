@@ -1,8 +1,21 @@
 name: Evil Genius Labs
 description: Purveyor of finely hand-crafted pixels. ꩜
-url: https://evilgeniuslabs.org
+url: https://www.evilgeniuslabs.org
 author: Jason Coon
 permalink: /:title
 markdown: kramdown
 plugins:
   - jekyll-redirect-from
+# Setting exclude replaces Jekyll's defaults, so the defaults are listed here too.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .bundle
+  - .jekyll-cache
+  - package.json
+  - package-lock.json
+  - download.ts
+  - README.md
+  - REVIEW.md
