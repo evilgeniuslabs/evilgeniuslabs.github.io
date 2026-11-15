@@ -16,7 +16,6 @@ exclude:
   - .jekyll-cache
   - package.json
   - package-lock.json
-  - download.ts
   - README.md
   - REVIEW.md
   - scripts

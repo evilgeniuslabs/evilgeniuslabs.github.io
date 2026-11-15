@@ -181,11 +181,11 @@ If you ever do need to reset to the Fibonacci256's default map, use these values
 Fibonacci256 comes with a wide variety of patterns built-in.
 By default, it will automatically play a playlist of pre-selected patterns.
 
-- Color Waves <a href="/downloads/f256pb/F256 Color Waves.epe"><i class="fa fa-download" aria-hidden="true"></i></a>
-- Pride <a href="/downloads/f256pb/F256 Pride.epe"><i class="fa fa-download" aria-hidden="true"></i></a>
-- Stars <a href="/downloads/f256pb/F256 Stars.epe"><i class="fa fa-download" aria-hidden="true"></i></a>
-- Palette Noise <a href="/downloads/Palette Noise.epe"><i class="fa fa-download" aria-hidden="true"></i></a>
-- Palettes Outward <a href="/downloads/Palettes Outward.epe"><i class="fa fa-download" aria-hidden="true"></i></a>
+- Color Waves <a href="/downloads/f256pb/F256 Color Waves.epe" aria-label="Download Color Waves" title="Download Color Waves">{% include icon.html name="download" %}</a>
+- Pride <a href="/downloads/f256pb/F256 Pride.epe" aria-label="Download Pride" title="Download Pride">{% include icon.html name="download" %}</a>
+- Stars <a href="/downloads/f256pb/F256 Stars.epe" aria-label="Download Stars" title="Download Stars">{% include icon.html name="download" %}</a>
+- Palette Noise <a href="/downloads/Palette Noise.epe" aria-label="Download Palette Noise" title="Download Palette Noise">{% include icon.html name="download" %}</a>
+- Palettes Outward <a href="/downloads/Palettes Outward.epe" aria-label="Download Palettes Outward" title="Download Palettes Outward">{% include icon.html name="download" %}</a>
 
 The sequencer can be configured via the web interface over wi-fi in the following ways:
 

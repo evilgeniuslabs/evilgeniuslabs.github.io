@@ -1,0 +1,7 @@
+{%- comment -%}
+  Inline SVG icon: {% include icon.html name="github" %}
+  Decorative by default (aria-hidden); the surrounding link/button must carry the accessible name.
+  Icons live in _data/icons.yml (Font Awesome Free artwork, CC BY 4.0).
+{%- endcomment -%}
+{%- assign icon = site.data.icons[include.name] -%}
+<svg class="icon{% if include.class %} {{ include.class }}{% endif %}" viewBox="{{ icon.viewBox }}" aria-hidden="true" focusable="false"><path d="{{ icon.path }}"/></svg>

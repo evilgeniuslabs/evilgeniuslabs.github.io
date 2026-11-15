@@ -1,0 +1,8 @@
+{%- comment -%}
+  Content Security Policy (GitHub Pages can't send headers, so it's a <meta>; frame-ancestors/report-uri aren't
+  available that way). Scripts: our own files + Google Analytics only, no inline script. Styles allow inline
+  because posts use style="" attributes. Images: any https (posts hotlink Wikimedia, Lectronz, Giphy).
+  Media: ours + luxlavalier.com (tutorial video). Frames: YouTube only. Forms: Formspree.
+  If something new is blocked, the browser console says which directive; add the host here deliberately.
+{%- endcomment -%}
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://*.googletagmanager.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; media-src 'self' https://luxlavalier.com; frame-src https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com; font-src 'self'; form-action 'self' https://formspree.io; base-uri 'self'; object-src 'none'">

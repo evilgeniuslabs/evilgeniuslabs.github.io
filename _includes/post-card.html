@@ -20,7 +20,7 @@
         <img class="embed-responsive-item" src="/assets/{{ card.imgurId }}" loading="lazy" alt="{{ card.title | escape }}">
       </a>
       {% else %}
-      <iframe class="embed-responsive-item lazy" data-src="{{ card.videoUrl }}" title="{{ card.title | escape }} video"
+      <iframe class="embed-responsive-item" src="{{ card.videoUrl }}" loading="lazy" title="{{ card.title | escape }} video"
         allowfullscreen></iframe>
       {% endif %}
     </div>

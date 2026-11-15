@@ -191,7 +191,164 @@ Either way, you'll likely need to restart Arduino for the library to get loaded 
 
 I created a [simple Arduino sketch](https://gist.github.com/jasoncoon/fa1e7efd8726223c2b5c5eb5f7256d65) to show how RGB & HSV work to combine to create different colors. I also included a rainbow pattern that is displayed when the momentary tactile button is held pressed.
 
-Copy and paste the code into a new Arduino sketch: <script src="https://gist.github.com/jasoncoon/fa1e7efd8726223c2b5c5eb5f7256d65.js"></script>
+Copy and paste the code into a new Arduino sketch (it's also on GitHub as [FastLED-RGB-HSV-Tutorial.ino](https://gist.github.com/jasoncoon/fa1e7efd8726223c2b5c5eb5f7256d65)):
+
+{% raw %}
+```cpp
+#include "FastLED.h"
+
+// How many leds in your strip?
+#define NUM_LEDS 8
+
+// Data pin for the LEDs
+#define DATA_PIN 17
+
+// Potentiometer pins
+#define POT_0_PIN A0
+#define POT_1_PIN A1
+#define POT_2_PIN A2
+
+// Switch pin
+#define SWITCH_PIN 9
+
+// Push button pin
+#define BUTTON_PIN 2
+
+// Define the array of leds
+CRGB leds[NUM_LEDS];
+
+// setup is called once by Arduino automatically
+// all initial setup work should be done here
+void setup() {
+  // start the serial port, so we can log data to the Arduino IDE
+  Serial.begin(9600);
+  
+  // start FastLED, tell it about our LEDs
+  FastLED.addLeds<WS2811, DATA_PIN, GRB>(leds, NUM_LEDS);
+  
+  // set the LED brightness
+  // this is a global brightness, applied regardless of what color(s) are shown on the LEDs
+  FastLED.setBrightness(64);
+
+  // set the switch and button pins to input mode (as opposed to output), since we'll be reading from them
+  pinMode(SWITCH_PIN, INPUT);
+  pinMode(BUTTON_PIN, INPUT);
+}
+
+void loop() {
+  int value0 = analogRead(A0); // read the value from the first potentiometer
+  int value1 = analogRead(A1); // read the value from the second potentiometer
+  int value2 = analogRead(A2); // read the value from the third potentiometer
+
+  // read whether the button is pressed
+  boolean buttonIsPressed = digitalRead(BUTTON_PIN) == HIGH;
+  
+  // read whether the switch is on or off
+  boolean switchIsOn = digitalRead(SWITCH_PIN) == HIGH;
+
+  // scale the potentiometer values from 10-bit (0-1023) to 8-bit (0-255)
+  byte byte0 = map(value0, 0, 1023, 0, 255); // scale the value of first potentiometer
+  byte byte1 = map(value1, 0, 1023, 0, 255); // scale the value of second potentiometer
+  byte byte2 = map(value2, 0, 1023, 0, 255); // scale the value of third potentiometer
+
+  // log the scaled potentiomenter values to the Serial port
+  printValues(byte0, byte1, byte2);
+
+  // if the button is pressed, show rainbows!
+  if (buttonIsPressed) {
+    spinningRainbow();
+    // adjustableRainbow(byte0, byte1, byte2);
+  }
+  else if (switchIsOn) {
+    // if the button is not pressed, but the switch is on,
+    // set the color using RGB - red, green, and blue
+    setColorRGB(byte0, byte1, byte2);
+  }
+  else {
+    // if the button is not pressed, and the switch is not on,
+    // set the color using HSV - hue, saturation, and value (or brightness)
+    setColorHSV(byte0, byte1, byte2);
+  }
+
+  // use FastLED to show the color(s) we've set
+  FastLED.show();
+}
+
+void setColorRGB(byte r, byte g, byte b) {
+  // create a new RGB color
+  CRGB color = CRGB(r, g, b);
+
+  // use FastLED to set the color of all LEDs in the strip to the same color
+  fill_solid(leds, NUM_LEDS, color);
+}
+
+void setColorHSV(byte h, byte s, byte v) {
+  // create a new HSV color
+  CHSV color = CHSV(h, s, v);
+
+  // use FastLED to set the color of all LEDs in the strip to the same color
+  fill_solid(leds, NUM_LEDS, color);
+}
+
+// show a spinning or scrolling rainbow
+void spinningRainbow() {
+  // variable used for the initial hue of the rainbow
+  // we start it out at 0
+  // but since it's static, it'll keep it's value as we change it
+  static byte initialHue = 0;
+  
+  // increase the hue by 1 each time
+  initialHue = initialHue + 1;
+  
+  // the amount we want the hue to change between each LED
+  // by dividing the number of hues (255), by the number of LEDs,
+  // this code makes each LED a different color
+  // and covers the entire rainbow spectrum (red, orange, yellow, green, blue, indigo, violet)
+  byte changeInHue = 255 / NUM_LEDS;
+  
+  // use FastLED to fill the LEDs with a rainbow
+  fill_rainbow(leds, NUM_LEDS, initialHue, changeInHue);
+}
+
+// show a rainbow that is adjustable by the potentiometers
+void adjustableRainbow(byte numToFill, byte initialHue, byte changeInHue) {
+  // the "red" or "hue" knob will be used to set how many LEDs to fill with the rainbow
+  numToFill = map8(numToFill, 1, NUM_LEDS);
+
+  // the amount the color's hue will change between each LED
+  // we need to remap this from 0-255 to between 0 and the number of LEDs we have
+  changeInHue = map8(changeInHue, 8, 255 / NUM_LEDS);
+
+  // set all LEDs to black
+  FastLED.clear(); 
+
+  // use FastLED to fill the LEDs with the rainbow
+  fill_rainbow(leds, numToFill, initialHue, changeInHue);
+}
+
+void printValues(int value0, int value1, int value2) {
+  // keep track of the former values, so we can log only when they change
+  // since these are static, they'll keep their value between calls
+  static int lastValue0 = 0;
+  static int lastValue1 = 0;
+  static int lastValue2 = 0;
+
+  // if any of the values have changed
+  if (value0 != lastValue0 || value1 != lastValue1 || value2 != lastValue2) {
+    // print the new values to the Serial port
+    Serial.print(value0);
+    Serial.print(", "); Serial.print(value1);
+    Serial.print(", "); Serial.print(value2);
+    Serial.println("");
+
+    // store the new values
+    lastValue0 = value0;
+    lastValue1 = value1;
+    lastValue2 = value2;
+  }
+}
+```
+{% endraw %}
 
 ### Compiling
 

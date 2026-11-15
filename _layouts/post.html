@@ -5,7 +5,11 @@ layout: default
 <div class="page-header">
   <h1>{{ page.title }}</h1>
   <small>
-    <a href="http://evlgeni.us{{page.redirect_from[0]}}"><i class="fa fa-link" aria-hidden="true"></i></a>
+    {% if page.redirect_from[0] %}
+    {%- comment -%} Short link. evlgeni.us has no HTTPS yet, so use the main domain's short path (same redirect). {%- endcomment %}
+    <a href="https://www.evilgeniuslabs.org{{ page.redirect_from[0] }}" title="Short link: evilgeniuslabs.org{{ page.redirect_from[0] }}"
+      aria-label="Short link to this page">{% include icon.html name="link" %}</a>
+    {% endif %}
     Posted {{ page.date | date: "%B %e, %Y" }}
   </small>
 </div>
