@@ -23,16 +23,18 @@
   <!--[if IE]><link rel="shortcut icon" href="images/atom32.ico"><![endif]-->
   <!-- Firefox, Chrome, Safari, IE 11+ and Opera. 196x196 pixels in size. -->
   <link rel="icon" href="/images/atom196.png">
-  <link rel="canonical" href="{{ page.redirect.to }}">
-  <meta http-equiv="refresh" content="0; url={{ page.redirect.to }}">
+  <link rel="canonical" href="{{ page.redirect.to | escape }}">
+  <meta http-equiv="refresh" content="0; url={{ page.redirect.to | escape }}">
+  <meta name="robots" content="noindex">
 </head>
 
 <body>
   <div class="container">
     <h2>Redirecting…</h2>
-    <a href="{{ page.redirect.to }}">Click here if you are not redirected.</a>
+    <a href="{{ page.redirect.to | escape }}">Click here if you are not redirected.</a>
   </div>
-  <script>location = "{{ page.redirect.to }}"</script>
+  {% comment %} to_js is a JSON string literal, escaped by jekyll-redirect-from 0.17+ for safe use in a script. {% endcomment %}
+  <script>location = {{ page.redirect.to_js }}</script>
 </body>
 
 </html>
