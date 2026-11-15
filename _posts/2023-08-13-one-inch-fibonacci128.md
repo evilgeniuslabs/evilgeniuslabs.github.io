@@ -15,15 +15,15 @@ redirect_from:
 sortKey: Fibonacci0128 One Inch
 ---
 
-<a href="/assets/OPSRQJg.jpg" target="_blank"><img src="/assets/OPSRQJg.jpg" style="width:340px" /></a>
-<a href="/assets/hJaM5kV.jpg" target="_blank"><img src="/assets/hJaM5kV.jpg" style="width:340px" /></a>
-<a href="/assets/WPtWVOj.jpg" target="_blank"><img src="/assets/WPtWVOj.jpg" style="width:340px" /></a>
-<a href="/assets/WVNHbnu.jpg" target="_blank"><img src="/assets/WVNHbnu.jpg" style="width:340px" /></a>
-<a href="/assets/VtUPc6D.jpg" target="_blank"><img src="/assets/VtUPc6D.jpg" style="width:340px" /></a>
-<a href="/assets/nbgX3uo.jpg" target="_blank"><img src="/assets/nbgX3uo.jpg" style="width:340px" /></a>
-<a href="/assets/YPEkYqr.jpg" target="_blank"><img src="/assets/YPEkYqr.jpg" style="width:340px" /></a>
+<a href="/assets/OPSRQJg.jpg" target="_blank"><img alt="One Inch Fibonacci128 held in fingers, glowing pink and blue through its diffuser" src="/assets/OPSRQJg.jpg" style="width:340px" /></a>
+<a href="/assets/hJaM5kV.jpg" target="_blank"><img alt="One Inch Fibonacci128 PCB with 128 tiny LEDs glowing blue and purple" src="/assets/hJaM5kV.jpg" style="width:340px" /></a>
+<a href="/assets/WPtWVOj.jpg" target="_blank"><img alt="Unlit One Inch Fibonacci128 PCB with LEDs arranged in a Fibonacci spiral" src="/assets/WPtWVOj.jpg" style="width:340px" /></a>
+<a href="/assets/WVNHbnu.jpg" target="_blank"><img alt="Back of the One Inch Fibonacci128 with a QT Py microcontroller and USB-C port" src="/assets/WVNHbnu.jpg" style="width:340px" /></a>
+<a href="/assets/VtUPc6D.jpg" target="_blank"><img alt="One Inch Fibonacci128 in its 3D printed case with a Voronoi diffuser front" src="/assets/VtUPc6D.jpg" style="width:340px" /></a>
+<a href="/assets/nbgX3uo.jpg" target="_blank"><img alt="Back of the 3D printed case with the USB-C port exposed" src="/assets/nbgX3uo.jpg" style="width:340px" /></a>
+<a href="/assets/YPEkYqr.jpg" target="_blank"><img alt="Side view of the 3D printed case showing the USB-C port and screws" src="/assets/YPEkYqr.jpg" style="width:340px" /></a>
 
-<a href="https://lectronz.com/products/inch-fibonacci128" alt="Buy it on Lectronz"><img src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
+<a href="https://lectronz.com/products/inch-fibonacci128" alt="Buy it on Lectronz"><img alt="Buy it on Lectronz" src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
 
 <h3>Table of Contents</h3>
 
@@ -79,7 +79,7 @@ Press the button on the back (until it clicks) and it'll switch to the next patt
 
 If you're new to soldering, I highly recommend reading through a good soldering tutorial, such as the ones by [Adafruit](https://learn.adafruit.com/adafruit-guide-excellent-soldering) and [SparkFun](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering).
 
-<img src="/assets/WVNHbnu.jpg" style="width:340px" />
+<img alt="Back of the One Inch Fibonacci128 with a QT Py microcontroller and USB-C port" src="/assets/WVNHbnu.jpg" style="width:340px" />
 
 1. Find a clean spot on your soldering workspace. I used a piece of heavy card stock. Carefully place the board with the LEDs facing down and the bottom of the board facing up.
 1. **VERY** carefully check polarity before connecting 5V and GND.
@@ -97,10 +97,10 @@ If you're new to soldering, I highly recommend reading through a good soldering 
 
 #### 3D printed front
 
-<a href="/assets/OPSRQJg.jpg" target="_blank"><img src="/assets/cH2ze97.jpg" style="width:340px" /></a>
-<a href="/assets/OPSRQJg.jpg" target="_blank"><img src="/assets/xHmJ8Nq.jpg" style="width:340px" /></a>
-<a href="/assets/OPSRQJg.jpg" target="_blank"><img src="/assets/vBDcpaL.jpg" style="width:340px" /></a>
-<a href="/assets/OPSRQJg.jpg" target="_blank"><img src="/assets/gvG7DdM.jpg" style="width:340px" /></a>
+<a href="/assets/OPSRQJg.jpg" target="_blank"><img alt="3D printed translucent front cover for the One Inch Fibonacci128, with concentric print lines" src="/assets/cH2ze97.jpg" style="width:340px" /></a>
+<a href="/assets/OPSRQJg.jpg" target="_blank"><img alt="3D printed front cover at an angle" src="/assets/xHmJ8Nq.jpg" style="width:340px" /></a>
+<a href="/assets/OPSRQJg.jpg" target="_blank"><img alt="Side view of the 3D printed front cover case" src="/assets/vBDcpaL.jpg" style="width:340px" /></a>
+<a href="/assets/OPSRQJg.jpg" target="_blank"><img alt="Back of the 3D printed case with the USB-C port and screws" src="/assets/gvG7DdM.jpg" style="width:340px" /></a>
 
 3D print files: [https://www.printables.com/model/831490-1-fibonacci128-screw-diffuser-cover](https://www.printables.com/model/831490-1-fibonacci128-screw-diffuser-cover)
 
@@ -108,9 +108,9 @@ Use M2x4mm screws, inserted from the back, threaded through the back cover, thro
 
 #### Acrylic with screws in back
 
-<a href="/assets/OPSRQJg.jpg" target="_blank"><img src="/assets/6BTUx6L.jpg" style="width:340px" /></a>
-<a href="/assets/OPSRQJg.jpg" target="_blank"><img src="/assets/mBIWm9E.jpg" style="width:340px" /></a>
-<a href="/assets/OPSRQJg.jpg" target="_blank"><img src="/assets/gvG7DdM.jpg" style="width:340px" /></a>
+<a href="/assets/OPSRQJg.jpg" target="_blank"><img alt="One Inch Fibonacci128 in the acrylic case with screws in back, front view" src="/assets/6BTUx6L.jpg" style="width:340px" /></a>
+<a href="/assets/OPSRQJg.jpg" target="_blank"><img alt="Acrylic case with screws in back, at an angle, showing the Voronoi diffuser" src="/assets/mBIWm9E.jpg" style="width:340px" /></a>
+<a href="/assets/OPSRQJg.jpg" target="_blank"><img alt="Back of the 3D printed case with the USB-C port and screws" src="/assets/gvG7DdM.jpg" style="width:340px" /></a>
 
 This option requires acrylic with smaller 2.8mm screw holes so the screws thread into the acrylic.
 
@@ -118,9 +118,9 @@ You can use M2x7mm or M2x8mm screws, depending on how far out you want the ends 
 
 #### Acrylic with screws in front
 
-<a href="/assets/OPSRQJg.jpg" target="_blank"><img src="/assets/RCJ5i9i.jpg" style="width:340px" /></a>
-<a href="/assets/OPSRQJg.jpg" target="_blank"><img src="/assets/QpPWrXU.jpg" style="width:340px" /></a>
-<a href="/assets/OPSRQJg.jpg" target="_blank"><img src="/assets/gvG7DdM.jpg" style="width:340px" /></a>
+<a href="/assets/OPSRQJg.jpg" target="_blank"><img alt="One Inch Fibonacci128 in the acrylic case with screws in front" src="/assets/RCJ5i9i.jpg" style="width:340px" /></a>
+<a href="/assets/OPSRQJg.jpg" target="_blank"><img alt="Side view of the acrylic case with screws in front, USB-C port visible" src="/assets/QpPWrXU.jpg" style="width:340px" /></a>
+<a href="/assets/OPSRQJg.jpg" target="_blank"><img alt="Back of the 3D printed case with the USB-C port and screws" src="/assets/gvG7DdM.jpg" style="width:340px" /></a>
 
 1. Peel and remove any protective plastic and/or paper film from the acrylic.
 1. Insert M2x10mm Button Head Hex Screws into the holes in the matte side of the acrylic face plate.

@@ -18,8 +18,8 @@ sortKey: Fibonacci0064 Micro HDR
 
 <!-- <video playsinline class="post lazy" data-poster="/assets/g8GJGfI.png" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/g8GJGfI.mp4"></video> -->
 
-<a href="/assets/K2bqxvt.jpg" target="_blank"><img src="/assets/K2bqxvt.jpg" style="width:340px"  /></a>
-<a href="/assets/BTdKtF9.jpg" target="_blank"><img src="/assets/BTdKtF9.jpg" style="width:340px"  /></a>
+<a href="/assets/K2bqxvt.jpg" target="_blank"><img alt="Fibonacci64 Micro HDR glowing pink, blue and purple, with red and black power wires" src="/assets/K2bqxvt.jpg" style="width:340px"  /></a>
+<a href="/assets/BTdKtF9.jpg" target="_blank"><img alt="Back of Fibonacci64 Micro HDR with a Pixelblaze Pico attached and power wires soldered on" src="/assets/BTdKtF9.jpg" style="width:340px"  /></a>
 
 <h3>Table of Contents</h3>
 
@@ -32,7 +32,7 @@ Fibonacci64 Micro HDR is a beautiful 40mm circular disc with 64 RGB LEDs surface
 
 It consists of 64 SK9822-EC2020 HDR (High Dymanic Range) RGB LEDs, arranged into a circular <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.
 
-<a href="https://lectronz.com/products/fibonacci64-micro-hdr-40mm" alt="Buy it on Lectronz"><img src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
+<a href="https://lectronz.com/products/fibonacci64-micro-hdr-40mm" alt="Buy it on Lectronz"><img alt="Buy it on Lectronz" src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
 
 It has solder pads on the back that match the pinout of a [Pixelblaze V3 Pico by ElectroMage](https://shop.electromage.com/products/pixelblaze-v3-pico-tiny-wifi-led-controller), [QT Py by Adafruit](https://www.adafruit.com/?q=qt+py), or [XIAO by Seeed](https://www.seeedstudio.com/catalogsearch/result/?q=xiao). It can be used by any microcontroller via the 5V, GND, Clock and Data In pins.
 
@@ -62,7 +62,7 @@ It has solder pads on the back that match the pinout of a [Pixelblaze V3 Pico by
 - Designed in the US by Evil Genius Labs
 - Some PCBs are manufactured in the US by [OSH Park](https://oshpark.com)
 - Some are assembled in the US by Evil Genius Labs
-- Some are assembled in the US by [ElectroMage](https://electromage.com)! See [Pixelblaze Map](#pixelblaze-map) below for more information. <a href="https://electromage.com" target="_blank"><img src="/assets/JSukWUk.jpg" style="width:150px" class="img-fluid post-img" /></a>
+- Some are assembled in the US by [ElectroMage](https://electromage.com)! See [Pixelblaze Map](#pixelblaze-map) below for more information. <a href="https://electromage.com" target="_blank"><img alt="ElectroMage logo: a wizard conjuring a glowing rainbow cube" src="/assets/JSukWUk.jpg" style="width:150px" class="img-fluid post-img" /></a>
 
 **Parts**
 
@@ -132,27 +132,27 @@ This map can be copied and pasted into the Pixel Mapper in the Mapper tab of you
 1. Guide the wires through the holes in the back plate. Center and place the back plate onto the screws. Gently pull the slack out of the wires, through the slots in the back plate. The back plate should fit flush against the back of the PCB.
 1. Hand-tighten M2 Hex Nuts onto the screws.
 
-<img src="/assets/gSIIyeB.jpg" class="img-fluid post-img" />
+<img alt="Exploded side-view render: screws above the Fibonacci64 Micro HDR PCB, case layers and nuts below" src="/assets/gSIIyeB.jpg" class="img-fluid post-img" />
 
-<img src="/assets/V6sFYjP.jpg" class="img-fluid post-img" />
+<img alt="Exploded side-view render of the case layers with the Pixelblaze clip below" src="/assets/V6sFYjP.jpg" class="img-fluid post-img" />
 
-<img src="/assets/04DFta6.jpg" class="img-fluid post-img" />
+<img alt="Exploded side-view render with three screws above the stacked layers" src="/assets/04DFta6.jpg" class="img-fluid post-img" />
 
-<img src="/assets/efwTcve.jpg" class="img-fluid post-img" />
+<img alt="3D render of the round case with screws inserted, viewed from above" src="/assets/efwTcve.jpg" class="img-fluid post-img" />
 
-<img src="/assets/VVqsDXH.jpg" class="img-fluid post-img" />
+<img alt="Side-view render of the assembled stack with screws and nuts tightened" src="/assets/VVqsDXH.jpg" class="img-fluid post-img" />
 
-<img src="/assets/IoB18cV.jpg" class="img-fluid post-img" />
+<img alt="Side-view render of the assembled stack with the Pixelblaze clip underneath" src="/assets/IoB18cV.jpg" class="img-fluid post-img" />
 
-<img src="/assets/uNrHVci.jpg" class="img-fluid post-img" />
+<img alt="Side-view render of the finished stack" src="/assets/uNrHVci.jpg" class="img-fluid post-img" />
 
-<img src="/assets/sKSUWMC.jpg" class="img-fluid post-img" />
+<img alt="3D render of the assembled Fibonacci64 Micro HDR from below, with the Pixelblaze and its cable" src="/assets/sKSUWMC.jpg" class="img-fluid post-img" />
 
-<img src="/assets/ZKyQbHm.jpg" class="img-fluid post-img" />
+<img alt="3D render of the back of the assembled Fibonacci64 Micro HDR with the Pixelblaze cover and cable" src="/assets/ZKyQbHm.jpg" class="img-fluid post-img" />
 
-<img src="/assets/i1QUncM.jpg" class="img-fluid post-img" />
+<img alt="3D render of the assembled Fibonacci64 Micro HDR seen from the side, cable looped through the back" src="/assets/i1QUncM.jpg" class="img-fluid post-img" />
 
-<img src="/assets/Lrk5Erw.jpg" class="img-fluid post-img" />
+<img alt="3D render of the Fibonacci64 Micro HDR connected to a battery holder by a cable" src="/assets/Lrk5Erw.jpg" class="img-fluid post-img" />
 
 ### Assembly Instructions
 
@@ -160,7 +160,7 @@ This map can be copied and pasted into the Pixel Mapper in the Mapper tab of you
 
 If you're new to soldering, I highly recommend reading through a good soldering tutorial, such as the ones by [Adafruit](https://learn.adafruit.com/adafruit-guide-excellent-soldering) and [SparkFun](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering).
 
-<img src="/assets/BTdKtF9.jpg" class="img-fluid post-img" />
+<img alt="Back of Fibonacci64 Micro HDR with a Pixelblaze Pico attached and power wires soldered on" src="/assets/BTdKtF9.jpg" class="img-fluid post-img" />
 
 1. Find a clean spot on your soldering workspace. I used a piece of heavy card stock. Carefully place the board with the LEDs facing down and the bottom of the board facing up.
 1. **VERY** carefully check polarity before connecting 5V and GND.

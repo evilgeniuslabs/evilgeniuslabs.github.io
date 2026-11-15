@@ -20,10 +20,10 @@ sortKey: Fibonacci 128 Flex Bracelet
 
 <video playsinline class="post lazy" data-poster="/assets/VIlJk3Y.png" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/VIlJk3Y.mp4"></video>
 
-<a href="/assets/kD1Y1va.jpg" target="_blank"><img src="/assets/kD1Y1va.jpg" style="width:340px"  /></a>
-<a href="/assets/fzahOBP.jpg" target="_blank"><img src="/assets/fzahOBP.jpg" style="width:340px"  /></a>
-<a href="/assets/8zRjiJI.jpg" target="_blank"><img src="/assets/8zRjiJI.jpg" style="width:340px"  /></a>
-<a href="/assets/7JHcAPj.jpg" target="_blank"><img src="/assets/7JHcAPj.jpg" style="width:340px"  /></a> -->
+<a href="/assets/kD1Y1va.jpg" target="_blank"><img alt="Fibonacci HDR Heart pendant on a cord, unlit, showing its Voronoi-pattern diffuser" src="/assets/kD1Y1va.jpg" style="width:340px"  /></a>
+<a href="/assets/fzahOBP.jpg" target="_blank"><img alt="Fibonacci HDR Heart pendant at an angle, showing the thickness of its 3D printed case" src="/assets/fzahOBP.jpg" style="width:340px"  /></a>
+<a href="/assets/8zRjiJI.jpg" target="_blank"><img alt="Back of the Fibonacci HDR Heart pendant with the cord threaded through the case" src="/assets/8zRjiJI.jpg" style="width:340px"  /></a>
+<a href="/assets/7JHcAPj.jpg" target="_blank"><img alt="Back of the Fibonacci HDR Heart pendant with the cover partly lifted, showing the purple PCB inside" src="/assets/7JHcAPj.jpg" style="width:340px"  /></a> -->
 
 <h3>Table of Contents</h3>
 

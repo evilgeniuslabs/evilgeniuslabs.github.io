@@ -15,14 +15,14 @@ redirect_from:
 sortKey: Fibonacci0064 One Inch
 ---
 
-<a href="/assets/36WDLb4.jpg" target="_blank"><img src="/assets/36WDLb4.jpg" style="width:340px" /></a>
-<a href="/assets/5j1I4vR.jpg" target="_blank"><img src="/assets/5j1I4vR.jpg" style="width:340px" /></a>
-<a href="/assets/os6nuxz.jpg" target="_blank"><img src="/assets/os6nuxz.jpg" style="width:340px" /></a>
-<a href="/assets/WD5ZzBg.jpg" target="_blank"><img src="/assets/WD5ZzBg.jpg" style="width:340px" /></a>
-<a href="/assets/bPLNbqw.jpg" target="_blank"><img src="/assets/bPLNbqw.jpg" style="width:340px" /></a>
-<a href="/assets/nuRnffr.jpg" target="_blank"><img src="/assets/nuRnffr.jpg" style="width:340px" /></a>
+<a href="/assets/36WDLb4.jpg" target="_blank"><img alt="One Inch Fibonacci64 glowing red and teal, held next to a dime and a pencil" src="/assets/36WDLb4.jpg" style="width:340px" /></a>
+<a href="/assets/5j1I4vR.jpg" target="_blank"><img alt="One Inch Fibonacci64 glowing red, purple and blue, next to a dime and a pencil" src="/assets/5j1I4vR.jpg" style="width:340px" /></a>
+<a href="/assets/os6nuxz.jpg" target="_blank"><img alt="One Inch Fibonacci64 glowing red and pink, next to a dime and a pencil" src="/assets/os6nuxz.jpg" style="width:340px" /></a>
+<a href="/assets/WD5ZzBg.jpg" target="_blank"><img alt="One Inch Fibonacci64 glowing teal and green, next to a dime and a pencil" src="/assets/WD5ZzBg.jpg" style="width:340px" /></a>
+<a href="/assets/bPLNbqw.jpg" target="_blank"><img alt="Unlit One Inch Fibonacci64 PCB showing its 64 LEDs" src="/assets/bPLNbqw.jpg" style="width:340px" /></a>
+<a href="/assets/nuRnffr.jpg" target="_blank"><img alt="Back of the One Inch Fibonacci64 PCB with pads for DI, GND and 5V and a QT Py footprint" src="/assets/nuRnffr.jpg" style="width:340px" /></a>
 
-<a href="https://lectronz.com/products/inch-fibonacci64" alt="Buy it on Lectronz"><img src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
+<a href="https://lectronz.com/products/inch-fibonacci64" alt="Buy it on Lectronz"><img alt="Buy it on Lectronz" src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
 
 <h3>Table of Contents</h3>
 
@@ -74,7 +74,7 @@ Open source touch demo: [https://github.com/jasoncoon/fibonacci64-one-inch](http
 
 If you're new to soldering, I highly recommend reading through a good soldering tutorial, such as the ones by [Adafruit](https://learn.adafruit.com/adafruit-guide-excellent-soldering) and [SparkFun](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering).
 
-<img src="/assets/X8Wm4sq.jpg" class="img-fluid post-img" />
+<img alt="Back of the One Inch Fibonacci64 with a QT Py microcontroller and USB-C port soldered on" src="/assets/X8Wm4sq.jpg" class="img-fluid post-img" />
 
 1. Find a clean spot on your soldering workspace. I used a piece of heavy card stock. Carefully place the board with the LEDs facing down and the bottom of the board facing up.
 1. **VERY** carefully check polarity before connecting 5V and GND.

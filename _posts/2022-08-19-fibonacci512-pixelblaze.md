@@ -14,10 +14,10 @@ redirect_from:
 sortKey: Fibonacci0512pb
 ---
 
-<a href="/assets/ej7igQO.jpg" target="_blank"><img src="/assets/ej7igQO.jpg" style="width:340px"  /></a>
-<a href="/assets/fKj1V7K.jpg" target="_blank"><img src="/assets/fKj1V7K.jpg" style="width:340px"  /></a>
-<a href="/assets/RHiNHaU.jpg" target="_blank"><img src="/assets/RHiNHaU.jpg" style="width:340px"  /></a>
-<a href="/assets/FUcgUAu.jpg" target="_blank"><img src="/assets/FUcgUAu.jpg" style="width:340px"  /></a>
+<a href="/assets/ej7igQO.jpg" target="_blank"><img alt="Fibonacci512 HDR Pixelblaze glowing in blue and purple spiral arms" src="/assets/ej7igQO.jpg" style="width:340px"  /></a>
+<a href="/assets/fKj1V7K.jpg" target="_blank"><img alt="Fibonacci512 HDR Pixelblaze glowing in rainbow spiral arms" src="/assets/fKj1V7K.jpg" style="width:340px"  /></a>
+<a href="/assets/RHiNHaU.jpg" target="_blank"><img alt="Close-up at an angle of the Fibonacci512 HDR glowing blue and pink through its diffuser" src="/assets/RHiNHaU.jpg" style="width:340px"  /></a>
+<a href="/assets/FUcgUAu.jpg" target="_blank"><img alt="Fibonacci512 HDR LED board glowing, next to smaller Fibonacci boards and a hand for scale" src="/assets/FUcgUAu.jpg" style="width:340px"  /></a>
 
 <a href="https://lectronz.com/stores/evilgeniuslabs"><img alt="I sell on Lectronz" src="https://lectronz-images.b-cdn.net/static/badges/i-sell-on-lectronz-medium.png" /></a>
 
@@ -76,7 +76,7 @@ For more control, you can connect to it via wi-fi.
    where XXXXX is a code unique to your Fibonacci512. You should see it in the list of wi-fi networks available on
    a computer or mobile device:
 
-   <img src="/images/setup/wifi-android.png" class="img-thumbnail" style="width: 240px" />
+   <img alt="Phone Wi-Fi settings showing the Pixelblaze_807656 network, saved with no internet access" src="/images/setup/wifi-android.png" class="img-thumbnail" style="width: 240px" />
 
    **Note:** If you can't find the Fibonacci512's wi-fi network, it may not be in setup mode.
 
@@ -92,7 +92,7 @@ For more control, you can connect to it via wi-fi.
 1. You should see a pop-up and/or automatically get redirected to configure the Fibonacci512's wi-fi settings.
    If not, open a browser and go to [http://192.168.4.1](http://192.168.4.1)
 
-   <img src="/images/setup/wifi-settings.jpeg" class="img-thumbnail" style="width: 240px" />
+   <img alt="Pixelblaze WiFi Settings page on a phone, listing nearby networks to connect to" src="/images/setup/wifi-settings.jpeg" class="img-thumbnail" style="width: 240px" />
 
 In WiFi Settings you an configure your Fibonacci512 to run in one of two modes:
 
@@ -105,14 +105,14 @@ Use this mode while at home or another location with an existing wi-fi network t
 
 1. Choose the wi-fi network to which you'd like to connect, or enter the SSID (Name) if you know it, it's hidden, etc.
 
-   <img src="/images/setup/wifi-settings-2.jpeg" class="img-thumbnail" style="width: 240px" />
+   <img alt="Pixelblaze WiFi Settings on a phone with the network name and password filled in and the Submit button" src="/images/setup/wifi-settings-2.jpeg" class="img-thumbnail" style="width: 240px" />
 
 1. Enter the password for the wi-fi network.
 1. Leave **Enable Discovery Service** enabled to use the [Pixelblaze Discovery Service](http://discover.electromage.com),
    which makes it much easier to find your Pixelblaze on your wi-fi network later.
 1. Click Submit to connect.
 
-   <img src="/images/setup/wifi-settings-3.jpeg" class="img-thumbnail" style="width: 240px" />
+   <img alt="Pixelblaze WiFi Settings on a phone after pressing Submit, showing Connecting" src="/images/setup/wifi-settings-3.jpeg" class="img-thumbnail" style="width: 240px" />
 
 1. Once it has connected, it will have an IP address on your wi-fi network.
 1. The computer or mobile device you're using should automatically re-connect to its previous network (your home wi-fi, mobile data, etc).

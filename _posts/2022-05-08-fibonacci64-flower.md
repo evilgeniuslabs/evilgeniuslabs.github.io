@@ -19,9 +19,9 @@ sortKey: Fibonacci0064 Flower
    <video playsinline class="post lazy" data-poster="/assets/50JYqsw.jpg" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/50JYqsw.mp4"></video>
 </div> -->
 
-<a href="/assets/Vmn2bnJ.jpg" target="_blank"><img src="/assets/Vmn2bnJ.jpg" style="width:340px" /></a><a href="/assets/e2azNfa.jpg" target="_blank"><img src="/assets/e2azNfa.jpg" style="width:340px" /></a><a href="/assets/rmweViq.jpg" target="_blank"><img src="/assets/rmweViq.jpg" style="width:340px" /></a><a href="/assets/cOuoA0N.jpg" target="_blank"><img src="/assets/cOuoA0N.jpg" style="width:340px" /></a><a href="/assets/2z8lGsd.jpg" target="_blank"><img src="/assets/2z8lGsd.jpg" style="width:340px" /></a>
+<a href="/assets/Vmn2bnJ.jpg" target="_blank"><img alt="Fibonacci64 Flower held in hand, glowing magenta and red" src="/assets/Vmn2bnJ.jpg" style="width:340px" /></a><a href="/assets/e2azNfa.jpg" target="_blank"><img alt="Fibonacci64 Flower held in hand, glowing blue and purple" src="/assets/e2azNfa.jpg" style="width:340px" /></a><a href="/assets/rmweViq.jpg" target="_blank"><img alt="Unlit Fibonacci64 Flower showing its layered petal shape" src="/assets/rmweViq.jpg" style="width:340px" /></a><a href="/assets/cOuoA0N.jpg" target="_blank"><img alt="Fibonacci64 Flower LED PCB with an LED in each petal" src="/assets/cOuoA0N.jpg" style="width:340px" /></a><a href="/assets/2z8lGsd.jpg" target="_blank"><img alt="Back of the Fibonacci64 Flower PCB with petal outlines and connection pads" src="/assets/2z8lGsd.jpg" style="width:340px" /></a>
 
-<a href="https://lectronz.com/products/fibonacci64-flower-148mm" alt="Buy it on Lectronz"><img src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
+<a href="https://lectronz.com/products/fibonacci64-flower-148mm" alt="Buy it on Lectronz"><img alt="Buy it on Lectronz" src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
 
 <h3>Table of Contents</h3>
 
@@ -40,7 +40,7 @@ It was inspired by and created with a fork of [bleeptrack's overflower project](
 
 You can buy stickers of the designs in [bleeptrack's store](https://shop.bleeptrack.de/products/sticker-pack-overflower-3pcs)
 
-<a href="https://shop.bleeptrack.de/products/sticker-pack-overflower-3pcs"><img src="https://shop.bleeptrack.de/cdn/shop/products/II9A0128-2.jpg?v=1677954704&width=500" /></a>
+<a href="https://shop.bleeptrack.de/products/sticker-pack-overflower-3pcs"><img alt="Two flower-shaped stickers of bleeptrack&#x27;s Fibonacci64 Flower designs, one orange and one blue, held in a hand" src="https://shop.bleeptrack.de/cdn/shop/products/II9A0128-2.jpg?v=1677954704&width=500" /></a>
 
 It consists of 64 RGB LEDs, arranged into a flower-shaped <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.
 

@@ -143,7 +143,7 @@ If you're new to soldering, I highly recommend reading through a good soldering 
 
 **Note**: Earlier versions of the PCB had header pin holes for 5V, GND, and Data In. Newer versions have pads, not holes. The pads allow you to either solder wires on, or solder a QT Py directly to the PCB.
 
-<img src="/assets/MlFHURn.jpg" class="img-fluid post-img" />
+<img alt="Backs of two Fibonacci64 Micro v2 boards: one with power and data wires soldered, one with a QT Py and USB-C port" src="/assets/MlFHURn.jpg" class="img-fluid post-img" />
 
 1. Find a clean spot on your soldering workspace. I used a piece of heavy card stock. Carefully place the board with the LEDs facing down and the bottom of the board facing up.
 1. **VERY** carefully check polarity before connecting 5V and GND.

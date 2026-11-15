@@ -24,7 +24,7 @@ sortKey: Fibonacci0182 Card
 <a href="/assets/56UauS6.jpg" target="_blank"><img src="/assets/56UauS6.jpg" style="width:340px"  /></a>
 <a href="/assets/rlgRwNS.jpg" target="_blank"><img src="/assets/rlgRwNS.jpg" style="width:340px"  /></a> -->
 
-<a href="https://lectronz.com/products/fibonacci182-card" alt="Buy it on Lectronz"><img src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
+<a href="https://lectronz.com/products/fibonacci182-card" alt="Buy it on Lectronz"><img alt="Buy it on Lectronz" src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
 
 <h3>Table of Contents</h3>
 
@@ -110,7 +110,7 @@ If you're new to soldering, I highly recommend reading through a good soldering 
 
 **Note**: Earlier versions of the PCB had header pin holes for 5V, GND, and Data In. Newer versions have pads, not holes. The pads allow you to either solder wires on, or solder a QT Py directly to the PCB.
 
-<img src="/assets/vTpDaWP.jpg" class="img-fluid post-img" />
+<img alt="Back of the Fibonacci182 Card PCB with a QT Py microcontroller soldered in the center and pads for 5V, data and ground" src="/assets/vTpDaWP.jpg" class="img-fluid post-img" />
 
 1. Find a clean spot on your soldering workspace. I used a piece of heavy card stock. Carefully place the board with the LEDs facing down and the bottom of the board facing up.
 1. **VERY** carefully check polarity before connecting 5V and GND.

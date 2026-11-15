@@ -22,7 +22,7 @@ sortKey: Fibonacci0256hdrpb
 
 ### Details
 
-<a href="https://lectronz.com/products/fibonacci256-hdr-166mm" alt="Buy it on Lectronz"><img src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
+<a href="https://lectronz.com/products/fibonacci256-hdr-166mm" alt="Buy it on Lectronz"><img alt="Buy it on Lectronz" src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
 
 Fibonacci256 HDR is a beautiful 166mm circular disc with 256 RGB LEDs surface mounted in a Fibonacci distribution. Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
 
@@ -60,7 +60,7 @@ For more control, you can connect to it via wi-fi.
    where XXXXX is a code unique to your Fibonacci256. You should see it in the list of wi-fi networks available on
    a computer or mobile device:
 
-   <img src="/images/setup/wifi-android.png" class="img-thumbnail" style="width: 240px" />
+   <img alt="Phone Wi-Fi settings showing the Pixelblaze_807656 network, saved with no internet access" src="/images/setup/wifi-android.png" class="img-thumbnail" style="width: 240px" />
 
    **Note:** If you can't find the Fibonacci256's wi-fi network, it may not be in setup mode.
 
@@ -76,7 +76,7 @@ For more control, you can connect to it via wi-fi.
 1. You should see a pop-up and/or automatically get redirected to configure the Fibonacci256's wi-fi settings.
    If not, open a browser and go to [http://192.168.4.1](http://192.168.4.1)
 
-   <img src="/images/setup/wifi-settings.jpeg" class="img-thumbnail" style="width: 240px" />
+   <img alt="Pixelblaze WiFi Settings page on a phone, listing nearby networks to connect to" src="/images/setup/wifi-settings.jpeg" class="img-thumbnail" style="width: 240px" />
 
 In WiFi Settings you an configure your Fibonacci256 to run in one of two modes:
 
@@ -89,14 +89,14 @@ Use this mode while at home or another location with an existing wi-fi network t
 
 1. Choose the wi-fi network to which you'd like to connect, or enter the SSID (Name) if you know it, it's hidden, etc.
 
-   <img src="/images/setup/wifi-settings-2.jpeg" class="img-thumbnail" style="width: 240px" />
+   <img alt="Pixelblaze WiFi Settings on a phone with the network name and password filled in and the Submit button" src="/images/setup/wifi-settings-2.jpeg" class="img-thumbnail" style="width: 240px" />
 
 1. Enter the password for the wi-fi network.
 1. Leave **Enable Discovery Service** enabled to use the [Pixelblaze Discovery Service](http://discover.electromage.com),
    which makes it much easier to find your Pixelblaze on your wi-fi network later.
 1. Click Submit to connect.
 
-   <img src="/images/setup/wifi-settings-3.jpeg" class="img-thumbnail" style="width: 240px" />
+   <img alt="Pixelblaze WiFi Settings on a phone after pressing Submit, showing Connecting" src="/images/setup/wifi-settings-3.jpeg" class="img-thumbnail" style="width: 240px" />
 
 1. Once it has connected, it will have an IP address on your wi-fi network.
 1. The computer or mobile device you're using should automatically re-connect to its previous network (your home wi-fi, mobile data, etc).

@@ -14,7 +14,7 @@ redirect_from:
 sortKey: Fibonacci0256expandinghdr
 ---
 
-<a href="/assets/XpEm2VJ.jpg" target="_blank"><img src="/assets/XpEm2VJ.jpg" style="width:340px" /></a><a href="/assets/8FVEf2V.jpg" target="_blank"><img src="/assets/8FVEf2V.jpg" style="width:340px" /></a><a href="/assets/tmK3E7x.jpg" target="_blank"><img src="/assets/tmK3E7x.jpg" style="width:340px" /></a><a href="/assets/1pdD2p2.jpg" target="_blank"><img src="/assets/1pdD2p2.jpg" style="width:340px" /></a><a href="/assets/v0Knj3W.jpg" target="_blank"><img src="/assets/v0Knj3W.jpg" style="width:340px" /></a><a href="/assets/p7sbXcL.jpg" target="_blank"><img src="/assets/p7sbXcL.jpg" style="width:340px" /></a>
+<a href="/assets/XpEm2VJ.jpg" target="_blank"><img alt="Fibonacci256 Expanding HDR on a wall, glowing in red and purple spiral arms" src="/assets/XpEm2VJ.jpg" style="width:340px" /></a><a href="/assets/8FVEf2V.jpg" target="_blank"><img alt="Fibonacci256 Expanding HDR glowing in magenta and blue spirals" src="/assets/8FVEf2V.jpg" style="width:340px" /></a><a href="/assets/tmK3E7x.jpg" target="_blank"><img alt="Fibonacci256 Expanding HDR glowing blue with a pink center" src="/assets/tmK3E7x.jpg" style="width:340px" /></a><a href="/assets/1pdD2p2.jpg" target="_blank"><img alt="Fibonacci256 Expanding HDR glowing blue and green spirals" src="/assets/1pdD2p2.jpg" style="width:340px" /></a><a href="/assets/v0Knj3W.jpg" target="_blank"><img alt="Fibonacci256 Expanding HDR glowing cyan and green with a yellow center" src="/assets/v0Knj3W.jpg" style="width:340px" /></a><a href="/assets/p7sbXcL.jpg" target="_blank"><img alt="Fibonacci256 Expanding HDR glowing teal and green" src="/assets/p7sbXcL.jpg" style="width:340px" /></a>
 
 <h3>Table of Contents</h3>
 
@@ -23,7 +23,7 @@ sortKey: Fibonacci0256expandinghdr
 
 ### Details
 
-<a href="https://lectronz.com/products/fibonacci256-expanding-166mm-disc-w-256-rgb-leds" alt="Buy it on Lectronz"><img src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
+<a href="https://lectronz.com/products/fibonacci256-expanding-166mm-disc-w-256-rgb-leds" alt="Buy it on Lectronz"><img alt="Buy it on Lectronz" src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
 
 Fibonacci256 Expanding HDR is a beautiful 166mm circular disc with 256 RGB LEDs surface mounted in a Fibonacci layout. Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
 
@@ -59,7 +59,7 @@ To connect your Fibonacci to a wi-fi network:
    where XXXXX is a code unique to your Fibonacci. You should see it in the list of wi-fi networks available on
    a computer or mobile device:
 
-   <img src="/images/setup/wifi-android.png" class="img-thumbnail" style="width: 240px" />
+   <img alt="Phone Wi-Fi settings showing the Pixelblaze_807656 network, saved with no internet access" src="/images/setup/wifi-android.png" class="img-thumbnail" style="width: 240px" />
 
    **Note:** If you can't find the Fibonacci's wi-fi network, it may not be in setup mode.
 
@@ -74,7 +74,7 @@ To connect your Fibonacci to a wi-fi network:
 1. You should see a pop-up and/or automatically get redirected to configure the Fibonacci's wi-fi settings.
    If not, open a browser and go to [http://192.168.4.1](http://192.168.4.1)
 
-   <img src="/images/setup/wifi-settings.jpeg" class="img-thumbnail" style="width: 240px" />
+   <img alt="Pixelblaze WiFi Settings page on a phone, listing nearby networks to connect to" src="/images/setup/wifi-settings.jpeg" class="img-thumbnail" style="width: 240px" />
 
 In WiFi Settings you an configure your Fibonacci to run in one of two modes:
 
@@ -87,14 +87,14 @@ Use this mode while at home or another location with an existing wi-fi network t
 
 1. Choose the wi-fi network to which you'd like to connect, or enter the SSID (Name) if you know it, it's hidden, etc.
 
-   <img src="/images/setup/wifi-settings-2.jpeg" class="img-thumbnail" style="width: 240px" />
+   <img alt="Pixelblaze WiFi Settings on a phone with the network name and password filled in and the Submit button" src="/images/setup/wifi-settings-2.jpeg" class="img-thumbnail" style="width: 240px" />
 
 1. Enter the password for the wi-fi network.
 1. Leave **Enable Discovery Service** enabled to use the [Pixelblaze Discovery Service](http://discover.electromage.com),
    which makes it much easier to find your Pixelblaze on your wi-fi network later.
 1. Click Submit to connect.
 
-   <img src="/images/setup/wifi-settings-3.jpeg" class="img-thumbnail" style="width: 240px" />
+   <img alt="Pixelblaze WiFi Settings on a phone after pressing Submit, showing Connecting" src="/images/setup/wifi-settings-3.jpeg" class="img-thumbnail" style="width: 240px" />
 
 1. Once it has connected, it will have an IP address on your wi-fi network.
 1. The computer or mobile device you're using should automatically re-connect to its previous network (your home wi-fi, mobile data, etc).
@@ -206,9 +206,9 @@ You can download this backup file <a href="/downloads/Fibonacci256 Expanding HDR
 
 ### Assembly Instructions
 
-<img src="/images/f256-eh/case-1.png" class="img-thumbnail" style="width: 320px" />
-<img src="/images/f256-eh/case-7.png" class="img-thumbnail" style="width: 320px" />
-<img src="/images/f256-eh/case-6.png" class="img-thumbnail" style="width: 320px" />
+<img alt="3D render of the assembled Fibonacci256 Expanding HDR case from the side" src="/images/f256-eh/case-1.png" class="img-thumbnail" style="width: 320px" />
+<img alt="Exploded 3D render of the acrylic front, diffuser grid, LED PCB and back panel with screws" src="/images/f256-eh/case-7.png" class="img-thumbnail" style="width: 320px" />
+<img alt="Exploded side-view render of the case layers with screws and standoffs" src="/images/f256-eh/case-6.png" class="img-thumbnail" style="width: 320px" />
 
 #### Case Kit Parts
 
@@ -227,7 +227,7 @@ Pixelblaze output:
 1. Place the 4 pin JST-XH connector into the holes on the left side of the Pixelblaze (GND, DAT, CLK, and 5V).
 1. Flip it over and solder all four pins.
 
-<img src="/images/pixelblaze/pb3.jpg" class="img-thumbnail" style="width: 320px" />
+<img alt="Back of the Pixelblaze v3.6 with a 4-pin connector soldered on" src="/images/pixelblaze/pb3.jpg" class="img-thumbnail" style="width: 320px" />
 
 Pixelblaze expansion pins:
 
@@ -235,11 +235,11 @@ Pixelblaze expansion pins:
 1. Ensure the 7 pin header is inserted all the way down, and that there are pins in the GND, 3v3, and RX holes on the Pixelblaze.
 1. Flip the Pixelblaze over and solder at least the GND, 3v3, and RX pins.
 
-<img src="/images/pixelblaze/pb2.jpg" class="img-thumbnail" style="width: 320px" />
+<img alt="Back of the Pixelblaze v3.6 with the GND, 3v3 and RX pins soldered" src="/images/pixelblaze/pb2.jpg" class="img-thumbnail" style="width: 320px" />
 
 Pixelblaze Sensor Expansion Board:
 
-<img src="/images/pixelblaze/pb1.jpg" class="img-thumbnail" style="width: 320px" />
+<img alt="Pixelblaze v3.6 next to the Pixelblaze Sensor Expansion board" src="/images/pixelblaze/pb1.jpg" class="img-thumbnail" style="width: 320px" />
 
 1. With the Pixelblaze right-side up, with the pins pointing upwards, flip the Sensor Expansion Board over so the audio input jack is on the bottom, pointing down.
 1. Place the sensor board onto the Pixelblaze pins.
@@ -248,81 +248,81 @@ Pixelblaze Sensor Expansion Board:
 1. Double-check the pins are aligned and match up one more time.
 1. Solder at least the GND, 3v3, and TX pins on the Sensor Expansion board.
 
-<img src="/images/pixelblaze/pb4.jpg" class="img-thumbnail" style="width: 320px" />
+<img alt="Pixelblaze with the Sensor Expansion board stacked on it" src="/images/pixelblaze/pb4.jpg" class="img-thumbnail" style="width: 320px" />
 
 #### Power board assembly
 
 1. Insert the three-pin JST-XH connector into the power board as shown, flip it over, and solder the pins.
 1. Insert the power connector into the power board as shown, flip it over, and solder the pins.
 
-   <img src="/images/f256-eh/power-pcb.jpg" class="img-thumbnail" style="width: 320px" />
+   <img alt="Power board with a 5.5x2.1mm barrel jack and a connector soldered on" src="/images/f256-eh/power-pcb.jpg" class="img-thumbnail" style="width: 320px" />
 
 #### LED PCB Assembly
 
 1. The plastic fins on the JST-XH connectors may extend past the edge of the LED PCB when inserted. If so, they can be trimmed with a pair of wire cutters:
 
-   <img src="/images/f256-eh/jst1.jpg" class="img-thumbnail" style="width: 320px" />
+   <img alt="Trimming the plastic fins of a JST-XH connector with flush cutters" src="/images/f256-eh/jst1.jpg" class="img-thumbnail" style="width: 320px" />
 
 1. Insert the JST-XH connectors with the white plastic on the back of the LED PCB. The metal legs should be on the front, the side with the LEDs:
 
-   <img src="/images/f256-eh/jst2.jpg" class="img-thumbnail" style="width: 320px" />
+   <img alt="JST-XH connector inserted on the back of the LED PCB, pins labelled 5V, CI, DI and G" src="/images/f256-eh/jst2.jpg" class="img-thumbnail" style="width: 320px" />
 
 1. Flip the board over and solder all of the pins on both connectors.
 
-   <img src="/images/f256-eh/jst3.jpg" class="img-thumbnail" style="width: 320px" />
+   <img alt="Front of the LED PCB with the connector pins soldered through" src="/images/f256-eh/jst3.jpg" class="img-thumbnail" style="width: 320px" />
 
 #### Acrylic Case Assembly
 
 1. Arrange the acrylic front, diffuser grid, and LED PCB as shown. Note the position of the Voronoi grid on the front and grid pieces, they should line up. The connectors on the LED PCB should be on the top.
 
-   <img src="/images/f256-eh/case1.jpg" class="img-thumbnail" style="width: 320px" />
+   <img alt="The acrylic front, Voronoi diffuser grid and LED PCB laid out side by side" src="/images/f256-eh/case1.jpg" class="img-thumbnail" style="width: 320px" />
 
 1. Flip the acrylic front over, then flip the Voronoi grid over and place it's flat side on the glossy side of the acrylic front. Then flip the LED PCB over and place it on the grid's feet, lining up all of the mounting holes on all three pieces.
 
-   <img src="/images/f256-eh/case2.jpg" class="img-thumbnail" style="width: 320px" />
+   <img alt="Edge view of the LED PCB, diffuser grid and acrylic front stacked together, held in a hand" src="/images/f256-eh/case2.jpg" class="img-thumbnail" style="width: 320px" />
 
 1. Insert M2x12mm screws into each of the holes in the front of the acrylic, making sure each screw extends through the acrylic, grid, and PCB.
 
-   <img src="/images/f256-eh/case3.jpg" class="img-thumbnail" style="width: 320px" />
+   <img alt="Close-up of a screw through the front acrylic and stack, extending out the back" src="/images/f256-eh/case3.jpg" class="img-thumbnail" style="width: 320px" />
 
 1. Hand-tighten M2x10mm standoffs onto each of the screws.
 
-   <img src="/images/f256-eh/case4.jpg" class="img-thumbnail" style="width: 320px" />
+   <img alt="Stack with M2x10mm standoffs threaded onto the screws" src="/images/f256-eh/case4.jpg" class="img-thumbnail" style="width: 320px" />
 
 1. Insert M2x5mm screws into the four holes shown here, starting from the matte side, out of the glossy side, and hand-tighten M2x7mm standoffs onto them.
 
-   <img src="/images/f256-eh/case5.jpg" class="img-thumbnail" style="width: 320px" />
+   <img alt="Back panel with M2x5mm screws inserted in four holes" src="/images/f256-eh/case5.jpg" class="img-thumbnail" style="width: 320px" />
 
 1. Insert M2x10mm screws into the two holes shown here, and hand-tighten M2x10mm standoffs onto them.
 
-   <img src="/images/f256-eh/case6.jpg" class="img-thumbnail" style="width: 320px" />
+   <img alt="Back panel with M2x10mm screws and standoffs in two more holes" src="/images/f256-eh/case6.jpg" class="img-thumbnail" style="width: 320px" />
 
 1. Insert M2x10mm screws into the two holes shown here, and hand-tighten M2x10mm standoffs onto them.
 
-   <img src="/images/f256-eh/case6.jpg" class="img-thumbnail" style="width: 320px" />
+   <img alt="Back panel with M2x10mm screws and standoffs in two more holes" src="/images/f256-eh/case6.jpg" class="img-thumbnail" style="width: 320px" />
 
 1. Place the Pixelblaze and power board into the standoffs, insert M2x5mm screws into the holes shown here, and hand-tighten them.
 
-   <img src="/images/f256-eh/case7.jpg" class="img-thumbnail" style="width: 320px" />
+   <img alt="Pixelblaze and power board mounted on the back panel, next to the LED assembly" src="/images/f256-eh/case7.jpg" class="img-thumbnail" style="width: 320px" />
 
 1. Insert the three-pin end of the power wire harness into the connector on the power board.
 1. Insert either end of the four wire harness into the connector on the Pixelblaze.
 
-   <img src="/images/f256-eh/wiring1.jpg" class="img-thumbnail" style="width: 320px" />
+   <img alt="Four-wire harness connected to the Pixelblaze on the back panel" src="/images/f256-eh/wiring1.jpg" class="img-thumbnail" style="width: 320px" />
 
 1. Bend a loop into both wires, and cross them in the middle, as shown:
 
-   <img src="/images/f256-eh/wiring2.jpg" class="img-thumbnail" style="width: 320px" />
+   <img alt="Bending a loop into the harness wires and crossing them in the middle" src="/images/f256-eh/wiring2.jpg" class="img-thumbnail" style="width: 320px" />
 
 1. Holding the wires, flip the back panel over place it over the LED PCB as shown:
 
-   <img src="/images/f256-eh/wiring3.jpg" class="img-thumbnail" style="width: 320px" />
+   <img alt="Holding the wires while flipping the back panel over onto the LED PCB" src="/images/f256-eh/wiring3.jpg" class="img-thumbnail" style="width: 320px" />
 
 1. Insert the two-wire harness into the output connector (marked 5V, CO, DO, G) on the left side of the back of the LED PCB.
 1. Insert the four-wire harness into the input connector (marked 5V, CI, DI, G) on the right side of the back of the LED PCB.
 
-   <img src="/images/f256-eh/wiring4.jpg" class="img-thumbnail" style="width: 320px" />
+   <img alt="Four-wire harness plugged into the LED PCB input connector, back panel in place" src="/images/f256-eh/wiring4.jpg" class="img-thumbnail" style="width: 320px" />
 
 1. Place the back panel onto the standoffs, lining up the screw holes. Insert and hand-tighten M2x6mm screws.
 
-   <img src="/images/f256-eh/case7.jpg" class="img-thumbnail" style="width: 320px" />
+   <img alt="Pixelblaze and power board mounted on the back panel, next to the LED assembly" src="/images/f256-eh/case7.jpg" class="img-thumbnail" style="width: 320px" />

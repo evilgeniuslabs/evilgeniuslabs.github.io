@@ -15,13 +15,13 @@ redirect_from:
 sortKey: Fibonacci0032 One Inch
 ---
 
-<a href="/assets/p1h802V.jpg" target="_blank"><img src="/assets/p1h802V.jpg" style="width:340px" /></a>
-<a href="/assets/TMCIxrg.jpg" target="_blank"><img src="/assets/TMCIxrg.jpg" style="width:340px" /></a>
-<a href="/assets/0rUoHHm.jpg" target="_blank"><img src="/assets/0rUoHHm.jpg" style="width:340px" /></a>
-<a href="/assets/A4Mp9aR.jpg" target="_blank"><img src="/assets/A4Mp9aR.jpg" style="width:340px" /></a>
-<a href="/assets/VX8u6vM.jpg" target="_blank"><img src="/assets/VX8u6vM.jpg" style="width:340px" /></a>
+<a href="/assets/p1h802V.jpg" target="_blank"><img alt="One Inch Fibonacci32 glowing purple, held in fingers next to a US dime and a pencil for scale" src="/assets/p1h802V.jpg" style="width:340px" /></a>
+<a href="/assets/TMCIxrg.jpg" target="_blank"><img alt="One Inch Fibonacci32 glowing red, next to a dime and a pencil" src="/assets/TMCIxrg.jpg" style="width:340px" /></a>
+<a href="/assets/0rUoHHm.jpg" target="_blank"><img alt="One Inch Fibonacci32 glowing red and blue, next to a dime and a pencil" src="/assets/0rUoHHm.jpg" style="width:340px" /></a>
+<a href="/assets/A4Mp9aR.jpg" target="_blank"><img alt="Unlit One Inch Fibonacci32 PCB showing its 32 LEDs" src="/assets/A4Mp9aR.jpg" style="width:340px" /></a>
+<a href="/assets/VX8u6vM.jpg" target="_blank"><img alt="Back of the One Inch Fibonacci32 PCB with pads for DI, ground and 5V and a QT Py footprint" src="/assets/VX8u6vM.jpg" style="width:340px" /></a>
 
-<a href="https://lectronz.com/products/inch-fibonacci32" alt="Buy it on Lectronz"><img src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
+<a href="https://lectronz.com/products/inch-fibonacci32" alt="Buy it on Lectronz"><img alt="Buy it on Lectronz" src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
 
 <h3>Table of Contents</h3>
 
@@ -73,7 +73,7 @@ Open source touch demo: [https://github.com/jasoncoon/fibonacci32-one-inch](http
 
 If you're new to soldering, I highly recommend reading through a good soldering tutorial, such as the ones by [Adafruit](https://learn.adafruit.com/adafruit-guide-excellent-soldering) and [SparkFun](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering).
 
-<img src="/assets/DqfN3na.jpg" class="img-fluid post-img" />
+<img alt="Back of the One Inch Fibonacci32 with a QT Py microcontroller and USB-C port soldered on" src="/assets/DqfN3na.jpg" class="img-fluid post-img" />
 
 1. Find a clean spot on your soldering workspace. I used a piece of heavy card stock. Carefully place the board with the LEDs facing down and the bottom of the board facing up.
 1. **VERY** carefully check polarity before connecting 5V and GND.

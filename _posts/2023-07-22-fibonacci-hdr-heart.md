@@ -22,12 +22,12 @@ sortKey: Fibonacci HDR Heart
 
 <video playsinline class="post lazy" data-poster="/assets/VIlJk3Y.png" autoplay="autoplay" muted="muted" loop="loop" style="width:684px" data-src="/assets/VIlJk3Y.mp4"></video>
 
-<a href="/assets/kD1Y1va.jpg" target="_blank"><img src="/assets/kD1Y1va.jpg" style="width:340px"  /></a>
-<a href="/assets/fzahOBP.jpg" target="_blank"><img src="/assets/fzahOBP.jpg" style="width:340px"  /></a>
-<a href="/assets/8zRjiJI.jpg" target="_blank"><img src="/assets/8zRjiJI.jpg" style="width:340px"  /></a>
-<a href="/assets/7JHcAPj.jpg" target="_blank"><img src="/assets/7JHcAPj.jpg" style="width:340px"  /></a>
+<a href="/assets/kD1Y1va.jpg" target="_blank"><img alt="Fibonacci HDR Heart pendant on a cord, unlit, showing its Voronoi-pattern diffuser" src="/assets/kD1Y1va.jpg" style="width:340px"  /></a>
+<a href="/assets/fzahOBP.jpg" target="_blank"><img alt="Fibonacci HDR Heart pendant at an angle, showing the thickness of its 3D printed case" src="/assets/fzahOBP.jpg" style="width:340px"  /></a>
+<a href="/assets/8zRjiJI.jpg" target="_blank"><img alt="Back of the Fibonacci HDR Heart pendant with the cord threaded through the case" src="/assets/8zRjiJI.jpg" style="width:340px"  /></a>
+<a href="/assets/7JHcAPj.jpg" target="_blank"><img alt="Back of the Fibonacci HDR Heart pendant with the cover partly lifted, showing the purple PCB inside" src="/assets/7JHcAPj.jpg" style="width:340px"  /></a>
 
-<a href="https://lectronz.com/products/lux-lavalier-heart-wearable-light-art-pendant" alt="Buy it on Lectronz"><img src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
+<a href="https://lectronz.com/products/lux-lavalier-heart-wearable-light-art-pendant" alt="Buy it on Lectronz"><img alt="Buy it on Lectronz" src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
 
 <h3>Table of Contents</h3>
 
@@ -130,7 +130,7 @@ If the solder is sticking to the iron but not the pads, you may not be heating t
 1. Note where and how the Pixelblaze Pico aligns with the outline on the back of the Fibonacci board,
    and how the contacts line up.
 
-   <img src="/images/heart/heart-assembly-1.jpg" class="img-thumbnail" />
+   <img alt="Back of the heart PCB with the Pixelblaze Pico attached and pads labelled GND, DI, CI and 5V" src="/images/heart/heart-assembly-1.jpg" class="img-thumbnail" />
 
 1. Tin the 5V pad by melting a blob of solder onto it.
 
@@ -164,7 +164,7 @@ If the solder is sticking to the iron but not the pads, you may not be heating t
    Repeat until the wires are fairly straight. They do not need to be perfectly straight,
    and may still have a curve to them.
 
-   <img src="/images/heart/ll-necklace-1.jpg" class="img-thumbnail" />
+   <img alt="Lux Lavalier USB battery pack with the necklace cord wrapped around it" src="/images/heart/ll-necklace-1.jpg" class="img-thumbnail" />
 
 1. Your Lux Lavalier necklace wires will come approximately between 24" and 26".
    The wires will need to be trimmed to the length you desire.
@@ -186,13 +186,13 @@ If the solder is sticking to the iron but not the pads, you may not be heating t
    shorter. Measure twice, cut once.
    Cut the ends of the wires.
 
-   <img src="/images/heart/ll-necklace-2.jpg" class="img-thumbnail" />
+   <img alt="Necklace cord laid out straight next to a tape measure" src="/images/heart/ll-necklace-2.jpg" class="img-thumbnail" />
 
 1. Strip about 1/8" (3mm) of insulation off both ends of the wires. The insulation is relatively
    soft silicone, and can usually be stripped off by pinching it between your fingernails.
    If you use wire cutters or strippers, be careful not to cut any of the metal wire strands inside.
 
-   <img src="/images/heart/ll-necklace-3.jpg" class="img-thumbnail" />
+   <img alt="Necklace cord with its inline connector on a cutting mat, measured against a ruler" src="/images/heart/ll-necklace-3.jpg" class="img-thumbnail" />
 
 1. Using a soldering iron and solder, tin the ends of both wires, melting and completely saturating
    and covering the ends.
@@ -208,7 +208,7 @@ If the solder is sticking to the iron but not the pads, you may not be heating t
 
    Ensure the GND and DATA pads are not bridged or connected with solder.
 
-   <img src="/images/heart/heart-assembly-2.jpg" class="img-thumbnail" />
+   <img alt="Back of the heart PCB with the necklace cord wires soldered to its pads" src="/images/heart/heart-assembly-2.jpg" class="img-thumbnail" />
 
 1. Repeat for the other end of the wire and the 5V pad.
 
@@ -238,12 +238,12 @@ If the solder is sticking to the iron but not the pads, you may not be heating t
 
    Do not press it down flat yet.
 
-   <img src="/images/heart/heart-assembly-3.jpg" class="img-thumbnail" />
+   <img alt="3D printed back cover placed on the heart PCB, cord wires routed through the notches, not yet pressed flat" src="/images/heart/heart-assembly-3.jpg" class="img-thumbnail" />
 
 1. Gently guide the wires through the slots, then up through the holes.
    Gently press the back cover down until it's flat against the back of the PCB.
 
-   <img src="/images/heart/heart-assembly-4.jpg" class="img-thumbnail" />
+   <img alt="Back cover pressed flat against the back of the heart PCB" src="/images/heart/heart-assembly-4.jpg" class="img-thumbnail" />
 
 1. Align the holes in the acrylic and PCB, with the matte frosted side facing up and
    the glossy side facing towards the PCB.
@@ -253,7 +253,7 @@ If the solder is sticking to the iron but not the pads, you may not be heating t
    in to the acrylic. The holes in the acrylic are just large enough for the screws to
    thread into.
 
-   <img src="/images/heart/heart-assembly-5.jpg" class="img-thumbnail" />
+   <img alt="Heart pendant back with the cover screwed in place" src="/images/heart/heart-assembly-5.jpg" class="img-thumbnail" />
 
 1. Gently thread and hand-tighten the M2 screws, making sure not to pinch the wires.
    Do not over-tighten the screws, or the threads in the acrylic holes might strip.
@@ -261,7 +261,7 @@ If the solder is sticking to the iron but not the pads, you may not be heating t
    The screws should not go all the way through the acrylic. There should be about 1mm
    of space between the end of the screw and the front of the acrylic.
 
-   <img src="/images/heart/heart-assembly-6.jpg" class="img-thumbnail" />
+   <img alt="Front of the heart pendant with the black Voronoi diffuser in place" src="/images/heart/heart-assembly-6.jpg" class="img-thumbnail" />
 
 1. Repeat for each of the three screws.
 
@@ -273,10 +273,10 @@ If the solder is sticking to the iron but not the pads, you may not be heating t
 
    If needed, one of the bezel side clips can be trimmed with a knife or sanded with sandpaper to more easily fit over the acrylic.
 
-   <img src="/images/heart/heart-assembly-7.jpg" class="img-thumbnail" />
+   <img alt="Back of the heart pendant with the cover fitted inside the bezel" src="/images/heart/heart-assembly-7.jpg" class="img-thumbnail" />
 
-   <img src="/images/heart/heart-assembly-8.jpg" class="img-thumbnail" />
+   <img alt="Front of the heart pendant with the bezel clipped on" src="/images/heart/heart-assembly-8.jpg" class="img-thumbnail" />
 
 Congratulations! Your Lux Lavalier Heart is now fully assembled!
 
-   <img src="/images/heart/heart-assembly-9.jpg" class="img-thumbnail" />
+   <img alt="Finished Lux Lavalier Heart necklace connected to its battery holder" src="/images/heart/heart-assembly-9.jpg" class="img-thumbnail" />

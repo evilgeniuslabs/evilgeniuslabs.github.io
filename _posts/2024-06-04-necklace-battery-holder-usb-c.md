@@ -49,31 +49,31 @@ Wear your small LED devices around your neck, on the go!
 
 1. The battery comes inserted and taped inside the holder, with a piece of polyamide tape over the positive battery terminal for safety during shipping. All of the tape will need to be removed before use.
 
-   <a href="/assets/xL4I3hL.jpg" target="_blank"><img src="/assets/xL4I3hL.jpg" style="width:340px" /></a>
+   <a href="/assets/xL4I3hL.jpg" target="_blank"><img alt="Necklace battery holder with its battery inside and USB-C cable" src="/assets/xL4I3hL.jpg" style="width:340px" /></a>
 
 1. There is a tab on the end of the tape holding the battery inside the holder. Hold the tab, then peel to remove the tape.
 
-   <a href="/assets/KkkHdSW.jpg" target="_blank"><img src="/assets/KkkHdSW.jpg" style="width:340px" /></a>
+   <a href="/assets/KkkHdSW.jpg" target="_blank"><img alt="Peeling the tab of tape that holds the battery inside the holder" src="/assets/KkkHdSW.jpg" style="width:340px" /></a>
 
 1. Remove the battery from the holder by inserting your finger to grip the positive terminal (the end with the USB-C port).
 
-   <a href="/assets/4io6n3z.jpg" target="_blank"><img src="/assets/4io6n3z.jpg" style="width:340px" /></a>
+   <a href="/assets/4io6n3z.jpg" target="_blank"><img alt="Gripping the positive end of the battery to remove it from the holder" src="/assets/4io6n3z.jpg" style="width:340px" /></a>
 
 1. Press the battery towards the opposite (negative) side, then lift up to remove the battery from the holder.
 
-   <a href="/assets/5xlpQiv.jpg" target="_blank"><img src="/assets/5xlpQiv.jpg" style="width:340px" /></a>
+   <a href="/assets/5xlpQiv.jpg" target="_blank"><img alt="Lifting the battery out of the holder after pressing it toward the negative end" src="/assets/5xlpQiv.jpg" style="width:340px" /></a>
 
 1. Grip the tab and peel to remove the tape from the battery.
 
-   <a href="/assets/YDA6HgR.jpg" target="_blank"><img src="/assets/YDA6HgR.jpg" style="width:340px" /></a>
+   <a href="/assets/YDA6HgR.jpg" target="_blank"><img alt="Peeling the protective tape off the 920mAh battery" src="/assets/YDA6HgR.jpg" style="width:340px" /></a>
 
 1. All of the parts of the necklace battery holder, from left to right: USB-C to USB-A charging cable, battery, necklace battery holder. The black disc is a 1" Fibonacci128 and may not be included if you ordered the battery holder separately.
 
-   <a href="/assets/M3b6wLw.jpg" target="_blank"><img src="/assets/M3b6wLw.jpg" style="width:340px" /></a>
+   <a href="/assets/M3b6wLw.jpg" target="_blank"><img alt="All parts of the necklace battery holder: USB-C to USB-A cable, battery, holder with cable, and a pendant" src="/assets/M3b6wLw.jpg" style="width:340px" /></a>
 
 1. The USB-C to USB-A battery charging cable.
 
-   <a href="/assets/IdEATD3.jpg" target="_blank"><img src="/assets/IdEATD3.jpg" style="width:340px" /></a>
+   <a href="/assets/IdEATD3.jpg" target="_blank"><img alt="The USB-C to USB-A battery charging cable next to the battery" src="/assets/IdEATD3.jpg" style="width:340px" /></a>
 
 1. Insert the oval-shaped USB-C plug into the USB-C socket in the positive end of the battery. Press gently but firmly until it snaps and locks into place. Plug the other end of the cable into any USB-A port (wall wart charger, power bank, computer, etc).
 
@@ -81,16 +81,16 @@ Wear your small LED devices around your neck, on the go!
 
    The light will turn red while charging, then turn green when fully charged.
 
-   <a href="/assets/fYCHxiX.jpg" target="_blank"><img src="/assets/fYCHxiX.jpg" style="width:340px" /></a>
+   <a href="/assets/fYCHxiX.jpg" target="_blank"><img alt="Battery charging, connected to the USB-C cable" src="/assets/fYCHxiX.jpg" style="width:340px" /></a>
 
 1. Insert the battery into the holder with the flat negative end of the battery on the side of the holder with the spring, then snap the positive end into the holder.
 
    **Be VERY CAREFUL to ALWAYS insert the battery this way.**
 
-   <a href="/assets/pILtgDp.jpg" target="_blank"><img src="/assets/pILtgDp.jpg" style="width:340px" /></a>
+   <a href="/assets/pILtgDp.jpg" target="_blank"><img alt="Battery placed next to the empty holder, oriented with positive end matching the holder" src="/assets/pILtgDp.jpg" style="width:340px" /></a>
 
 1. You can then insert the USB-C plug into the socket on your Fibonacci's USB-C port.
 
    **NEVER insert the USB-C plug of the battery holder into any other USB-C socket of any charger, computer, laptop, tablet or other device.**
 
-   <a href="/assets/SNdTxzm.jpg" target="_blank"><img src="/assets/SNdTxzm.jpg" style="width:340px" /></a>
+   <a href="/assets/SNdTxzm.jpg" target="_blank"><img alt="Battery in the holder powering a pendant glowing red and yellow" src="/assets/SNdTxzm.jpg" style="width:340px" /></a>
