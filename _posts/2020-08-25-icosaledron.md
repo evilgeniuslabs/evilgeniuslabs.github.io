@@ -43,7 +43,7 @@ The triangles can be assembled into any [deltahedron](https://en.wikipedia.org/w
 Augmentation
 4 tets + 1 oct</a>
 
-<a href="https://lectronz.com/stores/evilgeniuslabs" alt="I sell on Lectronz"><img src="https://lectronz-images.b-cdn.net/static/badges/i-sell-on-lectronz-medium.png" /></a>
+<a href="https://lectronz.com/stores/evilgeniuslabs"><img alt="I sell on Lectronz" src="https://lectronz-images.b-cdn.net/static/badges/i-sell-on-lectronz-medium.png" /></a>
 
 <p>Deltahedron from <i>Wikipedia, The Free Encyclopedia</i>.  <a href="https://en.wikipedia.org/wiki/Deltahedron">https://en.wikipedia.org/wiki/Deltahedron</a>
 </p>
@@ -252,6 +252,4 @@ You should now have the top and center row of the icosaLEDron assembled. Repeat 
 
 Turn it on. Hold it in your hand. Marvel at its beauty.
 
-<video playsinline class="post" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
-   <source src="/assets/KnSlyi7.mp4" type="video/mp4">
-</video>
+<video playsinline class="post lazy" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/KnSlyi7.mp4"></video>

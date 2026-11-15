@@ -16,9 +16,7 @@ sortKey: Fibonacci0064 Flower
 ---
 
 <!-- <div class="embed-responsive embed-responsive-16by9">
-   <video playsinline class="post" poster="/assets/50JYqsw.jpg" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
-         <source src="/assets/50JYqsw.mp4" type="video/mp4">
-      </video>
+   <video playsinline class="post lazy" data-poster="/assets/50JYqsw.jpg" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/50JYqsw.mp4"></video>
 </div> -->
 
 <a href="/assets/Vmn2bnJ.jpg" target="_blank"><img src="/assets/Vmn2bnJ.jpg" style="width:340px" /></a><a href="/assets/e2azNfa.jpg" target="_blank"><img src="/assets/e2azNfa.jpg" style="width:340px" /></a><a href="/assets/rmweViq.jpg" target="_blank"><img src="/assets/rmweViq.jpg" style="width:340px" /></a><a href="/assets/cOuoA0N.jpg" target="_blank"><img src="/assets/cOuoA0N.jpg" style="width:340px" /></a><a href="/assets/2z8lGsd.jpg" target="_blank"><img src="/assets/2z8lGsd.jpg" style="width:340px" /></a>

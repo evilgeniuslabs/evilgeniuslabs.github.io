@@ -13,17 +13,11 @@ redirect_from:
 
 <div class="row">
 
-  <video playsinline class="post col-sm-4 col-xs-12" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="/assets/KDue2cs.mp4" type="video/mp4">
-  </video>
+  <video playsinline class="post col-sm-4 col-xs-12 lazy" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/KDue2cs.mp4"></video>
 
-  <video playsinline class="post col-sm-4 col-xs-12" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="/assets/VLQ5fCV.mp4" type="video/mp4">
-  </video>
+  <video playsinline class="post col-sm-4 col-xs-12 lazy" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/VLQ5fCV.mp4"></video>
 
-  <video playsinline class="post col-sm-4 col-xs-12" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="/assets/V9kHfCS.mp4" type="video/mp4">
-  </video>
+  <video playsinline class="post col-sm-4 col-xs-12 lazy" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/V9kHfCS.mp4"></video>
 
 <a href="/assets/LP60W0A.jpg" target="_blank"><img src="/assets/LP60W0A.jpg" class="col-sm-4 col-xs-12" /></a>
 <a href="/assets/M060Hxu.jpg" target="_blank"><img src="/assets/M060Hxu.jpg" class="col-sm-4 col-xs-12" /></a>

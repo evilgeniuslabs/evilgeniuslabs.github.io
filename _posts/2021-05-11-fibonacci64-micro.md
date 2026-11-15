@@ -16,9 +16,7 @@ redirect_from:
 sortKey: Fibonacci0064 Micro
 ---
 
-<!-- <video playsinline class="post" poster="/assets/j83kSI7.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
-   <source src="/assets/j83kSI7.mp4" type="video/mp4">
-</video> -->
+<!-- <video playsinline class="post lazy" data-poster="/assets/j83kSI7.png" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/j83kSI7.mp4"></video> -->
 
 <a href="/assets/MHJo2My.jpg" target="_blank"><img src="/assets/MHJo2My.jpg" style="width:340px"  /></a>
 <a href="/assets/zpv3plJ.jpg" target="_blank"><img src="/assets/zpv3plJ.jpg" style="width:340px"  /></a>
@@ -54,15 +52,13 @@ Fibonacci64 Micro is a beautiful 40mm circular disc with 64 RGB LEDs surface mou
 
 It consists of 64 WS2812C-2020 RGB LEDs, arranged into a circular <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.
 
-<a href="https://lectronz.com/stores/evilgeniuslabs" alt="I sell on Lectronz"><img src="https://lectronz-images.b-cdn.net/static/badges/i-sell-on-lectronz-medium.png" /></a>
+<a href="https://lectronz.com/stores/evilgeniuslabs"><img alt="I sell on Lectronz" src="https://lectronz-images.b-cdn.net/static/badges/i-sell-on-lectronz-medium.png" /></a>
 
 It has solder pads on the back that match the pinout of the [QT Py by Adafruit](https://www.adafruit.com/?q=qt+py), or [XIAO by Seeed](https://www.seeedstudio.com/catalogsearch/result/?q=xiao). It can be used by any microcontroller via the 5V, GND, and Data In pins. It also has a Data Out pad, for connecting more LEDs on the same data pin.
 
 The four mounting holes are surrounded by capacitive touch compatible pads. They're connected to the A0-A3 pads/pins on the QT Py footprint. The SAMD21 QT Py supports capacitive touch on these pins.
 
-<video playsinline class="post" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
-   <source src="/assets/L1YCyR1.mp4" type="video/mp4">
-</video>
+<video playsinline class="post lazy" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/L1YCyR1.mp4"></video>
 
 <p>In disc <a href="https://en.wikipedia.org/wiki/Phyllotaxis" title="Phyllotaxis">phyllotaxis</a>, as in the <a href="https://en.wikipedia.org/wiki/Sunflower" title="Sunflower" class="mw-redirect">sunflower</a> and daisy, the mesh of spirals occurs in <a href="https://en.wikipedia.org/wiki/Fibonacci_number" title="Fibonacci number">Fibonacci numbers</a> because divergence (angle of succession in a single spiral arrangement) approaches the <a href="https://en.wikipedia.org/wiki/Golden_ratio" title="Golden ratio">golden ratio</a>. The shape of the spirals depends on the growth of the elements generated sequentially. In mature-disc <a href="https://en.wikipedia.org/wiki/Phyllotaxis" title="Phyllotaxis">phyllotaxis</a>, when all the elements are the same size, the shape of the spirals is that of Fermat spirals—ideally. That is because Fermat's spiral traverses equal <a href="https://en.wikipedia.org/wiki/Annulus_(mathematics)" title="Annulus (mathematics)">annuli</a> in equal turns. The full model proposed by H Vogel in 1979<sup id="cite_ref-2" class="reference"><a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral#cite_note-2"><span>[</span>2<span>]</span></a></sup> is</p>
 <dl>

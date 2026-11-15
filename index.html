@@ -9,8 +9,10 @@ title: Home
 
 <br />
 
+<div class="row card-grid">
 {% for post in site.posts %}
 {% if post.categories contains "portfolio" %}
 {% include post-card.html post=post %}
 {% endif %}
 {% endfor %}
+</div>

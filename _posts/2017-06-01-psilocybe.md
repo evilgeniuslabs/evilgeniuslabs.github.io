@@ -59,9 +59,7 @@ Inner frame:
   </div>
 
   <div class="col-xs-12 col-md-6">
-    <video playsinline class="post" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
-      <source src="/assets/a5fB884.mp4" type="video/mp4">
-    </video>
+    <video playsinline class="post lazy" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/a5fB884.mp4"></video>
   </div>
 
 </div>

@@ -18,13 +18,9 @@ redirect_from:
 sortKey: Fibonacci HDR Heart
 ---
 
-<!-- <video playsinline class="post" poster="/assets/XFR7m2E.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop" style="width:684px">
-   <source src="/assets/XFR7m2E.mp4" type="video/mp4">
-</video> -->
+<!-- <video playsinline class="post lazy" data-poster="/assets/XFR7m2E.png" autoplay="autoplay" muted="muted" loop="loop" style="width:684px" data-src="/assets/XFR7m2E.mp4"></video> -->
 
-<video playsinline class="post" poster="/assets/VIlJk3Y.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop" style="width:684px">
-   <source src="/assets/VIlJk3Y.mp4" type="video/mp4">
-</video>
+<video playsinline class="post lazy" data-poster="/assets/VIlJk3Y.png" autoplay="autoplay" muted="muted" loop="loop" style="width:684px" data-src="/assets/VIlJk3Y.mp4"></video>
 
 <a href="/assets/kD1Y1va.jpg" target="_blank"><img src="/assets/kD1Y1va.jpg" style="width:340px"  /></a>
 <a href="/assets/fzahOBP.jpg" target="_blank"><img src="/assets/fzahOBP.jpg" style="width:340px"  /></a>

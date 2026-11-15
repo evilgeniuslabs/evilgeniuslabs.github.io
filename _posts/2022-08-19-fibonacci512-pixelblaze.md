@@ -19,7 +19,7 @@ sortKey: Fibonacci0512pb
 <a href="/assets/RHiNHaU.jpg" target="_blank"><img src="/assets/RHiNHaU.jpg" style="width:340px"  /></a>
 <a href="/assets/FUcgUAu.jpg" target="_blank"><img src="/assets/FUcgUAu.jpg" style="width:340px"  /></a>
 
-<a href="https://lectronz.com/stores/evilgeniuslabs" alt="I sell on Lectronz"><img src="https://lectronz-images.b-cdn.net/static/badges/i-sell-on-lectronz-medium.png" /></a>
+<a href="https://lectronz.com/stores/evilgeniuslabs"><img alt="I sell on Lectronz" src="https://lectronz-images.b-cdn.net/static/badges/i-sell-on-lectronz-medium.png" /></a>
 
 ---
 

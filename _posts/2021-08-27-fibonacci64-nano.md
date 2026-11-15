@@ -15,13 +15,9 @@ redirect_from:
 sortKey: Fibonacci0064 Nano
 ---
 
-<!-- <video playsinline class="post" poster="/assets/MsRNmcq.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
-   <source src="/assets/MsRNmcq.mp4" type="video/mp4">
-</video> -->
+<!-- <video playsinline class="post lazy" data-poster="/assets/MsRNmcq.png" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/MsRNmcq.mp4"></video> -->
 
-<video playsinline class="post" poster="/assets/p1UoRS3.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
-   <source src="/assets/p1UoRS3.mp4" type="video/mp4">
-</video>
+<video playsinline class="post lazy" data-poster="/assets/p1UoRS3.png" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/p1UoRS3.mp4"></video>
 
 <a href="/assets/uc9KQOF.jpg" target="_blank"><img src="/assets/uc9KQOF.jpg" style="width:340px" /></a>
 <a href="/assets/xbkqiP4.jpg" target="_blank"><img src="/assets/xbkqiP4.jpg" style="width:340px" /></a>
@@ -51,7 +47,7 @@ Fibonacci64 Nano is a tiny, beautiful 33mm circular disc with 64 RGB LEDs surfac
 
 It consists of 64 SK6805-EC15 1.5mm RGB LEDs, arranged into a circular <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.
 
-<a href="https://lectronz.com/stores/evilgeniuslabs" alt="I sell on Lectronz"><img src="https://lectronz-images.b-cdn.net/static/badges/i-sell-on-lectronz-medium.png" /></a>
+<a href="https://lectronz.com/stores/evilgeniuslabs"><img alt="I sell on Lectronz" src="https://lectronz-images.b-cdn.net/static/badges/i-sell-on-lectronz-medium.png" /></a>
 
 It has solder pads on the back that match the pinout of the [QT Py by Adafruit](https://www.adafruit.com/?q=qt+py), or [XIAO by Seeed](https://www.seeedstudio.com/catalogsearch/result/?q=xiao). It can be used by any microcontroller via the 5V, GND, and Data In pins. It also has a Data Out pad, for connecting more LEDs on the same data pin.
 

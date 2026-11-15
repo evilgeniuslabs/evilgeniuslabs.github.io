@@ -17,9 +17,7 @@ redirect_from:
 sortKey: Fibonacci0182 Card
 ---
 
-<!-- <video playsinline class="post" poster="/assets/ErMFOKL.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop" style="width:684px">
-   <source src="/assets/ErMFOKL.mp4" type="video/mp4">
-</video> -->
+<!-- <video playsinline class="post lazy" data-poster="/assets/ErMFOKL.png" autoplay="autoplay" muted="muted" loop="loop" style="width:684px" data-src="/assets/ErMFOKL.mp4"></video> -->
 
 <!-- <a href="/assets/RVQAho5.jpg" target="_blank"><img src="/assets/RVQAho5.jpg" style="width:340px"  /></a>
 <a href="/assets/CtY1Otx.jpg" target="_blank"><img src="/assets/CtY1Otx.jpg" style="width:340px"  /></a>
@@ -39,7 +37,7 @@ Fibonacci 182 Card is a beautiful credit card sized rectangle with 182 RGB LEDs 
 
 It consists of 182 WS2812C-2020 RGB LEDs, arranged into a circular <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.
 
-<a href="https://lectronz.com/stores/evilgeniuslabs" alt="I sell on Lectronz"><img src="https://lectronz-images.b-cdn.net/static/badges/i-sell-on-lectronz-medium.png" /></a>
+<a href="https://lectronz.com/stores/evilgeniuslabs"><img alt="I sell on Lectronz" src="https://lectronz-images.b-cdn.net/static/badges/i-sell-on-lectronz-medium.png" /></a>
 
 It has solder pads on the back that match the pinout of the [QT Py by Adafruit](https://www.adafruit.com/?q=qt+py), or [XIAO by Seeed](https://www.seeedstudio.com/catalogsearch/result/?q=xiao). It can be used by any microcontroller via the 5V, GND, and Data In pins. It also has a Data Out pad, for connecting more LEDs on the same data pin.
 

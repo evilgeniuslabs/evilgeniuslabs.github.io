@@ -16,9 +16,7 @@ redirect_from:
 sortKey: Fibonacci0064 Micro HDR
 ---
 
-<!-- <video playsinline class="post" poster="/assets/g8GJGfI.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop">
-   <source src="/assets/g8GJGfI.mp4" type="video/mp4">
-</video> -->
+<!-- <video playsinline class="post lazy" data-poster="/assets/g8GJGfI.png" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/g8GJGfI.mp4"></video> -->
 
 <a href="/assets/K2bqxvt.jpg" target="_blank"><img src="/assets/K2bqxvt.jpg" style="width:340px"  /></a>
 <a href="/assets/BTdKtF9.jpg" target="_blank"><img src="/assets/BTdKtF9.jpg" style="width:340px"  /></a>

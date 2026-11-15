@@ -92,14 +92,29 @@
 
 <body>
 
-  {% assign sorted = site.posts | sort: 'sortKey' %}
+  {% comment %} Which top-level section this page belongs to, so the nav can highlight it. {% endcomment %}
+  {% assign more_links = "/about/|About,/community/|Community Projects,/tutorials/|Tutorials,/faq/|FAQ,/contact/|Contact,/retired/|Retired Products" | split: "," %}
+  {% assign nav_section = "" %}
+  {% if page.url == "/" %}{% assign nav_section = "portfolio" %}
+  {% elsif page.url == "/products/" or page.categories contains "products" %}{% assign nav_section = "products" %}
+  {% elsif page.url == "/store/" %}{% assign nav_section = "store" %}
+  {% elsif page.categories contains "retired" or page.categories contains "community" %}{% assign nav_section = "more" %}
+  {% elsif page.categories contains "portfolio" %}{% assign nav_section = "portfolio" %}
+  {% else %}
+    {% for link in more_links %}
+      {% assign link_url = link | split: "|" | first %}
+      {% if page.url contains link_url %}{% assign nav_section = "more" %}{% endif %}
+    {% endfor %}
+  {% endif %}
+
+  <a class="sr-only sr-only-focusable" href="#main">Skip to content</a>
 
   <!-- main nav -->
   <header class="navbar navbar-static-top" id="top" role="banner">
     <div class="container-fluid">
       <div class="navbar-header">
-        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse"
-          aria-expanded="false" aria-controls="navbar">
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#site-nav"
+          aria-expanded="false" aria-controls="site-nav">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -107,71 +122,47 @@
         </button>
         <a class="navbar-brand" href="/">Evil Genius Labs</a>
       </div>
-      <nav class="collapse navbar-collapse bs-navbar-collapse">
+      <nav class="collapse navbar-collapse" id="site-nav" aria-label="Main">
         <ul class="nav navbar-nav">
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-              aria-expanded="false">Portfolio <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              {% for post in sorted %}
-              {% if post.categories contains "portfolio" %}
-              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-              {% endif %}
-              {% endfor %}
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-              aria-expanded="false">Products <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              {% for post in sorted %}
-              {% if post.categories contains 'products' %}
-              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-              {% endif %}
-              {% endfor %}
-              <li><a href="/retired">Retired Products</a></li>
-            </ul>
-          </li>
-          <li><a href="/store">Store</a></li>
-          <li class="dropdown">
+          <li{% if nav_section == "portfolio" %} class="active"{% endif %}><a href="/"{% if page.url == "/" %} aria-current="page"{% endif %}>Portfolio</a></li>
+          <li{% if nav_section == "products" %} class="active"{% endif %}><a href="/products/"{% if page.url == "/products/" %} aria-current="page"{% endif %}>Products</a></li>
+          <li{% if nav_section == "store" %} class="active"{% endif %}><a href="/store/"{% if page.url == "/store/" %} aria-current="page"{% endif %}>Store</a></li>
+          <li class="dropdown{% if nav_section == "more" %} active{% endif %}">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
               aria-expanded="false">More <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <!-- <li><a href="/blog">Blog</a></li> -->
-              <li><a href="/about">About</a></li>
-              <li><a href="/buy">Buy</a></li>
-              <li><a href="/community">Community Projects</a></li>
-              <li><a href="/contact">Contact</a></li>
-              <li><a href="/faq">FAQ</a></li>
-              <li><a href="/store">Store</a></li>
-              <li><a href="/tutorials">Tutorials</a></li>
+              {% for link in more_links %}
+              {% assign link_url = link | split: "|" | first %}
+              {% assign link_text = link | split: "|" | last %}
+              {% if link_url == "/retired/" %}<li role="separator" class="divider"></li>{% endif %}
+              <li{% if page.url == link_url %} class="active"{% endif %}><a href="{{ link_url }}"{% if page.url == link_url %} aria-current="page"{% endif %}>{{ link_text }}</a></li>
+              {% endfor %}
             </ul>
           </li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li>
-            <a rel="me" target="_blank" href="https://leds.social/@jasoncoon"
-              title="Follow @jasoncoon@leds.social on Mastodon"><i class="fab fa-mastodon"></i></a>
+            <a rel="me noopener" target="_blank" href="https://leds.social/@jasoncoon"
+              title="Follow @jasoncoon@leds.social on Mastodon" aria-label="Mastodon"><i class="fab fa-mastodon" aria-hidden="true"></i></a>
           </li>
           <li>
-            <a rel="me" target="_blank" href="https://bsky.app/profile/evilgeniuslabs.org"
-              title="Follow @evilgeniuslabs.org on Bluesky"><i class="fas fa-cloud"></i></a>
+            <a rel="me noopener" target="_blank" href="https://bsky.app/profile/evilgeniuslabs.org"
+              title="Follow @evilgeniuslabs.org on Bluesky" aria-label="Bluesky"><i class="fas fa-cloud" aria-hidden="true"></i></a>
           </li>
           <li>
-            <a rel="me" target="_blank" href="https://github.com/evilgeniuslabs" title="evilgeniuslabs on GitHub"><i
-                class="fab fa-github"></i></a>
+            <a rel="me noopener" target="_blank" href="https://github.com/evilgeniuslabs" title="evilgeniuslabs on GitHub"
+              aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
           </li>
           <li>
-            <a rel="me" target="_blank" href="https://www.youtube.com/jasoncoon"
-              title="Subscribe to JasonCoon on YouTube"><i class="fab fa-youtube"></i></a>
+            <a rel="me noopener" target="_blank" href="https://www.youtube.com/jasoncoon"
+              title="Subscribe to JasonCoon on YouTube" aria-label="YouTube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
           </li>
           <li>
-            <a rel="me" target="_blank" href="/feed.xml" title="Subscribe to Evil Genius Labs updates with Atom/RSS"><i
-                class="fas fa-rss"></i></a>
+            <a href="/feed.xml" title="Subscribe to Evil Genius Labs updates with Atom/RSS" aria-label="RSS feed"><i
+                class="fas fa-rss" aria-hidden="true"></i></a>
           </li>
         </ul>
       </nav>
-      <!--/.nav-collapse -->
     </div>
   </header>
 
@@ -186,54 +177,9 @@
 
   <div class="container bs-docs-container">
 
-    <div class="row">
-      <div class="col-xs-12 col-md-10" role="main">
-        {{ content }}
-      </div>
-
-      <div class="col-xs-12 col-md-2" role="complementary">
-        <nav class="bs-docs-sidebar">
-          <ul class="nav bs-docs-sidenav">
-            {% if page.url == "/" %}
-            <li class="active"><a href="/">Portfolio</a></li>
-            {% else %}
-            <li><a href="/">Portfolio</a></li>
-            {% endif %}
-            {% if page.url == "/products/" %}
-            <li class="active"><a href="/products/">Products</a></li>
-            {% else %}
-            <li><a href="/products/">Products</a></li>
-            {% endif %}
-            {% if page.url == "/store/" %}
-            <li class="active"><a href="/store/">Store</a></li>
-            {% else %}
-            <li><a href="/store/">Store</a></li>
-            {% endif %}
-            {% if page.url == "/community/" %}
-            <li class="active"><a href="/community/">Community</a></li>
-            {% else %}
-            <li><a href="/community/">Community</a></li>
-            {% endif %}
-            {% if page.url == "/contact/" %}
-            <li class="active"><a href="/contact/">Contact</a></li>
-            {% else %}
-            <li><a href="/contact/">Contact</a></li>
-            {% endif %}
-            {% if page.url == "/about/" %}
-            <li class="active"><a href="/about/">About</a></li>
-            {% else %}
-            <li><a href="/about/">About</a></li>
-            {% endif %}
-            {% if page.url == "/retired/" %}
-            <li class="active"><a href="/retired/">Retired Products</a></li>
-            {% else %}
-            <li><a href="/retired/">Retired Products</a></li>
-            {% endif %}
-          </ul>
-        </nav>
-      </div>
-
-    </div>
+    <main id="main" tabindex="-1">
+      {{ content }}
+    </main>
 
   </div>
 
@@ -245,6 +191,7 @@
     </div>
   </footer>
 
+  <script src="/js/video-motion.js"></script>
   <script>
     window.lazyLoadOptions = {};
   </script>

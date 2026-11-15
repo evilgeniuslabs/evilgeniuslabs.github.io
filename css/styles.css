@@ -33,3 +33,36 @@ th, td {
   border: 1px solid;
   padding: .5rem;
 }
+
+/* Listing grids: flex rows so cards with taller captions can't snag the float layout */
+.card-grid {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card-grid::before,
+.card-grid::after {
+	display: none; /* Bootstrap's clearfix pseudo-elements would become flex items */
+}
+
+.card-grid > [class*="col-"] {
+	float: none;
+	display: flex;
+	min-width: 0; /* flex items default to min-width:auto; never let a wide video force a card past the screen */
+}
+
+.card-grid .thumbnail {
+	flex: 1 1 auto;
+	width: 100%;
+	min-width: 0;
+}
+
+/* Contact page social links: natural width instead of a fixed 320px box */
+.contact-links {
+	max-width: 20rem;
+}
+
+/* Skip-link target: focus moves here without drawing a box around the whole page */
+#main:focus {
+	outline: none;
+}

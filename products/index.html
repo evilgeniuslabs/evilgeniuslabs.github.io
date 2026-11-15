@@ -7,8 +7,10 @@ title: Products
   <h1>Products</h1>
 </div>
 
+<div class="row card-grid">
 {% for post in site.posts %}
 {% if post.categories contains "products" %}
 {% include post-card.html post=post %}
 {% endif %}
 {% endfor %}
+</div>

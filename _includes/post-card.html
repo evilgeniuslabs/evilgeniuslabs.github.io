@@ -8,7 +8,7 @@
 {% if card.imgurId or card.videoUrl %}
 {% assign card_ext = card.imgurId | split: "." | last %}
 {% assign card_base = card.imgurId | split: "." | first %}
-<div class="col-md-6">
+<div class="col-xs-12 col-md-6">
   <div class="thumbnail" id="{{ card.id }}">
     <div class="embed-responsive embed-responsive-16by9">
       {% if card.imgurId and card_ext == "mp4" %}

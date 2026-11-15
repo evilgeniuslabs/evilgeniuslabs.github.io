@@ -1,1 +1,13 @@
-{"name":"","short_name":"","icons":[{"src":"/android-chrome-192x192.png","sizes":"192x192","type":"image/png"},{"src":"/android-chrome-512x512.png","sizes":"512x512","type":"image/png"}],"theme_color":"#ffffff","background_color":"#ffffff","display":"standalone"}
+{
+  "name": "Evil Genius Labs",
+  "short_name": "Evil Genius",
+  "description": "Purveyor of finely hand-crafted pixels.",
+  "start_url": "/",
+  "icons": [
+    { "src": "/images/android-chrome-192x192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/images/android-chrome-512x512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "theme_color": "#272b30",
+  "background_color": "#272b30",
+  "display": "standalone"
+}
