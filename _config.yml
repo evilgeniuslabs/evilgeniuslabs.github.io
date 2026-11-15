@@ -6,6 +6,7 @@ permalink: /:title
 markdown: kramdown
 plugins:
   - jekyll-redirect-from
+  - jekyll-sitemap
 # Setting exclude replaces Jekyll's defaults, so the defaults are listed here too.
 exclude:
   - Gemfile

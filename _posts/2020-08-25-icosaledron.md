@@ -16,7 +16,7 @@ redirect_from:
   - /d20
 ---
 
-<a href="https://media.giphy.com/media/UoLzutZkzOEUC1aZZ3/giphy.gif" target="_blank"><img src="https://media.giphy.com/media/UoLzutZkzOEUC1aZZ3/giphy.gif" style="width:340px"  /></a>
+<a href="/assets/giphy-UoLzutZkzOEUC1aZZ3.mp4" target="_blank"><video style="width:340px" data-src="/assets/giphy-UoLzutZkzOEUC1aZZ3.mp4" autoplay muted loop playsinline></video></a>
 <a href="/assets/fcWXd9l.jpg" target="_blank"><img src="/assets/fcWXd9l.jpg" style="width:340px"  /></a>
 <a href="/assets/kq1mQMI.jpg" target="_blank"><img src="/assets/kq1mQMI.jpg" style="width:340px"  /></a>
 <a href="/assets/uYUS46G.jpg" target="_blank"><img src="/assets/uYUS46G.jpg" style="width:340px"  /></a>

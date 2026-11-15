@@ -32,6 +32,8 @@
     {% assign og_image = "/assets/yt-" | append: yt_id | append: ".jpg" %}
   {% endif %}
 
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+
   <meta property="og:site_name" content="Evil Genius Labs" />
   <meta property="og:type" content="article" />
   <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
@@ -68,12 +70,13 @@
 <body>
 
   {% comment %} Which top-level section this page belongs to, so the nav can highlight it. {% endcomment %}
-  {% assign more_links = "/about/|About,/community/|Community Projects,/tutorials/|Tutorials,/faq/|FAQ,/contact/|Contact,/retired/|Retired Products" | split: "," %}
+  {% assign sorted = site.posts | sort: 'sortKey' %}
+  {% assign more_links = "/about/|About,/community/|Community Projects,/tutorials/|Tutorials,/faq/|FAQ,/contact/|Contact" | split: "," %}
   {% assign nav_section = "" %}
   {% if page.url == "/" %}{% assign nav_section = "portfolio" %}
-  {% elsif page.url == "/products/" or page.categories contains "products" %}{% assign nav_section = "products" %}
+  {% elsif page.url == "/products/" or page.url == "/retired/" or page.categories contains "products" or page.categories contains "retired" %}{% assign nav_section = "products" %}
   {% elsif page.url == "/store/" %}{% assign nav_section = "store" %}
-  {% elsif page.categories contains "retired" or page.categories contains "community" %}{% assign nav_section = "more" %}
+  {% elsif page.categories contains "community" %}{% assign nav_section = "more" %}
   {% elsif page.categories contains "portfolio" %}{% assign nav_section = "portfolio" %}
   {% else %}
     {% for link in more_links %}
@@ -99,8 +102,30 @@
       </div>
       <nav class="collapse navbar-collapse" id="site-nav" aria-label="Main">
         <ul class="nav navbar-nav">
-          <li{% if nav_section == "portfolio" %} class="active"{% endif %}><a href="/"{% if page.url == "/" %} aria-current="page"{% endif %}>Portfolio</a></li>
-          <li{% if nav_section == "products" %} class="active"{% endif %}><a href="/products/"{% if page.url == "/products/" %} aria-current="page"{% endif %}>Products</a></li>
+          <li class="dropdown{% if nav_section == "portfolio" %} active{% endif %}">
+            <a href="/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">Portfolio <span class="caret"></span></a>
+            <ul class="dropdown-menu nav-scroll">
+              <li{% if page.url == "/" %} class="active"{% endif %}><a href="/"{% if page.url == "/" %} aria-current="page"{% endif %}><strong>All portfolio</strong></a></li>
+              <li role="separator" class="divider"></li>
+              {% for post in sorted %}{% if post.categories contains "portfolio" %}
+              <li{% if page.url == post.url %} class="active"{% endif %}><a href="{{ post.url }}"{% if page.url == post.url %} aria-current="page"{% endif %}>{{ post.title }}</a></li>
+              {% endif %}{% endfor %}
+            </ul>
+          </li>
+          <li class="dropdown{% if nav_section == "products" %} active{% endif %}">
+            <a href="/products/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">Products <span class="caret"></span></a>
+            <ul class="dropdown-menu nav-scroll">
+              <li{% if page.url == "/products/" %} class="active"{% endif %}><a href="/products/"{% if page.url == "/products/" %} aria-current="page"{% endif %}><strong>All products</strong></a></li>
+              <li role="separator" class="divider"></li>
+              {% for post in sorted %}{% if post.categories contains "products" %}
+              <li{% if page.url == post.url %} class="active"{% endif %}><a href="{{ post.url }}"{% if page.url == post.url %} aria-current="page"{% endif %}>{{ post.title }}</a></li>
+              {% endif %}{% endfor %}
+              <li role="separator" class="divider"></li>
+              <li{% if page.url == "/retired/" %} class="active"{% endif %}><a href="/retired/"{% if page.url == "/retired/" %} aria-current="page"{% endif %}>Retired Products</a></li>
+            </ul>
+          </li>
           <li{% if nav_section == "store" %} class="active"{% endif %}><a href="/store/"{% if page.url == "/store/" %} aria-current="page"{% endif %}>Store</a></li>
           <li class="dropdown{% if nav_section == "more" %} active{% endif %}">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
@@ -109,7 +134,6 @@
               {% for link in more_links %}
               {% assign link_url = link | split: "|" | first %}
               {% assign link_text = link | split: "|" | last %}
-              {% if link_url == "/retired/" %}<li role="separator" class="divider"></li>{% endif %}
               <li{% if page.url == link_url %} class="active"{% endif %}><a href="{{ link_url }}"{% if page.url == link_url %} aria-current="page"{% endif %}>{{ link_text }}</a></li>
               {% endfor %}
             </ul>
@@ -140,14 +164,16 @@
     </div>
   </header>
 
-  <!-- page layout -->
+  {% if page.url == "/" %}
+  <!-- banner: home page only; elsewhere the navbar carries the name and the page starts with its own title -->
   <div class="bs-docs-header" id="content">
     <div class="container">
-      <img id="egl-logo" alt="Evil Light Bulb" src="/images/egl-light-buib-2-white.png">
+      <img id="egl-logo" alt="" src="/images/egl-light-buib-2-white.png">
       <h1>Evil Genius Labs</h1>
-      <p>Purveyor of finely hand-crafted pixels. ꩜</p>
+      <p>{{ site.description }}</p>
     </div>
   </div>
+  {% endif %}
 
   <div class="container bs-docs-container">
 

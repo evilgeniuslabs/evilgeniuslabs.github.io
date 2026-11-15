@@ -90,3 +90,17 @@ th, td {
 	background-color: rgba(255, 255, 255, 0.08);
 	box-shadow: inset 0 -3px 0 #7a8288;
 }
+
+/* Portfolio / Products dropdowns are long (~80 / ~25 entries): scroll inside the menu instead of off the page */
+.navbar .dropdown-menu.nav-scroll {
+	max-height: calc(100vh - 70px);
+	overflow-y: auto;
+	overscroll-behavior: contain;
+}
+
+@media (max-width: 767px) {
+	/* In the phone menu the dropdown opens inline; keep it to part of the screen so the rest of the nav stays reachable */
+	.navbar .dropdown-menu.nav-scroll {
+		max-height: 50vh;
+	}
+}
