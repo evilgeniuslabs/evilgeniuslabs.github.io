@@ -17,7 +17,7 @@
       </a>
       {% elsif card.imgurId %}
       <a href="{{ card.url }}">
-        <img class="embed-responsive-item lazy" data-src="/assets/{{ card.imgurId }}" alt="{{ card.title | escape }}">
+        <img class="embed-responsive-item" src="/assets/{{ card.imgurId }}" loading="lazy" alt="{{ card.title | escape }}">
       </a>
       {% else %}
       <iframe class="embed-responsive-item lazy" data-src="{{ card.videoUrl }}" title="{{ card.title | escape }} video"
