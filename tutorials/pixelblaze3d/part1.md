@@ -79,7 +79,7 @@ Each pixel internally has three LEDs: Red, Green, and Blue. We can directly cont
 
 The Pixelblaze automatically scales this down with the global brightness you've set with the brightness slider in the upper-right corner of the page.
 
-<a title="SharkD, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:RGB_color_solid_cube.png"><img class="img-thumbnail" style="width: 240px" alt="RGB color solid cube" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/RGB_color_solid_cube.png/512px-RGB_color_solid_cube.png"></a>
+<a title="SharkD, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:RGB_color_solid_cube.png"><img class="img-thumbnail" style="width: 240px" alt="RGB color solid cube" src="/assets/wikimedia-RGB_color_solid_cube-500px.png"></a>
 
 You may have found that it can be a little difficult to get just the right color by mixing different values for red, green, and blue. So let's explore a different way of handling colors: HSV!
 
@@ -116,7 +116,7 @@ Using the color wheel, change the first number in the `hsv` function and it shou
 
 The second number (saturation) controls the 'whiteness' of the color:
 
-<a title="Crossover1370, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Color_circle_(RGB).svg"><img class="img-thumbnail" style="width: 240px" alt="Color circle (RGB)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Color_circle_%28RGB%29.svg/512px-Color_circle_%28RGB%29.svg.png"></a>
+<a title="Crossover1370, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Color_circle_(RGB).svg"><img class="img-thumbnail" style="width: 240px" alt="Color circle (RGB)" src="/assets/wikimedia-Color_circle_RGB-500px.png"></a>
 
 A saturation of zero will be white, regardless of the hue. A saturation of 1 is fully saturated, the strongest possible color of the hue. In between are more pastel colors.
 
@@ -151,7 +151,7 @@ We can use the pixel index to make each LED a different color.
 
 1.  Congratulations, you made a rainbow!
 
-<img src="/assets/8rP0GLu" class="img-thumbnail" style="width: 240px" />
+<img src="/assets/8rP0GLu.jpg" class="img-thumbnail" style="width: 240px" />
 
 The `render` function includes `index`, which is the index of the current pixel being rendered. The very first time render is called, index is set to 0. The next time, index is 1, etc, until index is the number of pixels minus one. Then it wraps back to the beginning so that the next time it's called it starts back over at 0.
 
@@ -182,7 +182,7 @@ And now the rainbow moves!
 
 <div class="ratio ratio-1x1 img-thumbnail">
   <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" style="width: 240px">
-    <source src="/assets/MqZ9p3Z" type="video/mp4">
+    <source src="/assets/MqZ9p3Z.mp4" type="video/mp4">
   </video>
 </div>
 <br />
@@ -218,15 +218,15 @@ Replace the code with the following:
 
 You should now see a horizontal rainbow!
 
-   <img src="/assets/EZfr3yQ" class="img-thumbnail" style="width: 240px" />
+   <img src="/assets/EZfr3yQ.jpg" class="img-thumbnail" style="width: 240px" />
 
 Change the hue (the first parameter inside the `hsv` function) from `x` to `z` and it'll change to vertical.
 
-   <img src="/assets/2ahJUK5" class="img-thumbnail" style="width: 240px" />
+   <img src="/assets/2ahJUK5.jpg" class="img-thumbnail" style="width: 240px" />
 
 Change it to `(x + y + z) / 3` and it'll be diagonal!
 
-   <img src="/assets/o54k9Zt" class="img-thumbnail" style="width: 240px" />
+   <img src="/assets/o54k9Zt.jpg" class="img-thumbnail" style="width: 240px" />
 
 Notice that we changed from using the `render` function to the `render3D` function. In addition to the `index` parameter, it also includes `x`, `y` and `z`. These parameters range from 0 to 1, and indicate the current pixel's three-dimensional position in the display, with `(0,0,0)` in the top left corner, and `(1,1,1)` in the bottom right.
 
@@ -238,7 +238,7 @@ should give you a rainbow that scrolls from right to left:
 
 <div class="ratio ratio-1x1 img-thumbnail">
   <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" style="width: 240px">
-    <source src="/assets/qhxfOai" type="video/mp4">
+    <source src="/assets/qhxfOai.mp4" type="video/mp4">
   </video>
 </div>
 <br />
@@ -249,7 +249,7 @@ To make it change direction, subtract instead of adding time:
 
 <div class="ratio ratio-1x1 img-thumbnail">
   <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" style="width: 240px">
-    <source src="/assets/4kO0WuI" type="video/mp4">
+    <source src="/assets/4kO0WuI.mp4" type="video/mp4">
   </video>
 </div>
 <br />
@@ -260,7 +260,7 @@ To make it scroll vertically, change `x` to `z`:
 
 <div class="ratio ratio-1x1 img-thumbnail">
   <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" style="width: 240px">
-    <source src="/assets/4yvofFE" type="video/mp4">
+    <source src="/assets/4yvofFE.mp4" type="video/mp4">
   </video>
 </div>
 <br />
@@ -271,7 +271,7 @@ Diagonal:
 
 <div class="ratio ratio-1x1 img-thumbnail">
   <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" style="width: 240px">
-    <source src="/assets/ChRnxO1" type="video/mp4">
+    <source src="/assets/ChRnxO1.mp4" type="video/mp4">
   </video>
 </div>
 <br />
@@ -291,19 +291,19 @@ Replace the code with the following:
 
 You should see a red quarter sphere in the back bottom left corner.
 
-   <img src="/assets/Ljhf0X6" class="img-thumbnail" style="width: 240px" />
+   <img src="/assets/Ljhf0X6.jpg" class="img-thumbnail" style="width: 240px" />
 
 The `hypot3` function calculates the radius of the current point, or the distance of the point `(x,y,z)` from the origin `(0,0)` (the upper-left corner). If we want the origin in the center of the display, we change the second line to:
 
     v = 1 - hypot3(x - .5, y - .5, z - .5)
 
-   <img src="/assets/sV9sLNP" class="img-thumbnail" style="width: 240px" />
+   <img src="/assets/sV9sLNP.jpg" class="img-thumbnail" style="width: 240px" />
 
 It may be difficult to tell it's a sphere now, so let's increase the contrast by adding this line:
 
 v = v \* v
 
-   <img src="/assets/sV9sLNP" class="img-thumbnail" style="width: 240px" />
+   <img src="/assets/sV9sLNP.jpg" class="img-thumbnail" style="width: 240px" />
 
 Make it move with time:
 
@@ -316,7 +316,7 @@ Make it move with time:
 
 <div class="ratio ratio-1x1 img-thumbnail">
   <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" style="width: 240px">
-    <source src="/assets/h5sQidd" type="video/mp4">
+    <source src="/assets/h5sQidd.mp4" type="video/mp4">
   </video>
 </div>
 <br />
@@ -327,7 +327,7 @@ Flip the direction and make it move inward by adding instead of subtracting:
 
 <div class="ratio ratio-1x1 img-thumbnail">
   <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" style="width: 240px">
-    <source src="/assets/oBLqTQK" type="video/mp4">
+    <source src="/assets/oBLqTQK.mp4" type="video/mp4">
   </video>
 </div>
 <br />

@@ -110,7 +110,7 @@ AP Mode - Create a stand-alone network
 In this mode your Fibonacci will create its own wi-fi network that you can connect to from another device.
 Use this mode when outdoors or away from other wi-fi networks.
 
-If you've already chosen **Client Mode** and followed the instructions above, skip down to [**Next Steps**](#next-step-settingssetupsettings)
+If you've already chosen **Client Mode** and followed the instructions above, skip down to [**Next Steps**](#settings)
 
 1. Enter an SSID (Name).
    This is the name of the wi-fi network that you will connect to from other devices to configure your Fibonacci.
@@ -192,7 +192,7 @@ Pattern sequencer options:
 
 ### PixelBlaze Settings
 
-You can download this backup file <a href="/downloads/Fibonacci256 Puck">Fibonacci256 Puck.pbb</a> and restore it with the `Restore from backup` button at the bottom of the PixelBlaze web UI's Settings tab/page.
+You can download this backup file <a href="/downloads/Fibonacci256 Puck.pbb">Fibonacci256 Puck.pbb</a> and restore it with the `Restore from backup` button at the bottom of the PixelBlaze web UI's Settings tab/page.
 
 ---
 

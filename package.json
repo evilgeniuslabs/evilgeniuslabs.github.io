@@ -6,7 +6,7 @@
   "scripts": {
     "start": "bundle exec jekyll serve",
     "build": "JEKYLL_ENV=production bundle exec jekyll build",
-    "check": "npm run build && bundle exec htmlproofer ./_site --disable-external --no-enforce-https --ignore-missing-alt",
+    "check": "python3 scripts/check-media-privacy.py assets images downloads && npm run build && bundle exec htmlproofer ./_site --disable-external --no-enforce-https --ignore-missing-alt",
     "update": "bundle update --conservative"
   },
   "author": "",

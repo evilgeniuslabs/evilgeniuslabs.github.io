@@ -16,7 +16,7 @@ redirect_from:
 sortKey: Fibonacci0032 Mini
 ---
 
-<!-- <a href="/assets/9wXGJhP.gif" target="_blank"><img src="/assets/9wXGJhP.gif" style="width:340px"  /></a> -->
+<!-- <a href="/assets/9wXGJhP.mp4" target="_blank"><video class="lazy" style="width:340px" data-src="/assets/9wXGJhP.mp4" autoplay muted loop playsinline></video></a> -->
 <a href="/assets/PPEmzME.jpg" target="_blank"><img src="/assets/PPEmzME.jpg" style="width:340px"  /></a>
 <a href="/assets/07Avtki.jpg" target="_blank"><img src="/assets/07Avtki.jpg" style="width:340px"  /></a>
 <a href="/assets/O4n5yro.jpg" target="_blank"><img src="/assets/O4n5yro.jpg" style="width:340px"  /></a>
@@ -124,7 +124,7 @@ Parts I used in my builds (also **not included**):
 
 Open source example firmware and web application: [https://github.com/jasoncoon/esp8266-fastled-webserver/tree/fibonacci32mini](https://github.com/jasoncoon/esp8266-fastled-webserver/tree/fibonacci32mini)
 
-<img src="https://raw.githubusercontent.com/jasoncoon/esp8266-fastled-webserver/main/web-app.png" style="width:300px" class="img-responsive" />
+<img src="/assets/esp8266-fastled-webserver-web-app.png" style="width:300px" class="img-responsive" />
 
 ### Assembly Instructions
 

@@ -15,7 +15,7 @@ redirect_from:
 sortKey: Fibonacci0032 Kit
 ---
 
-<!-- <a href="/assets/DWHFck2.gif" target="_blank"><img src="/assets/DWHFck2.gif" class="img-responsive"  /></a> -->
+<!-- <a href="/assets/DWHFck2.mp4" target="_blank"><video class="img-responsive lazy" data-src="/assets/DWHFck2.mp4" autoplay muted loop playsinline></video></a> -->
 
 <a href="/assets/Sa9oicX.jpg" target="_blank"><img src="/assets/Sa9oicX.jpg" class="img-responsive"  /></a>
 

@@ -91,7 +91,7 @@ After trying a lot of different ESP8266 boards, I've found the [Wemos D1 Mini](h
 
 Open source example firmware and web application: [https://github.com/jasoncoon/esp8266-fastled-webserver](https://github.com/jasoncoon/esp8266-fastled-webserver)
 
-<img src="https://raw.githubusercontent.com/jasoncoon/esp8266-fastled-webserver/main/webapp.png" style="width:300px" class="img-responsive" />
+<img src="/assets/esp8266-fastled-webserver-webapp.png" style="width:300px" class="img-responsive" />
 
 Features:
 
@@ -120,7 +120,7 @@ If you're new to soldering, I highly recommend reading through a good soldering 
 5. Insert a 300 Ohm to 500 Ohm resistor in each set of holes for each output you plan to use. Bend one leg 180 degrees around, flat against the resistor body, and insert it vertically.<img src="/assets/VHDGTzv.jpg" class="img-responsive" />
 6. Flip the board over and solder each leg of each resistor.<img src="/assets/x5Wd6Wk.jpg" class="img-responsive" />
 7. Decide whether you're going to use female headers, stacking female headers, or if you're going to solder the Wemos directly to the level shifter shield PCB. I used single female headers so the Wemos would be removable, but still fairly low profile.<img src="/assets/LIUZL8t.jpg" class="img-responsive" />
-8. I used double-sided male headers in a small breadboard to hold the female headers correctly aligned while I soldered.<img src="/assets/U1zIbwT.jpg.jpg" class="img-responsive" /><img src="/assets/uzUaqaK.jpg" class="img-responsive" /><img src="/assets/oqrcZzy.jpg" class="img-responsive" /><img src="/assets/1DoksKR.jpg" class="img-responsive" />
+8. I used double-sided male headers in a small breadboard to hold the female headers correctly aligned while I soldered.<img src="/assets/U1zIbwT.jpg" class="img-responsive" /><img src="/assets/uzUaqaK.jpg" class="img-responsive" /><img src="/assets/oqrcZzy.jpg" class="img-responsive" /><img src="/assets/1DoksKR.jpg" class="img-responsive" />
 9. Insert the large 1000uF capacitor, make sure the negative leg of the capacitor is in the negative labeled hole in the PCB.<img src="/assets/WPEPwba.jpg" class="img-responsive" /><img src="/assets/Ijmnx6N.jpg" class="img-responsive" />
 10. Flip the board over and solder one leg, making sure the capacitor is properly aligned before soldering the other leg.<img src="/assets/5aQLHi7.jpg" class="img-responsive" />
 11. Trim all the leads with a pair of wire cutters. Flush diagonal cutters work best.

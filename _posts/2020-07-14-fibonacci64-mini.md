@@ -16,7 +16,7 @@ redirect_from:
 sortKey: Fibonacci0064 Mini
 ---
 
-<!-- <a href="/assets/awvYf9L.gif" target="_blank"><img src="/assets/awvYf9L.gif" style="width:340px"  /></a> -->
+<!-- <a href="/assets/awvYf9L.mp4" target="_blank"><video class="lazy" style="width:340px" data-src="/assets/awvYf9L.mp4" autoplay muted loop playsinline></video></a> -->
 <a href="/assets/KyoG8de.jpg" target="_blank"><img src="/assets/KyoG8de.jpg" style="width:340px"  /></a>
 <a href="/assets/zQLNbVo.jpg" target="_blank"><img src="/assets/zQLNbVo.jpg" style="width:340px"  /></a>
 <a href="/assets/fugZY8I.jpg" target="_blank"><img src="/assets/fugZY8I.jpg" style="width:340px"  /></a>
@@ -129,7 +129,7 @@ Parts I used in my builds (also **not included**):
 
 Open source example firmware and web application: [https://github.com/jasoncoon/esp8266-fastled-webserver/tree/fibonacci64](https://github.com/jasoncoon/esp8266-fastled-webserver/tree/fibonacci64)
 
-<img src="https://raw.githubusercontent.com/jasoncoon/esp8266-fastled-webserver/main/web-app.png" style="width:300px" class="img-responsive" />
+<img src="/assets/esp8266-fastled-webserver-web-app.png" style="width:300px" class="img-responsive" />
 
 ### Pixelblaze Map
 

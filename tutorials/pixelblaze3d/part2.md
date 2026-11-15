@@ -67,7 +67,7 @@ Note that we now have a static rainbow with a slightly dark line scrolling horiz
 
 <div class="ratio ratio-1x1 img-thumbnail">
   <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" style="width: 240px">
-    <source src="/assets/LUeI9b8" type="video/mp4">
+    <source src="/assets/LUeI9b8.mp4" type="video/mp4">
   </video>
 </div>
 <br />
@@ -85,7 +85,7 @@ Notice the value change is more pronounced? We've squared the value. Value is be
 
 <div class="ratio ratio-1x1 img-thumbnail">
   <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" style="width: 240px">
-    <source src="/assets/JNOTgwp" type="video/mp4">
+    <source src="/assets/JNOTgwp.mp4" type="video/mp4">
   </video>
 </div>
 <br />
@@ -98,7 +98,7 @@ and the contrast increases even more. Notice that the brightest part stays just 
 
 <div class="ratio ratio-1x1 img-thumbnail">
   <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" style="width: 240px">
-    <source src="/assets/wXrrGJz" type="video/mp4">
+    <source src="/assets/wXrrGJz.mp4" type="video/mp4">
   </video>
 </div>
 <br />
@@ -145,7 +145,7 @@ We see it as a continuously scrolling rainbow, because the time wave wraps from 
 
 <div class="ratio ratio-1x1 img-thumbnail">
   <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" style="width: 240px">
-    <source src="/assets/sE69gvC" type="video/mp4">
+    <source src="/assets/sE69gvC.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -181,7 +181,7 @@ Notice now instead of constantly scrolling in one direction, it now moves back a
 
 <div class="ratio ratio-1x1 img-thumbnail">
   <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" style="width: 240px">
-    <source src="/assets/wdoWPaQ" type="video/mp4">
+    <source src="/assets/wdoWPaQ.mp4" type="video/mp4">
   </video>
 </div>
 <br />
@@ -214,7 +214,7 @@ Notice the wave moves back and forth more smoothly, slowing as it reaches the si
 
 <div class="ratio ratio-1x1 img-thumbnail">
   <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" style="width: 240px">
-    <source src="/assets/HWC7uTb" type="video/mp4">
+    <source src="/assets/HWC7uTb.mp4" type="video/mp4">
   </video>
 </div>
 <br />
@@ -239,7 +239,7 @@ Like in Part 1, we can switch from Cartesian XY coordinates to polar coordinates
 
 <div class="ratio ratio-1x1 img-thumbnail">
   <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" style="width: 240px">
-    <source src="/assets/gpIgrkl" type="video/mp4">
+    <source src="/assets/gpIgrkl.mp4" type="video/mp4">
   </video>
 </div>
 <br />
@@ -260,7 +260,7 @@ Lets change it so the value moves but the hue doesn't:
 
 <div class="ratio ratio-1x1 img-thumbnail">
   <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" style="width: 240px">
-    <source src="/assets/CcYZkl7" type="video/mp4">
+    <source src="/assets/CcYZkl7.mp4" type="video/mp4">
   </video>
 </div>
 <br />
@@ -271,7 +271,7 @@ Flip the direction:
 
 <div class="ratio ratio-1x1 img-thumbnail">
   <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" style="width: 240px">
-    <source src="/assets/4CYyaWe" type="video/mp4">
+    <source src="/assets/4CYyaWe.mp4" type="video/mp4">
   </video>
 </div>
 <br />
@@ -320,7 +320,7 @@ Notice the rainbow now moves in a much less regular, predictable way.
 
 <div class="ratio ratio-1x1 img-thumbnail">
   <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" style="width: 240px">
-    <source src="/assets/HsjoYhB" type="video/mp4">
+    <source src="/assets/HsjoYhB.mp4" type="video/mp4">
   </video>
 </div>
 <br />
@@ -343,7 +343,7 @@ We've mapped the three-dimensional Perlin noise waveform to the hues for each pi
 
 <div class="ratio ratio-1x1 img-thumbnail">
   <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" style="width: 240px">
-    <source src="/assets/d3P7M6v" type="video/mp4">
+    <source src="/assets/d3P7M6v.mp4" type="video/mp4">
   </video>
 </div>
 <br />
@@ -367,7 +367,7 @@ Let's make it look like a lava lamp by mapping Perlin noise to value (brightness
 
 <div class="ratio ratio-1x1 img-thumbnail">
   <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" loading="lazy" style="width: 240px">
-    <source src="/assets/y7duaFV" type="video/mp4">
+    <source src="/assets/y7duaFV.mp4" type="video/mp4">
   </video>
 </div>
 <br />

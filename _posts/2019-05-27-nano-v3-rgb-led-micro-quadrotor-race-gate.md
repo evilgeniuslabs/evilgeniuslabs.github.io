@@ -12,11 +12,11 @@ redirect_from:
 ---
 
 <div class="row">
-  <a href="/assets/LP60W0A" target="_blank"><img src="/assets/LP60W0A.jpg" class="col-sm-4 col-xs-12" /></a>
-  <a href="/assets/KDue2cs.gif" target="_blank"><img src="/assets/KDue2cs.gif" class="col-sm-4 col-xs-12" /></a>
-  <a href="/assets/mOL28YC" target="_blank"><img src="/assets/mOL28YC.gif" class="col-sm-4 col-xs-12" /></a>
-  <a href="/assets/VLQ5fCV" target="_blank"><img src="/assets/VLQ5fCV.gif" class="col-sm-4 col-xs-12" /></a>
-  <a href="/assets/WNybN7b.mp4" target="_blank"><img src="/assets/V9kHfCS.gif" class="col-sm-4 col-xs-12" /></a>
+  <a href="/assets/LP60W0A.jpg" target="_blank"><img src="/assets/LP60W0A.jpg" class="col-sm-4 col-xs-12" /></a>
+  <a href="/assets/KDue2cs.mp4" target="_blank"><video class="col-sm-4 col-xs-12 lazy" data-src="/assets/KDue2cs.mp4" autoplay muted loop playsinline></video></a>
+  <a href="/assets/mOL28YC.mp4" target="_blank"><video class="col-sm-4 col-xs-12 lazy" data-src="/assets/mOL28YC.mp4" autoplay muted loop playsinline></video></a>
+  <a href="/assets/VLQ5fCV.mp4" target="_blank"><video class="col-sm-4 col-xs-12 lazy" data-src="/assets/VLQ5fCV.mp4" autoplay muted loop playsinline></video></a>
+  <a href="/assets/WNybN7b.mp4" target="_blank"><video class="col-sm-4 col-xs-12 lazy" data-src="/assets/V9kHfCS.mp4" autoplay muted loop playsinline></video></a>
   <a href="/assets/M060Hxu.jpg" target="_blank"><img src="/assets/M060Hxu.jpg" class="col-sm-4 col-xs-12" /></a>
   <a href="/assets/HSkjbnz.jpg" target="_blank"><img src="/assets/HSkjbnz.jpg" class="col-sm-4 col-xs-12" /></a>
   <a href="/assets/sMUO99b.jpg" target="_blank"><img src="/assets/sMUO99b.jpg" class="col-sm-4 col-xs-12" /></a>

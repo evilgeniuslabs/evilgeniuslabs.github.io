@@ -85,7 +85,7 @@ After trying a lot of different ESP8266 boards, I've found the [Wemos D1 Mini](h
 
 Open source example firmware and web application: [https://github.com/jasoncoon/esp8266-fastled-webserver/tree/parallel](https://github.com/jasoncoon/esp8266-fastled-webserver/tree/parallel)
 
-<img src="https://raw.githubusercontent.com/jasoncoon/esp8266-fastled-webserver/main/webapp.png" style="width:300px" class="img-responsive" />
+<img src="/assets/esp8266-fastled-webserver-webapp.png" style="width:300px" class="img-responsive" />
 
 Features:
 
@@ -117,7 +117,7 @@ If you're new to soldering, I highly recommend reading through a good soldering 
 
 7. Decide whether you're going to use female headers, stacking female headers, or if you're going to solder the Wemos directly to the level shifter shield PCB. I used single female headers so the Wemos would be removable, but still fairly low profile.<img src="/assets/6JNdDAL.jpg" class="img-responsive" />
 
-8. I used double-sided male headers in a small breadboard to hold the female headers correctly aligned while I soldered.<img src="/assets/U1zIbwT.jpg.jpg" class="img-responsive" /><img src="/assets/uzUaqaK.jpg" class="img-responsive" /><img src="/assets/hjQToRx.jpg" class="img-responsive" />
+8. I used double-sided male headers in a small breadboard to hold the female headers correctly aligned while I soldered.<img src="/assets/U1zIbwT.jpg" class="img-responsive" /><img src="/assets/uzUaqaK.jpg" class="img-responsive" /><img src="/assets/hjQToRx.jpg" class="img-responsive" />
 
 9. Insert the power barrel jack.
 

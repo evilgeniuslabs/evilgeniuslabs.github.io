@@ -11,7 +11,7 @@ redirect_from:
   - /50
 ---
 
-<a target="_blank" href="/assets/S6khzhg.gif"><img src="/assets/S6khzhg.gif" style="width:340px" class="img-responsive" /></a>
+<a target="_blank" href="/assets/S6khzhg.mp4"><video style="width:340px" class="img-responsive lazy" data-src="/assets/S6khzhg.mp4" autoplay muted loop playsinline></video></a>
 
 <a target="_blank" href="/assets/CGLgdvR.jpg"><img src="/assets/CGLgdvR.jpg" style="width:340px" class="img-responsive" /></a>
 

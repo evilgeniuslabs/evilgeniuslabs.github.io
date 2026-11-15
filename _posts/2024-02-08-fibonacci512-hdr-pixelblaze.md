@@ -117,7 +117,7 @@ Use this mode while at home or another location with an existing wi-fi network t
 In this mode your Fibonacci512 will create its own wi-fi network that you can connect to from another device.
 Use this mode when outdoors or away from other wi-fi networks.
 
-If you've already chosen **Client Mode** and followed the instructions above, skip down to [**Next Steps**](#next-step-settingssetupsettings)
+If you've already chosen **Client Mode** and followed the instructions above, skip down to [**Next Steps**](#settings)
 
 1. Enter an SSID (Name).
    This is the name of the wi-fi network that you will connect to from other devices to configure your Fibonacci512.

@@ -19,3 +19,4 @@ exclude:
   - download.ts
   - README.md
   - REVIEW.md
+  - scripts
