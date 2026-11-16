@@ -7,39 +7,36 @@ title: Tutorials
   <h1>{{page.title}}</h1>
 </div>
 
+{% comment %}
+  Same tile markup as _includes/post-card.html, written out because these aren't posts (one is off-site).
+  _plugins/media_size.rb sizes local videos at build time but skips external URLs, so the Lux Lavalier video
+  carries its own width/height (the clip's pixel size), which the tile needs to round the right corners before it loads.
+{% endcomment %}
 <div class="row g-3 card-grid">
-<div class="col-12 col-md-6">
-  <div class="card h-100" id="luxlavalier">
-    <div class="ratio ratio-4x3">
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="post-card" id="luxlavalier">
+    <div class="ratio ratio-16x9 post-card-media">
       <a href="https://luxlavalier.com/code">
-        <video class="post lazy" data-poster="https://luxlavalier.com/assets/img/code/radius-center-full.jpg"
-          autoplay="autoplay" muted="muted" loop="loop" playsinline data-src="https://luxlavalier.com/assets/img/code/radius-out.mp4"></video>
+        <video width="960" height="960" class="post lazy" data-poster="https://luxlavalier.com/assets/img/code/radius-center-full.jpg"
+          autoplay muted loop playsinline data-src="https://luxlavalier.com/assets/img/code/radius-out.mp4"></video>
       </a>
     </div>
-    <div class="card-body">
-      <h3>
-        <a href="https://luxlavalier.com/code" target="_blank" rel="noopener noreferrer">
-          Pixelblaze 2D (Lux Lavalier)
-        </a>
-      </h3>
-    </div>
+    <h3 class="post-card-title">
+      <a href="https://luxlavalier.com/code" target="_blank" rel="noopener noreferrer">Pixelblaze 2D (Lux Lavalier)</a>
+    </h3>
   </div>
 </div>
 
-<div class="col-12 col-md-6">
-  <div class="card h-100" id="pixelblaze3d">
-    <div class="ratio ratio-4x3">
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="post-card" id="pixelblaze3d">
+    <div class="ratio ratio-16x9 post-card-media">
       <a href="/tutorials/pixelblaze3d">
-        <video class="post lazy" data-poster="/assets/XwZndzf.jpg" autoplay="autoplay" muted="muted" loop="loop" playsinline data-src="/assets/XwZndzf.mp4"></video>
+        <video class="post lazy" data-poster="/assets/XwZndzf.jpg" autoplay muted loop playsinline data-src="/assets/XwZndzf.mp4"></video>
       </a>
     </div>
-    <div class="card-body">
-      <h3>
-        <a href="/tutorials/pixelblaze3d">
-          Pixelblaze 3D
-        </a>
-      </h3>
-    </div>
+    <h3 class="post-card-title">
+      <a href="/tutorials/pixelblaze3d">Pixelblaze 3D</a>
+    </h3>
   </div>
 </div>
 </div>

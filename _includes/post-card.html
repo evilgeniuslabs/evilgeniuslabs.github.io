@@ -3,14 +3,15 @@
   - imgurId ending in .mp4 -> lazy-loaded looping video, poster frame at /assets/<id>.jpg
   - any other imgurId     -> lazy-loaded still image
   - no imgurId, videoUrl  -> lazy-loaded YouTube embed
+  Borderless tile (styles: "post cards" in css/styles.css): media letterboxed in a 16:9 box, title centred below.
 {% endcomment %}
 {% assign card = include.post %}
 {% if card.imgurId or card.videoUrl %}
 {% assign card_ext = card.imgurId | split: "." | last %}
 {% assign card_base = card.imgurId | split: "." | first %}
-<div class="col-12 col-md-6">
-  <div class="card h-100" id="{{ card.id }}">
-    <div class="ratio ratio-16x9">
+<div class="col-12 col-md-6 col-lg-4">
+  <div class="post-card" id="{{ card.id }}">
+    <div class="ratio ratio-16x9 post-card-media">
       {% if card.imgurId and card_ext == "mp4" %}
       <a href="{{ card.url }}">
         <video class="post lazy" data-poster="/assets/{{ card_base }}.jpg" autoplay muted loop playsinline data-src="/assets/{{ card.imgurId }}"></video>
@@ -24,9 +25,7 @@
         allowfullscreen></iframe>
       {% endif %}
     </div>
-    <div class="card-body">
-      <h3 class="card-title h4 mb-0"><a href="{{ card.url }}">{{ card.title }}</a></h3>
-    </div>
+    <h3 class="post-card-title"><a href="{{ card.url }}">{{ card.title }}</a></h3>
   </div>
 </div>
 {% endif %}
