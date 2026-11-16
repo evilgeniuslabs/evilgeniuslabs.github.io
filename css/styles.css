@@ -25,7 +25,7 @@
 .page-header {
 	padding-bottom: 0.5rem;
 	margin: 2.5rem 0 1.25rem;
-	border-bottom: 1px solid var(--bs-border-color);
+	/* border-bottom: 1px solid var(--bs-border-color); */
 }
 
 /* Skip-link target: focus moves here without drawing a box around the whole page */
@@ -198,13 +198,22 @@ footer {
 	display: block;
 }
 
-/* Wikipedia formula images. content-box: the build-time width/height attributes are the image's own size, so the
-   padding goes outside them (with Bootstrap's border-box it would squeeze the formula instead). */
-.mwe-math-fallback-image-inline {
-	box-sizing: content-box;
-	background-color: #c3c3c3;
-	padding: 1rem;
-	border-radius: 1rem;
+/* Quoted Wikipedia passage (_includes/fermat-spiral.html): MathML equations, source in the caption */
+.wiki-quote blockquote {
+	border-left: 3px solid var(--bs-border-color);
+	padding-left: 1rem;
+	margin-bottom: 0.5rem;
+}
+
+.wiki-quote math[display="block"] {
+	margin: 1rem 0;
+	font-size: 1.25em;
+}
+
+.wiki-quote figcaption {
+	padding-left: calc(1rem + 3px);
+	font-size: 0.875em;
+	color: var(--bs-secondary-color);
 }
 
 /* ---------- post gallery strip (_includes/post-gallery.html) ---------- */

@@ -40,17 +40,7 @@ It has solder pads on the back that match the pinout of a [Pixelblaze V3 Pico by
 
 <!-- <blockquote class="twitter-tweet"><p lang="en" dir="ltr">This is an incredibly cool fusion of <a href="https://twitter.com/evilgeniuslab?ref_src=twsrc%5Etfw">@evilgeniuslab</a>&#39;s Fib64 Micro with <a href="https://twitter.com/im889?ref_src=twsrc%5Etfw">@im889</a> &#39;s PixelBlaze Pico. Both boards have new mods designed for low power consumption (essential for wearables). This Fib64 uses SK9822 pixels which have more color depth, and produce much better color... <a href="https://t.co/v8B2vrUf2K">https://t.co/v8B2vrUf2K</a></p>&mdash; Geek Mom Projects (@GeekMomProjects) <a href="https://twitter.com/GeekMomProjects/status/1507490036907843587?ref_src=twsrc%5Etfw">March 25, 2022</a></blockquote> -->
 
-<p>In disc <a href="https://en.wikipedia.org/wiki/Phyllotaxis" title="Phyllotaxis">phyllotaxis</a>, as in the <a href="https://en.wikipedia.org/wiki/Sunflower" title="Sunflower" class="mw-redirect">sunflower</a> and daisy, the mesh of spirals occurs in <a href="https://en.wikipedia.org/wiki/Fibonacci_number" title="Fibonacci number">Fibonacci numbers</a> because divergence (angle of succession in a single spiral arrangement) approaches the <a href="https://en.wikipedia.org/wiki/Golden_ratio" title="Golden ratio">golden ratio</a>. The shape of the spirals depends on the growth of the elements generated sequentially. In mature-disc <a href="https://en.wikipedia.org/wiki/Phyllotaxis" title="Phyllotaxis">phyllotaxis</a>, when all the elements are the same size, the shape of the spirals is that of Fermat spirals—ideally. That is because Fermat's spiral traverses equal <a href="https://en.wikipedia.org/wiki/Annulus_(mathematics)" title="Annulus (mathematics)">annuli</a> in equal turns. The full model proposed by H Vogel in 1979<sup id="cite_ref-2" class="reference"><a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral#cite_note-2"><span>[</span>2<span>]</span></a></sup> is</p>
-<dl>
-<dd><img class="mwe-math-fallback-image-inline tex" alt="r = c \sqrt{n}," src="/assets/wikimedia-math-fermat-spiral-r.png" /></dd>
-</dl>
-<dl>
-<dd><img class="mwe-math-fallback-image-inline tex" alt="\theta = n \times 137.508^\circ," src="/assets/wikimedia-math-fermat-spiral-theta.png" /></dd>
-</dl>
-<p>where <i>θ</i> is the angle, <i>r</i> is the radius or distance from the center, and <i>n</i> is the index number of the floret and <i>c</i> is a constant scaling factor. The angle 137.508° is the <a href="https://en.wikipedia.org/wiki/Golden_angle" title="Golden angle">golden angle</a> which is approximated by ratios of <a href="https://en.wikipedia.org/wiki/Fibonacci_number" title="Fibonacci number">Fibonacci numbers</a>.<sup id="cite_ref-3" class="reference"><a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral#cite_note-3"><span>[</span>3<span>]</span></a></sup></p>
-
-<p>Fermat's spiral. (2015, October 24).  In <i>Wikipedia, The Free Encyclopedia</i>. Retrieved 02:45, February 24, 2016, from <a class="external free" href="https://en.wikipedia.org/w/index.php?title=Fermat%27s_spiral">https://en.wikipedia.org/w/index.php?title=Fermat%27s_spiral</a>
-</p>
+{% include fermat-spiral.html %}
 
 ---
 

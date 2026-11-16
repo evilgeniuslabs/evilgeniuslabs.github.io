@@ -52,17 +52,7 @@ I have RGB LEDs in just about every form they come: strips, strings, rings, disc
 
 Each of the 512 WS2812B-Mini 3535 RGB LEDs has its own decoupling capacitor built in. The top and bottom of the PCB are large 5V and GND planes, to allow for the large amount of current required by the 512 LEDs. The PCB is split into four separate data lines to allow for higher frame rates when driven by a microcontroller that supports the FastLED library's parallel output, such as ESP8266, ESP32, Teensy, etc. The max theoretical frame rate with four way parallel output is ~260 FPS. Each of the four data lines has a separate four-pin headers provided for 5V, Data In (to the section), Data Out (from the previous section) and GND. The last Data Out pin can be used to connect to even more LEDs. There are also small jumper solder pads that can be bridged to drive the whole panel with a single pin (max ~65 FPS), or two pins (max 130 FPS).
 
-<p>In disc <a href="https://en.wikipedia.org/wiki/Phyllotaxis" title="Phyllotaxis">phyllotaxis</a>, as in the <a href="https://en.wikipedia.org/wiki/Sunflower" title="Sunflower" class="mw-redirect">sunflower</a> and daisy, the mesh of spirals occurs in <a href="https://en.wikipedia.org/wiki/Fibonacci_number" title="Fibonacci number">Fibonacci numbers</a> because divergence (angle of succession in a single spiral arrangement) approaches the <a href="https://en.wikipedia.org/wiki/Golden_ratio" title="Golden ratio">golden ratio</a>. The shape of the spirals depends on the growth of the elements generated sequentially. In mature-disc <a href="https://en.wikipedia.org/wiki/Phyllotaxis" title="Phyllotaxis">phyllotaxis</a>, when all the elements are the same size, the shape of the spirals is that of Fermat spirals—ideally. That is because Fermat's spiral traverses equal <a href="https://en.wikipedia.org/wiki/Annulus_(mathematics)" title="Annulus (mathematics)">annuli</a> in equal turns. The full model proposed by H Vogel in 1979<sup id="cite_ref-2" class="reference"><a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral#cite_note-2"><span>[</span>2<span>]</span></a></sup> is</p>
-<dl>
-<dd><img class="mwe-math-fallback-image-inline tex" alt="r = c \sqrt{n}," src="/assets/wikimedia-math-fermat-spiral-r.png" /></dd>
-</dl>
-<dl>
-<dd><img class="mwe-math-fallback-image-inline tex" alt="\theta = n \times 137.508^\circ," src="/assets/wikimedia-math-fermat-spiral-theta.png" /></dd>
-</dl>
-<p>where <i>θ</i> is the angle, <i>r</i> is the radius or distance from the center, and <i>n</i> is the index number of the floret and <i>c</i> is a constant scaling factor. The angle 137.508° is the <a href="https://en.wikipedia.org/wiki/Golden_angle" title="Golden angle">golden angle</a> which is approximated by ratios of <a href="https://en.wikipedia.org/wiki/Fibonacci_number" title="Fibonacci number">Fibonacci numbers</a>.<sup id="cite_ref-3" class="reference"><a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral#cite_note-3"><span>[</span>3<span>]</span></a></sup></p>
-
-<p>Fermat's spiral. (2015, October 24).  In <i>Wikipedia, The Free Encyclopedia</i>. Retrieved 02:45, February 24, 2016, from <a class="external free" href="https://en.wikipedia.org/w/index.php?title=Fermat%27s_spiral">https://en.wikipedia.org/w/index.php?title=Fermat%27s_spiral</a>
-</p>
+{% include fermat-spiral.html %}
 
 ---
 
