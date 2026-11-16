@@ -14,6 +14,7 @@ layout: default
   </small>
 </div>
 
+{% capture lead %}
 {% if page.videoUrl != null %}
 <div class="ratio ratio-16x9">
   <iframe width="560" height="315" src="{{ page.videoUrl }}" title="{{ page.title | escape }} video" allowfullscreen></iframe>
@@ -44,5 +45,28 @@ layout: default
 <br />
 <br />
 {% endif %}
+{% endcapture %}
 
+{%- comment -%}
+  Posts with a kramdown TOC: on wide screens (css/styles.css, .post-with-toc) the TOC becomes a sticky column on the
+  right, beside the hero and the post. On narrower screens the three parts stack in their original order.
+{%- endcomment %}
+{% assign toc = content | split_toc %}
+{% if toc %}
+<div class="post-with-toc">
+  <div class="post-lead">
+    {{ lead }}
+    {{ toc.before }}
+  </div>
+  <nav class="post-toc" aria-labelledby="post-toc-heading">
+    <h3 id="post-toc-heading">Table of Contents</h3>
+    {{ toc.toc }}
+  </nav>
+  <div class="post-body">
+    {{ toc.after }}
+  </div>
+</div>
+{% else %}
+{{ lead }}
 {{ content }}
+{% endif %}

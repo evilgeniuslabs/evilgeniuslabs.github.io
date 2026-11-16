@@ -11,6 +11,9 @@
  *              scroll into view (browsers can't natively lazy-load <video>).
  * 4. Motion    Looping autoplay videos: with "reduce motion" nothing autoplays (posters show; videos not inside a
  *              link get controls); otherwise videos pause while off-screen and resume when back in view.
+ * 5. TOC       Post table of contents (.post-toc): highlights the section being read (class "active",
+ *              aria-current) and positions the sidebar marker. Placed before 3 + 4, which return early on
+ *              browsers without IntersectionObserver.
  *
  * Loaded at the end of <body>, so the document is already parsed when this runs.
  */
@@ -106,6 +109,104 @@
     var t = open.querySelector('[data-toggle="dropdown"]');
     if (t) t.focus();
   });
+
+  /* ---------- 5: table of contents scroll highlighting ---------- */
+
+  (function () {
+    var toc = document.querySelector(".post-toc");
+    if (!toc) return;
+
+    var items = Array.prototype.slice
+      .call(toc.querySelectorAll('a[href^="#"]'))
+      .map(function (link) {
+        var id = decodeURIComponent(link.getAttribute("href").slice(1));
+        return { link: link, heading: document.getElementById(id) };
+      })
+      .filter(function (item) {
+        return item.heading;
+      });
+    if (!items.length) return;
+
+    var current = null;
+    var pinned = null; // link the visitor clicked; wins until they scroll themselves
+    var queued = false;
+
+    function pick() {
+      if (pinned) return pinned;
+      // A heading is "current" once it passes a line 25% down the viewport. Near the end of the page the line
+      // slides down to the bottom, so short final sections (which can't reach the top) still get their turn.
+      var vh = window.innerHeight;
+      var remaining = document.documentElement.scrollHeight - (window.scrollY + vh);
+      var line = vh * 0.25 + Math.max(0, vh * 0.75 - remaining);
+      var found = null;
+      for (var i = 0; i < items.length; i++) {
+        if (items[i].heading.getBoundingClientRect().top > line) break;
+        found = items[i].link;
+      }
+      return found;
+    }
+
+    function update() {
+      queued = false;
+      var next = pick();
+      if (next !== current) {
+        if (current) {
+          current.classList.remove("active");
+          current.removeAttribute("aria-current");
+        }
+        if (next) {
+          next.classList.add("active");
+          next.setAttribute("aria-current", "location");
+        }
+        current = next;
+      }
+      if (!current) {
+        toc.style.removeProperty("--toc-marker-height");
+        return;
+      }
+
+      // Marker on the sidebar's left border (drawn by CSS only when the TOC is a sidebar).
+      var tocBox = toc.getBoundingClientRect();
+      var linkBox = current.getBoundingClientRect();
+      var top = linkBox.top - tocBox.top + toc.scrollTop;
+      toc.style.setProperty("--toc-marker-top", String(top)); // unitless: CSS scales a 1px bar by these
+      toc.style.setProperty("--toc-marker-height", String(linkBox.height));
+
+      // When the sidebar itself scrolls (long TOC, short window), keep the current entry in view.
+      if (toc.scrollHeight > toc.clientHeight) {
+        if (linkBox.top < tocBox.top) toc.scrollTop += linkBox.top - tocBox.top - 16;
+        else if (linkBox.bottom > tocBox.bottom) toc.scrollTop += linkBox.bottom - tocBox.bottom + 16;
+      }
+    }
+
+    function schedule() {
+      if (queued) return;
+      queued = true;
+      window.requestAnimationFrame(update);
+    }
+
+    toc.addEventListener("click", function (event) {
+      var link = event.target.closest('a[href^="#"]');
+      if (!link) return;
+      pinned = link;
+      schedule();
+    });
+    ["wheel", "touchstart", "keydown", "mousedown"].forEach(function (type) {
+      window.addEventListener(
+        type,
+        function () {
+          if (!pinned) return;
+          pinned = null;
+          schedule();
+        },
+        { passive: true, capture: true }
+      );
+    });
+    window.addEventListener("scroll", schedule, { passive: true });
+    window.addEventListener("resize", schedule);
+    window.addEventListener("load", schedule); // images above headings finish loading and move them
+    update();
+  })();
 
   /* ---------- 3 + 4: lazy media and motion ---------- */
 

@@ -37,6 +37,98 @@ footer {
 	padding: 1rem 0 2rem;
 }
 
+/* Posts with a table of contents (_layouts/post.html). Narrow screens: lead, TOC, body stacked as written.
+   Wide screens: the TOC is a sticky right-hand column spanning the lead (hero video etc.) and the body. */
+@media (min-width: 1200px) {
+	.post-with-toc {
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) 15rem;
+		grid-template-rows: auto 1fr;
+		grid-template-areas:
+			"lead toc"
+			"body toc";
+		column-gap: 2.5rem;
+	}
+
+	.post-lead {
+		grid-area: lead;
+	}
+
+	.post-body {
+		grid-area: body;
+	}
+
+	.post-toc {
+		grid-area: toc;
+		align-self: start;
+		position: sticky;
+		top: 1rem;
+		max-height: calc(100vh - 2rem);
+		overflow-y: auto;
+		overscroll-behavior: contain;
+		padding-left: 1rem;
+		border-left: 1px solid var(--bs-border-color);
+		font-size: 0.9rem;
+	}
+
+	.post-toc h3 {
+		font-size: 1rem;
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		color: var(--bs-secondary-color);
+	}
+
+	.post-toc ul {
+		list-style: none;
+		padding-inline-start: 0;
+		margin-bottom: 0;
+	}
+
+	.post-toc ul ul {
+		padding-inline-start: 0.85rem;
+	}
+
+	.post-toc li {
+		margin: 0.35rem 0;
+	}
+
+	.post-toc a {
+		color: var(--bs-body-color);
+		text-decoration: none;
+	}
+
+	.post-toc a:hover,
+	.post-toc a:focus-visible {
+		color: var(--bs-link-color);
+		text-decoration: underline;
+	}
+
+	/* Section being read (js/site.js): brighter text plus a marker on the left border that slides between entries */
+	.post-toc a.active {
+		color: var(--bs-link-color);
+	}
+
+	/* A 1px-tall bar moved and stretched with transform (not top/height), so sliding it isn't a layout shift */
+	.post-toc::before {
+		content: "";
+		position: absolute;
+		left: -1px;
+		top: 0;
+		width: 3px;
+		height: 1px;
+		background: var(--bs-link-color);
+		transform-origin: 0 0;
+		transform: translateY(calc(var(--toc-marker-top, 0) * 1px)) scaleY(var(--toc-marker-height, 0));
+		transition: transform 0.2s ease;
+	}
+}
+
+@media (min-width: 1200px) and (prefers-reduced-motion: reduce) {
+	.post-toc::before {
+		transition: none;
+	}
+}
+
 /* ---------- navbar ---------- */
 
 /* Slate draws bevelled dividers between nav links (and after the brand), and re-adds a left border on
@@ -79,6 +171,13 @@ footer {
 
 /* ---------- media ---------- */
 
+/* Images and videos get width/height attributes at build time (_plugins/media_size.rb) so their space is reserved
+   before they load. Let the height follow whatever width CSS or an inline style gives them, keeping that aspect
+   ratio. Zero specificity: any other rule (.ratio > *, an inline height) still wins. */
+:where(img[width][height], video[width][height]) {
+	height: auto;
+}
+
 /* Post images (was Bootstrap 3's .img-responsive: block-level, 600px unless the post sets a width) */
 .post-img {
 	display: block;
@@ -99,8 +198,10 @@ footer {
 	display: block;
 }
 
-/* Wikipedia formula images */
+/* Wikipedia formula images. content-box: the build-time width/height attributes are the image's own size, so the
+   padding goes outside them (with Bootstrap's border-box it would squeeze the formula instead). */
 .mwe-math-fallback-image-inline {
+	box-sizing: content-box;
 	background-color: #c3c3c3;
 	padding: 1rem;
 	border-radius: 1rem;
@@ -121,6 +222,28 @@ td {
 /* Contact page social links: natural width */
 .contact-links {
 	max-width: 20rem;
+}
+
+/* Form fields: Slate makes them white; darken them to sit below the page background instead */
+.form-control,
+.form-control:focus {
+	color: #dee2e6;
+	background-color: #1c1f23;
+}
+
+.form-control {
+	border-color: var(--bs-border-color);
+}
+
+.form-control:focus {
+	border-color: #7a8288;
+}
+
+/* Browser autofill would otherwise paint the field light blue/yellow */
+.form-control:-webkit-autofill {
+	-webkit-text-fill-color: #dee2e6;
+	box-shadow: 0 0 0 100rem #1c1f23 inset;
+	caret-color: #dee2e6;
 }
 
 /* ---------- icons ---------- */

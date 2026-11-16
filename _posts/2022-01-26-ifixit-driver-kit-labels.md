@@ -4,7 +4,7 @@ title: iFixit Driver Kit Labels
 sortKey: iFixit Driver Kit Labels
 id: ifixit-driver-kit-labels
 excerpt: iFixit Driver Kit Labels
-imgurId: wzHkifX.mp4
+imgurId: wzHkifX.jpg
 published: true
 redirect_from:
   - /50

@@ -5,3 +5,4 @@
 {%- endcomment -%}
 {%- assign icon = site.data.icons[include.name] -%}
 <svg class="icon{% if include.class %} {{ include.class }}{% endif %}" viewBox="{{ icon.viewBox }}" aria-hidden="true" focusable="false"><path d="{{ icon.path }}"/></svg>
+{%- comment -%} Strip the file's trailing newline: inside a link it renders as an underlined space. {%- endcomment -%}
