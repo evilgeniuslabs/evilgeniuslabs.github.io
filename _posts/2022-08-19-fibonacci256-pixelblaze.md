@@ -14,8 +14,6 @@ redirect_from:
 sortKey: Fibonacci0256pb
 ---
 
-<a href="https://lectronz.com/products/fibonacci256-hdr-166mm" alt="Buy it on Lectronz"><img src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-medium.png" /></a>
-
 ---
 
 **Retired**
@@ -75,7 +73,7 @@ For more control, you can connect to it via wi-fi.
 
    <img alt="Pixelblaze WiFi Settings page on a phone, listing nearby networks to connect to" src="/images/setup/wifi-settings.jpeg" class="img-thumbnail" style="width: 240px" />
 
-In WiFi Settings you an configure your Fibonacci256 to run in one of two modes:
+In WiFi Settings you can configure your Fibonacci256 to run in one of two modes:
 
 ---
 

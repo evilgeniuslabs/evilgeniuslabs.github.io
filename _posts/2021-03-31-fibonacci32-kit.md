@@ -25,7 +25,7 @@ gallery:
 
 Alternatives:
 
-- [One Inch Fibonacc32](/one-inch-fibonacci32)
+- [One Inch Fibonacci32](/one-inch-fibonacci32)
 
 ---
 

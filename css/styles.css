@@ -216,6 +216,12 @@ footer {
 	color: var(--bs-secondary-color);
 }
 
+/* Lectronz badge under the hero/gallery (_layouts/post.html, front matter `lectronz:`), centred like them */
+.post-buy {
+	margin: 0 0 2rem;
+	text-align: center;
+}
+
 /* ---------- post gallery strip (_includes/post-gallery.html) ---------- */
 
 /* Small thumbnails under the hero, centred like it and wrapping onto a second row if needed; on phones one row that

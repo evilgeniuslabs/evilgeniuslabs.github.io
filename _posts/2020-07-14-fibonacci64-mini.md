@@ -32,9 +32,9 @@ gallery:
 
 Alternatives:
 
-- [Fibonacci64 Micro HDR](fibonacci64-micro-hdr)
+- [Fibonacci64 Micro HDR](/fibonacci64-micro-hdr)
 - [Fibonacci64 50mm](/fibonacci64-goggles)
-- [One Inch Fibonacc64](/one-inch-fibonacci64)
+- [One Inch Fibonacci64](/one-inch-fibonacci64)
 
 ---
 
@@ -48,8 +48,6 @@ Alternatives:
 Fibonacci64 Mini is a beautiful 64mm circular disc with 64 RGB LEDs surface mounted in a Fibonacci distribution. Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
 
 It consists of 64 WS2812B-Mini 3535 RGB LEDs, arranged into a circular <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.
-
-<a href="https://lectronz.com/stores/evilgeniuslabs"><img alt="I sell on Lectronz" src="https://lectronz-images.b-cdn.net/static/badges/i-sell-on-lectronz-medium.png" /></a>
 
 {% include fermat-spiral.html %}
 

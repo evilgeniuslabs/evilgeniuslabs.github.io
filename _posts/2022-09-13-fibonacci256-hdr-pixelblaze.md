@@ -13,6 +13,7 @@ redirect_from:
   - /f256hdr
   - /f256hdrpb
 sortKey: Fibonacci0256hdrpb
+lectronz: fibonacci256-hdr-166mm
 ---
 
 <h3>Table of Contents</h3>
@@ -21,8 +22,6 @@ sortKey: Fibonacci0256hdrpb
 {:toc}
 
 ### Details
-
-<a href="https://lectronz.com/products/fibonacci256-hdr-166mm" alt="Buy it on Lectronz"><img alt="Buy it on Lectronz" src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
 
 Fibonacci256 HDR is a beautiful 166mm circular disc with 256 RGB LEDs surface mounted in a Fibonacci distribution. Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
 
@@ -68,7 +67,7 @@ For more control, you can connect to it via wi-fi.
 
    <img alt="Pixelblaze WiFi Settings page on a phone, listing nearby networks to connect to" src="/images/setup/wifi-settings.jpeg" class="img-thumbnail" style="width: 240px" />
 
-In WiFi Settings you an configure your Fibonacci256 to run in one of two modes:
+In WiFi Settings you can configure your Fibonacci256 to run in one of two modes:
 
 ---
 

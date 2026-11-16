@@ -32,8 +32,6 @@ gallery:
 
 ### Details
 
-<a href="https://lectronz.com/products/fibonacci256-expanding-166mm-disc-w-256-rgb-leds" alt="Buy it on Lectronz"><img alt="Buy it on Lectronz" src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
-
 Fibonacci256 Expanding is a beautiful 166mm circular disc with 256 RGB LEDs surface mounted in a Fibonacci layout. Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
 
 Three different sizes of WS2812 RGB LEDs are used: 2mm, 3.5mm and 5mm. The LEDs start out small and close together in the center and gradually get larger and further apart. This gives an illusion of expansion, especially with the right animation.
@@ -75,7 +73,7 @@ For more control, you can connect to it via wi-fi.
 
    <img alt="Pixelblaze WiFi Settings page on a phone, listing nearby networks to connect to" src="/images/setup/wifi-settings.jpeg" class="img-thumbnail" style="width: 240px" />
 
-In WiFi Settings you an configure your Fibonacci256 to run in one of two modes:
+In WiFi Settings you can configure your Fibonacci256 to run in one of two modes:
 
 ---
 

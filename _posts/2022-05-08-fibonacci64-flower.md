@@ -13,6 +13,7 @@ redirect_from:
   - /f64f
   - /f64flower
 sortKey: Fibonacci0064 Flower
+lectronz: fibonacci64-flower-148mm
 gallery:
   - src: "/assets/Vmn2bnJ.jpg"
     alt: "Fibonacci64 Flower held in hand, glowing magenta and red"
@@ -29,8 +30,6 @@ gallery:
 <!-- <div class="ratio ratio-16x9">
    <video playsinline class="post lazy" data-poster="/assets/50JYqsw.jpg" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/50JYqsw.mp4"></video>
 </div> -->
-
-<a href="https://lectronz.com/products/fibonacci64-flower-148mm" alt="Buy it on Lectronz"><img alt="Buy it on Lectronz" src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
 
 <h3>Table of Contents</h3>
 

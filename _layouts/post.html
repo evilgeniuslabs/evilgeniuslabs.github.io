@@ -47,6 +47,22 @@ layout: default
 {% include post-gallery.html items=page.gallery %}
 {% endif %}
 
+{%- comment -%}
+  Lectronz badge, from front matter: `lectronz: <product slug>` (lectronz.com/products/<slug>) shows "Buy it on
+  Lectronz"; `lectronz: store` shows "I sell on Lectronz" linking to the store. Leave it off retired posts.
+{%- endcomment %}
+{% if page.lectronz %}
+<p class="post-buy">
+  {% if page.lectronz == "store" %}
+  <a href="https://lectronz.com/stores/evilgeniuslabs"><img alt="I sell on Lectronz" width="200" height="40"
+      src="https://lectronz-images.b-cdn.net/static/badges/i-sell-on-lectronz-small.png"></a>
+  {% else %}
+  <a href="https://lectronz.com/products/{{ page.lectronz }}"><img alt="Buy {{ page.title | escape }} on Lectronz"
+      width="200" height="40" src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png"></a>
+  {% endif %}
+</p>
+{% endif %}
+
 {% if page.sourceUrl != null %}
 <p>
   <a href="{{ page.sourceUrl }}">More information and source code</a>

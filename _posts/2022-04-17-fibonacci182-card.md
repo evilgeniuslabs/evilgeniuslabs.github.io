@@ -15,6 +15,7 @@ redirect_from:
   - /fibonacci128-card
   - /fibonacci182-card
 sortKey: Fibonacci0182 Card
+lectronz: fibonacci182-card
 ---
 
 <!-- <video playsinline class="post lazy" data-poster="/assets/ErMFOKL.png" autoplay="autoplay" muted="muted" loop="loop" style="width:684px" data-src="/assets/ErMFOKL.mp4"></video> -->
@@ -23,8 +24,6 @@ sortKey: Fibonacci0182 Card
 <a href="/assets/CtY1Otx.jpg" target="_blank"><img src="/assets/CtY1Otx.jpg" style="width:340px"  /></a>
 <a href="/assets/56UauS6.jpg" target="_blank"><img src="/assets/56UauS6.jpg" style="width:340px"  /></a>
 <a href="/assets/rlgRwNS.jpg" target="_blank"><img src="/assets/rlgRwNS.jpg" style="width:340px"  /></a> -->
-
-<a href="https://lectronz.com/products/fibonacci182-card" alt="Buy it on Lectronz"><img alt="Buy it on Lectronz" src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
 
 <h3>Table of Contents</h3>
 
@@ -36,8 +35,6 @@ sortKey: Fibonacci0182 Card
 Fibonacci 182 Card is a beautiful credit card sized rectangle with 182 RGB LEDs surface mounted in a Fibonacci distribution. Swirling and pulsing like a tiny galaxy, it's mesmerizing to watch.
 
 It consists of 182 WS2812C-2020 RGB LEDs, arranged into a circular <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.
-
-<a href="https://lectronz.com/stores/evilgeniuslabs"><img alt="I sell on Lectronz" src="https://lectronz-images.b-cdn.net/static/badges/i-sell-on-lectronz-medium.png" /></a>
 
 It has solder pads on the back that match the pinout of the [QT Py by Adafruit](https://www.adafruit.com/?q=qt+py), or [XIAO by Seeed](https://www.seeedstudio.com/catalogsearch/result/?q=xiao). It can be used by any microcontroller via the 5V, GND, and Data In pins. It also has a Data Out pad, for connecting more LEDs on the same data pin.
 

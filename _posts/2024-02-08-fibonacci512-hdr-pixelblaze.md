@@ -13,6 +13,7 @@ redirect_from:
   - /f512hdrpb
   - /f512hpb
 sortKey: Fibonacci0512hdrpb
+lectronz: fibonacci512hdr
 gallery:
   - src: "/assets/ej7igQO.jpg"
     alt: "Fibonacci512 HDR Pixelblaze glowing in blue and purple spiral arms"
@@ -23,8 +24,6 @@ gallery:
   - src: "/assets/FUcgUAu.jpg"
     alt: "Fibonacci512 HDR LED board glowing, next to smaller Fibonacci boards and a hand for scale"
 ---
-
-<a href="https://lectronz.com/stores/evilgeniuslabs"><img alt="I sell on Lectronz" src="https://lectronz-images.b-cdn.net/static/badges/i-sell-on-lectronz-medium.png" /></a>
 
 <h3>Table of Contents</h3>
 
@@ -79,7 +78,7 @@ For more control, you can connect to it via wi-fi.
 
    <img alt="Pixelblaze WiFi Settings page on a phone, listing nearby networks to connect to" src="/images/setup/wifi-settings.jpeg" class="img-thumbnail" style="width: 240px" />
 
-In WiFi Settings you an configure your Fibonacci512 to run in one of two modes:
+In WiFi Settings you can configure your Fibonacci512 to run in one of two modes:
 
 ##### Client Mode - Connect to a network
 

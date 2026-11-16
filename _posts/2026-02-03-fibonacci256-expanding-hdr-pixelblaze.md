@@ -12,6 +12,7 @@ redirect_from:
   - /f256eh
   - /f256expandinghdr
 sortKey: Fibonacci0256expandinghdr
+lectronz: fibonacci256-expanding-166mm-disc-w-256-rgb-leds
 gallery:
   - src: "/assets/XpEm2VJ.jpg"
     alt: "Fibonacci256 Expanding HDR on a wall, glowing in red and purple spiral arms"
@@ -33,8 +34,6 @@ gallery:
 {:toc}
 
 ### Details
-
-<a href="https://lectronz.com/products/fibonacci256-expanding-166mm-disc-w-256-rgb-leds" alt="Buy it on Lectronz"><img alt="Buy it on Lectronz" src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
 
 Fibonacci256 Expanding HDR is a beautiful 166mm circular disc with 256 RGB LEDs surface mounted in a Fibonacci layout. Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
 
@@ -77,7 +76,7 @@ To connect your Fibonacci to a wi-fi network:
 
    <img alt="Pixelblaze WiFi Settings page on a phone, listing nearby networks to connect to" src="/images/setup/wifi-settings.jpeg" class="img-thumbnail" style="width: 240px" />
 
-In WiFi Settings you an configure your Fibonacci to run in one of two modes:
+In WiFi Settings you can configure your Fibonacci to run in one of two modes:
 
 ---
 
@@ -190,9 +189,9 @@ Pattern sequencer options:
 
 ---
 
-### PixelBlaze Settings
+### Pixelblaze Settings
 
-You can download this backup file <a href="/downloads/Fibonacci256 Expanding HDR.pbb">LED Cube 8x8x8.pbb</a> and restore it with the `Restore from Backup` button at the bottom of the PixelBlaze web UI's Settings tab/page.
+You can download this backup file <a href="/downloads/Fibonacci256 Expanding HDR.pbb">Fibonacci256 Expanding HDR.pbb</a> and restore it with the `Restore from Backup` button at the bottom of the Pixelblaze web UI's Settings tab/page.
 
 ---
 

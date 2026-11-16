@@ -44,8 +44,6 @@ The triangles can be assembled into any [deltahedron](https://en.wikipedia.org/w
 Augmentation
 4 tets + 1 oct</a>
 
-<a href="https://lectronz.com/stores/evilgeniuslabs"><img alt="I sell on Lectronz" src="https://lectronz-images.b-cdn.net/static/badges/i-sell-on-lectronz-medium.png" /></a>
-
 <p>Deltahedron from <i>Wikipedia, The Free Encyclopedia</i>.  <a href="https://en.wikipedia.org/wiki/Deltahedron">https://en.wikipedia.org/wiki/Deltahedron</a>
 </p>
 

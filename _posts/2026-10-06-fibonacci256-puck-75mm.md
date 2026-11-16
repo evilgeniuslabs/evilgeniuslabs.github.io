@@ -25,8 +25,6 @@ Fibonacci256 Puck is a beautiful, motion-sensitive 75mm circular disc with 256 R
 
 It consists of 256 RGB LEDs, arranged into a circular <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.
 
-<!-- <a href="https://lectronz.com/stores/evilgeniuslabs"><img alt="I sell on Lectronz" src="https://lectronz-images.b-cdn.net/static/badges/i-sell-on-lectronz-medium.png" /></a> -->
-
 {% include fermat-spiral.html %}
 
 ---
@@ -68,7 +66,7 @@ To connect your Fibonacci to a wi-fi network:
 
    <img alt="Pixelblaze WiFi Settings page on a phone, listing nearby networks to connect to" src="/images/setup/wifi-settings.jpeg" class="img-thumbnail" style="width: 240px" />
 
-In WiFi Settings you an configure your Fibonacci to run in one of two modes:
+In WiFi Settings you can configure your Fibonacci to run in one of two modes:
 
 ---
 
@@ -174,9 +172,9 @@ Pattern sequencer options:
 
 ---
 
-### PixelBlaze Settings
+### Pixelblaze Settings
 
-You can download this backup file <a href="/downloads/Fibonacci256 Puck.pbb">Fibonacci256 Puck.pbb</a> and restore it with the `Restore from backup` button at the bottom of the PixelBlaze web UI's Settings tab/page.
+You can download this backup file <a href="/downloads/Fibonacci256 Puck.pbb">Fibonacci256 Puck.pbb</a> and restore it with the `Restore from backup` button at the bottom of the Pixelblaze web UI's Settings tab/page.
 
 ---
 

@@ -26,8 +26,6 @@ Fibonacci128 HDR is a beautiful 86mm circular disc with 128 SK9822-EC20 HDR RGB 
 
 It consists of 128 RGB LEDs, arranged into a circular <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.
 
-<a href="https://lectronz.com/stores/evilgeniuslabs"><img alt="I sell on Lectronz" src="https://lectronz-images.b-cdn.net/static/badges/i-sell-on-lectronz-medium.png" /></a>
-
 {% include fermat-spiral.html %}
 
 ---

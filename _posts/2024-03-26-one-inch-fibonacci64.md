@@ -13,6 +13,7 @@ redirect_from:
   - /1f64
   - /1inchf64
 sortKey: Fibonacci0064 One Inch
+lectronz: inch-fibonacci64
 gallery:
   - src: "/assets/36WDLb4.jpg"
     alt: "One Inch Fibonacci64 glowing red and teal, held next to a dime and a pencil"
@@ -27,8 +28,6 @@ gallery:
   - src: "/assets/nuRnffr.jpg"
     alt: "Back of the One Inch Fibonacci64 PCB with pads for DI, GND and 5V and a QT Py footprint"
 ---
-
-<a href="https://lectronz.com/products/inch-fibonacci64" alt="Buy it on Lectronz"><img alt="Buy it on Lectronz" src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
 
 <h3>Table of Contents</h3>
 

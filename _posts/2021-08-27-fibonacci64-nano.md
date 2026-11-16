@@ -30,9 +30,9 @@ gallery:
 
 Alternatives:
 
-- [Fibonacci64 Micro HDR](fibonacci64-micro-hdr)
+- [Fibonacci64 Micro HDR](/fibonacci64-micro-hdr)
 - [Fibonacci64 50mm](/fibonacci64-goggles)
-- [One Inch Fibonacc64](/one-inch-fibonacci64)
+- [One Inch Fibonacci64](/one-inch-fibonacci64)
 
 ---
 
@@ -46,8 +46,6 @@ Alternatives:
 Fibonacci64 Nano is a tiny, beautiful 33mm circular disc with 64 RGB LEDs surface mounted in a Fibonacci distribution. Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
 
 It consists of 64 SK6805-EC15 1.5mm RGB LEDs, arranged into a circular <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.
-
-<a href="https://lectronz.com/stores/evilgeniuslabs"><img alt="I sell on Lectronz" src="https://lectronz-images.b-cdn.net/static/badges/i-sell-on-lectronz-medium.png" /></a>
 
 It has solder pads on the back that match the pinout of the [QT Py by Adafruit](https://www.adafruit.com/?q=qt+py), or [XIAO by Seeed](https://www.seeedstudio.com/catalogsearch/result/?q=xiao). It can be used by any microcontroller via the 5V, GND, and Data In pins. It also has a Data Out pad, for connecting more LEDs on the same data pin.
 

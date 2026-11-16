@@ -29,7 +29,7 @@ gallery:
 
 Alternatives:
 
-- [One Inch Fibonacc32](/one-inch-fibonacci32)
+- [One Inch Fibonacci32](/one-inch-fibonacci32)
 
 ---
 
@@ -43,8 +43,6 @@ Alternatives:
 Fibonacci32 is a beautiful 86mm circular disc with 34 RGB LEDs surface mounted in a Fibonacci distribution. Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
 
 It consists of 34 RGB LEDs, arranged into a circular <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern. I decided to include 34 LEDs since it's a number in the Fibonacci sequence, only 2 away from 32, and there was room on the 50mm PCB. I'm calling it Fibonacci32 so that it fits in with the rest of the series.
-
-<a href="https://lectronz.com/stores/evilgeniuslabs"><img alt="I sell on Lectronz" src="https://lectronz-images.b-cdn.net/static/badges/i-sell-on-lectronz-medium.png" /></a>
 
 {% include fermat-spiral.html %}
 

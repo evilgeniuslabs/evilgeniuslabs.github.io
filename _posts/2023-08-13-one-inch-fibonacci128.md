@@ -13,6 +13,7 @@ redirect_from:
   - /1f128
   - /1inchf128
 sortKey: Fibonacci0128 One Inch
+lectronz: inch-fibonacci128
 gallery:
   - src: "/assets/OPSRQJg.jpg"
     alt: "One Inch Fibonacci128 held in fingers, glowing pink and blue through its diffuser"
@@ -29,8 +30,6 @@ gallery:
   - src: "/assets/YPEkYqr.jpg"
     alt: "Side view of the 3D printed case showing the USB-C port and screws"
 ---
-
-<a href="https://lectronz.com/products/inch-fibonacci128" alt="Buy it on Lectronz"><img alt="Buy it on Lectronz" src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
 
 <h3>Table of Contents</h3>
 
@@ -129,7 +128,7 @@ You can use M2x7mm or M2x8mm screws, depending on how far out you want the ends 
 
 Open source touch demo: [https://github.com/jasoncoon/fibonacci128-touch-demo/tree/f128-one-inch](https://github.com/jasoncoon/fibonacci128-touch-demo/tree/f128-one-inch)
 
-#### PixelBlaze Map
+#### Pixelblaze Map
 
 <div class="accordion" id="accordion">
 

@@ -13,6 +13,7 @@ redirect_from:
   - /1f32
   - /1inchf32
 sortKey: Fibonacci0032 One Inch
+lectronz: inch-fibonacci32
 gallery:
   - src: "/assets/p1h802V.jpg"
     alt: "One Inch Fibonacci32 glowing purple, held in fingers next to a US dime and a pencil for scale"
@@ -25,8 +26,6 @@ gallery:
   - src: "/assets/VX8u6vM.jpg"
     alt: "Back of the One Inch Fibonacci32 PCB with pads for DI, ground and 5V and a QT Py footprint"
 ---
-
-<a href="https://lectronz.com/products/inch-fibonacci32" alt="Buy it on Lectronz"><img alt="Buy it on Lectronz" src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
 
 <h3>Table of Contents</h3>
 

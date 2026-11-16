@@ -34,7 +34,7 @@ sortKey: Fibonacci 128 Flex Bracelet
 
 Fibonacci128 Flex Bracelet is a beautiful flexible PCB with 128 SK9822-EC20 HDR RGB LEDs surface mounted in a Fibonacci distribution.
 
-It consists of 128 SK9822-EC2020 HDR (High Dymanic Range) RGB LEDs, arranged into a <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.
+It consists of 128 SK9822-EC2020 HDR (High Dynamic Range) RGB LEDs, arranged into a <a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral">Fermat's spiral</a> pattern.
 
 It has solder pads on the back that match the pinout of a [Pixelblaze V3 Pico by ElectroMage](https://shop.electromage.com/products/pixelblaze-v3-pico-tiny-wifi-led-controller). It can be used by any microcontroller via the 5V, GND, Clock and Data In pins.
 
