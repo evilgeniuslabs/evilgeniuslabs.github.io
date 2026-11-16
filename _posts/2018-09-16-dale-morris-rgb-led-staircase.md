@@ -17,8 +17,6 @@ redirect_from:
 <br />
 <br />
 
-<a target="_blank" href="https://discourseuploadspace.sfo2.cdn.digitaloceanspaces.com/original/3X/7/8/780405f882712d987299682db54f9aea262c63e8.jpeg"><img src="https://discourseuploadspace.sfo2.cdn.digitaloceanspaces.com/original/3X/7/8/780405f882712d987299682db54f9aea262c63e8.jpeg" style="width:340px" class="img-fluid post-img" /></a>
-
 ### Info
 
 * 18 steps, each with its own WS2812B LED strip

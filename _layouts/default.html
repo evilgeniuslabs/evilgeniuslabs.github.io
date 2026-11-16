@@ -5,49 +5,8 @@
   <meta charset="utf-8">
   {% include csp.html %}
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  {% comment %} Plain-text description: explicit/auto excerpt with HTML stripped, else the site tagline. {% endcomment %}
-  {% assign page_desc = page.excerpt | strip_html | normalize_whitespace | strip | truncate: 300 %}
-  {% if page_desc == "" %}{% assign page_desc = site.description %}{% endif %}
-  {% assign page_desc = page_desc | escape %}
-  {% assign page_title = page.title | escape %}
-
-  <meta name="description" content="{{ page_desc }}">
-  <meta name="author" content="{{ site.author }}">
   <link rel="alternate" type="application/rss+xml" title="Evil Genius Labs" href="/feed.xml" />
-
-  {% comment %} Resolve an absolute, static preview image for link/social previews.
-     Video imgurIds (.mp4) map to a downloaded poster frame at /assets/<id>.jpg;
-     image imgurIds are used as-is; YouTube-only posts use /assets/yt-<videoId>.jpg. {% endcomment %}
-  {% assign og_image = "/images/egl-light-buib-2-white.png" %}
-  {% if page.imgurId and page.imgurId != "" %}
-    {% assign img_ext = page.imgurId | split: "." | last %}
-    {% if img_ext == "mp4" %}
-      {% assign og_base = page.imgurId | split: "." | first %}
-      {% assign og_image = "/assets/" | append: og_base | append: ".jpg" %}
-    {% else %}
-      {% assign og_image = "/assets/" | append: page.imgurId %}
-    {% endif %}
-  {% elsif page.videoUrl and page.videoUrl != "" %}
-    {% assign yt_id = page.videoUrl | split: "/embed/" | last | split: "?" | first %}
-    {% assign og_image = "/assets/yt-" | append: yt_id | append: ".jpg" %}
-  {% endif %}
-
-  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
-
-  <meta property="og:site_name" content="Evil Genius Labs" />
-  <meta property="og:type" content="article" />
-  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-  <meta property="og:title" content="Evil Genius Labs | {{ page_title }}" />
-  <meta property="og:description" content="{{ page_desc }}" />
-  <meta property="og:image" content="{{ site.url }}{{ og_image }}" />
-  <meta property="og:image:secure_url" content="{{ site.url }}{{ og_image }}" />
-
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Evil Genius Labs | {{ page_title }}" />
-  <meta name="twitter:description" content="{{ page_desc }}" />
-  <meta name="twitter:image" content="{{ site.url }}{{ og_image }}" />
-
-  <title>Evil Genius Labs | {{ page_title }}</title>
+  {% include social-meta.html %}
 
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="/css/bootstrap-5.3.8-slate.min.css">
@@ -56,10 +15,7 @@
   <link rel="stylesheet" href="/css/styles.css">
 
   <!-- Favicons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
+  {% include favicons.html %}
 
   <!-- Google tag (gtag.js) -->
   <script src="/js/analytics.js"></script>
@@ -91,7 +47,10 @@
   <header>
     <nav class="navbar navbar-expand-md bg-primary" data-bs-theme="dark" aria-label="Main">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/">Evil Genius Labs</a>
+        <a class="navbar-brand" href="/">
+          <img src="/images/egl-light-bulb-white.svg" alt="" width="19" height="28">
+          Evil Genius Labs
+        </a>
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#site-nav"
           aria-controls="site-nav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -168,7 +127,7 @@
   <!-- banner: home page only; elsewhere the navbar carries the name and the page starts with its own title -->
   <div class="site-banner" id="content">
     <div class="container clearfix">
-      <img id="egl-logo" alt="" src="/images/egl-light-buib-2-white.png">
+      <img id="egl-logo" alt="" src="/images/egl-light-bulb-white.svg" width="68" height="100">
       <h1>Evil Genius Labs</h1>
       <p>{{ site.description }}</p>
     </div>

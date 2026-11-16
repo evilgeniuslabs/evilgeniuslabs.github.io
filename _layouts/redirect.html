@@ -4,18 +4,33 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Evil Genius Labs : Custom LED Lighting Creations">
-  <meta name="author" content="">
   <link rel="alternate" type="application/rss+xml" title="Evil Genius Labs" href="/feed.xml" />
+  {% comment %} Link-preview scrapers follow HTTP redirects (e.g. evlgeni.us -> /cube8) but not the
+     meta refresh below, so give this page the target's title, description and image. {% endcomment %}
+  {% assign target = nil %}
+  {% for doc in site.posts %}
+    {% assign doc_url = doc.url | absolute_url %}
+    {% if doc_url == page.redirect.to %}{% assign target = doc %}{% break %}{% endif %}
+  {% endfor %}
+  {% unless target %}
+    {% for doc in site.pages %}
+      {% assign doc_url = doc.url | absolute_url %}
+      {% if doc_url == page.redirect.to %}{% assign target = doc %}{% break %}{% endif %}
+    {% endfor %}
+  {% endunless %}
+  {% if target %}
+  {% include social-meta.html doc=target %}
+  {% else %}
+  <meta name="description" content="{{ site.description | escape }}">
+  <link rel="canonical" href="{{ page.redirect.to | escape }}">
   <title>Evil Genius Labs | Redirecting&hellip;</title>
+  {% endif %}
 
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="/css/bootstrap-5.3.8-slate.min.css">
 
   <!-- Favicons -->
-  <!-- Firefox, Chrome, Safari, IE 11+ and Opera. 196x196 pixels in size. -->
-  <link rel="icon" href="/images/atom196.png">
-  <link rel="canonical" href="{{ page.redirect.to | escape }}">
+  {% include favicons.html %}
   <meta http-equiv="refresh" content="0; url={{ page.redirect.to | escape }}">
   <meta name="robots" content="noindex">
 </head>

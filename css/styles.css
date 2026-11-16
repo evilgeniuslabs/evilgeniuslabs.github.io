@@ -11,10 +11,10 @@
 }
 
 .site-banner .container > img {
-	width: 100px;
+	width: auto;
 	height: 100px;
 	float: left;
-	margin-right: 10px;
+	margin: 0 1.5rem 0 1rem;
 }
 
 .site-banner h1 {
@@ -38,6 +38,25 @@ footer {
 }
 
 /* ---------- navbar ---------- */
+
+/* Slate draws bevelled dividers between nav links (and after the brand), and re-adds a left border on
+   hover/active via .navbar.bg-primary .nav-link:hover etc.; drop them all. The :hover/:active/.active selectors
+   below match the specificity of Slate's and win by source order. */
+.navbar .navbar-nav .nav-link,
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:active,
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-brand {
+	border-left: 0;
+	border-right: 0;
+}
+
+/* Logo beside the brand text, vertically centred on it */
+.navbar-brand {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.5rem;
+}
 
 /* Portfolio / Products dropdowns are long (~56 / ~25 entries): scroll inside the menu instead of off the page */
 .navbar .dropdown-menu.nav-scroll {

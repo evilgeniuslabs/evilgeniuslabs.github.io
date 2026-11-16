@@ -1,0 +1,54 @@
+{% comment %}
+  Description, canonical, Open Graph / Twitter card tags and <title> for a page or post.
+  Pass doc=<page or post> to describe another document (the redirect layout passes the
+  redirect's target so short links get a real preview); defaults to the current page.
+{% endcomment %}
+{% assign doc = include.doc | default: page %}
+  {% comment %} Plain-text description: explicit/auto excerpt with HTML stripped, else the site tagline. {% endcomment %}
+  {% assign page_desc = doc.excerpt | strip_html | normalize_whitespace | strip | truncate: 300 %}
+  {% if page_desc == "" %}{% assign page_desc = site.description %}{% endif %}
+  {% assign page_desc = page_desc | escape %}
+  {% assign page_title = doc.title | escape %}
+
+  <meta name="description" content="{{ page_desc }}">
+  <meta name="author" content="{{ site.author }}">
+
+  {% comment %} Resolve an absolute, static preview image for link/social previews.
+     Video imgurIds (.mp4) map to a downloaded poster frame at /assets/<id>.jpg;
+     image imgurIds are used as-is; YouTube-only posts use /assets/yt-<videoId>.jpg. {% endcomment %}
+  {% assign og_image = "/images/social-preview.jpg" %}
+  {% if doc.imgurId and doc.imgurId != "" %}
+    {% assign img_ext = doc.imgurId | split: "." | last %}
+    {% if img_ext == "mp4" %}
+      {% assign og_base = doc.imgurId | split: "." | first %}
+      {% assign og_image = "/assets/" | append: og_base | append: ".jpg" %}
+    {% else %}
+      {% assign og_image = "/assets/" | append: doc.imgurId %}
+    {% endif %}
+  {% elsif doc.videoUrl and doc.videoUrl != "" %}
+    {% assign yt_id = doc.videoUrl | split: "/embed/" | last | split: "?" | first %}
+    {% assign og_image = "/assets/yt-" | append: yt_id | append: ".jpg" %}
+  {% endif %}
+
+  <link rel="canonical" href="{{ site.url }}{{ doc.url }}">
+
+  <meta property="og:site_name" content="Evil Genius Labs" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="{{ site.url }}{{ doc.url }}" />
+  <meta property="og:title" content="Evil Genius Labs | {{ page_title }}" />
+  <meta property="og:description" content="{{ page_desc }}" />
+  <meta property="og:image" content="{{ site.url }}{{ og_image }}" />
+  <meta property="og:image:secure_url" content="{{ site.url }}{{ og_image }}" />
+  {% comment %} Real pixel size, read from the file at build time (_plugins/image_size.rb); omitted if unreadable. {% endcomment %}
+  {% assign og_size = og_image | image_size %}
+  {% if og_size %}
+  <meta property="og:image:width" content="{{ og_size[0] }}" />
+  <meta property="og:image:height" content="{{ og_size[1] }}" />
+  {% endif %}
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Evil Genius Labs | {{ page_title }}" />
+  <meta name="twitter:description" content="{{ page_desc }}" />
+  <meta name="twitter:image" content="{{ site.url }}{{ og_image }}" />
+
+  <title>Evil Genius Labs | {{ page_title }}</title>

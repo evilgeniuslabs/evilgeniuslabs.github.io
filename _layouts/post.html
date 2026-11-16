@@ -6,8 +6,8 @@ layout: default
   <h1>{{ page.title }}</h1>
   <small>
     {% if page.redirect_from[0] %}
-    {%- comment -%} Short link. evlgeni.us has no HTTPS yet, so use the main domain's short path (same redirect). {%- endcomment %}
-    <a href="https://www.evilgeniuslabs.org{{ page.redirect_from[0] }}" title="Short link: evilgeniuslabs.org{{ page.redirect_from[0] }}"
+    {%- comment -%} Short link. evlgeni.us 301s every path to the same path here (CloudFront, see scripts/evlgeni-us-aws-setup.sh). {%- endcomment %}
+    <a href="https://evlgeni.us{{ page.redirect_from[0] }}" title="Short link: evlgeni.us{{ page.redirect_from[0] }}"
       aria-label="Short link to this page">{% include icon.html name="link" %}</a>
     {% endif %}
     Posted {{ page.date | date: "%B %e, %Y" }}
