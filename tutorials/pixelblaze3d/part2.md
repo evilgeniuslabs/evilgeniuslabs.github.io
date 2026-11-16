@@ -65,8 +65,8 @@ Type (or copy and paste) the following code into the editor:
 
 Note that we now have a static rainbow with a slightly dark line scrolling horizontally:
 
-<div class="ratio ratio-1x1 img-thumbnail">
-  <video autoplay="autoplay" muted="muted" loop="loop" style="width: 240px" class="lazy" playsinline data-src="/assets/LUeI9b8.mp4"></video>
+<div class="ratio ratio-1x1 img-thumbnail" style="width: 240px">
+  <video autoplay="autoplay" muted="muted" loop="loop" class="lazy" playsinline data-src="/assets/LUeI9b8.mp4"></video>
 </div>
 <br />
 
@@ -81,8 +81,8 @@ Change the line to the following:
 
 Notice the value change is more pronounced? We've squared the value. Value is between 0.0 and 1.0. So a value of 0.5, for example, when squared becomes 0.25. A value of 0.6 becomes 0.36, etc. Squaring the fractional values increases the contrast.
 
-<div class="ratio ratio-1x1 img-thumbnail">
-  <video autoplay="autoplay" muted="muted" loop="loop" style="width: 240px" class="lazy" playsinline data-src="/assets/JNOTgwp.mp4"></video>
+<div class="ratio ratio-1x1 img-thumbnail" style="width: 240px">
+  <video autoplay="autoplay" muted="muted" loop="loop" class="lazy" playsinline data-src="/assets/JNOTgwp.mp4"></video>
 </div>
 <br />
 
@@ -92,8 +92,8 @@ Try cubing the value:
 
 and the contrast increases even more. Notice that the brightest part stays just as bright, and the darkest part just as dark, but the values in between become more gradual. That's because 1.0 cubed is still 1.0, and 0.0 cubed still equals 0.0, but .5 cubed equals .125, etc.
 
-<div class="ratio ratio-1x1 img-thumbnail">
-  <video autoplay="autoplay" muted="muted" loop="loop" style="width: 240px" class="lazy" playsinline data-src="/assets/wXrrGJz.mp4"></video>
+<div class="ratio ratio-1x1 img-thumbnail" style="width: 240px">
+  <video autoplay="autoplay" muted="muted" loop="loop" class="lazy" playsinline data-src="/assets/wXrrGJz.mp4"></video>
 </div>
 <br />
 
@@ -137,8 +137,8 @@ Let's use time to make a moving rainbow:
 
 We see it as a continuously scrolling rainbow, because the time wave wraps from 1.0 to 0.0, and red is at both ends of the rainbow (0.0 and 1.0).
 
-<div class="ratio ratio-1x1 img-thumbnail">
-  <video autoplay="autoplay" muted="muted" loop="loop" style="width: 240px" class="lazy" playsinline data-src="/assets/sE69gvC.mp4"></video>
+<div class="ratio ratio-1x1 img-thumbnail" style="width: 240px">
+  <video autoplay="autoplay" muted="muted" loop="loop" class="lazy" playsinline data-src="/assets/sE69gvC.mp4"></video>
 </div>
 
 ---
@@ -171,8 +171,8 @@ The complete code:
 
 Notice now instead of constantly scrolling in one direction, it now moves back and forth!
 
-<div class="ratio ratio-1x1 img-thumbnail">
-  <video autoplay="autoplay" muted="muted" loop="loop" style="width: 240px" class="lazy" playsinline data-src="/assets/wdoWPaQ.mp4"></video>
+<div class="ratio ratio-1x1 img-thumbnail" style="width: 240px">
+  <video autoplay="autoplay" muted="muted" loop="loop" class="lazy" playsinline data-src="/assets/wdoWPaQ.mp4"></video>
 </div>
 <br />
 
@@ -202,8 +202,8 @@ The complete code:
 
 Notice the wave moves back and forth more smoothly, slowing as it reaches the sides before reversing direction.
 
-<div class="ratio ratio-1x1 img-thumbnail">
-  <video autoplay="autoplay" muted="muted" loop="loop" style="width: 240px" class="lazy" playsinline data-src="/assets/HWC7uTb.mp4"></video>
+<div class="ratio ratio-1x1 img-thumbnail" style="width: 240px">
+  <video autoplay="autoplay" muted="muted" loop="loop" class="lazy" playsinline data-src="/assets/HWC7uTb.mp4"></video>
 </div>
 <br />
 
@@ -225,8 +225,8 @@ Like in Part 1, we can switch from Cartesian XY coordinates to polar coordinates
       hsv(h, 1, v)
     }
 
-<div class="ratio ratio-1x1 img-thumbnail">
-  <video autoplay="autoplay" muted="muted" loop="loop" style="width: 240px" class="lazy" playsinline data-src="/assets/gpIgrkl.mp4"></video>
+<div class="ratio ratio-1x1 img-thumbnail" style="width: 240px">
+  <video autoplay="autoplay" muted="muted" loop="loop" class="lazy" playsinline data-src="/assets/gpIgrkl.mp4"></video>
 </div>
 <br />
 
@@ -244,8 +244,8 @@ Lets change it so the value moves but the hue doesn't:
       hsv(h, 1, v * v * v)
     }
 
-<div class="ratio ratio-1x1 img-thumbnail">
-  <video autoplay="autoplay" muted="muted" loop="loop" style="width: 240px" class="lazy" playsinline data-src="/assets/CcYZkl7.mp4"></video>
+<div class="ratio ratio-1x1 img-thumbnail" style="width: 240px">
+  <video autoplay="autoplay" muted="muted" loop="loop" class="lazy" playsinline data-src="/assets/CcYZkl7.mp4"></video>
 </div>
 <br />
 
@@ -253,8 +253,8 @@ Flip the direction:
 
     w = wave(t - radius)
 
-<div class="ratio ratio-1x1 img-thumbnail">
-  <video autoplay="autoplay" muted="muted" loop="loop" style="width: 240px" class="lazy" playsinline data-src="/assets/4CYyaWe.mp4"></video>
+<div class="ratio ratio-1x1 img-thumbnail" style="width: 240px">
+  <video autoplay="autoplay" muted="muted" loop="loop" class="lazy" playsinline data-src="/assets/4CYyaWe.mp4"></video>
 </div>
 <br />
 
@@ -300,8 +300,8 @@ Try this code:
 
 Notice the rainbow now moves in a much less regular, predictable way.
 
-<div class="ratio ratio-1x1 img-thumbnail">
-  <video autoplay="autoplay" muted="muted" loop="loop" style="width: 240px" class="lazy" playsinline data-src="/assets/HsjoYhB.mp4"></video>
+<div class="ratio ratio-1x1 img-thumbnail" style="width: 240px">
+  <video autoplay="autoplay" muted="muted" loop="loop" class="lazy" playsinline data-src="/assets/HsjoYhB.mp4"></video>
 </div>
 <br />
 
@@ -321,8 +321,8 @@ Perlin is different in another way from the other waveforms we've tried so far: 
 
 We've mapped the three-dimensional Perlin noise waveform to the hues for each pixel, using the pixels' three dimensional XY coordinates!
 
-<div class="ratio ratio-1x1 img-thumbnail">
-  <video autoplay="autoplay" muted="muted" loop="loop" style="width: 240px" class="lazy" playsinline data-src="/assets/d3P7M6v.mp4"></video>
+<div class="ratio ratio-1x1 img-thumbnail" style="width: 240px">
+  <video autoplay="autoplay" muted="muted" loop="loop" class="lazy" playsinline data-src="/assets/d3P7M6v.mp4"></video>
 </div>
 <br />
 
@@ -343,8 +343,8 @@ Let's make it look like a lava lamp by mapping Perlin noise to value (brightness
       hsv(h, 1, v)
     }
 
-<div class="ratio ratio-1x1 img-thumbnail">
-  <video autoplay="autoplay" muted="muted" loop="loop" style="width: 240px" class="lazy" playsinline data-src="/assets/y7duaFV.mp4"></video>
+<div class="ratio ratio-1x1 img-thumbnail" style="width: 240px">
+  <video autoplay="autoplay" muted="muted" loop="loop" class="lazy" playsinline data-src="/assets/y7duaFV.mp4"></video>
 </div>
 <br />
 

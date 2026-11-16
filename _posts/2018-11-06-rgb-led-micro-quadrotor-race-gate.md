@@ -9,6 +9,16 @@ videoUrl: https://www.youtube.com/embed/oqDBVKWO1fo
 excerpt: RGB LED race gate for micro drones, built with a Trinket Pro, 60 NeoPixel strip, PEX pipe, and FastLED.
 redirect_from:
   - /27
+gallery:
+  - src: "/assets/KDue2cs.mp4"
+    poster: "/assets/KDue2cs.jpg"
+  - src: "/assets/VLQ5fCV.mp4"
+    poster: "/assets/VLQ5fCV.jpg"
+  - src: "/assets/V9kHfCS.mp4"
+    poster: "/assets/V9kHfCS.jpg"
+  - src: "/assets/LP60W0A.jpg"
+  - src: "/assets/M060Hxu.jpg"
+  - src: "/assets/HSkjbnz.jpg"
 ---
 
 <div class="ratio ratio-16x9">
@@ -16,19 +26,6 @@ redirect_from:
 </div>
 
 <br />
-
-<div class="row g-2">
-  <video playsinline class="post col-sm-4 col-12 lazy" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/KDue2cs.mp4"></video>
-
-  <video playsinline class="post col-sm-4 col-12 lazy" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/VLQ5fCV.mp4"></video>
-
-  <video playsinline class="post col-sm-4 col-12 lazy" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/V9kHfCS.mp4"></video>
-
-  <a class="col-12 col-sm-4" href="/assets/LP60W0A.jpg" target="_blank"><img src="/assets/LP60W0A.jpg" class="w-100 d-block" /></a>
-  <a class="col-12 col-sm-4" href="/assets/M060Hxu.jpg" target="_blank"><img src="/assets/M060Hxu.jpg" class="w-100 d-block" /></a>
-  <a class="col-12 col-sm-4" href="/assets/HSkjbnz.jpg" target="_blank"><img src="/assets/HSkjbnz.jpg" class="w-100 d-block" /></a>
-
-</div>
 
 ---
 

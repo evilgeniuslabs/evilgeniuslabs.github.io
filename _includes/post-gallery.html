@@ -1,0 +1,29 @@
+{%- comment -%}
+  Thumbnail strip under a post's hero, from its front matter:
+
+    gallery:
+      - src: "/assets/abc.jpg"
+        alt: "What the photo shows"
+      - src: "/assets/def.mp4"       # a video: the thumbnail is its poster, and it plays in the lightbox
+        poster: "/assets/def.jpg"
+        alt: "What the video shows"
+
+  Thumbnails link to the full file, so without JavaScript they open it directly; js/site.js (section 6) opens them
+  in the lightbox instead. data-lightbox opts them in even when hosted elsewhere. Items without alt get an
+  aria-label so the link still has a name.
+{%- endcomment -%}
+<ul class="post-gallery" aria-label="Gallery">
+  {%- for item in include.items %}
+  {%- assign thumb = item.poster | default: item.src %}
+  <li>
+    <a href="{{ item.src }}" data-lightbox
+      {%- if item.poster %} class="post-gallery-video"{% endif %}
+      {%- unless item.alt %} aria-label="{% if item.poster %}Video{% else %}Photo{% endif %} {{ forloop.index }} of {{ forloop.length }}"{% endunless %}>
+      <img src="{{ thumb }}" alt="{{ item.alt | escape }}" loading="lazy">
+      {%- if item.poster %}
+      <svg class="post-gallery-play" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z"/></svg>
+      {%- endif %}
+    </a>
+  </li>
+  {%- endfor %}
+</ul>

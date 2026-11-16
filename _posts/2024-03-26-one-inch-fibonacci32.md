@@ -13,13 +13,18 @@ redirect_from:
   - /1f32
   - /1inchf32
 sortKey: Fibonacci0032 One Inch
+gallery:
+  - src: "/assets/p1h802V.jpg"
+    alt: "One Inch Fibonacci32 glowing purple, held in fingers next to a US dime and a pencil for scale"
+  - src: "/assets/TMCIxrg.jpg"
+    alt: "One Inch Fibonacci32 glowing red, next to a dime and a pencil"
+  - src: "/assets/0rUoHHm.jpg"
+    alt: "One Inch Fibonacci32 glowing red and blue, next to a dime and a pencil"
+  - src: "/assets/A4Mp9aR.jpg"
+    alt: "Unlit One Inch Fibonacci32 PCB showing its 32 LEDs"
+  - src: "/assets/VX8u6vM.jpg"
+    alt: "Back of the One Inch Fibonacci32 PCB with pads for DI, ground and 5V and a QT Py footprint"
 ---
-
-<a href="/assets/p1h802V.jpg" target="_blank"><img alt="One Inch Fibonacci32 glowing purple, held in fingers next to a US dime and a pencil for scale" src="/assets/p1h802V.jpg" style="width:340px" /></a>
-<a href="/assets/TMCIxrg.jpg" target="_blank"><img alt="One Inch Fibonacci32 glowing red, next to a dime and a pencil" src="/assets/TMCIxrg.jpg" style="width:340px" /></a>
-<a href="/assets/0rUoHHm.jpg" target="_blank"><img alt="One Inch Fibonacci32 glowing red and blue, next to a dime and a pencil" src="/assets/0rUoHHm.jpg" style="width:340px" /></a>
-<a href="/assets/A4Mp9aR.jpg" target="_blank"><img alt="Unlit One Inch Fibonacci32 PCB showing its 32 LEDs" src="/assets/A4Mp9aR.jpg" style="width:340px" /></a>
-<a href="/assets/VX8u6vM.jpg" target="_blank"><img alt="Back of the One Inch Fibonacci32 PCB with pads for DI, ground and 5V and a QT Py footprint" src="/assets/VX8u6vM.jpg" style="width:340px" /></a>
 
 <a href="https://lectronz.com/products/inch-fibonacci32" alt="Buy it on Lectronz"><img alt="Buy it on Lectronz" src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
 

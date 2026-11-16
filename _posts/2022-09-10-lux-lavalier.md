@@ -14,6 +14,15 @@ redirect_from:
   - /ll
   - /lux-lavalier
 sortKey: Lux Lavalier
+gallery:
+  - src: "/assets/HQTcDUW.jpg"
+    alt: "Lux Lavalier pendant worn on a cord, glowing blue and green"
+  - src: "/assets/cw5kVu5.jpg"
+    alt: "Lux Lavalier pendant glowing in rainbow spirals"
+  - src: "/assets/2AqwaSA.jpg"
+    alt: "Lux Lavalier pendant glowing blue"
+  - src: "/assets/knt3sVA.jpg"
+    alt: "Back of the Lux Lavalier pendant showing the 3D printed battery holder and cord"
 ---
 
 <a class="btn btn-success" href="https://luxlavalier.com/buy">Buy Lux Lavalier</a>
@@ -30,5 +39,3 @@ Lux Lavalier is a beautiful wearable 40mm battery powered pendant necklace with 
   <video playsinline autoplay="autoplay" muted="muted" loop="loop" style="width:340px" class="lazy" data-src="/assets/EPf2onF.mp4"></video>
 </div> -->
 
-<img alt="Lux Lavalier pendant worn on a cord, glowing blue and green" src="/assets/HQTcDUW.jpg" class="img-thumbnail" style="width:340px" /><img alt="Lux Lavalier pendant glowing in rainbow spirals" src="/assets/cw5kVu5.jpg" class="img-thumbnail" style="width:340px" />
-<img alt="Lux Lavalier pendant glowing blue" src="/assets/2AqwaSA.jpg" class="img-thumbnail" style="width:340px" /><img alt="Back of the Lux Lavalier pendant showing the 3D printed battery holder and cord" src="/assets/knt3sVA.jpg" class="img-thumbnail" style="width:340px" />

@@ -9,25 +9,25 @@ excerpt: RGB LED race gate for micro quadrotors, built with a Nano v3, 120 NeoPi
 categories: retired
 redirect_from:
   - /30
+gallery:
+  - src: "/assets/LP60W0A.jpg"
+  - src: "/assets/KDue2cs.mp4"
+    poster: "/assets/KDue2cs.jpg"
+  - src: "/assets/VLQ5fCV.mp4"
+    poster: "/assets/VLQ5fCV.jpg"
+  - src: "/assets/V9kHfCS.mp4"
+    poster: "/assets/V9kHfCS.jpg"
+  - src: "/assets/M060Hxu.jpg"
+  - src: "/assets/HSkjbnz.jpg"
+  - src: "/assets/sMUO99b.jpg"
+  - src: "/assets/JWSIr2c.jpg"
+  - src: "/assets/9aP8yPQ.jpg"
+  - src: "/assets/2x4a5ya.jpg"
+  - src: "/assets/FZ5uncT.jpg"
+  - src: "/assets/3SkGjEZ.jpg"
+  - src: "/assets/XNo0xSk.jpg"
+  - src: "/assets/udk0QyR.jpg"
 ---
-
-<div class="row g-2">
-  <a class="col-12 col-sm-4" href="/assets/LP60W0A.jpg" target="_blank"><img src="/assets/LP60W0A.jpg" class="w-100 d-block" /></a>
-  <a class="col-12 col-sm-4" href="/assets/KDue2cs.mp4" target="_blank"><video class="w-100 d-block lazy" data-src="/assets/KDue2cs.mp4" autoplay muted loop playsinline></video></a>
-  <a class="col-12 col-sm-4" href="/assets/mOL28YC.mp4" target="_blank"><video class="w-100 d-block lazy" data-src="/assets/mOL28YC.mp4" autoplay muted loop playsinline></video></a>
-  <a class="col-12 col-sm-4" href="/assets/VLQ5fCV.mp4" target="_blank"><video class="w-100 d-block lazy" data-src="/assets/VLQ5fCV.mp4" autoplay muted loop playsinline></video></a>
-  <a class="col-12 col-sm-4" href="/assets/WNybN7b.mp4" target="_blank"><video class="w-100 d-block lazy" data-src="/assets/V9kHfCS.mp4" autoplay muted loop playsinline></video></a>
-  <a class="col-12 col-sm-4" href="/assets/M060Hxu.jpg" target="_blank"><img src="/assets/M060Hxu.jpg" class="w-100 d-block" /></a>
-  <a class="col-12 col-sm-4" href="/assets/HSkjbnz.jpg" target="_blank"><img src="/assets/HSkjbnz.jpg" class="w-100 d-block" /></a>
-  <a class="col-12 col-sm-4" href="/assets/sMUO99b.jpg" target="_blank"><img src="/assets/sMUO99b.jpg" class="w-100 d-block" /></a>
-  <a class="col-12 col-sm-4" href="/assets/JWSIr2c.jpg" target="_blank"><img src="/assets/JWSIr2c.jpg" class="w-100 d-block" /></a>
-  <a class="col-12 col-sm-4" href="/assets/9aP8yPQ.jpg" target="_blank"><img src="/assets/9aP8yPQ.jpg" class="w-100 d-block" /></a>
-  <a class="col-12 col-sm-4" href="/assets/2x4a5ya.jpg" target="_blank"><img src="/assets/2x4a5ya.jpg" class="w-100 d-block" /></a>
-  <a class="col-12 col-sm-4" href="/assets/FZ5uncT.jpg" target="_blank"><img src="/assets/FZ5uncT.jpg" class="w-100 d-block" /></a>
-  <a class="col-12 col-sm-4" href="/assets/3SkGjEZ.jpg" target="_blank"><img src="/assets/3SkGjEZ.jpg" class="w-100 d-block" /></a>
-  <a class="col-12 col-sm-4" href="/assets/XNo0xSk.jpg" target="_blank"><img src="/assets/XNo0xSk.jpg" class="w-100 d-block" /></a>
-  <a class="col-12 col-sm-4" href="/assets/udk0QyR.jpg" target="_blank"><img src="/assets/udk0QyR.jpg" class="w-100 d-block" /></a>
-</div>
 
 <h3>Table of Contents</h3>
 

@@ -8,13 +8,10 @@ excerpt: Wi-Fi and BLE controlled, Arduino-compatible addressable RGB LED contro
 categories: retired
 redirect_from:
   - /22
+gallery:
+  - src: "/assets/5tyrYe3.jpg"
+  - src: "/assets/kBcTyaj.jpg"
 ---
-
-<img src="/assets/5tyrYe3.jpg" style="width:400px" class="img-fluid post-img" />
-
-<img src="/assets/LfGW6sl.jpg" style="width:400px" class="img-fluid post-img" />
-
-<img src="/assets/kBcTyaj.jpg" style="width:400px" class="img-fluid post-img" />
 
 <h3>Table of Contents</h3>
 

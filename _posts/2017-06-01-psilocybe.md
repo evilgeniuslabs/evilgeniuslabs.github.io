@@ -9,23 +9,13 @@ categories: portfolio
 excerpt: Dome-shaped, wall-hung frosted glass and metal, with an inner 3D printed frame for 240 RGB LEDs.
 redirect_from:
   - /19
+gallery:
+  - src: "/assets/Tk4GIeV.jpg"
+  - src: "/assets/litybtv.jpg"
+  - src: "/assets/We9Vi6a.jpg"
 ---
 
 Dome-shaped, wall-hung frosted glass and metal, with an inner 3D printed frame for 240 RGB LEDs. Driven by an ESP8266 microcontroller using the FastLED library, controlled with a web app over WiFi and/or an infrared remote control.
-
-<div class="row">
-  <div class="col-12 col-md-6">
-    <a href="/assets/Tk4GIeV.jpg" target="_blank" class="card"><img src="/assets/Tk4GIeV.jpg" class="img-fluid post-img" /></a>
-  </div>
-
-  <div class="col-12 col-md-6">
-    <a href="/assets/litybtv.jpg" target="_blank" class="card"><img src="/assets/litybtv.jpg" class="img-fluid post-img" /></a>
-  </div>
-
-  <div class="col-12 col-md-6">
-    <a href="/assets/We9Vi6a.jpg" target="_blank" class="card"><img src="/assets/We9Vi6a.jpg" class="img-fluid post-img" /></a>
-  </div>
-</div>
 
 ### Features:
 

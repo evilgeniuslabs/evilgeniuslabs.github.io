@@ -12,9 +12,20 @@ redirect_from:
   - /f256eh
   - /f256expandinghdr
 sortKey: Fibonacci0256expandinghdr
+gallery:
+  - src: "/assets/XpEm2VJ.jpg"
+    alt: "Fibonacci256 Expanding HDR on a wall, glowing in red and purple spiral arms"
+  - src: "/assets/8FVEf2V.jpg"
+    alt: "Fibonacci256 Expanding HDR glowing in magenta and blue spirals"
+  - src: "/assets/tmK3E7x.jpg"
+    alt: "Fibonacci256 Expanding HDR glowing blue with a pink center"
+  - src: "/assets/1pdD2p2.jpg"
+    alt: "Fibonacci256 Expanding HDR glowing blue and green spirals"
+  - src: "/assets/v0Knj3W.jpg"
+    alt: "Fibonacci256 Expanding HDR glowing cyan and green with a yellow center"
+  - src: "/assets/p7sbXcL.jpg"
+    alt: "Fibonacci256 Expanding HDR glowing teal and green"
 ---
-
-<a href="/assets/XpEm2VJ.jpg" target="_blank"><img alt="Fibonacci256 Expanding HDR on a wall, glowing in red and purple spiral arms" src="/assets/XpEm2VJ.jpg" style="width:340px" /></a><a href="/assets/8FVEf2V.jpg" target="_blank"><img alt="Fibonacci256 Expanding HDR glowing in magenta and blue spirals" src="/assets/8FVEf2V.jpg" style="width:340px" /></a><a href="/assets/tmK3E7x.jpg" target="_blank"><img alt="Fibonacci256 Expanding HDR glowing blue with a pink center" src="/assets/tmK3E7x.jpg" style="width:340px" /></a><a href="/assets/1pdD2p2.jpg" target="_blank"><img alt="Fibonacci256 Expanding HDR glowing blue and green spirals" src="/assets/1pdD2p2.jpg" style="width:340px" /></a><a href="/assets/v0Knj3W.jpg" target="_blank"><img alt="Fibonacci256 Expanding HDR glowing cyan and green with a yellow center" src="/assets/v0Knj3W.jpg" style="width:340px" /></a><a href="/assets/p7sbXcL.jpg" target="_blank"><img alt="Fibonacci256 Expanding HDR glowing teal and green" src="/assets/p7sbXcL.jpg" style="width:340px" /></a>
 
 <h3>Table of Contents</h3>
 

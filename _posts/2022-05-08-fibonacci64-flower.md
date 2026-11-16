@@ -13,13 +13,22 @@ redirect_from:
   - /f64f
   - /f64flower
 sortKey: Fibonacci0064 Flower
+gallery:
+  - src: "/assets/Vmn2bnJ.jpg"
+    alt: "Fibonacci64 Flower held in hand, glowing magenta and red"
+  - src: "/assets/e2azNfa.jpg"
+    alt: "Fibonacci64 Flower held in hand, glowing blue and purple"
+  - src: "/assets/rmweViq.jpg"
+    alt: "Unlit Fibonacci64 Flower showing its layered petal shape"
+  - src: "/assets/cOuoA0N.jpg"
+    alt: "Fibonacci64 Flower LED PCB with an LED in each petal"
+  - src: "/assets/2z8lGsd.jpg"
+    alt: "Back of the Fibonacci64 Flower PCB with petal outlines and connection pads"
 ---
 
 <!-- <div class="ratio ratio-16x9">
    <video playsinline class="post lazy" data-poster="/assets/50JYqsw.jpg" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/50JYqsw.mp4"></video>
 </div> -->
-
-<a href="/assets/Vmn2bnJ.jpg" target="_blank"><img alt="Fibonacci64 Flower held in hand, glowing magenta and red" src="/assets/Vmn2bnJ.jpg" style="width:340px" /></a><a href="/assets/e2azNfa.jpg" target="_blank"><img alt="Fibonacci64 Flower held in hand, glowing blue and purple" src="/assets/e2azNfa.jpg" style="width:340px" /></a><a href="/assets/rmweViq.jpg" target="_blank"><img alt="Unlit Fibonacci64 Flower showing its layered petal shape" src="/assets/rmweViq.jpg" style="width:340px" /></a><a href="/assets/cOuoA0N.jpg" target="_blank"><img alt="Fibonacci64 Flower LED PCB with an LED in each petal" src="/assets/cOuoA0N.jpg" style="width:340px" /></a><a href="/assets/2z8lGsd.jpg" target="_blank"><img alt="Back of the Fibonacci64 Flower PCB with petal outlines and connection pads" src="/assets/2z8lGsd.jpg" style="width:340px" /></a>
 
 <a href="https://lectronz.com/products/fibonacci64-flower-148mm" alt="Buy it on Lectronz"><img alt="Buy it on Lectronz" src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
 

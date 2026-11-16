@@ -13,14 +13,20 @@ redirect_from:
   - /1f64
   - /1inchf64
 sortKey: Fibonacci0064 One Inch
+gallery:
+  - src: "/assets/36WDLb4.jpg"
+    alt: "One Inch Fibonacci64 glowing red and teal, held next to a dime and a pencil"
+  - src: "/assets/5j1I4vR.jpg"
+    alt: "One Inch Fibonacci64 glowing red, purple and blue, next to a dime and a pencil"
+  - src: "/assets/os6nuxz.jpg"
+    alt: "One Inch Fibonacci64 glowing red and pink, next to a dime and a pencil"
+  - src: "/assets/WD5ZzBg.jpg"
+    alt: "One Inch Fibonacci64 glowing teal and green, next to a dime and a pencil"
+  - src: "/assets/bPLNbqw.jpg"
+    alt: "Unlit One Inch Fibonacci64 PCB showing its 64 LEDs"
+  - src: "/assets/nuRnffr.jpg"
+    alt: "Back of the One Inch Fibonacci64 PCB with pads for DI, GND and 5V and a QT Py footprint"
 ---
-
-<a href="/assets/36WDLb4.jpg" target="_blank"><img alt="One Inch Fibonacci64 glowing red and teal, held next to a dime and a pencil" src="/assets/36WDLb4.jpg" style="width:340px" /></a>
-<a href="/assets/5j1I4vR.jpg" target="_blank"><img alt="One Inch Fibonacci64 glowing red, purple and blue, next to a dime and a pencil" src="/assets/5j1I4vR.jpg" style="width:340px" /></a>
-<a href="/assets/os6nuxz.jpg" target="_blank"><img alt="One Inch Fibonacci64 glowing red and pink, next to a dime and a pencil" src="/assets/os6nuxz.jpg" style="width:340px" /></a>
-<a href="/assets/WD5ZzBg.jpg" target="_blank"><img alt="One Inch Fibonacci64 glowing teal and green, next to a dime and a pencil" src="/assets/WD5ZzBg.jpg" style="width:340px" /></a>
-<a href="/assets/bPLNbqw.jpg" target="_blank"><img alt="Unlit One Inch Fibonacci64 PCB showing its 64 LEDs" src="/assets/bPLNbqw.jpg" style="width:340px" /></a>
-<a href="/assets/nuRnffr.jpg" target="_blank"><img alt="Back of the One Inch Fibonacci64 PCB with pads for DI, GND and 5V and a QT Py footprint" src="/assets/nuRnffr.jpg" style="width:340px" /></a>
 
 <a href="https://lectronz.com/products/inch-fibonacci64" alt="Buy it on Lectronz"><img alt="Buy it on Lectronz" src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
 

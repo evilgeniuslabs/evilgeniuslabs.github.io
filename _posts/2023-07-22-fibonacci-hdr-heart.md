@@ -16,16 +16,20 @@ redirect_from:
   - /heart
   - /hdrheart
 sortKey: Fibonacci HDR Heart
+gallery:
+  - src: "/assets/VIlJk3Y.mp4"
+    poster: "/assets/VIlJk3Y.jpg"
+  - src: "/assets/kD1Y1va.jpg"
+    alt: "Fibonacci HDR Heart pendant on a cord, unlit, showing its Voronoi-pattern diffuser"
+  - src: "/assets/fzahOBP.jpg"
+    alt: "Fibonacci HDR Heart pendant at an angle, showing the thickness of its 3D printed case"
+  - src: "/assets/8zRjiJI.jpg"
+    alt: "Back of the Fibonacci HDR Heart pendant with the cord threaded through the case"
+  - src: "/assets/7JHcAPj.jpg"
+    alt: "Back of the Fibonacci HDR Heart pendant with the cover partly lifted, showing the purple PCB inside"
 ---
 
 <!-- <video playsinline class="post lazy" data-poster="/assets/XFR7m2E.png" autoplay="autoplay" muted="muted" loop="loop" style="width:684px" data-src="/assets/XFR7m2E.mp4"></video> -->
-
-<video playsinline class="post lazy" data-poster="/assets/VIlJk3Y.png" autoplay="autoplay" muted="muted" loop="loop" style="width:684px" data-src="/assets/VIlJk3Y.mp4"></video>
-
-<a href="/assets/kD1Y1va.jpg" target="_blank"><img alt="Fibonacci HDR Heart pendant on a cord, unlit, showing its Voronoi-pattern diffuser" src="/assets/kD1Y1va.jpg" style="width:340px"  /></a>
-<a href="/assets/fzahOBP.jpg" target="_blank"><img alt="Fibonacci HDR Heart pendant at an angle, showing the thickness of its 3D printed case" src="/assets/fzahOBP.jpg" style="width:340px"  /></a>
-<a href="/assets/8zRjiJI.jpg" target="_blank"><img alt="Back of the Fibonacci HDR Heart pendant with the cord threaded through the case" src="/assets/8zRjiJI.jpg" style="width:340px"  /></a>
-<a href="/assets/7JHcAPj.jpg" target="_blank"><img alt="Back of the Fibonacci HDR Heart pendant with the cover partly lifted, showing the purple PCB inside" src="/assets/7JHcAPj.jpg" style="width:340px"  /></a>
 
 <a href="https://lectronz.com/products/lux-lavalier-heart-wearable-light-art-pendant" alt="Buy it on Lectronz"><img alt="Buy it on Lectronz" src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
 

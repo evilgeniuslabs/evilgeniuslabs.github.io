@@ -13,11 +13,11 @@ redirect_from:
   - /43
   - /f32kit
 sortKey: Fibonacci0032 Kit
+gallery:
+  - src: "/assets/Sa9oicX.jpg"
 ---
 
 <!-- <a href="/assets/DWHFck2.mp4" target="_blank"><video class="img-fluid post-img lazy" data-src="/assets/DWHFck2.mp4" autoplay muted loop playsinline></video></a> -->
-
-<a href="/assets/Sa9oicX.jpg" target="_blank"><img src="/assets/Sa9oicX.jpg" class="img-fluid post-img"  /></a>
 
 ---
 

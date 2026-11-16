@@ -9,13 +9,9 @@ excerpt: 16 output, Wi-Fi and BLE controlled, Arduino-compatible addressable RGB
 categories: retired
 redirect_from:
   - /25
+gallery:
+  - src: "/assets/UvKEmf7.jpg"
 ---
-
-<img src="/assets/UvKEmf7.jpg" style="width:400px" class="img-fluid post-img" />
-
-<img src="/assets/XSqtDMi.jpg" style="width:400px" class="img-fluid post-img" />
-
-<img src="/assets/XSqtDMi.jpg" style="width:400px" class="img-fluid post-img" />
 
 <h3>Table of Contents</h3>
 

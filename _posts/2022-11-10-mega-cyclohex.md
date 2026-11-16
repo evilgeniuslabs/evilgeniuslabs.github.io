@@ -13,14 +13,15 @@ redirect_from:
   - /mega-hex
   - /mega-cyclohex-rings
 sortKey: Mega CycloHex
+gallery:
+  - src: "/assets/Sz3XCdu.jpg"
+  - src: "/assets/SecOW6S.jpg"
+  - src: "/assets/hsf6LRW.jpg"
 ---
 
 <!-- <div class="ratio ratio-16x9">
    <video playsinline class="post lazy" data-poster="/assets/nsAjW5T.jpg" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/nsAjW5T.mp4"></video>
 </div> -->
-
-<a href="/assets/Sz3XCdu.jpg" target="_blank"><img src="/assets/Sz3XCdu.jpg" style="width:340px" /></a>
-<a href="/assets/SecOW6S.jpg" target="_blank"><img src="/assets/SecOW6S.jpg" style="width:340px" /></a><a href="/assets/hsf6LRW.jpg" target="_blank"><img src="/assets/hsf6LRW.jpg" style="width:340px" /></a>
 
 <h3>Table of Contents</h3>
 

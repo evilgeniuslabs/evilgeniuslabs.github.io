@@ -13,16 +13,16 @@ redirect_from:
   - /f64nano
   - /f64n
 sortKey: Fibonacci0064 Nano
+gallery:
+  - src: "/assets/p1UoRS3.mp4"
+    poster: "/assets/p1UoRS3.jpg"
+  - src: "/assets/uc9KQOF.jpg"
+  - src: "/assets/xbkqiP4.jpg"
+  - src: "/assets/FSuA9x5.jpg"
+  - src: "/assets/7alAobq.jpg"
 ---
 
 <!-- <video playsinline class="post lazy" data-poster="/assets/MsRNmcq.png" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/MsRNmcq.mp4"></video> -->
-
-<video playsinline class="post lazy" data-poster="/assets/p1UoRS3.png" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/p1UoRS3.mp4"></video>
-
-<a href="/assets/uc9KQOF.jpg" target="_blank"><img src="/assets/uc9KQOF.jpg" style="width:340px" /></a>
-<a href="/assets/xbkqiP4.jpg" target="_blank"><img src="/assets/xbkqiP4.jpg" style="width:340px" /></a>
-<a href="/assets/FSuA9x5.jpg" target="_blank"><img src="/assets/FSuA9x5.jpg" style="width:340px" /></a>
-<a href="/assets/7alAobq.jpg" target="_blank"><img src="/assets/7alAobq.jpg" style="width:340px" /></a>
 
 ---
 

@@ -11,14 +11,13 @@ published: true
 redirect_from:
   - /39
   - /colorwavesplayground
+gallery:
+  - src: "/assets/RiqwV1Q.jpg"
+  - src: "/assets/ruwvVbW.jpg"
+  - src: "/assets/HZRVd8n.jpg"
 ---
 
 Tweak the setting of the amazing ColorWaves and Pride FastLED animations interactively via a web UI.
-
-<a href="/assets/yZh2fmo.mp4" target="_blank"><video class="lazy" style="width:340px" data-src="/assets/yZh2fmo.mp4" autoplay muted loop playsinline></video></a>
-<a href="/assets/RiqwV1Q.jpg" target="_blank"><img src="/assets/RiqwV1Q.jpg" style="width:340px"  /></a>
-<a href="/assets/ruwvVbW.jpg" target="_blank"><img src="/assets/ruwvVbW.jpg" style="width:340px"  /></a>
-<a href="/assets/HZRVd8n.jpg" target="_blank"><img src="/assets/HZRVd8n.jpg" style="width:340px"  /></a>
 
 <h3>Table of Contents</h3>
 

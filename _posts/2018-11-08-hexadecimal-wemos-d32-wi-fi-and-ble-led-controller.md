@@ -9,15 +9,11 @@ excerpt: 16 output, Wi-Fi and BLE controlled, Arduino-compatible addressable RGB
 categories: retired
 redirect_from:
   - /28
+gallery:
+  - src: "/assets/KOr08u6.jpg"
+  - src: "/assets/gQ5IrM1.jpg"
+  - src: "/assets/Ao6E8rK.jpg"
 ---
-
-<img src="/assets/LJhiN0m.jpg" style="width:400px" class="img-fluid post-img" />
-
-<img src="/assets/KOr08u6.jpg" style="width:400px" class="img-fluid post-img" />
-
-<img src="/assets/gQ5IrM1.jpg" style="width:400px" class="img-fluid post-img" />
-
-<img src="/assets/Ao6E8rK.jpg" style="width:400px" class="img-fluid post-img" />
 
 <h3>Table of Contents</h3>
 

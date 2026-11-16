@@ -14,16 +14,17 @@ redirect_from:
   - /f64mini
   - /f64m
 sortKey: Fibonacci0064 Mini
+gallery:
+  - src: "/assets/KyoG8de.jpg"
+  - src: "/assets/zQLNbVo.jpg"
+  - src: "/assets/fugZY8I.jpg"
+  - src: "/assets/kfN64ue.jpg"
+  - src: "/assets/ZN5ZZFs.jpg"
+  - src: "/assets/4kxnxUJ.jpg"
+  - src: "/assets/fv6uFPp.jpg"
 ---
 
 <!-- <a href="/assets/awvYf9L.mp4" target="_blank"><video class="lazy" style="width:340px" data-src="/assets/awvYf9L.mp4" autoplay muted loop playsinline></video></a> -->
-<a href="/assets/KyoG8de.jpg" target="_blank"><img src="/assets/KyoG8de.jpg" style="width:340px"  /></a>
-<a href="/assets/zQLNbVo.jpg" target="_blank"><img src="/assets/zQLNbVo.jpg" style="width:340px"  /></a>
-<a href="/assets/fugZY8I.jpg" target="_blank"><img src="/assets/fugZY8I.jpg" style="width:340px"  /></a>
-<a href="/assets/kfN64ue.jpg" target="_blank"><img src="/assets/kfN64ue.jpg" style="width:340px"  /></a>
-<a href="/assets/ZN5ZZFs.jpg" target="_blank"><img src="/assets/ZN5ZZFs.jpg" style="width:340px"  /></a>
-<a href="/assets/4kxnxUJ.jpg" target="_blank"><img src="/assets/4kxnxUJ.jpg" style="width:340px"  /></a>
-<a href="/assets/fv6uFPp.jpg" target="_blank"><img src="/assets/fv6uFPp.jpg" style="width:340px"  /></a>
 
 ---
 

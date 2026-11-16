@@ -14,13 +14,14 @@ redirect_from:
   - /f32mini
   - /f32
 sortKey: Fibonacci0032 Mini
+gallery:
+  - src: "/assets/PPEmzME.jpg"
+  - src: "/assets/07Avtki.jpg"
+  - src: "/assets/O4n5yro.jpg"
+  - src: "/assets/kxsWOKq.jpg"
 ---
 
 <!-- <a href="/assets/9wXGJhP.mp4" target="_blank"><video class="lazy" style="width:340px" data-src="/assets/9wXGJhP.mp4" autoplay muted loop playsinline></video></a> -->
-<a href="/assets/PPEmzME.jpg" target="_blank"><img src="/assets/PPEmzME.jpg" style="width:340px"  /></a>
-<a href="/assets/07Avtki.jpg" target="_blank"><img src="/assets/07Avtki.jpg" style="width:340px"  /></a>
-<a href="/assets/O4n5yro.jpg" target="_blank"><img src="/assets/O4n5yro.jpg" style="width:340px"  /></a>
-<a href="/assets/kxsWOKq.jpg" target="_blank"><img src="/assets/kxsWOKq.jpg" style="width:340px"  /></a>
 
 ---
 

@@ -9,10 +9,10 @@ categories: retired
 redirect_from:
   - /17
   - /wls2
+gallery:
+  - src: "/assets/gXRUp18.jpg"
+  - src: "/assets/OeFzvsb.jpg"
 ---
-
-<img src="/assets/gXRUp18.jpg" style="width:400px" class="img-fluid post-img" />
-<img src="/assets/OeFzvsb.jpg" style="width:400px" class="img-fluid post-img" />
 
 <h3>Table of Contents</h3>
 

@@ -20,22 +20,31 @@ layout: default
   <iframe width="560" height="315" src="{{ page.videoUrl }}" title="{{ page.title | escape }} video" allowfullscreen></iframe>
 </div>
 
+{%- comment -%} The gallery strip sits right under the last hero item and brings its own spacing. {%- endcomment %}
+{% unless page.gallery and page.imgurId == null %}
 <br />
 <br />
+{% endunless %}
 {% endif %}
 
 {% if page.imgurId != null %}
 {% assign poster_base = page.imgurId | split: "." | first %}
 {% assign hero_ext = page.imgurId | split: "." | last %}
-<div class="ratio ratio-16x9">
+<div class="ratio ratio-16x9 post-hero">
   {% if hero_ext == "mp4" %}
   <video class="post lazy" data-poster="/assets/{{ poster_base }}.jpg" autoplay muted loop playsinline data-src="/assets/{{ page.imgurId }}"></video>
   {% else %}
   <img src="/assets/{{ page.imgurId }}" alt="{{ page.title | escape }}">
   {% endif %}
 </div>
+{% unless page.gallery %}
 <br />
 <br />
+{% endunless %}
+{% endif %}
+
+{% if page.gallery %}
+{% include post-gallery.html items=page.gallery %}
 {% endif %}
 
 {% if page.sourceUrl != null %}

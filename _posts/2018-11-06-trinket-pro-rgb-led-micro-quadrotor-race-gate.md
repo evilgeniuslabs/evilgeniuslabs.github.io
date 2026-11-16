@@ -9,30 +9,26 @@ excerpt: RGB LED race gate for micro quadrotors, built with a Trinket Pro, 60 Ne
 categories: retired
 redirect_from:
   - /26
+gallery:
+  - src: "/assets/KDue2cs.mp4"
+    poster: "/assets/KDue2cs.jpg"
+  - src: "/assets/VLQ5fCV.mp4"
+    poster: "/assets/VLQ5fCV.jpg"
+  - src: "/assets/V9kHfCS.mp4"
+    poster: "/assets/V9kHfCS.jpg"
+  - src: "/assets/LP60W0A.jpg"
+  - src: "/assets/M060Hxu.jpg"
+  - src: "/assets/HSkjbnz.jpg"
+  - src: "/assets/sMUO99b.jpg"
+  - src: "/assets/JWSIr2c.jpg"
+  - src: "/assets/9aP8yPQ.jpg"
+  - src: "/assets/HToMlpe.jpg"
+  - src: "/assets/Fvj1nbg.jpg"
+  - src: "/assets/VUIQWmk.jpg"
+  - src: "/assets/NHmCcdx.jpg"
+  - src: "/assets/aKOmQde.jpg"
+  - src: "/assets/A0Yvsf7.jpg"
 ---
-
-<div class="row g-2">
-
-  <video playsinline class="post col-sm-4 col-12 lazy" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/KDue2cs.mp4"></video>
-
-  <video playsinline class="post col-sm-4 col-12 lazy" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/VLQ5fCV.mp4"></video>
-
-  <video playsinline class="post col-sm-4 col-12 lazy" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/V9kHfCS.mp4"></video>
-
-<a class="col-12 col-sm-4" href="/assets/LP60W0A.jpg" target="_blank"><img src="/assets/LP60W0A.jpg" class="w-100 d-block" /></a>
-<a class="col-12 col-sm-4" href="/assets/M060Hxu.jpg" target="_blank"><img src="/assets/M060Hxu.jpg" class="w-100 d-block" /></a>
-<a class="col-12 col-sm-4" href="/assets/HSkjbnz.jpg" target="_blank"><img src="/assets/HSkjbnz.jpg" class="w-100 d-block" /></a>
-<a class="col-12 col-sm-4" href="/assets/sMUO99b.jpg" target="_blank"><img src="/assets/sMUO99b.jpg" class="w-100 d-block" /></a>
-<a class="col-12 col-sm-4" href="/assets/JWSIr2c.jpg" target="_blank"><img src="/assets/JWSIr2c.jpg" class="w-100 d-block" /></a>
-<a class="col-12 col-sm-4" href="/assets/9aP8yPQ.jpg" target="_blank"><img src="/assets/9aP8yPQ.jpg" class="w-100 d-block" /></a>
-<a class="col-12 col-sm-4" href="/assets/HToMlpe.jpg" target="_blank"><img src="/assets/HToMlpe.jpg" class="w-100 d-block" /></a>
-<a class="col-12 col-sm-4" href="/assets/Fvj1nbg.jpg" target="_blank"><img src="/assets/Fvj1nbg.jpg" class="w-100 d-block" /></a>
-<a class="col-12 col-sm-4" href="/assets/VUIQWmk.jpg" target="_blank"><img src="/assets/VUIQWmk.jpg" class="w-100 d-block" /></a>
-<a class="col-12 col-sm-4" href="/assets/NHmCcdx.jpg" target="_blank"><img src="/assets/NHmCcdx.jpg" class="w-100 d-block" /></a>
-<a class="col-12 col-sm-4" href="/assets/aKOmQde.jpg" target="_blank"><img src="/assets/aKOmQde.jpg" class="w-100 d-block" /></a>
-<a class="col-12 col-sm-4" href="/assets/A0Yvsf7.jpg" target="_blank"><img src="/assets/A0Yvsf7.jpg" class="w-100 d-block" /></a>
-
-</div>
 
 <h3>Table of Contents</h3>
 

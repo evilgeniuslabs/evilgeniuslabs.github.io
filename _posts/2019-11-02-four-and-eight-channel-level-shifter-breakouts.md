@@ -9,15 +9,12 @@ categories: retired
 published: false
 redirect_from:
   - /31
+gallery:
+  - src: "/assets/w4jhZna.jpg"
+  - src: "/assets/yC4nscY.jpg"
+  - src: "/assets/TwSkOY7.jpg"
+  - src: "/assets/HmgnFRA.jpg"
 ---
-
-<img src="/assets/w4jhZna.jpg" style="width:340px" class="img-fluid post-img" />
-
-<img src="/assets/yC4nscY.jpg" style="width:340px" class="img-fluid post-img" />
-
-<img src="/assets/TwSkOY7.jpg" style="width:265px" class="img-fluid post-img" />
-
-<img src="/assets/HmgnFRA.jpg" style="width:265px" class="img-fluid post-img" />
 
 <h3>Table of Contents</h3>
 

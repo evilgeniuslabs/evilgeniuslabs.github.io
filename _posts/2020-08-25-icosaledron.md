@@ -14,13 +14,14 @@ redirect_from:
   - /40
   - /icosaledron
   - /d20
+gallery:
+  - src: "/assets/giphy-UoLzutZkzOEUC1aZZ3.mp4"
+    poster: "/assets/giphy-UoLzutZkzOEUC1aZZ3.jpg"
+  - src: "/assets/fcWXd9l.jpg"
+  - src: "/assets/kq1mQMI.jpg"
+  - src: "/assets/uYUS46G.jpg"
+  - src: "/assets/Ndzfn2W.jpg"
 ---
-
-<a href="/assets/giphy-UoLzutZkzOEUC1aZZ3.mp4" target="_blank"><video style="width:340px" data-src="/assets/giphy-UoLzutZkzOEUC1aZZ3.mp4" autoplay muted loop playsinline></video></a>
-<a href="/assets/fcWXd9l.jpg" target="_blank"><img src="/assets/fcWXd9l.jpg" style="width:340px"  /></a>
-<a href="/assets/kq1mQMI.jpg" target="_blank"><img src="/assets/kq1mQMI.jpg" style="width:340px"  /></a>
-<a href="/assets/uYUS46G.jpg" target="_blank"><img src="/assets/uYUS46G.jpg" style="width:340px"  /></a>
-<a href="/assets/Ndzfn2W.jpg" target="_blank"><img src="/assets/Ndzfn2W.jpg" style="width:340px"  /></a>
 
 <h3>Table of Contents</h3>
 

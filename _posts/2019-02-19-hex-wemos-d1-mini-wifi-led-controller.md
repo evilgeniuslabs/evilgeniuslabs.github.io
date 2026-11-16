@@ -8,15 +8,11 @@ excerpt: 6 output, Wi-Fi controlled, Arduino-compatible addressable RGB LED cont
 categories: retired
 redirect_from:
   - /29
+gallery:
+  - src: "/assets/fz2cuqp.jpg"
+  - src: "/assets/i22hSwj.jpg"
+  - src: "/assets/TnjrrRD.jpg"
 ---
-
-<img src="/assets/fz2cuqp.jpg" style="width:400px" class="img-fluid post-img" />
-
-<img src="/assets/i22hSwj.jpg" style="width:400px" class="img-fluid post-img" />
-
-<img src="/assets/e1CwOfg.jpg" style="width:400px" class="img-fluid post-img" />
-
-<img src="/assets/TnjrrRD.jpg" style="width:400px" class="img-fluid post-img" />
 
 <h3>Table of Contents</h3>
 

@@ -13,15 +13,22 @@ redirect_from:
   - /1f128
   - /1inchf128
 sortKey: Fibonacci0128 One Inch
+gallery:
+  - src: "/assets/OPSRQJg.jpg"
+    alt: "One Inch Fibonacci128 held in fingers, glowing pink and blue through its diffuser"
+  - src: "/assets/hJaM5kV.jpg"
+    alt: "One Inch Fibonacci128 PCB with 128 tiny LEDs glowing blue and purple"
+  - src: "/assets/WPtWVOj.jpg"
+    alt: "Unlit One Inch Fibonacci128 PCB with LEDs arranged in a Fibonacci spiral"
+  - src: "/assets/WVNHbnu.jpg"
+    alt: "Back of the One Inch Fibonacci128 with a QT Py microcontroller and USB-C port"
+  - src: "/assets/VtUPc6D.jpg"
+    alt: "One Inch Fibonacci128 in its 3D printed case with a Voronoi diffuser front"
+  - src: "/assets/nbgX3uo.jpg"
+    alt: "Back of the 3D printed case with the USB-C port exposed"
+  - src: "/assets/YPEkYqr.jpg"
+    alt: "Side view of the 3D printed case showing the USB-C port and screws"
 ---
-
-<a href="/assets/OPSRQJg.jpg" target="_blank"><img alt="One Inch Fibonacci128 held in fingers, glowing pink and blue through its diffuser" src="/assets/OPSRQJg.jpg" style="width:340px" /></a>
-<a href="/assets/hJaM5kV.jpg" target="_blank"><img alt="One Inch Fibonacci128 PCB with 128 tiny LEDs glowing blue and purple" src="/assets/hJaM5kV.jpg" style="width:340px" /></a>
-<a href="/assets/WPtWVOj.jpg" target="_blank"><img alt="Unlit One Inch Fibonacci128 PCB with LEDs arranged in a Fibonacci spiral" src="/assets/WPtWVOj.jpg" style="width:340px" /></a>
-<a href="/assets/WVNHbnu.jpg" target="_blank"><img alt="Back of the One Inch Fibonacci128 with a QT Py microcontroller and USB-C port" src="/assets/WVNHbnu.jpg" style="width:340px" /></a>
-<a href="/assets/VtUPc6D.jpg" target="_blank"><img alt="One Inch Fibonacci128 in its 3D printed case with a Voronoi diffuser front" src="/assets/VtUPc6D.jpg" style="width:340px" /></a>
-<a href="/assets/nbgX3uo.jpg" target="_blank"><img alt="Back of the 3D printed case with the USB-C port exposed" src="/assets/nbgX3uo.jpg" style="width:340px" /></a>
-<a href="/assets/YPEkYqr.jpg" target="_blank"><img alt="Side view of the 3D printed case showing the USB-C port and screws" src="/assets/YPEkYqr.jpg" style="width:340px" /></a>
 
 <a href="https://lectronz.com/products/inch-fibonacci128" alt="Buy it on Lectronz"><img alt="Buy it on Lectronz" src="https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-small.png" /></a>
 

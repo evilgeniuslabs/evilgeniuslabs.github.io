@@ -14,20 +14,20 @@ redirect_from:
   - /f64micro
   - /f64u
 sortKey: Fibonacci0064 Micro
+gallery:
+  - src: "/assets/MHJo2My.jpg"
+  - src: "/assets/zpv3plJ.jpg"
+  - src: "/assets/0acgduU.jpg"
+  - src: "/assets/MHJo2My.jpg"
+  - src: "/assets/1sOdoQt.jpg"
+  - src: "/assets/RxRM1lW.jpg"
+  - src: "/assets/9ZbtRUm.jpg"
+  - src: "/assets/fO8GSLk.jpg"
+  - src: "/assets/K3pxorP.jpg"
+  - src: "/assets/yONidkC.jpg"
 ---
 
 <!-- <video playsinline class="post lazy" data-poster="/assets/j83kSI7.png" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/j83kSI7.mp4"></video> -->
-
-<a href="/assets/MHJo2My.jpg" target="_blank"><img src="/assets/MHJo2My.jpg" style="width:340px"  /></a>
-<a href="/assets/zpv3plJ.jpg" target="_blank"><img src="/assets/zpv3plJ.jpg" style="width:340px"  /></a>
-<a href="/assets/0acgduU.jpg" target="_blank"><img src="/assets/0acgduU.jpg" style="width:340px"  /></a>
-<a href="/assets/MHJo2My.jpg" target="_blank"><img src="/assets/MHJo2My.jpg" style="width:340px"  /></a>
-<a href="/assets/1sOdoQt.jpg" target="_blank"><img src="/assets/1sOdoQt.jpg" style="width:340px"  /></a>
-<a href="/assets/RxRM1lW.jpg" target="_blank"><img src="/assets/RxRM1lW.jpg" style="width:340px"  /></a>
-<a href="/assets/9ZbtRUm.jpg" target="_blank"><img src="/assets/9ZbtRUm.jpg" style="width:340px"  /></a>
-<a href="/assets/fO8GSLk.jpg" target="_blank"><img src="/assets/fO8GSLk.jpg" style="width:340px"  /></a>
-<a href="/assets/K3pxorP.jpg" target="_blank"><img src="/assets/K3pxorP.jpg" style="width:340px"  /></a>
-<a href="/assets/yONidkC.jpg" target="_blank"><img src="/assets/yONidkC.jpg" style="width:340px"  /></a>
 
 ---
 

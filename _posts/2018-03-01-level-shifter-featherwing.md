@@ -8,13 +8,11 @@ excerpt: Wi-Fi controlled, Arduino-compatible addressable RGB LED controller bas
 categories: retired
 redirect_from:
   - /20
+gallery:
+  - src: "/assets/jz8J5P8.jpg"
+  - src: "/assets/cDRWBta.jpg"
+  - src: "/assets/XaLZdW2.jpg"
 ---
-
-<img src="/assets/jz8J5P8.jpg" style="width:400px" class="img-fluid post-img" />
-
-<img src="/assets/cDRWBta.jpg" style="width:400px" class="img-fluid post-img" />
-
-<img src="/assets/XaLZdW2.jpg" style="width:400px" class="img-fluid post-img" />
 
 <h3>Table of Contents</h3>
 

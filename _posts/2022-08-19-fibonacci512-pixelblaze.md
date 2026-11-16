@@ -12,12 +12,16 @@ redirect_from:
   - /59
   - /f512pb
 sortKey: Fibonacci0512pb
+gallery:
+  - src: "/assets/ej7igQO.jpg"
+    alt: "Fibonacci512 HDR Pixelblaze glowing in blue and purple spiral arms"
+  - src: "/assets/fKj1V7K.jpg"
+    alt: "Fibonacci512 HDR Pixelblaze glowing in rainbow spiral arms"
+  - src: "/assets/RHiNHaU.jpg"
+    alt: "Close-up at an angle of the Fibonacci512 HDR glowing blue and pink through its diffuser"
+  - src: "/assets/FUcgUAu.jpg"
+    alt: "Fibonacci512 HDR LED board glowing, next to smaller Fibonacci boards and a hand for scale"
 ---
-
-<a href="/assets/ej7igQO.jpg" target="_blank"><img alt="Fibonacci512 HDR Pixelblaze glowing in blue and purple spiral arms" src="/assets/ej7igQO.jpg" style="width:340px"  /></a>
-<a href="/assets/fKj1V7K.jpg" target="_blank"><img alt="Fibonacci512 HDR Pixelblaze glowing in rainbow spiral arms" src="/assets/fKj1V7K.jpg" style="width:340px"  /></a>
-<a href="/assets/RHiNHaU.jpg" target="_blank"><img alt="Close-up at an angle of the Fibonacci512 HDR glowing blue and pink through its diffuser" src="/assets/RHiNHaU.jpg" style="width:340px"  /></a>
-<a href="/assets/FUcgUAu.jpg" target="_blank"><img alt="Fibonacci512 HDR LED board glowing, next to smaller Fibonacci boards and a hand for scale" src="/assets/FUcgUAu.jpg" style="width:340px"  /></a>
 
 <a href="https://lectronz.com/stores/evilgeniuslabs"><img alt="I sell on Lectronz" src="https://lectronz-images.b-cdn.net/static/badges/i-sell-on-lectronz-medium.png" /></a>
 

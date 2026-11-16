@@ -14,12 +14,12 @@ redirect_from:
   - /f64microhdrws2816
   - /f64u2816
 sortKey: Fibonacci0064 Micro HDR WS2816
+gallery:
+  - src: "/assets/K2bqxvt.jpg"
+    alt: "Fibonacci64 Micro HDR glowing pink, blue and purple, with red and black power wires"
+  - src: "/assets/BTdKtF9.jpg"
+    alt: "Back of Fibonacci64 Micro HDR with a Pixelblaze Pico attached and power wires soldered on"
 ---
-
-<video playsinline class="post lazy" data-poster="/assets/g8GJGfI.png" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/g8GJGfI.mp4"></video>
-
-<a href="/assets/K2bqxvt.jpg" target="_blank"><img alt="Fibonacci64 Micro HDR glowing pink, blue and purple, with red and black power wires" src="/assets/K2bqxvt.jpg" style="width:340px"  /></a>
-<a href="/assets/BTdKtF9.jpg" target="_blank"><img alt="Back of Fibonacci64 Micro HDR with a Pixelblaze Pico attached and power wires soldered on" src="/assets/BTdKtF9.jpg" style="width:340px"  /></a>
 
 <h3>Table of Contents</h3>
 
