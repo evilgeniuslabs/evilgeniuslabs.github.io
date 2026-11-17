@@ -3,7 +3,7 @@ layout: post
 title: Why Fibonacci?
 id: why-fibonacci
 imgurId: fermat-recipe.mp4
-excerpt: Interactive animations show why a Fermat spiral beats a grid or rings, why the angle is 137.508°, and where the Fibonacci numbers come from.
+excerpt: Interactive animations show why the Fibonacci layout beats a grid or rings, why the angle is 137.508°, and where the Fibonacci numbers come from.
 categories:
   # - blog
   # - portfolio
@@ -30,7 +30,7 @@ I was inspired to create my first Fibonacci LED piece after seeing [this video](
 
 Fast forward to 2026. I've made dozens of Fibonacci designs. Recently, I saw [this brilliant post](https://www.instagram.com/p/DbYfgifReFx) by Nick Pisarro explaining the use of the golden angle in creating his beautiful [Halo Pixel](https://desert-ember.square.site/product/halo-pixel/2HSIGXSPGI5TLV2RCXBHFCMY). It got me thinking about how to explain the techniques I use.
 
-Every Fibonacci board I make, from the tiny [One Inch Fibonacci64](/one-inch-fibonacci64) to the [Fibonacci1024](/fibonacci1024), puts its LEDs on a Fermat spiral.
+Every Fibonacci board I make, from the tiny [One Inch Fibonacci64](/one-inch-fibonacci64) to the [Fibonacci1024](/fibonacci1024), puts its LEDs on a Fermat spiral, the same pattern as the seeds in a sunflower. It's different from the ["Fibonacci spiral"](https://en.wikipedia.org/wiki/Fibonacci_sequence) drawn from squares, which is a single curve. The Fibonacci step shows where the name comes from.
 
 <div class="stepper" markdown="1">
 
@@ -55,26 +55,6 @@ Every LED on every¹ Fibonacci board is placed by those rules. LED *n* sits *n* 
 <small id="ref1">
 ¹ There are exceptions to the √*n* rule, of course, like [Fibonacci64 Flower](/fibonacci64-flower) and [Fibonacci256 Expanding](/fibonacci256-expanding-hdr-pixelblaze).
 </small>
-
-</section>
-
-<section class="step" id="spacing" data-label="√n spacing" markdown="1">
-
-### √n spacing
-
-<div class="mb-3" data-fermat="spacing">
-<div class="ratio ratio-16x9">
-  <video class="post lazy" data-poster="/assets/fermat-spacing.jpg" data-no-lightbox aria-label="256 LEDs on a spiral, each with its share of the board shaded. With equal steps out, the LEDs bunch up in the middle. Stepping out by the square root of n gives every LED an even share. Steps that shrink faster leave gaps in the middle and crowd the edge." controls muted playsinline data-src="/assets/fermat-spacing.mp4"></video>
-</div>
-</div>
-
-Each cell in the animation is the part of the board that's closer to its LED than to any other.
-
-If you step out the same distance each time, the LEDs bunch up in the middle and spread out toward the edge, and the biggest cell ends up about 150 times the size of the smallest.
-
-A disc's area grows with the square of its radius, so stepping out by √*n* gives every LED the same share of the board. The biggest cell is then only 1.3 times the smallest. If the steps shrink faster than that, it flips, with gaps in the middle and crowding at the edge.
-
-With equal area for every LED, the pixel density is the same all the way across the board.
 
 </section>
 
@@ -108,13 +88,33 @@ Angles past 180° just mirror these: 222.492° (360° − 137.508°) makes the s
 
 </section>
 
+<section class="step" id="spacing" data-label="√n spacing" markdown="1">
+
+### √n spacing
+
+<div class="mb-3" data-fermat="spacing">
+<div class="ratio ratio-16x9">
+  <video class="post lazy" data-poster="/assets/fermat-spacing.jpg" data-no-lightbox aria-label="256 LEDs on a spiral, each with its share of the board shaded. With the same step out each time, the LEDs are crowded in the middle and far apart at the edge. Shrinking the step by the square root of n spaces them evenly. Steps that shrink faster leave them far apart in the middle and crowded at the edge." controls muted playsinline data-src="/assets/fermat-spacing.mp4"></video>
+</div>
+</div>
+
+With the angle set, the next question is how far each LED steps out from the center. Each cell in the animation is the part of the board that's closer to its LED than to any other.
+
+If each LED steps the same distance further out than the last, the LEDs end up crowded together in the middle and far apart at the edge. The biggest cell is about 150 times the size of the smallest.
+
+A disc's area grows with the square of its radius, so the steps out have to shrink as you go. Stepping out by √*n* gives every LED the same share of the board, and neighboring LEDs end up evenly spaced. The biggest cell is then only 1.3 times the smallest. If the steps shrink faster than that, it flips, with the LEDs far apart in the middle and crowded at the edge.
+
+With equal area for every LED, the pixel density is the same all the way across the board.
+
+</section>
+
 <section class="step" id="add-one" data-label="Add one more" markdown="1">
 
 ### You can always add one more
 
 <div class="mb-3" data-fermat="add-one">
 <div class="ratio ratio-16x9">
-  <video class="post lazy" data-poster="/assets/fermat-add-one.jpg" data-no-lightbox aria-label="A Fermat spiral, a square grid and concentric rings grow one LED at a time, from 1 to 1024. The grid is only square at square numbers and the rings are only tidy when full, but the spiral stays round at every count." controls muted playsinline data-src="/assets/fermat-add-one.mp4"></video>
+  <video class="post lazy" data-poster="/assets/fermat-add-one.jpg" data-no-lightbox aria-label="The Fibonacci layout, a square grid and concentric rings grow one LED at a time, from 1 to 1024. The grid is only square at square numbers and the rings are only tidy when full, but the spiral stays round at every count." controls muted playsinline data-src="/assets/fermat-add-one.mp4"></video>
 </div>
 </div>
 
@@ -139,7 +139,7 @@ Look closely at any of the boards and you'll see spiral arms. Connect every 3rd 
 
 Any other count, like 4 or 30, zigzags or wobbles across the board instead.
 
-The arm counts are 3, 5, 8, 13, 21 and 34. Put 1, 1 and 2 in front and each number is the sum of the two before it. They're the Fibonacci numbers, which is where the boards get their name. Sunflower seed heads have the same spirals.
+The arm counts are 3, 5, 8, 13, 21 and 34. Put 1, 1 and 2 in front and each number is the sum of the two before it. They're the Fibonacci numbers, which is where the boards get their name. Count the spirals in a sunflower head and you'll find Fibonacci numbers there too.
 
 </section>
 
@@ -158,3 +158,5 @@ The video shows a real [Fibonacci256](/fibonacci256), then the [One Inch Fibonac
 </div>
 
 More on Wikipedia: [Fermat's spiral](https://en.wikipedia.org/wiki/Fermat%27s_spiral), the [golden angle](https://en.wikipedia.org/wiki/Golden_angle), and [phyllotaxis](https://en.wikipedia.org/wiki/Phyllotaxis), the way plants arrange their leaves and seeds.
+
+<small>The animations and videos in this post are © Evil Genius Labs LLC, licensed [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). You're welcome to share and adapt them with credit, but not commercially.</small>
