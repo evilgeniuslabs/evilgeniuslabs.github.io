@@ -100,7 +100,7 @@ Angles past 180° just mirror these: 222.492° (360° − 137.508°) makes the s
 
 With the angle set, the next question is how far each LED steps out from the center. Each cell in the animation is the part of the board that's closer to its LED than to any other.
 
-If each LED steps the same distance further out than the last, the LEDs end up crowded together in the middle and far apart at the edge. The biggest cell is about 150 times the size of the smallest.
+If every step out is the same size, the edge has far more room than the middle but gets no more LEDs, so the LEDs end up crowded together in the middle and far apart at the edge. The biggest cell is about 150 times the size of the smallest.
 
 A disc's area grows with the square of its radius, so the steps out have to shrink as you go. Stepping out by √*n* gives every LED the same share of the board, and neighboring LEDs end up evenly spaced. The biggest cell is then only 1.3 times the smallest. If the steps shrink faster than that, it flips, with the LEDs far apart in the middle and crowded at the edge.
 
