@@ -28,12 +28,12 @@ gallery:
     alt: "Fibonacci256 Expanding HDR glowing teal and green"
 ---
 
-<h3>Table of Contents</h3>
+<h2>Table of Contents</h2>
 
 - TOC
 {:toc}
 
-### Details
+## Details
 
 Fibonacci256 Expanding HDR is a beautiful 166mm circular disc with 256 RGB LEDs surface mounted in a Fibonacci layout. Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
 
@@ -47,7 +47,7 @@ I have RGB LEDs in just about every form they come: strips, strings, rings, disc
 
 ---
 
-### Connecting
+## Connecting
 
 Your Fibonacci should automatically play a playlist of pre-selected patterns endlessly.
 
@@ -121,7 +121,7 @@ If you've already chosen **Client Mode** and followed the instructions above, sk
 
 <!-- Congratulations! You should now be able to connect to and configure your Fibonacci! -->
 
-### Settings
+## Settings
 
 After you've gotten your Fibonacci connected to a wi-fi network,
 there are a few settings you should check and be aware of.
@@ -145,7 +145,7 @@ These settings should **always** be set to the following values to match the typ
 
 ---
 
-### Mapper
+## Mapper
 
 You shouldn't need to change anything on the **Mapper** tab.
 This page just contains the pixel map, which is the location of each of your Fibonacci's LEDs. It's used by the Pixelblaze controller in patterns.
@@ -155,7 +155,7 @@ If you ever do need to reset to the Fibonacci's default map, use these values:
 <div class="accordion" id="accordion">
 
   <div class="accordion-item">
-    <h4 class="accordion-header" id="headingOne"><button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Pixelblaze Map (click to expand)</button></h4>
+    <h3 class="accordion-header" id="headingOne"><button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Pixelblaze Map (click to expand)</button></h3>
     <div id="collapseOne" class="accordion-collapse collapse" data-parent="#accordion" aria-labelledby="headingOne">
       <div class="accordion-body">
         <pre>
@@ -168,7 +168,7 @@ If you ever do need to reset to the Fibonacci's default map, use these values:
 
 ---
 
-### Patterns
+## Patterns
 
 Fibonacci comes with a wide variety of patterns built-in.
 By default, it will automatically play a playlist of pre-selected patterns.
@@ -189,13 +189,13 @@ Pattern sequencer options:
 
 ---
 
-### Pixelblaze Settings
+## Pixelblaze Settings
 
 You can download this backup file <a href="/downloads/Fibonacci256 Expanding HDR.pbb">Fibonacci256 Expanding HDR.pbb</a> and restore it with the `Restore from Backup` button at the bottom of the Pixelblaze web UI's Settings tab/page.
 
 ---
 
-### Specifications
+## Specifications
 
 - Size: 6.54 x 6.54 x .063 inch (166 x 166 x 1.6 mm)
 - 2 layer printed circuit board
@@ -204,13 +204,13 @@ You can download this backup file <a href="/downloads/Fibonacci256 Expanding HDR
 - HASL (Hot Air Solder Leveling)
 - Designed and assembled in the US by Evil Genius Labs
 
-### Assembly Instructions
+## Assembly Instructions
 
 <img alt="3D render of the assembled Fibonacci256 Expanding HDR case from the side" src="/images/f256-eh/case-1.png" class="img-thumbnail" style="width: 320px" />
 <img alt="Exploded 3D render of the acrylic front, diffuser grid, LED PCB and back panel with screws" src="/images/f256-eh/case-7.png" class="img-thumbnail" style="width: 320px" />
 <img alt="Exploded side-view render of the case layers with screws and standoffs" src="/images/f256-eh/case-6.png" class="img-thumbnail" style="width: 320px" />
 
-#### Case Kit Parts
+### Case Kit Parts
 
 - 1 x Acrylic front with Voronoi pattern etch
 - 1 x Voronoi grid
@@ -220,7 +220,7 @@ You can download this backup file <a href="/downloads/Fibonacci256 Expanding HDR
 - 4 x M2x10mm standoffs
 - 4 x M2x6mm screws
 
-#### Pixelblaze Assembly
+### Pixelblaze Assembly
 
 Pixelblaze output:
 
@@ -250,14 +250,14 @@ Pixelblaze Sensor Expansion Board:
 
 <img alt="Pixelblaze with the Sensor Expansion board stacked on it" src="/images/pixelblaze/pb4.jpg" class="img-thumbnail" style="width: 320px" />
 
-#### Power board assembly
+### Power board assembly
 
 1. Insert the three-pin JST-XH connector into the power board as shown, flip it over, and solder the pins.
 1. Insert the power connector into the power board as shown, flip it over, and solder the pins.
 
    <img alt="Power board with a 5.5x2.1mm barrel jack and a connector soldered on" src="/images/f256-eh/power-pcb.jpg" class="img-thumbnail" style="width: 320px" />
 
-#### LED PCB Assembly
+### LED PCB Assembly
 
 1. The plastic fins on the JST-XH connectors may extend past the edge of the LED PCB when inserted. If so, they can be trimmed with a pair of wire cutters:
 
@@ -271,7 +271,7 @@ Pixelblaze Sensor Expansion Board:
 
    <img alt="Front of the LED PCB with the connector pins soldered through" src="/images/f256-eh/jst3.jpg" class="img-thumbnail" style="width: 320px" />
 
-#### Acrylic Case Assembly
+### Acrylic Case Assembly
 
 1. Arrange the acrylic front, diffuser grid, and LED PCB as shown. Note the position of the Voronoi grid on the front and grid pieces, they should line up. The connectors on the LED PCB should be on the top.
 

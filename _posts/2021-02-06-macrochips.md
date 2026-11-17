@@ -18,17 +18,17 @@ redirect_from:
 
 A collection of laser engraved, 4 inch slate tile microchip coasters.
 
-<h3>Table of Contents</h3>
+<h2>Table of Contents</h2>
 
 - TOC
 {:toc}
 
-### To Purchase
+## To Purchase
 
 These are available to purchase by request, just [contact me](/contact) and let me know the desired designs and quantities.
 I can make any of the designs below, and can make new designs. I just need the chip name and links to any photos you can find.
 
-### Details
+## Details
 
 Some source vector and image files: [https://github.com/jasoncoon/macrochips](https://github.com/jasoncoon/macrochips)
 
@@ -40,7 +40,7 @@ A light coat of mineral oil before engraving makes them shiny, if that's the loo
   <video playsinline class="post lazy" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/rGQkxnr.mp4"></video>
 </div>
 
-### Collection
+## Collection
 
 I have made {{ site.data.macrochips | size }} different macrochip designs so far:
 

@@ -31,12 +31,12 @@ gallery:
    <video playsinline class="post lazy" data-poster="/assets/50JYqsw.jpg" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/50JYqsw.mp4"></video>
 </div> -->
 
-<h3>Table of Contents</h3>
+<h2>Table of Contents</h2>
 
 - TOC
 {:toc}
 
-### Details
+## Details
 
 Fibonacci64 Flower is a beautiful 148mm PCB with 64 RGB LEDs surface mounted in a Fibonacci distribution. Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
 
@@ -56,7 +56,7 @@ It consists of 64 RGB LEDs, arranged into a flower-shaped <a href="https://en.wi
 
 ---
 
-### Specifications
+## Specifications
 
 - Size: 5.83 x 5.83 x .063 inch (148mm x 148mm x 1.6 mm)
 - 2 layer printed circuit board
@@ -65,11 +65,11 @@ It consists of 64 RGB LEDs, arranged into a flower-shaped <a href="https://en.wi
 - HASL (Hot Air Solder Leveling) Finish
 - Designed and assembled in the US by Evil Genius Labs
 
-### Code
+## Code
 
 Open source example firmware and web application: [https://github.com/jasoncoon/fibonacci64-touch-demo/tree/f64-flower](https://github.com/jasoncoon/fibonacci64-touch-demo/tree/f64-flower)
 
-### Assembly Instructions
+## Assembly Instructions
 
 **Note**: Double-check the position, alignment, and orientation of each component very carefully before soldering!
 
@@ -87,7 +87,7 @@ If you're new to soldering, I highly recommend reading through a good soldering 
 1. Each WS2812C-2020 can theoretically draw 15mA at full brightness, solid white color. 64 of them can theoretically draw 960mA. I suggest using [FastLED's power management](https://github.com/FastLED/FastLED/wiki/Power-notes#managing-power-in-fastled) to limit the maximum brightness to a reasonable amount, well under the maximum your power supply is rated for. I've found that 960mA is blindingly bright.
    WS
 
-### Acrylic Open Case Assembly Instructions
+## Acrylic Open Case Assembly Instructions
 
 1. Peel and remove any protective plastic and/or paper film from the acrylic.
 1. Insert M2x8mm Button Head Hex Screws the holes in the matte side of the acrylic face plate.

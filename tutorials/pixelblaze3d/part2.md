@@ -14,7 +14,7 @@ Let's pick up from where we left off in [Part 1](/tutorials/pixelblaze3d/part1)
 
 ---
 
-### Table of contents
+## Table of contents
 
 - [The `beforeRender` function](#the-beforerender-function)
 - [Value, Brightness, and Gamma Correction](#value-brightness-and-gamma-correction)
@@ -28,7 +28,7 @@ Let's pick up from where we left off in [Part 1](/tutorials/pixelblaze3d/part1)
 
 ---
 
-### The `beforeRender` Function
+## The `beforeRender` Function
 
 While the `render` and `render2D` functions are called once for each pixel, the `beforeRender` function is called once before each new frame of pixels is rendered to the strip. This is where we can prepare any data needed by all of the pixels once.
 
@@ -47,7 +47,7 @@ In the introduction, we used the `time` function to make patterns move. In [Part
 
 ---
 
-### Value, Brightness, and Gamma Correction
+## Value, Brightness, and Gamma Correction
 
 So far all of the patterns we've created turn on all the pixels at full brightness. Let's add some variety.
 
@@ -110,7 +110,7 @@ The final code:
 
 ---
 
-### Waves
+## Waves
 
 We've only been using the `time` function to add motion so far.
 
@@ -118,7 +118,7 @@ Let's explore some different waveforms and how to generate them.
 
 ---
 
-### Sawtooth Wave (Time)
+## Sawtooth Wave (Time)
 
 The `time` function that we've been using creates a sawtooth wave between 0.0 and 1.0 that loops about every `65.536 * interval` seconds (use `0.015` for approximately 1 second).
 
@@ -143,7 +143,7 @@ We see it as a continuously scrolling rainbow, because the time wave wraps from 
 
 ---
 
-### Triangle Wave
+## Triangle Wave
 
 The `triangle` function converts a sawtooth wave between 0.0 and 1.0, like that returned by the `time` function, to a triangle wave between 0.0 and 1.0. The value passed to `triangle` is automatically wrapped between 0.0 and 1.0.
 
@@ -178,7 +178,7 @@ Notice now instead of constantly scrolling in one direction, it now moves back a
 
 ---
 
-### Sine Wave
+## Sine Wave
 
 The `wave` function converts a sawtooth wave between 0.0 and 1.0, like that returned by the `time` function, to a smooth sine wave between 0.0 and 1.0. The value passed to `wave` is automatically wrapped between 0.0 and 1.0.
 
@@ -209,7 +209,7 @@ Notice the wave moves back and forth more smoothly, slowing as it reaches the si
 
 ---
 
-### Polar Waves
+## Polar Waves
 
 Like in Part 1, we can switch from Cartesian XY coordinates to polar coordinates.
 
@@ -274,7 +274,7 @@ The complete code:
 
 ---
 
-### Perlin Noise
+## Perlin Noise
 
 All of the above wave functions are symmetrical waveforms. Let's explore a random, asymmetrical, irregular waveform.
 
@@ -350,6 +350,6 @@ Let's make it look like a lava lamp by mapping Perlin noise to value (brightness
 
 ---
 
-### Next Steps
+## Next Steps
 
 Coming soon: we'll cover custom color palettes, to make going beyond rainbows easier!

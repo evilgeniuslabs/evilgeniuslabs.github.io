@@ -33,12 +33,12 @@ Alternatives:
 
 ---
 
-<h3>Table of Contents</h3>
+<h2>Table of Contents</h2>
 
 - TOC
 {:toc}
 
-### Details
+## Details
 
 Fibonacci512 is a giant, beautiful 320mm circular disc with 512 RGB LEDs surface mounted in a Fibonacci distribution. Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
 
@@ -54,7 +54,7 @@ Each of the 512 WS2812B-Mini 3535 RGB LEDs has its own decoupling capacitor buil
 
 ---
 
-### Connecting
+## Connecting
 
 Your Fibonacci512 should automatically play a playlist of pre-selected patterns endlessly.
 
@@ -62,7 +62,7 @@ For more control, you can connect to it via wi-fi.
 
 ---
 
-##### To connect your Fibonacci512 to a wi-fi network:
+### To connect your Fibonacci512 to a wi-fi network:
 
 1. If not already connected to a wi-fi network, your Fibonacci512 will create its own network named Pixelblaze_XXXXXXX,
    where XXXXX is a code unique to your Fibonacci512. You should see it in the list of wi-fi networks available on
@@ -88,7 +88,7 @@ For more control, you can connect to it via wi-fi.
 
 In WiFi Settings you can configure your Fibonacci512 to run in one of two modes:
 
-##### Client Mode - Connect to a network
+### Client Mode - Connect to a network
 
 ---
 
@@ -113,7 +113,7 @@ Use this mode while at home or another location with an existing wi-fi network t
 
 ---
 
-##### AP Mode - Create a stand-alone network
+### AP Mode - Create a stand-alone network
 
 In this mode your Fibonacci512 will create its own wi-fi network that you can connect to from another device.
 Use this mode when outdoors or away from other wi-fi networks.
@@ -131,7 +131,7 @@ If you've already chosen **Client Mode** and followed the instructions above, sk
 
 Congratulations! You should now be able to connect to and configure your Fibonacci512!
 
-### Settings
+## Settings
 
 After you've gotten your Fibonacci512 connected to a wi-fi network,
 there are a few settings you should check and be aware of.
@@ -169,7 +169,7 @@ CPU Speed: 240 MHz (Fastest)
 
 ---
 
-### Mapper
+## Mapper
 
 You shouldn't need to change anything on the **Mapper** tab.
 This page just contains the pixel map, which is the location of each of your Fibonacci512's LEDs. It's used by the Pixelblaze controller in patterns.
@@ -179,7 +179,7 @@ If you ever do need to reset to the Fibonacci512's default map, use these values
 <div class="accordion" id="accordion">
 
   <div class="accordion-item">
-    <h4 class="accordion-header" id="headingOne"><button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Pixelblaze Map (click to expand)</button></h4>
+    <h3 class="accordion-header" id="headingOne"><button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Pixelblaze Map (click to expand)</button></h3>
     <div id="collapseOne" class="accordion-collapse collapse" data-parent="#accordion" aria-labelledby="headingOne">
       <div class="accordion-body">
         <pre>
@@ -192,7 +192,7 @@ If you ever do need to reset to the Fibonacci512's default map, use these values
 
 ---
 
-### Patterns
+## Patterns
 
 Fibonacci512 comes with a wide variety of patterns built-in.
 By default, it will automatically play a playlist of pre-selected patterns.
@@ -200,7 +200,7 @@ The sequencer can be configured via the web interface over wi-fi in the followin
 
 ---
 
-##### Pattern sequencer options:
+### Pattern sequencer options:
 
 - <b><u>Off</u></b>: Continuously play your selected favorite pattern. You can manually move to the next pattern by clicking the button on the back.
 - <b><u>Shuffle All</u></b>: randomly shuffle between all patterns after playing each one for an adjustable duration.
@@ -208,7 +208,7 @@ The sequencer can be configured via the web interface over wi-fi in the followin
 
 ---
 
-### Specifications
+## Specifications
 
 - Size: 320 x 320 x 1.6mm (12.6 x 12.6 x .063 inch)
 - 2 layer printed circuit board

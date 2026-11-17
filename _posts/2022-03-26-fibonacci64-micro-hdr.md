@@ -25,12 +25,12 @@ gallery:
 
 <!-- <video playsinline class="post lazy" data-poster="/assets/g8GJGfI.png" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/g8GJGfI.mp4"></video> -->
 
-<h3>Table of Contents</h3>
+<h2>Table of Contents</h2>
 
 - TOC
 {:toc}
 
-### Details
+## Details
 
 Fibonacci64 Micro HDR is a beautiful 40mm circular disc with 64 RGB LEDs surface mounted in a Fibonacci distribution. Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
 
@@ -44,7 +44,7 @@ It has solder pads on the back that match the pinout of a [Pixelblaze V3 Pico by
 
 ---
 
-### Specifications
+## Specifications
 
 - Size: 1.57 x 1.57 x .063 inch (40 x 40 x 1.6 mm)
 - 2 layer printed circuit board
@@ -75,11 +75,11 @@ Parts I used in my builds:
 - [Pixelblaze V3 Pico by ElectroMage](https://shop.electromage.com/products/pixelblaze-v3-pico-tiny-wifi-led-controller)
 - [Chemcast Black LED Acrylic](https://www.tapplastics.com/product/plastics/cut_to_size_plastic/black_led_sheet/668)
 
-### Code
+## Code
 
 Open source touch demo: [https://github.com/jasoncoon/fibonacci64-touch-demo/tree/f64-micro-hdr](https://github.com/jasoncoon/fibonacci64-touch-demo/tree/f64-micro-hdr)
 
-### Pixelblaze Map
+## Pixelblaze Map
 
 [Pixelblaze](https://www.bhencke.com/pixelblaze) is an advanced WiFi LED pattern engine, created by [ElectroMage](https://electromage.com). Live pattern expression compiler, lightning fast fixed point math, and HDR!
 
@@ -92,7 +92,7 @@ This map can be copied and pasted into the Pixel Mapper in the Mapper tab of you
 <div class="accordion" id="accordion">
 
   <div class="accordion-item">
-    <h4 class="accordion-header" id="headingOne"><button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Pixelblaze XY Map (click to expand)</button></h4>
+    <h3 class="accordion-header" id="headingOne"><button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Pixelblaze XY Map (click to expand)</button></h3>
     <div id="collapseOne" class="accordion-collapse collapse" data-parent="#accordion" aria-labelledby="headingOne">
       <div class="accordion-body">
         <pre>
@@ -104,9 +104,9 @@ This map can be copied and pasted into the Pixel Mapper in the Mapper tab of you
 
 </div>
 
-### Case Assembly Instructions
+## Case Assembly Instructions
 
-#### Case Kit Parts
+### Case Kit Parts
 
 - 1 x Acrylic front with Voronoi pattern etch
 - 1 x Fibonacci64 Micro HDR LED PCB
@@ -116,7 +116,7 @@ This map can be copied and pasted into the Pixel Mapper in the Mapper tab of you
 - 4 x M2x5mm standoffs
 - 4 x M2x6mm screws
 
-#### Pixelblaze Assembly
+### Pixelblaze Assembly
 
 1. Peel and remove any protective plastic and/or paper film from the acrylic.
 1. Insert M2x10mm Button Head Hex Screws into the holes in the matte side of the acrylic face plate.
@@ -146,7 +146,7 @@ This map can be copied and pasted into the Pixel Mapper in the Mapper tab of you
 
 <img alt="3D render of the Fibonacci64 Micro HDR connected to a battery holder by a cable" src="/assets/Lrk5Erw.jpg" class="img-fluid post-img" />
 
-### Assembly Instructions
+## Assembly Instructions
 
 **Note**: Double-check the position, alignment, and orientation of each component very carefully before soldering!
 

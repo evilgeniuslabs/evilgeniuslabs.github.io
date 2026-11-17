@@ -27,12 +27,12 @@ gallery:
     alt: "Back of the One Inch Fibonacci32 PCB with pads for DI, ground and 5V and a QT Py footprint"
 ---
 
-<h3>Table of Contents</h3>
+<h2>Table of Contents</h2>
 
 - TOC
 {:toc}
 
-### Details
+## Details
 
 One Inch Fibonacci 32 is a tiny, beautiful 25.4mm circular disc with 32 RGB LEDs surface mounted in a Fibonacci distribution. Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
 
@@ -46,7 +46,7 @@ The three mounting holes are surrounded by capacitive touch compatible pads. The
 
 ---
 
-### Specifications
+## Specifications
 
 - Size: 1.0 x 1.0 x .063 inch (25.4 x 25.4 x 1.6 mm)
 - 2 layer printed circuit board
@@ -57,11 +57,11 @@ The three mounting holes are surrounded by capacitive touch compatible pads. The
 - Some PCBs are manufactured in the US by [OSH Park](https://oshpark.com)
 - Some are assembled in the US by Evil Genius Labs
 
-### Code
+## Code
 
 Open source touch demo: [https://github.com/jasoncoon/fibonacci32-one-inch](https://github.com/jasoncoon/fibonacci32-one-inch)
 
-### Assembly Instructions
+## Assembly Instructions
 
 **Note**: Double-check the position, alignment, and orientation of each component very carefully before soldering!
 
@@ -81,13 +81,13 @@ If you're new to soldering, I highly recommend reading through a good soldering 
 1. Keep an eye on the temperature of the PCB and especially the connectors. High temperatures can reduce the life of the LEDs. When possible, ensure air can flow, either passively (ventilation) or actively (exhaust fan).
 1. If using FastLED, I suggest using its [power management](https://github.com/FastLED/FastLED/wiki/Power-notes#managing-power-in-fastled) to limit the maximum brightness to a reasonable amount, well under the maximum your power supply is rated for.
 
-### Case Assembly Instructions
+## Case Assembly Instructions
 
-#### 3D printed front
+### 3D printed front
 
 Use M2x4mm screws, inserted from the back, threaded through the back cover, through the LED PCB, and into the front.
 
-#### Acrylic with screws in front
+### Acrylic with screws in front
 
 1. Insert M2x10mm Button Head Hex Screws into the holes in the matte side of the acrylic face plate.
 1. Carefully center and place the Fibonacci PCB onto the screws, with the LED side facing the glossy side of the acrylic face plate.

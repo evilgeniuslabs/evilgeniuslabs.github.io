@@ -1,11 +1,11 @@
 # Liquid filter: {{ content | split_toc }} → {"before" => …, "toc" => …, "after" => …}, or nil if the page has no
 # kramdown TOC (`- TOC` + `{:toc}`). "toc" is the <ul id="markdown-toc"> list, nested lists included; the
-# "<h3>Table of Contents</h3>" heading the posts put above it is dropped from "before" so the layout can supply
+# "<h2>Table of Contents</h2>" heading the posts put above it is dropped from "before" so the layout can supply
 # its own. Used by _layouts/post.html to move the TOC into a sidebar on wide screens.
 module Jekyll
   module SplitTocFilter
     TOC_START = '<ul id="markdown-toc">'.freeze
-    TOC_HEADING = %r{<h3>\s*Table of Contents\s*</h3>\s*\z}i.freeze
+    TOC_HEADING = %r{<h2>\s*Table of Contents\s*</h2>\s*\z}i.freeze
 
     def split_toc(html)
       html = html.to_s

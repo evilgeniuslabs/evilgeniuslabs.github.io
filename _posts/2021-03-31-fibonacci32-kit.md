@@ -29,12 +29,12 @@ Alternatives:
 
 ---
 
-<h3>Table of Contents</h3>
+<h2>Table of Contents</h2>
 
 - TOC
 {:toc}
 
-### Details
+## Details
 
 Fibonacci32 is a beautiful 86mm circular disc with 32 RGB LEDs surface mounted in a Fibonacci distribution. Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
 
@@ -44,13 +44,13 @@ It consists of 32 RGB LEDs, arranged into a circular <a href="https://en.wikiped
 
 An [optional enclosure](https://shop.cybercitycircuits.com/collections/electronics-hobby-kits/products/fibonacci-32-soldering-kit-acrylic-add-on) is also available from Cyber City Circuits.
 
-### Background
+## Background
 
 {% include fermat-spiral.html %}
 
 ---
 
-### Specifications
+## Specifications
 
 - Size: 86 x 86 mm x 1.6mm (3.39 x 3.39 x .063 inch)
 - 2 layer printed circuit board
@@ -60,11 +60,11 @@ An [optional enclosure](https://shop.cybercitycircuits.com/collections/electroni
 - Designed in the US by Evil Genius Labs
 - Assembled in the US by [Cyber City Circuits](https://cybercitycircuits.com)
 
-### Code
+## Code
 
 Open source example firmware: [https://github.com/evilgeniuslabs/fibonacci32-demoreel100](https://github.com/evilgeniuslabs/fibonacci32-demoreel100)
 
-### Assembly Instructions
+## Assembly Instructions
 
 ~2 hours total
 
@@ -72,7 +72,7 @@ Open source example firmware: [https://github.com/evilgeniuslabs/fibonacci32-dem
 
 If you're new to soldering, I highly recommend reading through a good soldering tutorial, such as the ones by [Adafruit](https://learn.adafruit.com/adafruit-guide-excellent-soldering) and [SparkFun](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering).
 
-#### Nano header pins
+### Nano header pins
 
 ~30 minutes
 
@@ -105,7 +105,7 @@ These instructions do not use the header pin sockets.
    <img class="img-fluid post-img" src="/assets/fHxHuoI.jpg" />
    <img class="img-fluid post-img" src="/assets/r3OPum2.jpg" />
 
-#### Prepare the LEDs
+### Prepare the LEDs
 
 ~30 minutes
 
@@ -127,7 +127,7 @@ These instructions do not use the header pin sockets.
 1. Remove the LED PCB, and repeat for the rest.
    <img class="img-fluid post-img" src="/assets/SKsNnij.jpg" />
 
-#### Assemble the Fibonacci32
+### Assemble the Fibonacci32
 
 ~1 hour
 
@@ -201,7 +201,7 @@ Trim all the LED pins on the back side of the PCB with flush cutters.
 
 Test the LEDs, make sure they all light up.
 
-#### Solder the Nano
+### Solder the Nano
 
 1. Now we can solder the Nano pins.
 1. Again, make sure it's aligned correctly, with the USB connector towards the edge.
@@ -212,13 +212,13 @@ Test the LEDs, make sure they all light up.
 1. Now it should stay in place while soldering the rest of the pins.
 1. Test the LEDs again, make sure they all still light up.
 
-#### Solder the buttons
+### Solder the buttons
 
 1. Insert the buttons on the back of the PCB, in the outline, on the same side as the Nano.
 1. Hold the buttons in place while flipping the PCB over.
 1. Solder the button pins, while holding the PCB down.
 
-#### Assemble the case (optional)
+### Assemble the case (optional)
 
 1. Insert M3x6mm Button Head Hex Screws into the holes in the matte side of the acrylic face plate.
 1. Hand-tighten M3x5mm+6mm Male-Female Hex Nylon Standoffs onto the M3x6mm screws, on the glossy side of the acrylic face plate.

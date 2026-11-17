@@ -19,7 +19,7 @@ The [Pixelblaze](https://electromage.com/) controller inside your cube allows yo
 
 Let’s get started writing your first pattern.
 
-### Starting with 2D
+## Starting with 2D
 
 If you haven't already, I would highly recommend going through the tutorials for writing 2D patterns for Pixelblaze.
 They were created for Lux Lavalier, but they really apply to anything that's powered by Pixelblaze.
@@ -37,17 +37,17 @@ Any time you see a `render2D` function, just rename it to `render3D` instead, or
         </a>
       </div>
       <div class="card-body">
-        <h3>
+        <h2>
           <a href="https://luxlavalier.com/code" target="_blank" rel="noopener noreferrer">
             Lux Lavalier (Pixelblaze2D)
           </a>
-        </h3>
+        </h2>
       </div>
     </div>
   </div>
 </div>
 
-### Getting Started
+## Getting Started
 
 1. If you haven't already, connect your Pixelblaze to your wi-fi, and open its web page: [Wi-Fi Setup Instructions](https://luxlavalier.com/setup/wifi)
 1. In the Pixelblaze web app, click the Edit tab at the top of the page.
@@ -67,13 +67,13 @@ Any time you see a `render2D` function, just rename it to `render3D` instead, or
 
 Explanation time!
 
-### The render function
+## The render function
 
 The render function gets called repeatedly, once for each pixel, in order and then wraps from the end back to the beginning. Inside the render function above, we're calling another function that is included with the Pixelblaze, called `rgb`.
 
 ---
 
-### RGB Colors and the `rgb` function
+## RGB Colors and the `rgb` function
 
 Each pixel internally has three LEDs: Red, Green, and Blue. We can directly control those tiny little individual LEDs inside each pixel with the `rgb` function. The numbers passed to the function should be between 0.0 and 1.0. A value of 0 turns that LED off completely. A value of 1 turns that LED on completely. Any number in between turns it on a percentage. A value of 0.1 will turn it on at 10% brightness.
 
@@ -85,7 +85,7 @@ You may have found that it can be a little difficult to get just the right color
 
 ---
 
-### HSV Colors and the `hsv` function
+## HSV Colors and the `hsv` function
 
 We can also control the pixel colors by using the `hsv` function.
 
@@ -133,7 +133,7 @@ Changing every pixel to be the same color is neat, but what if we want each pixe
 
 ---
 
-### The `index` variable
+## The `index` variable
 
 We can use the pixel index to make each LED a different color.
 
@@ -157,7 +157,7 @@ The `render` function includes `index`, which is the index of the current pixel 
 
 ---
 
-### The `pixelCount` variable
+## The `pixelCount` variable
 
 On the second line of code, we used `pixelCount`, which is a special global variable that Pixelblaze automatically sets for us to the total number of pixels. Assuming we have 64 pixels, we used it to convert the `index` which ranges from 0 to 63, to `hue` which ranges from 0 to 1. The first time render is called, index is 0, which divided by any number is still 0. The second time, index is 1, and 1 / 64 = `0.015625`. When used as a hue, that gives a color very close to red, but slightly rotated around the color wheel towards orange. For pixel 21, we're about one-third of the way through the pixels and the color wheel: 21 / 64 = `0.328125` which, when used as a hue, gives a color close to green.
 
@@ -165,7 +165,7 @@ So now we have changed each pixel to be a different color, and made rainbows, bu
 
 ---
 
-### Animation
+## Animation
 
 We can use time to make the pixel colors change!
 
@@ -196,7 +196,7 @@ Note that we've reorganized the code a bit:
 
 ---
 
-### The `time` function
+## The `time` function
 
 The `time` function returns a value between 0 and 1 that loops over and over. The speed it loops is controlled by the value passed to it. A value of 1 will loop about every 65 seconds. A value of .1 will loop about every 6.5 seconds. When added to a hue, this rotates the color around the hue color wheel. Since we add that to each pixel's fixed hue (`index / pixelCount`), they all rotate at the same speed.
 
@@ -204,7 +204,7 @@ Note that Pixelblaze automatically handles values for hue larger than 1, wrappin
 
 ---
 
-### XYZ Mapping and the `render3D` function
+## XYZ Mapping and the `render3D` function
 
 What if we want to use some other way of drawing patterns, other than `index`? How would we make a vertical or horizontal rainbow?
 
@@ -270,7 +270,7 @@ What if we want to make it rotate, expand, or contract? For that, we need some b
 
 ---
 
-### Radius
+## Radius
 
 Replace the code with the following:
 
@@ -323,7 +323,7 @@ Experiment by changing any of the numbers in the code with different values:
 - Changing the x, y and z offsets from .5 will change the center of the circle.
 - Changing the time from .1 will make it move slower or faster.
 
-### Next Steps
+## Next Steps
 
 Congratulations! You made it to the end, through the trigonometry section!
 

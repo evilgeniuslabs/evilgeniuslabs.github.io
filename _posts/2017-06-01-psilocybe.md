@@ -17,7 +17,7 @@ gallery:
 
 Dome-shaped, wall-hung frosted glass and metal, with an inner 3D printed frame for 240 RGB LEDs. Driven by an ESP8266 microcontroller using the FastLED library, controlled with a web app over WiFi and/or an infrared remote control.
 
-### Features:
+## Features:
 
 - Control via a web app over Wi-Fi
 - Control via an infrared (wireless) remote control
@@ -27,7 +27,7 @@ Dome-shaped, wall-hung frosted glass and metal, with an inner 3D printed frame f
 - Set to any solid color
 - Autoplay with adjustable duration
 
-### Construction
+## Construction
 
 Inner frame:
 

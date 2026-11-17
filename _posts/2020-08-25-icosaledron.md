@@ -23,12 +23,12 @@ gallery:
   - src: "/assets/Ndzfn2W.jpg"
 ---
 
-<h3>Table of Contents</h3>
+<h2>Table of Contents</h2>
 
 - TOC
 {:toc}
 
-### Details
+## Details
 
 IcosaLEDron is a 20-sided polyhedron with one WS2812B-Mini-3535 addressable RGB LED per face. Each face is an equilateral triangle printed circuit board. Each edge has five castellated edge holes in a symmetrical arrangement that allows connection at nearly any angle.
 
@@ -47,7 +47,7 @@ Augmentation
 <p>Deltahedron from <i>Wikipedia, The Free Encyclopedia</i>.  <a href="https://en.wikipedia.org/wiki/Deltahedron">https://en.wikipedia.org/wiki/Deltahedron</a>
 </p>
 
-### PCB Specifications
+## PCB Specifications
 
 - Size: 1.37 x 1.19 x .063 inch (34.9 x 30.3 mm x 1.6mm)
 - 2 layer printed circuit board
@@ -103,11 +103,11 @@ OR
 
 - 20 x [IcosaLEDron-FeatherWing-Dome-Cover-Thicker.stl](https://github.com/jasoncoon/icosaLEDron/blob/main/hardware/IcosaLEDron-FeatherWing-Dome-Cover-Thicker.stl) (for more diffusion, or for use with flexible filament)
 
-### Code
+## Code
 
 Open source example firmware: [https://github.com/jasoncoon/icosaLEDron](https://github.com/jasoncoon/icosaLEDron)
 
-### Assembly Instructions
+## Assembly Instructions
 
 **Note**: Double-check the position, alignment, and orientation of each component very carefully before soldering!
 

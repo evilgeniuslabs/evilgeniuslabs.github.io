@@ -13,12 +13,12 @@ redirect_from:
 sortKey: Fibonacci0128 Pico
 ---
 
-<h3>Table of Contents</h3>
+<h2>Table of Contents</h2>
 
 - TOC
 {:toc}
 
-### Details
+## Details
 
 Fibonacci 128 Pico is a beautiful 33mm circular disc with 128 RGB LEDs surface mounted in a Fibonacci distribution. Swirling and pulsing like a tiny galaxy, it's mesmerizing to watch.
 
@@ -32,7 +32,7 @@ The four mounting holes are surrounded by capacitive touch compatible pads. They
 
 ---
 
-### Specifications
+## Specifications
 
 - Size: 1.3 x 1.3 x .063 inch (33 x 33 x 1.6 mm)
 - 2 layer printed circuit board
@@ -43,13 +43,13 @@ The four mounting holes are surrounded by capacitive touch compatible pads. They
 - Some PCBs are manufactured in the US by [OSH Park](https://oshpark.com)
 - Some are assembled in the US by Evil Genius Labs
 
-### Code
+## Code
 
 Open source example firmware: [https://github.com/jasoncoon/fibonacci-demoreel/tree/f128-pico](https://github.com/jasoncoon/fibonacci-demoreel/tree/f128-pico)
 
 Open source touch demo: [https://github.com/jasoncoon/fibonacci128-touch-demo](https://github.com/jasoncoon/fibonacci128-touch-demo)
 
-### Pixelblaze Map
+## Pixelblaze Map
 
 [Pixelblaze](https://www.bhencke.com/pixelblaze) is an advanced WiFi LED pattern engine, created by [ElectroMage](https://electromage.com). Live pattern expression compiler, lightning fast fixed point math, and HDR!
 
@@ -62,7 +62,7 @@ This map can be copied and pasted into the Pixel Mapper in the Mapper tab of you
 <div class="accordion" id="accordion">
 
   <div class="accordion-item">
-    <h4 class="accordion-header" id="headingOne"><button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Pixelblaze XY Map (click to expand)</button></h4>
+    <h3 class="accordion-header" id="headingOne"><button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Pixelblaze XY Map (click to expand)</button></h3>
     <div id="collapseOne" class="accordion-collapse collapse" data-parent="#accordion" aria-labelledby="headingOne">
       <div class="accordion-body">
         <pre>

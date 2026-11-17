@@ -16,12 +16,12 @@ gallery:
   - src: "/assets/HmgnFRA.jpg"
 ---
 
-<h3>Table of Contents</h3>
+<h2>Table of Contents</h2>
 
 - TOC
 {:toc}
 
-### Buy
+## Buy
 
 For free shipping worldwide, you can order directly from OSH Park:
 
@@ -29,7 +29,7 @@ Four Channel Level Shifter Breakout: [https://oshpark.com/shared_projects/qjilYK
 
 Eight Channel Level Shifter Breakout: [https://oshpark.com/shared_projects/uwi2JC23](https://oshpark.com/shared_projects/uwi2JC23)
 
-### Details
+## Details
 
 These are breakouts for the Texas Instruments 74HCT level shifter chips. They make it easy to control addressable RGB LEDs, such as WS2811, WS2812 (Adafruit NeoPixels), and APA102 (Adafruit DotStars). These chips are the most highly-regarded level shifters, and the only ones tested to always work with clockless addressable RGB LEDs. I've used them extensively in development of addressable RGB LED art projects, such as my [6.5ft Rainbow Tree](https://www.evilgeniuslabs.org/tree-v2.html), [Bloom v2](bloom-v2.html), and [Ducenti](ducenti.html). These breakouts support 4x and 8x parallel output on a wide variety of microcontrollers supported by the FastLED library.
 
@@ -43,7 +43,7 @@ The breakouts also include data line resistors and large 1000uF capacitors, as r
 
 The 90 mil, double-sided 5V and GND traces should be rated for up to ~12 amps. That's enough for about 200 LEDs at max output (solid white, full brightness), and much more than 200 LEDs at lower output, lower brightness, and/or multicolor patterns. A barrel connector can be added to connect a power supply, but most are only rated for 2.5A (~50 LEDs at max output). For larger quantities, power should be connected to the PCB directly with large gauge wire, connected directly to the LEDs, and/or brightness should be limited in software. It is very important when using high current power supplies and large numbers of LEDs to watch for overheating on wiring, connectors, components, and the PCB.
 
-### Specifications
+## Specifications
 
 - Size:
   - Four channel: 1.06 x 1.01 x .063 inch (26.9 x 25.6 x 1.6 mm)
@@ -76,7 +76,7 @@ OR
 - [SN-48B Crimping Tool](https://amzn.to/2P6YpHh)
 - 22 AWG Wire
 
-### Background
+## Background
 
 Following the best practice recommendations of using a fast level shifter, large capacitor, and resistors on the clock and data lines was resulting in a lot of wires on a large perma-proto board. I decided to design a PCB to make it cleaner and more compact.
 
@@ -84,7 +84,7 @@ It's much smaller and easier to assemble, compared to the perma-proto boards I w
 
 <img src="/images/tree-v2-board.jpg" style="width:400px" class="img-fluid post-img" />
 
-### Assembly Instructions
+## Assembly Instructions
 
 **Note**: Double-check the position, alignment, and orientation of each component very carefully before soldering!
 

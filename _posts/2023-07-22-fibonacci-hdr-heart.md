@@ -32,12 +32,12 @@ gallery:
 
 <!-- <video playsinline class="post lazy" data-poster="/assets/XFR7m2E.png" autoplay="autoplay" muted="muted" loop="loop" style="width:684px" data-src="/assets/XFR7m2E.mp4"></video> -->
 
-<h3>Table of Contents</h3>
+<h2>Table of Contents</h2>
 
 - TOC
 {:toc}
 
-### Details
+## Details
 
 Fibonacci HDR Heart is a tiny, beautiful 42mm heart-shaped disc with 74 SK9822-EC20 HDR RGB LEDs surface mounted in a Fibonacci distribution. Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
 
@@ -49,7 +49,7 @@ It has solder pads on the back that match the pinout of a [Pixelblaze V3 Pico by
 
 ---
 
-### Specifications
+## Specifications
 
 - Size: 1.65 x 1.42 x .063 inch (42.0 x 36.0 x 1.6 mm)
 - 2 layer printed circuit board
@@ -60,7 +60,7 @@ It has solder pads on the back that match the pinout of a [Pixelblaze V3 Pico by
 - Some PCBs are manufactured in the US by [OSH Park](https://oshpark.com)
 - Some are assembled in the US by Evil Genius Labs
 
-### Pixelblaze Map
+## Pixelblaze Map
 
 [Pixelblaze](https://www.bhencke.com/pixelblaze) is an advanced WiFi LED pattern engine, created by [ElectroMage](https://electromage.com). Live pattern expression compiler, lightning fast fixed point math, and HDR!
 
@@ -74,7 +74,7 @@ View in [LED Mapper](https://jasoncoon.github.io/led-mapper/?p=NrBMoOgFgZgGlDCA2
 
 <div class="accordion" id="accordion">
   <div class="accordion-item">
-    <h4 class="accordion-header" id="headingOne"><button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Pixelblaze XY Map (click to expand)</button></h4>
+    <h3 class="accordion-header" id="headingOne"><button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Pixelblaze XY Map (click to expand)</button></h3>
     <div id="collapseOne" class="accordion-collapse collapse" data-parent="#accordion" aria-labelledby="headingOne">
       <div class="accordion-body">
         <pre>
@@ -85,7 +85,7 @@ View in [LED Mapper](https://jasoncoon.github.io/led-mapper/?p=NrBMoOgFgZgGlDCA2
   </div>
 </div>
 
-### Instructions
+## Instructions
 
 All instructions are identical to the rounnd [Lux Lavalier](https://luxlavalier.com/start), other than:
 
@@ -96,11 +96,11 @@ All instructions are identical to the rounnd [Lux Lavalier](https://luxlavalier.
 
 [https://luxlavalier.com/start](https://luxlavalier.com/start)
 
-### Assembly Instructions
+## Assembly Instructions
 
-### PCB Assembly Instructions
+## PCB Assembly Instructions
 
-##### Soldering Notes:
+### Soldering Notes:
 
 If you're new to soldering, we highly recommend reading through a good soldering tutorial,
 such as the ones by [Adafruit](https://learn.adafruit.com/adafruit-guide-excellent-soldering)
@@ -118,7 +118,7 @@ If the solder is sticking to the iron but not the pads, you may not be heating t
 
 ---
 
-##### Soldering the Pixelblaze Pico onto the back of the Fibonacci HDR Heart board:
+### Soldering the Pixelblaze Pico onto the back of the Fibonacci HDR Heart board:
 
 1. Note where and how the Pixelblaze Pico aligns with the outline on the back of the Fibonacci board,
    and how the contacts line up.
@@ -148,9 +148,9 @@ If the solder is sticking to the iron but not the pads, you may not be heating t
 1. Clean up any flux on the PCBs and contacts with isopropyl alcohol,
    especially if you didn't use solder with no-clean flux.
 
-### Necklace Assembly Instructions
+## Necklace Assembly Instructions
 
-##### Trimming and soldering the magnetic wearable battery connector necklace:
+### Trimming and soldering the magnetic wearable battery connector necklace:
 
 1. Unwind, unwrap, and gently straighten the wires by holding the wire at the battery holder.
    Gently grip the wire with your other hand and run it down the length of the wire.
@@ -215,7 +215,7 @@ If the solder is sticking to the iron but not the pads, you may not be heating t
 
    Remove the battery before proceeding to assemble the case.
 
-### Case Assembly Instructions
+## Case Assembly Instructions
 
 1. The front black acrylic may still have protective film on one or both sides.
 

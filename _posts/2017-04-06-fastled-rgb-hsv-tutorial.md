@@ -10,7 +10,7 @@ redirect_from:
   - /16
 ---
 
-### Background
+## Background
 
 I'm preparing to exhibit at Maker Faire Kansas City 2017, and trying to come up with an interactive and educational project for people to play with.
 
@@ -22,12 +22,12 @@ While this would work, it's not very durable. I need something that lots of peop
 
 So, I set out to design a PCB that I can assemble ahead of time, and will hopefully be durable enough to last all weekend. It will also have the bonus of being a tutorial project I can use in classes, workshops, and share online.
 
-<h3>Table of Contents</h3>
+<h2>Table of Contents</h2>
 
 - TOC
 {:toc}
 
-### Project Requirements
+## Project Requirements
 
 - **Educational:** I'd like people to learn something while tinkering with it.
 - **Durable:** It will need to take a lot of abuse.
@@ -39,7 +39,7 @@ So, I set out to design a PCB that I can assemble ahead of time, and will hopefu
 
 With these goals in mind, I created this PCB.
 
-### Printed Circuit Board
+## Printed Circuit Board
 
 <a href="https://oshpark.com/shared_projects/O7lkxF3n" target="_blank"><img src="https://oshpark.com/assets/badge-5b7ec47045b78aef6eb9d83b3bac6b1920de805e9a0c227658eac6e19a045b9c.png" alt="Order from OSH Park" /></a>
 
@@ -49,13 +49,13 @@ With these goals in mind, I created this PCB.
 
 Here are the Eagle files ([schematic](/images/fastled-rgb-hsv-tutorial/FastLED RGB & HSV Tutorial.sch) & [board](/images/fastled-rgb-hsv-tutorial/FastLED RGB & HSV Tutorial.brd))
 
-### Features
+## Features
 
 The switch will change the potentiometers from controlling RGB to HSV. The PCB includes the [NeoPixel "best practices"](https://learn.adafruit.com/adafruit-neopixel-uberguide/best-practices) capacitor and resistor, and pins to connect more LEDs (a strip, ring, etc). The tactile momentary push button could be used to change modes, from the tutorial to patterns, animations, etc.
 
 The mounting holes below the Teensy LC will allow the PCBs to be mounted on a board, so they don't fall off the table or "walk away".
 
-### Parts List
+## Parts List
 
 | Name                                                                                                                         | Qty    | Price  | Total      | Supplier |
 | ---------------------------------------------------------------------------------------------------------------------------- | ------ | ------ | ---------- | -------- |
@@ -76,7 +76,7 @@ The mounting holes below the Teensy LC will allow the PCBs to be mounted on a bo
 | [4 Pin Socket](https://www.digikey.com/product-detail/en/sullins-connector-solutions/PPTC041LFBN-RC/S7002-ND/810144)         | 1      | $0.60  | $0.60      | Digi-Key |
 | **Total**                                                                                                                    | **19** |        | **$29.06** |
 
-### Components
+## Components
 
 **LEDS**
 
@@ -86,7 +86,7 @@ I decided to go with [NeoPixel Stick 8x](https://www.adafruit.com/products/1426)
 
 In an effort to minimize the parts cost, while maintaining the ease of assembly and use, I initially thought about using a [5V Trinket](https://www.adafruit.com/products/1501). They're inexpensive, but still high quality, and won't require a level shifter. They just don't have enough inputs, so I switched to the [5V Pro Trinket](https://www.adafruit.com/products/2000). Then I remembered the [Teensy LC](http://www.pjrc.com/teensy/teensyLC.html), which is less than $2 more, has a 5V digital output pin, faster processor, more RAM, FLASH, etc. It can also be ordered from OSH Park with the PCB. I was also warned by several people that the upload process for the Trinket can be a bit tedious.
 
-### Soldering
+## Soldering
 
 **Note**: Double-check the position, alignment, and orientation of each component very carefully before soldering!
 
@@ -146,7 +146,7 @@ Insert and solder the potentiometers.
 
 Use a third hand, clothes pin, paper clip, etc to hold the short side of the right-angle header pins on the "DIN" side of the NeoPixel strip while you solder. The longer legs of the pins, with the black plastic insulator, should be sticking up at a right angle from the NeoPixel stick.
 
-### Assembly
+## Assembly
 
 Insert the Teensy LC into the sockets on the PCB. Make sure it's oriented correctly, with the USB port on the edge of the PCB.
 
@@ -160,7 +160,7 @@ If you have a multimeter that can measure resistance, it's a good idea to make s
 
 After double-checking that all components are correctly aligned, you can connect the Teensy LC to a computer via a Micro USB cable.
 
-### Software Setup
+## Software Setup
 
 **Arduino IDE**
 

@@ -12,16 +12,16 @@ gallery:
   - src: "/images/wifi-led-controller/pcb-render-top.png"
 ---
 
-<h3>Table of Contents</h3>
+<h2>Table of Contents</h2>
 
 - TOC
 {:toc}
 
-### Buy
+## Buy
 
 For free shipping worldwide, you can order directly from OSH Park: [https://oshpark.com/shared_projects/Pb1joWH6](https://oshpark.com/shared_projects/Pb1joWH6)
 
-### Details
+## Details
 
 This is a shield/breakout for the Wemos D1 Mini (and D1 Mini Pro) ESP8266 board that makes it easy to control addressable RGB LEDs, such as WS2811, WS2812 (Adafruit NeoPixels), and APA102 (Adafruit DotStars). The Wemos D1 Mini is an excellent mini Wi-Fi development board, based on the ESP8266. I've used it extensively in development of addressable RGB LED art projects, such as my [6.5ft Rainbow Tree](https://www.evilgeniuslabs.org/tree-v2.html), [Bloom v2](bloom-v2.html), and [Ducenti](ducenti.html).
 
@@ -31,7 +31,7 @@ The shield includes a 74HCT245 level shifter, which is the most well-regarded hi
 
 Four digital output pins (D5 - D8) are run through the level shifter. These pins support parallel output by the fantastic [FastLED library](https://github.com/FastLED/FastLED/wiki/Parallel-Output).
 
-### Assembly Options
+## Assembly Options
 
 The board can be assembled in a very low profile configuration (about 10mm thick) by soldering the Wemos directly to the PCB with only male headers, and by mounting the large capacitor to the side:
 
@@ -49,7 +49,7 @@ I also designed a 3D printed enclosure for it. It provides access to the wiring 
 
 The enclosure STL files are also available for 3D printing on [Thingiverse](https://www.thingiverse.com/thing:2502212).
 
-### Specifications
+## Specifications
 
 - Size: 1.64 x 1.56 x .063 inch (41.61 x 39.52 x 1.6 mm)
 - 2 layer printed circuit board
@@ -77,7 +77,7 @@ OR
 - [SN-48B Crimping Tool](https://amzn.to/2P6YpHh)
 - 22 AWG Wire
 
-### Background
+## Background
 
 All of my projects lately have been driven by ESP8266 microcontrollers with Wi-Fi support. Following the best practice recommendations of using a fast level shifter, large capacitor, and resistors on the clock and data lines was resulting in a lot of wires on a large perma-proto board. I decided to design a PCB to make it cleaner and more compact.
 
@@ -87,7 +87,7 @@ It's much smaller and easier to assemble, compared to the perma-proto boards I w
 
 After trying a lot of different ESP8266 boards, I've found the [Wemos D1 Mini](https://www.wemos.cc/product/d1-mini-pro.html) to be great for the price. It includes an improved CP2104 USB-TO-UART adapter for more reliable, high-speed firmware and SPIFFs updates, larger (16MB) flash storage, etc.
 
-### Code
+## Code
 
 Open source example firmware and web application: [https://github.com/jasoncoon/esp8266-fastled-webserver](https://github.com/jasoncoon/esp8266-fastled-webserver)
 
@@ -104,7 +104,7 @@ Features:
 - Set to any solid color
 - Autoplay patterns with adjustable duration
 
-### Assembly Instructions
+## Assembly Instructions
 
 **Note**: Double-check the position, alignment, and orientation of each component very carefully before soldering!
 

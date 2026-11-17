@@ -12,9 +12,9 @@ title: Pixelblaze 3D Tutorial
 
 These tutorials were made using an [LED Cube 8x8x8](/led-cube-8x8x8), but should work on any 3D mapped set of LEDs using a [Pixelblaze](https://electromage.com/) controller.
 
-### Table of Contents:
+## Table of Contents:
 
-#### [Part 1](/tutorials/pixelblaze3d/part1)
+### [Part 1](/tutorials/pixelblaze3d/part1)
 
 - [Starting with 2D](/tutorials/pixelblaze3d/part1#starting-with-2d)
 - [Getting Started](/tutorials/pixelblaze3d/part1#getting-started)
@@ -28,7 +28,7 @@ These tutorials were made using an [LED Cube 8x8x8](/led-cube-8x8x8), but should
 - [XY Mapping and the <code>render3D</code> function](/tutorials/pixelblaze3d/part1#xyz-mapping-and-the-render3d-function)
 - [Radius](/tutorials/pixelblaze3d/part1#radius)
 
-#### [Part 2](/tutorials/pixelblaze3d/part2)
+### [Part 2](/tutorials/pixelblaze3d/part2)
 
 - [The `beforeRender` function](/tutorials/pixelblaze3d/part2#the-beforerender-function)
 - [Value, Brightness, and Gamma Correction](/tutorials/pixelblaze3d/part2#value-brightness-and-gamma-correction)

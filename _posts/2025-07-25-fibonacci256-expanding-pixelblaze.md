@@ -25,12 +25,12 @@ gallery:
     alt: "Fibonacci256 Expanding HDR glowing teal and green"
 ---
 
-<h3>Table of Contents</h3>
+<h2>Table of Contents</h2>
 
 - TOC
 {:toc}
 
-### Details
+## Details
 
 Fibonacci256 Expanding is a beautiful 166mm circular disc with 256 RGB LEDs surface mounted in a Fibonacci layout. Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
 
@@ -44,13 +44,13 @@ I have RGB LEDs in just about every form they come: strips, strings, rings, disc
 
 ---
 
-### Connecting
+## Connecting
 
 Your Fibonacci256 should automatically play a playlist of pre-selected patterns endlessly.
 
 For more control, you can connect to it via wi-fi.
 
-##### To connect your Fibonacci256 to a wi-fi network:
+### To connect your Fibonacci256 to a wi-fi network:
 
 1. If not already connected to a wi-fi network, your Fibonacci256 will create its own network named Pixelblaze_XXXXXXX,
    where XXXXX is a code unique to your Fibonacci256. You should see it in the list of wi-fi networks available on
@@ -77,7 +77,7 @@ In WiFi Settings you can configure your Fibonacci256 to run in one of two modes:
 
 ---
 
-##### Client Mode - Connect to a network
+### Client Mode - Connect to a network
 
 In this mode your Fibonacci256 can connect to an existing wi-fi network.
 Use this mode while at home or another location with an existing wi-fi network that you can connect to.
@@ -100,7 +100,7 @@ Use this mode while at home or another location with an existing wi-fi network t
 
 ---
 
-##### AP Mode - Create a stand-alone network
+### AP Mode - Create a stand-alone network
 
 In this mode your Fibonacci256 will create its own wi-fi network that you can connect to from another device.
 Use this mode when outdoors or away from other wi-fi networks.
@@ -118,7 +118,7 @@ If you've already chosen **Client Mode** and followed the instructions above, sk
 
 Congratulations! You should now be able to connect to and configure your Fibonacci256!
 
-### Settings
+## Settings
 
 After you've gotten your Fibonacci256 connected to a wi-fi network,
 there are a few settings you should check and be aware of.
@@ -142,7 +142,7 @@ These settings should **always** be set to the following values to match the typ
 
 ---
 
-### Mapper
+## Mapper
 
 You shouldn't need to change anything on the **Mapper** tab.
 This page just contains the pixel map, which is the location of each of your Fibonacci256's LEDs. It's used by the Pixelblaze controller in patterns.
@@ -152,7 +152,7 @@ If you ever do need to reset to the Fibonacci256's default map, use these values
 <div class="accordion" id="accordion">
 
   <div class="accordion-item">
-    <h4 class="accordion-header" id="headingOne"><button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Pixelblaze Map (click to expand)</button></h4>
+    <h3 class="accordion-header" id="headingOne"><button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Pixelblaze Map (click to expand)</button></h3>
     <div id="collapseOne" class="accordion-collapse collapse" data-parent="#accordion" aria-labelledby="headingOne">
       <div class="accordion-body">
         <pre>
@@ -165,7 +165,7 @@ If you ever do need to reset to the Fibonacci256's default map, use these values
 
 ---
 
-### Patterns
+## Patterns
 
 Fibonacci256 comes with a wide variety of patterns built-in.
 By default, it will automatically play a playlist of pre-selected patterns.
@@ -178,7 +178,7 @@ By default, it will automatically play a playlist of pre-selected patterns.
 
 The sequencer can be configured via the web interface over wi-fi in the following ways:
 
-##### Pattern sequencer options:
+### Pattern sequencer options:
 
 - <b><u>Off</u></b>: Continuously play your selected favorite pattern. You can manually move to the next pattern by clicking the button on the back.
 - <b><u>Shuffle All</u></b>: randomly shuffle between all patterns after playing each one for an adjustable duration.
@@ -186,7 +186,7 @@ The sequencer can be configured via the web interface over wi-fi in the followin
 
 ---
 
-### Specifications
+## Specifications
 
 - Size: 6.54 x 6.54 x .063 inch (166 x 166 x 1.6 mm)
 - 2 layer printed circuit board

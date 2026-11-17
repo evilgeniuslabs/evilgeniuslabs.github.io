@@ -25,12 +25,12 @@ sortKey: Fibonacci 128 Flex Bracelet
 <a href="/assets/8zRjiJI.jpg" target="_blank"><img alt="Back of the Fibonacci HDR Heart pendant with the cord threaded through the case" src="/assets/8zRjiJI.jpg" style="width:340px"  /></a>
 <a href="/assets/7JHcAPj.jpg" target="_blank"><img alt="Back of the Fibonacci HDR Heart pendant with the cover partly lifted, showing the purple PCB inside" src="/assets/7JHcAPj.jpg" style="width:340px"  /></a> -->
 
-<h3>Table of Contents</h3>
+<h2>Table of Contents</h2>
 
 - TOC
 {:toc}
 
-### Details
+## Details
 
 Fibonacci128 Flex Bracelet is a beautiful flexible PCB with 128 SK9822-EC20 HDR RGB LEDs surface mounted in a Fibonacci distribution.
 
@@ -42,7 +42,7 @@ It has solder pads on the back that match the pinout of a [Pixelblaze V3 Pico by
 
 ---
 
-### Specifications
+## Specifications
 
 - Size: 6.18 x 2.80 x .004 inch (157.0 x 71.25 x 0.11 mm)
 - 2 layer printed circuit board
@@ -51,7 +51,7 @@ It has solder pads on the back that match the pinout of a [Pixelblaze V3 Pico by
 - Designed in the US by Evil Genius Labs
 - Some are assembled in the US by Evil Genius Labs
 
-### Pixelblaze Map
+## Pixelblaze Map
 
 [Pixelblaze](https://www.bhencke.com/pixelblaze) is an advanced WiFi LED pattern engine, created by [ElectroMage](https://electromage.com). Live pattern expression compiler, lightning fast fixed point math, and HDR!
 
@@ -66,7 +66,7 @@ View in [LED Mapper](https://jasoncoon.github.io/led-mapper/?c=JYSAHiCeBQAMIA4As
 <div class="accordion" id="accordion">
 
   <div class="accordion-item">
-    <h4 class="accordion-header" id="headingOne"><button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Pixelblaze XY Map (click to expand)</button></h4>
+    <h3 class="accordion-header" id="headingOne"><button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Pixelblaze XY Map (click to expand)</button></h3>
     <div id="collapseOne" class="accordion-collapse collapse" data-parent="#accordion" aria-labelledby="headingOne">
       <div class="accordion-body">
         <pre>

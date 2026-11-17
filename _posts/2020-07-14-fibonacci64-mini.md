@@ -38,12 +38,12 @@ Alternatives:
 
 ---
 
-<h3>Table of Contents</h3>
+<h2>Table of Contents</h2>
 
 - TOC
 {:toc}
 
-### Details
+## Details
 
 Fibonacci64 Mini is a beautiful 64mm circular disc with 64 RGB LEDs surface mounted in a Fibonacci distribution. Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
 
@@ -66,7 +66,7 @@ It consists of 64 WS2812B-Mini 3535 RGB LEDs, arranged into a circular <a href="
   </div>
 </div>
 
-### Connecting
+## Connecting
 
 Instructions for connecting to a Fibonacci, pre-assembled or programmed with the [ESP8266-FastLED-WebServer](https://github.com/jasoncoon/esp8266-fastled-webserver/tree/fibonacci64) code:
 
@@ -81,7 +81,7 @@ Instructions for connecting to a Fibonacci, pre-assembled or programmed with the
 1. You should now be able to control your Fibonacci via the web page.
 1. If this does not work, you may need to consult your WiFI AP/router documentation to find your Fibonacci’s IP address, or contact me for assistance.
 
-### Specifications
+## Specifications
 
 - Size: 2.54 x 2.54 x .063 inch (64.6 x 64.6 mm x 1.6mm)
 - 2 layer printed circuit board
@@ -114,13 +114,13 @@ Parts I used in my builds (also **not included**):
 - [24AWG Stranded Wire](https://amzn.to/2wpw1vj)
 - [90 Degree Header Pins](https://amzn.to/2TnyDmx)
 
-### Code
+## Code
 
 Open source example firmware and web application: [https://github.com/jasoncoon/esp8266-fastled-webserver/tree/fibonacci64](https://github.com/jasoncoon/esp8266-fastled-webserver/tree/fibonacci64)
 
 <img src="/assets/esp8266-fastled-webserver-web-app.png" style="width:300px" class="img-fluid post-img" />
 
-### Pixelblaze Map
+## Pixelblaze Map
 
 [Pixelblaze](https://www.bhencke.com/pixelblaze) is an advanced WiFi LED pattern engine, created by [ElectroMage](https://electromage.com). Live pattern expression compiler, lightning fast fixed point math, and HDR!
 
@@ -133,7 +133,7 @@ This map can be copied and pasted into the Pixel Mapper in the Mapper tab of you
 <div class="accordion" id="accordion">
 
   <div class="accordion-item">
-    <h4 class="accordion-header" id="headingOne"><button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Pixelblaze XY Map (click to expand)</button></h4>
+    <h3 class="accordion-header" id="headingOne"><button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Pixelblaze XY Map (click to expand)</button></h3>
     <div id="collapseOne" class="accordion-collapse collapse" data-parent="#accordion" aria-labelledby="headingOne">
       <div class="accordion-body">
         <pre>
@@ -145,7 +145,7 @@ This map can be copied and pasted into the Pixel Mapper in the Mapper tab of you
 
 </div>
 
-### Assembly Instructions
+## Assembly Instructions
 
 **Note**: Double-check the position, alignment, and orientation of each component very carefully before soldering!
 

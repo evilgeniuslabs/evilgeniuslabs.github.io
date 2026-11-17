@@ -31,12 +31,12 @@ gallery:
     alt: "Side view of the 3D printed case showing the USB-C port and screws"
 ---
 
-<h3>Table of Contents</h3>
+<h2>Table of Contents</h2>
 
 - TOC
 {:toc}
 
-### Details
+## Details
 
 One Inch Fibonacci 128 is a tiny, beautiful 25.4mm circular disc with 128 RGB LEDs surface mounted in a Fibonacci distribution. Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
 
@@ -50,7 +50,7 @@ The three mounting holes are surrounded by capacitive touch compatible pads. The
 
 ---
 
-### Instructions
+## Instructions
 
 If you bought the full-assembled version, just plug your new Fibonacci into a power source using a USB-C cable and it will light up.
 
@@ -58,7 +58,7 @@ Touch any of the mounting screws and a wave of light should emanate from that po
 
 Press the button on the back (until it clicks) and it'll switch to the next pattern.  If you disconnect and then reconnect the power, it will also change to the next pattern.
 
-### Specifications
+## Specifications
 
 - Size: 1.0 x 1.0 x .063 inch (25.4 x 25.4 x 1.6 mm)
 - 2 layer printed circuit board
@@ -69,7 +69,7 @@ Press the button on the back (until it clicks) and it'll switch to the next patt
 - Some PCBs are manufactured in the US by [OSH Park](https://oshpark.com)
 - Some are assembled in the US by Evil Genius Labs
 
-### Assembly Instructions
+## Assembly Instructions
 
 **Note**: Double-check the position, alignment, and orientation of each component very carefully before soldering!
 
@@ -89,9 +89,9 @@ If you're new to soldering, I highly recommend reading through a good soldering 
 1. Keep an eye on the temperature of the PCB and especially the connectors. High temperatures can reduce the life of the LEDs. When possible, ensure air can flow, either passively (ventilation) or actively (exhaust fan).
 1. If using FastLED, I suggest using its [power management](https://github.com/FastLED/FastLED/wiki/Power-notes#managing-power-in-fastled) to limit the maximum brightness to a reasonable amount, well under the maximum your power supply is rated for.
 
-### Case Assembly Instructions
+## Case Assembly Instructions
 
-#### 3D printed front
+### 3D printed front
 
 <a href="/assets/OPSRQJg.jpg" target="_blank"><img alt="3D printed translucent front cover for the One Inch Fibonacci128, with concentric print lines" src="/assets/cH2ze97.jpg" style="width:340px" /></a>
 <a href="/assets/OPSRQJg.jpg" target="_blank"><img alt="3D printed front cover at an angle" src="/assets/xHmJ8Nq.jpg" style="width:340px" /></a>
@@ -102,7 +102,7 @@ If you're new to soldering, I highly recommend reading through a good soldering 
 
 Use M2x4mm screws, inserted from the back, threaded through the back cover, through the LED PCB, and into the front. This option will only let you use the touch points from the back.
 
-#### Acrylic with screws in back
+### Acrylic with screws in back
 
 <a href="/assets/OPSRQJg.jpg" target="_blank"><img alt="One Inch Fibonacci128 in the acrylic case with screws in back, front view" src="/assets/6BTUx6L.jpg" style="width:340px" /></a>
 <a href="/assets/OPSRQJg.jpg" target="_blank"><img alt="Acrylic case with screws in back, at an angle, showing the Voronoi diffuser" src="/assets/mBIWm9E.jpg" style="width:340px" /></a>
@@ -112,7 +112,7 @@ This option requires acrylic with smaller 2.8mm screw holes so the screws thread
 
 You can use M2x7mm or M2x8mm screws, depending on how far out you want the ends of the screws to protrude from the front. Longer screws let you activate the touch points from the front or rear. Shorter ones will only let you use the touch points from the rear.
 
-#### Acrylic with screws in front
+### Acrylic with screws in front
 
 <a href="/assets/OPSRQJg.jpg" target="_blank"><img alt="One Inch Fibonacci128 in the acrylic case with screws in front" src="/assets/RCJ5i9i.jpg" style="width:340px" /></a>
 <a href="/assets/OPSRQJg.jpg" target="_blank"><img alt="Side view of the acrylic case with screws in front, USB-C port visible" src="/assets/QpPWrXU.jpg" style="width:340px" /></a>
@@ -124,16 +124,16 @@ You can use M2x7mm or M2x8mm screws, depending on how far out you want the ends 
 1. Center and place the back plate onto the screws. The back plate should fit flush against the back of the PCB.
 1. Hand-tighten M2 Hex Nuts onto the screws.
 
-### Code
+## Code
 
 Open source touch demo: [https://github.com/jasoncoon/fibonacci128-touch-demo/tree/f128-one-inch](https://github.com/jasoncoon/fibonacci128-touch-demo/tree/f128-one-inch)
 
-#### Pixelblaze Map
+### Pixelblaze Map
 
 <div class="accordion" id="accordion">
 
   <div class="accordion-item">
-    <h4 class="accordion-header" id="headingOne"><button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Pixelblaze Map (click to expand)</button></h4>
+    <h3 class="accordion-header" id="headingOne"><button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Pixelblaze Map (click to expand)</button></h3>
     <div id="collapseOne" class="accordion-collapse collapse" data-parent="#accordion" aria-labelledby="headingOne">
       <div class="accordion-body">
         <pre>

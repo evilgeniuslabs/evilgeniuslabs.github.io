@@ -14,16 +14,16 @@ gallery:
   - src: "/assets/UHvLlvr.jpg"
 ---
 
-<h3>Table of Contents</h3>
+<h2>Table of Contents</h2>
 
 - TOC
 {:toc}
 
-### Buy
+## Buy
 
 For free shipping worldwide, you can order directly from OSH Park: [https://oshpark.com/shared_projects/XnWByv0F](https://oshpark.com/shared_projects/XnWByv0F)
 
-### Details
+## Details
 
 This is a shield/breakout for the [ESP32 DevKitC](https://www.espressif.com/en/products/hardware/esp32-devkitc/overview) board that makes it easy to control addressable RGB LEDs such as WS2811, WS2812 (Adafruit NeoPixels), SK6812, APA102 (Adafruit DotStars), and SK9822. The ESP32 DevKitC is an excellent Wi-Fi and Bluetooth development board based on the ES32. This shield supports 8x parallel output.
 
@@ -35,7 +35,7 @@ Eight digital output pins (0, 2, 4, 12, 13, 15, 16, 17) are run through the leve
 
 The shield also includes places for data line resistors as recommended when driving LEDs. A large capacitor should be connected across the power and ground connections near the LEDs. A barrel connector can be added to connect a power supply, but the connector and PCB are only rated for 2.5A. That's enough for about 50 LEDs at solid white, full brightness. For larger quantities, power should be connected directly to the LEDs, and/or brightness should be limited in software.
 
-### Specifications
+## Specifications
 
 - Size: 1.91 x 1.01 x .063 inches (48.5 x 25.6 x 1.6 mm)
 - 2 layer printed circuit board
@@ -65,7 +65,7 @@ OR
 - [SN-48B Crimping Tool](https://amzn.to/2P6YpHh)
 - 22 AWG Wire
 
-### Code
+## Code
 
 Open source example firmware and web application: [https://github.com/jasoncoon/esp32-fastled-webserver](https://github.com/jasoncoon/esp32-fastled-webserver)
 
@@ -81,7 +81,7 @@ Features:
 - Set to any solid color
 - Autoplay patterns with adjustable duration
 
-### Assembly Instructions
+## Assembly Instructions
 
 **Note**: Double-check the position, alignment, and orientation of each component very carefully before soldering!
 

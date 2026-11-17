@@ -14,7 +14,7 @@ gallery:
   - src: "https://greiginsydney.com/wp-content/uploads/2019/12/IMG_3863.jpg"
 ---
 
-### Info
+## Info
 
 * 4' beach ball
 * 64 x 1.5m WS2812B strips (96 meters total)
@@ -22,7 +22,7 @@ gallery:
 * [Evil Genius Labs - Octo Level Shifter FeatherWing](https://www.evilgeniuslabs.org/level-shifter-featherwing)
 * 2 x Mean-Well LRS-350-5 60A power supplies
 
-### Links
+## Links
 
 Build details:
 

@@ -14,16 +14,16 @@ gallery:
   - src: "/assets/XaLZdW2.jpg"
 ---
 
-<h3>Table of Contents</h3>
+<h2>Table of Contents</h2>
 
 - TOC
 {:toc}
 
-### Buy
+## Buy
 
 For free shipping worldwide, you can order directly from OSH Park: [https://oshpark.com/shared_projects/M36968Sg](https://oshpark.com/shared_projects/M36968Sg)
 
-### Details
+## Details
 
 This is a FeatherWing (shield/breakout) for [Adafruit Feather Boards](https://www.adafruit.com/category/777) that makes it easy to control addressable RGB LEDs, such as WS2811, WS2812 (Adafruit NeoPixels), and APA102 (Adafruit DotStars). The [Adafruit ESP32 Feather](https://www.adafruit.com/product/3405) is an excellent mini Wi-Fi development board, based on the ESP32.
 
@@ -35,7 +35,7 @@ Eight digital output pins (12, 13, 14, 15, 27, 32, 33, SCL) are run through the 
 
 The shield also includes places for data line resistors as recommended when driving LEDs. A large capacitor should be connected across the power and ground connections near the LEDs. A barrel connector can be added to connect a power supply, but the connector and PCB are only rated for 2.5A. That's enough for about 50 LEDs at solid white, full brightness. For larger quantities, power should be connected directly to the LEDs, and/or brightness should be limited in software.
 
-### Pinout
+## Pinout
 
 <a href="/assets/kp3sQae.jpg" target="_blank">
   <img src="/assets/kp3sQae.jpg" style="width:400px" class="img-fluid post-img" />
@@ -51,7 +51,7 @@ ESP8266 Pins 14, 12, 13, 15, 0, 16, 2, 5 (SCL)
 <img src="/assets/SjgJWZn.jpg" style="width:400px" class="img-fluid post-img" />
 </a>
 
-### Specifications
+## Specifications
 
 - Size: 2.00 x 0.90 x .063 inch (48.3 x 73.4 x 1.6 mm)
 - 2 layer printed circuit board
@@ -81,7 +81,7 @@ OR
 - [SN-48B Crimping Tool](https://amzn.to/2P6YpHh)
 - 22 AWG Wire
 
-### Code
+## Code
 
 Open source example firmware and web application: [https://github.com/jasoncoon/esp32-fastled-webserver](https://github.com/jasoncoon/esp32-fastled-webserver)
 
@@ -97,7 +97,7 @@ Features:
 - Set to any solid color
 - Autoplay patterns with adjustable duration
 
-### Assembly Instructions
+## Assembly Instructions
 
 **Note**: Double-check the position, alignment, and orientation of each component very carefully before soldering!
 

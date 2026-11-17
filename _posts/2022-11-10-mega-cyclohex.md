@@ -23,14 +23,14 @@ gallery:
    <video playsinline class="post lazy" data-poster="/assets/nsAjW5T.jpg" autoplay="autoplay" muted="muted" loop="loop" data-src="/assets/nsAjW5T.mp4"></video>
 </div> -->
 
-<h3>Table of Contents</h3>
+<h2>Table of Contents</h2>
 
 - TOC
 {:toc}
 
 ---
 
-### Details
+## Details
 
 Mega CycloHex is a beautiful set of hexagonally-nested rings with 228 RGB LEDs, six touch pads, and an Adafruit QT Py SAMD21.
 
@@ -40,14 +40,14 @@ The six mounting screws are connected to pins (A0-A3, A6 & A7) on the SAMD21 QT 
 
 ---
 
-### Specifications
+## Specifications
 
 - Size: 7.83 x 7.23 x .063 inch (199mm x 183.6mm x 30 mm)
 - Designed in the US by Jason Coon of Evil Genius Labs
 
 ---
 
-### Parts
+## Parts
 
 - 19 x [12 WS2812B 5050 RGB LED Rings](https://www.aliexpress.us/item/2251832627571531.html): $31.06
   - These particular rings have two sets of three pads (5V, DI, GND) & (5V, DO, GND) and are **much** easier to wire and assemble.
@@ -80,7 +80,7 @@ The six mounting screws are connected to pins (A0-A3, A6 & A7) on the SAMD21 QT 
 
 ---
 
-### Laser Cut Acrylic Parts
+## Laser Cut Acrylic Parts
 
 - Front
 
@@ -105,7 +105,7 @@ The six mounting screws are connected to pins (A0-A3, A6 & A7) on the SAMD21 QT 
 
 ---
 
-### Parts Cost
+## Parts Cost
 
 These costs do not include shipping. Also not included: your time, which is priceless.
 
@@ -126,7 +126,7 @@ I already had most of the parts on hand, so my total cost was lower, of course.
 
 ---
 
-### Code
+## Code
 
 Open source example firmware and web application: [https://github.com/jasoncoon/cyclohex-touch-demo/tree/39mm-rings](https://github.com/jasoncoon/cyclohex-touch-demo/tree/39mm-rings)
 
@@ -136,7 +136,7 @@ Note that if you use different LED rings, or wire them in a different order, the
 
 ---
 
-### Pixelblaze Settings & Map
+## Pixelblaze Settings & Map
 
 If you'd rather use one of the amazing [Pixelblaze](https://shop.electromage.com/products/pixelblaze-v3-standard-wifi-led-controller) WiFi LED Controllers by [ElectroMage](https://electromage.com)
 you won't be able to utilize the touch pads, but you will be able to control it via wi-fi via the awesome web UI!
@@ -153,7 +153,7 @@ Map:
 <div class="accordion" id="accordion">
 
   <div class="accordion-item">
-    <h4 class="accordion-header" id="headingOne"><button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Pixelblaze XY Map (click to expand)</button></h4>
+    <h3 class="accordion-header" id="headingOne"><button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Pixelblaze XY Map (click to expand)</button></h3>
     <div id="collapseOne" class="accordion-collapse collapse" data-parent="#accordion" aria-labelledby="headingOne">
       <div class="accordion-body">
         <pre>
@@ -167,13 +167,13 @@ Map:
 
 ---
 
-### LED Ring Layout & Order
+## LED Ring Layout & Order
 
 <a href="/images/CycloHex%2039mm%20Rings%20-%20Layout.png" target="_blank"><img src="/images/CycloHex%2039mm%20Rings%20-%20Layout.png" style="width:340px" /></a>
 
 ---
 
-### Assembly Instructions
+## Assembly Instructions
 
 1. Solder a JST-SM socket pigtail (the one without the pins) to the QT Py. Solder the red wire to the 5V pad, the center wire (green on my JST-SM pigtail) to the MO pad, and the GND wire (white on mine) to the GND pad.
 1. Peel any protective coverings from the acrylic mounting plate.
@@ -217,7 +217,7 @@ Repeat the steps above to connect each LED ring, one at a time, testing each new
 
 ---
 
-### Acrylic Enclosure Assembly Instructions
+## Acrylic Enclosure Assembly Instructions
 
 1. Peel any protective coverings from the acrylic front plate.
 1. Insert M2x16mm screws through the six holes in the front acrylic piece, with the screw heads on the matte side.
@@ -240,7 +240,7 @@ Repeat the steps above to connect each LED ring, one at a time, testing each new
 
 ---
 
-### Share your work!
+## Share your work!
 
 Possibly the **MOST IMPORTANT** step: please take lots of photos and videos of your Mega CycloHex and share them with me!
 

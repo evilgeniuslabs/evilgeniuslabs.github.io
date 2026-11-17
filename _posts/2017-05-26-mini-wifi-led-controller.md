@@ -14,16 +14,16 @@ gallery:
   - src: "/assets/OeFzvsb.jpg"
 ---
 
-<h3>Table of Contents</h3>
+<h2>Table of Contents</h2>
 
 - TOC
 {:toc}
 
-### Buy
+## Buy
 
 For free shipping worldwide, you can order directly from OSH Park: [https://oshpark.com/shared_projects/6tHcl6u3](https://oshpark.com/shared_projects/6tHcl6u3)
 
-### Details
+## Details
 
 This is a shield/breakout for the Wemos D1 Mini (and D1 Mini Pro) ESP8266 board that makes it easy to control addressable RGB LEDs, such as WS2811, WS2812 (Adafruit NeoPixels), and APA102 (Adafruit DotStars). The Wemos D1 Mini is an excellent mini Wi-Fi development board, based on the ESP8266. I've used it extensively in development of addressable RGB LED art projects, such as my [6.5ft Rainbow Tree](https://www.evilgeniuslabs.org/tree-v2.html), [Bloom v2](bloom-v2.html), and [Ducenti](ducenti.html).
 
@@ -37,7 +37,7 @@ Four digital output pins (D5 - D8) are run through the level shifter. These pins
 
 The shield also includes places for data line resistors as recommended when driving LEDs. Duplicate breakouts are included for each of the Wemos D1 mini pins. This shield omits the large 1000uF capacitor included on the larger shield, due to limited space. The large capacitor can be connected across the power and ground connections at the strip.
 
-### Specifications
+## Specifications
 
 - Size: 1.02 x 1.10 x .063 inch (25.83 x 27.89 x 1.6 mm)
 - 2 layer printed circuit board
@@ -64,7 +64,7 @@ OR
 - [SN-48B Crimping Tool](https://amzn.to/2P6YpHh)
 - 22 AWG Wire
 
-### Assembly Instructions
+## Assembly Instructions
 
 **Note**: Double-check the position, alignment, and orientation of each component very carefully before soldering!
 

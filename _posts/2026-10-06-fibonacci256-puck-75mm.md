@@ -14,12 +14,12 @@ redirect_from:
 sortKey: Fibonacci0256-puck-86mm
 ---
 
-<h3>Table of Contents</h3>
+<h2>Table of Contents</h2>
 
 - TOC
 {:toc}
 
-### Details
+## Details
 
 Fibonacci256 Puck is a beautiful, motion-sensitive 75mm circular disc with 256 RGB LEDs surface mounted in a Fibonacci distribution.  Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
 
@@ -29,7 +29,7 @@ It consists of 256 RGB LEDs, arranged into a circular <a href="https://en.wikipe
 
 ---
 
-### The Internal Button and Status Light
+## The Internal Button and Status Light
 
 Your Fibonacci Puck has a Pixelblaze Pico inside. The Pixelblaze has a push button and status LED on it. The button can be clicked once to move to the next pattern, enter setup mode, etc.
 
@@ -37,7 +37,7 @@ To press the button, place your thumb on the center of the front display and you
 
 The button can also be used to enter setup mode, enable WiFi if it's been disabled in the Settings, etc. Look into the opening where the power switch is, then squeeze and hold. After a few seconds you should see the orange status light inside.
 
-### Connecting
+## Connecting
 
 Your Fibonacci should automatically play a playlist of pre-selected patterns endlessly.
 
@@ -109,7 +109,7 @@ If you've already chosen **Client Mode** and followed the instructions above, sk
 
 ---
 
-### Settings
+## Settings
 
 After you've gotten your Fibonacci connected to a wi-fi network,
 there are a few settings you should check and be aware of.
@@ -135,7 +135,7 @@ You can increase battery life further by checking `Disable WiFi on startup`, but
 
 ---
 
-### Mapper
+## Mapper
 
 You shouldn't need to change anything on the **Mapper** tab.
 This page just contains the pixel map, which is the location of each of your Fibonacci's LEDs. It's used by the Pixelblaze controller in patterns.
@@ -145,7 +145,7 @@ If you ever do need to reset to the Fibonacci's default map, use these values:
 <div class="accordion" id="accordion">
 
   <div class="accordion-item">
-    <h4 class="accordion-header" id="headingOne"><button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Pixelblaze Map (click to expand)</button></h4>
+    <h3 class="accordion-header" id="headingOne"><button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Pixelblaze Map (click to expand)</button></h3>
     <div id="collapseOne" class="accordion-collapse collapse" data-parent="#accordion" aria-labelledby="headingOne">
       <div class="accordion-body">
 <pre>[[36.01,37.6],[27.45,36.24],[23.72,33.81],[21.41,30.75],[20.15,27.28],[19.81,23.57],[20.35,19.79],[21.71,16.06],[23.84,12.52],[26.68,9.3],[30.18,6.5],[34.24,4.25],[38.76,2.61],[46.02,4.57],[41.36,5.26],[37.04,6.65],[33.17,8.67],[29.86,11.23],[27.19,14.25],[25.26,17.62],[24.15,21.2],[23.96,24.89],[24.81,28.54],[26.98,32.04],[31.54,35.4],[30.73,31.84],[28.51,27.61],[28.01,23.72],[28.69,20.08],[30.3,16.75],[32.7,13.81],[35.78,11.36],[39.42,9.49],[43.5,8.27],[47.9,7.76],[52.49,7.99],[57.16,9.01],[66.23,17.14],[62.17,14.51],[57.89,12.64],[53.54,11.54],[49.22,11.21],[45.09,11.64],[41.28,12.81],[37.91,14.66],[35.12,17.14],[33.08,20.21],[31.97,23.84],[32.15,28.14],[35.06,34.33],[35.33,30.47],[35.44,25.22],[36.98,21.5],[39.42,18.68],[42.5,16.64],[46.05,15.39],[49.92,14.91],[53.96,15.23],[58.03,16.33],[62,18.2],[65.74,20.82],[69.12,24.13],[72.39,35.74],[70.36,31.39],[67.76,27.57],[64.67,24.35],[61.22,21.82],[57.51,20.04],[53.68,19.04],[49.88,18.87],[46.23,19.56],[42.9,21.17],[40.08,23.81],[38.02,27.88],[39.03,32.18],[42.03,26.94],[45.33,24.37],[48.89,23.14],[52.57,22.96],[56.24,23.72],[59.76,25.32],[63,27.68],[65.85,30.73],[68.21,34.39],[69.97,38.55],[71.07,43.11],[67.64,54.55],[68.23,49.83],[68.06,45.24],[67.15,40.93],[65.56,36.99],[63.37,33.56],[60.65,30.73],[57.51,28.63],[54.04,27.35],[50.34,27.05],[46.48,27.97],[42.39,30.74],[39.56,35.78],[46.15,31.63],[50.5,30.97],[54.25,31.7],[57.51,33.42],[60.25,35.95],[62.4,39.11],[63.91,42.79],[64.72,46.85],[64.79,51.16],[64.09,55.58],[62.61,59.99],[60.37,64.26],[53.68,67.73],[56.67,64.07],[58.92,60.13],[60.42,56.02],[61.14,51.88],[61.08,47.85],[60.24,44.05],[58.65,40.65],[56.33,37.79],[53.26,35.65],[49.34,34.5],[43.85,35.01],[46.78,37.22],[51.18,38.86],[54.13,41.41],[56.07,44.56],[57.12,48.12],[57.31,51.92],[56.68,55.81],[55.25,59.65],[53.05,63.31],[50.14,66.66],[46.58,69.59],[42.45,71.99],[35.02,71.32],[39.45,69.81],[43.42,67.69],[46.83,65.02],[49.6,61.91],[51.64,58.47],[52.89,54.83],[53.29,51.11],[52.75,47.47],[51.15,44.04],[48.17,40.98],[42.17,38.42],[44.31,41.51],[47.65,45.41],[48.99,49.19],[49.07,52.91],[48.15,56.48],[46.36,59.81],[43.81,62.77],[40.61,65.26],[36.85,67.19],[32.65,68.49],[28.12,69.08],[23.38,68.92],[13.1,62.55],[17.54,64.39],[22.05,65.46],[26.5,65.75],[30.77,65.29],[34.72,64.12],[38.23,62.27],[41.17,59.83],[43.41,56.87],[44.8,53.45],[45.13,49.61],[43.96,45.26],[40.35,42.96],[41.55,48.67],[40.82,52.76],[39.01,56.05],[36.39,58.64],[33.16,60.55],[29.48,61.74],[25.48,62.17],[21.31,61.84],[17.1,60.73],[12.98,58.84],[9.09,56.21],[3.88,45.44],[6.63,49.33],[9.86,52.6],[13.45,55.18],[17.28,57.02],[21.22,58.09],[25.14,58.35],[28.89,57.79],[32.32,56.4],[35.26,54.15],[37.51,50.91],[38.68,46.2],[37.27,41.07],[35.23,48.02],[32.46,51.38],[29.2,53.35],[25.62,54.25],[21.9,54.22],[18.16,53.32],[14.56,51.62],[11.23,49.16],[8.27,46.02],[5.8,42.27],[3.91,38.01],[2.68,33.34],[5.27,26.25],[5.54,30.97],[6.53,35.41],[8.19,39.46],[10.46,43.01],[13.22,45.96],[16.4,48.21],[19.87,49.66],[23.52,50.22],[27.22,49.76],[30.88,48],[34.54,44.07],[30.85,44.29],[26.54,45.97],[22.66,46.05],[19.11,45.01],[15.95,43.08],[13.25,40.39],[11.09,37.09],[9.56,33.28],[8.71,29.09],[8.6,24.64],[9.26,20.07],[10.69,15.5],[16.63,10.97],[14.37,15.07],[12.87,19.33],[12.15,23.6],[12.2,27.77],[13.01,31.7],[14.53,35.24],[16.74,38.26],[19.58,40.6],[23.06,42.08],[27.27,42.36],[33.21,40.38],[29.66,39.34],[24.67,38.67],[21.18,36.76],[18.63,34.06],[16.91,30.79],[16,27.12],[15.89,23.21],[16.58,19.2],[18.06,15.23],[20.3,11.44],[23.25,7.94],[26.86,4.86]]
@@ -157,7 +157,7 @@ If you ever do need to reset to the Fibonacci's default map, use these values:
 
 ---
 
-### Patterns
+## Patterns
 
 Fibonacci comes with a wide variety of patterns built-in.
 By default, it will automatically play a playlist of pre-selected patterns.
@@ -172,13 +172,13 @@ Pattern sequencer options:
 
 ---
 
-### Pixelblaze Settings
+## Pixelblaze Settings
 
 You can download this backup file <a href="/downloads/Fibonacci256 Puck.pbb">Fibonacci256 Puck.pbb</a> and restore it with the `Restore from backup` button at the bottom of the Pixelblaze web UI's Settings tab/page.
 
 ---
 
-### Specifications
+## Specifications
 
 - Size: 2.95 x 2.95 x .748 inch (75 x 75 x 19 mm)
 - 2 layer printed circuit board
@@ -187,12 +187,12 @@ You can download this backup file <a href="/downloads/Fibonacci256 Puck.pbb">Fib
 - HASL (Hot Air Solder Leveling) Finish
 - Designed in the US by Evil Genius Labs
 
-### FastLED Maps
+## FastLED Maps
 
 <div class="accordion" id="accordion0">
 
   <div class="accordion-item">
-    <h4 class="accordion-header" id="heading0One"><button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapse0One" aria-expanded="false" aria-controls="collapse0One">FastLED Maps (click to expand)</button></h4>
+    <h3 class="accordion-header" id="heading0One"><button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapse0One" aria-expanded="false" aria-controls="collapse0One">FastLED Maps (click to expand)</button></h3>
     <div id="collapse0One" class="accordion-collapse collapse" data-parent="#accordion0" aria-labelledby="headingOne">
       <div class="accordion-body">
         <pre>#define NUM_LEDS 256

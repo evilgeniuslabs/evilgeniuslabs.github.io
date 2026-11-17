@@ -16,12 +16,12 @@ redirect_from:
   - /ifixit-mako-64-bit-labels
 ---
 
-<h3>Table of Contents</h3>
+<h2>Table of Contents</h2>
 
 - TOC
 {:toc}
 
-### Details
+## Details
 
 I really like my [iFixit Mako driver kit](https://amzn.to/3G3txky), but the labels molded into the foam are really hard to read.
 
@@ -41,16 +41,16 @@ Labels:
 PNG:
 <a target="_blank" href="/assets/C5880Dc.jpg"><img src="/assets/C5880Dc.jpg" style="width:340px" class="img-fluid post-img" /></a>
 
-### Downloads
+## Downloads
 
-#### Mako Driver Kit (64 Bit)
+### Mako Driver Kit (64 Bit)
 
 <a class="btn btn-success" href="/images/ifixit-mako-64-bit-labels.svg">Download Mako Template SVG</a> (right-click, Save Link As...)
 
-#### Manta Driver Kit (112 Bit)
+### Manta Driver Kit (112 Bit)
 
 <a class="btn btn-success" href="/images/ifixit-manta-112-bit-labels.svg">Download Manta Template SVG</a> (right-click, Save Link As...)
 
-#### Minnow Driver Kit (16 Bit)
+### Minnow Driver Kit (16 Bit)
 
 <a class="btn btn-success" href="/images/ifixit-minnow-16-bit-labels.svg">Download Minnow Template SVG</a> (right-click, Save Link As...)

@@ -19,16 +19,16 @@ gallery:
 
 Tweak the setting of the amazing ColorWaves and Pride FastLED animations interactively via a web UI.
 
-<h3>Table of Contents</h3>
+<h2>Table of Contents</h2>
 
 - TOC
 {:toc}
 
-### Background
+## Background
 
 [ColorWavesWithPalettes](https://gist.github.com/kriegsman/8281905786e8b2632aeb) and [Pride2015](https://gist.github.com/kriegsman/964de772d64c502760e5) are brilliant animations for the FastLED library created by Mark Kriegsman. The code for both include a set of "magic numbers" or constants defined in the code. Slight changes in these numbers can cause drastic changes in the appearance of the animations. But changing them requires compiling and uploading the code. I wanted to learn more about the animations and code, and decided being able to interactively change them and immediately see the result would be beneficial.
 
-### Details
+## Details
 
 I used my [esp8266-fastled-webserver](https://github.com/jasoncoon/esp8266-fastled-webserver) project, which already provides a web interface over wi-fi for changing settings, such as brightness, pattern, palette, etc. I extracted all of the constants from the Pride2015 and ColorWaves code, and replaced them with variables that I exposed as fields via the [REST interface](https://en.wikipedia.org/wiki/Representational_state_transfer). No changes were needed to the web app, since it dynamically displays editors for all of the fields.
 
@@ -45,7 +45,7 @@ I quickly realized that a way of saving, importing and exporting the settings wo
 - `Save` downloads the contents of the text area to a preset file on your computer, using the filename entered in the textbox. The filename `preset1.json` is the default, and I suggest you use the `.json` file extension for these files.
 - `Open` lets you browse to and open a file on your computer, and loads it into the text area. To apply the preset file, you need to then press the `Load Values` button.
 
-### Source Code
+## Source Code
 
 You can find the source code on GitHub: [https://github.com/jasoncoon/esp8266-fastled-webserver](https://github.com/jasoncoon/esp8266-fastled-webserver)
 

@@ -30,16 +30,16 @@ gallery:
   - src: "/assets/A0Yvsf7.jpg"
 ---
 
-<h3>Table of Contents</h3>
+<h2>Table of Contents</h2>
 
 - TOC
 {:toc}
 
-### Buy
+## Buy
 
 For free shipping worldwide, you can order directly from OSH Park: [https://oshpark.com/shared_projects/6fF4Jphm](https://oshpark.com/shared_projects/6fF4Jphm)
 
-### Details
+## Details
 
 This is a shield/breakout for [Adafruit Pro Trinket - 5V](https://www.adafruit.com/product/2000) that makes it easy to control addressable RGB LEDs, such as WS2811, WS2812 (Adafruit NeoPixels), SK6812, etc. The Adafruit Pro Trinket - 5V is an excellent Arduino compatible development board based on the ATmega328.
 
@@ -51,7 +51,7 @@ One digital output pin (D4) is run through a data line resistor, as recommended 
 
 The large 5V trace and GND pour should be rated for up to 2 amps. That's enough for about 33 LEDs at max output (solid white, full brightness). For larger quantities, power should be connected directly to the LEDs, and/or brightness should be limited in software.
 
-### Specifications
+## Specifications
 
 - Size: 0.93 x 1.73 x .063 inch (23.6 x 43.8 x 1.6 mm)
 - 2 layer printed circuit board
@@ -82,11 +82,11 @@ Optional parts:
 
 - [3D printed case](https://www.thingiverse.com/thing:3200653)
 
-### Race gates
+## Race gates
 
 See this post for more details on building the gates: https://www.evilgeniuslabs.org/rgb-led-micro-quadrotor-race-gate
 
-### Code
+## Code
 
 Open source example Arduino sketch: [https://github.com/jasoncoon/demoreel100-buttons](https://github.com/jasoncoon/demoreel100-buttons)
 
@@ -95,7 +95,7 @@ Features:
 - Adjustable brightness/power
 - Choose animation/pattern
 
-### Electronics Assembly Instructions
+## Electronics Assembly Instructions
 
 **Note**: Double-check the position, alignment, and orientation of each component very carefully before soldering!
 
@@ -129,7 +129,7 @@ I also built one of these [DIY flexible soldering helping hands](http://www.inst
 10. I used the Trinket to hold the female headers correctly aligned while I soldered.
     <img src="/assets/A0Yvsf7.jpg" class="img-fluid post-img" />
 
-### Gate and Controller assembly
+## Gate and Controller assembly
 
 See this post for more details on building the gates: https://www.evilgeniuslabs.org/rgb-led-micro-quadrotor-race-gate
 

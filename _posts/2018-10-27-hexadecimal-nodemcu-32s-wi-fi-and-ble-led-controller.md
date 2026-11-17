@@ -13,16 +13,16 @@ gallery:
   - src: "/assets/UvKEmf7.jpg"
 ---
 
-<h3>Table of Contents</h3>
+<h2>Table of Contents</h2>
 
 - TOC
 {:toc}
 
-### Buy
+## Buy
 
 For free shipping worldwide, you can order directly from OSH Park: [https://oshpark.com/shared_projects/dDX67jyf](https://oshpark.com/shared_projects/dDX67jyf)
 
-### Details
+## Details
 
 This is a shield/breakout for [NodeMCU-32S Board](https://amzn.to/2MWrCrk) that makes it easy to control addressable RGB LEDs, such as WS2811, WS2812 (Adafruit NeoPixels), SK6812, APA102 (Adafruit DotStars), and SK9822. The NodeMCU-32S Board is an excellent Wi-Fi and Bluetooth development board based on the ES32. This shield supports 16x parallel output.
 
@@ -34,7 +34,7 @@ Sixteen digital output pins (0, 2, 3, 4, 5, 12, 13, 14, 15, 16, 17, 18, 19, 21, 
 
 The shield also includes places for data line resistors as recommended when driving LEDs. A large capacitor should be connected across the power and ground connections near the LEDs. The 70 mil 5V and GND traces should be rated for up to 6 amps. That's enough for about 100 LEDs at max output (solid white, full brightness). A barrel connector can be added to connect a power supply, but most are only rated for 2.5A (~50 LEDs at max output). For larger quantities, power should be connected directly to the LEDs, and/or brightness should be limited in software.
 
-### Specifications
+## Specifications
 
 - Size: 2.06 x 1.55 x .063 inch (52.2 x 39.5 x 1.6 mm)
 - 2 layer printed circuit board
@@ -64,7 +64,7 @@ OR
 - [SN-48B Crimping Tool](https://amzn.to/2P6YpHh)
 - 22 AWG Wire
 
-### Code
+## Code
 
 Open source example firmware and web application: [https://github.com/jasoncoon/esp32-fastled-webserver](https://github.com/jasoncoon/esp32-fastled-webserver)
 
@@ -80,7 +80,7 @@ Features:
 - Set to any solid color
 - Autoplay patterns with adjustable duration
 
-### Assembly Instructions
+## Assembly Instructions
 
 **Note**: Double-check the position, alignment, and orientation of each component very carefully before soldering!
 

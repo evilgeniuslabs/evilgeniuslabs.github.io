@@ -25,12 +25,12 @@ lectronz: fibonacci182-card
 <a href="/assets/56UauS6.jpg" target="_blank"><img src="/assets/56UauS6.jpg" style="width:340px"  /></a>
 <a href="/assets/rlgRwNS.jpg" target="_blank"><img src="/assets/rlgRwNS.jpg" style="width:340px"  /></a> -->
 
-<h3>Table of Contents</h3>
+<h2>Table of Contents</h2>
 
 - TOC
 {:toc}
 
-### Details
+## Details
 
 Fibonacci 182 Card is a beautiful credit card sized rectangle with 182 RGB LEDs surface mounted in a Fibonacci distribution. Swirling and pulsing like a tiny galaxy, it's mesmerizing to watch.
 
@@ -44,7 +44,7 @@ The six mounting holes are surrounded by capacitive touch compatible pads. They'
 
 ---
 
-### Specifications
+## Specifications
 
 - Size: 3.37 x 2.125 x .063 inch (85.6 x 53.98 x 1.6 mm)
 - 2 layer printed circuit board
@@ -60,11 +60,11 @@ Parts I used in my builds:
 
 - [QT Py by Adafruit](https://www.adafruit.com/product/4600)
 
-### Code
+## Code
 
 Open source touch demo: [https://github.com/jasoncoon/fibonacci182-card](https://github.com/jasoncoon/fibonacci182-card)
 
-### Pixelblaze Map
+## Pixelblaze Map
 
 [Pixelblaze](https://www.bhencke.com/pixelblaze) is an advanced WiFi LED pattern engine, created by [ElectroMage](https://electromage.com). Live pattern expression compiler, lightning fast fixed point math, and HDR!
 
@@ -77,7 +77,7 @@ This map can be copied and pasted into the Pixel Mapper in the Mapper tab of you
 <div class="accordion" id="accordion">
 
   <div class="accordion-item">
-    <h4 class="accordion-header" id="headingOne"><button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Pixelblaze XY Map (click to expand)</button></h4>
+    <h3 class="accordion-header" id="headingOne"><button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Pixelblaze XY Map (click to expand)</button></h3>
     <div id="collapseOne" class="accordion-collapse collapse" data-parent="#accordion" aria-labelledby="headingOne">
       <div class="accordion-body">
         <pre>
@@ -89,7 +89,7 @@ This map can be copied and pasted into the Pixel Mapper in the Mapper tab of you
 
 </div>
 
-### Assembly Instructions
+## Assembly Instructions
 
 **Note**: Double-check the position, alignment, and orientation of each component very carefully before soldering!
 

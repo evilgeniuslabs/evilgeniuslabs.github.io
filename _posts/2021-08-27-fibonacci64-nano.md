@@ -36,12 +36,12 @@ Alternatives:
 
 ---
 
-<h3>Table of Contents</h3>
+<h2>Table of Contents</h2>
 
 - TOC
 {:toc}
 
-### Details
+## Details
 
 Fibonacci64 Nano is a tiny, beautiful 33mm circular disc with 64 RGB LEDs surface mounted in a Fibonacci distribution. Swirling and pulsing like a miniature galaxy, it's mesmerizing to watch.
 
@@ -55,7 +55,7 @@ Three of the four mounting holes are surrounded by capacitive touch compatible p
 
 ---
 
-### Specifications
+## Specifications
 
 - Size: 1.3 x 1.3 x .063 inch (33 x 33 x 1.6 mm)
 - 2 layer printed circuit board
@@ -84,13 +84,13 @@ Parts I used in my builds:
 - [QT Py by Adafruit](https://www.adafruit.com/product/4600)(https://electromage.com)
 - [Chemcast Black LED Acrylic](https://www.tapplastics.com/product/plastics/cut_to_size_plastic/black_led_sheet/668)
 
-### Code
+## Code
 
 **Please note the code is in the `f64-nano` branch!**
 
 Open source touch demo: [https://github.com/jasoncoon/fibonacci64-touch-demo/tree/f64-nano](https://github.com/jasoncoon/fibonacci64-touch-demo/tree/f64-nano)
 
-### Pixelblaze Map
+## Pixelblaze Map
 
 [Pixelblaze](https://www.bhencke.com/pixelblaze) is an advanced WiFi LED pattern engine, created by [ElectroMage](https://electromage.com). Live pattern expression compiler, lightning fast fixed point math, and HDR!
 
@@ -103,7 +103,7 @@ This map can be copied and pasted into the Pixel Mapper in the Mapper tab of you
 <div class="accordion" id="accordion">
 
   <div class="accordion-item">
-    <h4 class="accordion-header" id="headingOne"><button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Pixelblaze XY Map (click to expand)</button></h4>
+    <h3 class="accordion-header" id="headingOne"><button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Pixelblaze XY Map (click to expand)</button></h3>
     <div id="collapseOne" class="accordion-collapse collapse" data-parent="#accordion" aria-labelledby="headingOne">
       <div class="accordion-body">
         <pre>
@@ -115,7 +115,7 @@ This map can be copied and pasted into the Pixel Mapper in the Mapper tab of you
 
 </div>
 
-### Assembly Instructions
+## Assembly Instructions
 
 **Note**: Double-check the position, alignment, and orientation of each component very carefully before soldering!
 
@@ -134,7 +134,7 @@ If you're new to soldering, I highly recommend reading through a good soldering 
 1. Each SK6805-EC15 can theoretically draw 15mA at full brightness, solid white color. 64 of them can theoretically draw 960mA. I suggest using [FastLED's power management](https://github.com/FastLED/FastLED/wiki/Power-notes#managing-power-in-fastled) to limit the maximum brightness to a reasonable amount, well under the maximum your power supply is rated for. I've found that 960mA is blindingly bright.
 1. Keep an eye on the temperature of the PCB and especially the connectors. High temperatures can reduce the life of the LEDs. When possible, ensure air can flow, either passively (ventilation) or actively (exhaust fan).
 
-### Acrylic Open Case Assembly Instructions
+## Acrylic Open Case Assembly Instructions
 
 1. Peel and remove any protective plastic and/or paper film from the acrylic.
 1. Insert M2x6mm Button Head Hex Screw into the bottom hole in the matte side of the acrylic face plate.

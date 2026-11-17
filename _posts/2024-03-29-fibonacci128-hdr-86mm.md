@@ -15,12 +15,12 @@ redirect_from:
 sortKey: Fibonacci0128-hdr-86mm
 ---
 
-<h3>Table of Contents</h3>
+<h2>Table of Contents</h2>
 
 - TOC
 {:toc}
 
-### Details
+## Details
 
 Fibonacci128 HDR is a beautiful 86mm circular disc with 128 SK9822-EC20 HDR RGB LEDs surface mounted in a Fibonacci distribution. Swirling and pulsing like a colorful galaxy, it's mesmerizing to watch.
 
@@ -30,7 +30,7 @@ It consists of 128 RGB LEDs, arranged into a circular <a href="https://en.wikipe
 
 ---
 
-### Specifications
+## Specifications
 
 - Size: 3.39 x 3.39 x .063 inch (86 x 86 x 1.6 mm)
 - 2 layer printed circuit board
@@ -39,12 +39,12 @@ It consists of 128 RGB LEDs, arranged into a circular <a href="https://en.wikipe
 - HASL (Hot Air Solder Leveling) Finish
 - Designed in the US by Evil Genius Labs
 
-### FastLED Maps
+## FastLED Maps
 
 <div class="accordion" id="accordion0">
 
   <div class="accordion-item">
-    <h4 class="accordion-header" id="heading0One"><button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapse0One" aria-expanded="false" aria-controls="collapse0One">FastLED Maps (click to expand)</button></h4>
+    <h3 class="accordion-header" id="heading0One"><button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapse0One" aria-expanded="false" aria-controls="collapse0One">FastLED Maps (click to expand)</button></h3>
     <div id="collapse0One" class="accordion-collapse collapse" data-parent="#accordion0" aria-labelledby="headingOne">
       <div class="accordion-body">
         <pre>
@@ -62,12 +62,12 @@ byte radius[NUM_LEDS] = { 18, 104, 148, 180, 207, 233, 255, 243, 218, 192, 162, 
   </div>
 </div>
 
-### Pixelblaze Map
+## Pixelblaze Map
 
 <div class="accordion" id="accordion">
 
   <div class="accordion-item">
-    <h4 class="accordion-header" id="headingOne"><button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Pixelblaze Map (click to expand)</button></h4>
+    <h3 class="accordion-header" id="headingOne"><button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Pixelblaze Map (click to expand)</button></h3>
     <div id="collapseOne" class="accordion-collapse collapse" data-parent="#accordion" aria-labelledby="headingOne">
       <div class="accordion-body">
         <pre>

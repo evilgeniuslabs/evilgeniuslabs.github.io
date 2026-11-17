@@ -36,7 +36,7 @@ Every Fibonacci board I make, from the tiny [One Inch Fibonacci64](/one-inch-fib
 
 <section class="step" id="rule" data-label="The rules" markdown="1">
 
-### The rules
+## The rules
 
 <div class="mb-3" data-fermat="recipe">
 <div class="ratio ratio-16x9">
@@ -60,7 +60,7 @@ Every LED on every¹ Fibonacci board is placed by those rules. LED *n* sits *n* 
 
 <section class="step" id="golden-angle" data-label="Golden angle" markdown="1">
 
-### The golden angle
+## The golden angle
 
 <div class="mb-3" data-fermat="golden-angle">
 <div class="ratio ratio-16x9">
@@ -90,7 +90,7 @@ Angles past 180° just mirror these: 222.492° (360° − 137.508°) makes the s
 
 <section class="step" id="spacing" data-label="√n spacing" markdown="1">
 
-### √n spacing
+## √n spacing
 
 <div class="mb-3" data-fermat="spacing">
 <div class="ratio ratio-16x9">
@@ -110,7 +110,7 @@ With equal area for every LED, the pixel density is the same all the way across 
 
 <section class="step" id="add-one" data-label="Add one more" markdown="1">
 
-### You can always add one more
+## You can always add one more
 
 <div class="mb-3" data-fermat="add-one">
 <div class="ratio ratio-16x9">
@@ -126,7 +126,7 @@ The spiral is an even, round disc at every count, and adding an LED never moves 
 
 <section class="step" id="fibonacci" data-label="Fibonacci" markdown="1">
 
-### Where the Fibonacci numbers come from
+## Where the Fibonacci numbers come from
 
 <div class="mb-3" data-fermat="fibonacci">
 <div class="ratio ratio-16x9">
@@ -145,7 +145,7 @@ The arm counts are 3, 5, 8, 13, 21 and 34. Put 1, 1 and 2 in front and each numb
 
 <section class="step" id="real-boards" data-label="Real boards" markdown="1">
 
-### Real boards
+## Real boards
 
 <div class="ratio ratio-16x9 mb-3">
   <video class="post lazy" data-poster="/assets/fermat-real-boards.jpg" data-no-lightbox aria-label="The animated spiral fades into video of a real Fibonacci256 lit with the same pattern, followed by clips of four more Fibonacci boards." controls muted playsinline data-src="/assets/fermat-real-boards.mp4"></video>

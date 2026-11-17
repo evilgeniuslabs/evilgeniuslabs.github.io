@@ -12,7 +12,7 @@ redirect_from:
   - /mfkc2017
 ---
 
-### Background
+## Background
 
 Having already built an [educational project](https://evilgeniuslabs.org/fastled-rgb-hsv-tutorial) for [Maker Faire Kansas City 2017](http://kansascity.makerfaire.com), I wanted something a little more fun and interactive. So I picked up some [LED Arcade buttons](https://amzn.to/2Mcv7cC) and built a little LED strip control box with them, using a [Teensy 3.2](https://www.pjrc.com/store/teensy32.html).
 
@@ -20,12 +20,12 @@ I plan to mount the control box to a table, and mount the LED strip a few feet a
 
 <a href="/assets/rp8lLwQ.jpg" target="_blank"><img src="/assets/rp8lLwQ.jpg" style="width:400px" class="img-fluid post-img" /></a>
 
-<h3>Table of Contents</h3>
+<h2>Table of Contents</h2>
 
 - TOC
 {:toc}
 
-### Parts List
+## Parts List
 
 | Name                                                                                                                       | Qty | Price  | Total  | Supplier |
 | -------------------------------------------------------------------------------------------------------------------------- | --- | ------ | ------ | -------- |
@@ -50,7 +50,7 @@ Some of these parts can, of course, be obtained for less at other suppliers.
 
 <a href="/assets/anKPcEq.jpg" target="_blank"><img src="/assets/anKPcEq.jpg" style="width:400px" class="img-fluid post-img" /></a>
 
-### Assembly
+## Assembly
 
 <a href="/assets/bamGsWx.jpg" target="_blank"><img src="/assets/bamGsWx.jpg" style="width:400px" class="img-fluid post-img" /></a>
 
@@ -60,7 +60,7 @@ Five Teensy pins are wired to the 74HCT245 level shifter inputs, and then each b
 
 <a href="/assets/ahP4bvR.jpg" target="_blank"><img src="/assets/ahP4bvR.jpg" style="width:400px" class="img-fluid post-img" /></a>
 
-### Interactions
+## Interactions
 
 I quickly got a couple of different interactive modes working:
 
@@ -68,7 +68,7 @@ I quickly got a couple of different interactive modes working:
 - Pulse: similar to Blast, but a button's color is only added to LED 0 when it is first pressed. The colors then scroll up the strip.
 - Launcher: pressing a button launches a ball of the button's color up the strip. The ball decelerates then drops back down, disappearing at the bottom. At first I just kept an array of 5 sets of ball data, one for each button. But that only allowed one ball of each color at a time. So I reworked the code to allow for up to 100 balls at a time.
 
-### Games
+## Games
 
 The games took a bit longer to implement, but I was able to reuse some code from my [React](/react) lamp.
 
@@ -76,6 +76,6 @@ The games took a bit longer to implement, but I was able to reuse some code from
 - Simon: classic [Simon](<https://en.wikipedia.org/wiki/Simon_(game)>) electronic memory game.
 - Juggle: a single colored ball is thrown into the air. You have to press the same colored button right as the ball hits the bottom to relaunch it and keep it in the air. If successful, another ball of a different color is launched. Repeats until you fail. :)
 
-### Source Code
+## Source Code
 
 [https://github.com/jasoncoon/fastled-arcade](https://github.com/jasoncoon/fastled-arcade)

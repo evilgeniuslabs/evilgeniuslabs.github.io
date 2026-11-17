@@ -17,7 +17,7 @@ redirect_from:
 <br />
 <br />
 
-### Info
+## Info
 
 * 18 steps, each with its own WS2812B LED strip
 * 53-55 WS2812B LEDs on each step, ~1,000 LEDs total
@@ -25,7 +25,7 @@ redirect_from:
 * [Evil Genius Labs - Octo Level Shifter FeatherWing](https://www.evilgeniuslabs.org/level-shifter-featherwing)
 * 2 x 40A power supplies
 
-### Links
+## Links
 
 More details in 'The Maker Forums' archive of the old FastLED community:
 
