@@ -31,7 +31,7 @@ Any time you see a `render2D` function, just rename it to `render3D` instead, or
   <div class="col-md-6">
     <div class="card" id="luxlavalier">
       <div class="ratio ratio-4x3">
-        <a href="https://luxlavalier.com/code">
+        <a href="https://luxlavalier.com/code" tabindex="-1" aria-hidden="true">
           <video class="post lazy" data-poster="https://luxlavalier.com/assets/img/code/radius-center-full.jpg"
             autoplay="autoplay" muted="muted" loop="loop" playsinline data-src="https://luxlavalier.com/assets/img/code/radius-out.mp4"></video>
         </a>

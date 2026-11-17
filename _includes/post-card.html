@@ -4,6 +4,7 @@
   - any other imgurId     -> lazy-loaded still image
   - no imgurId, videoUrl  -> lazy-loaded YouTube embed
   Borderless tile (styles: "post cards" in css/styles.css): media letterboxed in a 16:9 box, title centred below.
+  The media link repeats the title link, so it's hidden from screen readers and the tab order (one stop per card).
 {% endcomment %}
 {% assign card = include.post %}
 {% if card.imgurId or card.videoUrl %}
@@ -13,11 +14,11 @@
   <div class="post-card" id="{{ card.id }}">
     <div class="ratio ratio-16x9 post-card-media">
       {% if card.imgurId and card_ext == "mp4" %}
-      <a href="{{ card.url }}">
+      <a href="{{ card.url }}" tabindex="-1" aria-hidden="true">
         <video class="post lazy" data-poster="/assets/{{ card_base }}.jpg" autoplay muted loop playsinline data-src="/assets/{{ card.imgurId }}"></video>
       </a>
       {% elsif card.imgurId %}
-      <a href="{{ card.url }}">
+      <a href="{{ card.url }}" tabindex="-1" aria-hidden="true">
         <img src="/assets/{{ card.imgurId }}" loading="lazy" alt="{{ card.title | escape }}">
       </a>
       {% else %}

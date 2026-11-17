@@ -3,6 +3,12 @@
  * Classes here are the site's own; Bootstrap 3 names that had no Bootstrap 5 equivalent were mapped to these.
  */
 
+/* Slate's secondary text (rgba(170,170,170,.75)) is only 4.13:1 on its #272b30 background; .85 makes it 4.87:1,
+   past WCAG AA's 4.5:1. Used by .text-body-secondary (footer) and the dimmed text below. */
+:root {
+	--bs-secondary-color: rgba(170, 170, 170, 0.85);
+}
+
 /* ---------- layout ---------- */
 
 /* Home-page banner (light bulb + name + tagline) */
