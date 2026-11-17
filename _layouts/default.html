@@ -5,6 +5,8 @@
   <meta charset="utf-8">
   {% include csp.html %}
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- comment -%} unlisted: true (front matter): published but not announced, so keep search engines away. {%- endcomment %}
+  {% if page.unlisted %}<meta name="robots" content="noindex">{% endif %}
   <link rel="alternate" type="application/rss+xml" title="Evil Genius Labs" href="/feed.xml" />
   {% include social-meta.html %}
 

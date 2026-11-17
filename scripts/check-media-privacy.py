@@ -11,7 +11,7 @@ Checks:
   MP4/MOV - QuickTime location atom (\xa9xyz) or ISO 6709 location key
 
 Strip location data before committing, e.g.:
-  magick in.jpg -auto-orient +profile '!icc,*' out.jpg      (keeps the colour profile)
+  magick in.jpg -auto-orient +profile '!icc,*' out.jpg      (keeps the color profile)
   ffmpeg -i in.mp4 -map_metadata -1 -c copy out.mp4
 
 Usage: python3 scripts/check-media-privacy.py assets images downloads

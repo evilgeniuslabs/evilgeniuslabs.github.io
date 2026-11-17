@@ -1,8 +1,23 @@
 {%- comment -%}
   Fermat's spiral / phyllotaxis explainer quoted from Wikipedia, shared by the Fibonacci product posts.
-  No blank lines inside the <figure>: kramdown would end the HTML block there.
+  No blank lines inside the <figure> or <aside>: kramdown would end the HTML block there.
+
+  Above the quote, a teaser for the "Why Fibonacci?" post. It's looked up by URL (a post's `id` front matter
+  isn't visible to `where`), and site.posts leaves out unpublished posts, so the teaser appears on its own once
+  that post is published, and never links to a missing page. While it's `unlisted: true` (published for a few
+  readers, not announced) the teaser stays hidden too.
 {%- endcomment %}
+{%- assign fermat_post = site.posts | where: "url", "/why-fibonacci" | first %}
 <hr />
+{%- if fermat_post and fermat_post.unlisted != true %}
+<aside class="fermat-teaser" aria-label="Why Fibonacci?">
+<a class="fermat-teaser-media ratio ratio-16x9" href="{{ fermat_post.url }}" tabindex="-1" aria-hidden="true"><video class="post lazy" data-poster="/assets/fermat-recipe.jpg" autoplay muted loop playsinline data-src="/assets/fermat-recipe.mp4"></video></a>
+<div>
+<h4><a href="{{ fermat_post.url }}">Why Fibonacci?</a></h4>
+<p>Why this layout beats a grid or rings, why the angle is 137.508°, and where the Fibonacci numbers come from, with interactive animations.</p>
+</div>
+</aside>
+{%- endif %}
 <figure class="wiki-quote">
 <blockquote cite="https://en.wikipedia.org/wiki/Fermat%27s_spiral">
 <p>In disc <a href="https://en.wikipedia.org/wiki/Phyllotaxis">phyllotaxis</a>, as in the <a href="https://en.wikipedia.org/wiki/Sunflower">sunflower</a> and daisy, the mesh of spirals occurs in <a href="https://en.wikipedia.org/wiki/Fibonacci_number">Fibonacci numbers</a> because divergence (angle of succession in a single spiral arrangement) approaches the <a href="https://en.wikipedia.org/wiki/Golden_ratio">golden ratio</a>. The shape of the spirals depends on the growth of the elements generated sequentially. In mature-disc phyllotaxis, when all the elements are the same size, the shape of the spirals is that of Fermat spirals—ideally. That is because Fermat's spiral traverses equal <a href="https://en.wikipedia.org/wiki/Annulus_(mathematics)">annuli</a> in equal turns. The full model proposed by H Vogel in 1979<sup><a href="https://en.wikipedia.org/wiki/Fermat%27s_spiral#cite_note-2">[2]</a></sup> is</p>

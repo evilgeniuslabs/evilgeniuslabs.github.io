@@ -18,7 +18,9 @@
  *              previous/next through the page's media, arrow keys, swipe, Esc / backdrop to close. Modified clicks
  *              (Ctrl/Cmd/Shift, middle button) and no-JS visitors still get the plain link. Opt a link, image or
  *              video out with data-no-lightbox (or download on a link).
- *
+ * 7. Stepper   .stepper > section.step: an explainer shown one step at a time, with labeled tabs, Previous / Next,
+ *              each step's video playing once from the start, and a URL anchor per step (written out inside
+ *              section 3 + 4, whose lazy loading and motion preference it uses). *
  * 5 and 6 are placed before 3 + 4, which return early on browsers without IntersectionObserver.
  *
  * Loaded at the end of <body>, so the document is already parsed when this runs.
@@ -573,6 +575,7 @@
   }
 
   function loadMedia(el) {
+    if (!el.hasAttribute("data-src")) return; // already loaded (a stepper can get there before the loader)
     var poster = el.getAttribute("data-poster");
     var src = el.getAttribute("data-src");
     if (poster) el.setAttribute("poster", poster);
@@ -610,6 +613,208 @@
     if (query.addEventListener) query.addEventListener("change", applyMotionPreference);
     else if (query.addListener) query.addListener(applyMotionPreference);
   }
+
+  /* ---------- 7: steppers ---------- */
+
+  // <div class="stepper"> around <section class="step" id="…" data-label="…"> elements, each a heading, a video in
+  // a .ratio box and text: an explainer taken one step at a time (the "Why Fibonacci?" post). It becomes a row
+  // of labeled tabs over one visible step, with Previous / "n of N" / Next under the step's video and "Next: <label>"
+  // after its text. Showing a step plays its video once from the start, only while it's on screen. The videos always
+  // have controls, and a video the reader paused stays paused. With "reduce motion" nothing starts by itself.
+  // A step can hold an interactive embed (<div data-fermat>, js/fermat-embed.js) in place of its video; the nav goes
+  // under it all the same. Each step's id is its URL anchor (#golden-angle). Without JavaScript the steps are simply
+  // the article, stacked.
+  function stepLabel(step, i) {
+    var heading = step.querySelector("h2, h3");
+    return step.getAttribute("data-label") || (heading && heading.textContent) || "Step " + (i + 1);
+  }
+
+  Array.prototype.forEach.call(document.querySelectorAll(".stepper"), function (stepper) {
+    var steps = Array.prototype.filter.call(stepper.children, function (el) {
+      return el.matches("section.step[id]");
+    });
+    if (steps.length < 2) return;
+    var labels = steps.map(stepLabel);
+    var videos = steps.map(function (step) {
+      return step.querySelector("video");
+    });
+    var current = -1;
+    var want = []; // want[i]: step i's video should start (again) once it's on screen
+
+    var tabs = document.createElement("div");
+    tabs.className = "stepper-tabs";
+    tabs.setAttribute("role", "tablist");
+    tabs.setAttribute("aria-label", "Steps");
+    stepper.insertBefore(tabs, steps[0]);
+    stepper.classList.add("stepper-on");
+
+    function button(className, text, onClick) {
+      var b = document.createElement("button");
+      b.type = "button";
+      b.className = className;
+      b.textContent = text;
+      b.addEventListener("click", onClick);
+      return b;
+    }
+
+    var tabButtons = steps.map(function (step, i) {
+      var tab = button("stepper-tab", "", function () {
+        show(i, true);
+      });
+      var num = document.createElement("span");
+      num.className = "stepper-num";
+      num.textContent = i + 1;
+      tab.appendChild(num);
+      tab.appendChild(document.createTextNode(labels[i]));
+      tab.id = step.id + "-tab";
+      tab.setAttribute("role", "tab");
+      tab.setAttribute("aria-controls", step.id);
+      tabs.appendChild(tab);
+      step.setAttribute("role", "tabpanel");
+      step.setAttribute("aria-labelledby", tab.id);
+
+      // Previous / n of N / Next, right under the video, where they stay put from step to step.
+      var nav = document.createElement("div");
+      nav.className = "stepper-nav";
+      var prev = button("btn btn-outline-light btn-sm", "‹ Previous", function () {
+        show(i - 1, true);
+      });
+      var next = button("btn btn-light btn-sm", "Next ›", function () {
+        show(i + 1, true);
+      });
+      prev.disabled = i === 0;
+      next.disabled = i === steps.length - 1;
+      var count = document.createElement("span");
+      count.className = "stepper-count";
+      count.textContent = i + 1 + " of " + steps.length;
+      nav.appendChild(prev);
+      nav.appendChild(count);
+      nav.appendChild(next);
+      // The step's media: an interactive embed (js/fermat-embed.js, which mounts before this runs) or the video's box.
+      var box = step.querySelector("[data-fermat]") || (videos[i] && videos[i].closest(".ratio"));
+      if (box) box.parentNode.insertBefore(nav, box.nextSibling);
+      else step.insertBefore(nav, step.firstChild);
+
+      // After the text, for whoever read to the end of it.
+      if (i + 1 < steps.length) {
+        var end = document.createElement("p");
+        end.className = "stepper-end";
+        end.appendChild(
+          button("btn btn-light", "Next: " + labels[i + 1] + " ›", function () {
+            show(i + 1, true);
+          })
+        );
+        step.appendChild(end);
+      }
+
+      var video = videos[i];
+      if (video) {
+        video.muted = true; // the attribute only sets the default; starting it from script needs the property
+        video.controls = true;
+        video.addEventListener("play", function () {
+          want[i] = false;
+        });
+      }
+      return tab;
+    });
+
+    function start(video) {
+      loadMedia(video); // no-op once loaded
+      if (!reduced()) tryPlay(video);
+    }
+
+    // fromUser: a tab or button, or a link to a step's anchor. Plays at once (they're looking at it) and puts the
+    // step's anchor in the address bar; on page load it only plays once on screen.
+    function show(i, fromUser) {
+      if (i < 0 || i >= steps.length) return;
+      if (i !== current) {
+        current = i;
+        steps.forEach(function (step, j) {
+          step.hidden = j !== i;
+          tabButtons[j].setAttribute("aria-selected", j === i ? "true" : "false");
+          tabButtons[j].tabIndex = j === i ? 0 : -1;
+          if (j !== i && videos[j] && !videos[j].paused) videos[j].pause();
+        });
+        // On phones the tabs are one row that scrolls sideways: bring the selected one into view (sideways only,
+        // so the page itself doesn't move).
+        var tab = tabButtons[i];
+        if (tab.offsetLeft < tabs.scrollLeft || tab.offsetLeft + tab.offsetWidth > tabs.scrollLeft + tabs.clientWidth) {
+          tabs.scrollLeft = tab.offsetLeft - (tabs.clientWidth - tab.offsetWidth) / 2;
+        }
+        if (videos[i]) {
+          videos[i].currentTime = 0;
+          want[i] = true;
+        }
+      }
+      if (!fromUser) return;
+      if (history.replaceState) history.replaceState(null, "", "#" + steps[i].id);
+      // If the tabs have scrolled off the top (Next after a long step's text), bring the stepper back.
+      if (stepper.getBoundingClientRect().top < 0) {
+        stepper.scrollIntoView({ behavior: reduced() ? "auto" : "smooth", block: "start" });
+      }
+      if (videos[i]) start(videos[i]);
+    }
+
+    // Arrow keys, Home and End move between tabs (the ARIA tabs pattern).
+    tabs.addEventListener("keydown", function (event) {
+      var to = { ArrowLeft: current - 1, ArrowRight: current + 1, Home: 0, End: steps.length - 1 }[event.key];
+      if (to === undefined || to < 0 || to >= steps.length) return;
+      event.preventDefault();
+      show(to, true);
+      tabButtons[to].focus();
+    });
+
+    // The step a URL anchor points at: the step itself or anything inside it (an old heading link).
+    function stepFor(hash) {
+      var id = decodeURIComponent((hash || "").slice(1));
+      var target = id && document.getElementById(id);
+      for (var i = 0; target && i < steps.length; i++) if (steps[i].contains(target)) return i;
+      return -1;
+    }
+    var first = stepFor(location.hash);
+    show(first < 0 ? 0 : first, false);
+    if (first >= 0) stepper.scrollIntoView({ block: "start" });
+    window.addEventListener("hashchange", function () {
+      var i = stepFor(location.hash);
+      if (i >= 0) show(i, true);
+    });
+
+    function applyStepperMotion() {
+      videos.forEach(function (video) {
+        if (!video) return;
+        if (reduced() && !video.paused) video.pause();
+      });
+    }
+    applyStepperMotion();
+    if (query) {
+      if (query.addEventListener) query.addEventListener("change", applyStepperMotion);
+      else if (query.addListener) query.addListener(applyStepperMotion);
+    }
+
+    // Play the current step's video once most of it is on screen; pause it when scrolled away and resume it when
+    // back. A video the reader paused, or that has ended, waits for its controls.
+    if (!("IntersectionObserver" in window)) return;
+    var watch = new IntersectionObserver(
+      function (entries) {
+        entries.forEach(function (entry) {
+          var video = entry.target;
+          if (video !== videos[current]) return;
+          if (entry.intersectionRatio < 0.6) {
+            if (!video.paused) {
+              video.pause();
+              want[current] = true;
+            }
+          } else if (want[current] && video.paused && !video.ended) {
+            start(video);
+          }
+        });
+      },
+      { threshold: [0, 0.6, 1] }
+    );
+    videos.forEach(function (video) {
+      if (video) watch.observe(video);
+    });
+  });
 
   if (!("IntersectionObserver" in window)) {
     lazyMedia.forEach(loadMedia);
@@ -650,4 +855,5 @@
       if (visible.get(video) === false) video.pause();
     });
   });
+
 })();

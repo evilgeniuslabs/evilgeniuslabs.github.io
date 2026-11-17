@@ -222,6 +222,129 @@ footer {
 	color: var(--bs-secondary-color);
 }
 
+/* Stepper (js/site.js section 7): labeled tabs over one step at a time. Narrow enough that a step's video and the
+   Previous / Next under it fit on a laptop screen together (and the text lines stay readable). */
+.stepper {
+	max-width: 52rem;
+}
+
+.stepper-tabs {
+	position: relative; /* tabs' offsetLeft is measured from here (js/site.js) */
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+	margin-bottom: 1.25rem;
+}
+
+/* Phones: one row that scrolls sideways (the script keeps the selected tab in view) instead of three rows */
+@media (max-width: 575.98px) {
+	.stepper-tabs {
+		flex-wrap: nowrap;
+		overflow-x: auto;
+		scrollbar-width: none;
+		margin-right: calc(-1 * var(--bs-gutter-x, 0.75rem));
+		padding-right: var(--bs-gutter-x, 0.75rem);
+	}
+
+	.stepper-tabs::-webkit-scrollbar {
+		display: none;
+	}
+
+	.stepper-tab {
+		flex: none;
+	}
+}
+
+.stepper-tab {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.4rem;
+	padding: 0.3rem 0.85rem 0.3rem 0.35rem;
+	border: 1px solid var(--bs-border-color);
+	border-radius: 999px;
+	background: transparent;
+	color: var(--bs-secondary-color);
+	font-size: 0.9rem;
+}
+
+.stepper-tab:hover {
+	color: var(--bs-body-color);
+	border-color: var(--bs-secondary-color);
+}
+
+.stepper-tab[aria-selected="true"] {
+	background: #f8f9fa;
+	border-color: #f8f9fa;
+	color: #1c1e22;
+}
+
+.stepper-num {
+	display: inline-grid;
+	place-items: center;
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 50%;
+	background: var(--bs-secondary-bg);
+	color: var(--bs-body-color);
+	font-size: 0.8em;
+	font-variant-numeric: tabular-nums;
+}
+
+.stepper-tab[aria-selected="true"] .stepper-num {
+	background: #1c1e22;
+	color: #f8f9fa;
+}
+
+/* Previous / n of N / Next under the step's video (the .ratio box above it has mb-3) */
+.stepper-nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: -0.25rem 0 1.25rem;
+}
+
+.stepper-count {
+	color: var(--bs-secondary-color);
+	font-size: 0.9rem;
+}
+
+.stepper-end {
+	margin-top: 1.5rem;
+	text-align: right;
+}
+
+/* Teaser for the "Why Fibonacci?" post above that quote: a looping clip beside a title and one line,
+   stacked on phones */
+.fermat-teaser {
+	display: flex;
+	align-items: center;
+	gap: 1.25rem;
+	margin-bottom: 1.5rem;
+}
+
+.fermat-teaser-media {
+	flex: 0 0 40%;
+	border-radius: 0.5rem;
+	overflow: hidden;
+}
+
+.fermat-teaser h4 {
+	margin-bottom: 0.5rem;
+}
+
+.fermat-teaser p {
+	margin-bottom: 0;
+	color: var(--bs-secondary-color);
+}
+
+@media (max-width: 575.98px) {
+	.fermat-teaser {
+		flex-direction: column;
+		align-items: stretch;
+		gap: 0.75rem;
+	}
+}
+
 /* Lectronz badge under the hero/gallery (_layouts/post.html, front matter `lectronz:`), centred like them */
 .post-buy {
 	margin: 0 0 2rem;
@@ -518,7 +641,7 @@ td {
 
 /* ---------- icons ---------- */
 
-/* Inline SVG icons (_includes/icon.html): sized and coloured like the text around them */
+/* Inline SVG icons (_includes/icon.html): sized and colored like the text around them */
 .icon {
 	display: inline-block;
 	width: 1.15em;
@@ -565,7 +688,7 @@ td {
 }
 
 /* No underline until hover/focus (the whole tile reads as a link). Body-text links keep Bootstrap 5's underline,
-   so they're distinguishable without relying on colour alone. */
+   so they're distinguishable without relying on color alone. */
 .post-card-title a {
 	text-decoration: none;
 }

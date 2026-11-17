@@ -9,7 +9,8 @@ layout: null
     <link>{{ site.url }}</link>
     <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
     {% for post in site.posts %}
-      {% unless post.link %}
+      {%- comment -%} unlisted: true (front matter) keeps a published post out of the feed. {%- endcomment %}
+      {% unless post.link or post.unlisted %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
         {% if post.excerpt %}

@@ -27,7 +27,11 @@ layout: default
 {% endunless %}
 {% endif %}
 
-{% if page.imgurId != null %}
+{%- comment -%}
+  `hideHero: true` leaves the hero out when the post shows that media itself (e.g. as the first step of a stepper);
+  imgurId still gives the post card and link previews.
+{%- endcomment %}
+{% if page.imgurId != null and page.hideHero != true %}
 {% assign poster_base = page.imgurId | split: "." | first %}
 {% assign hero_ext = page.imgurId | split: "." | last %}
 <div class="ratio ratio-16x9 post-hero">
