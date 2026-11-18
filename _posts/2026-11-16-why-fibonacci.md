@@ -40,13 +40,13 @@ Every Fibonacci board I make, from the tiny [One Inch Fibonacci64](/one-inch-fib
 
 <div class="mb-3" data-fermat="recipe">
 <div class="ratio ratio-16x9">
-  <video class="post lazy" data-poster="/assets/fermat-recipe.jpg" data-no-lightbox aria-label="Starting at the center, LEDs are placed one at a time: step out a little, add an LED, turn 137.508°. It speeds up until 256 LEDs form a spiral." controls muted playsinline data-src="/assets/fermat-recipe.mp4"></video>
+  <video class="post lazy" data-poster="/assets/fermat-recipe.jpg" data-no-lightbox aria-label="Starting at the center, LEDs are placed one at a time: increase the radius a little, add an LED, turn 137.508°. It speeds up until 256 LEDs form a spiral." controls muted playsinline data-src="/assets/fermat-recipe.mp4"></video>
 </div>
 </div>
 
 Start at the center. Then repeat:
 
-1. Step out a little.
+1. Increase the radius a little.
 2. Add an LED.
 3. Turn 137.508°.
 
@@ -117,15 +117,15 @@ Angles past 180° just mirror these: 222.492° (360° − 137.508°) makes the s
 
 <div class="mb-3" data-fermat="spacing">
 <div class="ratio ratio-16x9">
-  <video class="post lazy" data-poster="/assets/fermat-spacing.jpg" data-no-lightbox aria-label="256 LEDs on a spiral, each with its share of the board shaded. With the same step out each time, the LEDs are crowded in the middle and far apart at the edge. Shrinking the step by the square root of n spaces them evenly. Steps that shrink faster leave them far apart in the middle and crowded at the edge." controls muted playsinline data-src="/assets/fermat-spacing.mp4"></video>
+  <video class="post lazy" data-poster="/assets/fermat-spacing.jpg" data-no-lightbox aria-label="256 LEDs on a spiral, each with its share of the board shaded. Dashed circles through LEDs 64, 128, 192 and 256 each enclose 64 more LEDs. With LED n at radius n, the circles are evenly spaced, and the LEDs are crowded in the middle and far apart at the edge. With the radius at √n, every ring has the same area and the LEDs are evenly spaced. When the radius grows more slowly, the middle has gaps and the edge is crowded." controls muted playsinline data-src="/assets/fermat-spacing.mp4"></video>
 </div>
 </div>
 
-With the angle set, the next question is the radius: how far from the center each LED sits. Each cell in the animation is the part of the board that's closer to its LED than to any other.
+With the angle set, the next question is the radius: how far from the center each LED sits. Each cell in the animation is the part of the board that's closer to its LED than to any other. The dashed circles go through LEDs 64, 128, 192 and 256, so each ring between them holds 64 LEDs.
 
-If every step out is the same size, the edge has far more room than the middle but gets no more LEDs, so the LEDs end up crowded together in the middle and far apart at the edge. The biggest cell is about 150 times the size of the smallest.
+If LED *n* goes at radius *n*, LED 128 is twice as far from the center as LED 64, and LED 256 is four times as far. The circles are evenly spaced, but the outer rings are much bigger than the inner ones and get no more LEDs. The LEDs end up crowded in the middle and far apart at the edge. The biggest cell is about 150 times the smallest.
 
-A disc's area grows with the square of its radius, so the steps out have to shrink as you go. Putting LED *n* at a distance of √*n* from the center gives every LED the same share of the board, and neighboring LEDs end up evenly spaced. The biggest cell is then only 1.3 times the smallest. If the steps shrink faster than that, it flips, with the LEDs far apart in the middle and crowded at the edge.
+A disc's area grows with the square of its radius. Putting LED *n* at radius √*n* means LED 256 is only twice as far out as LED 64, and every ring gets the same area. The circles get closer together toward the edge, every LED gets the same share of the board, and the biggest cell is only 1.3 times the smallest. If the radius grows more slowly than √*n*, it flips: the LEDs are far apart in the middle and crowded at the edge.
 
 With equal area for every LED, the pixel density is the same all the way across the board.
 
