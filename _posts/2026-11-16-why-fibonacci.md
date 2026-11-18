@@ -5,8 +5,8 @@ id: why-fibonacci
 imgurId: fermat-recipe.mp4
 excerpt: Interactive animations show why the Fibonacci layout beats a grid or rings, why the angle is 137.508°, and where the Fibonacci numbers come from.
 categories:
-  # - blog
-  # - portfolio
+  - blog
+  - portfolio
 # Videos in /assets/ (each .mp4 with a .jpg poster), 16:9, from the fermat-explainer project:
 #   fermat-recipe, -spacing, -golden-angle, -add-one, -fibonacci   scenes 1-5 (README: Rendering)
 #   fermat-real-boards    scene 6 without the end card (edit/real-boards-16x9 in videokit)
@@ -19,8 +19,8 @@ hideHero: true
 published: true
 # Unlisted: published, but left out of the RSS feed, the board pages' teaser and the sitemap, and marked noindex.
 # To launch: delete unlisted and sitemap, and uncomment the categories (home page + Portfolio menu).
-unlisted: true
-sitemap: false
+unlisted: false
+sitemap: true
 # Short link evlgeni.us/why (/fermat is the 2016 Fermat (Lux Phyllotaxis) post).
 redirect_from:
   - /why
