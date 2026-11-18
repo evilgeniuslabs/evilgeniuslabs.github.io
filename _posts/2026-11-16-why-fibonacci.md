@@ -83,8 +83,27 @@ The golden angle, 360° ÷ φ² ≈ 137.508°, can't be written as a fraction at
 | 137.508° (golden) | 87% |
 
 <br />
+The golden angle's digits never end, but a board only needs a few of them. Each extra digit buys a lot more LEDs before arms start to show:
 
-The golden angle's digits never end, but a board only needs a few of them. 137.508° does as well as the exact golden angle up to about 7,800 LEDs, and 137.5078°, with four digits after the decimal point, is still just as good at 10,000.
+| angle | as good as the golden angle up to | off by (degrees) |
+|---|---|---|
+| 137.5° | 400 LEDs | 0.0078 |
+| 137.51° | 1,100 LEDs | 0.0022 |
+| 137.508° | 7,800 LEDs | 0.00024 |
+| 137.5078° | 53,000 LEDs | 0.000036 |
+| 137.50776° | 820,000 LEDs | 4.1 × 10⁻⁶ |
+| 137.507764° | 43 million LEDs | 5.0 × 10⁻⁸ |
+| 137.5077641° | 21 million LEDs² | 5.0 × 10⁻⁸ |
+| 137.50776405° | 85 billion LEDs | 3.8 × 10⁻¹¹ |
+| 137.50776405004° | 1.5 trillion LEDs | 2.2 × 10⁻¹² |
+
+<br />
+
+Two digits are plenty for the [Fibonacci1024](/fibonacci1024).
+
+<small id="ref2">
+² The seventh digit actually makes things worse: 137.5077641° is just as far from the golden angle as 137.507764°, but on the other side.
+</small>
 
 The golden angle isn't the only angle that scores well, though. Other "noble" angles, like 99.5°, come close. The golden angle is the one that's furthest from every fraction.
 
