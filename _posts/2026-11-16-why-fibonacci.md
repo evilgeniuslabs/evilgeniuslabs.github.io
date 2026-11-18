@@ -8,7 +8,7 @@ categories:
   - blog
   - portfolio
 # Videos in /assets/ (each .mp4 with a .jpg poster), 16:9, from the fermat-explainer project:
-#   fermat-recipe, -spacing, -golden-angle, -add-one, -fibonacci   scenes 1-5 (README: Rendering)
+#   fermat-recipe, -spacing, -golden-angle, -add-one, -fibonacci   scenes 1-5 (README: Updating the site)
 #   fermat-real-boards    scene 6 without the end card (edit/real-boards-16x9 in videokit)
 # The steps below are a stepper (js/site.js section 7): one step at a time, each playing its video once.
 # fermat-recipe is step 1's video, so the hero is hidden; imgurId still gives the post card and link previews.
@@ -114,7 +114,7 @@ With equal area for every LED, the pixel density is the same all the way across 
 
 <div class="mb-3" data-fermat="add-one">
 <div class="ratio ratio-16x9">
-  <video class="post lazy" data-poster="/assets/fermat-add-one.jpg" data-no-lightbox aria-label="A Fermat spiral, a square grid and concentric rings grow one LED at a time, from 1 to 1024. The grid is only square at square numbers and the rings are only tidy when full, but the spiral stays round at every count." controls muted playsinline data-src="/assets/fermat-add-one.mp4"></video>
+  <video class="post lazy" data-poster="/assets/fermat-add-one.jpg" data-no-lightbox aria-label="A Fermat spiral, a hex grid, a square grid and concentric rings grow one LED at a time, from 1 to 1024. The hex grid is only a hexagon at 7, 19, 37… LEDs, the square grid only square at square numbers and the rings only tidy when full, but the spiral stays round at every count." controls muted playsinline data-src="/assets/fermat-add-one.mp4"></video>
 </div>
 </div>
 
