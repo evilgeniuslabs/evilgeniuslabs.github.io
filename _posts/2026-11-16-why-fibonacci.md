@@ -3,7 +3,7 @@ layout: post
 title: Why Fibonacci?
 id: why-fibonacci
 imgurId: fermat-recipe.mp4
-excerpt: Interactive animations show why the Fibonacci layout beats a grid or rings, why the angle is 137.508°, and where the Fibonacci numbers come from.
+excerpt: Interactive animations show why a Fermat spiral beats a grid or rings, why the angle is 137.508°, and where the Fibonacci numbers come from.
 categories:
   - blog
   - portfolio
@@ -114,7 +114,7 @@ With equal area for every LED, the pixel density is the same all the way across 
 
 <div class="mb-3" data-fermat="add-one">
 <div class="ratio ratio-16x9">
-  <video class="post lazy" data-poster="/assets/fermat-add-one.jpg" data-no-lightbox aria-label="The Fibonacci layout, a square grid and concentric rings grow one LED at a time, from 1 to 1024. The grid is only square at square numbers and the rings are only tidy when full, but the spiral stays round at every count." controls muted playsinline data-src="/assets/fermat-add-one.mp4"></video>
+  <video class="post lazy" data-poster="/assets/fermat-add-one.jpg" data-no-lightbox aria-label="A Fermat spiral, a square grid and concentric rings grow one LED at a time, from 1 to 1024. The grid is only square at square numbers and the rings are only tidy when full, but the spiral stays round at every count." controls muted playsinline data-src="/assets/fermat-add-one.mp4"></video>
 </div>
 </div>
 
