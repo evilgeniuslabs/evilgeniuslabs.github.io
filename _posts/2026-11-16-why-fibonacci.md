@@ -30,7 +30,7 @@ I was inspired to create my first Fibonacci LED piece after seeing [this video](
 
 Fast forward to 2026. I've made dozens of Fibonacci designs. Recently, I saw [this brilliant post](https://www.instagram.com/p/DbYfgifReFx) by Nick Pisarro explaining the use of the golden angle in creating his beautiful [Halo Pixel](https://desert-ember.square.site/product/halo-pixel/2HSIGXSPGI5TLV2RCXBHFCMY). It got me thinking about how to explain the techniques I use.
 
-Every Fibonacci board I make, from the tiny [One Inch Fibonacci64](/one-inch-fibonacci64) to the [Fibonacci1024](/fibonacci1024), puts its LEDs on a Fermat spiral, the same pattern as the seeds in a sunflower. It's different from the ["Fibonacci spiral"](https://en.wikipedia.org/wiki/Fibonacci_sequence) drawn from squares, which is a single curve. The Fibonacci step shows where the name comes from.
+Every Fibonacci board I make, from the tiny [One Inch Fibonacci64](/one-inch-fibonacci64) to the [Fibonacci1024](/fibonacci1024), puts its LEDs on a Fermat spiral, the same pattern as the seeds in a sunflower. It's different from the ["Fibonacci spiral"](https://en.wikipedia.org/wiki/Fibonacci_sequence) drawn from squares, which is a single curve. The Fibonacci section shows where the name comes from.
 
 <div class="stepper" markdown="1">
 
@@ -50,7 +50,7 @@ Start at the center. Then repeat:
 2. Add an LED.
 3. Turn 137.508°.
 
-Every LED on every¹ Fibonacci board is placed by those rules. LED *n* sits *n* × 137.508° around from the first, and about √*n* out from the center. The next two steps explain those two numbers.
+Every LED on every¹ Fibonacci board is placed by those rules. LED *n* sits *n* × 137.508° around from the first, and about √*n* out from the center. The next two sections explain those two numbers.
 
 <small id="ref1">
 ¹ There are exceptions to the √*n* rule, of course, like [Fibonacci64 Flower](/fibonacci64-flower) and [Fibonacci256 Expanding](/fibonacci256-expanding-hdr-pixelblaze).
@@ -70,7 +70,7 @@ Every LED on every¹ Fibonacci board is placed by those rules. LED *n* sits *n* 
 
 Any simple fraction of a turn makes spokes. At 90° (a quarter turn), every 4th LED lands on the same line. 120° makes 3 spokes, and 135° (3/8 of a turn) makes 8.
 
-At 137° the LEDs still bunch into arms with gaps between them. 137.5° is exactly 55/144 of a turn, so the edge starts to crowd.
+At 137° the LEDs still bunch into arms with gaps between them. 137.5° is exactly 55/144 of a turn, so the edge starts to crowd. It takes about 400 LEDs for that to show, though. With 256, 137.5° scores the same as the golden angle.
 
 The golden angle, 360° ÷ φ² ≈ 137.508°, can't be written as a fraction at all, so the LEDs never line up. The animation measures how close the two nearest of 600 LEDs get, as a percentage of the spacing in a perfect honeycomb.
 
@@ -82,15 +82,19 @@ The golden angle, 360° ÷ φ² ≈ 137.508°, can't be written as a fraction at
 | 137.5° | 82% |
 | 137.508° (golden) | 87% |
 
+<br />
+
+The golden angle's digits never end, but a board only needs a few of them. 137.508° does as well as the exact golden angle up to about 7,800 LEDs, and 137.5078°, with four digits after the decimal point, is still just as good at 10,000.
+
 The golden angle isn't the only angle that scores well, though. Other "noble" angles, like 99.5°, come close. The golden angle is the one that's furthest from every fraction.
 
 Angles past 180° just mirror these: 222.492° (360° − 137.508°) makes the same spiral, flipped. That's why you'll sometimes see the golden angle given as about 222.5°.
 
 </section>
 
-<section class="step" id="spacing" data-label="√n spacing" markdown="1">
+<section class="step" id="spacing" data-label="√n radius" markdown="1">
 
-## √n spacing
+## The √n radius
 
 <div class="mb-3" data-fermat="spacing">
 <div class="ratio ratio-16x9">
@@ -98,11 +102,11 @@ Angles past 180° just mirror these: 222.492° (360° − 137.508°) makes the s
 </div>
 </div>
 
-With the angle set, the next question is how far each LED steps out from the center. Each cell in the animation is the part of the board that's closer to its LED than to any other.
+With the angle set, the next question is the radius: how far from the center each LED sits. Each cell in the animation is the part of the board that's closer to its LED than to any other.
 
 If every step out is the same size, the edge has far more room than the middle but gets no more LEDs, so the LEDs end up crowded together in the middle and far apart at the edge. The biggest cell is about 150 times the size of the smallest.
 
-A disc's area grows with the square of its radius, so the steps out have to shrink as you go. Stepping out by √*n* gives every LED the same share of the board, and neighboring LEDs end up evenly spaced. The biggest cell is then only 1.3 times the smallest. If the steps shrink faster than that, it flips, with the LEDs far apart in the middle and crowded at the edge.
+A disc's area grows with the square of its radius, so the steps out have to shrink as you go. Putting LED *n* at a distance of √*n* from the center gives every LED the same share of the board, and neighboring LEDs end up evenly spaced. The biggest cell is then only 1.3 times the smallest. If the steps shrink faster than that, it flips, with the LEDs far apart in the middle and crowded at the edge.
 
 With equal area for every LED, the pixel density is the same all the way across the board.
 
