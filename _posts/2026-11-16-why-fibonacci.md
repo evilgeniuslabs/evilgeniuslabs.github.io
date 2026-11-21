@@ -9,10 +9,11 @@ categories:
   - portfolio
 # Videos in /assets/ (each .mp4 with a .jpg poster), 16:9, from the fermat-explainer project:
 #   fermat-recipe, -spacing, -golden-angle, -add-one, -fibonacci   scenes 1-5 (README: Updating the site)
+#   fermat-between        the "between" scene (the full one, not the YouTube video's short cut)
 #   fermat-real-boards    scene 6 without the end card (edit/real-boards-16x9 in videokit)
 # The steps below are a stepper (js/site.js section 7): one step at a time, each playing its video once.
 # fermat-recipe is step 1's video, so the hero is hidden; imgurId still gives the post card and link previews.
-# The rule, spacing, golden-angle, add-one and fibonacci steps are interactive: js/fermat-embed.js (built by fermat-explainer, npm run
+# The rule, spacing, golden-angle, add-one, fibonacci and between steps are interactive: js/fermat-embed.js (built by fermat-explainer, npm run
 # build:embed) replaces each one's video (data-fermat="…"), which stays as the fallback. The script goes once, after
 # the last embed and before site.js: it mounts every embed above it.
 hideHero: true
@@ -156,13 +157,31 @@ The spiral is an even, round disc at every count, and adding an LED never moves 
   <video class="post lazy" data-poster="/assets/fermat-fibonacci.jpg" data-no-lightbox aria-label="Lines join every LED, then every 2nd, 3rd, 5th, 8th, 13th, 21st and 34th LED of a 256-LED spiral. The first two zigzag. From every 3rd on, they form 3, 5, 8, 13, 21 and 34 spiral arms, straighter each time. It ends on the Fibonacci numbers." controls muted playsinline data-src="/assets/fermat-fibonacci.mp4"></video>
 </div>
 </div>
-<script src="/js/fermat-embed.js"></script>
 
 Look closely at any of the boards and you'll see spiral arms. Connect every 3rd LED and you get 3 arms, because the golden angle is close to 1/3 of a turn. Every 5th LED makes 5 arms curving the other way, every 8th makes 8, and so on. Each of those fractions (2/5, 3/8, 5/13, 8/21…) is a little closer to the golden angle than the last, so each set of arms is a little straighter.
 
 Any other count, like 4 or 30, zigzags or wobbles across the board instead.
 
 The arm counts are 3, 5, 8, 13, 21 and 34. Put 1, 1 and 2 in front and each number is the sum of the two before it. They're the Fibonacci numbers, which is where the boards get their name. Count the spirals in a sunflower head and you'll find Fibonacci numbers there too.
+
+</section>
+
+<section class="step" id="between" data-label="Between" markdown="1">
+
+## Between Fibonacci numbers
+
+<div class="mb-3" data-fermat="between">
+<div class="ratio ratio-16x9">
+  <video class="post lazy" data-poster="/assets/fermat-between.jpg" data-no-lightbox aria-label="A wave of brightness runs through 256 LEDs in the order they were placed, repeating every 21, 34, 27.5, 23, 17, 13 and then 19 LEDs. At 21, 34 and 13, whole spiral arms light at once. In between, the light runs along the arms. A strip shows LEDs 0 to 69 in a row, lit by the same wave." controls muted playsinline data-src="/assets/fermat-between.mp4"></video>
+</div>
+</div>
+<script src="/js/fermat-embed.js"></script>
+
+The arms show up in animations too. Send a wave of brightness through the LEDs in the order they were placed, from the center out, and have it repeat every so many LEDs. The strip shows the first LEDs in a row, lit by the same wave, with a bracket over one repeat.
+
+When the wave repeats every 21 LEDs, LEDs 21 apart light up together. They're on the same arm, so each of the 21 arms lights up all at once. The same thing happens at 13 and 34, with their own arms.
+
+Between two Fibonacci numbers, the LEDs along an arm are at slightly different points in the wave. They light one after another, so the light seems to travel along the arms. Halfway between 21 and 34, at 27.5, it runs in along one set of arms and out along the other, and the LEDs themselves seem to move. Close to a Fibonacci number, the light races along each arm, and at exactly that number the whole arm lights at once.
 
 </section>
 
